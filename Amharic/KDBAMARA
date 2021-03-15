@@ -5,10 +5,10 @@
 # Related works: www.kalmasoft.com/KLEX/dcamhara.htm
 # Availability: https://github.com/Kalmasoft/Databases/blob/main/Amharic/KDBAMARA
 # Created: 1/3/2021 8:38 AM
-# Updated: 14/3/2021 12:30 PM
+# Updated: 15/3/2021 9:50 PM
 # Encoding: UTF8
 # Delimiter: TAB
-# Total entries: 1,200+ records
+# Total entries: 1,400+ records
 # Copyright ©1999-2021 Kalmasoft www.kalmasoft.com
 #================================================
 # Licensed under Creative Commons Attribution-ShareAlike 4.0 International license.
@@ -21,10 +21,12 @@
 #	Arabic: Arabic parallel word
 #	AMClass: Amharic grammatical class
 #	ARClass: Arabic grammatical class
+#		A: Adjective
 #		D: Adverb
 #		N: Noun
 #		P: Particle
 #		VP: Verb perfective
+#		VI: Verb imperfective
 #		Ncol (iso): Colloquial Arabic Noun (ISO639-3 language code)
 #		Vcol (iso): Colloquial Arabic Verb (ISO639-3 language code)
 #	AMDomain: Amharic entry usage domain
@@ -1063,7 +1065,7 @@ A01022	የብስ	/jabɨs/	/jaːbisa/	يَابِسة	N	N		principal landmass
 A01023	ይሁዳ	/jɨhuda/	/jihuːða/	يِهُوذا	N	N	RLGN	judea
 A01024	ይሁዲ	/jɨhudi/	/jahuːd/	يَهُود	N	N		jew
 A01025	ዩርዳኖስ	/jurɨdanos/	/ʔlʔurdun/	الأُرْدُن	N	N		jordan
-A01026	ዮድ	/jod/	/juːd/	يود	N	N		iodine
+A01026	ዮድ	/jod/	/juːd/	يُود	N	N		iodine
 A01027	ደም	/dɛm/	/dam/	دَم	N	N		blood
 A01028	ደራሲ	/dɛraːsi/	/darraːs/	دَرَّاس	N	N		novelist, biographer, writer
 A01029	ደራሲነት	/dɛraːsinɛt/	/diraːsa/	دِرَاسة	N	N		state of being a novelist, biographer
@@ -1115,7 +1117,7 @@ A01074	ጫማ	/tʃamaː/	/dʒazma/	جَزْمة	N	N		outer covering for the foot
 A01075	ኩፍ	/kufɨ/	/χuf/	خُف	N	N		shoe covering the ankle
 A01076	ጽልመት	/sʼɨlɨmɛt/	/ðˤulmaːt/	ظُلْمَات	N	N		complete darkness; very gloomy condition
 A01077	ጸሎት	/sʼɛlot/	/sˤalaːa/	صَلاة	N	N	RLGN	supplication; benediction
-A01078	ጽድቅ	/sʼɨdɨkʼ/	/sˤidq/	صِدْق	N	N	RLGN	obeying the law; doing what is morally right
+A01078	ጽድቅ	/sʼɨdɨkʼ/	/sˤidq/	صِدْق	N	N		obeying the law; doing what is morally right
 A01079	ጸሓፊ	/sʼɛhaːfi/	/sˤaħħaːf/	صَحَّاف	N	N		writer
 A01080	ጽሑፍ	/sʼɨhuf/	/sˤuħuf/	صُحُف	N	N		something written, anything in written form
 A01081	ጽሕፈት	/sʼɨhɨfɛt/	/sˤiħaːfa/	صِحَافة	N	N		writing
@@ -1151,3 +1153,316 @@ A01110	ፍሥሐ	/fɨśɨhɛ/	/fisħa/	فِسْحَ	N	N		pleasure, delight, ecst
 A01111	ፍራሽ	/fɨraːʃ/	/firaːʃ/	فِراش	N	N		thick flat pad to sleep on
 A01112	ፍትሕ	/fɨtɨh/	/fatħ/	فَتْح	N	N		impartiality, fairness, reasonableness
 A01113	ፖሊስ፡ጣቢያ	/polisɨ፡tˤabija/	/tˤaːbiːa buːliːs/	طابِية بُولِيس	N	N		office of a local police officer
+A01114	ሆመጠጠ	/homɛtˤɛtˤɛ/	/ħamudˤa/	حَمُضَ	VP	VP		be acid, sour
+A01115	ለሰለሰ	/lɛsɛlɛsɛ/	/laslasa/	لَسْلَسَ	VP	VP		be soft, smooth
+A01116	ለበለበ	/lɛbɛlɛbɛ/	/lablaba/	لَبْلَبَ	VP	VP		singe, scorch
+A01117	ለበሰ	/lɛbɛsɛ/	/labisa/	لَبِسَ	VP	VP		wear, dress
+A01118	ለተመ	/lɛtɛmɛ/	/latˤama/	لَطَمَ	VP	VP		butt, quarrel
+A01119	ለዘዘ	/lɛzɛzɛ/	/lazaza/	لَزَزَ	VP	VP		deliquesce
+A01120	ለፈለፈ	/lɛfɛlɛfɛ/	/laflafa/	لَفْلَفَ	VP	VP		chatter
+A01121	መለመለ	/mɛlɛmɛlɛ/	/malmala/	مَلْمَلَ	VP	VP		select, pluck
+A01122	መለሰ	/mɛlɛsɛ/	/malasˤa/	مَلَصَ	VP	VP		return
+A01123	መረረ	/mɛrɛrɛ/	/marara/	مَرَرَ	VP	VP		be bitter
+A01124	መሰለ	/mɛsɛlɛ/	/maθala/	مَثَلَ	VP	VP		seem
+A01125	መሰለ	/mɛsɛlɛ/	/maθala/	مَثَلَ	VP	VP		make a model
+A01126	መነነ	/mɛnɛnɛ/	/manana/	مَنَنَ	VP	VP		retire from world
+A01127	መከረ	/mɛkɛrɛ/	/makara/	مَكَرَ	VP	VP		advise
+A01128	መዘነ	/mɛzɛnɛ/	/wazana/	وَزَنَ	VP	VP		balance , weigh
+A01129	መደነ	/mɛdɛnɛ/	/madana/	مَدَنَ	VP	VP		civilize
+A01130	ሞላ	/molaː/	/malʔ/	مَلأ	VP	VP		fill
+A01131	ሞረደ	/morɛdɛ/	/barada/	بَرَدَ	VP	VP		file, rasp
+A01132	ሞተ	/motɛ/	/maːta/	مَاتَ	VP	VP		die
+A01133	ረመሰ	/rɛmɛsɛ/	/ramasa/	رَمَسَ	VP	VP		mix together
+A01134	ረሳ	/rɛsa/	/nasiːa/	نَسِيَ	VP	VP		forget
+A01135	ረቀቀ	/rɛkʼɛkʼɛ/	/raqaqa/	رَقَقَ	VP	VP		be fine, thin
+A01136	ረበረበ	/rɛbɛrɛbɛ/	/rabraba/	رَبْرَبَ	VP	VP		pile up
+A01137	ረበሸ	/rɛbɛʃɛ/	/rabaʃa/	رَبَشَ	VP	VP		disturb
+A01138	ረባ	/rɛba/	/raba/	رَبا	VP	VP		be useful
+A01139	ረከሰ	/rɛkɛsɛ/	/raχasˤa/	رَخَصَ	VP	VP		be cheap
+A01140	ረዘመ	/rɛzɛmɛ/	/razama/	رَزَمَ	VP	VP		be long, tall
+A01141	ረጠበ	/rɛtˤɛbɛ/	/ratˤaba/	رَطَبَ	VP	VP		be wet
+A01142	ረፈጠ	/rɛfɛtˤɛ/	/rafadˤa/	رَفَضَ	VP	VP		discharge from army
+A01143	ሰለለ	/sɛlɛlɛ/	/ʃalala/	شَلَلَ	VP	VP		be paralyzed
+A01144	ሰለለ	/sɛlɛlɛ/	/salala/	سَلَلَ	VP	VP		spy on
+A01145	ሰለመ	/sɛlɛmɛ/	/ʔaslama/	أسْلَمَ	VP	VP	RLGN	become a muslim
+A01146	ሰለበ	/sɛlɛbɛ/	/salaba/	سَلَبَ	VP	VP		castrate
+A01147	ሰረቀ	/sɛrɛkʼɛ/	/saraqa/	سَرَقَ	VP	VP		steal
+A01148	ሰከረ	/sɛkɛrɛ/	/sakara/	سَكَرَ	VP	VP		get drunk
+A01149	ሰካ	/sɛka/	/ʃaqqa/	شَقَّ	VP	VP		thread, pass through 
+A01150	ሰደደ	/sɛdɛdɛ/	/sadada/	سَدَدَ	VP	VP		send
+A01151	ሰገደ	/sɛgɛdɛ/	/sadʒada/	سَجَدَ	VP	VP	RLGN	bow in worship
+A01152	ሳለ	/salɛ/	/saʕala/	سَعَلَ	VP	VP		cough, paint, sharpen
+A01153	ሳቀ	/sakʼɛ/	/dˤaħika/	ضَحِكَ	VP	VP		laugh
+A01154	ሳተ	/satɛ/	/saːtˤa/	سَاطَ	VP	VP		miss, go astray
+A01155	ሸለለ	/ʃɛlɛlɛ/	/ʃalala/	شَلَلَ	VP	VP		chant war songs
+A01156	ቀለበ	/kʼɛlɛbɛ/	/kalaba/	كَلَبَ	VP	VP		catch in midair
+A01157	ቀለደ	/kʼɛlɛdɛ/	/qallada/	قَلَّدَ	VP	VP		joke
+A01158	ቀረበ	/kʼɛrɛbɛ/	/qaruba/	قَرُبَ	VP	VP		appraoch
+A01159	ቀሰሰ	/kʼɛsɛsɛ/	/qasasa/	قَسَسَ	VP	VP	RLGN	be a priest
+A01160	ቀሰፈ	/kʼɛsɛfɛ/	/qasˤafa/	قَصَفَ	VP	VP		kill suddenly
+A01161	ቀበረ	/kʼɛbɛrɛ/	/qabara/	قَبَرَ	VP	VP		bury
+A01162	ቀነሰ	/kʼɛnɛsɛ/	/kanasa/	كَنَسَ	VP	VP		reduce, subtract
+A01163	ቀየረ	/kʼɛjarɛ/	/ɣajiːara/	غَيَّرَ	VP	VP		change
+A01164	ቀየሰ	/kʼɛjasɛ/	/qajasa/	قَيَسَ	VP	VP		measure land
+A01165	ቀየደ	/kʼɛjadɛ/	/qajiːada/	قَيَّدَ	VP	VP		tie, hobble
+A01166	ቀደመ	/kʼɛdɛmɛ/	/qadama/	قَدَمَ	VP	VP		precede
+A01167	ቀደሰ	/kʼɛdɛsɛ/	/qaddasa/	قَدَّسَ	VP	VP		praise
+A01168	ቀደደ	/kʼɛdɛdɛ/	/qadada/	قَدَدَ	VP	VP		tear
+A01169	ቀጠፈ	/kʼɛtˤɛfɛ/	/qatˤafa/	قَطَفَ	VP	VP		pluck; lie
+A01170	ቀፈፈ	/kʼɛfɛfɛ/	/kafafa/	كَفَفَ	VP	VP		1. trim edge, 2. beg
+A01171	በረከተ	/bɛrɛkɛtɛ/	/baːraka/	بَارَكَ	VP	VP		increase, be abundant
+A01172	በረደ	/bɛrɛdɛ/	/barada/	بَرَدَ	VP	VP		be cold
+A01173	በዛ	/bɛza/	/baza/	بَزا	VP	VP		increase, be much
+A01174	በየነ	/bɛjanɛ/	/bajana/	بَيَنَ	VP	VP		decree
+A01175	በደነ	/bɛdɛnɛ/	/badana/	بَدَنَ	VP	VP		be paralyzed
+A01176	ባለገ	/balɛgɛ/	/baːlaɣa/	بَالَغَ	VP	VP		be rude
+A01177	ባረከ	/barɛkɛ/	/baraka/	بَرَكَ	VP	VP		kneel
+A01178	ባሰ	/basɛ/	/baʔsa/	بَأسَ	VP	VP		get worse
+A01179	ተመረኮዘ	/tɛmɛrɛkozɛ/	/tamarkaza/	تَمَرْكَزَ	VP	VP		lean, be biased
+A01180	ተመነ	/tɛmɛnɛ/	/tammana/	تَمَّنَ	VP	VP		put a price on
+A01181	ተመኘ	/tɛmɛɲɛ/	/tamannaː/	تَمَنَّى	VP	VP		wish
+A01182	ተረጎመ	/tɛrɛgomɛ/	/tardʒama/	تَرْجَمَ	VP	VP		interpret, translate
+A01183	ተረፈ	/tɛrɛfɛ/	/tˤarafa/	طَرَفَ	VP	VP		be extra
+A01184	ተቀበለ	/tɛkʼɛbɛlɛ/	/taqabbala/	تَقَبَّلَ	VP	VP		receive
+A01185	ተነበየ	/tɛnɛbɛja/	/tanabaaʔ/	تَنَبَّأ	VP	VP	RLGN	prophesy
+A01186	ተነፈሰ	/tɛnɛfɛsɛ/	/tanaffasa/	تَنَفَّسَ	VP	VP		breathe
+A01187	ተነፈጠ	/tɛnɛfɛtˤɛ/	/tanaffatˤa/	تَنَفَّطَ	VP	VP		blow (nose)
+A01188	ተከተለ	/tɛkɛtɛlɛ/	/takattala/	تَكَتَّلَ	VP	VP		follow
+A01189	ተኮራመተ	/tɛkoraːmɛtɛ/	/tawarrama/	تَوَرَّمَ	VP	VP		double over
+A01190	ቸረቸረ	/tʃɛrɛtʃɛrɛ/	/tadʒara/	تَجَرَ	VP	VP		retail
+A01191	ነቀሰ	/nɛkʼɛsɛ/	/naqaʃa/	نَقَشَ	VP	VP		comb; glean; tattoo
+A01192	ነቀዘ	/nɛkʼɛzɛ/	/nakaza/	نَكَزَ	VP	VP		be spoiled
+A01193	ነገደ	/nɛgɛdɛ/	/naqada/	نَقَدَ	VP	VP		trade
+A01194	ነጻ	/nɛsʼa/	/nasˤaʕa/	نَصَعَ	VP	VP		be white
+A01195	አለመ	/ʔɛlɛmɛ/	/ħalima/	حَلِمَ	VP	VP		dream
+A01196	አለበ	/ʔɛlɛbɛ/	/ħalaba/	حَلَبَ	VP	VP		milk
+A01197	አመለከ	/ʔɛmɛlɛkɛ/	/malaka/	مَلَكَ	VP	VP		worship
+A01198	አመሰኳ	/ʔɛmɛsɛk/	/ʔamsaka/	أَمْسَكَ	VP	VP		ruminate
+A01199	አመነ	/ʔɛmɛnɛ/	/ʔaːmana/	آمَنَ	VP	VP		believe
+A01200	አረደ	/ʔɛrɛdɛ/	/ʔardaː/	أَرْدَى	VP	VP		slaughter (animal)
+A01201	አራ	/ʔɛraː/	/χaraʔ/	خَرَأ	VP	VP		defecate
+A01202	አሰረ	/ʔɛsɛrɛ/	/ʔasara/	أَسَرَ	VP	VP		tie, imprison
+A01203	አቀደ	/ʔɛkʼɛdɛ/	/ʕaqada/	عَقَدَ	VP	VP		plan, design
+A01204	አወራ	/ʔɛwɛraː/	/ʔawraː/	أَوْرَى	VP	VP		talk, describe
+A01205	አወሳ	/ʔɛwɛsa/	/ʔawsˤaː/	أَوْصَى	VP	VP		talk, chat
+A01206	አወከ	/ʔɛwɛkɛ/	/ʕawuːaqa/	عَوَّقَ	VP	VP		upset, trouble
+A01207	አየ	/ʔɛja/	/ʕaːiːana/	عَايَنَ	VP	VP		see
+A01208	አደበ	/ʔɛdɛbɛ/	/ʔadaba/	أَدَبَ	VP	VP		behave well
+A01209	አጠፈ	/ʔɛtˤɛfɛ/	/ʕatˤafa/	عَطَفَ	VP	VP		fold
+A01210	አፈረ	/ʔɛfɛrɛ/	/χafara/	خَفَرَ	VP	VP		be shy
+A01211	ከበደ	/kɛbɛdɛ/	/kabada/	كَبَدَ	VP	VP		be heavy
+A01212	ከተበ	/kɛtɛbɛ/	/kataba/	كَتَبَ	VP	VP		vaccinate
+A01213	ከፈለ	/kɛfɛlɛ/	/kafala/	كَفَلَ	VP	VP		pay; divide
+A01214	ከፈነ	/kɛfɛnɛ/	/kafana/	كَفَنَ	VP	VP		wrap corpse
+A01215	ካበ	/kabɛ/	/kaʕaba/	كَعَبَ	VP	VP		build with stone
+A01216	ወለደ	/wɛlɛdɛ/	/walada/	وَلَدَ	VP	VP		bear
+A01217	ወረደ	/wɛrɛdɛ/	/warada/	وَرَدَ	VP	VP		go down
+A01218	ወከለ	/wɛkɛlɛ/	/wakala/	وَكَلَ	VP	VP		appoint a representative
+A01219	ወዘወዘ	/wɛzɛwɛzɛ/	/wazuːaza/	وَزْوَزَ	VP	VP		shake
+A01220	ወደመ	/wɛdɛmɛ/	/hadama/	هَدَمَ	VP	VP		be demolished
+A01221	ወደደ	/wɛdɛdɛ/	/wadada/	وَدَدَ	VP	VP		love
+A01222	ወጠረ	/wɛtˤɛrɛ/	/watara/	وَتَرَ	VP	VP		stretch
+A01223	ዋሸ	/waʃɛ/	/waʃaː/	وَشَى	VP	VP		tell lie
+A01224	ዘመረ	/zɛmɛrɛ/	/zamara/	زَمَرَ	VP	VP		chant
+A01225	ዘወረ	/zɛwɛrɛ/	/zawara/	زَوَرَ	VP	VP		turn round
+A01226	ዛለ	/zalɛ/	/zaːla/	زَالَ	VP	VP		be exhausted
+A01227	ደቃ	/dɛkʼa/	/daqaqa/	دَقَقَ	VP	VP		beat the breast
+A01228	ደፈነ	/dɛfɛnɛ/	/dafana/	دَفَنَ	VP	VP		close up
+A01229	ደፋ	/dɛfa/	/dafaqa/	دَفَقَ	VP	VP		spill, pour out
+A01230	ጀመለ	/dʒɛmɛlɛ/	/dʒamala/	جَمَلَ	VP	VP		add
+A01231	ጠፋ	/tˤɛfa/	/tˤafaː/	طَفَا	VP	VP		be lost, disappear
+A01232	ጣመ	/tˤamɛ/	/tˤaʕuma/	طَعُمَ	VP	VP		taste good
+A01233	ጫነ	/tʃanɛ/	/ʃaħana/	شَحَنَ	VP	VP		load, saddle
+A01234	ጸለየ	/sʼɛlɛja/	/sˤallaː/	صَلَّى	VP	VP	RLGN	pray
+A01235	ጸደቀ	/sʼɛdɛkʼɛ/	/sˤadaqa/	صَدَقَ	VP	VP		be just
+A01236	ጻፈ	/sʼafɛ/	/wasˤafa/	وَصَفَ	VP	VP		write
+A01237	ጾመ	/sʼomɛ/	/sˤaːma/	صَامَ	VP	VP	RLGN	fast
+A01238	ፈለሰፈ	/fɛlɛsɛfɛ/	/falsafa/	فَلْسَفَ	VP	VP		invent
+A01239	ፈረደ	/fɛrɛdɛ/	/faradˤa/	فَرَضَ	VP	VP		judge
+A01240	ፈረጠ	/fɛrɛtˤɛ/	/faratˤa/	فَرَطَ	VP	VP		burst
+A01241	ፈረፈረ	/fɛrɛfɛrɛ/	/farfara/	فَرْفَرَ	VP	VP		break into small pieces
+A01242	ፈሳ	/fɛsa/	/fasaː/	فَسَا	VP	VP		pass wind
+A01243	ፈተለ	/fɛtɛlɛ/	/fatala/	فَتَلَ	VP	VP		spin
+A01244	ፈተሸ	/fɛtɛʃɛ/	/fattaʃa/	فَتَّشَ	VP	VP		frisk, search
+A01245	ፈተነ	/fɛtɛnɛ/	/fatana/	فَتَنَ	VP	VP		try, test
+A01246	ፈተፈተ	/fɛtɛfɛtɛ/	/fatfata/	فَتْفَتَ	VP	VP		crumble
+A01247	ፈታ	/fɛta/	/fataħa/	فَتَحَ	VP	VP		untie, divorce
+A01248	ፈጠረ	/fɛtˤɛrɛ/	/fatˤara/	فَطَرَ	VP	VP		create
+A01249	ፈጸመ	/fɛsʼɛmɛ/	/fasˤama/	فَصَمَ	VP	VP		complete accomplish
+A01250	ሰማ	/sɛmaː/	/samiʕa/	سَمِعَ	VP	VP		hear
+A01251	ሰረሰረ	/sɛrɛsɛrɛ/	/sarsara/	سَرْسَرَ	VP	VP		bore through
+A01252	ሸረሸረ	/ʃɛrɛʃɛrɛ/	/ʃarʃara/	شَرْشَرَ	VP	VP		erode
+A01253	ቆመ	/kʼomɛ/	/qaːma/	قَامَ	VP	VP		stand
+A01254	ተዋበ	/tɛwabɛ/	/tˤaːba/	طَابَ	VP	VP		be beautiful
+A01255	ተጫረተ	/tɛtʃarɛtɛ/	/taʃaːratˤa/	تَشَارَطَ	VP	VP		bid
+A01256	አሳበበ	/ʔɛsabɛbɛ/	/ʔasbaba/	أَسْبَبَ	VP	VP		excuse
+A01257	አነጠሰ	/ʔɛnɛtˤɛsɛ/	/ʕatˤasa/	عَطَسَ	VP	VP		sneeze
+A01258	ከሰረ	/kɛsɛrɛ/	/χasira/	خَسِرَ	VP	VP		go bankrupt
+A01259	ከበረ	/kɛbɛrɛ/	/kabura/	كَبُرَ	VP	VP		be honored
+A01260	ከፈፈ	/kɛfɛfɛ/	/kafafa/	كَفَفَ	VP	VP		edge, trim
+A01261	ወረሰ	/wɛrɛsɛ/	/waraθa/	وَرَثَ	VP	VP		inherit
+A01262	ዘከረ	/zɛkɛrɛ/	/zakara/	زَكَرَ	VP	VP		commemorate
+A01263	ዞረ	/zorɛ/	/zawara/	زَوَرَ	VP	VP		turn, revolve
+A01264	ደለለ	/dɛlɛlɛ/	/dalala/	دَلَلَ	VP	VP		cajole, entice
+A01265	ደመነ	/dɛmɛnɛ/	/damana/	دَمَنَ	VP	VP		be cloudy
+A01266	ደወለ	/dɛwɛlɛ/	/dawala/	دَوَلَ	VP	VP		ring
+A01267	ዳሰሰ	/dasɛsɛ/	/daːsa/	دَاسَ	VP	VP		to touch lightly, caress
+A01268	ዳኘ	/daɲɛ/	/daːna/	دَانَ	VP	VP		arbitrate, judge
+A01269	ገደለ	/gɛdɛlɛ/	/qatala/	قَتَلَ	VP	VP		kill
+A01270	ጠበበ	/tˤɛbɛbɛ/	/tˤababa/	طَبَبَ	VP	VP		be wise; be narrow
+A01271	ይሆምጥጥ	/jɨhomɨtˤɨtˤ/	/jaħmudˤ/	يَحْمُض	VI	VI		be acid, sour
+A01272	ይለስልስ	/jɨlɛsɨlɨs/	/jalaslis/	يَلَسْلِس	VI	VI		be soft, smooth
+A01273	ይለብልብ	/jɨlɛbɨlɨb/	/jalablib/	يَلَبْلِب	VI	VI		singe, scorch
+A01274	ይልበስ	/jɨlɨbɛs/	/jalbis/	يَلْبِس	VI	VI		wear, dress
+A01275	ይለትም	/jɨlɛtɨm/	/jaltˤim/	يَلْطِم	VI	VI		butt, quarrel
+A01276	ይልዘዝ	/jɨlɨzɛz/	/jalziz/	يَلْزِز	VI	VI		deliquesce
+A01277	ይለፍልፍ	/jɨlɛfɨlɨf/	/jalaflif/	يَلَفْلِف	VI	VI		chatter
+A01278	ይመልምል	/jɨmɛlɨmɨl/	/jamalmil/	يَمَلْمِل	VI	VI		select, pluck
+A01279	ይመልስ	/jɨmɛlɨs/	/jamlisˤ/	يَمْلِص	VI	VI		return
+A01280	ይምረር	/jɨmɨrɛr/	/jamrir/	يَمْرِر	VI	VI		be bitter
+A01281	ይምሰል	/jɨmɨsɛl/	/jamθil/	يَمْثِل	VI	VI		seem
+A01282	ይምሰል	/jɨmɨsɛl/	/jamθil/	يَمْثِل	VI	VI		make a model
+A01283	ይመንን	/jɨmɛnɨn/	/jamnin/	يَمْنِن	VI	VI		retire from world
+A01284	ይምከር	/jɨmɨkɛr/	/jamkir/	يَمْكِر	VI	VI		advise
+A01285	ይመዝን	/jɨmɛzɨn/	/jawzin/	يَوْزِن	VI	VI		balance , weigh
+A01286	ይመድን	/jɨmɛdɨn/	/jamdin/	يَمْدِن	VI	VI		civilize
+A01287	ይሙላ	/jɨmulaː/	/jamlʔ/	يَمْلأ	VI	VI		fill
+A01288	ይሞርድ	/jɨmorɨd/	/jabrid/	يَبْرِد	VI	VI		file, rasp
+A01289	ይሙት	/jɨmut/	/jamuːt/	يَمُوت	VI	VI		die
+A01290	ይተራመስ	/jɨtɛraːmɛs/	/jarmis/	يَرْمِس	VI	VI		mix together
+A01291	ይርሳ	/jɨrɨsa/	/jansaː/	يَنْسَى	VI	VI		forget
+A01292	ይርቀቅ	/jɨrɨkʼɛkʼ/	/jarqiq/	يَرْقِق	VI	VI		be fine, thin
+A01293	ይረብርብ	/jɨrɛbɨrɨb/	/jarabrib/	يَرَبْرِب	VI	VI		pile up
+A01294	ይረብሽ	/jɨrɛbɨʃ/	/jarbiʃ/	يَرْبِش	VI	VI		disturb
+A01295	ይርባ	/jɨrɨba/	/jarba/	يَرْبا	VI	VI		be useful
+A01296	ይርከስ	/jɨrɨkɛs/	/jarχisˤ/	يَرْخِص	VI	VI		be cheap
+A01297	ይርዘም	/jɨrɨzɛm/	/jarzim/	يَرْزِم	VI	VI		be long, tall
+A01298	ይርጠብ	/jɨrɨtˤɛb/	/jartˤib/	يَرْطِب	VI	VI		be wet
+A01299	ይሰልል	/jɨsɛlɨl/	/jaʃlil/	يَشْلِل	VI	VI		be paralyzed
+A01300	ይሰልል	/jɨsɛlɨl/	/jaslil/	يَسْلِل	VI	VI		spy on
+A01301	ይስለም	/jɨsɨlɛm/	/jaslam/	يَسْلَم	VI	VI		become a muslim
+A01302	ይስለብ	/jɨsɨlɛb/	/jaslib/	يَسْلِب	VI	VI		castrate
+A01303	ይሰረቅ	/jɨsɛrɛkʼ/	/jasriq/	يَسْرِق	VI	VI		steal
+A01304	ይስከር	/jɨsɨkɛr/	/jaskir/	يَسْكِر	VI	VI		get drunk
+A01305	ይሰካ	/jɨsɛka/	/jaʃqq/	يَشْقّ	VI	VI		thread, pass through 
+A01306	ይስደድ	/jɨsɨdɛd/	/jasdid/	يَسْدِد	VI	VI		send
+A01307	ይስገድ	/jɨsɨgɛd/	/jasdʒid/	يَسْجِد	VI	VI	RLGN	bow in worship
+A01308	ይሳል	/jɨsal/	/jasʕil/	يَسْعِل	VI	VI		cough, paint, sharpen
+A01309	ይሳቅ	/jɨsakʼ/	/jadˤħak/	يَضْحَك	VI	VI		laugh
+A01310	ይሳት	/jɨsat/	/jasuːtˤ/	يَسُوط	VI	VI		miss, go astray
+A01311	ይሸልል	/jɨʃɛlɨl/	/jaʃlil/	يَشْلِل	VI	VI		chant war songs
+A01312	ይቅለብ	/jɨkʼɨlɛb/	/jaklib/	يَكْلِب	VI	VI		catch in midair
+A01313	ይቀልድ	/jɨkʼɛlɨd/	/jaqllid/	يَقْلِّد	VI	VI		joke
+A01314	ይቅረብ	/jɨkʼɨrɛb/	/jaqrub/	يَقْرُب	VI	VI		appraoch
+A01315	ይቀስስ	/jɨkʼɛsɨs/	/jaqsis/	يَقْسِس	VI	VI		be a priest
+A01316	ይቅሰፍ	/jɨkʼɨsɛf/	/jaqsˤif/	يَقْصِف	VI	VI		kill suddenly
+A01317	ይቅበር	/jɨkʼɨbɛr/	/jaqbir/	يَقْبِر	VI	VI		bury
+A01318	ይቀንስ	/jɨkʼɛnɨs/	/jaknis/	يَكْنِس	VI	VI		reduce, subtract
+A01319	ይቀይር	/jɨkʼɛjɨr/	/jaɣiːjir/	يَغْيِّر	VI	VI		change
+A01320	ይቀይስ	/jɨkʼɛjɨs/	/jaqjis/	يَقْيِس	VI	VI		measure land
+A01321	ይቀይድ	/jɨkʼɛjɨd/	/jaqiːjid/	يَقْيِّد	VI	VI		tie, hobble
+A01322	ይቅደም	/jɨkʼɨdɛm/	/jaqdim/	يَقْدِم	VI	VI		precede
+A01323	ይቀድስ	/jɨkʼɛdɨs/	/jaqddis/	يَقْدِّس	VI	VI		praise
+A01324	ይቅደድ	/jɨkʼɨdɛd/	/jaqdid/	يَقْدِد	VI	VI		tear
+A01325	ይቅጠፍ	/jɨkʼɨtˤɛf/	/jaqtˤif/	يَقْطِف	VI	VI		pluck; lie
+A01326	ይቅፈፍ	/jɨkʼɨfɛf/	/jakfif/	يَكْفِف	VI	VI		1. trim edge, 2. beg
+A01327	ይበርክት	/jɨbɛrɨkɨt/	/jabaːrik/	يَبْارِك	VI	VI		increase, be abundant
+A01328	ይብረድ	/jɨbɨrɛd/	/jabrid/	يَبْرِد	VI	VI		be cold
+A01329	ይብዛ	/jɨbɨza/	/jabza/	يَبْزا	VI	VI		increase, be much
+A01330	ይበይን	/jɨbɛjɨn/	/jabjin/	يَبْيِن	VI	VI		decree
+A01331	ይበድን	/jɨbɛdɨn/	/jabdin/	يَبْدِن	VI	VI		be paralyzed
+A01332	ይባልግ	/jɨbalɨg/	/jabaːliɣ/	يَبْالِغ	VI	VI		be rude
+A01333	ይባርክ	/jɨbarɨk/	/jabrik/	يَبْرِك	VI	VI		kneel
+A01334	ይባስ	/jɨbas/	/jabʔs/	يَبْأس	VI	VI		get worse
+A01335	ይመርኮዝ	/jɨmɛrɨkoz/	/jatamarkaz/	يَتَمَرْكَز	VI	VI		lean, be biased
+A01336	ይተምን	/jɨtɛmɨn/	/jatmmin/	يَتْمِّن	VI	VI		put a price on
+A01337	ይመኝ	/jɨmɛɲ/	/jatmannaː/	يَتْمَنَّى	VI	VI		wish
+A01338	ይተርጉም	/jɨtɛrɨgum/	/jatardʒim/	يَتَرْجِم	VI	VI		interpret, translate
+A01339	ይትረፍ	/jɨtɨrɛf/	/jatˤrif/	يَطْرِف	VI	VI		be extra
+A01340	ያቀብል	/jakʼɛbɨl/	/jataqabbal/	يَتَقَبَّل	VI	VI		receive
+A01341	ይተንብይ	/jɨtɛnɨbɨj/	/jatanabaaʔ/	يَتَنَبَّأ	VI	VI	RLGN	prophesy
+A01342	ይተንፍስ	/jɨtɛnɨfɨs/	/jatanaffas/	يَتَنَفَّس	VI	VI		breathe
+A01343	ይናፈጥ	/jɨnafɛtˤ/	/jatanaffatˤ/	يَتَنَفَّط	VI	VI		blow (nose)
+A01344	ይከተል	/jɨkɛtɛl/	/jatakattal/	يَتَكَتَّل	VI	VI		follow
+A01345	ይኮራመት	/jɨkoraːmɛt/	/jatawarram/	يَتَوَرَّم	VI	VI		double over
+A01346	ይቸርችር	/jɨtʃɛrɨtʃɨr/	/jatdʒir/	يَتْجِر	VI	VI		retail
+A01347	ይንቀስ	/jɨnɨkʼɛs/	/janqiʃ/	يَنْقِش	VI	VI		comb; glean; tattoo
+A01348	ይንቀዝ	/jɨnɨkʼɛz/	/jankiz/	يَنْكِز	VI	VI		be spoiled
+A01349	ይነግድ	/jɨnɛgɨd/	/janqid/	يَنْقِد	VI	VI		trade
+A01350	ይንጻ	/jɨnɨsʼa/	/jansˤiʕ/	يَنْصِع	VI	VI		be white
+A01351	ይታለም	/jɨtalɛm/	/jaħlam/	يَحْلَم	VI	VI		dream
+A01352	ይለብ	/jɨlɛb/	/jaħlib/	يَحْلِب	VI	VI		milk
+A01353	ይመለክ	/jɨmɛlɛk/	/jamlik/	يَمْلِك	VI	VI		worship
+A01354	ያመስኳ	/jamɛsɨk/	/jamsik/	يَمْسِك	VI	VI		ruminate
+A01355	ይመን	/jɨmɛn/	/juʔumin/	يُؤمِن	VI	VI		believe
+A01356	ይረድ	/jɨrɛd/	/jardiː/	يَرْدِي	VI	VI		slaughter (animal)
+A01357	ይራ	/jɨraː/	/jaχraʔ/	يَخْرَأ	VI	VI		defecate
+A01358	ይሰር	/jɨsɛr/	/jaʔsir/	يَأْسِر	VI	VI		tie, imprison
+A01359	ይታቀድ	/jɨtakʼɛd/	/jaʕqid/	يَعْقِد	VI	VI		plan, design
+A01360	ያውራ	/jawɨraː/	/jawriː/	يَوْرِي	VI	VI		talk, describe
+A01361	ያውሳ	/jawɨsa/	/jawsˤiaː/	يَوْصِى	VI	VI		talk, chat
+A01362	ያውክ	/jawɨk/	/jaʕuːwiq/	يَعْوِّق	VI	VI		upset, trouble
+A01363	ይይ	/jɨj/	/jaʕaːjin/	يَعْايِن	VI	VI		see
+A01364	ያድብ	/jadɨb/	/jaʔdib/	يَأْدِب	VI	VI		behave well
+A01365	ይጠፍ	/jɨtˤɛf/	/jaʕtˤif/	يَعْطِف	VI	VI		fold
+A01366	ይፈር	/jɨfɛr/	/jaχfir/	يَخْفِر	VI	VI		be shy
+A01367	ይክበድ	/jɨkɨbɛd/	/jakbid/	يَكْبِد	VI	VI		be heavy
+A01368	ይከትብ	/jɨkɛtɨb/	/jaktib/	يَكْتِب	VI	VI		vaccinate
+A01369	ይክፈል	/jɨkɨfɛl/	/jakfil/	يَكْفِل	VI	VI		pay; divide
+A01370	ይከፍን	/jɨkɛfɨn/	/jakfin/	يَكْفِن	VI	VI		wrap corpse
+A01371	ይካብ	/jɨkab/	/jakʕib/	يَكْعِب	VI	VI		build with stone
+A01372	ይውለድ	/jɨwɨlɛd/	/jawlid/	يَوْلِد	VI	VI		bear
+A01373	ይውረድ	/jɨwɨrɛd/	/jawrid/	يَوْرِد	VI	VI		go down
+A01374	ይወክል	/jɨwɛkɨl/	/jawkil/	يَوْكِل	VI	VI		appoint a representative
+A01375	ይወዝውዝ	/jɨwɛzɨwɨz/	/jawazuːiz/	يَوَزْوِز	VI	VI		shake
+A01376	ይውደም	/jɨwɨdɛm/	/jahdim/	يَهْدِم	VI	VI		be demolished
+A01377	ይውደድ	/jɨwɨdɛd/	/jawdid/	يَوْدِد	VI	VI		love
+A01378	ይወጥር	/jɨwɛtˤɨr/	/jawtir/	يَوْتِر	VI	VI		stretch
+A01379	ይዋሽ	/jɨwaʃ/	/jawʃiː/	يَوْشِي	VI	VI		tell lie
+A01380	ይዝለፍ	/jɨzɨlɛf/	/jazmir/	يَزْمِر	VI	VI		chant
+A01381	ይዘክር	/jɨzɛkɨr/	/jazuːir/	يَزْوِر	VI	VI		turn round
+A01382	ይዝፈን	/jɨzɨfɛn/	/jaziːl/	يَزِيل	VI	VI		be exhausted
+A01383	ይድቃ	/jɨdɨkʼa/	/jadqiq/	يَدْقِق	VI	VI		beat the breast
+A01384	ይድፈን	/jɨdɨfɛn/	/jadfin/	يَدْفِن	VI	VI		close up
+A01385	ይድፋ	/jɨdɨfa/	/jadfiq/	يَدْفِق	VI	VI		spill, pour out
+A01386	ይጀምል	/jɨdʒɛmɨl/	/jadʒmil/	يَجْمِل	VI	VI		add
+A01387	ይጥፋ	/jɨtˤɨfa/	/jatˤfiːʔ/	يَطْفِيء	VI	VI		be lost, disappear
+A01388	ይጣም	/jɨtˤam/	/jatˤʕum/	يَطْعُم	VI	VI		taste good
+A01389	ይጫን	/jɨtʃan/	/jaʃħin/	يَشْحِن	VI	VI		load, saddle
+A01390	ይጸልይ	/jɨsʼɛlɨj/	/jasˤalliː/	يَصَلِّي	VI	VI	RLGN	pray
+A01391	ይጽደቅ	/jɨsʼɨdɛkʼ/	/jasˤdiq/	يَصْدِق	VI	VI		be just
+A01392	ይጻፍ	/jɨsʼaf/	/jawsˤif/	يَوْصِف	VI	VI		write
+A01393	ይጹም	/jɨsʼum/	/jasˤuːm/	يَصُوم	VI	VI	RLGN	fast
+A01394	ይፈልስፍ	/jɨfɛlɨsɨf/	/jafalsif/	يَفَلْسِف	VI	VI		invent
+A01395	ይፍረድ	/jɨfɨrɛd/	/jafridˤ/	يَفْرِض	VI	VI		judge
+A01396	ይፍረጥ	/jɨfɨrɛtˤ/	/jafritˤ/	يَفْرِط	VI	VI		burst
+A01397	ይፈርፍር	/jɨfɛrɨfɨr/	/jafarfir/	يَفَرْفِر	VI	VI		break into small pieces
+A01398	ይፍሳ	/jɨfɨsa/	/jafsiː/	يَفْسِي	VI	VI		pass wind
+A01399	ይፍተል	/jɨfɨtɛl/	/jaftil/	يَفْتِل	VI	VI		spin
+A01400	ይፈትሽ	/jɨfɛtɨʃ/	/jafttiʃ/	يَفْتِّش	VI	VI		frisk, search
+A01401	ይፈትን	/jɨfɛtɨn/	/jaftin/	يَفْتِن	VI	VI		try, test
+A01402	ይፈትፍት	/jɨfɛtɨfɨt/	/jafatfit/	يَفَتْفِت	VI	VI		crumble
+A01403	ይፍታ	/jɨfɨta/	/jaftaħ/	يَفْتَح	VI	VI		untie, divorce
+A01404	ይፍጠር	/jɨfɨtˤɛr/	/jaftˤir/	يَفْطِر	VI	VI		create
+A01405	ይፈጽም	/jɨfɛsʼɨm/	/jafsˤim/	يَفْصِم	VI	VI		complete accomplish
+A01406	ይስማ	/jɨsɨmaː/	/jasmiʕ/	يَسْمِع	VI	VI		hear
+A01407	ይሰርስር	/jɨsɛrɨsɨr/	/jasarsir/	يَسَرْسِر	VI	VI		bore through
+A01408	ይሸርሽር	/jɨʃɛrɨʃɨr/	/jaʃarʃir/	يَشَرْشِر	VI	VI		erode
+A01409	ይቁም	/jɨkʼum/	/jaquːm/	يَقُوم	VI	VI		stand
+A01410	ይዋብ	/jɨwab/	/jatˤiːb/	يَطِيب	VI	VI		be beautiful
+A01411	ይጫረት	/jɨtʃarɛt/	/jatʃaːratˤ/	يَتْشَارَط	VI	VI		bid
+A01412	ይሳበብ	/jɨsabɛb/	/jasbib/	يَسْبِب	VI	VI		excuse
+A01413	ያነጥስ	/janɛtˤɨs/	/jaʕtˤis/	يَعْطِس	VI	VI		sneeze
+A01414	ይክሰር	/jɨkɨsɛr/	/jaχsir/	يَخْسِر	VI	VI		go bankrupt
+A01415	ይክበር	/jɨkɨbɛr/	/jakbur/	يَكْبُر	VI	VI		be honored
+A01416	ይክፈፍ	/jɨkɨfɛf/	/jakfif/	يَكْفِف	VI	VI		edge, trim
+A01417	ይውረስ	/jɨwɨrɛs/	/jawriθ/	يَوْرِث	VI	VI		inherit
+A01418	ይዘርዝር	/jɨzɛrɨzɨr/	/jazkir/	يَزْكِر	VI	VI		commemorate
+A01419	ይዙር	/jɨzur/	/jazuːir/	يَزْوِر	VI	VI		turn, revolve
+A01420	ይደልል	/jɨdɛlɨl/	/jadlil/	يَدْلِل	VI	VI		cajole, entice
+A01421	ይደምን	/jɨdɛmɨn/	/jadmin/	يَدْمِن	VI	VI		be cloudy
+A01422	ይደውል	/jɨdɛwɨl/	/jaduːil/	يَدْوِل	VI	VI		ring
+A01423	ይዳስስ	/jɨdasɨs/	/jaduːs/	يَدُوس	VI	VI		to touch lightly, caress
+A01424	ይዳኝ	/jɨdaɲ/	/jadiːn/	يَدِين	VI	VI		arbitrate, judge
+A01425	ይግደል	/jɨgɨdɛl/	/jaqtil/	يَقْتِل	VI	VI		kill
+A01426	ይጠብብ	/jɨtˤɛbɨb/	/jatˤbib/	يَطْبِب	VI	VI		be wise; be narrow
