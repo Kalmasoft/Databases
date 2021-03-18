@@ -136,7 +136,7 @@ A00087	ልብ	/lɨb/	/lubb/	لُبّ	N	N	ANAT		heart, compassion, guts, intellec
 A00088	ልብሰ	/lɨbɨsɛ/	/libs/	لِبْس	N	N	DMST		garments
 A00089	ልብሶ	/lɨbɨso/	/libs/	لِبْس	N	N	DMST		clothes
 A00090	ልብዳት	/lɨbɨdat/	/libda/	لِبْدة	N	N			fur coating (of a book, bag, etc)
-A00091	ልጥፋት	/lɨtˤɨfat/	/latˤaːʔiif/	لَطائِف	N	N	DMST		cushion, as in for instance, bandage for injury, surgical dressing, fomentation
+A00091	ልጥፋት	/lɨtˤɨfat/	/latˤaːʔif/	لَطائِف	N	N	DMST		cushion, as in for instance, bandage for injury, surgical dressing, fomentation
 A00092	ሎሚ	/lomi/	/lajmuːn/	لَيْمُون	N	N	PLNT		lemon
 A00093	ሎጣዊ	/lotˤawi/	/luːtˤiː/	لُوطِي	N	N			homosexual (male), sodomite, pansy
 A00094	መሀል	/mɛhɛl/	/maħal/	مَحَل	N	N			middle, core, nucleus
@@ -249,7 +249,7 @@ A00200	ማንፈሻ	/maːnɨfɛʃa/	/manfaʃ/	مَنْفَش	N	N			device used f
 A00201	ማዕቀብ	/maːʕɨkʼɛb/	/muʕaːqaba/	مُعَاقَبة	N	N			ban, forbid
 A00202	ማእከል	/maːʔɨkɛl/	/maʕqal/	مَعْقَل	N	N			center
 A00203	ማዕከል	/maːʕɨkɛl/	/maʕqal/	مَعْقَل	N	N			midpoint, center
-A00204	ማዕድ	/maːʕɨd/	/maːʔiida/	مَائِدَة	N	N			spread (meal)
+A00204	ማዕድ	/maːʕɨd/	/maːʔida/	مَائِدَة	N	N			spread (meal)
 A00205	ማዕድ፡ቤት	/maːʕɨdɨ፡bet/	/maːʕd?biːt/	ماعْدْ፡بيت	N	N	DMST		kitchen
 A00206	ማዕድን	/maːʕɨdɨn/	/maʕdin/	مَعْدِن	N	N	DMST		mineral deposits, excavation, quarry, raw materials
 A00207	ማካፈል	/maːkafɛl/	/makfal/	مَكْفَل	N	N			division (math), sharing
@@ -286,7 +286,6 @@ A00237	ሞት	/mot/	/mawt/	مَوْت	N	N			passing away, demise
 A00238	ሞገስ	/mogɛs/	/maɣasˤ/	مَغَص	N	N			
 A00239	ሰሀ	/sɛhɛ/	/sahu/	سَهْو	N	N			mistake, blunder
 A00240	ሰለለ	/sɛlɛlɛ/	/salala/	سَلَلَ	VP	VP			spy on
-A00241	ሰለለ	/sɛlɛlɛ/	/salala/	سَلَلَ	VP	VP			spy on
 A00242	ሰለለ	/sɛlɛlɛ/	/ʃalala/	شَلَلَ	VP	VP			be paralyzed
 A00243	ሰለመ	/sɛlɛmɛ/	/ʔaslama/	أسْلَمَ	VP	VP	RLGN		become a muslim
 A00244	ሠለስት	/śɛlɛsɨt/	/θaːliθ/	ثَالِث	N	N	NUMB		third day after funeral
@@ -391,10 +390,10 @@ A00342	ራስ	/raːs/	/raʔs/	رَأْس	N	N	ANAT		head
 A00343	ራብዕ	/raːbɨʕ/	/raːbiʕ/	رَابِع	N	N	NUMB		fourth form in the Amharic vowel system
 A00344	ራዕይ	/raːʕɨj/	/raʔi/	رَأي	N	N			mental picture, idea, revelation (as in the Bible)
 A00345	ርሳስ	/rɨsas/	/rasˤaːsˤ/	رَصَاص	N	N			
-A00346	ርባታ	/rɨbata/	/ribaːiːja/	رِبَايَة	N	N			raising livestock, conjugation (grammatical)
+A00346	ርባታ	/rɨbata/	/ribaːja/	رِبَايَة	N	N			raising livestock, conjugation (grammatical)
 A00347	ርቱዕ	/rɨtuʕ/	/rituʕ/	رِتُع	N	N			(when used with አንደበተ-), eloquent, articulate, expressive
 A00348	ርችት	/rɨtʃɨt/	/radʒdʒa/	رَجَّة	N	N			firecracker
-A00349	ርእስ	/rɨʔɨs/	/raʔiiːs/	رَئِيس	N	N			topic, heading (headline)
+A00349	ርእስ	/rɨʔɨs/	/raʔiːs/	رَئِيس	N	N			topic, heading (headline)
 A00350	ርእዮተ	/rɨʔɨjotɛ/	/raʔi/	رَأْي	N	N			philosophy, belief, ideology
 A00351	ርካብ	/rɨkab/	/rikaːb/	رِكَاب	N	N	DMST		footrest, supporter
 A00352	ርዝራዥ	/rɨzɨraːʒ/	/rizraːz/	رِزْراز	N	N			scraps, remnants
@@ -773,7 +772,7 @@ A00724	አዘዘ	/ʔɛzɛzɛ/	/ʔawʕaza/	أوْعَزَ	VP	VP			order
 A00725	አዝሙድ	/ʔɛzɨmud/	/iθmud/	إثْمُد	N	N	PLNT		a plant called cumin, with seeds that are used as a spice in foods
 A00726	አዝራር	/ʔɛzɨraːr/	/ʔazraːr/	أزْرَار	N	N	DMST		button (of clothes)
 A00727	አዟሪ	/ʔɛzoari/	/ʔazuːar/	أزْوَر	N	N			person who travels around selling small things
-A00728	አየ	/ʔɛja/	/ʕaːiːjana/	عَايَنَ	VP	VP			see
+A00728	አየ	/ʔɛja/	/ʕaːjana/	عَايَنَ	VP	VP			see
 A00729	አይሁድ	/ʔɛjɨhud/	/jahuːd/	يَهُود	N	N			jew
 A00730	ዐይነ	/ʕɛjɨnɛ/	/ʕajn/	عَيْن	N	N	ANAT		eye
 A00731	አደለ	/ʔɛdɛlɛ/	/ʕadal/	عَدَل	VP	VP			distribute
@@ -799,13 +798,13 @@ A00750	እልቂት	/ʔɨlɨkʼit/	/ilɣaːʔ/	إلْغاء	N	N			abolition
 A00751	እመን	/ʔɨmɛn/	/ʔamn/	أمْن	N	N			trust
 A00752	እምስ	/ʔɨmɨs/	/ʔams/	أمْس	N	N			vagina, vulva
 A00753	ዕምቅ	/ʕɨmɨkʼ/	/ʕimk/	عِمْك	N	N			crowded, stuffed, packed full
-A00754	እምነት	/ʔɨmɨnɛt/	/iiːmaːn/	إيمَان	N	N	RLGN		belief
+A00754	እምነት	/ʔɨmɨnɛt/	/iːmaːn/	إيمَان	N	N	RLGN		belief
 A00755	እምነት	/ʔɨmɨnɛt/	/ʔamaːna/	أمَانة	N	N			conviction, trust, confidence
 A00756	እስላም	/ʔɨsɨlaːm/	/islaːm/	إسْلام	N	N	RLGN		islam
 A00757	እስረኛ	/ʔɨsɨrɛɲa/	/ʔasiːr/	أسِير	N	N			
 A00758	እሥራት	/ʔɨśɨraːt/	/ʔasr/	أسْر	N	N			incarceration, custody, confinement, detention
-A00759	እስራኤላዊ	/ʔɨsɨraːʔelaːwi/	/ʔasraːʔiiːli/	أسْرائِيلي	N	N			israelite
-A00760	እስራኤል	/ʔɨsɨraːʔel/	/israːʔiiːl/	إسْرائِيل	N	N			israel
+A00759	እስራኤላዊ	/ʔɨsɨraːʔelaːwi/	/ʔasraːʔiːli/	أسْرائِيلي	N	N			israelite
+A00760	እስራኤል	/ʔɨsɨraːʔel/	/israːʔiːl/	إسْرائِيل	N	N			israel
 A00761	እሥር	/ʔɨśɨr/	/ʔasr/	أسْر	N	N			detention, incarceration, bunch, pack
 A00762	እርሳስ	/ʔɨrɨsas/	/rasˤaːsˤ/	رَصَاص	N	N	DMST		
 A00763	እርቅ	/ʔɨrɨkʼ/	/irqaːʔ/	إرْقاء	N	N			squaring off, settlement, reunion, appeasement
@@ -847,7 +846,7 @@ A00798	ኩርሲ	/kurɨsi/	/kursiːi/	كُرْسِيّ	N	N	DMST		chair
 A00799	ኩሽ	/kuʃ/	/kuːʃ/	كُوش	N	N	NAME		cush (place along the Nile valley)
 A00800	ኩበት	/kubɛt/	/kubat/	كُبَت	N	N			manure, compost, dung, muck
 A00801	ኩባያ	/kubaja/	/kawb/	كَوْب	N	N	DMST		metal cup, metal mug
-A00802	ኩባያ	/kubaja/	/kubbaːiːja/	كُبَّاية	N	N	DMST		metal cup, metal mug
+A00802	ኩባያ	/kubaja/	/kubbaːja/	كُبَّاية	N	N	DMST		metal cup, metal mug
 A00803	ኩዳድ	/kudad/	/kudaːd/	كُداد	N	N			cultivated area, agricultural estate, plantation, farm
 A00804	ኩዳድ	/kudad/	/kudaːd/	كُداد	N	N			agricultural estate, cultivated area, plantation, farm
 A00805	ኩፍ	/kufɨ/	/χuf/	خُف	N	N	DMST		shoes
@@ -921,7 +920,7 @@ A00872	ውልድ	/wɨlɨd/	/walad/	وَلَد	N	N			slave, born in one's master'
 A00873	ውስጥ	/wɨsɨtˤ/	/wasatˤ/	وَسَط	N	N			in, between
 A00874	ውርዴ	/wɨrɨde/	/wirda/	وِرْدة	N	N			an individual cured from syphilis (V.D.)
 A00875	ውርድ	/wɨrɨd/	/ward/	وَرْد	N	N	RLGN		faster method of reading
-A00876	ውሸት	/wɨʃɛt/	/wiʃaːiːja/	وِشَايَة	N	N			lies
+A00876	ውሸት	/wɨʃɛt/	/wiʃaːja/	وِشَايَة	N	N			lies
 A00877	ውቅያኖስ	/wɨkʼɨjanos/	/ʔauːqjːanuːs/	أُوقْيَانُوس	N	N			deep-sea, ocean, the deep
 A00878	ውከላ	/wɨkɛlaː/	/wikaːla/	وِكَالَة	N	N			authorization, mandate,
 A00879	ውክልና	/wɨkɨlɨna/	/tawkiːl/	تَوْكِيل	N	N			representation, mandate, authorization
@@ -987,7 +986,7 @@ A00938	ይለስልስ	/jɨlɛsɨlɨs/	/jalaslis/	يَلَسْلِس	VI	VI			be 
 A00939	ይለብ	/jɨlɛb/	/jaħlib/	يَحْلِب	VI	VI			milk
 A00940	ይለብልብ	/jɨlɛbɨlɨb/	/jalablib/	يَلَبْلِب	VI	VI			singe, scorch
 A00941	ይለትም	/jɨlɛtɨm/	/jaltˤim/	يَلْطِم	VI	VI			butt, quarrel
-A00942	ይለፍ	/jɨlɛf/	/iiːlaːf/	إيلَاف	N	N	RLGN		passage
+A00942	ይለፍ	/jɨlɛf/	/iːlaːf/	إيلَاف	N	N	RLGN		passage
 A00943	ይለፍልፍ	/jɨlɛfɨlɨf/	/jalaflif/	يَلَفْلِف	VI	VI			chatter
 A00944	ይልበስ	/jɨlɨbɛs/	/jalbis/	يَلْبِس	VI	VI			wear, dress
 A00945	ይልዘዝ	/jɨlɨzɛz/	/jalziz/	يَلْزِز	VI	VI			deliquesce
@@ -1349,7 +1348,7 @@ A01300	ፈጣሪ	/fɛtˤari/	/fatˤtˤaːr/	فَطَّار	N	N	RLGN		god, creato
 A01301	ፈጸመ	/fɛsʼɛmɛ/	/fasˤama/	فَصَمَ	VP	VP			complete accomplish
 A01302	ፋስ	/fas/	/faʔs/	فَأس	N	N	DMST		hatchet
 A01303	ፋኖስ	/fanos/	/faːnuːs/	فَانُوس	N	N	DMST		container with oil and wick, used to give light
-A01304	ፋይዳ	/fajɨda/	/faːʔiida/	فَائِدَة	N	N			significance; avail
+A01304	ፋይዳ	/fajɨda/	/faːʔida/	فَائِدَة	N	N			significance; avail
 A01305	ፍሥሐ	/fɨśɨhɛ/	/fisħa/	فِسْحَ	N	N			pleasure, delight, ecstasy
 A01306	ፍራሽ	/fɨraːʃ/	/firaːʃ/	فِرَاش	N	N	DMST		thick, flat oblong pad of wool, foam rubber, etc on which to sleep
 A01307	ፍራሽ	/fɨraːʃ/	/firaːʃ/	فِراش	N	N	DMST		what is left after s, t (especially a house or town) is destroyed
@@ -1368,5 +1367,5 @@ A01319	ፍጥረት	/fɨtˤɨrɛt/	/fitˤra/	فِطْرَة	N	N	RLGN		creature
 A01320	ፍጹምነት	/fɨsʼumɨnɛt/	/fasˤm/	فَصْم	N	N			absoluteness, blameless, flawless
 A01321	ፍጻሜ	/fɨsʼame/	/fisˤaːmiː/	فِصَامِي	N	N			final
 A01322	ፎጣ	/fotˤa/	/fuːtˤa/	فُوطَة	N	Ncol	DMST		piece of cloth for drying or wiping s, t wet
-A01323	ፓፓዬ	/papaje/	/baːbaːiːja/	بَابَايا	N	N	PLNT		papaya
+A01323	ፓፓዬ	/papaje/	/baːbaːja/	بَابَايا	N	N	PLNT		papaya
 A01324	ፖሊስ፡ጣቢያ	/polisɨ፡tˤabija/	/tˤaːbiːja buːliːs/	طابِية بُولِيس	N	N			office of a local police officer
