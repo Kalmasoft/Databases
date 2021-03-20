@@ -5,7 +5,7 @@
 # Related works: www.kalmasoft.com/KLEX/dcamhara.htm
 # Availability: https://github.com/Kalmasoft/Databases/blob/main/Amharic/KDBAMARA
 # Created: 1/3/2021 8:38 AM
-# Updated: 18/3/2021 2:40 PM
+# Updated: 20/3/2021 9:00 AM
 # Encoding: UTF8
 # Delimiter: TAB
 # Total entries: 1,300+ records
@@ -20,1352 +20,1407 @@
 #	AMIPA: Reading for Amharic (International Phonetic Alphabet)
 #	ARIPA: Reading for Arabic (International Phonetic Alphabet)
 #	Arabic: Arabic parallel word
-#	AMClass: Amharic grammatical class
-#	ARClass: Arabic grammatical class
+#	AMClass/ARClass: Amharic/Arabic grammatical class
 #		A: Adjective
 #		D: Adverb
 #		N: Noun
-#		Ncol (iso): Regional colloquial Arabic Noun, ISO3166-3 Alpha-2 country code, common to All Arab countries otherwise
+#		Ncol (iso): Regional colloquial Arabic Noun, ISO3166-3 Alpha-2 country code, common to all Arab countries otherwise
 #		P: Particle
 #		VP: Verb perfective
 #		VI: Verb imperfective
-#		Vcol (iso): Regional colloquial Arabic Verb, ISO3166-3 Alpha-2 country code, common to All Arab countries otherwise
-#	AMDomain: Amharic entry usage domain
-#	ARDomain: Arabic entry usage domain
+#		Vcol (iso): Regional colloquial Arabic Verb, ISO3166-3 Alpha-2 country code, common to all Arab countries otherwise
+#	AMDomain/ARDomain: Amharic/Arabic entry usage domain
 #		ANAT: Anatomy
 #		ANIM: Animate
 #		DMST: Domestic
+#		DATE: Date
 #		NAME: Place or personal name
 #		NUMB: Number
 #		PLNT: Plant
-#		RLGN: religion
+#		RLGN: Religion
 #	Category: Arabic entry usage category
-#		FF: full form
+#		FF: full form morphology
 #		SH: semantically shifted
+#		AC: archaic
 #	Gloss: English meaning of the Amharic entry
 #================================================
 
 ID	Amharic	AMIPA	ARIPA	Arabic	AMClass	ARClass	AMDomain	Category	Gloss
-A00001	ሐሙስ	/hɛmus/	/χamiːs/	خَمِيس	N	N			thursday
+A00001	ሐሙስ	/hɛmus/	/alχamiːs/	الخَمِيس	N	N	DATE		thursday
 A00002	ሐማል	/hɛmaːl/	/ħammaːl/	حَمَّال	N	N			daily laborer, manual worker
 A00003	ሐምራዊ	/hɛmɨraːwi/	/ħamraːwiː/	حَمْراوِي	N	N			mauve
 A00004	ሐሩር	/hɛrur/	/ħaraːra/	حَرَارة	N	N			the state of intensity of a very warm climate
-A00005	ሐቀኛነት	/hɛkʼɛɲanɛt/	/ħaqqaːniːja/	حَقَّانِيَّة	N	N			honesty
-A00006	ሐቅ	/hɛkʼ/	/ħaq/	حَق	N	N			fact, veracity
-A00007	ሐብሐብ	/hɛbɨhɛb/	/ħabħab/	حَبْحَب	N	N	PLNT		watermelon
-A00008	ሐብል	/hɛbɨl/	/ħabl/	حَبْل	N	N	DMST		jewelry (neck), choker
-A00009	ሀብት	/hɛbɨt/	/hiba/	هِبَة	N	N			
-A00010	ሐተታ	/hɛtɛta/	/ħitta/	حِتَّة	N	Ncol (sd)			details, particulars, information, the whole story
-A00011	ሐኪም	/hɛkim/	/ħakiːma/	حَكِيمَ	N	N			physician
-A00012	ሐኪም፡ቤት	/hɛkimɨ፡bet/	/bajt aːlħikma/	بَيْت الحِكْمة	N	N			sanatorium, infirmary, sickbay
-A00013	ሐዋላ	/hɛwalaː/	/ħawwaːla/	حَوَّالَة	N	N			money transfer
-A00014	ሐዋርያ	/hɛwarɨja/	/ħwaːriː/	حُوارِي	N	N	RLGN		apostle, disciple, follower
-A00015	ሐዋርያነት	/hɛwarɨjanɛt/	/ħwaːriːja/	حُوارِيَّة	N	N	RLGN		apostleship
-A00016	ኃይል	/ħajɨl/	/ħajl/	حَيْل	N	N			power
-A00017	ሃይማኖት	/haːjɨmaːnot/	/hajmana/	هَيْمَنة	N	N	RLGN		faith, belief, creed
-A00018	ሐዲስ	/hɛdis/	/ħadiːθ/	حَدِيث	N	N			new
-A00019	ሐዲድ	/hɛdid/	/ħadiːd/	حَدِيد	N	N			passageway for train, pathway
-A00020	ሀገር	/hɛgɛr/	/ħikr/	حِكْر	N	N			
-A00021	ሐፍረት	/hɛfɨrɛt/	/ħufra/	حُفْرَة	N	N			disgrace, humiliation, dishonor
-A00022	ሁለተ፡ደረጃ	/hulɛtɛ፡dɛrɛdʒa/	/daradʒaː ʔuːlaː/	دَرَجَةَ أولَى	N	N			
-A00023	ሑርነት	/hurɨnɛt/	/ħurriːja/	حُرِّيَّة	N	N			liberty, emancipation
-A00024	ሑዳዴ	/hudade/	/ħadaːd/	حَدَاد	N	N			(in Orthodox and Catholic Christian religion) the period of 40 days from Ash Wednesday to the day before Easter, during which some Christians fast in memory of Christ's suffering
-A00025	ሑዳድ	/hudad/	/ħadaːd/	حَدَاد	N	N			of the fasting time before Easter
-A00026	ሒሳብ	/hisab/	/ħisaːb/	حِسَاب	N	N			arithmetic
-A00027	ሒሳብ	/hisab/	/ħisaːb/	حِسَاب	N	N			math's (as a sum), bill (in hotel, etc)
-A00028	ሂስ	/his/	/his/	هِس	N	N			censure
-A00029	ሂያጅ	/hijadʒ/	/hjːadʒ/	هِيَاج	N	N			a person who walks off, violent, extravagant
-A00030	ሔዋን	/hewan/	/ħajwaːn/	حَيْوان	N	N			eve
-A00031	ህልም	/hɨlɨm/	/ħulm/	حُلْم	N	N			dream
-A00032	ሕልም	/hɨlɨm/	/ħilm/	حِلْم	N	N			trance
-A00033	ሕመም	/hɨmɛm/	/ħamiːma/	حَمِيمَ	N	N			illness
-A00034	ኅሙስ	/ħɨmus/	/aːlχamiːs/	الْخَمِيس	N	N			thursday
-A00035	ሕማም	/hɨmaːm/	/ħimaːm/	حِمام	N	N			ache, hurting
-A00036	ሕቅታ	/hɨkʼɨta/	/kuħħa/	كُحَّة	N	N			eructate, clear the throat, burp break wind
-A00037	ኅብረት	/ħɨbɨrɛt/	/χibra/	خِبْرة	N	N			coming together, unification merger
-A00038	ኅብር	/ħɨbɨr/	/ħibr/	حِبْر	N	N		SH	image, combination of daft colors
-A00039	ህንድ	/hɨnɨd/	/ʔlhind/	الهِنْد	N	N	NAME		india
-A00040	ሕዋስ	/hɨwas/	/ħawaːs/	حَوَاس	N	N			sense organ
-A00041	ህዋእ	/hɨwaʔ/	/hawaːʔ/	هَوَاء	N	N			space
-A00042	ሕዝብ	/hɨzɨb/	/ħizb/	حِزْب	N	N			populace, inhabitants, public
-A00043	ኅይል	/ħɨjɨl/	/ħajl/	حَيْل	N	N			authority, strength, influence
-A00044	ሕይወት	/hɨjɨwɛt/	/ħajaːa/	حَيَاة	N	N			life
-A00045	ሕግ	/hɨg/	/ħaqq/	حَقّ	N	N			commandment, decree, bylaw, the state of being virgin
-A00046	ሕፃን	/hɨtsˤan/	/ħisaːn/	حِسَان	N	N			kid, teenager, infant, toddler
-A00047	ሕፃንነት	/hɨtsˤanɨnɛt/	/ħisaːn/	حِسَان	N	N			infancy, early days
-A00048	ኅፍረተ	/ħɨfɨrɛtɛ/	/ħufra/	حُفْرَة	N	N	ANAT		penis or vagina
-A00049	ኅፍረት	/ħɨfɨrɛt/	/ħufra/	حُفْرة	N	N			disgrace, embarrassment, dishonored
-A00050	ሆመጠጠ	/homɛtˤɛtˤɛ/	/ħamudˤa/	حَمُضَ	VP	VP			be acid, sour
-A00051	ሆድ	/hod/	/ħawdˤ/	حَوْض	N	N			abdomen, tummy
-A00052	ሆጃ	/hodʒa/	/ħudʒdʒa/	حُجَّة	N	N	DMST		legal document (used in Harar region)
-A00053	ለምለም	/lɛmɨlɛmɨ/	/lamam/	لَمَم	N	N	ANAT		soft part of the ear (where the earring hangs)
-A00054	ለምለምነት	/lɛmɨlɛmɨnɛt/	/lamlama/	لَمْلَمَة	N	N			abundance, lushness
-A00055	ለምጽ	/lɛmɨsʼ/	/lamðˤ/	لَمْظ	N	N			stained skin
-A00056	ለሰለሰ	/lɛsɛlɛsɛ/	/laslasa/	لَسْلَسَ	VP	VP			be soft, smooth
-A00057	ለስላሳነት	/lɛsɨlaːsanɛt/	/salaːsa/	سَلاسة	N	N			softness
-A00058	ለቀማ	/lɛkʼɛmaː/	/laqma/	لَقْمة	N	N			the act of picking and choosing, collecting (often grains from the weed)
-A00059	ለቀቀ	/lɛkʼɛkʼɛ/	/lakak/	لَكَك	VP	VP			let go, abandon, relax
-A00060	ለቅላቂ	/lɛkʼɨlaːkʼi/	/laklaːk/	لَكْلاك	N	N			spreader (usually, of the cement to be laid on a building under construction)
-A00061	ለበለበ	/lɛbɛlɛbɛ/	/lablaba/	لَبْلَبَ	VP	VP			singe, scorch
-A00062	ለበሰ	/lɛbɛsɛ/	/labisa/	لَبِسَ	VP	VP	DMST		wear, dress
-A00063	ለባሽ	/lɛbaʃ/	/labaːs/	لَباس	N	N			a person who dress in
-A00064	ለተመ	/lɛtɛmɛ/	/latˤama/	لَطَمَ	VP	VP			butt, quarrel
-A00065	ለውዝ	/lɛwɨz/	/lawz/	لَوْز	N	N	PLNT		peanut, ground nut
-A00066	ለዘዘ	/lɛzɛzɛ/	/lazaza/	لَزَزَ	VP	VP			deliquesce
-A00067	ለዛ	/lɛza/	/laðða/	لَذَّة	N	N			charm, magic (in verbal communication)
-A00068	ለገመ	/lɛgɛmɛ/	/laɣɣama/	لَغَّمَ	VP	VP			be obstinate
-A00069	ለፈለፈ	/lɛfɛlɛfɛ/	/laflafa/	لَفْلَفَ	VP	VP			chatter
-A00070	ሉህ	/luh/	/luːħ/	لُوح	N	N	DMST		sheet
-A00071	ሉል	/lul/	/luʔuluʔua/	لُؤلُؤة	N	N	DMST		gem, majestic orb, globe
-A00072	ሊጥ	/litˤ/	/latt/	لَتّ	N	N			dough mixture (for preparing እንጀራ)
-A00073	ላሰ	/laːsɛ/	/laːsa/	لَاسَ	VP	VP			lick
-A00074	ሌሊት	/lelit/	/lajla/	لَيْلَة	N	N			night, hours of darkness, of the night, nocturnal
-A00075	ልማድ	/lɨmaːd/	/limaːd/	لِماد	N	N			practice, tradition, convention
-A00076	ልምላሜ	/lɨmɨlaːme/	/limlaːm/	لِمْلام	N	N			blossoming, vegetation
-A00077	ልምድ	/lɨmɨd/	/lamdˤ/	لَمْض	N	N			expertise, acquaintance, familiarity
-A00078	ልሳነ	/lɨsanɛ/	/lisaːn/	لِسَان	N	N			language
-A00079	ልሳን	/lɨsan/	/lisaːn/	لِسان	N	N			speech, talking, publication of a political party
-A00080	ልሻን	/lɨʃan/	/niːʃaːn/	نِيشان	N	N	DMST		honorary medal
-A00081	ልቃሚ	/lɨkʼami/	/rukaːm/	رُكام	N	N			trash, leftovers
-A00082	ልቅለቃ	/lɨkʼɨlɛkʼa/	/laklaka/	لَكْلَكة	N	N			the act of spreading (usually, the cement to be laid on a building under construction)
-A00083	ልቅልቅ	/lɨkʼɨlɨkʼ/	/laklak/	لَكْلَك	N	N			smeared thing
-A00084	ልቡና	/lɨbuna/	/libna/	لِبْنَة	N	N			sense of right and wrong
-A00085	ልባስ	/lɨbas/	/libaːs/	لِباس	N	N			fabric used to wrap sth.
-A00086	ልባብ	/lɨbab/	/libaːb/	لِباب	N	N			bridle, rein
-A00087	ልብ	/lɨb/	/lubb/	لُبّ	N	N	ANAT		heart, compassion, guts, intellectual power
-A00088	ልብሰ	/lɨbɨsɛ/	/libs/	لِبْس	N	N	DMST		garments
-A00089	ልብሶ	/lɨbɨso/	/libs/	لِبْس	N	N	DMST		clothes
-A00090	ልብዳት	/lɨbɨdat/	/libda/	لِبْدة	N	N			fur coating (of a book, bag, etc)
-A00091	ልጥፋት	/lɨtˤɨfat/	/latˤaːʔif/	لَطائِف	N	N	DMST		cushion, as in for instance, bandage for injury, surgical dressing, fomentation
-A00092	ሎሚ	/lomi/	/lajmuːn/	لَيْمُون	N	N	PLNT		lemon
-A00093	ሎጣዊ	/lotˤawi/	/luːtˤiː/	لُوطِي	N	N			homosexual (male), sodomite, pansy
-A00094	መሀል	/mɛhɛl/	/maħal/	مَحَل	N	N			middle, core, nucleus
-A00095	መሐረም(ብ)	/?/	/maħram/	مَحْرَم	N	N	DMST		hankie, tissue
-A00096	መሀንዲስ	/mɛhɛnɨdis/	/muhandis/	مُهَنْدِس	N	N			builder, designer, draftsman (draftswoman)
-A00097	መሀንዲስነት	/mɛhɛnɨdisɨnɛt/	/muhandis/	مُهَنْدِس	N	N			the state of being an engineer (draftsman, draftswoman)
-A00098	መሀከል	/mɛhɛkɛl/	/maʕqal/	مَعْقَل	N	N			middle, midpoint, core, central point
-A00099	መለመለ	/mɛlɛmɛlɛ/	/malmala/	مَلْمَلَ	VP	VP			select, pluck
-A00100	መለሰ	/mɛlɛsɛ/	/malasˤa/	مَلَصَ	VP	VP			return
-A00101	መለኮት	/mɛlɛkot/	/malakuːt/	مَلَكُوت	N	N	RLGN		holiness
-A00102	መለኮትነት	/mɛlɛkotɨnɛt/	/malakuːt/	مَلَكُوت	N	N	RLGN		spiritual authority
-A00103	መላስ	/mɛlaːs/	/malaːs/	مَلاس	N	N	ANAT		tongue
-A00104	መልአከ፡ሞት	/mɛlɨʔɛkɛ፡mot/	/malak aːlmawt/	مَلَك المَوْت	N	N			the Angel of Death
-A00105	መልአከ፡ዑቃቢ	/mɛlɨʔɛkɛ፡ʕukʼabi/	/malak aːlʕiqaːb/	مَلَك العِقاب	N	N	RLGN		protector seraph
-A00106	መልአክ	/mɛlɨʔɛk/	/malaːk/	مَلَاك	N	N	RLGN		angel
-A00107	መልክት	/mɛlɨkɨt/	/malaka/	مَلَكَة	N	N			memorandum, note
-A00108	መሰለ	/mɛsɛlɛ/	/maθala/	مَثَلَ	VP	VP			seem
-A00109	መሰለ	/mɛsɛlɛ/	/maθala/	مَثَلَ	VP	VP			make a model
-A00110	መሠርሠሪያ	/mɛśɛrɨśɛrija/	/masarsariːja/	مَسَرْسَرِيّة	N	N			device used to pierce (wall, etc.)
-A00111	መሲሕ	/mɛsih/	/masiːħ/	مَسِيح	N	N	RLGN		messiah
-A00112	መሳለሚያ	/mɛsalɛmija/	/masaːlamiːja/	مَسالَمِيَّة	N	N			church balcony
-A00113	መሥመር	/mɛśɨmɛr/	/masaːr/	مَسَار	N	N			route, roundabout way, electrical or otherwise line
-A00114	መስማት	/mɛsɨmaːt/			N	N			
-A00115	መስተአምር	/mɛsɨtɛʔɛmɨr/	/mastaːmr/	مَسْتَامْر	N	N			article (grammatical)
-A00116	መስቲካ	/mɛsɨtika/	/mistika/	مِسْتِكَة	N	N	DMST		chewing-gum, bubble-gum, stick of gum
-A00117	መስኮት	/mɛsɨkot/	/miʃkaːa/	مِشْكَاة	N	N	DMST		alcove
-A00118	መስጊድ	/mɛsɨgid/	/masdʒid/	مَسْجِد	N	N	RLGN		mosque
-A00119	መስጠትን	/mɛsɨtˤɛtɨn/	/mustaʕtˤ/	مُسْتَعْط	N	N			
-A00120	መረረ	/mɛrɛrɛ/	/marara/	مَرَرَ	VP	VP			be bitter
-A00121	መረቅ	/mɛrɛkʼ/	/maraq/	مَرَق	N	N			soup, potage
-A00122	መረብ/መርበብ	/?/	/?/	?	N	N			mesh
-A00123	መራራ	/mɛraːraː/	/maraːra/	مَرَارَة	N	N			bitter
-A00124	መራራነት	/mɛraːraːnɛt/	/maraːra/	مَرَارة	N	N			sourness, resentment
-A00125	መራርነት	/mɛraːrɨnɛt/	/maraːra/	مَرَارة	N	N			sourness, resentment, acrimony
-A00126	መራቢያ	/mɛraːbija/	/marbaː/	مَرْبى	N	N			reproduction place
-A00127	መርቢያ	/mɛrɨbija/	/marbaː/	مَرْبَى	N	N			location for reproduction of livestock
-A00128	መርከብ	/mɛrɨkɛb/	/markib/	مَرْكِب	N	N	DMST		ship
-A00129	መቀስ	/mɛkʼɛs/	/miqasˤsˤ/	مِقَصّ	N	N	DMST		shears, clippers
-A00130	መቀነት	/mɛkʼɛnɛt/	/makana/	مَكَنَة	N	N	DMST		fabric used to hold tight the waist
-A00131	መቁሊያ	/mɛkʼulija/	/miqlaːa/	مِقْلاة	N	N	DMST		pot, roast pan
-A00132	መቁረጫ	/mɛkʼurɛtʃa/	/makraʃa/	مَكْرَشَة	N	N	DMST		chopping tool
-A00133	መቃብር	/mɛkʼabɨr/	/maqaːbira/	مَقَابِرَ	N	N			grave (burial place)
-A00134	መቅዘኛ	/mɛkʼɨzɛɲa/	/maχzan/	مَخْزَن	N	N	DMST		chamber pot
-A00135	መቅደስ	/mɛkʼɨdɛs/	/maqdas/	مَقْدَس	N	A	RLGN		temple
-A00136	መቅደስ	/mɛkʼɨdɛs/	/maqdas/	مَقْدَس	N	N			holy place (church), sanctuary
-A00137	መብረቅ	/mɛbɨrɛkʼ/	/mabraq/	مَبْرَق	N	N			flash, beam sparkle
-A00138	መብረቅ	/mɛbɨrɛkʼ/	/mabraq/	مَبْرَق	N	N			lightning
-A00139	መተርጎም	/mɛtɛrɨgom/	/tardʒama/	تَرْجَمَة	N	N			
-A00140	መተከያ	/mɛtɛkɛja/	/muttakaʔ/	مُتَّكَأ	N	N			dwelling or inhabiting location, site,
-A00141	መታሠሪያ	/mɛtaśɛrija/	/maʔsar/	مَأسَر	N	N			detention center, reformatory
-A00142	መነሻ	/mɛnɛʃa/	/manʃaʔ/	مَنْشَأ	N	N			initial position, starting position
-A00143	መነሾ	/mɛnɛʃo/	/manʃuʔu/	مَنْشُؤ	N	N			starting place, cause
-A00144	መነተፈ	/mɛnɛtɛfɛ/	/mantafa/	مَنْتَفَ	VP	VP			snatch
-A00145	መነነ	/mɛnɛnɛ/	/manana/	مَنَنَ	VP	VP			retire from world
-A00146	መነጥር	/mɛnɛtˤɨr/	/minðˤaːr/	مِنْظار	N	N	DMST		specs, goggles
-A00147	መነጽር	/mɛnɛsʼɨr/	/minðˤaːr/	مِنْظَار	N	N	DMST		specs, goggles
-A00148	መናፈሻ	/mɛnafɛʃa/	/mutanaffas/	مُتَنَفَّس	N	N			outdoor place, roomy, well-ventilated
-A00149	መንበር	/mɛnɨbɛr/	/minbar/	مِنْبَر	N	N			political seat or throne, woolsack
-A00150	መንበር	/mɛnɨbɛr/	/minbar/	مِنْبَر	N	N	RLGN		chair of monarch or bishop, power, rank and privileges of a monarch
-A00151	መንበርከኪያ	/mɛnɨbɛrɨkɛkija/	/munbarak/	مُنْبَرَك	N	N			space for kneeling down
-A00152	መንደር	/mɛnɨdɛr/	/bandar/	بَنْدَر	N	N			village
-A00153	መከረ	/mɛkɛrɛ/	/makara/	مَكَرَ	VP	VP			advise
-A00154	መከራ	/mɛkɛraː/	/makr/	مَكْر	N	N			difficulty, problem
-A00155	መከታ	/mɛkɛta/	/maqtˤaʕ/	مَقْطَع	N	N			formation of a partition, flat timber, barrier
-A00156	መከዳ	/mɛkɛda/	/miχadda/	مِخَدَّة	N	N	DMST		head support, pad
-A00157	መከፈኛ	/mɛkɛfɛɲa/	/makfan/	مَكْفَن	N	N			covering, blanket, shroud
-A00158	መወጣጫ	/mɛwɛtˤatʃa/	/mawtˤiːʔ/	مَوْطِيء	N	N			
-A00159	መውጅ	/mɛwɨdʒ/	/mawdʒ/	مَوْج	N	N			ocean wave
-A00160	መዘነ	/mɛzɛnɛ/	/wazana/	وَزَنَ	VP	VP			balance , weigh
-A00161	መዘክር	/mɛzɛkɨr/	/mazakr/	مَزَكْر	N	N			building for displaying hospital, science, art objects
-A00162	መዘክር	/mɛzɛkɨr/	/mazkar/	مَزْكَر	N	N			place where important things are preserved
-A00163	መዘውር	/mɛzɛwɨr/	/mazawr/	مَزَوْر	N	N			grooved wheel(s) for ropes or chains, used for lifting things
-A00164	መደነ	/mɛdɛnɛ/	/madana/	مَدَنَ	VP	VP			civilize
-A00165	መድረክ	/mɛdɨrɛk/	/madrak/	مَدْرَك	N	N			raised area, platform, podium, tribune
-A00166	መድፍ	/mɛdɨf/	/midfaʕ/	مِدْفَع	N	N			mortar, field gun
-A00167	መጅ	/mɛdʒ/	/madʒ/	مَج	N	N			higher millstone, higher grindstone, hard skin, lump
-A00168	መገመት	/mɛgɛmɛt/	/maqaːm/	مَقَام	N	N			estimate (to)
-A00169	መጉመጥመጫ	/mɛgumɛtˤɨmɛtʃa/	/madˤmadˤa/	مَضْمَضَة	N	N			cleansing liquid for oral cavity
-A00170	መጋዘን	/mɛgazɛn/	/maχzan/	مَخْزَن	N	N			lumber room, storehouse
-A00171	መጋዝ	/mɛgaz/	/maqasˤ/	مَقَص	N	N	DMST		saw
-A00172	መግነጢስ	/mɛgɨnɛtˤis/	/maɣnatˤiːs/	مَغْنَطِيس	N	N	DMST		magnet
-A00173	መጠን	/mɛtˤɛn/	/matn/	مَتْن	N	N			
-A00174	መጣጢስ	/mɛtˤatˤis/	/batˤaːtˤis/	بَطَاطِس	N	N	PLNT		sweet potato
-A00175	መጽሐፍ	/mɛsʼɨhɛf/	/misˤħaf/	مِصْحَف	N	N	DMST	SH	book
-A00176	መፈክር	/mɛfɛkɨr/	/mafkar/	مَفْكَر	N	N			motto
-A00177	መፍትሄ	/mɛfɨtɨhe/	/miftaːħ/	مِفْتَاح	N	N			solution
-A00178	መፍትሔ	/mɛfɨtɨhe/	/miftaːħ/	مِفْتاح	N	N			panacea, remedy
-A00179	መፍቻ	/mɛfɨtʃa/	/mifak/	مِفَك	N	N	DMST		screw driver
-A00180	ሙሀቻ	/muhɛtʃa/	/muhdʒa/	مُهْجَة	N	N	DMST	SH	container, pot used for holding the semi liquid item before baking bread, injera, etc.
-A00181	ሙሉ	/mulu/	/maluʔu/	مَلُؤ	N	N			
-A00182	ሙላ	/mulaː/	/mulla/	مُلَّة	N	N	ANAT		hip-joint
-A00183	ሙረዳ	/murɛda/	/biraːda/	بِرَادة	N	N			the performance of sharpening, honing or whetting
-A00184	ሙሬ	/mure/	/muri/	مُري	N	N			locally made sweeping device used in agriculture
-A00185	ሙከራ	/mukɛraː/	/makr/	مَكْر	N	N			tryout, experiment
-A00186	ሙዚቀኛ	/muzikʼɛɲa/	/muːsiːqiː/	مُوسِيقِي	N	N			vocalist, singer
-A00187	ሙዚቃ	/muzikʼa/	/muːsiːqaː/	مُوسِيقى	N	N			melody
-A00188	ሙዝ	/muz/	/mawz/	مَوْز	N	N	PLNT		banana
-A00189	ሚዛን	/mizan/	/miːzaːn/	مِيزان	N	N			weighing machine, weighing scale
-A00190	ሚዜ	/mize/	/miːza/	مِيزَة	N	N			matron of honor
-A00191	ማኅተም	/maːħɨtɛm/	/maχtam/	مَخْتَم	N	N			autorization stamp, seal
-A00192	ማሕፀን	/maːhɨtsˤɛn/	/maħsan/	مَحْسَن	N	N	ANAT		womb, uterus
-A00193	ማለቢያ	/maːlɛbija/	/maħlabiːja/	مَحْلَبِيَّة	N	N			bucket for taking milk from cows
-A00194	ማላ	/maːlaː/	/mwaːlaːa/	مُوالاة	N	N			vow, swear
-A00195	ማስፈሪያ	/maːsɨfɛrija/	/masfar/	مَسْفَر	N	N		SH	region to dwell in
-A00196	ማራቢያ	/maːraːbija/	/marbaː/	مَرْبى	N	N			place where reproduction (of livestock) is going on
-A00197	ማርያም	/maːrɨjam/	/mariːjam/	مَرْيَم	N	N	RLGN		mary
-A00198	ማርዳ	/maːrɨda/	/marda/	مَرْدة	N	N	DMST		diamond-like ornament often put on as neck attraction
-A00199	ማት	/maːt/	/maːt/	مَات	N	N			rage of God, huge number (multitude) of people
-A00200	ማንፈሻ	/maːnɨfɛʃa/	/manfaʃ/	مَنْفَش	N	N			device used for removing chaff from grain
-A00201	ማዕቀብ	/maːʕɨkʼɛb/	/muʕaːqaba/	مُعَاقَبة	N	N			ban, forbid
-A00202	ማእከል	/maːʔɨkɛl/	/maʕqal/	مَعْقَل	N	N			center
-A00203	ማዕከል	/maːʕɨkɛl/	/maʕqal/	مَعْقَل	N	N			midpoint, center
-A00204	ማዕድ	/maːʕɨd/	/maːʔida/	مَائِدَة	N	N			spread (meal)
-A00205	ማዕድ፡ቤት	/maːʕɨdɨ፡bet/	/maːʕd?biːt/	ماعْدْ፡بيت	N	N	DMST		kitchen
-A00206	ማዕድን	/maːʕɨdɨn/	/maʕdin/	مَعْدِن	N	N	DMST		mineral deposits, excavation, quarry, raw materials
-A00207	ማካፈል	/maːkafɛl/	/makfal/	مَكْفَل	N	N			division (math), sharing
-A00208	ማዘያ	/maːzɛja/	/maːzajiːja/	مَازَيَّة	N	N	DMST		leather, piece of cloth, or tunic used for carrying an infant on the back
-A00209	ምሁር	/mɨhur/	/mutaħarriː/	مُتَحَرِّي	N	N			researcher, intellectual, thinker
-A00210	ምህዋር	/mɨhɨwar/	/miħuːar/	مِحْوَر	N	N			orbit
-A00211	ምላሰኝነት	/mɨlaːsɛɲɨnɛt/	/mulaːsana/	مُلاسَنَة	N	N			chattiness
-A00212	ምላስ	/mɨlaːs/	/milaːs/	مِلاس	N	N			language, speech, tongue
-A00213	ምሳሌ	/mɨsale/	/miθaːl/	مِثال	N	N			case in point, instance, exemplar, allegory
-A00214	ምስ	/mɨs/	/mas/	مَس	N	N			special liking of an individual, one's obsession
-A00215	ምስል	/mɨsɨl/	/miθl/	مِثْل	N	N			double
-A00216	ምስማር	/mɨsɨmaːr/	/mismaːr/	مِسْمَار	N	N	DMST		nail
-A00217	ምሥራቃዊ	/mɨśɨraːkʼawi/	/maʃriqiːi/	مَشْرِقِيّ	N	N			eastern
-A00218	ምሥራቅ	/mɨśɨraːkʼ/	/maʃriq/	مَشْرِق	N	N			east
-A00219	ምስራች	/mɨsɨraːtʃ/	/misarra/	مِسَرَّة	N	N			good news, good tidings, hurrah!
-A00220	ምስጢር	/mɨsɨtˤir/	/ʔaustˤuːra/	أُسْطُورة	N	N			secret, clandestine
-A00221	ምረት	/mɨrɛt/	/murra/	مُرَّة	A	A			sour flavor
-A00222	ምራቅ	/mɨraːkʼ/	/maraq/	مَرَق	N	N	ANAT		saliva, drip
-A00223	ምራን	/mɨraːn/	/miraːn/	مِران	N	N			skin or pelt ligament (tendon)
-A00224	ምሬት	/mɨret/	/murra/	مُرَّة	A	A			sour flavor
-A00225	ምርኩዝ	/mɨrɨkuz/	/mirkaz/	مِرْكَز	N	N			supporting, rod, cane
-A00226	ምርኩዝ	/mɨrɨkuz/	/mirkaz/	مِرْكَز	N	N			walking-stick, cane
-A00227	ምንጣፍ	/mɨnɨtˤaf/	/mintaf/	مِنْتَف	N	N			rug, mat, carpet
-A00228	ምኞት	/mɨɲot/	/ʔaumniːja/	أُمْنِيَّة	N	N			wish
-A00229	ምዕራብ	/mɨʕɨraːb/	/maɣrib/	مَغْرِب	N	N			west
-A00230	ምኩራብ	/mɨkuraːb/	/miħraːb/	مِحْرَاب	N	N	RLGN		prayer-house, Jews' chapel
-A00231	ምክር	/mɨkɨr/	/makr/	مَكْر	N	N			counsel, guidance
-A00232	ሞላ	/molaː/	/malʔ/	مَلأ	VP	VP			fill
-A00233	ሞረደ	/morɛdɛ/	/barada/	بَرَدَ	VP	VP			file, rasp
-A00234	ሞረደ	/morɛdɛ/	/mibrad/	مِبْرَد	N	N	DMST		sharpener, device for honing or whetting (knife, etc.)
-A00235	ሞረድ	/morɛd/	/mibrad/	مِبْرَد	N	N	DMST		sharpener, device for honing or whetting (knife, etc.)
-A00236	ሞተ	/motɛ/	/maːta/	مَاتَ	VP	VP			die
-A00237	ሞት	/mot/	/mawt/	مَوْت	N	N			passing away, demise
-A00238	ሞገስ	/mogɛs/	/maɣasˤ/	مَغَص	N	N			
-A00239	ሰሀ	/sɛhɛ/	/sahu/	سَهْو	N	N			mistake, blunder
-A00240	ሰለለ	/sɛlɛlɛ/	/salala/	سَلَلَ	VP	VP			spy on
-A00242	ሰለለ	/sɛlɛlɛ/	/ʃalala/	شَلَلَ	VP	VP			be paralyzed
-A00243	ሰለመ	/sɛlɛmɛ/	/ʔaslama/	أسْلَمَ	VP	VP	RLGN		become a muslim
-A00244	ሠለስት	/śɛlɛsɨt/	/θaːliθ/	ثَالِث	N	N	NUMB		third day after funeral
-A00245	ሰለበ	/sɛlɛbɛ/	/salaba/	سَلَبَ	VP	VP			castrate
-A00246	ሰላም	/sɛlaːm/	/salaːm/	سَلَام	N	N			peace
-A00247	ሰላምታ	/sɛlaːmɨta/	/salaːmta/	سَلامْتا	N	N			greetings
-A00248	ሰላቢ	/sɛlaːbi/	/sallaːb/	سَلَّاب	N	N			an individual who deceives in the gauge (weigh)
-A00249	ሰልፍ	/sɛlɨf/	/salaf/	سَلَف	N	N			pageant, march past
-A00250	ሰማ	/sɛmaː/	/samiʕa/	سَمِعَ	VP	VP			hear
-A00251	ሰማኒያ	/sɛmaːnija/	/θamaːniːja/	ثَمانِية	N	N	NUMB		eighty
-A00252	ሰማይ	/sɛmaːj/	/samaːʔ/	سَمَاء	N	N			sky
-A00253	ሰረሰረ	/sɛrɛsɛrɛ/	/sarsara/	سَرْسَرَ	VP	VP			bore through
-A00254	ሰረረ	/sɛrɛrɛ/	/sarara/	سَرَرَ	VP	VP			mount, cover
-A00255	ሰረቀ	/sɛrɛkʼɛ/	/saraqa/	سَرَقَ	VP	VP			steal
-A00256	ሰራሪ	/sɛraːri/	/saraːri/	سَرارِ	N	N			a beast that makes love (fucks)
-A00257	ሰራቂ	/sɛraːkʼi/	/sarraːq/	سَرَّاق	N	N			pilferer, thief
-A00258	ሠርሣሪ	/śɛrɨśaːri/	/sarsaːri/	سَرْسارِ	N	N			intruder
-A00259	ሰርሳሪ	/sɛrɨsari/	/sarsaːri/	سَرْسارِ	N	N			housebreaker, intruder
-A00260	ሰርቆት	/sɛrɨkʼot/	/sariqa/	سَرِقَة	N	N			robbery
-A00261	ሰርጣን	/sɛrɨtˤan/	/saratˤaːn/	سَرَطَان	N	N	ANIM		crab
-A00262	ሰቃቂ	/sɛkʼakʼi/	/ʃiqaːq/	شِقاق	N	N			something that brings about restlessness
-A00263	ሰበብ	/sɛbɛb/	/sabab/	سَبَب	N	N			alleged reason, excuse, justification
-A00264	ሰባቂ	/sɛbakʼi/	/sˤabbaːɣ/	صَبَّاغ	N	N			infighter, one who makes unkind remarks, slanderer
-A00265	ሰብል	/sɛbɨl/	/sabiːl/	سَبِيل	N	N			yield, produce
-A00266	ሰብሳቢ	/sɛbɨsabi/	/sabbaːb/	سَبّاب	N	Ncol (sd)	DMST		person who collects money
-A00267	ሰብቅ	/sɛbɨkʼ/	/sˤabɣ/	صَبْغ	N	N			niggling, bad-mouthing
-A00268	ሰብእ	/sɛbɨʔ/	/sˤabiː/	صَبِي	N	N		SH	human
-A00269	ሰነድ	/sɛnɛd/	/sanad/	سَنَد	N	N	DMST		document, manuscript, text
-A00270	ሰነፈ	/sɛnɛfɛ/	/sˤinf/	صِنْف	N	N			kind
-A00271	ሰነፈጠ	/sɛnɛfɛtˤɛ/	/ʃalfatˤa/	شَلْفَطَ	VP	VPcol (eg)			be hot (mustard)
-A00272	ሰንዱቅ	/sɛnɨdukʼ/	/sˤanduːq/	صَنْدُوق	N	N	DMST		strongbox, small package
-A00273	ሰዓት	/sɛʕat/	/saːʕaː/	سَاعَةَ	N	N			time
-A00274	ሰከረ	/sɛkɛrɛ/	/sakira/	سَكِرَ	VP	VP			get drunk
-A00275	ሰካ	/sɛka/	/ʃaqqa/	شَقَّ	VP	VP			thread, pass through 
-A00276	ሰው	/sɛw/	/sawiːi/	سَوِيّ	N	N	RLGN	SH	human
-A00277	ሰያፊ	/sɛjafi/	/sajjːaf/	سَيَّاف	N	N			slaughterer, slayer, executioner
-A00278	ሰይጣን	/sɛjɨtˤan/	/ʃajtˤaːn/	شَيْطان	N	N	RLGN		satan, devil
-A00279	ሰይፈኛ	/sɛjɨfɛɲa/	/sajjːaf/	سَيَّاف	N	N			combatant, foilsman, swordsman
-A00280	ሰይፍ	/sɛjɨf/	/sajf/	سَيْف	N	N	DMST		sword
-A00281	ሠደቃ	/śɛdɛkʼa/	/sˤadaqa/	صَدَقة	N	N		SH	holder (case) made of dry grass, case for holding injera
-A00282	ሰደደ	/sɛdɛdɛ/	/sadada/	سَدَدَ	VP	VP			send
-A00283	ሰገደ	/sɛgɛdɛ/	/sadʒada/	سَجَدَ	VP	VP	RLGN		bow in worship
-A00284	ሰፈር	/sɛfɛr/	/safar/	سَفَر	N	N			neighborhood, locality
-A00285	ሰፋሪ	/sɛfari/	/saffaːr/	سَفَّار	N	N			inhabitants, displaced people, an individual who weighs cereals, etc
-A00286	ሰፌድ	/sɛfed/	/safatˤ/	سَفَط	N	N	DMST		spherical-shaped basketwork used for winnowing grain and taking out injera from the griddle
-A00287	ሡልጣን	/śulɨtˤan/	/sultˤaːn/	سُلْطان	N	N			sultan
-A00288	ሱስ	/sus/	/wiswaːs/	وِسْواس	N	N			obsession, fixation
-A00289	ሱቅ	/sukʼ/	/suːq/	سُوق	N	N			shop
-A00290	ሱባኤ	/subaʔe/	/subaːt/	سُبات	N	N			time of withdrawal from worldly affairs and engage in spiritual deeds like prayer and fasting
-A00291	ሱካር	/sukar/	/sukkar/	سُكَّر	N	N	DMST		sugar
-A00292	ሱፍ	/suf/	/sˤuːf/	صُوف	N	N	DMST		wool
-A00293	ሲር	/sir/	/sajr/	سَيْر	N	N			shoelace
-A00294	ሲኦል	/siʔol/	/siuːl/	سِول	N	N			sheol, Hades, Hell
-A00295	ሳህን	/sahɨn/	/sˤaħn/	صَحْن	N	N	DMST		(Often triple or quadruple) food plates
-A00296	ሳሕን	/sahɨn/	/sˤaħn/	صَحْن	N	N	DMST		platter, serving dish, salver
-A00297	ሳለ	/salɛ/	/saʕala/	سَعَلَ	VP	VP			cough, paint, sharpen
-A00298	ሳል	/sal/	/suʕaːl/	سُعَال	N	N			
-A00299	ሣልስ	/śaːlɨs/	/θaːliθ/	ثَالِث	N	N	NUMB		the third order of the Amharic vowel system
-A00300	ሳሙና	/samuna/	/sˤaːbuːna/	صَابُونَة	N	N			cream for cleaning
-A00301	ሳቀ	/sakʼɛ/	/dˤaħika/	ضَحِكَ	VP	VP			laugh
-A00302	ሳቅ	/sakʼ/	/dˤaħik/	ضَحِك	N	N			hilarity, laughter
-A00303	ሳተ	/satɛ/	/saːtˤa/	سَاطَ	VP	VP			miss, go astray
-A00304	ሴት	/set/	/sit/	سِت	N	Ncol (sd)			female
-A00305	ስሕተት	/sɨhɨtɛt/	/suħt/	سُحْت	N	N			error, blunder
-A00306	ስለ	/sɨlɛ/	/sˤila/	صِلَة	N	N			about
-A00307	ስለላ	/sɨlɛlaː/	/tasallul/	تَسَلُّل	N	N			spying, undercover work
-A00308	ሥሉስ	/śɨlus/	/θalaːθa/	ثَلاثة	N	N	NUMB		threefold, triple
-A00309	ሥላሴ	/śɨlaːse/	/θaːluːθ/	ثَالُوث	N	N	RLGN		the Holy trinity
-A00310	ስልብ	/sɨlɨb/	/saliːb/	سَلِيب	N	N			eunuch (castrato)
-A00311	ስልክ	/sɨlɨk/	/silk/	سِلْك	N	N	DMST		
-A00312	ስም	/sɨm/	/aːism/	اِسْم	N	N			name
-A00313	ስሪያ	/sɨrija/	/siriːja/	سِرِيا	N	N			the act of copulation, making love (for animals)
-A00314	ሥራ	/śɨraː/	/ʃarʕ/	شَرْع	N	N	RLGN	SH	act
-A00315	ሥር	/śɨr/	/sir/	سِر	N	N			underground part of a plant, source, starting place
-A00316	ስርቆሽ	/sɨrɨkʼoʃ/	/sariqa/	سَرِقَة	N	N			robbery
-A00317	ሥርዓተ	/śɨrɨʕatɛ/	/sˤarʕa/	صَرْعَة	N	N			ceremony
-A00318	ሥርዓት	/śɨrɨʕat/	/sˤarʕa/	صَرْعَة	N	N			arrangement, procedure, manners, system
-A00319	ሥቃይ	/śɨkʼaj/	/ʃaqaːʔ/	شَقَاء	N	N			pain
-A00320	ስብቀት	/sɨbɨkʼɛt/	/sˤibɣa/	صِبْغة	N	N		SH	concocting, niggling, bad-mouthing,
-A00321	ስካር	/sɨkar/	/sukr/	سُكْر	N	N			intoxication, under the influence (of alcohol, drug, etc.)
-A00322	ስግደት	/sɨgɨdɛt/	/sadʒda/	سَجْدَة	N	N	RLGN		worship
-A00323	ስፍራ	/sɨfɨraː/	/sifr/	سِفْر	N	N			site, location
-A00324	ረመሰ	/rɛmɛsɛ/	/ramasa/	رَمَسَ	VP	VP			mix together
-A00325	ረሳ	/rɛsa/	/nasaː/	نَسَى	VP	VP			forget
-A00326	ረሽ	/rɛʃ/	/raʃ/	رَش	N	N			blast pistol
-A00327	ረቀቀ	/rɛkʼɛkʼɛ/	/raqaqa/	رَقَقَ	VP	VP			be fine, thin
-A00328	ረበረበ	/rɛbɛrɛbɛ/	/rabraba/	رَبْرَبَ	VP	VP			pile up
-A00329	ረበሸ	/rɛbɛʃɛ/	/rabaʃa/	رَبَشَ	VP	VP			disturb
-A00330	ረቡዕ	/rɛbuʕ/	/ʔarbiʕaːʔ/	أرْبِعاء	N	N	NUMB		wednesday
-A00331	ረባ	/rɛba/	/raba/	رَبا	VP	VP			be useful
-A00332	ረብ	/rɛb/	/riba/	رِبا	N	N			achieved advantage (benefit)
-A00333	ረብሻ	/rɛbɨʃa/	/rabʃa/	رَبْشة	N	N			insurrection, clash
-A00334	ረከሰ	/rɛkɛsɛ/	/raχasˤa/	رَخَصَ	VP	VP			be cheap
-A00335	ረዘመ	/rɛzɛmɛ/	/razama/	رَزَمَ	VP	VP			be long, tall
-A00336	ረድፍ	/rɛdɨf/	/radf/	رَدْف	N	N			stand in line, wait in line
-A00337	ረጅም	/rɛdʒɨm/	/radʒm/	رَجْم	N	N	RLGN	SH	long
-A00338	ረጠበ	/rɛtˤɛbɛ/	/ratˤaba/	رَطَبَ	VP	VP			be wet
-A00339	ረፈጠ	/rɛfɛtˤɛ/	/rafadˤa/	رَفَضَ	VP	VP			discharge from army
-A00340	ሩማን	/rumaːn/	/rummaːn/	رُمَّان	N	N	PLNT		pomegranate
-A00341	ሩዝ	/ruz/	/ruz/	رُز	N	N	PLNT		rice
-A00342	ራስ	/raːs/	/raʔs/	رَأْس	N	N	ANAT		head
-A00343	ራብዕ	/raːbɨʕ/	/raːbiʕ/	رَابِع	N	N	NUMB		fourth form in the Amharic vowel system
-A00344	ራዕይ	/raːʕɨj/	/raʔi/	رَأي	N	N			mental picture, idea, revelation (as in the Bible)
-A00345	ርሳስ	/rɨsas/	/rasˤaːsˤ/	رَصَاص	N	N			
-A00346	ርባታ	/rɨbata/	/ribaːja/	رِبَايَة	N	N			raising livestock, conjugation (grammatical)
-A00347	ርቱዕ	/rɨtuʕ/	/rituʕ/	رِتُع	N	N			(when used with አንደበተ-), eloquent, articulate, expressive
-A00348	ርችት	/rɨtʃɨt/	/radʒdʒa/	رَجَّة	N	N			firecracker
-A00349	ርእስ	/rɨʔɨs/	/raʔiːs/	رَئِيس	N	N			topic, heading (headline)
-A00350	ርእዮተ	/rɨʔɨjotɛ/	/raʔi/	رَأْي	N	N			philosophy, belief, ideology
-A00351	ርካብ	/rɨkab/	/rikaːb/	رِكَاب	N	N	DMST		footrest, supporter
-A00352	ርዝራዥ	/rɨzɨraːʒ/	/rizraːz/	رِزْراز	N	N			scraps, remnants
-A00353	ርዝቅ	/rɨzɨkʼ/	/rizq/	رِزْق	N	N			reward, profusion (God given)
-A00354	ሮማን	/romaːn/	/rummaːn/	رُمَّان	N	N			pomegranate
-A00355	ሸለለ	/ʃɛlɛlɛ/	/ʃalala/	شَلَلَ	VP	VP			chant war songs
-A00356	ሸለተ	/ʃɛlɛtɛ/	/ʃaratˤa/	شَرَطَ	VP	VP			shear
-A00357	ሸሚዝ	/ʃɛmiz/	/qamiːsˤ/	قَمِيص	N	N	DMST		shirt, blouse
-A00358	ሸረሸረ	/ʃɛrɛʃɛrɛ/	/ʃarʃara/	شَرْشَرَ	VP	VP			erode
-A00359	ሸረኝነት	/ʃɛrɛɲɨnɛt/	/ʃarr/	شَرّ	N	N			iniquity, evil intentions
-A00360	ሸሪክ	/ʃɛrik/	/ʃariːk/	شَرِيك	N	N			associate
-A00361	ሸር	/ʃɛr/	/ʃarr/	شَرّ	N	N			evil, malevolence
-A00362	ሸርሙጣ	/ʃɛrɨmutˤa/	/ʃarmuːtˤa/	شَرْمُوطَة	N	N			slut, seductress, hot stuff
-A00363	ሸፈተ	/ʃɛfɛtɛ/	/ʃafata/	شَفَتَ	VP	VP			revolt
-A00364	ሸፈጠ	/ʃɛfɛtˤɛ/	/ʃafata/	شَفَتَ	VP	VP			deny, deceive
-A00365	ሹም	/ʃum/	/ʃumm/	شُمّ	N	N			high-posted, bureaucrat
-A00366	ሹራብ	/ʃuraːb/	/ʃurraːb/	شُرَّاب	N	N	DMST		stockings, pullover, jumper
-A00367	ሹካ	/ʃuka/	/ʃawka/	شَوْكَة	N	N	DMST		fork
-A00368	ሻማ	/ʃamaː/	/ʃamʕa/	شَمْعة	N	N	DMST		candle
-A00369	ሻሽ	/ʃaʃ/	/ʃaːʃ/	شَاش	N	N	DMST		head scarf (usu. of fine textile)
-A00370	ሻንጣ	/ʃanɨtˤa/	/ʃantˤa/	شَنْطَة	N	N	DMST		
-A00371	ሻይ	/ʃaj/	/ʃaːi/	شَاي	N	N			tea
-A00372	ሽርሙጥና	/ʃɨrɨmutˤɨna/	/ʃarmatˤa/	شَرْمَطَة	N	N			state of being slut, seductress, hotstuff
-A00373	ሽርካ	/ʃɨrɨka/	/ʃarika/	شَرِكة	N	N			joint venture
-A00374	ሽሮፕ	/ʃɨrop/	/ʃaraːb/	شَرَاب	N	N	DMST		syrup
-A00375	ሽንጥ	/ʃɨnɨtˤ/	/ʃintˤ/	شِنط	N	N			
-A00376	ሽፍታ	/ʃɨfɨta/	/ʃifta/	شِفْتا	N	N			insurgent
-A00377	ሽፍትነት	/ʃɨfɨtɨnɛt/	/ʃaftana/	شَفْتَنَة	N	N			insurgence
-A00378	ሾተል	/ʃotɛl/	/ʃawtaːl/	شَوتَال	N	Ncol (sd)	DMST		glaive dagger, sword
-A00379	ቀለህ	/kʼɛlɛh/	/kulla/	كُلَّة	N	N	DMST		shotgun shell, bullet, projectile
-A00380	ቀለም	/kʼɛlɛm/	/qalam/	قَلَم	N	N	DMST		color, dye, ink
-A00381	ቀለበ	/kʼɛlɛbɛ/	/kalaba/	كَلَبَ	VP	VP			catch in midair
-A00382	ቀለደ	/kʼɛlɛdɛ/	/qallada/	قَلَّدَ	VP	VP			joke
-A00383	ቀላል	/kʼɛlaːl/	/qaliːl/	قَلِيل	N	N			simple
-A00384	ቀልብ	/kʼɛlɨb/	/qalb/	قَلْب	N	N			heart, mind
-A00385	ቀመለ	/kʼɛmɛlɛ/	/qamala/	قَمَلَ	VP	VP			remove lice
-A00386	ቀሚስ	/kʼɛmis/	/qamiːsˤ/	قَمِيص	N	N	DMST		female's dress
-A00387	ቀሰሰ	/kʼɛsɛsɛ/	/qasasa/	قَسَسَ	VP	VP	RLGN		be a priest
-A00388	ቀሰፈ	/kʼɛsɛfɛ/	/qasˤafa/	قَصَفَ	VP	VP			kill suddenly
-A00389	ቀስት	/kʼɛsɨt/	/qistˤ/	قِسْط	N	N			
-A00390	ቀረ	/kʼɛrɛ/	/qqrra/	قّرَّ	VP	VP			remain, stay behind
-A00391	ቀረበ	/kʼɛrɛbɛ/	/qaruba/	قَرُبَ	VP	VP			appraoch
-A00392	ቀረፈ	/kʼɛrɛfɛ/	/karafa/	كَرَفَ	VP	VP			peel off bark
-A00393	ቀረፋ	/kʼɛrɛfa/	/qirfa/	قِرْفة	N	Ncol (sd)			cinnamon
-A00394	ቀሪ	/kʼɛri/	/qar/	قَر	N	N			remains, remnants, remainder
-A00395	ቀበረ	/kʼɛbɛrɛ/	/qabara/	قَبَرَ	VP	VP			bury
-A00396	ቀባሪ	/kʼɛbari/	/qabriː/	قَبْرِي	N	N			the bereaved
-A00397	ቀብር	/kʼɛbɨr/	/qabr/	قَبْر	N	N			funeral
-A00398	ቀብድ	/kʼɛbɨd/	/qabdˤ/	قَبْض	N	N			first payment, first installment, deposit
-A00399	ቀነሰ	/kʼɛnɛsɛ/	/qallasˤa/	قَلَّصَ	N	N			decrease
-A00400	ቀነሰ	/kʼɛnɛsɛ/	/kanasa/	كَنَسَ	VP	VP			reduce, subtract
-A00401	ቀነሰ	/kʼɛnɛsɛ/	/kanasa/	كَنَسَ	VP	VP			reduce, subtract
-A00402	ቀየሰ	/kʼɛjasɛ/	/qajasa/	قَيَسَ	VP	VP			measure land
-A00403	ቀየረ	/kʼɛjarɛ/	/ɣajiːjara/	غَيَّرَ	VP	VP			change
-A00404	ቀየረ፡ልብስ	/kʼɛjarɛ፡lɨbɨs/	/ɣjːar/	غِيار(لِبس)	N	N			spare clothes
-A00405	ቀየደ	/kʼɛjadɛ/	/qajiːjada/	قَيَّدَ	VP	VP			tie, hobble
-A00406	ቀደመ	/kʼɛdɛmɛ/	/qadima/	قَدِمَ	VP	VP			precede
-A00407	ቀደሰ	/kʼɛdɛsɛ/	/qaddasa/	قَدَّسَ	VP	VP			praise
-A00408	ቀደደ	/kʼɛdɛdɛ/	/qadada/	قَدَدَ	VP	VP			tear
-A00409	ቀጠፈ	/kʼɛtˤɛfɛ/	/qatˤafa/	قَطَفَ	VP	VP			pluck; lie
-A00410	ቀፈፈ	/kʼɛfɛfɛ/	/kafafa/	كَفَفَ	VP	VP			1. trim edge, 2. beg
-A00411	ቁሌት	/kʼulet/	/qali/	قَلْي	N	N			level of frying, scorching
-A00412	ቁልፍ	/kʼulɨf/	/qifl/	قِفْل	N	N			knob, pin, dead bolt
-A00413	ቁማር	/kʼumaːr/	/qumaːr/	قُمَار	N	N			putting money on
-A00414	ቁራሽ	/kʼuraːʃ/	/quraːʃ/	قُراش	N	N	DMST		small piece of bread
-A00415	ቁር	/kʼur/	/kur/	كُر	N	N			slashed, injury
-A00416	ቁርባን	/kʼurɨban/	/qurbaːn/	قُرْبان	N	N	RLGN		a mass for an occasion such as before burial consecrated (symbolize) bread and wine (Eucharist)
-A00417	ቁርጥማት	/kʼurɨtˤɨmaːt/	/kurdˤuma/	كُرْضُمة	N	Ncol (sd)			stiffness joints or muscles
-A00418	ቁፋሪ	/kʼufari/	/qafr/	قَفْر	N	N			removed soil, earth
-A00419	ቂጣ	/kʼitˤa/	/qitˤʕa/	قِطْعَة	N	N	DMST	SH	Bread
-A00420	ቃሊብ	/kʼalib/	/qaːlib/	قَالِب	N	N			pattern, mold (casting), shape
-A00421	ቃል	/kʼal/	/qawl/	قَوْل	N	N			word, utterance, promise
-A00422	ቃራሚ	/kʼaraːmi/	/karam/	كَرَم	N	N			gatherer, collector (usu. of harvest, crops), gleaner,
-A00423	ቃብድ	/kʼabɨd/	/qabdˤ/	قَبْض	N	N			first installment, first payment, deposit
-A00424	ቃዲ	/kʼadi/	/qaːdˤiː/	قَاضِي	N	N			muslim judge (for religious affairs)
-A00425	ቃፊር	/kʼafir/	/kaːfir/	كَافِر	N	N			spy, reconnoiterer
-A00426	ቄስ	/kʼes/	/qiss/	قِسّ	N	N			clergyman, vicar, father
-A00427	ቈሪ	/kʼoari/	/kawra/	كَوْرَة	N	Ncol (sd)	DMST		blending pot made of wood
-A00428	ቅሌት	/kʼɨlet/	/ɣalatˤ/	غَلَط	N	N			disgrace, infamy, shame
-A00429	ቅራሪ	/kʼɨraːri/	/qiraːr/	قِرار	N	N			residue, diluted form of the local drink ‘tella'
-A00430	ቅርሻት	/kʼɨrɨʃat/	/qirʃaːt/	قِرْشات	N	N			small amount of heave or throw up(often of kids)
-A00431	ቅርቃብ	/kʼɨrɨkʼab/	/qurqaːb/	قُرْقاب	N	N	DMST		loop, rope-like material used to tie a pack (load)
-A00432	ቅርብ	/kʼɨrɨb/	/qariːba/	قَرِيبَ	N	N			near
-A00433	ቅበላ	/kʼɨbɛlaː/	/qibla/	قِبْلَة	N	N	RLGN	SH	welcome
-A00434	ቅበላ	/kʼɨbɛlaː/	/qibla/	قِبْلة	N	N			day before Ash Wednesday
-A00435	ቅንፍ	/kʼɨnɨf/	/kinf/	كِنْف	N	N			brackets, parentheses
-A00436	ቅየሣ	/kʼɨjaśaː/	/qjːas/	قِيَاس	N	N			blueprint, design
-A00437	ቅየራ	/kʼɨjaraː/	/ɣjːar/	غِيَار	N	N			replacement
-A00438	ቅዳሜ	/kʼɨdame/	/qidaːmiː/	قِدامِي	N	N			saturday
-A00439	ቅዳሴ	/kʼɨdase/	/qudaːs/	قُدَاس	N	N	RLGN		mass, liturgy
-A00440	ቅድም	/kʼɨdɨm/	/qadiːma/	قَدِيمَ	N	N			a while ago, before, previously, earlier
-A00441	ቅጽ	/kʼɨsʼ/	/qisˤsˤa/	قِصَّة	N	N			level, number, book digest
-A00442	ቆመ	/kʼomɛ/	/qaːma/	قَامَ	VP	VP			stand
-A00443	ቆመ	/kʼomɛ/	/qawma/	قَوْمَة	N	N			stand
-A00444	ቆሞስ	/kʼomos/	/qumusˤ/	قُمُص	N	N			cleric, rector, parson
-A00445	ቆሪ	/kʼori/	/kawra/	كَوْرَة	N	N	DMST		blending pot made of wood
-A00446	ቆር	/kʼor/	/kuːr/	كُور	N	N	DMST		cove
-A00447	ቆሸሸ	/kʼoʃɛʃɛ/	/kawʃaʃa/	كَوْشَشَ	VP	VP			be dirty
-A00448	ቆዳ	/kʼoda/	/qidd/	قِدّ	N	N	DMST		skin
-A00449	በላ	/bɛlaː/	/balaʕa/	بَلَعَ	VP	VP			eat
-A00450	በረበረ	/bɛrɛbɛrɛ/	/barbara/	بَرْبَرَ	VP	VP			search
-A00451	በረከተ	/bɛrɛkɛtɛ/	/baːraka/	بَارَكَ	VP	VP			increase, be abundant
-A00452	በረከት	/bɛrɛkɛt/	/baraka/	بَرَكَة	N	N	RLGN		blessing
-A00453	በረደ	/bɛrɛdɛ/	/barada/	بَرَدَ	VP	VP			be cold
-A00454	በራ	/bɛraː/	/baraː/	بَرَا	VP	VP			shine
-A00455	በራ	/bɛraː/	/baraqa/	بَرَقَ	VP	VP			shine
-A00456	በራዥ	/bɛraːʒ/	/baraːz/	بَراز	N	N			mole, undercover agent double agent
-A00457	በርሚል	/bɛrɨmil/	/barmiːl/	بَرْمِيل	N	N	DMST		barrel, tub
-A00458	በርሜል	/bɛrɨmel/	/barmiːl/	بَرْمِيل	N	N	DMST		cylinder
-A00459	በርባሪ	/bɛrɨbari/	/barbaːri/	بَرْبارِ	N	N			a person who rummage around for concealed items, person
-A00460	በርኖስ	/bɛrɨnos/	/barnuːsˤ/	بَرْنُوص	N	Ncol (sa)	DMST		a long hooded cloak, burnoose
-A00461	በሽተኛ	/bɛʃɨtɛɲa/	/baʃtana/	بَشْتَنة	N	Ncol (sd)			invalid, unwell person, ill person
-A00462	በቅሎ	/bɛkʼɨlo/	/baɣal/	بَغَل	N	N			cross between horse and donkey (the offspring of a female horse and a male donkey)
-A00463	በቅርቡ	/bɛkʼɨrɨbu/	/biqurb/	بِقُرْب	D	D			
-A00464	በቆሎ	/bɛkʼolo/	/baquːl/	بَقُول	N	N			corn
-A00465	በትር	/bɛtɨr/	/batˤr/	بَطْر	N	N			heavy stick or club
-A00466	በኩር	/bɛkur/	/bikr/	بِكْر	N	N			oldest offspring
-A00467	በወቅቱ	/bɛwɛkʼɨtu/	/biuːaqti/	بِوَقْتِ	N	D			in time
-A00468	በወዘ	/bɛwɛzɛ/	/bawaza/	بَوَزَ	VP	VP			shuffle cards
-A00469	በዛ	/bɛza/	/bazza/	بَزَّ	VP	VP			increase, be much
-A00470	በዛ	/bɛza/	/baza/	بَزا	VP	VP			increase, be much
-A00471	በዝባዥ	/bɛzɨbaʒ/	/basˤbaːsˤ/	بَصْبَاص	N	N			robber, one who takes selfish or unfair advantage of another
-A00472	በየነ	/bɛjanɛ/	/bajiːjana/	بَيَّنَ	VP	VP			decree
-A00473	በያኝ	/bɛjaɲ/	/bajaːn/	بَيَان	N	N			a high ranking court-officer who pronounces sentence
-A00474	በደል	/bɛdɛl/	/badal/	بَدَل	N	N			ill-treatment, harm, damage, mar, abuse
-A00475	በደነ	/bɛdɛnɛ/	/badana/	بَدَنَ	VP	VP			be paralyzed
-A00476	በደው	/bɛdɛw/	/badu/	بَدْو	N	N			nomadic Arab (of the desert regions)
-A00477	በዳ	/bɛda/	/budˤʕ/	بُضْع	N	N			fucking
-A00478	በድረጃን	/bɛdɨrɛdʒan/	/ʔautrudʒaːn/	أُتْرُجَان	N	N	PLNT		a large fruit with shiny purple skin, eaten cooked as vegetable
-A00479	በድን	/bɛdɨn/	/badan/	بَدَن	N	N			corpse, carcass
-A00480	በጠበጠ	/bɛtˤɛbɛtˤɛ/	/batbata/	بَتْبَتَ	VP	VP			shake, disturb
-A00481	በጠበጠ	/bɛtˤɛbɛtˤɛ/	/batbata/	بَتْبَتَ	VP	VP			shake, disturb
-A00482	ቡራኬ	/buraːke/	/baraka/	بَرَكَة	N	N			the saying of grace, before meal,
-A00483	ቡና	/buna/	/bun/	بُن	N	N	DMST		coffee
-A00484	ቡድን	/budɨn/	/badan/	بَدَن	N	N			band, squad, crew, party
-A00485	ባሕር	/bahɨr/	/baħr/	بَحْر	N	N			sea
-A00486	ባሕር	/bahɨr/	/baħr/	بَحْر	N	N			ocean, the deep
-A00487	ባለገ	/balɛgɛ/	/baːlaɣa/	بَالَغَ	VP	VP			be rude
-A00488	ባል	/bal/	/baʕal/	بَعَل	N	N			husband
-A00489	ባሰ	/basɛ/	/baʔsa/	بَأسَ	VP	VP			get worse
-A00490	ባረቀ	/barɛkʼɛ/	/barq/	بَرْق	N	N			flared, blazed up
-A00491	ባረከ	/barɛkɛ/	/baraka/	بَرَكَ	VP	VP			kneel
-A00492	ባሩድ	/barud/	/baːruːd/	بَارُود	N	N			gunpowder
-A00493	ባርኔጣ	/barɨnetˤa/	/barniːtˤa/	بَرْنِيطَة	N	N	DMST		cap, headdress
-A00494	ባርዳ	/barɨda/	/fariːdˤa/	فَرِيضَة	N	N			deduction from gross weight
-A00495	ባሻ	/baʃa/	/baːʃa/	بَاشا	N	N			a military title commander of a platoon or small contingent
-A00496	ባቄላ	/bakʼelaː/	/baːqlaːʔ/	بَاقْلاء	N	N	DMST		the seed of leguminous plant
-A00497	ቤተ፡ክህነት	/betɛ፡kɨhɨnɛt/	/bajt aːlkaːhin/	بَيْت الكَاهِن	N	N			the head office of the orthodox church
-A00498	ቤት	/bet/	/bajt/	بَيْت	N	N	DMST		house
-A00499	ብስራት	/bɨsɨraːt/	/biʃaːra/	بِشَارة	N	N			excellent story
-A00500	ብራቅ	/bɨraːkʼ/	/barq/	بَرْق	N	N			flash of light
-A00501	ብራቅ	/bɨraːkʼ/	/biraːk/	بِرَاك	N	N			levin, fulminator
-A00502	ብርሀን	/bɨrɨhɛn/	/burhaːn/	بُرْهَان	N	N			light
-A00503	ብርሃን	/bɨrɨhaːn/	/burhaːn/	بُرْهَان	N	N			
-A00504	ብርቱካን	/bɨrɨtukan/	/burtuqaːl/	بُرْتُقال	N	N	DMST		citrus fruit (orange)
-A00505	ብርካቴ	/bɨrɨkate/	/barakaːt/	بَرَكات	N	N	RLGN		excess, profusion, large quantity
-A00506	ብርድ	/bɨrɨd/	/bird/	بِرْد	N	N			chilly, wintry weather
-A00507	ብቅል	/bɨkʼɨl/	/baqal/	بَقَل	N	N			grain used to make alcoholic drinks
-A00508	ብቻውን	/bɨtʃawɨn/	/biduːni/	بِدُونِ	D	D			without
-A00509	ብናማ	/bɨnamaː/			D	D			
-A00510	ብዛት	/bɨzat/	/bizaːz/	بِزاز	N	N			surplus, measure
-A00511	ብያኔ	/bɨjane/	/bajaːn/	بَيَان	N	N			ruling, verdict, sentence
-A00512	ብይን	/bɨjɨn/	/bajaːn/	بَيَان	N	N			ruling, verdict, sentence
-A00513	ብጥበጣ	/bɨtˤɨbɛtˤa/	/batˤbatˤa/	بَطْبَطة	N	N			riot commotion, disorder
-A00514	ብጥብጥ	/bɨtˤɨbɨtˤ/	/batˤbatˤa/	بَطْبَطة	N	N			riot commotion, disorder
-A00515	ተለተለ	/tɛlɛtɛlɛ/	/talatala/	تَلَتَلَ	VP	VP			cut in many places
-A00516	ተለተለ	/tɛlɛtɛlɛ/	/taltala/	تَلْتَلَ	VP	VP			cut in many places
-A00517	ተለጣፊ	/tɛlɛtˤafi/	/taltˤaːf/	تَلْطَاف	N	N			a material hanging to be glued, pasted, attached with another (which is sticky by itself), forged, counterfeit
-A00518	ተመረኮዘ	/tɛmɛrɛkozɛ/	/tamarkaza/	تَمَرْكَزَ	VP	VP			lean, be biased
-A00519	ተመነ	/tɛmɛnɛ/	/θammana/	ثَمَّنَ	VP	VP			put a price on
-A00520	ተመን	/tɛmɛn/	/θaman/	ثَمَن	N	N			cost, value, charge
-A00521	ተመኘ	/tɛmɛɲɛ/	/tamannaː/	تَمَنَّى	VP	VP			wish
-A00522	ተምር	/tɛmɨr/	/tamr/	تَمْر	N	N			date palm (small dark-colored oral fruit)
-A00523	ተሰሚ  ነህ  	/tɛsɛmi nɛh/	/tasammuʕ/	تَسَمُّع	N	N			
-A00524	ተሰናዳ	/tɛsɛnada/	/tasaːnud/	تَسَانُد	VP	VP			arrange, prepare
-A00525	ተረበኛ	/tɛrɛbɛɲa/	/mutˤrib/	مُطْرِب	N	N			satirist, joker, comic
-A00526	ተረብ	/tɛrɛb/	/tˤarab/	طَرَب	N	N			ironical, satirical humor
-A00527	ተረጎመ	/tɛrɛgomɛ/	/tardʒama/	تَرْجَمَ	VP	VP			interpret, translate
-A00528	ተረፈ	/tɛrɛfɛ/	/tˤaraf/	طَرَف	N	N			side
-A00529	ተረፈ	/tɛrɛfɛ/	/tˤarafa/	طَرَفَ	VP	VP			be extra
-A00530	ተራቢ	/tɛraːbi/	/tˤaraːb/	طَرَاب	N	N			flatteer, joker, jester
-A00531	ተራኪ	/tɛraːki/	/tarraːχ/	تَرَّاخ	N	N			story teller, chronicles
-A00532	ተርጉም	/tɛrɨgum/	/tardʒama/	تَرْجَمَة	N	N			translate
-A00533	ተቀበለ	/tɛkʼɛbɛlɛ/	/taqabbala/	تَقَبَّلَ	VP	VP			receive
-A00534	ተቀበል	/tɛkʼɛbɛl/	/taqabbul/	تَقَبُّل	N	N			accept
-A00535	ተቃረነ	/tɛkʼarɛnɛ/	/taqaːrana/	تَقَارَنَ	VP	VP			clash
-A00536	ተቃኘ	/tɛkʼaɲɛ/	/taɣannaː/	تَغَنَّى	VP	VP			compose hymns
-A00537	ተቃዋሚ	/tɛkʼawami/	/muqaːwim/	مُقاوِم	N	N			adversary, enemy, foe
-A00538	ተቃውሞ	/tɛkʼawɨmo/	/muqaːwama/	مُقاوَمَة	N	N			antagonism, unfriendliness, protestation
-A00539	ተነበየ	/tɛnɛbɛja/	/tanabaːʔ/	تَنَبَّأ	VP	VP	RLGN		prophesy
-A00540	ተነፈሰ	/tɛnɛfɛsɛ/	/tanaffasa/	تَنَفَّسَ	VP	VP			breathe
-A00541	ተነፈጠ	/tɛnɛfɛtˤɛ/	/tanaffatˤa/	تَنَفَّطَ	VP	VP			blow (nose)
-A00542	ተንበረከከ	/tɛnɨbɛrɛkɛkɛ/	/baraka/	بَرَكَ	VP	VP			kneel
-A00543	ተንባይ	/tɛnɨbaj/	/tanabbuʔui/	تَنَبُّؤي	N	N			forecaster, seer
-A00544	ተንባይ	/tɛnɨbaj/	/tanbaːi/	تَنْباي	N	N			forecaster, seer
-A00545	ተንከተከተ	/tɛnɨkɛtɛkɛtɛ/			VP	VP			laugh on and on
-A00546	ተከራየ	/tɛkɛraːja/	/takaraːi/	تَكَرَاي	VP	VP			rent, hire
-A00547	ተከራይ	/tɛkɛraːj/	/mukriː/	مُكْرِي	N	N			leaseholder, lessee, renter
-A00548	ተከተለ	/tɛkɛtɛlɛ/	/takattala/	تَكَتَّلَ	VP	VP			follow
-A00549	ተካፈለ	/tɛkafɛlɛ/	/takaːful/	تَكَافُل	N	N			mutual sharing
-A00550	ተካፋይ	/tɛkafaj/	/mukaːfiːʔ/	مُكَافِيء	N	N			partaker, accomplice
-A00551	ተክህኖ	/tɛkɨhɨno/	/takahhun/	تَكَهُّن	N	N			the act of consecration
-A00552	ተኮራመተ	/tɛkoraːmɛtɛ/	/tawarrama/	تَوَرَّمَ	VP	VP			double over
-A00553	ተወላጅ	/tɛwɛlaːdʒ/	/tawallud/	تَوَلُّد	N	N			family connections, next of kin, close relative
-A00554	ተዋሕዶ	/tɛwahɨdo/	/tawħiːd/	تَوْحِيد	N	N			believing in Jesus Christ's single inseparable nature
-A00555	ተዋበ	/tɛwabɛ/	/tˤaːba/	طَابَ	VP	VP			be beautiful
-A00556	ተዘካሪ	/tɛzɛkari/	/tiðkaːr/	تِذْكَار	N	N			charity, donor
-A00557	ተዝካር	/tɛzɨkar/	/tiðkaːr/	تِذْكَار	N	N			commemorative banquet for the deceased
-A00558	ተዝካር	/tɛzɨkar/	/tiðkaːr/	تِذْكَار	N	N			feast in remembering of a dead relative
-A00559	ተጠራቀመ	/tɛtˤɛraːkʼɛmɛ/	/taraːkama/	تَرَاكَمَ	VP	VP			amass, collect
-A00560	ተጠራቀመ	/tɛtˤɛraːkʼɛmɛ/	/taraːkama/	تَراكَمَ	VP	VP			amass, collect
-A00561	ተጫረተ	/tɛtʃarɛtɛ/	/taʃaːratˤa/	تَشارَطَ	VP	VP			bid
-A00562	ተፈጥሮ	/tɛfɛtˤɨro/	/tafatˤtˤur/	تَفَطُّر	N	N	RLGN		essence, creation, disposition
-A00563	ተፋ	/tɛfa/	/taffa/	تَفَّ	VP	VP			spit, vomit
-A00564	ቱፋሕ	/tufah/	/tuffaːħ/	تُفَّاح	N	N	PLNT		apple
-A00565	ቲማቲም	/timaːtim/	/tˤamaːtˤim/	طَمَاطِم	N	N	PLNT		tomato
-A00566	ታማሚ	/tamaːmi/	/tˤamaːm/	طَمَام	N	N			unwell person, one who's under the weather
-A00567	ታማሚ	/tamaːmi/	/tˤumaːm/	طُمَام	N	N			disgust
-A00568	ታምቡር	/tamɨbur/	/tˤambuːr/	طَمْبُور	N	N	DMST		tom-tom, tambourine, tumbrel
-A00569	ታሳሪ	/tasari/	/tasrriː/	تَسْرِّي	N	N			
-A00570	ታረዘ	/tarɛzɛ/	/taʕarraː/	تَعَرَّى	VP	VP			be naked
-A00571	ታሪክ	/tarik/	/taːriːχ/	تَارِيخ	N	N			history
-A00572	ታሪክ	/tarik/	/taːriːχ/	تَارِيخ	N	N			chronicle, record study or past indent
-A00573	ታሪፍ	/tarif/	/taʕrifa/	تَعْرِفة	N	N			tax, excise
-A00574	ታቦት	/tabot/	/taːbuːt/	تَابُوت	N	N	RLGN		ark of the tabernacle
-A00575	ታኒካ	/tanika/	/tanaka/	تَنَكة	N	N	DMST		canister, container for hair oil, and so on
-A00576	ታንክ	/tanɨk/	/taːnk/	تانْك	N	N			war-chariot, ammunition wagon, armored car
-A00577	ታንኳ	/tanɨk/	/tanak/	تَنَك	N	N			rowboat, galley
-A00578	ታወረ	/tawɛrɛ/	/taʕawuːara/	تَعَوَّرَ	VP	VP			go blind
-A00579	ትሕትና	/tɨhɨtɨna/	/taħt/	تَحْت	N	N			diffidence, reserve, humbleness
-A00580	ትሩፋት	/tɨrufat/	/tirifaːd/	تِرِفَاد	N	N			donation, assistance, aid
-A00581	ትራስ	/tɨraːs/	/taras/	تَرَس	N	N	DMST		cushion, head support
-A00582	ትርጁማን	/tɨrɨdʒumaːn/	/turdʒumaːn/	تُرْجُمان	N	N			somebody who translates from one language to another
-A00583	ትርጁማን	/tɨrɨdʒumaːn/	/tirdʒumaːn/	تِرْجُمان	N	N			analyst, translator
-A00584	ትርጉም	/tɨrɨgum/	/tardʒama/	تَرْجَمَة	N	N			conversion in to a different language or version
-A00585	ትርጓሜ	/tɨrɨgoame/	/tardʒama/	تَرْجَمَة	N	N			explanation, interpretation, observation
-A00586	ትንቢት	/tɨnɨbit/	/tanabbuʔu/	تَنَبُّؤ	N	N			foretelling, foresight
-A00587	ትንቢት	/tɨnɨbit/	/tanbiʔia/	تَنْبِئة	N	N			forecast, prediction
-A00588	ትንፋሽ	/tɨnɨfaʃ/	/tanaffus/	تَنَفُّس	N	N			mouthful of air, gulp of air, gasp
-A00589	ትንፋሽ	/tɨnɨfaʃ/	/tanaffus/	تَنَفُّس	N	N			mouthful of air, inhalation
-A00590	ትዕይንተ	/tɨʕɨjɨnɨtɛ/	/taʕannut/	تَعَنُّتْ	N	N			display of public protest
-A00591	ትውልድ	/tɨwɨlɨd/	/tawallud/	تَوَلُّد	N	N			generation, age group, age range, contemporaries
-A00592	ትግል	/tɨgɨl/	/θiqal/	ثِقَل	N	N			great effort, rebellion
-A00593	ትጥቅ	/tɨtˤɨkʼ/	/titik/	تِتِك	N	Ncol (sd)	DMST		tools, uncials, ammunition
-A00594	ቸልታ	/tʃɛlɨta/	/ɣaltˤa/	غَلْطة	N	N			carelessness, disregard
-A00595	ቸረቸረ	/tʃɛrɛtʃɛrɛ/	/tadʒara/	تَجَرَ	VP	VP			retail
-A00596	ችካል	/tʃɨkal/	/ʃankal/	شَنْكَل	N	N	DMST		dowel, hook, nail
-A00597	ነምር	/nɛmɨr/	/namr/	نَمْر	N	N	ANIM		large spotted cat, panther padres (scientific name)
-A00598	ነሰረ	/nɛsɛrɛ/	/nasara/	نَسَرَ	VP	VP			bleed (nose)
-A00599	ነሸጠ	/nɛʃɛtˤɛ/	/naʃatˤa/	نَشَطَ	VP	VP			animate
-A00600	ነቀለ	/nɛkʼɛlɛ/	/naqala/	نَقَلَ	VP	VP			uproot
-A00601	ነቀሰ	/nɛkʼɛsɛ/	/naqaʃa/	نَقَشَ	VP	VP			comb; glean; tattoo
-A00602	ነቀዘ	/nɛkʼɛzɛ/	/nakaza/	نَكَزَ	VP	VP			be spoiled
-A00603	ነቁጥ	/nɛkʼutˤ/	/nuqtˤa/	نُقْطة	N	N			blemish, stain, mark
-A00604	ነቃሽ	/nɛkʼaʃ/	/naqʃ/	نَقْش	N	N			tattooed, tattooist
-A00605	ነቢይ	/nɛbij/	/nabiːi/	نَبِيّ	N	N	RLGN		prophet
-A00606	ነብር	/nɛbɨr/	/namir/	نَمِر	N	N	ANIM		tiger
-A00607	ነብር	/nɛbɨr/	/namir/	نَمِر	N	N	ANIM		leopard
-A00608	ነዛ	/nɛza/	/wazzaʕa/	وَزَّعَ	VP	VP			spread, disseminate
-A00609	ነገ	/nɛgɛ/	/ɣadan/	غَدَاً	N	N			
-A00610	ነገደ	/nɛgɛdɛ/	/naqada/	نَقَدَ	VP	VP			trade
-A00611	ነጋሢ	/nɛgaśi/	/nadʒaːʃiː/	نَجاشِي	N	N			monarch, supreme head of state
-A00612	ነጋዴ	/nɛgade/	/naqaːdi/	نَقادي	N	Ncol (sd)			commercial dealer
-A00613	ነጨ	/nɛtʃɛ/	/nataʃa/	نَتَشَ	VP	VP			peck, plump out
-A00614	ነጻ	/nɛsʼa/	/nasˤaʕa/	نَصَعَ	VP	VP			be white
-A00615	ነፈሰ፡ቅዱስ	/nɛfɛsɛ፡kʼɨdus/	/nafs quds/	نَفْس قُدْس	N	N	RLGN		holy ghost
-A00616	ነፋስ	/nɛfas/	/nafas/	نَفَس	N	N			wind
-A00617	ነፋስ	/nɛfas/	/nafs/	نَفس	N	N			storm, blustery weather
-A00618	ነፍስ	/nɛfɨs/	/nafs/	نَفْس	N	N			soul
-A00619	ነፍስ	/nɛfɨs/	/nafs/	نَفْس	N	N			non physical aspect of person, spirit surviving death
-A00620	ኒሻን	/niʃan/	/niːʃaːn/	نِيشان	N	N	DMST		award, decoration
-A00621	ናፍቆት	/nafɨkʼot/	/aːftiqaːd/	افْتِقاد	N	N			craving desire, homesickness
-A00622	ንስሐ	/nɨsɨhɛ/	/nasˤiːħa/	نَصِيحة	N	N			pretence, atonement
-A00623	ንስር	/nɨsɨr/	/nisr/	نِسْر	N	N	ANIM		eagle
-A00624	ንቃት	/nɨkʼat/	/nikaːθ/	نِكاث	N	N			nimbleness, suppleness, alertness
-A00625	ንቅነቃ	/nɨkʼɨnɛkʼa/	/naqnaqa/	نَقْنَقة	N	Ncol (sd)			disturbance, shake up, stir
-A00626	ንቅናቄ	/nɨkʼɨnakʼe/	/naqnaːq/	نَقْنَاق	N	N			rebellion, revolt, unrest
-A00627	ንቅናቄ	/nɨkʼɨnakʼe/	/niqnaːq/	نِقْنَاق	N	N			rebellion, revolt, unrest
-A00628	ንድፍ	/nɨdɨf/	/nadf/	نَدْف	N	N			draft, drawing, pulled apart, yarn, fibers
-A00629	ንገዳ	/nɨgɛda/	/naqd/	نَقْد	N	N			the act of buying and selling, or do business
-A00630	ንጉሥ	/nɨguś/	/niɣus/	نِغُس	N	N	RLGN		males sovereign, ruler, God or Jesus Christ
-A00631	ንግሥት	/nɨgɨśɨt/	/niɣst/	نِغْسْت	N	N			female sovereign
-A00632	ንግድ	/nɨgɨd/	/naqd/	نَقْد	N	N			business
-A00633	ንግድ	/nɨgɨd/	/naqd/	نَقْد	N	N			buying and selling brand,
-A00634	ንጣፍ	/nɨtˤaf/	/nitaːf/	نِتاف	N	N			floor mat, rug,
-A00635	ንጥል	/nɨtˤɨl/	/natl/	نَتْل	N	N			separated, positioned apart
-A00636	ንጥር	/nɨtˤɨr/	/natr/	نَتْر	N	N			purified
-A00637	ንጹህ	/nɨsʼuh/	/nasˤuːħu/	نَصُوحُ	N	N	DMST		clean
-A00638	ንጹሕነት	/nɨsʼuhɨnɛt/	/nisˤuːħ/	نِصُوح	N	N			hygiene, sanitation
-A00639	ንጻት	/nɨsʼat/	/nasˤiːħa/	نَصِيحة	N	N			hygiene, sanitation
-A00640	ንጽሕና	/nɨsʼɨhɨna/	/nasˤiːħa/	نَصِيحة	N	N			hygiene, sanitation
-A00641	ንፍገት	/nɨfɨgɛt/	/nifɣat/	نِفْغَت	N	N			stinginess, greediness, tightfistedness
-A00642	ንፍጥ	/nɨfɨtˤ/	/niftˤ/	نِفْط	N	N	ANAT		slimy secretion (from the mucus membrane)
-A00643	አለመ	/ʔɛlɛmɛ/	/ħalima/	حَلِمَ	VP	VP			dream
-A00644	አለሳለስ	/ʔɛlɛsalɛs/	/salaːsa/	سَلاسة	N	N			softness, silkiness, gentleness
-A00645	አለበ	/ʔɛlɛbɛ/	/ħalaba/	حَلَبَ	VP	VP			milk
-A00646	አላቢ	/ʔɛlaːbi/	/ħallaːb/	حَلّاب	N	N			woman who milks cows
-A00647	አልማዝ	/ʔɛlɨmaːz/	/ʔalmaːðˤ/	ألْماظ	N	N	DMST		diamond
-A00648	ዐልቅት	/ʕɛlɨkʼɨt/	/ʕalaqa/	عَلَقَة	N	N			bloodsucker, leech, tick
-A00649	አልባሽ	/ʔɛlɨbaʃ/	/aːlbaːʃ/	الْباش	N	N			an appointee who is responsible to dress in someone (frequently in the clergy, house of the king or queen)
-A00650	አመለከ	/ʔɛmɛlɛkɛ/	/malaka/	مَلَكَ	VP	VP			worship
-A00651	ዐመል	/ʕɛmɛl/	/ʕamal/	عَمَل	N	N			conduct, demeanor, habit character,
-A00652	አመሰኳ	/ʔɛmɛsɛk/	/ʔamsaka/	أمْسَكَ	VP	VP			ruminate
-A00653	አመረተ	/ʔɛmɛrɛtɛ/	/ʔamrada/	أَمْرَدَ	VP	VP			be cleaned and threshed
-A00654	አመቀ	/ʔɛmɛkʼɛ/	/ʕamaka/	عَمَكَ	VP	VP			squeeze, compress
-A00655	አመት	/ʔɛmɛt/	/ʕaːm/	عَام	N	N			
-A00656	አመነ	/ʔɛmɛnɛ/	/ʔaːmana/	آمَنَ	VP	VP			believe
-A00657	ዐመጥ	/ʕɛmɛtˤ/	/ʕamat/	عَمَت	N	N			uprising, rebellion, protest, revolt, mutiny, sedition
-A00658	አሙስ	/ʔɛmus/	/aːlχamiːs/	الْخَمِيس	N	N			thursday
-A00659	አማኝ	/ʔɛmaːɲ/	/ʔaːmin/	آمِن	N	N			advocate, one who trusts in (someone, something)
-A00660	አምላኪ	/ʔɛmɨlaːki/	/ʔamlaq/	أمْلَق	N	N			extreme admirer (one who gives adoration and devotion to a deity)
-A00661	አምላክ	/ʔɛmɨlaːk/	/malak/	مَلَك	N	N			deity
-A00662	አምና	/ʔɛmɨna/	/ʕaːman/	عَامَن	N	Ncol (sd)			the previous year
-A00663	ዐምድ	/ʕɛmɨd/	/ʕamd/	عَمْد	N	N			post, pillar, support, column, prop
-A00664	አሞት	/ʔɛmot/	/ħamuːdˤ/	حَمُوض	N	N			digestive fluid (yellowish green) produced in the liver; anger, wrath, rage
-A00665	አሰላፊ	/ʔɛsɛlaːfi/	/ʔasalaf/	أسَلَف	N	N			controller of a procession or pageant
-A00666	አሠሣ	/ʔɛśɛśaː/	/ʔasaːs/	أسَاس	N	N			extensive search
-A00667	አሰረ	/ʔɛsɛrɛ/	/ʔasara/	أسَرَ	VP	VP			tie, imprison
-A00668	አሰራ	/ʔɛsɛraː/	/ʔasara/	أسَرَ	VP	VP			recoup, recover
-A00669	አሠር	/ʔɛśɛr/	/ʕasˤr/	عَصْر	N	N			remaining, residue, waste material from the body
-A00670	አሰበ	/ʔɛsɛbɛ/	/ħasiba/	حَسِبَ	VP	VP			think, intend
-A00671	አሣሪ	/ʔɛśaːri/	/ʔaːsir/	آسِر	N	N			one who puts someone behind bars
-A00672	አሣር	/ʔɛśaːr/	/isˤr/	إصْر	N	N			test suffering, ordeal
-A00673	አሳበበ	/ʔɛsabɛbɛ/	/ʔasbaba/	أَسْبَبَ	VP	VP			excuse
-A00674	አሳባቂ	/ʔɛsabakʼi/	/sˤabaːɣ/	صَبَاغ	N	N			concocter, slanderer, spiteful
-A00675	አሴረ	/ʔɛserɛ/	/ʔasara/	أسَرَ	VP	VP			plot, conspire
-A00676	አስስ	/ʔɛsɨs/	/ʕasas/	عَسَس	N	N			patrol
-A00677	አስረዳ	/ʔɛsɨrɛda/	/ʔasrada/	أسْرَدَ	VP	VP			realize
-A00678	አስተና	/ʔɛsɨtɛna/	/aːstannaː/	اسْتَنَّى	N	N			Look
-A00679	አስተናጋጅ	/ʔɛsɨtɛnagadʒ/	/mudˤiːf/	مُضِيف	N	N			host
-A00680	አስነጠሰ	/ʔɛsɨnɛtˤɛsɛ/	/ʕatˤs/	عَطْس	N	N			
-A00681	አስፍሪ	/ʔɛsɨfɨri/	/ʔasfar/	أسْفَر	N	N			a person who escorts an individual getting aboard
-A00682	አረመደ	/ʔɛrɛmɛdɛ/	/ʔarmada/	أَرْمَدَ	VP	VP			dip (powder)
-A00683	አረሰ	/ʔɛrɛsɛ/	/ʔarsaː/	أَرْسَى	VP	VP			plow, till
-A00684	ዐረብ	/ʕɛrɛb/	/ʕarab/	عَرَب	N	N			arab
-A00685	ዐረብኛ	/ʕɛrɛbɨɲa/	/ʕarabiːja/	عَرَبِيَّة	N	N			arabic language
-A00686	ዐረብያ	/ʕɛrɛbɨja/	/ʕarabiːja/	عَرَبِيَّة	N	N			arabia
-A00687	አረደ	/ʔɛrɛdɛ/	/ʔardaː/	أَرْدَى	VP	VP			slaughter (animal)
-A00688	አረገ	/ʔɛrɛgɛ/	/ʕaradʒa/	عَرَجَ	VP	VP	RLGN		go up into heaven
-A00689	አራ	/ʔɛraː/	/χaraʔ/	خَرَأ	VP	VP			defecate
-A00690	አርቢ	/ʔɛrɨbi/	/ʔarbi/	أرْبِ	N	N			livestock (cattle, sheep, pigs, etc.) raiser
-A00691	አርቲ፡ቡርቲ	/ʔɛrɨti፡burɨti/	/ʔarti/	أرْتِ	N	N	RLGN		ritual, incantation
-A00692	አሸነፈ	/ʔɛʃɛnɛfɛ/	/ʔaʃnafa/	أشْنَفَ	VP	VP			win
-A00693	አሹራ	/ʔɛʃuraː/	/ʕuʃr/	عُشْر	N	N			tariff paid for selling one's land
-A00694	አሻራ	/ʔɛʃaraː/	/iʃaːra/	إشَارة	N	N			mark made by pressing an inked finger on to paper
-A00695	አሽከር	/ʔɛʃɨkɛr/	/ʕaskar/	عَسْكَر	N	N			house maid (usually male)
-A00696	ዐቀበት	/ʕɛkʼɛbɛt/	/ʕaqaba/	عَقَبَة	N	N			steep, sheer, vertical, upward slope
-A00697	አቀደ	/ʔɛkʼɛdɛ/	/ʕaqada/	عَقَدَ	VP	VP			plan, design
-A00698	ዐቃቤ	/ʕɛkʼabe/	/ʕiqaːb/	عِقَاب	N	N			
-A00699	ዐቅል	/ʕɛkʼɨl/	/ʕaql/	عَقْل	N	N			intelligence, acumen, mind, insight, sense, brain
-A00700	ዐቅድ	/ʕɛkʼɨd/	/ʕaqd/	عَقْد	N	N			preparation, plan, scheme, idea, proposal
-A00701	አባ	/ʔɛba/	/ʔaba/	أبا	N	N			title for a cleric
-A00702	አባት	/ʔɛbat/	/ʔabat/	أبَت	N	N			father
-A00703	አብራሪ	/ʔɛbɨraːri/	/ʔabraːr/	أبْرار	N	N			pilot
-A00704	አተመ	/ʔɛtɛmɛ/	/ʔatamma/	أتَمَّ	VP	VP			seal, print
-A00705	አታክልት	/ʔɛtakɨlɨt/	/ʔakl/	أكْل	N	N			edible plant, especially leafy or fleshy parts, like cabbage. Salad
-A00706	አነቃናቂ	/ʔɛnɛkʼanakʼi/	/naqnaːq/	نَقْنَاق	N	Ncol (sd)			one who stirs, shakes up or disturbs
-A00707	አነጠሰ	/ʔɛnɛtˤɛsɛ/	/ʕatˤasa/	عَطَسَ	VP	VP			sneeze
-A00708	አነፈነፈ	/ʔɛnɛfɛnɛfɛ/	/nafnafa/	نَفْنَفَ	VP	VP			smell, sniff
-A00709	አንበሳ	/ʔɛnɨbɛsa/	/ʕambsa/	عَمْبسَة	N	Ncol (sd)	ANIM		lion
-A00710	አንበሪ	/ʔɛnɨbɛri/	/ʕanbar/	عَنْبَر	N	N	ANIM		whale
-A00711	አንጣፊ	/ʔɛnɨtˤafi/	/aːntaːfi/	انْتافِ	N	N			master of the bedchamber
-A00712	አኘከ	/ʔɛɲɛkɛ/	/ʕalaka/	عَلَكَ	VP	VP			chew, masticate
-A00713	አዕማድ	/ʔɛʕɨmaːd/	/ʔaʕmud/	أعْمُد	N	N			post, support, column, pillars, prop
-A00714	አከፋፋይ	/ʔɛkɛfafaj/	/ʔakfʔ/	أكْفأ	N	N			one who shares out, issues (e.g.. Accommodates, to retailers, vendors
-A00715	አካፋ	/ʔɛkafa/	/ʕakf/	عَكْف	N	N			
-A00716	አክሊል	/ʔɛkɨlil/	/ikliːl/	إكْلِيل	N	N	DMST		crown
-A00717	አወሳ	/ʔɛwɛsa/	/ʔawsˤaː/	أَوْصَى	VP	VP			talk, chat
-A00718	አወራ	/ʔɛwɛraː/	/ʔawraː/	أوْرَى	VP	VP			talk, describe
-A00719	አወከ	/ʔɛwɛkɛ/	/ʕawuːaqa/	عَوَّقَ	VP	VP			upset, trouble
-A00720	አወደ	/ʔɛwɛdɛ/	/ʕawada/	عَوَدَ	VP	VP			perfume
-A00721	አወደ	/ʔɛwɛdɛ/	/ʕawuːada/	عَوَّدَ	VP	VP			perfume
-A00722	አውታር	/ʔɛwɨtar/	/ʔawtaːr/	أوْتار	N	N	DMST		string or cord of an ancient musical instrument called lyre, with strings fixed in a frame shaped like U, and played with fingers
-A00723	አዘቦት	/ʔɛzɛbot/	/ʔausbuːʕ/	أُسْبُوع	N	N			
-A00724	አዘዘ	/ʔɛzɛzɛ/	/ʔawʕaza/	أوْعَزَ	VP	VP			order
-A00725	አዝሙድ	/ʔɛzɨmud/	/iθmud/	إثْمُد	N	N	PLNT		a plant called cumin, with seeds that are used as a spice in foods
-A00726	አዝራር	/ʔɛzɨraːr/	/ʔazraːr/	أزْرَار	N	N	DMST		button (of clothes)
-A00727	አዟሪ	/ʔɛzoari/	/ʔazuːar/	أزْوَر	N	N			person who travels around selling small things
-A00728	አየ	/ʔɛja/	/ʕaːjana/	عَايَنَ	VP	VP			see
-A00729	አይሁድ	/ʔɛjɨhud/	/jahuːd/	يَهُود	N	N			jew
-A00730	ዐይነ	/ʕɛjɨnɛ/	/ʕajn/	عَيْن	N	N	ANAT		eye
-A00731	አደለ	/ʔɛdɛlɛ/	/ʕadal/	عَدَل	VP	VP			distribute
-A00732	አደለ	/ʔɛdɛlɛ/	/ʕadala/	عَدَلَ	VP	VP			distribute
-A00733	አደበ	/ʔɛdɛbɛ/	/ʔadaba/	أَدَبَ	VP	VP			behave well
-A00734	አዲስ	/ʔɛdis/	/ħadiːθ/	حَدِيث	N	N			new
-A00735	አጋማሽ	/ʔɛgamaːʃ/	/ʔaχmasˤ/	أخْمَص	N	N			half, halfway
-A00736	አጠፈ	/ʔɛtˤɛfɛ/	/ʕatˤafa/	عَطَفَ	VP	VP			fold
-A00737	አጥር	/ʔɛtˤɨr/	/itˤaːr/	إِطَار	N	N			fence
-A00738	አፈረ	/ʔɛfɛrɛ/	/χafara/	خَفَرَ	VP	VP			be shy
-A00739	አፈቀረ	/ʔɛfɛkʼɛrɛ/	/ʔafkara/	أفْكَرَ	VP	VP			love
-A00740	አፍንጫ	/ʔɛfɨnɨtʃa/	/ʔanf/	أنْف	N	N			nose
-A00741	ዒላማ	/ʕilaːmaː/	/ʕalaːma/	عَلَامَة	N	N			target
-A00742	ዓለም	/ʕalɛm/	/ʕaːlam/	عَالَم	N	N			world
-A00743	ዓላማ	/ʕalaːmaː/	/ʕalaːma/	عَلَامَة	N	N			flag
-A00744	ዓመተ፡ማረ	/ʕamɛtɛ፡maːrɛ/	/ʕaːm/	عَام	N	N			year of Grace, Anno Domini (A.D)
-A00745	ዓይን	/ʕajɨn/	/ʕajn/	عَيْن	N	N			eye
-A00746	እሑድ	/ʔɨhud/	/ʔaħad/	أحَد	N	N			Sunday
-A00747	እህል	/ʔɨhɨl/	/ʔahl/	أهْل	N	N			harvest, yield, grain, crop, produce, food
-A00748	እህት	/ʔɨhɨt/	/ʔauχt/	أُخْت	N	N			sister
-A00749	እኅት	/ʔɨħɨt/	/ʔauχt/	أُخْت	N	N			sister
-A00750	እልቂት	/ʔɨlɨkʼit/	/ilɣaːʔ/	إلْغاء	N	N			abolition
-A00751	እመን	/ʔɨmɛn/	/ʔamn/	أمْن	N	N			trust
-A00752	እምስ	/ʔɨmɨs/	/ʔams/	أمْس	N	N			vagina, vulva
-A00753	ዕምቅ	/ʕɨmɨkʼ/	/ʕimk/	عِمْك	N	N			crowded, stuffed, packed full
-A00754	እምነት	/ʔɨmɨnɛt/	/iːmaːn/	إيمَان	N	N	RLGN		belief
-A00755	እምነት	/ʔɨmɨnɛt/	/ʔamaːna/	أمَانة	N	N			conviction, trust, confidence
-A00756	እስላም	/ʔɨsɨlaːm/	/islaːm/	إسْلام	N	N	RLGN		islam
-A00757	እስረኛ	/ʔɨsɨrɛɲa/	/ʔasiːr/	أسِير	N	N			
-A00758	እሥራት	/ʔɨśɨraːt/	/ʔasr/	أسْر	N	N			incarceration, custody, confinement, detention
-A00759	እስራኤላዊ	/ʔɨsɨraːʔelaːwi/	/ʔasraːʔiːli/	أسْرائِيلي	N	N			israelite
-A00760	እስራኤል	/ʔɨsɨraːʔel/	/israːʔiːl/	إسْرائِيل	N	N			israel
-A00761	እሥር	/ʔɨśɨr/	/ʔasr/	أسْر	N	N			detention, incarceration, bunch, pack
-A00762	እርሳስ	/ʔɨrɨsas/	/rasˤaːsˤ/	رَصَاص	N	N	DMST		
-A00763	እርቅ	/ʔɨrɨkʼ/	/irqaːʔ/	إرْقاء	N	N			squaring off, settlement, reunion, appeasement
-A00764	እርድ	/ʔɨrɨd/	/ʔard/	أرْد	N	N			butchered animal
-A00765	እርጥበት	/ʔɨrɨtˤɨbɛt/	/rutˤuːba/	رُطُوبَة	N	N			wetness, humidity
-A00766	እርጥባን	/ʔɨrɨtˤɨban/	/raːtib/	رَاتِب	N	N			offering (usually of cash money) as donation
-A00767	ዕቅድ	/ʕɨkʼɨd/	/ʕaqd/	عَقْد	N	N			plan, scheme, idea, proposal, design, plot
-A00768	እቅፍ	/ʔɨkʼɨf/	/kaf/	كَف	N	N			bouquet, handful, tuft
-A00769	እቶን	/ʔɨton/	/ʔatuːn/	أتُون	N	N	DMST		oven, heater, furnace, boiler
-A00770	እንስት	/ʔɨnɨsɨt/	/ʔaːnisa/	آنِسَة	N	N			feminine, female
-A00771	እንብርክ	/ʔɨnɨbɨrɨk/	/aːnbiraːk/	انْبِراك	N	N			being or going down on one's knees
-A00772	እኩል	/ʔɨkul/	/ʕiql/	عِقْل	N	N			semi, partially, half
-A00773	እጅ	/ʔɨdʒ/	/ʔiːd/	إيد	N	N	ANAT		hand
-A00774	እግር	/ʔɨgɨr/	/ridʒl/	رِجْل	N	N			leg
-A00775	ከለለ	/kɛlɛlɛ/	/kallala/	كَلَّلَ	VP	VP			stake out, delineate
-A00776	ከልብ	/kɛlɨb/	/kalb/	كَلْب	N	N	ANIM		dog (old use)
-A00777	ከሙን	/kɛmun/	/kammuːn/	كَمُّون	N	N	PLNT		a kind of spice called cumin
-A00778	ከሰረ	/kɛsɛrɛ/	/χasira/	خَسِرَ	VP	VP			go bankrupt
-A00779	ከሰብ	/kɛsɛb/	/kasb/	كَسْب	N	N			making income
-A00780	ከሳ	/kɛsa/	/χassa/	خَسَّ	VP	VP			be thin, lose weight
-A00781	ከሳራ	/kɛsaraː/	/χasaːra/	خَسَارَة	N	N			insolvency, liquidation, bankruptcy, economic failure
-A00782	ከራማ	/kɛraːmaː/	/karaːma/	كَرَامة	N	N			charm, personality, charisma, appeal, magnetism, allure
-A00783	ከርሥ	/kɛrɨś/	/karʃ/	كَرْش	N	N	ANAT		stomach, tummy, appetite
-A00784	ከበረ	/kɛbɛrɛ/	/kabura/	كَبُرَ	VP	VP			be honored
-A00785	ከበደ	/kɛbɛdɛ/	/kabada/	كَبَدَ	VP	VP			be heavy
-A00786	ከባድ	/kɛbad/	/kabad/	كَبَد	N	N			hardness
-A00787	ከተበ	/kɛtɛbɛ/	/kataba/	كَتَبَ	VP	VP			vaccinate
-A00788	ከውር	/kɛwɨr/	/kawr/	كَوْر	N	N			mishmash, crucible, mixture, melting-pot
-A00789	ከዚህ	/kɛzih/	/kaðaː/	كَذَا	N	N			
-A00790	ከይሲ	/kɛjɨsi/	/qaːs/	قَاس	N	N			scamp, rogue, unkind, cruel, devil, rascal
-A00791	ከፈለ	/kɛfɛlɛ/	/kafala/	كَفَلَ	VP	VP			pay; divide
-A00792	ከፈነ	/kɛfɛnɛ/	/kafana/	كَفَنَ	VP	VP			wrap corpse
-A00793	ከፈን	/kɛfɛn/	/kafan/	كَفَن	N	N	DMST		covering, blanket, shroud
-A00794	ከፈከፈ	/kɛfɛkɛfɛ/	/kafakafa/	كَفَكَفَ	VP	VP			trim thatch
-A00795	ከፈፈ	/kɛfɛfɛ/	/kafafa/	كَفَفَ	VP	VP			edge, trim
-A00796	ኩላሊት	/kulaːlit/	/kulaː/	كُلَى	N	N	ANAT		kidney
-A00797	ኩስ	/kus/	/kus/	كُس	N	N	DMST	SH	excrement of fowl or chicken race
-A00798	ኩርሲ	/kurɨsi/	/kursiːi/	كُرْسِيّ	N	N	DMST		chair
-A00799	ኩሽ	/kuʃ/	/kuːʃ/	كُوش	N	N	NAME		cush (place along the Nile valley)
-A00800	ኩበት	/kubɛt/	/kubat/	كُبَت	N	N			manure, compost, dung, muck
-A00801	ኩባያ	/kubaja/	/kawb/	كَوْب	N	N	DMST		metal cup, metal mug
-A00802	ኩባያ	/kubaja/	/kubbaːja/	كُبَّاية	N	N	DMST		metal cup, metal mug
-A00803	ኩዳድ	/kudad/	/kudaːd/	كُداد	N	N			cultivated area, agricultural estate, plantation, farm
-A00804	ኩዳድ	/kudad/	/kudaːd/	كُداد	N	N			agricultural estate, cultivated area, plantation, farm
-A00805	ኩፍ	/kufɨ/	/χuf/	خُف	N	N	DMST		shoes
-A00806	ኩፍ	/kufɨ/	/χuf/	خُف	N	N	DMST		shoe covering the ankle
-A00807	ኪሳራ	/kisaraː/	/χasaːra/	خَسَارة	N	N			loss, shortfall, deficit, underperformance
-A00808	ኪስ	/kis/	/kiːs/	كِيس	N	N	DMST		pouch, pocket, compartment, drawer, box-like container
-A00809	ኪራይ	/kiraːj/	/kiraːʔ/	كِرَاء	N	N			rent
-A00810	ኪያር	/kijar/	/χjːar/	خِيَار	N	N	PLNT		cucumber
-A00811	ካህን	/kahɨn/	/kaːhin/	كَاهِن	N	N	RLGN		cleric, minister, member of the clergy, pastor, priest
-A00812	ካምፉር	/kamɨfur/	/kaːfuːr/	كَافُور	N	N	DMST		a strong-smelling white substance used in medicine, called camphor, in making plastics and to keep insects away from clothes
-A00813	ካርታ	/karɨta/	/χaːritˤa/	خَارِطَة	N	N	DMST		blueprint, legal document (for a building, land), plan, design, playing cards, atlas, map, drawing
-A00814	ካበ	/kabɛ/	/kaʕaba/	كَعَبَ	VP	VP			build with stone
-A00815	ካባ	/kaba/	/dʒibba/	جِبَّة	N	Ncol (sd)	DMST		shroud, mantle, cloak, veil, cover
-A00816	ካባ	/kaba/	/kaʕba/	كَعْبَة	N	N	RLGN	SH	pit, mine, quarry, excavation
-A00817	ካብ	/kab/	/kaʕb/	كَعْب	N	N			heaps, loads, piles, masses (of stones, etc)
-A00818	ካካ	/kaka/	/kaːka/	كَاكا	N	Ncol (sd)	DMST		excrement (a word used by children)
-A00819	ካውያ	/kawɨja/	/kaːwiːja/	كَاوِيَة	N	N	DMST		iron (for clothes)
-A00820	ካፈር	/kafɛr/	/kaːfir/	كافِر	N	N	RLGN		christian (words used by Moslems to mean ungodly or unbelieving)
-A00821	ክህነት	/kɨhɨnɛt/	/kahaːna/	كَهَانة	N	N	RLGN		priesthood, ordination
-A00822	ክሳት	/kɨsat/	/χissa/	خِسَّة	N	N			slimness, slenderness, loss of weight
-A00823	ክስ	/kɨs/	/qisˤsˤa/	قِصَّة	N	N			accusation, allegation, indictment, charge
-A00824	ክስተት	/kɨsɨtɛt/	/qisˤsˤa/	قِصَّة	N	N			event
-A00825	ክርታስ	/kɨrɨtas/	/qirtˤaːs/	قِرْطَاس	N	N	DMST		casing, card board, membrane
-A00826	ክርፋት	/kɨrɨfat/	/qaraf/	قَرَف	N	N			horrible smell, unpleasant odor
-A00827	ክብረት	/kɨbɨrɛt/	/kibr/	كِبْر	N	N			affluence, wealth, prosperity, material comfort, riches
-A00828	ክብሪት	/kɨbɨrit/	/kibriːt/	كِبْرِيت	N	N	DMST		matches (for lighting)
-A00829	ክብር	/kɨbɨr/	/kibar/	كِبَر	N	N			glory
-A00830	ክብር	/kɨbɨr/	/kibr/	كِبْر	N	N			high esteem, prestige, honor, reverence, awe, admiration
-A00831	ክቦሽ	/kɨboʃ/	/kabs/	كَبْس	N	N			stack, piling, loading up, heap
-A00832	ክታብ	/kɨtab/	/kitaːb/	كِتاب	N	N	RLGN		lucky charm, trinket, talisman, mascot, amulet, good luck charm
-A00833	ክትባት	/kɨtɨbat/	/kitaːba/	كِتَابَة	N	N			immunization, vaccination, inoculation
-A00834	ክንፍ	/kɨnɨf/	/kinf/	كِنْف	N	N			wing, arm, section, faction group
-A00835	ክፍለ	/kɨfɨlɛ/	/kifl/	كِفْل	N	N			bottom
-A00836	ክፍል	/kɨfɨl/	/kifl/	كِفْل	N	N			section, portion, room, classroom, grade
-A00837	ኮረጆ	/korɛdʒo/	/χurdʒ/	خُرْج	N	N	DMST		school bag, satchel, bag
-A00838	ኮራ	/koraː/	/ɣurra/	غُرَّ	VP	VP			be proud
-A00839	ኮከብ	/kokɛb/	/kawkab/	كَوْكَب	N	N	RLGN		star
-A00840	ኳለ	/kɨlɛ/	/kaħala/	كَحَلَ	VP	VP			put khol on eyes
-A00841	ወህኒ	/wɛhɨni/	/wahn/	وَهْن	N	N	RLGN		prison, penal colony, labor camp
-A00842	ወለደ	/wɛlɛdɛ/	/walada/	وَلَدَ	VP	VP			bear
-A00843	ወለድ	/wɛlɛd/	/walad/	وَلَد	N	N			bank interest
-A00844	ወላወለ	/wɛlaːwɛlɛ/	/waluːala/	وَلْوَلَ	VP	VP			hesitate, be undecided
-A00845	ወላድ	/wɛlaːd/	/walaːd/	وَلاد	N	N			lush, fertile, productive, fecund (for woman)
-A00846	ወምበር	/wɛmɨbɛr/	/wambar/	وَمْبَر	N	N			seat, bench, chair, judge
-A00847	ወሰወሰ	/wɛsɛwɛsɛ/	/wasuːasa/	وَسْوَسَ	VP	VP			baste (sewing)
-A00848	ወረሰ	/wɛrɛsɛ/	/waraθa/	وَرَثَ	VP	VP			inherit
-A00849	ወረቀት	/wɛrɛkʼɛt/	/waraqa/	وَرَقة	N	N	DMST		paper, letter
-A00850	ወረብ	/wɛrɛb/	/tˤarab/	طَرَب	N	N			song, chant, church music
-A00851	ወረወረ	/wɛrɛwɛrɛ/	/waruːara/	وَرْوَرَ	VP	VP			throw
-A00852	ወረደ	/wɛrɛdɛ/	/warada/	وَرَدَ	VP	VP			go down
-A00853	ወርች	/wɛrɨtʃ/	/wark/	وَرْك	N	N	ANAT		thigh
-A00854	ወርድ	/wɛrɨd/	/ward/	وَرْد	N	N			breadth, span, width
-A00855	ወቄት	/wɛkʼet/	/waqaja/	وَقَيَة	N	N			small amount, 28 grams, ounce, little
-A00856	ወቅታዊ	/wɛkʼɨtawi/	/waqtiː/	وَقْتِي	N	N			seasonal
-A00857	ወቅት	/wɛkʼɨt/	/waqt/	وَقْت	N	N			time of year, season, period, era, epoch, eon
-A00858	ወበቅ	/wɛbɛkʼ/	/wabaq/	وَبَق	N	N			moisture, dampness due to excessive heat, humidity
-A00859	ወባ	/wɛba/	/wabaːʔ/	وَبَاء	N	N		SH	malaria
-A00860	ወንበር	/wɛnɨbɛr/	/minbar/	مِنْبَر	N	N	DMST		chair
-A00861	ወንበር	/wɛnɨbɛr/	/wanbar/	وَنْبَر	N	N			seat with back
-A00862	ወከለ	/wɛkɛlɛ/	/wakala/	وَكَلَ	VP	VP			appoint a representative
-A00863	ወኪል	/wɛkil/	/wakiːl/	وَكِيل	N	N			agent, representative, delegate
-A00864	ወዘወዘ	/wɛzɛwɛzɛ/	/wazuːaza/	وَزْوَزَ	VP	VP			shake
-A00865	ወደመ	/wɛdɛmɛ/	/haduma/	هَدُمَ	VP	VP			be demolished
-A00866	ወደደ	/wɛdɛdɛ/	/wadada/	وَدَدَ	VP	VP			love
-A00867	ወደደ	/wɛdɛdɛ/	/wadda/	وَدَّ	VP	VP			love
-A00868	ወዳድ	/wɛdad/	/widaːd/	وِدَاد	N	N			friendship
-A00869	ወጠረ	/wɛtˤɛrɛ/	/watara/	وَتَرَ	VP	VP			stretch
-A00870	ዋሸ	/waʃɛ/	/waʃaː/	وَشَى	VP	VP			tell lie
-A00871	ዋድያት	/wadɨjat/	/waːdiː/	وادِي	N	N			big shallow basin
-A00872	ውልድ	/wɨlɨd/	/walad/	وَلَد	N	N			slave, born in one's master's house
-A00873	ውስጥ	/wɨsɨtˤ/	/wasatˤ/	وَسَط	N	N			in, between
-A00874	ውርዴ	/wɨrɨde/	/wirda/	وِرْدة	N	N			an individual cured from syphilis (V.D.)
-A00875	ውርድ	/wɨrɨd/	/ward/	وَرْد	N	N	RLGN		faster method of reading
-A00876	ውሸት	/wɨʃɛt/	/wiʃaːja/	وِشَايَة	N	N			lies
-A00877	ውቅያኖስ	/wɨkʼɨjanos/	/ʔauːqjːanuːs/	أُوقْيَانُوس	N	N			deep-sea, ocean, the deep
-A00878	ውከላ	/wɨkɛlaː/	/wikaːla/	وِكَالَة	N	N			authorization, mandate,
-A00879	ውክልና	/wɨkɨlɨna/	/tawkiːl/	تَوْكِيل	N	N			representation, mandate, authorization
-A00880	ውጥረት	/wɨtˤɨrɛt/	/tawattur/	تَوَتُّر	N	N			tension, worry, pressure
-A00881	ውፋሬ	/wɨfare/	/wafra/	وَفْرَة	N	N			obesity, fatness, corpulence
-A00882	ውፍረት	/wɨfɨrɛt/	/wafra/	وَفْرة	N	N			obesity, fatness, corpulence
-A00883	ዘለለ	/zɛlɛlɛ/	/zalla/	زَلَّ	VP	VP			leap, jump
-A00884	ዘለቀ	/zɛlɛkʼɛ/	/zalaqa/	زَلَقَ	VP	VP			pass out of sight
-A00885	ዘለዘለ	/zɛlɛzɛlɛ/	/zalzala/	زَلْزَلَ	VP	VP			cut meat into strips
-A00886	ዘመረ	/zɛmɛrɛ/	/zammara/	زَمَّرَ	VP	VP			chant
-A00887	ዘመነ	/zɛmɛnɛ/	/zaman/	زَمَن	N	N			era
-A00888	ዘመን	/zɛmɛn/	/zaman/	زَمَن	N	N			age
-A00889	ዘማ	/zɛmaː/	/zanaː/	زَنَا	VP	VP			fornicate, commit adultery
-A00890	ዘማ	/zɛmaː/	/zana/	زَنا	VP	VP			fornicate, commit adultery
-A00891	ዘረዘረ	/zɛrɛzɛrɛ/	/zarzara/	زَرْزَرَ	VP	VP			list, describe in details
-A00892	ዘራ	/zɛraː/	/zaraʕa/	زَرَعَ	VP	VP			sow
-A00893	ዘንቢል	/zɛnɨbil/	/zanbiːl/	زَنْبِيل	N	Ncol (eg)	DMST		container made of materials that bend easily
-A00894	ዘከረ	/zɛkɛrɛ/	/zakara/	زَكَرَ	VP	VP			commemorate
-A00895	ዘኬ	/zɛke/	/zakaːa/	زَكَاة	N	N	RLGN	SH	meal eaten at church after mass service
-A00896	ዘወረ	/zɛwɛrɛ/	/zawara/	زَوَرَ	VP	VP			turn round
-A00897	ዘዌ	/zɛwe/	/zaːwiːja/	زَاوِيَة	N	N			angle
-A00898	ዘውግ	/zɛwɨg/	/zawdʒ/	زَوْج	N	N			couple
-A00899	ዘይት	/zɛjɨt/	/zajt/	زَيْت	N	N	DMST		oil
-A00900	ዘፈነ	/zɛfɛnɛ/	/fannana/	فَنَّنَ	VP	VP			sing
-A00901	ዘፈን	/zɛfɛn/	/fann/	فَنّ	N	N			singing, music for the voice
-A00902	ዘፋኝ	/zɛfaɲ/	/fannaːn/	فَنَّان	N	N			person who sings
-A00903	ዙረት	/zurɛt/	/θawra/	ثَوْرَة	N	N			revolution
-A00904	ዙር	/zur/	/zuːr/	زُور	N	N			round
-A00905	ዛለ	/zalɛ/	/zaːla/	زَالَ	VP	VP			be exhausted
-A00906	ዛር	/zar/	/zaːr/	زَار	N	Ncol (sd)			an evil spirit that makes people yell or shout
-A00907	ዛዛ	/zaza/	/zaʕzaʕa/	زَعْزَعَ	VP	VP			be exhausted
-A00908	ዛዛ	/zaza/	/zaʕzaʕa/	زَعْزَعَ	VP	VP			be exhausted
-A00909	ዜንጥ	/zenɨtˤ/	/ziːna/	زِينَة	N	N			stylish
-A00910	ዝምታ	/zɨmɨta/	/sˤamt/	صَمْت	N	N			silence
-A00911	ዝንጅብል	/zɨnɨdʒɨbɨl/	/zandʒabiːl/	زَنْجَبِيل	N	N	DMST		plant with hot testing root used in cooking
-A00912	ዝክር	/zɨkɨr/	/ðikr/	ذِكْر	N	N	RLGN		commemoration with a banquet in religious occasion
-A00913	ዝየና	/zɨjana/	/ziːna/	زِينَة	N	N			decoration
-A00914	ዝይ	/zɨj/	/ʔauːiz/	أوِز	N	N	ANIM		goose
-A00915	ዞረ	/zorɛ/	/zawara/	زَوَرَ	VP	VP			turn, revolve
-A00916	ዣዠ	/ʒaʒɛ/	/zaʕzaʕa/	زَعْزَعَ	VP	VP			become senile
-A00917	የለም	/jalɛm/	/lam/	لَمْ	P	P			it's, he's, absent
-A00918	የባቡር፡ሐዲድ	/jababurɨ፡hɛdid/	/baːbuːr ħadiːd/	بَابُور حَدِيد	N	Ncol (sd)			passageway for train, pathway
-A00919	የብስ	/jabɨs/	/jaːbisa/	يَابِسَة	N	N			principal landmass
-A00920	ዩርዳኖስ	/jurɨdanos/	/ʔlʔurdun/	الأُرْدُن	N	N	NAME		jordan
-A00921	ያመስኳ	/jamɛsɨk/	/jamsik/	يَمْسِك	VI	VI			ruminate
-A00922	ያምርት	/jamɨrɨt/	/jamrid/	يَمْرِد	VI	VI			be cleaned and threshed
-A00923	ያስብ	/jasɨb/	/jaħsib/	يَحْسِب	VI	VI			think, intend
-A00924	ያርምድ	/jarɨmɨd/	/jarmid/	يَرْمِد	VI	VI			dip (powder)
-A00925	ያርግ	/jarɨg/	/jaʕridʒ/	يَعْرِج	VI	VI	RLGN		go up into heaven
-A00926	ያቀብል	/jakʼɛbɨl/	/jataqabbal/	يَتَقَبَّل	VI	VI			receive
-A00927	ያነጥስ	/janɛtˤɨs/	/jaʕtˤis/	يَعْطِس	VI	VI			sneeze
-A00928	ያውሳ	/jawɨsa/	/jawsˤiaː/	يَوْصِى	VI	VI			talk, chat
-A00929	ያውራ	/jawɨraː/	/jawriː/	يَوْرِي	VI	VI			talk, describe
-A00930	ያውር	/jawɨr/	/jaʕwar/	يَعْوَر	VI	VI			go blind
-A00931	ያውክ	/jawɨk/	/jaʕuːwiq/	يَعْوِّق	VI	VI			upset, trouble
-A00932	ያውድ	/jawɨd/	/jaʕawid/	يَعَوِد	VI	VI			perfume
-A00933	ያድብ	/jadɨb/	/jaʔdib/	يَأْدِب	VI	VI			behave well
-A00934	ያጠራቅም	/jatˤɛraːkʼɨm/	/jataraːkam/	يَتَراكَم	VI	VI			amass, collect
-A00935	ይሁዲ	/jɨhudi/	/jahuːd/	يَهُود	N	N			jew
-A00936	ይሁዳ	/jɨhuda/	/jihuːða/	يِهُوذا	N	N	RLGN		judea
-A00937	ይሆምጥጥ	/jɨhomɨtˤɨtˤ/	/jaħmudˤ/	يَحْمُض	VI	VI			be acid, sour
-A00938	ይለስልስ	/jɨlɛsɨlɨs/	/jalaslis/	يَلَسْلِس	VI	VI			be soft, smooth
-A00939	ይለብ	/jɨlɛb/	/jaħlib/	يَحْلِب	VI	VI			milk
-A00940	ይለብልብ	/jɨlɛbɨlɨb/	/jalablib/	يَلَبْلِب	VI	VI			singe, scorch
-A00941	ይለትም	/jɨlɛtɨm/	/jaltˤim/	يَلْطِم	VI	VI			butt, quarrel
-A00942	ይለፍ	/jɨlɛf/	/iːlaːf/	إيلَاف	N	N	RLGN		passage
-A00943	ይለፍልፍ	/jɨlɛfɨlɨf/	/jalaflif/	يَلَفْلِف	VI	VI			chatter
-A00944	ይልበስ	/jɨlɨbɛs/	/jalbis/	يَلْبِس	VI	VI			wear, dress
-A00945	ይልዘዝ	/jɨlɨzɛz/	/jalziz/	يَلْزِز	VI	VI			deliquesce
-A00946	ይመለክ	/jɨmɛlɛk/	/jamlik/	يَمْلِك	VI	VI			worship
-A00947	ይመልምል	/jɨmɛlɨmɨl/	/jamalmil/	يَمَلْمِل	VI	VI			select, pluck
-A00948	ይመልስ	/jɨmɛlɨs/	/jamlisˤ/	يَمْلِص	VI	VI			return
-A00949	ይመርኮዝ	/jɨmɛrɨkoz/	/jatamarkaz/	يَتَمَرْكَز	VI	VI			lean, be biased
-A00950	ይመን	/jɨmɛn/	/juʔumin/	يُؤمِن	VI	VI			believe
-A00951	ይመንን	/jɨmɛnɨn/	/jamnin/	يَمْنِن	VI	VI			retire from world
-A00952	ይመኝ	/jɨmɛɲ/	/jatmannaː/	يَتْمَنَّى	VI	VI			wish
-A00953	ይመዝን	/jɨmɛzɨn/	/jawzin/	يَوْزِن	VI	VI			balance , weigh
-A00954	ይመድን	/jɨmɛdɨn/	/jamdin/	يَمْدِن	VI	VI			civilize
-A00955	ይሙላ	/jɨmulaː/	/jamlʔ/	يَمْلأ	VI	VI			fill
-A00956	ይሙት	/jɨmut/	/jamuːt/	يَمُوت	VI	VI			die
-A00957	ይምሰል	/jɨmɨsɛl/	/jamθil/	يَمْثِل	VI	VI			seem
-A00958	ይምሰል	/jɨmɨsɛl/	/jamθil/	يَمْثِل	VI	VI			make a model
-A00959	ይምረር	/jɨmɨrɛr/	/jamrir/	يَمْرِر	VI	VI			be bitter
-A00960	ይምከር	/jɨmɨkɛr/	/jamkir/	يَمْكِر	VI	VI			advise
-A00961	ይሞርድ	/jɨmorɨd/	/jabrid/	يَبْرِد	VI	VI			file, rasp
-A00962	ይሰልል	/jɨsɛlɨl/	/jaslil/	يَسْلِل	VI	VI			spy on
-A00963	ይሰልል	/jɨsɛlɨl/	/jaʃlil/	يَشْلِل	VI	VI			be paralyzed
-A00964	ይሰረቅ	/jɨsɛrɛkʼ/	/jasriq/	يَسْرِق	VI	VI			steal
-A00965	ይሰር	/jɨsɛr/	/jaʔsir/	يَأْسِر	VI	VI			tie, imprison
-A00966	ይሰርስር	/jɨsɛrɨsɨr/	/jasarsir/	يَسَرْسِر	VI	VI			bore through
-A00967	ይሰንፍጥ	/jɨsɛnɨfɨtˤ/	/jaʃalfitˤ/	يَشَلْفِط	VI	VIcol (eg)			be hot (mustard)
-A00968	ይሰካ	/jɨsɛka/	/jaʃqq/	يَشْقّ	VI	VI			thread, pass through 
-A00969	ይሳል	/jɨsal/	/jasʕil/	يَسْعِل	VI	VI			cough, paint, sharpen
-A00970	ይሳቅ	/jɨsakʼ/	/jadˤħak/	يَضْحَك	VI	VI			laugh
-A00971	ይሳበብ	/jɨsabɛb/	/jasbib/	يَسْبِب	VI	VI			excuse
-A00972	ይሳት	/jɨsat/	/jasuːtˤ/	يَسُوط	VI	VI			miss, go astray
-A00973	ይስለም	/jɨsɨlɛm/	/jaslam/	يَسْلَم	VI	VI			become a muslim
-A00974	ይስለብ	/jɨsɨlɛb/	/jaslib/	يَسْلِب	VI	VI			castrate
-A00975	ይስማ	/jɨsɨmaː/	/jasmiʕ/	يَسْمِع	VI	VI			hear
-A00976	ይስከር	/jɨsɨkɛr/	/jaskir/	يَسْكِر	VI	VI			get drunk
-A00977	ይስደድ	/jɨsɨdɛd/	/jasdid/	يَسْدِد	VI	VI			send
-A00978	ይስገድ	/jɨsɨgɛd/	/jasdʒid/	يَسْجِد	VI	VI	RLGN		bow in worship
-A00979	ይረስ	/jɨrɛs/	/jarsiː/	يَرْسِي	VI	VI			plow, till
-A00980	ይረብርብ	/jɨrɛbɨrɨb/	/jarabrib/	يَرَبْرِب	VI	VI			pile up
-A00981	ይረብሽ	/jɨrɛbɨʃ/	/jarbiʃ/	يَرْبِش	VI	VI			disturb
-A00982	ይረድ	/jɨrɛd/	/jardiː/	يَرْدِي	VI	VI			slaughter (animal)
-A00983	ይራ	/jɨraː/	/jaχraʔ/	يَخْرَأ	VI	VI			defecate
-A00984	ይርሳ	/jɨrɨsa/	/jansaː/	يَنْسَى	VI	VI			forget
-A00985	ይርቀቅ	/jɨrɨkʼɛkʼ/	/jarqiq/	يَرْقِق	VI	VI			be fine, thin
-A00986	ይርባ	/jɨrɨba/	/jarba/	يَرْبا	VI	VI			be useful
-A00987	ይርከስ	/jɨrɨkɛs/	/jarχisˤ/	يَرْخِص	VI	VI			be cheap
-A00988	ይርዘም	/jɨrɨzɛm/	/jarzim/	يَرْزِم	VI	VI			be long, tall
-A00989	ይርጠብ	/jɨrɨtˤɛb/	/jartˤib/	يَرْطِب	VI	VI			be wet
-A00990	ይሸልል	/jɨʃɛlɨl/	/jaʃlil/	يَشْلِل	VI	VI			chant war songs
-A00991	ይሸልት	/jɨʃɛlɨt/	/jaʃritˤ/	يَشْرِط	VI	VI			shear
-A00992	ይሸርሽር	/jɨʃɛrɨʃɨr/	/jaʃarʃir/	يَشَرْشِر	VI	VI			erode
-A00993	ይቀልድ	/jɨkʼɛlɨd/	/jaqllid/	يَقْلِّد	VI	VI			joke
-A00994	ይቀስስ	/jɨkʼɛsɨs/	/jaqsis/	يَقْسِس	VI	VI			be a priest
-A00995	ይቀንስ	/jɨkʼɛnɨs/	/jaknis/	يَكْنِس	VI	VI			reduce, subtract
-A00996	ይቀይስ	/jɨkʼɛjɨs/	/jaqjis/	يَقْيِس	VI	VI			measure land
-A00997	ይቀይር	/jɨkʼɛjɨr/	/jaɣiːjir/	يَغْيِّر	VI	VI			change
-A00998	ይቀይድ	/jɨkʼɛjɨd/	/jaqiːjid/	يَقْيِّد	VI	VI			tie, hobble
-A00999	ይቀድስ	/jɨkʼɛdɨs/	/jaqddis/	يَقْدِّس	VI	VI			praise
-A01000	ይቁም	/jɨkʼum/	/jaquːm/	يَقُوم	VI	VI			stand
-A01001	ይቃረን	/jɨkʼarɛn/	/jaqaːrin/	يَقَارِن	VI	VI			clash
-A01002	ይቃኝ	/jɨkʼaɲ/	/jataɣannaː/	يَتَغَنَّى	VI	VI			compose hymns
-A01003	ይቅለብ	/jɨkʼɨlɛb/	/jaklib/	يَكْلِب	VI	VI			catch in midair
-A01004	ይቅመል	/jɨkʼɨmɛl/	/jaqmil/	يَقْمِل	VI	VI			remove lice
-A01005	ይቅሰፍ	/jɨkʼɨsɛf/	/jaqsˤif/	يَقْصِف	VI	VI			kill suddenly
-A01006	ይቅረብ	/jɨkʼɨrɛb/	/jaqrub/	يَقْرُب	VI	VI			appraoch
-A01007	ይቅረፍ	/jɨkʼɨrɛf/	/jakrif/	يَكْرِف	VI	VI			peel off bark
-A01008	ይቅር	/jɨkʼɨr/	/jaqarr/	يَقَرّ	VI	VI			remain, stay behind
-A01009	ይቅበር	/jɨkʼɨbɛr/	/jaqbir/	يَقْبِر	VI	VI			bury
-A01010	ይቅደም	/jɨkʼɨdɛm/	/jaqdim/	يَقْدِم	VI	VI			precede
-A01011	ይቅደድ	/jɨkʼɨdɛd/	/jaqdid/	يَقْدِد	VI	VI			tear
-A01012	ይቅጠፍ	/jɨkʼɨtˤɛf/	/jaqtˤif/	يَقْطِف	VI	VI			pluck; lie
-A01013	ይቅፈፍ	/jɨkʼɨfɛf/	/jakfif/	يَكْفِف	VI	VI			1. trim edge, 2. beg
-A01014	ይበርክት	/jɨbɛrɨkɨt/	/jabaːrik/	يَبْارِك	VI	VI			increase, be abundant
-A01015	ይበይን	/jɨbɛjɨn/	/jabjin/	يَبْيِن	VI	VI			decree
-A01016	ይበድን	/jɨbɛdɨn/	/jabdin/	يَبْدِن	VI	VI			be paralyzed
-A01017	ይበጥብጥ	/jɨbɛtˤɨbɨtˤ/	/jabatbit/	يَبَتْبِت	VI	VI			shake, disturb
-A01018	ይባልግ	/jɨbalɨg/	/jabaːliɣ/	يَبْالِغ	VI	VI			be rude
-A01019	ይባስ	/jɨbas/	/jabʔs/	يَبْأس	VI	VI			get worse
-A01020	ይባርክ	/jɨbarɨk/	/jabrik/	يَبْرِك	VI	VI			kneel
-A01021	ይብላ	/jɨbɨlaː/	/jablaʕ/	يَبْلَع	VI	VI			eat
-A01022	ይብረድ	/jɨbɨrɛd/	/jabrid/	يَبْرِد	VI	VI			be cold
-A01023	ይብራ	/jɨbɨraː/	/jabriq/	يَبْرِق	VI	VI			shine
-A01024	ይብዛ	/jɨbɨza/	/jabza/	يَبْزا	VI	VI			increase, be much
-A01025	ይተልትል	/jɨtɛlɨtɨl/	/jataltil/	يَتَلْتِل	VI	VI			cut in many places
-A01026	ይተምን	/jɨtɛmɨn/	/jatmmin/	يَتْمِّن	VI	VI			put a price on
-A01027	ይተራመስ	/jɨtɛraːmɛs/	/jarmis/	يَرْمِس	VI	VI			mix together
-A01028	ይተርጉም	/jɨtɛrɨgum/	/jatardʒim/	يَتَرْجِم	VI	VI			interpret, translate
-A01029	ይተንብይ	/jɨtɛnɨbɨj/	/jatanabaːʔ/	يَتَنَبَّأ	VI	VI	RLGN		prophesy
-A01030	ይተንፍስ	/jɨtɛnɨfɨs/	/jatanaffas/	يَتَنَفَّس	VI	VI			breathe
-A01031	ይታለም	/jɨtalɛm/	/jaħlam/	يَحْلَم	VI	VI			dream
-A01032	ይታመቅ	/jɨtamɛkʼ/	/jaʕmik/	يَعْمِك	VI	VIcol (sd)			squeeze, compress
-A01033	ይታረዝ	/jɨtarɛz/	/jataʕarraː/	يَتَعَرَّى	VI	VI			be naked
-A01034	ይታቀድ	/jɨtakʼɛd/	/jaʕqid/	يَعْقِد	VI	VI			plan, design
-A01035	ይታኘክ	/jɨtaɲɛk/	/jaʕlik/	يَعْلِك	VI	VI			chew, masticate
-A01036	ይታደል	/jɨtadɛl/	/jaʕdil/	يَعْدِل	VI	VI			distribute
-A01037	ይትረፍ	/jɨtɨrɛf/	/jatˤrif/	يَطْرِف	VI	VI			be extra
-A01038	ይትፋ	/jɨtɨfa/	/jatiff/	يَتِفّ	VI	VI			spit, vomit
-A01039	ይትፍተዋል	/jɨtɨfɨtɛwal/	/tufaːl/	تُفَال	N	N			
-A01040	ይቸርችር	/jɨtʃɛrɨtʃɨr/	/jatdʒir/	يَتْجِر	VI	VI			retail
-A01041	ይነሽጥ	/jɨnɛʃɨtˤ/	/janʃatˤ/	يَنْشَط	VI	VI			animate
-A01042	ይነግድ	/jɨnɛgɨd/	/janqid/	يَنْقِد	VI	VI			trade
-A01043	ይናፈጥ	/jɨnafɛtˤ/	/jatanaffatˤ/	يَتَنَفَّط	VI	VI			blow (nose)
-A01044	ይንቀል	/jɨnɨkʼɛl/	/janqil/	يَنْقِل	VI	VI			uproot
-A01045	ይንቀስ	/jɨnɨkʼɛs/	/janqiʃ/	يَنْقِش	VI	VI			comb; glean; tattoo
-A01046	ይንቀዝ	/jɨnɨkʼɛz/	/jankiz/	يَنْكِز	VI	VI			be spoiled
-A01047	ይንዛ	/jɨnɨza/	/jawazziʕ/	يَوَزِّع	VI	VI			spread, disseminate
-A01048	ይንጠፍጠፍ	/jɨnɨtˤɛfɨtˤɛf/	/jataftif/	يَتَفْتِف	VI	VI			flatten out, level
-A01049	ይንጻ	/jɨnɨsʼa/	/jansˤiʕ/	يَنْصِع	VI	VI			be white
-A01050	ይከተል	/jɨkɛtɛl/	/jatakattal/	يَتَكَتَّل	VI	VI			follow
-A01051	ይከትብ	/jɨkɛtɨb/	/jaktib/	يَكْتِب	VI	VI			vaccinate
-A01052	ይከፍን	/jɨkɛfɨn/	/jakfin/	يَكْفِن	VI	VI			wrap corpse
-A01053	ይካብ	/jɨkab/	/jakʕib/	يَكْعِب	VI	VI			build with stone
-A01054	ይክሰር	/jɨkɨsɛr/	/jaχsir/	يَخْسِر	VI	VI			go bankrupt
-A01055	ይክበር	/jɨkɨbɛr/	/jakbur/	يَكْبُر	VI	VI			be honored
-A01056	ይክበድ	/jɨkɨbɛd/	/jakbid/	يَكْبِد	VI	VI			be heavy
-A01057	ይክፈል	/jɨkɨfɛl/	/jakfil/	يَكْفِل	VI	VI			pay; divide
-A01058	ይክፈፍ	/jɨkɨfɛf/	/jakfif/	يَكْفِف	VI	VI			edge, trim
-A01059	ይኮራመት	/jɨkoraːmɛt/	/jatawarram/	يَتَوَرَّم	VI	VI			double over
-A01060	ይወክል	/jɨwɛkɨl/	/jawkil/	يَوْكِل	VI	VI			appoint a representative
-A01061	ይወዝውዝ	/jɨwɛzɨwɨz/	/jawazuːiz/	يَوَزْوِز	VI	VI			shake
-A01062	ይወጥር	/jɨwɛtˤɨr/	/jawtir/	يَوْتِر	VI	VI			stretch
-A01063	ይዋሽ	/jɨwaʃ/	/jawʃiː/	يَوْشِي	VI	VI			tell lie
-A01064	ይዋብ	/jɨwab/	/jatˤiːb/	يَطِيب	VI	VI			be beautiful
-A01065	ይውለድ	/jɨwɨlɛd/	/jawlid/	يَوْلِد	VI	VI			bear
-A01066	ይውረስ	/jɨwɨrɛs/	/jawriθ/	يَوْرِث	VI	VI			inherit
-A01067	ይውረድ	/jɨwɨrɛd/	/jawrid/	يَوْرِد	VI	VI			go down
-A01068	ይውደም	/jɨwɨdɛm/	/jahdim/	يَهْدِم	VI	VI			be demolished
-A01069	ይውደድ	/jɨwɨdɛd/	/jawdid/	يَوْدِد	VI	VI			love
-A01070	ይዘምር	/jɨzɛmɨr/	/jazniː/	يَزْنِي	VI	VI			fornicate, commit adultery
-A01071	ይዘርዝር	/jɨzɛrɨzɨr/	/jazkir/	يَزْكِر	VI	VI			commemorate
-A01072	ይዘክር	/jɨzɛkɨr/	/jazuːir/	يَزْوِر	VI	VI			turn round
-A01073	ይዙር	/jɨzur/	/jazuːir/	يَزْوِر	VI	VI			turn, revolve
-A01074	ይዛል	/jɨzal/	/jazaʕziʕ/	يَزَعْزِع	VI	VI			be exhausted
-A01075	ይዝለል	/jɨzɨlɛl/	/jazliq/	يَزْلِق	VI	VI			pass out of sight
-A01076	ይዝለፍ	/jɨzɨlɛf/	/jazmir/	يَزْمِر	VI	VI			chant
-A01077	ይዝራ	/jɨzɨraː/	/jazraʕ/	يَزْرَع	VI	VI			sow
-A01078	ይዝፈን	/jɨzɨfɛn/	/jaziːl/	يَزِيل	VI	VI			be exhausted
-A01079	ይይ	/jɨj/	/jaʕaːjin/	يَعْايِن	VI	VI			see
-A01080	ይደልል	/jɨdɛlɨl/	/jadlil/	يَدْلِل	VI	VI			cajole, entice
-A01081	ይደምን	/jɨdɛmɨn/	/jadmin/	يَدْمِن	VI	VI			be cloudy
-A01082	ይደርብ	/jɨdɛrɨb/	/jadˤrib/	يَضْرِب	VI	VI			cover, double up
-A01083	ይደቅድቅ	/jɨdɛkʼɨdɨkʼ/	/jadakdik/	يَدَكْدِك	VI	VI			pound, stamp
-A01084	ይደውል	/jɨdɛwɨl/	/jaduːil/	يَدْوِل	VI	VI			ring
-A01085	ይዳስስ	/jɨdasɨs/	/jaduːs/	يَدُوس	VI	VI			to touch lightly, caress
-A01086	ይዳኝ	/jɨdaɲ/	/jadiːn/	يَدِين	VI	VI			arbitrate, judge
-A01087	ይድቀቅ	/jɨdɨkʼɛkʼ/	/jadqiq/	يَدْقِق	VI	VI			be fine, thin
-A01088	ይድቃ	/jɨdɨkʼa/	/jadqiq/	يَدْقِق	VI	VI			beat the breast
-A01089	ይድፈን	/jɨdɨfɛn/	/jadfin/	يَدْفِن	VI	VI			close up
-A01090	ይድፋ	/jɨdɨfa/	/jadfiq/	يَدْفِق	VI	VI			spill, pour out
-A01091	ይዶልዱል	/jɨdolɨdul/	/jadaldim/	يَدَلْدِم	VI	VIcol (sd)			be blunt
-A01092	ይጀምል	/jɨdʒɛmɨl/	/jadʒmil/	يَجْمِل	VI	VI			add
-A01093	ይገምግም	/jɨgɛmɨgɨm/	/jaɣamɣim/	يَغَمْغِم	VI	VI			evaluate, sound out
-A01094	ይግደል	/jɨgɨdɛl/	/jaqtul/	يَقْتُل	VI	VI			kill
-A01095	ይጠርዝ	/jɨtˤɛrɨz/	/jatˤriz/	يَطْرِز	VI	VI			bind a book
-A01096	ይጠብብ	/jɨtˤɛbɨb/	/jatˤbib/	يَطْبِب	VI	VI			be wise; be narrow
-A01097	ይጠፍ	/jɨtˤɛf/	/jaʕtˤif/	يَعْطِف	VI	VI			fold
-A01098	ይጣል	/jɨtˤal/	/jadˤal/	يَضَل	VI	VI			lose, drop, throw
-A01099	ይጣም	/jɨtˤam/	/jatˤʕum/	يَطْعُم	VI	VI			taste good
-A01100	ይጥፋ	/jɨtˤɨfa/	/jatˤfiːʔ/	يَطْفِيء	VI	VI			be lost, disappear
-A01101	ይጫረት	/jɨtʃarɛt/	/jatʃaːratˤ/	يَتْشَارَط	VI	VI			bid
-A01102	ይጫን	/jɨtʃan/	/jaʃħin/	يَشْحِن	VI	VI			load, saddle
-A01103	ይጸልይ	/jɨsʼɛlɨj/	/jasˤalliː/	يَصَلِّي	VI	VI	RLGN		pray
-A01104	ይጹም	/jɨsʼum/	/jasˤuːm/	يَصُوم	VI	VI	RLGN		fast
-A01105	ይጻፍ	/jɨsʼaf/	/jawsˤif/	يَوْصِف	VI	VI			write
-A01106	ይጽደቅ	/jɨsʼɨdɛkʼ/	/jasˤdiq/	يَصْدِق	VI	VI			be just
-A01107	ይፈልስፍ	/jɨfɛlɨsɨf/	/jafalsif/	يَفَلْسِف	VI	VI			invent
-A01108	ይፈር	/jɨfɛr/	/jaχfir/	يَخْفِر	VI	VI			be shy
-A01109	ይፈርፍር	/jɨfɛrɨfɨr/	/jafarfir/	يَفَرْفِر	VI	VI			break into small pieces
-A01110	ይፈትሽ	/jɨfɛtɨʃ/	/jafttiʃ/	يَفْتِّش	VI	VI			frisk, search
-A01111	ይፈትን	/jɨfɛtɨn/	/jaftin/	يَفْتِن	VI	VI			try, test
-A01112	ይፈትፍት	/jɨfɛtɨfɨt/	/jafatfit/	يَفَتْفِت	VI	VI			crumble
-A01113	ይፈንግል	/jɨfɛnɨgɨl/	/jafanqil/	يَفَنْقِل	VI	VIcol (sd)			upset, over turn
-A01114	ይፈጽም	/jɨfɛsʼɨm/	/jafsˤim/	يَفْصِم	VI	VI			complete accomplish
-A01115	ይፍለጥ	/jɨfɨlɛtˤ/	/jaflit/	يَفْلِت	VI	VI			split
-A01116	ይፍሳ	/jɨfɨsa/	/jafsiː/	يَفْسِي	VI	VI			pass wind
-A01117	ይፍረድ	/jɨfɨrɛd/	/jafridˤ/	يَفْرِض	VI	VI			judge
-A01118	ይፍረጥ	/jɨfɨrɛtˤ/	/jafritˤ/	يَفْرِط	VI	VI			burst
-A01119	ይፍተል	/jɨfɨtɛl/	/jaftil/	يَفْتِل	VI	VI			spin
-A01120	ይፍታ	/jɨfɨta/	/jaftaħ/	يَفْتَح	VI	VI			untie, divorce
-A01121	ይፍጠር	/jɨfɨtˤɛr/	/jaftˤir/	يَفْطِر	VI	VI			create
-A01122	ዮድ	/jod/	/juːd/	يُود	N	N			iodine
-A01123	ደለለ	/dɛlɛlɛ/	/dallala/	دَلَّلَ	VP	VP			cajole, entice
-A01124	ደለደለ	/dɛlɛdɛlɛ/	/daldala/	دَلْدَلَ	VP	VP			level
-A01125	ደመነ	/dɛmɛnɛ/	/damana/	دَمَنَ	VP	VP			be cloudy
-A01126	ደመና	/dɛmɛna/	/dimna/	دِمْنَة	N	N			cloud
-A01127	ደማ	/dɛmaː/	/dammam/	دَمَّم	VP	VP			bleed
-A01128	ደም	/dɛm/	/dam/	دَم	N	N	ANAT		blood
-A01129	ደረሰ	/dɛrɛsɛ/	/darrasa/	دَرَّسَ	VP	VP			arrive
-A01130	ደረበ	/dɛrɛbɛ/	/darraba/	دَرَّبَ	VP	VP			cover, double up
-A01131	ደረበ	/dɛrɛbɛ/	/dˤaraba/	ضَرَبَ	VP	VP			cover, double up
-A01132	ደረጀ	/dɛrɛdʒɛ/	/darradʒa/	دَرَّجَ	VP	VP			develop, strive
-A01133	ደረጃ	/dɛrɛdʒa/	/daradʒa/	دَرَجَة	N	N			level
-A01134	ደራሲ	/dɛraːsi/	/darraːs/	دَرَّاس	N	N			novelist, biographer, writer
-A01135	ደራሲነት	/dɛraːsinɛt/	/diraːsa/	دِرَاسة	N	N			state of being a novelist, biographer
-A01136	ደርብ	/dɛrɨb/	/darb/	دَرْب	N	N			row, layer
-A01137	ደርብ	/dɛrɨb/	/dˤarb/	ضَرْب	N	N			floor or level in a building
-A01138	ደቀቀ	/dɛkʼɛkʼɛ/	/daqaqa/	دَقَقَ	VP	VP			be fine, thin
-A01139	ደቀደቀ	/dɛkʼɛdɛkʼɛ/	/dakdaka/	دَكْدَكَ	VP	VP			pound, stamp
-A01140	ደቂቃ	/dɛkʼikʼa/	/daqiːqa/	دَقِيقَة	N	N			minute
-A01141	ደቂቃ	/dɛkʼikʼa/	/daqiːqa/	دَقِيقَة	N	N			unit of tome; 60 seconds
-A01142	ደቃ	/dɛkʼa/	/daqaqa/	دَقَقَ	VP	VP			beat the breast
-A01143	ደቃ	/dɛkʼa/	/dakka/	دَكَّ	VP	VP			beat the breast
-A01144	ደብተር	/dɛbɨtɛr/	/daftar/	دَفْتَر	N	N	DMST		notebook
-A01145	ደነቀረ	/dɛnɛkʼɛrɛ/	/danakara/	دَنَكَرَ	VP	VP			stick into
-A01146	ደን	/dɛn/	/dan/	دَن	N	N			bush, shrub
-A01147	ደወለ	/dɛwɛlɛ/	/dawala/	دَوَلَ	VP	VP			ring
-A01148	ደውል	/dɛwɨl/	/dibla/	دِبْلَة	N	Ncol (eg)	DMST		
-A01149	ደይን	/dɛjɨn/	/diːn/	دِين	N	N	RLGN		decision; determination; discernment
-A01150	ደጀን	/dɛdʒɛn/	/dadʒan/	دَجَن	N	N			backup
-A01151	ደገመ	/dɛgɛmɛ/	/daɣama/	دَغَمَ	VP	VP			repeat
-A01152	ደፈረ	/dɛfɛrɛ/	/dafara/	دَفَرَ	VP	VP			dare
-A01153	ደፈነ	/dɛfɛnɛ/	/dafana/	دَفَنَ	VP	VP			close up
-A01154	ደፋ	/dɛfa/	/dafaqa/	دَفَقَ	VP	VP			spill, pour out
-A01155	ደፋ	/dɛfa/	/dafaqa/	دَفَقَ	VP	VP			spill, pour out
-A01156	ዱባ	/duba/	/dubbaː/	دُبَّا	N	N			1. person who is fat 2. pumpkin
-A01157	ዲብ	/dib/	/dib/	دِب	N	N			small hill, mound
-A01158	ዳሰ	/dasɛ/	/daːsa/	دَاسَ	VP	VP			put up tent, crush
-A01159	ዳሰሰ	/dasɛsɛ/	/daːsa/	دَاسَ	VP	VP			to touch lightly, caress
-A01160	ዳር	/dar/	/daːr/	دَار	N	N			boundary, verge, hem
-A01161	ዳነ	/danɛ/	/daːna/	دَانَ	VP	VP			heal, recover
-A01162	ዳኘ	/daɲɛ/	/daːna/	دَانَ	VP	VP			arbitrate, judge
-A01163	ዳዋ	/dawa/	/dawaːʔ/	دَوَاء	N	N	DMST		weed
-A01164	ዳፈን	/dafɛn/	/daːfan/	دَافَن	N	N			absence of clergyman from a service
-A01165	ዳፍንት	/dafɨnɨt/	/dafn/	دَفْن	N	N			night blindness
-A01166	ድስት	/dɨsɨt/	/tˤistu/	طِسْتُ	N	N	DMST		clay sauce pan
-A01167	ድርሰት	/dɨrɨsɛt/	/dars/	دَرْس	N	N			piece of writing
-A01168	ድርሳን	/dɨrɨsan/	/dars/	دَرْس	N	N			lecture, sermon, speech
-A01169	ድርቅ	/dɨrɨkʼ/	/dirk/	دِرْك	N	N			dearth, famine
-A01170	ድርብ 	/dɨrɨb/	/dˤariːb/	ضَرِيب	N	N			
-A01171	ድርጅት	/dɨrɨdʒɨt/	/daradʒa/	دَرَجة	N	N			company, corporation, association
-A01172	ድርጊት	/dɨrɨgit/	/dardʒ/	دَرْج	N	N			deed, occurrence, event
-A01173	ድብ	/dɨb/	/dub/	دُب	N	N	ANIM		large, heavy animal with thick fur
-A01174	ድወላ	/dɨwɛlaː/	/dawla/	دَوْلَة	N	N			ringing
-A01175	ዶለተ	/dolɛtɛ/	/dawla/	دَوْلَة	VP	VP			scheme, plot
-A01176	ዶለዶመ	/dolɛdomɛ/	/daldama/	دَلْدَمَ	VP	VPcol (sd)			be blunt
-A01177	ዶለዶመ	/dolɛdomɛ/	/daldama/	دَلْدَمَ	VP	VPcol (sd)			be blunt
-A01178	ዶመ	/domɛ/	/dawuːama/	دَوَّمَ	VP	VP			be dull, blunt
-A01179	ጀመለ	/dʒɛmɛlɛ/	/dʒamala/	جَمَلَ	VP	VP			add
-A01180	ጀምብ	/dʒɛmɨb/	/dʒanb/	جَنْب	N	N			one of two pair of loads of an animal
-A01181	ጀበና	/dʒɛbɛna/	/dʒabana/	جَبَنَة	N	Ncol (sd)	DMST		small pot for making coffee
-A01182	ጁሀ	/dʒuhɛ/	/dʒuːχ/	جُوخ	N	Ncol (sd)	DMST		cloth made of soft wool
-A01183	ጅራፍ	/dʒɨraːf/	/quraːf/	قُرَاف	N	Ncol (sd)	DMST		whip used by farmers for urging an ox on
-A01184	ገሀነም	/gɛhɛnɛm/	/dʒahannam/	جَهَنَّم	N	N	RLGN		home of devils and damned souls; place of great suffering
-A01185	ገለፈት	/gɛlɛfɛt/	/ɣalafa/	غَلَفَة	N	N			outer covering or skin of tree trunks and some fruits
-A01186	ገመድ	/gɛmɛd/	/ɣamd/	غَمْد	N	N			thick strong cord made by twisting finer cords together
-A01187	ገመገመ	/gɛmɛgɛmɛ/	/ɣamɣama/	غَمْغَمَ	VP	VP			evaluate, sound out
-A01188	ገመገመ	/gɛmɛgɛmɛ/	/ɣamɣama/	غَمْغَمَ	VP	VP			evaluate, sound out
-A01189	ገረኑግ	/gɛrɛnug/	/ɣarnuːq/	غَرْنُوق	N	N	ANIM		gerenuk or scientific name- litocranius walleri
-A01190	ገረዘ	/gɛrɛzɛ/	/ɣaraza/	غَرَزَ	VP	VP			circumcise
-A01191	ገረገረ	/gɛrɛgɛrɛ/	/ɣarɣara/	غَرْغَرَ	VP	VP			stop short
-A01192	ገር	/gɛr/	/ɣarr/	غَرّ	A	A			
-A01193	ገነት	/gɛnɛt/	/dʒanna/	جَنَّة	N	N	RLGN		paradise
-A01194	ገዛ	/gɛza/	/ɣazaː/	غَزَا	VP	VP			buy, rule
-A01195	ገደለ	/gɛdɛlɛ/	/qatala/	قَتَلَ	VP	VP			kill
-A01196	ገደለ	/gɛdɛlɛ/	/qatl/	قَتْل	N	N			kill
-A01197	ጉልበት	/gulɨbɛt/	/ɣulba/	غُلْبَة	N	N			force, labor
-A01198	ጉምጉምታ	/gumɨgumɨta/	/ɣamɣama/	غَمْغَمَة	N	N			rumor
-A01199	ጉርብትና	/gurɨbɨtɨna/	/qurb/	قُرْب	N	N			
-A01200	ጉበት	/gubɛt/	/kabd/	كَبْد	N	N	ANAT		liver
-A01201	ጉድጓድ	/gudɨgoad/	/qad/	قَدْ	N	N			pit
-A01202	ጋለሞታ	/galɛmota/	/ɣulma/	غُلْمة	N	N			prostitute, bar lady
-A01203	ጋን	/gan/	/qanaːa/	قَنَاة	N	N	DMST		vessel
-A01204	ጋዘ	/gazɛ/	/ɣaːðˤa/	غَاظَ	VP	VP			banish
-A01205	ግልሙትና	/gɨlɨmutɨna/	/ɣulma/	غُلْمة	N	N			prostitution
-A01206	ግመል	/gɨmɛl/	/dʒamal/	جَمَل	N	N			camel
-A01207	ግራ	/gɨraː/	/ɣajra/	غَيْرَ	P	P			1. opposite of right 2. odd
-A01208	ግራ	/gɨraː/	/ɣajra/	غَيْرَ	N	N			left
-A01209	ግርፍ	/gɨrɨf/	/ɣurfa/	غُرْفة	N	N			cemented wall
-A01210	ግብፅ	/gɨbɨtsˤ/	/qibtˤ/	قِبْط	N	N	NAME		egypt
-A01211	ጓዘ	/goazɛ/	/ɣawuːaz/	غَوَّز	VP	VP			transport
-A01212	ጠልሰም	/tˤɛlɨsɛm/	/tˤalsam/	طَلْسَم	N	N			something worn in the hope that it will protect the wearer (against evil, etc)
-A01213	ጠመጠመ	/tˤɛmɛtˤɛmɛ/	/tamtama/	تَمْتَمَ	VP	VP			coil, wind
-A01214	ጠረዘ	/tˤɛrɛzɛ/	/tˤaraza/	طَرَزَ	VP	VP			bind a book
-A01215	ጠረዘ	/tˤɛrɛzɛ/	/tˤaraza/	طَرَزَ	VP	VP			bind a book
-A01216	ጠረፍ	/tˤɛrɛf/	/tˤaraf/	طَرَف	N	N			border
-A01217	ጠራራ	/tˤɛraːraː/	/taraːra/	تَرارا	N	N			midday, noon, blazing sun
-A01218	ጠራቢ	/tˤɛraːbi/	/turaːb/	تُرَاب	N	N			carver
-A01219	ጠርብ	/tˤɛrɨb/	/turaːb/	تُرَاب	N	N			lumber
-A01220	ጠበበ	/tˤɛbɛbɛ/	/tˤababa/	طَبَبَ	VP	VP			be wise; be narrow
-A01221	ጠንፍ	/tˤɛnɨf/	/tˤanf/	طَنْف	N	N			brim, brink, limit, boundary, verge
-A01222	ጠፈጠፈ	/tˤɛfɛtˤɛfɛ/	/tafatafa/	تَفَتَفَ	VP	VP			flatten out, level
-A01223	ጠፈጠፈ	/tˤɛfɛtˤɛfɛ/	/taftafa/	تَفْتَفَ	VP	VP			flatten out, level
-A01224	ጠፋ	/tˤɛfa/	/tˤafaʔ/	طَفَأ	VP	VP			be lost, disappear
-A01225	ጡብ	/tˤub/	/tˤuːb/	طُوب	N	N	DMST		adobe
-A01226	ጣለ	/tˤalɛ/	/dˤalla/	ضَلَّ	VP	VP			lose, drop, throw
-A01227	ጣመ	/tˤamɛ/	/tˤaʕuma/	طَعُمَ	VP	VP			taste good
-A01228	ጣሳ	/tˤasa/	/tˤaːsa/	طَاسَة	N	N	DMST		tin
-A01229	ጣባ	/tˤaba/	/tˤaːba/	طَابَة	N	N	DMST		small clay used as a dish
-A01230	ጣዕም	/tˤaʕɨm/	/tˤaːʕim/	طَاعِم	N	N			savor
-A01231	ጣዕም	/tˤaʕɨm/	/tˤaʕm/	طَعْم	N	N			taste
-A01232	ጣኦስ	/tˤaʔos/	/tˤaːʔuuːs/	طَاؤوس	N	N	ANIM		large male bird noted for its fine tail feathers
-A01233	ጥሩምባ	/tˤɨrumɨba/	/tˤurumba/	طُرُمْبة	N	N	DMST		horn
-A01234	ጥሪ	/tˤɨri/	/tˤariː/	طَرِي	N	N			
-A01235	ጥራቢ	/tˤɨraːbi/	/turaːb/	تُراب	N	N			shavings
-A01236	ጥርስ	/tˤɨrɨs/	/dˤirs/	ضِرْس	N	N	ANAT		tooth
-A01237	ጥርስ	/tˤɨrɨs/	/dˤirs/	ضِرْس	N	N	ANAT		bone like substance rooted in the gums for biting and chewing
-A01238	ጥርሶ	/tˤɨrɨso/	/dˤirs/	ضِرْس	N	N	ANAT		toothy
-A01239	ጥርቃሚ	/tˤɨrɨkʼami/	/rikaːm/	رِكَام	N	N			the rabble; people of the lowest class
-A01240	ጥርቃሞ	/tˤɨrɨkʼamo/	/rikaːm/	رِكَام	N	N			rubbish, useless
-A01241	ጥርጣሬ	/tˤɨrɨtˤare/	/tˤartˤara/	طَرْطَرة	N	N	DMST		
-A01242	ጥበቃ	/tˤɨbɛkʼa/	/tˤabaqa/	طَبَقَة	N	N			protection
-A01243	ጥበብ	/tˤɨbɛb/	/tˤibaːba/	طِبابة	N	N			wisdom
-A01244	ጦም	/tˤom/			N	N	RLGN		(period of) going without food
-A01245	ጨለማ	/tʃɛlɛmaː/	/ðˤulma/	ظُلْمَة	N	N			darkness
-A01246	ጨረር	/tʃɛrɛr/	/ʃarar/	شَرَر	N	N			radiation
-A01247	ጨረታ	/tʃɛrɛta/	/ʃartˤ/	شَرْط	N	N			bid
-A01248	ጨርቃ	/tʃɛrɨkʼa/	/χirqa/	خِرْقَة	N	N	DMST		texture
-A01249	ጨቀጨቀ	/tʃɛkʼɛtʃɛkʼɛ/	/tʃaktʃaka/	تشَكْتشَكَ	VP	VPcol (sd)			nag, pester, get into an argument
-A01250	ጫማ	/tʃamaː/	/dʒazma/	جَزْمة	N	N	DMST		outer covering for the foot
-A01251	ጫነ	/tʃanɛ/	/ʃaħana/	شَحَنَ	VP	VP			load, saddle
-A01252	ፀሐይ	/tsˤɛhɛj/	/sˤaħu/	صَحْو	N	N		SH	sun
-A01253	ጸሓፊ	/sʼɛhaːfi/	/sˤaħħaːf/	صَحَّاف	N	N			writer
-A01254	ጸለየ	/sʼɛlɛja/	/sˤallaː/	صَلَّى	VP	VP	RLGN		pray
-A01255	ጸሎተ፡ፍትሐት	/sʼɛlotɛ፡fɨtɨhɛt/	/sˤalaːa aːlfaːtiħa/	صَلاة الفَاتِحة	N	N	RLGN		prayer for the dead
-A01256	ጸሎት	/sʼɛlot/	/sˤalaːa/	صَلَاة	N	N	RLGN		supplication; benediction
-A01257	ጸሎት	/sʼɛlot/	/sˤalaːa/	صَلاة	N	N	RLGN		supplication; benediction
-A01258	ጸሎት	/sʼɛlot/	/sˤalaːa/	صَلاة	N	N	RLGN		prayer
-A01259	ጸረረ	/sʼɛrɛrɛ/	/sˤarara/	صَرَرَ	VP	VP			be antagonistic 
-A01260	ጸና	/sʼɛna/	/sˤanna/	صَنَّ	VP	VP			be strong
-A01261	ጸደቀ	/sʼɛdɛkʼɛ/	/sˤadaqa/	صَدَقَ	VP	VP			be just
-A01262	ጸዳ	/sʼɛda/	/sˤadaʕa/	صَدَعَ	VP	VP			be neat
-A01263	ጻፈ	/sʼafɛ/	/wasˤafa/	وَصَفَ	VP	VP			write
-A01264	ጽሑፍ	/sʼɨhuf/	/sˤuħuf/	صُحُف	N	N			something written, anything in written form
-A01265	ጽሑፍ	/sʼɨhuf/	/sˤuħuf/	صُحُف	N	N			something written, anything in written form
-A01266	ጽሕፈት	/sʼɨhɨfɛt/	/sˤiħaːfa/	صِحَافة	N	N			writing
-A01267	ጽልመት	/sʼɨlɨmɛt/	/ðˤulmaːt/	ظُلْمَات	N	N			complete darkness; very gloomy condition
-A01268	ጽዋሚ	/sʼɨwami/	/sˤawwaːm/	صَوَّام	N	N	RLGN		person who fasts
-A01269	ጽድቅ	/sʼɨdɨkʼ/	/sˤidq/	صِدْق	N	N			obeying the law; doing what is morally right
-A01270	ጾመ	/sʼomɛ/	/sˤaːma/	صَامَ	VP	VP	RLGN		fast
-A01271	ጾም	/sʼom/	/sˤawm/	صَوْم	N	N	RLGN		fasting
-A01272	ጾም	/sʼom/	/sˤawm/	صَوْم	N	N	RLGN		time of going without food
-A01273	ፈለሰ	/fɛlɛsɛ/	/fallasa/	فَلَّسَ	VP	VP			migrate
-A01274	ፈለሰፈ	/fɛlɛsɛfɛ/	/falsafa/	فَلْسَفَ	VP	VP			invent
-A01275	ፈለክ	/fɛlɛk/	/falak/	فَلَك	N	N			planet
-A01276	ፈለጠ	/fɛlɛtˤɛ/	/falata/	فَلَتَ	VP	VP			split
-A01277	ፈሳ	/fɛsa/	/fasaː/	فَسَا	VP	VP			pass wind
-A01278	ፈስ	/fɛs/	/fusaːʔ/	فُساء	N	N			fart
-A01279	ፈረሰኛ	/fɛrɛsɛɲa/	/faːris/	فَارِس	N	N			rider on horseback (esp. one who is skilled)
-A01280	ፈረስ	/fɛrɛs/	/faras/	فَرَس	N	N	ANIM		horse
-A01281	ፈረደ	/fɛrɛdɛ/	/faradˤa/	فَرَضَ	VP	VP			judge
-A01282	ፈረጠ	/fɛrɛtˤɛ/	/faratˤa/	فَرَطَ	VP	VP			burst
-A01283	ፈረፈረ	/fɛrɛfɛrɛ/	/farfara/	فَرْفَرَ	VP	VP			break into small pieces
-A01284	ፈርስ	/fɛrɨs/	/farθ/	فَرْث	N	N			content of the stomach
-A01285	ፈተለ	/fɛtɛlɛ/	/fatala/	فَتَلَ	VP	VP			spin
-A01286	ፈተሸ	/fɛtɛʃɛ/	/fattaʃa/	فَتَّشَ	VP	VP			frisk, search
-A01287	ፈተነ	/fɛtɛnɛ/	/fatana/	فَتَنَ	VP	VP			try, test
-A01288	ፈተና	/fɛtɛna/	/fitna/	فِتْنَة	N	N			test
-A01289	ፈተና	/fɛtɛna/	/fitna/	فِتْنَة	N	N			hardship
-A01290	ፈተፈተ	/fɛtɛfɛtɛ/	/fatfata/	فَتْفَتَ	VP	VP			crumble
-A01291	ፈታ	/fɛta/	/fataqa/	فَتَقَ	VP	VP			untie, divorce
-A01292	ፈታሽ	/fɛtaʃ/	/fattaːʃ/	فَتَّاش	N	N			person who inspects at a check point
-A01293	ፈታኝ	/fɛtaɲ/	/fattaːn/	فَتَّان	N	N			interviewer; very difficult situation
-A01294	ፈታይ	/fɛtaj/	/fattaːj/	فَتَّاي	N	N			one who spins cotton
-A01295	ፈትል	/fɛtɨl/	/fatl/	فَتْل	N	N			thread
-A01296	ፈነቀለ	/fɛnɛkʼɛlɛ/	/fanakala/	فَنَكَلَ	VP	VP			pulled out
-A01297	ፈነገለ	/fɛnɛgɛlɛ/	/fanaqala/	فَنَقَلَ	VP	Vpcol (sd)			upset, over turn
-A01298	ፈጠረ	/fɛtˤɛrɛ/	/fatˤara/	فَطَرَ	VP	VP			create
-A01299	ፈጠራ	/fɛtˤɛraː/	/fitˤra/	فِطْرَة	N	N	RLGN		creativity
-A01300	ፈጣሪ	/fɛtˤari/	/fatˤtˤaːr/	فَطَّار	N	N	RLGN		god, creator
-A01301	ፈጸመ	/fɛsʼɛmɛ/	/fasˤama/	فَصَمَ	VP	VP			complete accomplish
-A01302	ፋስ	/fas/	/faʔs/	فَأس	N	N	DMST		hatchet
-A01303	ፋኖስ	/fanos/	/faːnuːs/	فَانُوس	N	N	DMST		container with oil and wick, used to give light
-A01304	ፋይዳ	/fajɨda/	/faːʔida/	فَائِدَة	N	N			significance; avail
-A01305	ፍሥሐ	/fɨśɨhɛ/	/fisħa/	فِسْحَ	N	N			pleasure, delight, ecstasy
-A01306	ፍራሽ	/fɨraːʃ/	/firaːʃ/	فِرَاش	N	N	DMST		thick, flat oblong pad of wool, foam rubber, etc on which to sleep
-A01307	ፍራሽ	/fɨraːʃ/	/firaːʃ/	فِراش	N	N	DMST		what is left after s, t (especially a house or town) is destroyed
-A01308	ፍራሽ	/fɨraːʃ/	/firaːʃ/	فِراش	N	N	DMST		thick flat pad to sleep on
-A01309	ፍርድ	/fɨrɨd/	/fardˤ/	فَرْض	N	N	RLGN	SH	judgment
-A01310	ፍርድ	/fɨrɨd/	/fardˤ/	فَرْض	N	N	RLGN	SH	justice
-A01311	ፍቅር	/fɨkʼɨr/	/fikr/	فِكْر	N	N			affection, passion, benevolence
-A01312	ፍተሻ	/fɨtɛʃa/	/fitʃ/	فِتْش	N	N			check; control
-A01313	ፍትሐት	/fɨtɨhɛt/	/fatħ/	فَتْح	N	N			freeing (by a priest)from the consequences of sin
-A01314	ፍትሕ	/fɨtɨh/	/fatħ/	فَتْح	N	N			fairness; reasonableness; impartiality
-A01315	ፍትሕ	/fɨtɨh/	/fatħ/	فَتْح	N	N			impartiality, fairness, reasonableness
-A01316	ፍንጃል	/fɨnɨdʒal/	/findʒaːn/	فِنْجَان	N	N	DMST		cup
-A01317	ፍየል	/fɨjal/	/fiːl/	فِيل	N	N	ANIM		small active horned domestic animal
-A01318	ፍጡር	/fɨtˤur/	/fitˤr/	فِطْر	N	N	RLGN		creation
-A01319	ፍጥረት	/fɨtˤɨrɛt/	/fitˤra/	فِطْرَة	N	N	RLGN		creature
-A01320	ፍጹምነት	/fɨsʼumɨnɛt/	/fasˤm/	فَصْم	N	N			absoluteness, blameless, flawless
-A01321	ፍጻሜ	/fɨsʼame/	/fisˤaːmiː/	فِصَامِي	N	N			final
-A01322	ፎጣ	/fotˤa/	/fuːtˤa/	فُوطَة	N	Ncol	DMST		piece of cloth for drying or wiping s, t wet
-A01323	ፓፓዬ	/papaje/	/baːbaːja/	بَابَايا	N	N	PLNT		papaya
-A01324	ፖሊስ፡ጣቢያ	/polisɨ፡tˤabija/	/tˤaːbiːja buːliːs/	طابِية بُولِيس	N	N			office of a local police officer
+A00005	ሐቀኛ	/hɛkʼɛɲa/	/ħaqqaːniː/	حَقَّانِي	A	A			honest
+A00006	ሐቀኛነት	/hɛkʼɛɲanɛt/	/ħaqqaːniːja/	حَقَّانِيَّة	N	N			honesty
+A00007	ሐቅ	/hɛkʼ/	/ħaq/	حَق	N	N			fact, veracity
+A00008	ሐብሐብ	/hɛbɨhɛb/	/ħabħab/	حَبْحَب	N	N	PLNT		watermelon
+A00009	ሐብል	/hɛbɨl/	/ħabl/	حَبْل	N	N	DMST		jewelry (neck), choker
+A00010	ሀብት	/hɛbɨt/	/hiba/	هِبَة	N	N			
+A00011	ሐተታ	/hɛtɛta/	/ħitta/	حِتَّة	N	Ncol (sd)			details, particulars, information, the whole story
+A00012	ሐኪም	/hɛkim/	/ħakiːm/	حَكِيم	N	N			physician
+A00013	ሐኪም፡ቤት	/hɛkimɨ፡bet/	/bajt alħikma/	بَيْت الحِكْمة	N	N			sanatorium, infirmary, sickbay
+A00014	ሐዋላ	/hɛwalaː/	/ħawwaːla/	حَوَّالَة	N	N			money transfer
+A00015	ሐዋርያ	/hɛwarɨja/	/ħwaːriː/	حُوارِي	N	N	RLGN		apostle, disciple, follower
+A00016	ሐዋርያነት	/hɛwarɨjanɛt/	/ħwaːriːja/	حُوارِيَّة	N	N	RLGN		apostleship
+A00017	ሐዋርያዊ	/hɛwarɨjawi/	/ħawaːriː/	حَوارِي	A	A	RLGN		apostolic, of the apostle
+A00018	ኃይል	/ħajɨl/	/ħajl/	حَيْل	N	N			power
+A00019	ሃይማኖት	/haːjɨmaːnot/	/hajmana/	هَيْمَنة	N	N	RLGN		faith, belief, creed
+A00020	ሐዲስ	/hɛdis/	/ħadiːθ/	حَدِيث	N	N			new
+A00021	ሐዲድ	/hɛdid/	/ħadiːd/	حَدِيد	N	N			passageway for train, pathway
+A00022	ሀገር	/hɛgɛr/	/ħikr/	حِكْر	N	N			
+A00023	ሐፍረት	/hɛfɨrɛt/	/ħufra/	حُفْرَة	N	N			disgrace, humiliation, dishonor
+A00024	ሁለተ፡ደረጃ	/hulɛtɛ፡dɛrɛdʒa/	/daradʒaː ʔuːlaː/	دَرَجَةَ أولَى	N	N			
+A00025	ሁሉ	/hulu/	/kul/	كُل	D	D			each and every one, every single one
+A00026	ሑርነት	/hurɨnɛt/	/ħurriːja/	حُرِّيَّة	N	N			liberty, emancipation
+A00027	ሑዳዴ	/hudade/	/ħadaːd/	حَدَاد	N	N			(in Orthodox and Catholic Christian religion) the period of 40 days from Ash Wednesday to the day before Easter, during which some Christians fast in memory of Christ's suffering
+A00028	ሑዳድ	/hudad/	/ħadaːd/	حَدَاد	N	N			of the fasting time before Easter
+A00029	ሒሳብ	/hisab/	/ħisaːb/	حِسَاب	N	N			arithmetic
+A00030	ሒሳብ	/hisab/	/ħisaːb/	حِسَاب	N	N			math's (as a sum), bill (in hotel, etc)
+A00031	ሂስ	/his/	/his/	هِس	N	N			censure
+A00032	ሂያጅ	/hijadʒ/	/hjːadʒ/	هِيَاج	N	N			a person who walks off, violent, extravagant
+A00033	ሔዋን	/hewan/	/ħajwaːn/	حَيْوان	N	N			eve
+A00034	ህልም	/hɨlɨm/	/ħulm/	حُلْم	N	N			dream
+A00035	ሕልም	/hɨlɨm/	/ħilm/	حِلْم	N	N			trance
+A00036	ሕመም	/hɨmɛm/	/ħamiːm/	حَمِيم	N	N			illness
+A00037	ኅሙስ	/ħɨmus/	/aːlχamiːs/	الخَمِيس	N	N			thursday
+A00038	ሕማም	/hɨmaːm/	/ħimaːm/	حِمام	N	N			ache, hurting
+A00039	ሕቅታ	/hɨkʼɨta/	/kuħħa/	كُحَّة	N	N			eructate, clear the throat, burp break wind
+A00040	ኅብረት	/ħɨbɨrɛt/	/χibra/	خِبْرة	N	N			coming together, unification merger
+A00041	ኅብር	/ħɨbɨr/	/ħibr/	حِبْر	N	N		SH	image, combination of daft colors
+A00042	ህንዳዊ	/hɨnɨdawi/	/hindiː/	هِنْدِي	A	A	NAME		indian
+A00043	ህንድ	/hɨnɨd/	/ʔlhind/	الهِنْد	N	N	NAME		india
+A00044	ሕዋስ	/hɨwas/	/ħawaːs/	حَوَاس	N	N			sense organ
+A00045	ህዋእ	/hɨwaʔ/	/hawaːʔ/	هَوَاء	N	N			space
+A00046	ሕዝባዊ	/hɨzɨbawi/	/ħizbiː/	حِزْبِي	A	A			civic, well-liked, communal
+A00047	ሕዝብ	/hɨzɨb/	/ħizb/	حِزْب	N	N			populace, inhabitants, public
+A00048	ኅይል	/ħɨjɨl/	/ħajl/	حَيْل	N	N			authority, strength, influence
+A00049	ሕይወት	/hɨjɨwɛt/	/ħajaːa/	حَيَاة	N	N			life
+A00050	ሕጋዊ	/hɨgawi/	/ħaqqiː/	حَقِّي	A	A			legalized, official, allowed
+A00051	ሕግ	/hɨg/	/ħaqq/	حَقّ	N	N			commandment, decree, bylaw, the state of being virgin
+A00052	ሕፃን	/hɨtsˤan/	/ħisaːn/	حِسَان	N	N			kid, teenager, infant, toddler
+A00053	ሕፃንነት	/hɨtsˤanɨnɛt/	/ħisaːn/	حِسَان	N	N			infancy, early days
+A00054	ኅፍረተ	/ħɨfɨrɛtɛ/	/ħufra/	حُفْرَة	N	N	ANAT		penis or vagina
+A00055	ኅፍረት	/ħɨfɨrɛt/	/ħufra/	حُفْرة	N	N			disgrace, embarrassment, dishonored
+A00056	ሆመጠጠ	/homɛtˤɛtˤɛ/	/ħamudˤa/	حَمُضَ	VP	VP			be acid, sour
+A00057	ሆድ	/hod/	/ħawdˤ/	حَوْض	N	N	ANAT		abdomen, tummy
+A00058	ሆጃ	/hodʒa/	/ħudʒdʒa/	حُجَّة	N	N	DMST		legal document (used in Harar region)
+A00059	ለምለም	/lɛmɨlɛmɨ/	/lamam/	لَمَم	N	N	ANAT		soft part of the ear (where the earring hangs)
+A00060	ለምለምነት	/lɛmɨlɛmɨnɛt/	/lamlama/	لَمْلَمَة	N	N			abundance, lushness
+A00061	ለምጽ	/lɛmɨsʼ/	/lamðˤ/	لَمْظ	N	N			stained skin
+A00062	ለሰለሰ	/lɛsɛlɛsɛ/	/laslasa/	لَسْلَسَ	VP	VP			be soft, smooth
+A00063	ለስላሳነት	/lɛsɨlaːsanɛt/	/salaːsa/	سَلاسة	N	N			softness
+A00064	ለቀማ	/lɛkʼɛmaː/	/laqma/	لَقْمة	N	N			the act of picking and choosing, collecting (often grains from the weed)
+A00065	ለቀቀ	/lɛkʼɛkʼɛ/	/lakak/	لَكَك	VP	VP			let go, abandon, relax
+A00066	ለቅላቂ	/lɛkʼɨlaːkʼi/	/laklaːk/	لَكْلاك	N	N			spreader (usually, of the cement to be laid on a building under construction)
+A00067	ለበለበ	/lɛbɛlɛbɛ/	/lablaba/	لَبْلَبَ	VP	VP			singe, scorch
+A00068	ለበሰ	/lɛbɛsɛ/	/labisa/	لَبِسَ	VP	VP	DMST		wear, dress
+A00069	ለባሽ	/lɛbaʃ/	/labaːs/	لَباس	N	N			a person who dress in
+A00070	ለተመ	/lɛtɛmɛ/	/latˤama/	لَطَمَ	VP	VP			butt, quarrel
+A00071	ለውዝ	/lɛwɨz/	/lawz/	لَوْز	N	N	PLNT		peanut, ground nut
+A00072	ለዘዘ	/lɛzɛzɛ/	/lazaza/	لَزَزَ	VP	VP			deliquesce
+A00073	ለዛ	/lɛza/	/laðða/	لَذَّة	N	N			charm, magic (in verbal communication)
+A00074	ለገመ	/lɛgɛmɛ/	/laɣɣama/	لَغَّمَ	VP	VP			be obstinate
+A00075	ለፈለፈ	/lɛfɛlɛfɛ/	/laflafa/	لَفْلَفَ	VP	VP			chatter
+A00076	ሉህ	/luh/	/luːħ/	لُوح	N	N	DMST		sheet
+A00077	ሉል	/lul/	/luʔuluʔua/	لُؤلُؤة	N	N	DMST		gem, majestic orb, globe
+A00078	ሊጥ	/litˤ/	/latt/	لَتّ	N	N			dough mixture (for preparing እንጀራ)
+A00079	ላሰ	/laːsɛ/	/laħasa/	لَحَسَ	VP	VP			lick
+A00080	ላዕላይ	/laːʕɨlaːj/	/ʔlʔʕlaː/	الأعْلَى	A	A			higher, superior
+A00081	ሌሊት	/lelit/	/lajla/	لَيْلَة	N	N			night, hours of darkness, of the night, nocturnal
+A00082	ልማድ	/lɨmaːd/	/limaːd/	لِماد	N	N			practice, tradition, convention
+A00083	ልምላሜ	/lɨmɨlaːme/	/limlaːm/	لِمْلام	N	N			blossoming, vegetation
+A00084	ልምድ	/lɨmɨd/	/lamdˤ/	لَمْض	N	N			expertise, acquaintance, familiarity
+A00085	ልሳነ	/lɨsanɛ/	/lisaːn/	لِسَان	N	N			language
+A00086	ልሳን	/lɨsan/	/lisaːn/	لِسَان	N	N			speech, talking, publication of a political party
+A00087	ልሻን	/lɨʃan/	/niːʃaːn/	نِيشان	N	N	DMST		honorary medal
+A00088	ልቃሚ	/lɨkʼami/	/rukaːm/	رُكام	N	N			trash, leftovers
+A00089	ልቅለቃ	/lɨkʼɨlɛkʼa/	/laklaka/	لَكْلَكة	N	N			the act of spreading (usually, the cement to be laid on a building under construction)
+A00090	ልቅልቅ	/lɨkʼɨlɨkʼ/	/laklak/	لَكْلَك	N	N			smeared thing
+A00091	ልቡና	/lɨbuna/	/libna/	لِبْنَة	N	N			sense of right and wrong
+A00092	ልባስ	/lɨbas/	/libaːs/	لِباس	N	N			fabric used to wrap sth.
+A00093	ልባብ	/lɨbab/	/libaːb/	لِباب	N	N			bridle, rein
+A00094	ልብ	/lɨb/	/lubb/	لُبّ	N	N	ANAT		heart, compassion, guts, intellectual power
+A00095	ልብሰ	/lɨbɨsɛ/	/libs/	لِبْس	N	N	DMST		garments
+A00096	ልብሶ	/lɨbɨso/	/libs/	لِبْس	N	N	DMST		clothes
+A00097	ልብዳት	/lɨbɨdat/	/libda/	لِبْدة	N	N			fur coating (of a book, bag, etc)
+A00098	ልብድ	/lɨbɨd/	/libd/	لِبْد	A	A			covered with leather, ex.
+A00099	ልጥፋት	/lɨtˤɨfat/	/latˤaːʔif/	لَطائِف	N	N	DMST		cushion, as in for instance, bandage for injury, surgical dressing, fomentation
+A00100	ሎሚ	/lomi/	/lajmuːn/	لَيْمُون	N	N	PLNT		lemon
+A00101	ሎጣዊ	/lotˤawi/	/luːtˤiː/	لُوطِي	N	N			homosexual (male), sodomite, pansy
+A00102	መሀል	/mɛhɛl/	/maħal/	مَحَل	N	N			middle, core, nucleus
+A00103	መሐረም(ብ)	/?/	/maħram/	مَحْرَم	N	N	DMST		hankie, tissue
+A00104	መሀንዲስ	/mɛhɛnɨdis/	/muhandis/	مُهَنْدِس	N	N			builder, designer, draftsman (draftswoman)
+A00105	መሀንዲስነት	/mɛhɛnɨdisɨnɛt/	/muhandis/	مُهَنْدِس	N	N			the state of being an engineer (draftsman, draftswoman)
+A00106	መሀከል	/mɛhɛkɛl/	/maʕqal/	مَعْقَل	N	N			middle, midpoint, core, central point
+A00107	መለመለ	/mɛlɛmɛlɛ/	/malmala/	مَلْمَلَ	VP	VP			select, pluck
+A00108	መለሰ	/mɛlɛsɛ/	/malasˤa/	مَلَصَ	VP	VP			return
+A00109	መለኮት	/mɛlɛkot/	/malakuːt/	مَلَكُوت	N	N	RLGN		holiness
+A00110	መለኮትነት	/mɛlɛkotɨnɛt/	/malakuːt/	مَلَكُوت	N	N	RLGN		spiritual authority
+A00111	መላስ	/mɛlaːs/	/malaːs/	مَلاس	N	N	ANAT		tongue
+A00112	መላጣ	/mɛlaːtˤa/	/ʔamlatˤ/	أمْلَط	A	A			hairless (on the head)
+A00113	መልአከ፡ሞት	/mɛlɨʔɛkɛ፡mot/	/malak almawt/	مَلَك المَوْت	N	N			the Angel of Death
+A00114	መልአከ፡ዑቃቢ	/mɛlɨʔɛkɛ፡ʕukʼabi/	/malak alʕiqaːb/	مَلَك العِقاب	N	N	RLGN		protector seraph
+A00115	መልአክ	/mɛlɨʔɛk/	/malaːk/	مَلَاك	N	N	RLGN		angel
+A00116	መልክት	/mɛlɨkɨt/	/malaka/	مَلَكَة	N	N			memorandum, note
+A00117	መሰለ	/mɛsɛlɛ/	/maθala/	مَثَلَ	VP	VP			seem
+A00118	መሰለ	/mɛsɛlɛ/	/maθala/	مَثَلَ	VP	VP			make a model
+A00119	መሠርሠሪያ	/mɛśɛrɨśɛrija/	/masarsariːja/	مَسَرْسَرِيّة	N	N			device used to pierce (wall, etc.)
+A00120	መሲሕ	/mɛsih/	/masiːħ/	مَسِيح	N	N	RLGN		messiah
+A00121	መሳለሚያ	/mɛsalɛmija/	/masaːlamiːja/	مَسالَمِيَّة	N	N			church balcony
+A00122	መሥመር	/mɛśɨmɛr/	/masaːr/	مَسَار	N	N			route, roundabout way, electrical or otherwise line
+A00123	መስማት	/mɛsɨmaːt/			N	N			
+A00124	መስተአምር	/mɛsɨtɛʔɛmɨr/	/mastaːmr/	مَسْتَامْر	N	N			article (grammatical)
+A00125	መስቲካ	/mɛsɨtika/	/mistika/	مِسْتِكَة	N	N	DMST		chewing-gum, bubble-gum, stick of gum
+A00126	መስኮት	/mɛsɨkot/	/miʃkaːa/	مِشْكَاة	N	N	DMST		alcove
+A00127	መስጊድ	/mɛsɨgid/	/masdʒid/	مَسْجِد	N	N	RLGN		mosque
+A00128	መስጠትን	/mɛsɨtˤɛtɨn/	/mustaʕtˤ/	مُسْتَعْط	N	N			
+A00129	መረረ	/mɛrɛrɛ/	/marara/	مَرَرَ	VP	VP			be bitter
+A00130	መረቅ	/mɛrɛkʼ/	/maraq/	مَرَق	N	N			soup, potage
+A00131	መረባ	/mɛrɛba/	/murabbaʕ/	مُرَبَّع	A	A	NUMB		quadrangle
+A00132	መረብ/መርበብ	/?/	/?/	?	N	N			mesh
+A00133	መራራ	/mɛraːraː/	/maraːra/	مَرَارَة	N	N			bitter
+A00134	መራራነት	/mɛraːraːnɛt/	/maraːra/	مَرَارة	N	N			sourness, resentment
+A00135	መራርነት	/mɛraːrɨnɛt/	/maraːra/	مَرَارة	N	N			sourness, resentment, acrimony
+A00136	መራቢያ	/mɛraːbija/	/marbaː/	مَرْبى	N	N			reproduction place
+A00137	መርቢያ	/mɛrɨbija/	/marbaː/	مَرْبَى	N	N			location for reproduction of livestock
+A00138	መርከብ	/mɛrɨkɛb/	/markib/	مَرْكِب	N	N	DMST		ship
+A00139	መቀስ	/mɛkʼɛs/	/miqasˤsˤ/	مِقَصّ	N	N	DMST		shears, clippers
+A00140	መቀነት	/mɛkʼɛnɛt/	/makana/	مَكَنَة	N	N	DMST		fabric used to hold tight the waist
+A00141	መቁሊያ	/mɛkʼulija/	/miqlaːa/	مِقْلاة	N	N	DMST		pot, roast pan
+A00142	መቁረጫ	/mɛkʼurɛtʃa/	/makraʃa/	مَكْرَشَة	N	N	DMST		chopping tool
+A00143	መቃብር	/mɛkʼabɨr/	/maqaːbir/	مَقَابِر	N	N			grave (burial place)
+A00144	መቅዘኛ	/mɛkʼɨzɛɲa/	/maχzan/	مَخْزَن	N	N	DMST		chamber pot
+A00145	መቅደስ	/mɛkʼɨdɛs/	/maqdas/	مَقْدَس	N	A	RLGN		temple
+A00146	መቅደስ	/mɛkʼɨdɛs/	/maqdas/	مَقْدَس	N	N			holy place (church), sanctuary
+A00147	መብረቅ	/mɛbɨrɛkʼ/	/mabraq/	مَبْرَق	N	N			flash, beam sparkle
+A00148	መብረቅ	/mɛbɨrɛkʼ/	/mabraq/	مَبْرَق	N	N			lightning
+A00149	መተርጎም	/mɛtɛrɨgom/	/tardʒama/	تَرْجَمَة	N	N			
+A00150	መተከያ	/mɛtɛkɛja/	/muttakaʔ/	مُتَّكَأ	N	N			dwelling or inhabiting location, site,
+A00151	መታሠሪያ	/mɛtaśɛrija/	/maʔsar/	مَأسَر	N	N			detention center, reformatory
+A00152	መነሻ	/mɛnɛʃa/	/manʃaʔ/	مَنْشَأ	N	N			initial position, starting position
+A00153	መነሾ	/mɛnɛʃo/	/manʃuʔu/	مَنْشُؤ	N	N			starting place, cause
+A00154	መነተፈ	/mɛnɛtɛfɛ/	/mantafa/	مَنْتَفَ	VP	VP			snatch
+A00155	መነነ	/mɛnɛnɛ/	/manana/	مَنَنَ	VP	VP			retire from world
+A00156	መነጥር	/mɛnɛtˤɨr/	/minðˤaːr/	مِنْظار	N	N	DMST		specs, goggles
+A00157	መነጽር	/mɛnɛsʼɨr/	/minðˤaːr/	مِنْظَار	N	N	DMST		specs, goggles
+A00158	መናፈሻ	/mɛnafɛʃa/	/mutanaffas/	مُتَنَفَّس	N	N			outdoor place, roomy, well-ventilated
+A00159	መንበር	/mɛnɨbɛr/	/minbar/	مِنْبَر	N	N			political seat or throne, woolsack
+A00160	መንበር	/mɛnɨbɛr/	/minbar/	مِنْبَر	N	N	RLGN		chair of monarch or bishop, power, rank and privileges of a monarch
+A00161	መንበርከኪያ	/mɛnɨbɛrɨkɛkija/	/munbarak/	مُنْبَرَك	N	N			space for kneeling down
+A00162	መንደር	/mɛnɨdɛr/	/bandar/	بَنْدَر	N	N			village
+A00163	መከረ	/mɛkɛrɛ/	/makara/	مَكَرَ	VP	VP			advise
+A00164	መከራ	/mɛkɛraː/	/makr/	مَكْر	N	N			difficulty, problem
+A00165	መከታ	/mɛkɛta/	/maqtˤaʕ/	مَقْطَع	N	N			formation of a partition, flat timber, barrier
+A00166	መከዳ	/mɛkɛda/	/miχadda/	مِخَدَّة	N	N	DMST		head support, pad
+A00167	መከፈኛ	/mɛkɛfɛɲa/	/makfan/	مَكْفَن	N	N			covering, blanket, shroud
+A00168	መወጣጫ	/mɛwɛtˤatʃa/	/mawtˤiːʔ/	مَوْطِيء	N	N			
+A00169	መውጅ	/mɛwɨdʒ/	/mawdʒ/	مَوْج	N	N			ocean wave
+A00170	መዘነ	/mɛzɛnɛ/	/wazana/	وَزَنَ	VP	VP			balance , weigh
+A00171	መዘክር	/mɛzɛkɨr/	/mazakr/	مَزَكْر	N	N			building for displaying hospital, science, art objects
+A00172	መዘክር	/mɛzɛkɨr/	/mazkar/	مَزْكَر	N	N			place where important things are preserved
+A00173	መዘውር	/mɛzɛwɨr/	/mazawr/	مَزَوْر	N	N			grooved wheel(s) for ropes or chains, used for lifting things
+A00174	መደነ	/mɛdɛnɛ/	/madana/	مَدَنَ	VP	VP			civilize
+A00175	መድረክ	/mɛdɨrɛk/	/madrak/	مَدْرَك	N	N			raised area, platform, podium, tribune
+A00176	መድፍ	/mɛdɨf/	/midfaʕ/	مِدْفَع	N	N			mortar, field gun
+A00177	መጅ	/mɛdʒ/	/madʒ/	مَج	N	N			higher millstone, higher grindstone, hard skin, lump
+A00178	መገመት	/mɛgɛmɛt/	/maqaːm/	مَقَام	N	N			estimate (to)
+A00179	መጉመጥመጫ	/mɛgumɛtˤɨmɛtʃa/	/madˤmadˤa/	مَضْمَضَة	N	N			cleansing liquid for oral cavity
+A00180	መጋዘን	/mɛgazɛn/	/maχzan/	مَخْزَن	N	N			lumber room, storehouse
+A00181	መጋዝ	/mɛgaz/	/maqasˤ/	مَقَص	N	N	DMST		saw
+A00182	መግነጢስ	/mɛgɨnɛtˤis/	/maɣnatˤiːs/	مَغْنَطِيس	N	N	DMST		magnet
+A00183	መጠን	/mɛtˤɛn/	/matn/	مَتْن	N	N			
+A00184	መጣጢስ	/mɛtˤatˤis/	/batˤaːtˤis/	بَطَاطِس	N	N	PLNT		sweet potato
+A00185	መጽሐፍ	/mɛsʼɨhɛf/	/misˤħaf/	مِصْحَف	N	N	DMST	SH	book
+A00186	መፈክር	/mɛfɛkɨr/	/mafkar/	مَفْكَر	N	N			motto
+A00187	መፍትሄ	/mɛfɨtɨhe/	/miftaːħ/	مِفْتَاح	N	N			solution
+A00188	መፍትሔ	/mɛfɨtɨhe/	/miftaːħ/	مِفْتاح	N	N			panacea, remedy
+A00189	መፍቻ	/mɛfɨtʃa/	/mifak/	مِفَك	N	N	DMST		screw driver
+A00190	ሙሀቻ	/muhɛtʃa/	/muhdʒa/	مُهْجَة	N	N	DMST	SH	container, pot used for holding the semi liquid item before baking bread, injera, etc.
+A00191	ሙሉ	/mulu/	/maluʔu/	مَلُؤ	N	N			
+A00192	ሙሉ	/mulu/	/mulʔ/	مُلء	A	A			chock-full, filled, up to the brim
+A00193	ሙላ	/mulaː/	/mulla/	مُلَّة	N	N	ANAT		hip-joint
+A00194	ሙረዳ	/murɛda/	/biraːda/	بِرَادة	N	N			the performance of sharpening, honing or whetting
+A00195	ሙሬ	/mure/	/muri/	مُري	N	N			locally made sweeping device used in agriculture
+A00196	ሙከራ	/mukɛraː/	/makr/	مَكْر	N	N			tryout, experiment
+A00197	ሙዚቀኛ	/muzikʼɛɲa/	/muːsiːqiː/	مُوسِيقِي	N	N			vocalist, singer
+A00198	ሙዚቃ	/muzikʼa/	/muːsiːqaː/	مُوسِيقى	N	N			melody
+A00199	ሙዝ	/muz/	/mawz/	مَوْز	N	N	PLNT		banana
+A00200	ሚዛን	/mizan/	/miːzaːn/	مِيزان	N	N			weighing machine, weighing scale
+A00201	ሚዜ	/mize/	/miːza/	مِيزَة	N	N			matron of honor
+A00202	ማኅተም	/maːħɨtɛm/	/maχtam/	مَخْتَم	N	N			autorization stamp, seal
+A00203	ማሕፀን	/maːhɨtsˤɛn/	/maħsan/	مَحْسَن	N	N	ANAT		womb, uterus
+A00204	ማለቢያ	/maːlɛbija/	/maħlabiːja/	مَحْلَبِيَّة	N	N			bucket for taking milk from cows
+A00205	ማላ	/maːlaː/	/mwaːlaːa/	مُوالاة	N	N			vow, swear
+A00206	ማስፈሪያ	/maːsɨfɛrija/	/masfar/	مَسْفَر	N	N		SH	region to dwell in
+A00207	ማራቢያ	/maːraːbija/	/marbaː/	مَرْبى	N	N			place where reproduction (of livestock) is going on
+A00208	ማርያም	/maːrɨjam/	/mariːjam/	مَرْيَم	N	N	RLGN		mary
+A00209	ማርዳ	/maːrɨda/	/marda/	مَرْدة	N	N	DMST		diamond-like ornament often put on as neck attraction
+A00210	ማት	/maːt/	/maːt/	مَات	N	N	RLGN		rage of God, huge number (multitude) of people
+A00211	ማን	/maːn/	/man/	مَنْ	P	P			who
+A00212	ማንፈሻ	/maːnɨfɛʃa/	/manfaʃ/	مَنْفَش	N	N			device used for removing chaff from grain
+A00213	ማዕቀብ	/maːʕɨkʼɛb/	/muʕaːqaba/	مُعَاقَبة	N	N			ban, forbid
+A00214	ማዕከላዊ	/maːʕɨkɛlaːwi/	/maʕqaliː/	مَعْقَلِي	A	A			middle, mid, innermost
+A00215	ማእከል	/maːʔɨkɛl/	/maʕqal/	مَعْقَل	N	N			center
+A00216	ማዕከል	/maːʕɨkɛl/	/maʕqal/	مَعْقَل	N	N			midpoint, center
+A00217	ማዕድ	/maːʕɨd/	/maːʔida/	مَائِدَة	N	N			spread (meal)
+A00218	ማዕድ፡ቤት	/maːʕɨdɨ፡bet/	/maːʕd?biːt/	ماعْدْ፡بيت	N	N	DMST		kitchen
+A00219	ማዕድን	/maːʕɨdɨn/	/maʕdin/	مَعْدِن	N	N	DMST		mineral deposits, excavation, quarry, raw materials
+A00220	ማካፈል	/maːkafɛl/	/makfal/	مَكْفَل	N	N			division (math), sharing
+A00221	ማዘያ	/maːzɛja/	/maːzajiːja/	مَازَيَّة	N	N	DMST		leather, piece of cloth, or tunic used for carrying an infant on the back
+A00222	ምሁር	/mɨhur/	/mutaħarriː/	مُتَحَرِّي	N	N			researcher, intellectual, thinker
+A00223	ምህዋር	/mɨhɨwar/	/miħuːar/	مِحْوَر	N	N			orbit
+A00224	ምላሰኝነት	/mɨlaːsɛɲɨnɛt/	/mulaːsana/	مُلاسَنَة	N	N			chattiness
+A00225	ምላስ	/mɨlaːs/	/milaːs/	مِلاس	N	N			language, speech, tongue
+A00226	ምሳሌ	/mɨsale/	/miθaːl/	مِثال	N	N			case in point, instance, exemplar, allegory
+A00227	ምስ	/mɨs/	/mas/	مَس	N	N			special liking of an individual, one's obsession
+A00228	ምስል	/mɨsɨl/	/miθl/	مِثْل	N	N			double
+A00229	ምስማር	/mɨsɨmaːr/	/mismaːr/	مِسْمَار	N	N	DMST		nail
+A00230	ምሥራቃዊ	/mɨśɨraːkʼawi/	/maʃriqiː/	مَشْرِقِيّ	N	N			eastern
+A00231	ምሥራቅ	/mɨśɨraːkʼ/	/maʃriq/	مَشْرِق	N	N			east
+A00232	ምስራች	/mɨsɨraːtʃ/	/misarra/	مِسَرَّة	N	N			good news, good tidings, hurrah!
+A00233	ምስኪን	/mɨsɨkin/	/miskiːn/	مِسْكِين	A	A			wretched, dismal, under privileged
+A00234	ምስጢር	/mɨsɨtˤir/	/ʔaustˤuːra/	أُسْطُورة	N	N			secret, clandestine
+A00235	ምረት	/mɨrɛt/	/murra/	مُرَّة	A	A			sour flavor
+A00236	ምራቅ	/mɨraːkʼ/	/maraq/	مَرَق	N	N	ANAT		saliva, drip
+A00237	ምራን	/mɨraːn/	/miraːn/	مِران	N	N			skin or pelt ligament (tendon)
+A00238	ምሬት	/mɨret/	/murra/	مُرَّة	A	A			sour flavor
+A00239	ምርኩዝ	/mɨrɨkuz/	/mirkaz/	مِرْكَز	N	N			supporting, rod, cane
+A00240	ምርኩዝ	/mɨrɨkuz/	/mirkaz/	مِرْكَز	N	N			walking-stick, cane
+A00241	ምርግ	/mɨrɨg/	/mariɣ/	مَرِغ	A	A			soldered, smeared with mud, cement
+A00242	ምንጣፍ	/mɨnɨtˤaf/	/mintaf/	مِنْتَف	N	N			rug, mat, carpet
+A00243	ምኞት	/mɨɲot/	/ʔaumniːja/	أُمْنِيَّة	N	N			wish
+A00244	ምዕራብ	/mɨʕɨraːb/	/maɣrib/	مَغْرِب	N	N			west
+A00245	ምኩራብ	/mɨkuraːb/	/miħraːb/	مِحْرَاب	N	N	RLGN		prayer-house, Jews' chapel
+A00246	ምክር	/mɨkɨr/	/makr/	مَكْر	N	N			counsel, guidance
+A00247	ምድራዊ	/mɨdɨraːwi/	/midriː/	مِدْرِي	A	A			earthly, secular, mundane
+A00248	ሞላ	/molaː/	/malʔ/	مَلأ	VP	VP			fill
+A00249	ሞረደ	/morɛdɛ/	/barada/	بَرَدَ	VP	VP			file, rasp
+A00250	ሞረደ	/morɛdɛ/	/mibrad/	مِبْرَد	N	N	DMST		sharpener, device for honing or whetting (knife, etc.)
+A00251	ሞረድ	/morɛd/	/mibrad/	مِبْرَد	N	N	DMST		sharpener, device for honing or whetting (knife, etc.)
+A00252	ሞተ	/motɛ/	/maːta/	مَاتَ	VP	VP			die
+A00253	ሞት	/mot/	/mawt/	مَوْت	N	N			passing away, demise
+A00254	ሞገስ	/mogɛs/	/maɣasˤ/	مَغَص	N	N			
+A00255	ሰሀ	/sɛhɛ/	/sahu/	سَهْو	N	N			mistake, blunder
+A00256	ሰለለ	/sɛlɛlɛ/	/salala/	سَلَلَ	VP	VP			spy on
+A00257	ሰለለ	/sɛlɛlɛ/	/ʃalala/	شَلَلَ	VP	VP			be paralyzed
+A00258	ሰለመ	/sɛlɛmɛ/	/ʔaslama/	أسْلَمَ	VP	VP	RLGN		become a muslim
+A00259	ሠለስት	/śɛlɛsɨt/	/θaːliθ/	ثَالِث	N	N	NUMB		third day after funeral
+A00260	ሰለበ	/sɛlɛbɛ/	/salaba/	سَلَبَ	VP	VP			castrate
+A00261	ሰላም	/sɛlaːm/	/salaːm/	سَلَام	N	N			peace
+A00262	ሰላምታ	/sɛlaːmɨta/	/salaːmta/	سَلامْتا	N	N			greetings
+A00263	ሰላቢ	/sɛlaːbi/	/sallaːb/	سَلَّاب	N	N			an individual who deceives in the gauge (weigh)
+A00264	ሰልፍ	/sɛlɨf/	/salaf/	سَلَف	N	N			pageant, march past
+A00265	ሰማ	/sɛmaː/	/samiʕa/	سَمِعَ	VP	VP			hear
+A00266	ሰማኒያ	/sɛmaːnija/	/θamaːniːja/	ثَمانِية	N	N	NUMB		eighty
+A00267	ሰማይ	/sɛmaːj/	/samaːʔ/	سَمَاء	N	N			sky
+A00268	ሰረሰረ	/sɛrɛsɛrɛ/	/sarsara/	سَرْسَرَ	VP	VP			bore through
+A00269	ሰረረ	/sɛrɛrɛ/	/sarara/	سَرَرَ	VP	VP			mount, cover
+A00270	ሰረቀ	/sɛrɛkʼɛ/	/saraqa/	سَرَقَ	VP	VP			steal
+A00271	ሰራሪ	/sɛraːri/	/saraːri/	سَرارِ	N	N			a beast that makes love (fucks)
+A00272	ሰራቂ	/sɛraːkʼi/	/sarraːq/	سَرَّاق	N	N			pilferer, thief
+A00273	ሠርሣሪ	/śɛrɨśaːri/	/sarsaːri/	سَرْسارِ	N	N			intruder
+A00274	ሰርሳሪ	/sɛrɨsari/	/sarsaːri/	سَرْسارِ	N	N			housebreaker, intruder
+A00275	ሰርቆት	/sɛrɨkʼot/	/sariqa/	سَرِقَة	N	N			robbery
+A00276	ሰርጣን	/sɛrɨtˤan/	/saratˤaːn/	سَرَطَان	N	N	ANIM		crab
+A00277	ሰቃቂ	/sɛkʼakʼi/	/ʃiqaːq/	شِقاق	N	N			something that brings about restlessness
+A00278	ሰበብ	/sɛbɛb/	/sabab/	سَبَب	N	N			alleged reason, excuse, justification
+A00279	ሰባቂ	/sɛbakʼi/	/sˤabbaːɣ/	صَبَّاغ	N	N			infighter, one who makes unkind remarks, slanderer
+A00280	ሰብል	/sɛbɨl/	/sabiːl/	سَبِيل	N	N			yield, produce
+A00281	ሰብሳቢ	/sɛbɨsabi/	/sabbaːb/	سَبّاب	N	Ncol (sd)	DMST		person who collects money
+A00282	ሰብቅ	/sɛbɨkʼ/	/sˤabɣ/	صَبْغ	N	N			niggling, bad-mouthing
+A00283	ሰብእ	/sɛbɨʔ/	/sˤabiː/	صَبِي	N	N		SH	human
+A00284	ሰነድ	/sɛnɛd/	/sanad/	سَنَد	N	N	DMST		document, manuscript, text
+A00285	ሰነፈ	/sɛnɛfɛ/	/sˤinf/	صِنْف	N	N			kind
+A00286	ሰነፈጠ	/sɛnɛfɛtˤɛ/	/ʃalfatˤa/	شَلْفَطَ	VP	VPcol (eg)			be hot (mustard)
+A00287	ሰንዱቅ	/sɛnɨdukʼ/	/sˤanduːq/	صَنْدُوق	N	N	DMST		strongbox, small package
+A00288	ሰዓት	/sɛʕat/	/saːʕa/	سَاعَة	N	N			time
+A00289	ሰከረ	/sɛkɛrɛ/	/sakira/	سَكِرَ	VP	VP			get drunk
+A00290	ሰካ	/sɛka/	/ʃaqqa/	شَقَّ	VP	VP			thread, pass through 
+A00291	ሰው	/sɛw/	/sawiːi/	سَوِيّ	N	N	RLGN	SH	human
+A00292	ሰያፊ	/sɛjafi/	/sajjːaf/	سَيَّاف	N	N			slaughterer, slayer, executioner
+A00293	ሰይጣን	/sɛjɨtˤan/	/ʃajtˤaːn/	شَيْطان	N	N	RLGN		satan, devil
+A00294	ሰይፈኛ	/sɛjɨfɛɲa/	/sajjːaf/	سَيَّاف	N	N			combatant, foilsman, swordsman
+A00295	ሰይፍ	/sɛjɨf/	/sajf/	سَيْف	N	N	DMST		sword
+A00296	ሠደቃ	/śɛdɛkʼa/	/sˤadaqa/	صَدَقة	N	N		SH	holder (case) made of dry grass, case for holding injera
+A00297	ሰደደ	/sɛdɛdɛ/	/sadada/	سَدَدَ	VP	VP			send
+A00298	ሰገደ	/sɛgɛdɛ/	/sadʒada/	سَجَدَ	VP	VP	RLGN		bow in worship
+A00299	ሰፈር	/sɛfɛr/	/safar/	سَفَر	N	N			neighborhood, locality
+A00300	ሰፋሪ	/sɛfari/	/saffaːr/	سَفَّار	N	N			inhabitants, displaced people, an individual who weighs cereals, etc
+A00301	ሰፌድ	/sɛfed/	/safatˤ/	سَفَط	N	N	DMST		spherical-shaped basketwork used for winnowing grain and taking out injera from the griddle
+A00302	ሡልጣን	/śulɨtˤan/	/sultˤaːn/	سُلْطان	N	N			sultan
+A00303	ሱስ	/sus/	/wiswaːs/	وِسْواس	N	N			obsession, fixation
+A00304	ሱቅ	/sukʼ/	/suːq/	سُوق	N	N			shop
+A00305	ሱባኤ	/subaʔe/	/subaːt/	سُبات	N	N			time of withdrawal from worldly affairs and engage in spiritual deeds like prayer and fasting
+A00306	ሱካር	/sukar/	/sukkar/	سُكَّر	N	N	DMST		sugar
+A00307	ሱፍ	/suf/	/sˤuːf/	صُوف	N	N	DMST		wool
+A00308	ሢሶ	/śiso/	/θulθ/	ثُلْث	A	A	NUMB		one-third
+A00309	ሲር	/sir/	/sajr/	سَيْر	N	N			shoelace
+A00310	ሲኦል	/siʔol/	/siuːl/	سِول	N	N			sheol, Hades, Hell
+A00311	ሳህን	/sahɨn/	/sˤaħn/	صَحْن	N	N	DMST		(Often triple or quadruple) food plates
+A00312	ሳሕን	/sahɨn/	/sˤaħn/	صَحْن	N	N	DMST		platter, serving dish, salver
+A00313	ሳለ	/salɛ/	/saʕala/	سَعَلَ	VP	VP			cough, paint, sharpen
+A00314	ሳል	/sal/	/suʕaːl/	سُعَال	N	N			
+A00315	ሣልስ	/śaːlɨs/	/θaːliθ/	ثَالِث	N	N	NUMB		the third order of the Amharic vowel system
+A00316	ሳሙና	/samuna/	/sˤaːbuːna/	صَابُونَة	N	N			cream for cleaning
+A00317	ሳቀ	/sakʼɛ/	/dˤaħika/	ضَحِكَ	VP	VP			laugh
+A00318	ሳቅ	/sakʼ/	/dˤaħik/	ضَحِك	N	N			hilarity, laughter
+A00319	ሳብዕ	/sabɨʕ/	/saːbiʕ/	سَابِع	A	A	NUMB		seventh order of Amharic vowel system
+A00320	ሳተ	/satɛ/	/saːtˤa/	سَاطَ	VP	VP			miss, go astray
+A00321	ሴት	/set/	/sit/	سِت	N	Ncol (sd)			female
+A00322	ስሕተት	/sɨhɨtɛt/	/suħt/	سُحْت	N	N			error, blunder
+A00323	ስለ	/sɨlɛ/	/sˤila/	صِلَة	N	N			about
+A00324	ስለላ	/sɨlɛlaː/	/tasallul/	تَسَلُّل	N	N			spying, undercover work
+A00325	ሥሉስ	/śɨlus/	/θalaːθa/	ثَلاثة	N	N	NUMB		threefold, triple
+A00326	ሥላሴ	/śɨlaːse/	/θaːluːθ/	ثَالُوث	N	N	RLGN		the Holy trinity
+A00327	ስልብ	/sɨlɨb/	/saliːb/	سَلِيب	N	N			eunuch (castrato)
+A00328	ስልክ	/sɨlɨk/	/silk/	سِلْك	N	N	DMST		
+A00329	ስም	/sɨm/	/aːism/	اِسْم	N	N			name
+A00330	ስምንተኛ	/sɨmɨnɨtɛɲa/	/θamaːniːja/	ثَمانِية	A	A	NUMB		eight
+A00331	ስሪያ	/sɨrija/	/siriːja/	سِرِيّة	N	N			the act of copulation, making love (for animals)
+A00332	ሥራ	/śɨraː/	/ʃarʕ/	شَرْع	N	N	RLGN	SH	act
+A00333	ሥር	/śɨr/	/sir/	سِر	N	N			underground part of a plant, source, starting place
+A00334	ስርቆሽ	/sɨrɨkʼoʃ/	/sariqa/	سَرِقَة	N	N			robbery
+A00335	ሥርዓተ	/śɨrɨʕatɛ/	/sˤarʕa/	صَرْعَة	N	N			ceremony
+A00336	ሥርዓት	/śɨrɨʕat/	/sˤarʕa/	صَرْعَة	N	N			arrangement, procedure, manners, system
+A00337	ሥቃይ	/śɨkʼaj/	/ʃaqaːʔ/	شَقَاء	N	N			pain
+A00338	ስብቀት	/sɨbɨkʼɛt/	/sˤibɣa/	صِبْغة	N	N		SH	concocting, niggling, bad-mouthing,
+A00339	ስካር	/sɨkar/	/sukr/	سُكْر	N	N			intoxication, under the influence (of alcohol, drug, etc.)
+A00340	ስድስተኛ	/sɨdɨsɨtɛɲa/	/sitta/	سِتَّة	A	A	NUMB		sixth
+A00341	ስግደት	/sɨgɨdɛt/	/sadʒda/	سَجْدَة	N	N	RLGN		worship
+A00342	ስፍራ	/sɨfɨraː/	/sifr/	سِفْر	N	N			site, location
+A00343	ረመሰ	/rɛmɛsɛ/	/ramasa/	رَمَسَ	VP	VP			mix together
+A00344	ረሳ	/rɛsa/	/nasaː/	نَسَى	VP	VP			forget
+A00345	ረሽ	/rɛʃ/	/raʃ/	رَش	N	N			blast pistol
+A00346	ረቀቀ	/rɛkʼɛkʼɛ/	/raqaqa/	رَقَقَ	VP	VP			be fine, thin
+A00347	ረበረበ	/rɛbɛrɛbɛ/	/rabraba/	رَبْرَبَ	VP	VP			pile up
+A00348	ረበሸ	/rɛbɛʃɛ/	/rabaʃa/	رَبَشَ	VP	VP			disturb
+A00349	ረቡዕ	/rɛbuʕ/	/ʔarbiʕaːʔ/	أرْبِعاء	N	N	DATE		wednesday
+A00350	ረባ	/rɛba/	/raba/	رَبا	VP	VP			be useful
+A00351	ረብ	/rɛb/	/riba/	رِبا	N	N			achieved advantage (benefit)
+A00352	ረብሻ	/rɛbɨʃa/	/rabʃa/	رَبْشة	N	N			insurrection, clash
+A00353	ረከሰ	/rɛkɛsɛ/	/raχasˤa/	رَخَصَ	VP	VP			be cheap
+A00354	ረዘመ	/rɛzɛmɛ/	/razama/	رَزَمَ	VP	VP			be long, tall
+A00355	ረድፍ	/rɛdɨf/	/radf/	رَدْف	N	N			stand in line, wait in line
+A00356	ረጅም	/rɛdʒɨm/	/radʒm/	رَجْم	N	N	RLGN	SH	long
+A00357	ረጠበ	/rɛtˤɛbɛ/	/ratˤaba/	رَطَبَ	VP	VP			be wet
+A00358	ረፈጠ	/rɛfɛtˤɛ/	/rafadˤa/	رَفَضَ	VP	VP			discharge from army
+A00359	ሩማን	/rumaːn/	/rummaːn/	رُمَّان	N	N	PLNT		pomegranate
+A00360	ሩብ	/rub/	/rubʕ/	رُبْع	A	A	NUMB		one-fourth, trimester, quadrisect
+A00361	ሩዝ	/ruz/	/ruz/	رُز	N	N	PLNT		rice
+A00362	ራስ	/raːs/	/raʔs/	رَأْس	N	N	ANAT		head
+A00363	ራብዕ	/raːbɨʕ/	/raːbiʕ/	رَابِع	N	N	NUMB		fourth form in the Amharic vowel system
+A00364	ራዕይ	/raːʕɨj/	/raʔi/	رَأي	N	N			mental picture, idea, revelation (as in the Bible)
+A00365	ርሳስ	/rɨsas/	/rasˤaːsˤ/	رَصَاص	N	N			
+A00366	ርባታ	/rɨbata/	/ribaːja/	رِبَايَة	N	N			raising livestock, conjugation (grammatical)
+A00367	ርቱዕ	/rɨtuʕ/	/rituʕ/	رِتُع	N	N			(when used with አንደበተ-), eloquent, articulate, expressive
+A00368	ርችት	/rɨtʃɨt/	/radʒdʒa/	رَجَّة	N	N			firecracker
+A00369	ርእስ	/rɨʔɨs/	/raʔiːs/	رَئِيس	N	N			topic, heading (headline)
+A00370	ርእዮተ	/rɨʔɨjotɛ/	/raʔi/	رَأْي	N	N			philosophy, belief, ideology
+A00371	ርካሽ	/rɨkaʃ/	/raχiːsˤ/	رَخِيص	A	A			low-priced, cut-rate, economical,
+A00372	ርካብ	/rɨkab/	/rikaːb/	رِكَاب	N	N	DMST		footrest, supporter
+A00373	ርዝራዥ	/rɨzɨraːʒ/	/rizraːz/	رِزْراز	N	N			scraps, remnants
+A00374	ርዝቅ	/rɨzɨkʼ/	/rizq/	رِزْق	N	N			reward, profusion (God given)
+A00375	ሮማን	/romaːn/	/rummaːn/	رُمَّان	N	N			pomegranate
+A00376	ሸለለ	/ʃɛlɛlɛ/	/ʃalala/	شَلَلَ	VP	VP			chant war songs
+A00377	ሸለተ	/ʃɛlɛtɛ/	/ʃaratˤa/	شَرَطَ	VP	VP			shear
+A00378	ሸሚዝ	/ʃɛmiz/	/qamiːsˤ/	قَمِيص	N	N	DMST		shirt, blouse
+A00379	ሸረሸረ	/ʃɛrɛʃɛrɛ/	/ʃarʃara/	شَرْشَرَ	VP	VP			erode
+A00380	ሸረኛ	/ʃɛrɛɲa/	/ʃarraːniː/	شَرَّانِي	A	A			evil, iniquitous
+A00381	ሸረኝነት	/ʃɛrɛɲɨnɛt/	/ʃarr/	شَرّ	N	N			iniquity, evil intentions
+A00382	ሸሪክ	/ʃɛrik/	/ʃariːk/	شَرِيك	N	N			associate
+A00383	ሸር	/ʃɛr/	/ʃarr/	شَرّ	N	N			evil, malevolence
+A00384	ሸርሙጣ	/ʃɛrɨmutˤa/	/ʃarmuːtˤa/	شَرْمُوطَة	N	N			slut, seductress, hot stuff
+A00385	ሸፈተ	/ʃɛfɛtɛ/	/ʃafata/	شَفَتَ	VP	VP			revolt
+A00386	ሸፈጠ	/ʃɛfɛtˤɛ/	/ʃafata/	شَفَتَ	VP	VP			deny, deceive
+A00387	ሹም	/ʃum/	/ʃumm/	شُمّ	N	N			high-posted, bureaucrat
+A00388	ሹራብ	/ʃuraːb/	/ʃurraːb/	شُرَّاب	N	N	DMST		stockings, pullover, jumper
+A00389	ሹካ	/ʃuka/	/ʃawka/	شَوْكَة	N	N	DMST		fork
+A00390	ሻማ	/ʃamaː/	/ʃamʕa/	شَمْعة	N	N	DMST		candle
+A00391	ሻሽ	/ʃaʃ/	/ʃaːʃ/	شَاش	N	N	DMST		head scarf (usu. of fine textile)
+A00392	ሻንጣ	/ʃanɨtˤa/	/ʃantˤa/	شَنْطَة	N	N	DMST		
+A00393	ሻይ	/ʃaj/	/ʃaːi/	شَاي	N	N			tea
+A00394	ሽርሙጥና	/ʃɨrɨmutˤɨna/	/ʃarmatˤa/	شَرْمَطَة	N	N			state of being slut, seductress, hotstuff
+A00395	ሽርካ	/ʃɨrɨka/	/ʃarika/	شَرِكة	N	N			joint venture
+A00396	ሽሮፕ	/ʃɨrop/	/ʃaraːb/	شَرَاب	N	N	DMST		syrup
+A00397	ሽንጥ	/ʃɨnɨtˤ/	/ʃintˤ/	شِنط	N	N			
+A00398	ሽፍታ	/ʃɨfɨta/	/ʃifta/	شِفْتا	N	N			insurgent
+A00399	ሽፍትነት	/ʃɨfɨtɨnɛt/	/ʃaftana/	شَفْتَنَة	N	N			insurgence
+A00400	ሾተል	/ʃotɛl/	/ʃawtaːl/	شَوتَال	N	Ncol (sd)	DMST		glaive dagger, sword
+A00401	ቀለህ	/kʼɛlɛh/	/kulla/	كُلَّة	N	N	DMST		shotgun shell, bullet, projectile
+A00402	ቀለም	/kʼɛlɛm/	/qalam/	قَلَم	N	N	DMST		color, dye, ink
+A00403	ቀለበ	/kʼɛlɛbɛ/	/kalaba/	كَلَبَ	VP	VP			catch in midair
+A00404	ቀለደ	/kʼɛlɛdɛ/	/qallada/	قَلَّدَ	VP	VP			joke
+A00405	ቀላል	/kʼɛlaːl/	/qaliːl/	قَلِيل	N	N			simple
+A00406	ቀልብ	/kʼɛlɨb/	/qalb/	قَلْب	N	N			heart, mind
+A00407	ቀመለ	/kʼɛmɛlɛ/	/qamala/	قَمَلَ	VP	VP			remove lice
+A00408	ቀሚስ	/kʼɛmis/	/qamiːsˤ/	قَمِيص	N	N	DMST		female's dress
+A00409	ቀሰሰ	/kʼɛsɛsɛ/	/qasasa/	قَسَسَ	VP	VP	RLGN		be a priest
+A00410	ቀሰፈ	/kʼɛsɛfɛ/	/qasˤafa/	قَصَفَ	VP	VP			kill suddenly
+A00411	ቀስት	/kʼɛsɨt/	/qistˤ/	قِسْط	N	N			
+A00412	ቀረ	/kʼɛrɛ/	/qqrra/	قّرَّ	VP	VP			remain, stay behind
+A00413	ቀረበ	/kʼɛrɛbɛ/	/qaruba/	قَرُبَ	VP	VP			appraoch
+A00414	ቀረፈ	/kʼɛrɛfɛ/	/karafa/	كَرَفَ	VP	VP			peel off bark
+A00415	ቀረፋ	/kʼɛrɛfa/	/qirfa/	قِرْفة	N	Ncol (sd)			cinnamon
+A00416	ቀሪ	/kʼɛri/	/qar/	قَر	N	N			remains, remnants, remainder
+A00417	ቀበረ	/kʼɛbɛrɛ/	/qabara/	قَبَرَ	VP	VP			bury
+A00418	ቀባሪ	/kʼɛbari/	/qabriː/	قَبْرِي	N	N			the bereaved
+A00419	ቀብር	/kʼɛbɨr/	/qabr/	قَبْر	N	N			funeral
+A00420	ቀብቃባ	/kʼɛbɨkʼaba/	/kabkaba/	كَبْكَبَة	A	Acol (sd)			inordinately stingy, penurious, niggardly
+A00421	ቀብድ	/kʼɛbɨd/	/qabdˤ/	قَبْض	N	N			first payment, first installment, deposit
+A00422	ቀነሰ	/kʼɛnɛsɛ/	/qallasˤa/	قَلَّصَ	VP	VP			decrease
+A00423	ቀነሰ	/kʼɛnɛsɛ/	/kanasa/	كَنَسَ	VP	VP			reduce, subtract
+A00424	ቀነሰ	/kʼɛnɛsɛ/	/kanasa/	كَنَسَ	VP	VP			reduce, subtract
+A00425	ቀየሰ	/kʼɛjasɛ/	/qajasa/	قَيَسَ	VP	VP			measure land
+A00426	ቀየረ	/kʼɛjarɛ/	/ɣajiːjara/	غَيَّرَ	VP	VP			change
+A00427	ቀየረ፡ልብስ	/kʼɛjarɛ፡lɨbɨs/	/ɣjːar/	غِيار(لِبس)	N	N			spare clothes
+A00428	ቀየደ	/kʼɛjadɛ/	/qajiːjada/	قَيَّدَ	VP	VP			tie, hobble
+A00429	ቀደመ	/kʼɛdɛmɛ/	/qadima/	قَدِمَ	VP	VP			precede
+A00430	ቀደሰ	/kʼɛdɛsɛ/	/qaddasa/	قَدَّسَ	VP	VP			praise
+A00431	ቀደደ	/kʼɛdɛdɛ/	/qadada/	قَدَدَ	VP	VP			tear
+A00432	ቀዳማዊ	/kʼɛdamaːwi/	/qaddaːmiː/	قَدَّامِي	A	A			first
+A00433	ቀዳማዊት	/kʼɛdamaːwit/	/qaddaːmiːja/	قَدَّامِيَّة	A	A			first
+A00434	ቀጠፈ	/kʼɛtˤɛfɛ/	/qatˤafa/	قَطَفَ	VP	VP			pluck; lie
+A00435	ቀፈፈ	/kʼɛfɛfɛ/	/kafafa/	كَفَفَ	VP	VP			1. trim edge, 2. beg
+A00436	ቁሌት	/kʼulet/	/qali/	قَلْي	N	N			level of frying, scorching
+A00437	ቁልፍ	/kʼulɨf/	/qifl/	قِفْل	N	N			knob, pin, dead bolt
+A00438	ቁማር	/kʼumaːr/	/qumaːr/	قُمَار	N	N			putting money on
+A00439	ቁራሽ	/kʼuraːʃ/	/quraːʃ/	قُراش	N	N	DMST		small piece of bread
+A00440	ቁር	/kʼur/	/kur/	كُر	N	N			slashed, injury
+A00441	ቁርባን	/kʼurɨban/	/qurbaːn/	قُرْبان	N	N	RLGN		a mass for an occasion such as before burial consecrated (symbolize) bread and wine (Eucharist)
+A00442	ቁርጥማት	/kʼurɨtˤɨmaːt/	/kurdˤuma/	كُرْضُمة	N	Ncol (sd)			stiffness joints or muscles
+A00443	ቁፋሪ	/kʼufari/	/qafr/	قَفْر	N	N			removed soil, earth
+A00444	ቂጣ	/kʼitˤa/	/qitˤʕa/	قِطْعَة	N	N	DMST	SH	Bread
+A00445	ቃሊብ	/kʼalib/	/qaːlib/	قَالِب	N	N			pattern, mold (casting), shape
+A00446	ቃል	/kʼal/	/qawl/	قَوْل	N	N			word, utterance, promise
+A00447	ቃራሚ	/kʼaraːmi/	/karam/	كَرَم	N	N			gatherer, collector (usu. of harvest, crops), gleaner,
+A00448	ቃብድ	/kʼabɨd/	/qabdˤ/	قَبْض	N	N			first installment, first payment, deposit
+A00449	ቃዲ	/kʼadi/	/qaːdˤiː/	قَاضِي	N	N			muslim judge (for religious affairs)
+A00450	ቃፊር	/kʼafir/	/kaːfir/	كَافِر	N	N			spy, reconnoiterer
+A00451	ቄስ	/kʼes/	/qiss/	قِسّ	N	N			clergyman, vicar, father
+A00452	ቈሪ	/kʼoari/	/kawra/	كَوْرَة	N	Ncol (sd)	DMST		blending pot made of wood
+A00453	ቅሌት	/kʼɨlet/	/ɣalatˤ/	غَلَط	N	N			disgrace, infamy, shame
+A00454	ቅራሪ	/kʼɨraːri/	/qiraːr/	قِرار	N	N			residue, diluted form of the local drink ‘tella'
+A00455	ቅርሻት	/kʼɨrɨʃat/	/qirʃaːt/	قِرْشات	N	N			small amount of heave or throw up(often of kids)
+A00456	ቅርቃብ	/kʼɨrɨkʼab/	/qurqaːb/	قُرْقاب	N	N	DMST		loop, rope-like material used to tie a pack (load)
+A00457	ቅርብ	/kʼɨrɨb/	/qariːb/	قَرِيب	N	N			near
+A00458	ቅርብ	/kʼɨrɨb/	/qariːb/	قَرِيب	A	A			near, shallow (for a river)
+A00459	ቅበላ	/kʼɨbɛlaː/	/qibla/	قِبْلَة	N	N	RLGN	SH	welcome
+A00460	ቅበላ	/kʼɨbɛlaː/	/qibla/	قِبْلة	N	N			day before Ash Wednesday
+A00461	ቅንፍ	/kʼɨnɨf/	/kinf/	كِنْف	N	N			brackets, parentheses
+A00462	ቅየሣ	/kʼɨjaśaː/	/qjːas/	قِيَاس	N	N			blueprint, design
+A00463	ቅየራ	/kʼɨjaraː/	/ɣjːar/	غِيَار	N	N			replacement
+A00464	ቅያሪ	/kʼɨjari/	/ɣjːar/	غِيَار	A	A			alteration
+A00465	ቅይድ	/kʼɨjɨd/	/qajd/	قَيْد	A	A			limp, walked with difficulty
+A00466	ቅዱስ	/kʼɨdus/	/qudduːs/	قُدُّوس	A	A			sacred, consecrated
+A00467	ቅዳሜ	/kʼɨdame/	/qidaːmiː/	قِدامِي	N	N	DATE		saturday
+A00468	ቅዳሴ	/kʼɨdase/	/qudaːs/	قُدَاس	N	N	RLGN		mass, liturgy
+A00469	ቅድም	/kʼɨdɨm/	/qadiːm/	قَدِيم	N	N			a while ago, before, previously, earlier
+A00470	ቅጽ	/kʼɨsʼ/	/qisˤsˤa/	قِصَّة	N	N			level, number, book digest
+A00471	ቆመ	/kʼomɛ/	/qaːma/	قَامَ	VP	VP			stand
+A00472	ቆመ	/kʼomɛ/	/qawma/	قَوْمَة	N	N			stand
+A00473	ቆሞስ	/kʼomos/	/qumusˤ/	قُمُص	N	N			cleric, rector, parson
+A00474	ቆሪ	/kʼori/	/kawra/	كَوْرَة	N	N	DMST		blending pot made of wood
+A00475	ቆር	/kʼor/	/kuːr/	كُور	N	N	DMST		cove
+A00476	ቆሸሸ	/kʼoʃɛʃɛ/	/kawʃaʃa/	كَوْشَشَ	VP	VP			be dirty
+A00477	ቆዳ	/kʼoda/	/qidd/	قِدّ	N	N	DMST		skin
+A00478	በላ	/bɛlaː/	/balaʕa/	بَلَعَ	VP	VP			eat
+A00479	በረበረ	/bɛrɛbɛrɛ/	/barbara/	بَرْبَرَ	VP	VP			search
+A00480	በረከተ	/bɛrɛkɛtɛ/	/baːraka/	بَارَكَ	VP	VP			increase, be abundant
+A00481	በረከት	/bɛrɛkɛt/	/baraka/	بَرَكَة	N	N	RLGN		blessing
+A00482	በረደ	/bɛrɛdɛ/	/barada/	بَرَدَ	VP	VP			be cold
+A00483	በራ	/bɛraː/	/baraː/	بَرَا	VP	VP			shine
+A00484	በራ	/bɛraː/	/baraqa/	بَرَقَ	VP	VP			shine
+A00485	በራዥ	/bɛraːʒ/	/baraːz/	بَراز	N	N			mole, undercover agent double agent
+A00486	በርሚል	/bɛrɨmil/	/barmiːl/	بَرْمِيل	N	N	DMST		barrel, tub
+A00487	በርሜል	/bɛrɨmel/	/barmiːl/	بَرْمِيل	N	N	DMST		cylinder
+A00488	በርባሪ	/bɛrɨbari/	/barbaːri/	بَرْبارِ	N	N			a person who rummage around for concealed items, person
+A00489	በርኖስ	/bɛrɨnos/	/barnuːsˤ/	بَرْنُوص	N	Ncol (sa)	DMST		a long hooded cloak, burnoose
+A00490	በሽተኛ	/bɛʃɨtɛɲa/	/baʃtana/	بَشْتَنة	N	Ncol (sd)			invalid, unwell person, ill person
+A00491	በቅሎ	/bɛkʼɨlo/	/baɣal/	بَغَل	N	N			cross between horse and donkey (the offspring of a female horse and a male donkey)
+A00492	በቅርቡ	/bɛkʼɨrɨbu/	/biqurb/	بِقُرْب	D	D			
+A00493	በቆሎ	/bɛkʼolo/	/baquːl/	بَقُول	N	N			corn
+A00494	በትር	/bɛtɨr/	/batˤr/	بَطْر	N	N			heavy stick or club
+A00495	በኩር	/bɛkur/	/bikr/	بِكْر	N	N			oldest offspring
+A00496	በወቅቱ	/bɛwɛkʼɨtu/	/biuːaqti/	بِوَقْتِ	N	D			in time
+A00497	በወዘ	/bɛwɛzɛ/	/bawaza/	بَوَزَ	VP	VP			shuffle cards
+A00498	በዛ	/bɛza/	/bazza/	بَزَّ	VP	VP			increase, be much
+A00499	በዛ	/bɛza/	/baza/	بَزا	VP	VP			increase, be much
+A00500	በዝባዥ	/bɛzɨbaʒ/	/basˤbaːsˤ/	بَصْبَاص	N	N			robber, one who takes selfish or unfair advantage of another
+A00501	በየነ	/bɛjanɛ/	/bajiːjana/	بَيَّنَ	VP	VP			decree
+A00502	በያኝ	/bɛjaɲ/	/bajaːn/	بَيَان	N	N			a high ranking court-officer who pronounces sentence
+A00503	በደል	/bɛdɛl/	/badal/	بَدَل	N	N			ill-treatment, harm, damage, mar, abuse
+A00504	በደነ	/bɛdɛnɛ/	/badana/	بَدَنَ	VP	VP			be paralyzed
+A00505	በደዊ	/bɛdɛwi/	/baduːi/	بَدُوِ	A	A			bedouin (also ‘Beduin') (n and adj) plural unchanged
+A00506	በደው	/bɛdɛw/	/badu/	بَدْو	N	N			nomadic Arab (of the desert regions)
+A00507	በዳ	/bɛda/	/budˤʕ/	بُضْع	N	N			fucking
+A00508	በድረጃን	/bɛdɨrɛdʒan/	/ʔautrudʒaːn/	أُتْرُجَان	N	N	PLNT		a large fruit with shiny purple skin, eaten cooked as vegetable
+A00509	በድን	/bɛdɨn/	/badan/	بَدَن	N	N			corpse, carcass
+A00510	በጠበጠ	/bɛtˤɛbɛtˤɛ/	/batbata/	بَتْبَتَ	VP	VP			shake, disturb
+A00511	በጠበጠ	/bɛtˤɛbɛtˤɛ/	/batbata/	بَتْبَتَ	VP	VP			shake, disturb
+A00512	ቡራኬ	/buraːke/	/baraka/	بَرَكَة	N	N			the saying of grace, before meal,
+A00513	ቡና	/buna/	/bun/	بُن	N	N	DMST		coffee
+A00514	ቡድን	/budɨn/	/badan/	بَدَن	N	N			band, squad, crew, party
+A00515	ባሕር	/bahɨr/	/baħr/	بَحْر	N	N			sea
+A00516	ባሕር	/bahɨr/	/baħr/	بَحْر	N	N			ocean, the deep
+A00517	ባለገ	/balɛgɛ/	/baːlaɣa/	بَالَغَ	VP	VP			be rude
+A00518	ባል	/bal/	/baʕal/	بَعَل	N	N			husband
+A00519	ባሰ	/basɛ/	/baʔsa/	بَأسَ	VP	VP			get worse
+A00520	ባረቀ	/barɛkʼɛ/	/barq/	بَرْق	N	N			flared, blazed up
+A00521	ባረከ	/barɛkɛ/	/baraka/	بَرَكَ	VP	VP			kneel
+A00522	ባሩድ	/barud/	/baːruːd/	بَارُود	N	N			gunpowder
+A00523	ባርኔጣ	/barɨnetˤa/	/barniːtˤa/	بَرْنِيطَة	N	N	DMST		cap, headdress
+A00524	ባርዳ	/barɨda/	/fariːdˤa/	فَرِيضَة	N	N			deduction from gross weight
+A00525	ባሻ	/baʃa/	/baːʃa/	بَاشا	N	N			a military title commander of a platoon or small contingent
+A00526	ባቄላ	/bakʼelaː/	/baːqlaːʔ/	بَاقْلاء	N	N	DMST		the seed of leguminous plant
+A00527	ቤተ፡ክህነት	/betɛ፡kɨhɨnɛt/	/bajt alkaːhin/	بَيْت الكَاهِن	N	N			the head office of the orthodox church
+A00528	ቤት	/bet/	/bajt/	بَيْت	N	N	DMST		house
+A00529	ብስራት	/bɨsɨraːt/	/biʃaːra/	بِشَارة	N	N			excellent story
+A00530	ብራቅ	/bɨraːkʼ/	/barq/	بَرْق	N	N			flash of light
+A00531	ብራቅ	/bɨraːkʼ/	/biraːk/	بِرَاك	N	N			levin, fulminator
+A00532	ብርሀን	/bɨrɨhɛn/	/burhaːn/	بُرْهَان	N	N			light
+A00533	ብርሃን	/bɨrɨhaːn/	/burhaːn/	بُرْهَان	N	N			
+A00534	ብርቱካን	/bɨrɨtukan/	/burtuqaːl/	بُرْتُقال	N	N	DMST		citrus fruit (orange)
+A00535	ብርካቴ	/bɨrɨkate/	/barakaːt/	بَرَكات	N	N	RLGN		excess, profusion, large quantity
+A00536	ብርድ	/bɨrɨd/	/bird/	بِرْد	N	N			chilly, wintry weather
+A00537	ብቅል	/bɨkʼɨl/	/baqal/	بَقَل	N	N			grain used to make alcoholic drinks
+A00538	ብቻውን	/bɨtʃawɨn/	/biduːni/	بِدُونِ	D	D			without
+A00539	ብናማ	/bɨnamaː/			D	D			
+A00540	ብዛት	/bɨzat/	/bizaːz/	بِزاز	N	N			surplus, measure
+A00541	ብያኔ	/bɨjane/	/bajaːn/	بَيَان	N	N			ruling, verdict, sentence
+A00542	ብይን	/bɨjɨn/	/bajaːn/	بَيَان	N	N			ruling, verdict, sentence
+A00543	ብጥበጣ	/bɨtˤɨbɛtˤa/	/batˤbatˤa/	بَطْبَطة	N	N			riot commotion, disorder
+A00544	ብጥብጥ	/bɨtˤɨbɨtˤ/	/batˤbatˤa/	بَطْبَطة	N	N			riot commotion, disorder
+A00545	ተለተለ	/tɛlɛtɛlɛ/	/talatala/	تَلَتَلَ	VP	VP			cut in many places
+A00546	ተለተለ	/tɛlɛtɛlɛ/	/taltala/	تَلْتَلَ	VP	VP			cut in many places
+A00547	ተለጣፊ	/tɛlɛtˤafi/	/taltˤaːf/	تَلْطَاف	N	N			a material hanging to be glued, pasted, attached with another (which is sticky by itself), forged, counterfeit
+A00548	ተላወሰ	/tɛlaːwɛsɛ/	/mulaːwaz/	مُلاوَز	A	A			moved to and fro, started moving
+A00549	ተመረኮዘ	/tɛmɛrɛkozɛ/	/tamarkaza/	تَمَرْكَزَ	VP	VP			lean, be biased
+A00550	ተመነ	/tɛmɛnɛ/	/θammana/	ثَمَّنَ	VP	VP			put a price on
+A00551	ተመን	/tɛmɛn/	/θaman/	ثَمَن	N	N			cost, value, charge
+A00552	ተመኘ	/tɛmɛɲɛ/	/tamannaː/	تَمَنَّى	VP	VP			wish
+A00553	ተምር	/tɛmɨr/	/tamr/	تَمْر	N	N			date palm (small dark-colored oral fruit)
+A00554	ተሰሚ  ነህ  	/tɛsɛmi nɛh/	/tasammuʕ/	تَسَمُّع	N	N			
+A00555	ተሰናዳ	/tɛsɛnada/	/tasaːnud/	تَسَانُد	VP	VP			arrange, prepare
+A00556	ተረበኛ	/tɛrɛbɛɲa/	/mutˤrib/	مُطْرِب	N	N			satirist, joker, comic
+A00557	ተረብ	/tɛrɛb/	/tˤarab/	طَرَب	N	N			ironical, satirical humor
+A00558	ተረጎመ	/tɛrɛgomɛ/	/tardʒama/	تَرْجَمَ	VP	VP			interpret, translate
+A00559	ተረፈ	/tɛrɛfɛ/	/tˤaraf/	طَرَف	N	N			side
+A00560	ተረፈ	/tɛrɛfɛ/	/tˤarafa/	طَرَفَ	VP	VP			be extra
+A00561	ተራቢ	/tɛraːbi/	/tˤaraːb/	طَرَاب	N	N			flatteer, joker, jester
+A00562	ተራኪ	/tɛraːki/	/tarraːχ/	تَرَّاخ	N	N			story teller, chronicles
+A00563	ተራፊ	/tɛraːfi/	/tarafiː/	تَرَفِي	A	A			left over, residual
+A00564	ተርጉም	/tɛrɨgum/	/tardʒama/	تَرْجَمَة	N	N			translate
+A00565	ተቀበለ	/tɛkʼɛbɛlɛ/	/taqabbala/	تَقَبَّلَ	VP	VP			receive
+A00566	ተቀበል	/tɛkʼɛbɛl/	/taqabbul/	تَقَبُّل	N	N			accept
+A00567	ተቀዳሚ	/tɛkʼɛdami/	/taqaddumiː/	تَقَدُّمِي	A	A			prior, preceding
+A00568	ተቃረነ	/tɛkʼarɛnɛ/	/taqaːrana/	تَقَارَنَ	VP	VP			clash
+A00569	ተቃኘ	/tɛkʼaɲɛ/	/taɣannaː/	تَغَنَّى	VP	VP			compose hymns
+A00570	ተቃዋሚ	/tɛkʼawami/	/muqaːwim/	مُقاوِم	N	N			adversary, enemy, foe
+A00571	ተቃውሞ	/tɛkʼawɨmo/	/muqaːwama/	مُقاوَمَة	N	N			antagonism, unfriendliness, protestation
+A00572	ተነበየ	/tɛnɛbɛja/	/tanabaːʔ/	تَنَبَّأ	VP	VP	RLGN		prophesy
+A00573	ተነፈሰ	/tɛnɛfɛsɛ/	/tanaffasa/	تَنَفَّسَ	VP	VP			breathe
+A00574	ተነፈጠ	/tɛnɛfɛtˤɛ/	/tanaffatˤa/	تَنَفَّطَ	VP	VP			blow (nose)
+A00575	ተንበረከከ	/tɛnɨbɛrɛkɛkɛ/	/baraka/	بَرَكَ	VP	VP			kneel
+A00576	ተንባይ	/tɛnɨbaj/	/tanabbuʔui/	تَنَبُّؤي	N	N			forecaster, seer
+A00577	ተንባይ	/tɛnɨbaj/	/tanbaːi/	تَنْباي	N	N			forecaster, seer
+A00578	ተንከተከተ	/tɛnɨkɛtɛkɛtɛ/			VP	VP			laugh on and on
+A00579	ተከራየ	/tɛkɛraːja/	/takaraːi/	تَكَرَاي	VP	VP			rent, hire
+A00580	ተከራይ	/tɛkɛraːj/	/mukriː/	مُكْرِي	N	N			leaseholder, lessee, renter
+A00581	ተከተለ	/tɛkɛtɛlɛ/	/takattala/	تَكَتَّلَ	VP	VP			follow
+A00582	ተካፈለ	/tɛkafɛlɛ/	/takaːful/	تَكَافُل	N	N			mutual sharing
+A00583	ተካፋይ	/tɛkafaj/	/mukaːfiːʔ/	مُكَافِيء	N	N			partaker, accomplice
+A00584	ተክህኖ	/tɛkɨhɨno/	/takahhun/	تَكَهُّن	N	N			the act of consecration
+A00585	ተኮራመተ	/tɛkoraːmɛtɛ/	/tawarrama/	تَوَرَّمَ	VP	VP			double over
+A00586	ተወላጅ	/tɛwɛlaːdʒ/	/tawallud/	تَوَلُّد	N	N			family connections, next of kin, close relative
+A00587	ተዋሕዶ	/tɛwahɨdo/	/tawħiːd/	تَوْحِيد	N	N			believing in Jesus Christ's single inseparable nature
+A00588	ተዋበ	/tɛwabɛ/	/tˤaːba/	طَابَ	VP	VP			be beautiful
+A00589	ተዘካሪ	/tɛzɛkari/	/tiðkaːr/	تِذْكَار	N	N			charity, donor
+A00590	ተዝካር	/tɛzɨkar/	/tiðkaːr/	تِذْكَار	N	N			commemorative banquet for the deceased
+A00591	ተዝካር	/tɛzɨkar/	/tiðkaːr/	تِذْكَار	N	N			feast in remembering of a dead relative
+A00592	ተጠራቀመ	/tɛtˤɛraːkʼɛmɛ/	/taraːkama/	تَرَاكَمَ	VP	VP			amass, collect
+A00593	ተጠራቀመ	/tɛtˤɛraːkʼɛmɛ/	/taraːkama/	تَراكَمَ	VP	VP			amass, collect
+A00594	ተጫረተ	/tɛtʃarɛtɛ/	/taʃaːratˤa/	تَشارَطَ	VP	VP			bid
+A00595	ተፈጥሮ	/tɛfɛtˤɨro/	/tafatˤtˤur/	تَفَطُّر	N	N	RLGN		essence, creation, disposition
+A00596	ተፋ	/tɛfa/	/taffa/	تَفَّ	VP	VP			spit, vomit
+A00597	ቱፋሕ	/tufah/	/tuffaːħ/	تُفَّاح	N	N	PLNT		apple
+A00598	ቲማቲም	/timaːtim/	/tˤamaːtˤim/	طَمَاطِم	N	N	PLNT		tomato
+A00599	ታላቅ	/talaːkʼ/	/tˤaliq/	طَلِق	A	A			huge, hefty, majestic
+A00600	ታማሚ	/tamaːmi/	/tˤamaːm/	طَمَام	N	N			unwell person, one who's under the weather
+A00601	ታማሚ	/tamaːmi/	/tˤumaːm/	طُمَام	N	N			disgust
+A00602	ታምቡር	/tamɨbur/	/tˤambuːr/	طَمْبُور	N	N	DMST		tom-tom, tambourine, tumbrel
+A00603	ታሳሪ	/tasari/	/tasrriː/	تَسْرِّي	N	N			
+A00604	ታረዘ	/tarɛzɛ/	/taʕarraː/	تَعَرَّى	VP	VP			be naked
+A00605	ታሪካዊ	/tarikawi/	/taːriːχiː/	تَارِيخِي	A	A			pertaining to history
+A00606	ታሪክ	/tarik/	/taːriːχ/	تَارِيخ	N	N			history
+A00607	ታሪክ	/tarik/	/taːriːχ/	تَارِيخ	N	N			chronicle, record study or past indent
+A00608	ታሪፍ	/tarif/	/taʕrifa/	تَعْرِفة	N	N			tax, excise
+A00609	ታቦት	/tabot/	/taːbuːt/	تَابُوت	N	N	RLGN		ark of the tabernacle
+A00610	ታኒካ	/tanika/	/tanaka/	تَنَكة	N	N	DMST		canister, container for hair oil, and so on
+A00611	ታንክ	/tanɨk/	/taːnk/	تانْك	N	N			war-chariot, ammunition wagon, armored car
+A00612	ታንኳ	/tanɨk/	/tanak/	تَنَك	N	N			rowboat, galley
+A00613	ታወረ	/tawɛrɛ/	/taʕawuːara/	تَعَوَّرَ	VP	VP			go blind
+A00614	ትሕትና	/tɨhɨtɨna/	/taħt/	تَحْت	N	N			diffidence, reserve, humbleness
+A00615	ትልቅ	/tɨlɨkʼ/	/tˤaliq/	طَلِق	A	A			large, huge
+A00616	ትሩፋት	/tɨrufat/	/tirifaːd/	تِرِفَاد	N	N			donation, assistance, aid
+A00617	ትራስ	/tɨraːs/	/taras/	تَرَس	N	N	DMST		cushion, head support
+A00618	ትርጁማን	/tɨrɨdʒumaːn/	/turdʒumaːn/	تُرْجُمان	N	N			somebody who translates from one language to another
+A00619	ትርጁማን	/tɨrɨdʒumaːn/	/tirdʒumaːn/	تِرْجُمان	N	N			analyst, translator
+A00620	ትርጉም	/tɨrɨgum/	/tardʒama/	تَرْجَمَة	N	N			conversion in to a different language or version
+A00621	ትርጓሜ	/tɨrɨgoame/	/tardʒama/	تَرْجَمَة	N	N			explanation, interpretation, observation
+A00622	ትንቢት	/tɨnɨbit/	/tanabbuʔu/	تَنَبُّؤ	N	N			foretelling, foresight
+A00623	ትንቢት	/tɨnɨbit/	/tanbiʔia/	تَنْبِئة	N	N			forecast, prediction
+A00624	ትንፋሽ	/tɨnɨfaʃ/	/tanaffus/	تَنَفُّس	N	N			mouthful of air, gulp of air, gasp
+A00625	ትንፋሽ	/tɨnɨfaʃ/	/tanaffus/	تَنَفُّس	N	N			mouthful of air, inhalation
+A00626	ትዕይንተ	/tɨʕɨjɨnɨtɛ/	/taʕannut/	تَعَنُّتْ	N	N			display of public protest
+A00627	ትክል	/tɨkɨl/	/θaqiːl/	ثَقِيل	A	A			fixed, placed (in the ground)
+A00628	ትውልድ	/tɨwɨlɨd/	/tawallud/	تَوَلُّد	N	N			generation, age group, age range, contemporaries
+A00629	ትግል	/tɨgɨl/	/θiqal/	ثِقَل	N	N			great effort, rebellion
+A00630	ትጥቅ	/tɨtˤɨkʼ/	/titik/	تِتِك	N	Ncol (sd)	DMST		tools, uncials, ammunition
+A00631	ቸልታ	/tʃɛlɨta/	/ɣaltˤa/	غَلْطة	N	N			carelessness, disregard
+A00632	ቸረቸረ	/tʃɛrɛtʃɛrɛ/	/tadʒara/	تَجَرَ	VP	VP			retail
+A00633	ችካል	/tʃɨkal/	/ʃankal/	شَنْكَل	N	N	DMST		dowel, hook, nail
+A00634	ነምር	/nɛmɨr/	/namr/	نَمْر	N	N	ANIM		large spotted cat, panther padres (scientific name)
+A00635	ነሰረ	/nɛsɛrɛ/	/nasara/	نَسَرَ	VP	VP			bleed (nose)
+A00636	ነሸጠ	/nɛʃɛtˤɛ/	/naʃatˤa/	نَشَطَ	VP	VP			animate
+A00637	ነቀለ	/nɛkʼɛlɛ/	/naqala/	نَقَلَ	VP	VP			uproot
+A00638	ነቀሰ	/nɛkʼɛsɛ/	/naqaʃa/	نَقَشَ	VP	VP			comb; glean; tattoo
+A00639	ነቀዘ	/nɛkʼɛzɛ/	/nakaza/	نَكَزَ	VP	VP			be spoiled
+A00640	ነቁጥ	/nɛkʼutˤ/	/nuqtˤa/	نُقْطة	N	N			blemish, stain, mark
+A00641	ነቃሽ	/nɛkʼaʃ/	/naqʃ/	نَقْش	N	N			tattooed, tattooist
+A00642	ነቢይ	/nɛbij/	/nabiːi/	نَبِيّ	N	N	RLGN		prophet
+A00643	ነባይ	/nɛbaj/	/nabbaːj/	نَبَّاي	A	A			honest, straight, frank
+A00644	ነብር	/nɛbɨr/	/namir/	نَمِر	N	N	ANIM		tiger
+A00645	ነብር	/nɛbɨr/	/namir/	نَمِر	N	N	ANIM		leopard
+A00646	ነዛ	/nɛza/	/wazzaʕa/	وَزَّعَ	VP	VP			spread, disseminate
+A00647	ነገ	/nɛgɛ/	/ɣadan/	غَدَاً	N	N			
+A00648	ነገደ	/nɛgɛdɛ/	/naqada/	نَقَدَ	VP	VP			trade
+A00649	ነጋሢ	/nɛgaśi/	/nadʒaːʃiː/	نَجاشِي	N	N			monarch, supreme head of state
+A00650	ነጋዴ	/nɛgade/	/naqaːdi/	نَقادي	N	Ncol (sd)			commercial dealer
+A00651	ነጨ	/nɛtʃɛ/	/nataʃa/	نَتَشَ	VP	VP			peck, plump out
+A00652	ነጻ	/nɛsʼa/	/nasˤaʕa/	نَصَعَ	VP	VP			be white
+A00653	ነፈሰ፡ቅዱስ	/nɛfɛsɛ፡kʼɨdus/	/nafs quds/	نَفْس قُدْس	N	N	RLGN		holy ghost
+A00654	ነፋስ	/nɛfas/	/nafas/	نَفَس	N	N			wind
+A00655	ነፋስ	/nɛfas/	/nafs/	نَفس	N	N			storm, blustery weather
+A00656	ነፍስ	/nɛfɨs/	/nafs/	نَفْس	N	N			soul
+A00657	ነፍስ	/nɛfɨs/	/nafs/	نَفْس	N	N			non physical aspect of person, spirit surviving death
+A00658	ኒሻን	/niʃan/	/niːʃaːn/	نِيشان	N	N	DMST		award, decoration
+A00659	ናፍቆት	/nafɨkʼot/	/aːftiqaːd/	افْتِقاد	N	N			craving desire, homesickness
+A00660	ንስሐ	/nɨsɨhɛ/	/nasˤiːħa/	نَصِيحة	N	N			pretence, atonement
+A00661	ንስር	/nɨsɨr/	/nisr/	نِسْر	N	N	ANIM		eagle
+A00662	ንቃት	/nɨkʼat/	/nikaːθ/	نِكاث	N	N			nimbleness, suppleness, alertness
+A00663	ንቅነቃ	/nɨkʼɨnɛkʼa/	/naqnaqa/	نَقْنَقة	N	Ncol (sd)			disturbance, shake up, stir
+A00664	ንቅናቄ	/nɨkʼɨnakʼe/	/naqnaːq/	نَقْنَاق	N	N			rebellion, revolt, unrest
+A00665	ንቅናቄ	/nɨkʼɨnakʼe/	/niqnaːq/	نِقْنَاق	N	N			rebellion, revolt, unrest
+A00666	ንድፍ	/nɨdɨf/	/nadf/	نَدْف	N	N			draft, drawing, pulled apart, yarn, fibers
+A00667	ንገዳ	/nɨgɛda/	/naqd/	نَقْد	N	N			the act of buying and selling, or do business
+A00668	ንጉሥ	/nɨguś/	/niɣus/	نِغُس	N	N	RLGN		males sovereign, ruler, God or Jesus Christ
+A00669	ንግሥት	/nɨgɨśɨt/	/niɣst/	نِغْسْت	N	N			female sovereign
+A00670	ንግድ	/nɨgɨd/	/naqd/	نَقْد	N	N			business
+A00671	ንግድ	/nɨgɨd/	/naqd/	نَقْد	N	N			buying and selling brand,
+A00672	ንጣፍ	/nɨtˤaf/	/nitaːf/	نِتاف	N	N			floor mat, rug,
+A00673	ንጥል	/nɨtˤɨl/	/natl/	نَتْل	N	N			separated, positioned apart
+A00674	ንጥር	/nɨtˤɨr/	/natr/	نَتْر	N	N			purified
+A00675	ንጹህ	/nɨsʼuh/	/nasˤuːħu/	نَصُوحُ	N	N	DMST		clean
+A00676	ንጹሕ	/nɨsʼuh/	/nasˤuːħ/	نَصُوح	A	A			white
+A00677	ንጹሕነት	/nɨsʼuhɨnɛt/	/nisˤuːħ/	نِصُوح	N	N			hygiene, sanitation
+A00678	ንጻት	/nɨsʼat/	/nasˤiːħa/	نَصِيحة	N	N			hygiene, sanitation
+A00679	ንጽሕና	/nɨsʼɨhɨna/	/nasˤiːħa/	نَصِيحة	N	N			hygiene, sanitation
+A00680	ንፍገት	/nɨfɨgɛt/	/nifɣat/	نِفْغَت	N	N			stinginess, greediness, tightfistedness
+A00681	ንፍጥ	/nɨfɨtˤ/	/niftˤ/	نِفْط	N	N	ANAT		slimy secretion (from the mucus membrane)
+A00682	አለመ	/ʔɛlɛmɛ/	/ħalima/	حَلِمَ	VP	VP			dream
+A00683	አለሳለስ	/ʔɛlɛsalɛs/	/salaːsa/	سَلاسة	N	N			softness, silkiness, gentleness
+A00684	አለበ	/ʔɛlɛbɛ/	/ħalaba/	حَلَبَ	VP	VP			milk
+A00685	አላቢ	/ʔɛlaːbi/	/ħallaːb/	حَلّاب	N	N			woman who milks cows
+A00686	አልማዝ	/ʔɛlɨmaːz/	/ʔalmaːðˤ/	ألْماظ	N	N	DMST		diamond
+A00687	ዐልቅት	/ʕɛlɨkʼɨt/	/ʕalaqa/	عَلَقَة	N	N			bloodsucker, leech, tick
+A00688	አልባሽ	/ʔɛlɨbaʃ/	/aːlbaːʃ/	الْباش	N	N			an appointee who is responsible to dress in someone (frequently in the clergy, house of the king or queen)
+A00689	አመለከ	/ʔɛmɛlɛkɛ/	/malaka/	مَلَكَ	VP	VP			worship
+A00690	ዐመል	/ʕɛmɛl/	/ʕamal/	عَمَل	N	N			conduct, demeanor, habit character,
+A00691	አመሰኳ	/ʔɛmɛsɛk/	/ʔamsaka/	أمْسَكَ	VP	VP			ruminate
+A00692	አመረተ	/ʔɛmɛrɛtɛ/	/ʔamrada/	أَمْرَدَ	VP	VP			be cleaned and threshed
+A00693	አመቀ	/ʔɛmɛkʼɛ/	/ʕamaka/	عَمَكَ	VP	VP			squeeze, compress
+A00694	አመት	/ʔɛmɛt/	/ʕaːm/	عَام	N	N			
+A00695	አመነ	/ʔɛmɛnɛ/	/ʔaːmana/	آمَنَ	VP	VP			believe
+A00696	ዐመጥ	/ʕɛmɛtˤ/	/ʕamat/	عَمَت	N	N			uprising, rebellion, protest, revolt, mutiny, sedition
+A00697	አሙስ	/ʔɛmus/	/aːlχamiːs/	الخَمِيس	N	N	DATE		thursday
+A00698	አማኝ	/ʔɛmaːɲ/	/ʔaːmin/	آمِن	N	N			advocate, one who trusts in (someone, something)
+A00699	አምላኪ	/ʔɛmɨlaːki/	/ʔamlaq/	أمْلَق	N	N			extreme admirer (one who gives adoration and devotion to a deity)
+A00700	አምላክ	/ʔɛmɨlaːk/	/malak/	مَلَك	N	N			deity
+A00701	አምና	/ʔɛmɨna/	/ʕaːman/	عَامَن	N	Ncol (sd)	DATE		the previous year
+A00702	ዐምድ	/ʕɛmɨd/	/ʕamd/	عَمْد	N	N			post, pillar, support, column, prop
+A00703	አሞት	/ʔɛmot/	/ħamuːdˤ/	حَمُوض	N	N			digestive fluid (yellowish green) produced in the liver; anger, wrath, rage
+A00704	አሰላፊ	/ʔɛsɛlaːfi/	/ʔasalaf/	أسَلَف	N	N			controller of a procession or pageant
+A00705	አሠሣ	/ʔɛśɛśaː/	/ʔasaːs/	أسَاس	N	N			extensive search
+A00706	አሰረ	/ʔɛsɛrɛ/	/ʔasara/	أسَرَ	VP	VP			tie, imprison
+A00707	አሰራ	/ʔɛsɛraː/	/ʔasara/	أسَرَ	VP	VP			recoup, recover
+A00708	አሠር	/ʔɛśɛr/	/ʕasˤr/	عَصْر	N	N			remaining, residue, waste material from the body
+A00709	አሰበ	/ʔɛsɛbɛ/	/ħasiba/	حَسِبَ	VP	VP			think, intend
+A00710	አሣሪ	/ʔɛśaːri/	/ʔaːsir/	آسِر	N	N			one who puts someone behind bars
+A00711	አሣር	/ʔɛśaːr/	/isˤr/	إصْر	N	N			test suffering, ordeal
+A00712	አሳበበ	/ʔɛsabɛbɛ/	/ʔasbaba/	أَسْبَبَ	VP	VP			excuse
+A00713	አሳባቂ	/ʔɛsabakʼi/	/sˤabaːɣ/	صَبَاغ	N	N			concocter, slanderer, spiteful
+A00714	አሴረ	/ʔɛserɛ/	/ʔasara/	أسَرَ	VP	VP			plot, conspire
+A00715	አስስ	/ʔɛsɨs/	/ʕasas/	عَسَس	N	N			patrol
+A00716	አስረዳ	/ʔɛsɨrɛda/	/ʔasrada/	أسْرَدَ	VP	VP			realize
+A00717	ዐሥር	/ʕɛśɨr/	/ʕaʃra/	عَشْرة	A	A	NUMB		ten
+A00718	አስተና	/ʔɛsɨtɛna/	/aːstannaː/	اسْتَنَّى	N	Ncol (eg)		SH	Look
+A00719	አስነጠሰ	/ʔɛsɨnɛtˤɛsɛ/	/ʕatˤs/	عَطْس	N	N			
+A00720	አስፍሪ	/ʔɛsɨfɨri/	/ʔasfar/	أسْفَر	N	N			a person who escorts an individual getting aboard
+A00721	አረመደ	/ʔɛrɛmɛdɛ/	/ʔarmada/	أَرْمَدَ	VP	VP			dip (powder)
+A00722	አረሰ	/ʔɛrɛsɛ/	/ʔarsaː/	أَرْسَى	VP	VP			plow, till
+A00723	ዐረብ	/ʕɛrɛb/	/ʕarab/	عَرَب	N	N			arab
+A00724	ዐረብኛ	/ʕɛrɛbɨɲa/	/ʕarabiːja/	عَرَبِيَّة	N	N			arabic language
+A00725	ዐረብያ	/ʕɛrɛbɨja/	/ʕarabiːja/	عَرَبِيَّة	N	N			arabia
+A00726	አረደ	/ʔɛrɛdɛ/	/ʔardaː/	أَرْدَى	VP	VP			slaughter (animal)
+A00727	አረገ	/ʔɛrɛgɛ/	/ʕaradʒa/	عَرَجَ	VP	VP	RLGN		go up into heaven
+A00728	አራ	/ʔɛraː/	/χaraʔ/	خَرَأ	VP	VP			defecate
+A00729	አርቢ	/ʔɛrɨbi/	/ʔarbi/	أرْبِ	N	N			livestock (cattle, sheep, pigs, etc.) raiser
+A00730	አርቲ፡ቡርቲ	/ʔɛrɨti፡burɨti/	/ʔarti/	أرْتِ	N	N	RLGN		ritual, incantation
+A00731	አሸነፈ	/ʔɛʃɛnɛfɛ/	/ʔaʃnafa/	أشْنَفَ	VP	VP			win
+A00732	አሹራ	/ʔɛʃuraː/	/ʕuʃr/	عُشْر	N	N			tariff paid for selling one's land
+A00733	አሻራ	/ʔɛʃaraː/	/iʃaːra/	إشَارة	N	N			mark made by pressing an inked finger on to paper
+A00734	አሽከር	/ʔɛʃɨkɛr/	/ʕaskar/	عَسْكَر	N	N			house maid (usually male)
+A00735	ዐቀበት	/ʕɛkʼɛbɛt/	/ʕaqaba/	عَقَبَة	N	N			steep, sheer, vertical, upward slope
+A00736	አቀደ	/ʔɛkʼɛdɛ/	/ʕaqada/	عَقَدَ	VP	VP			plan, design
+A00737	ዐቃቤ	/ʕɛkʼabe/	/ʕiqaːb/	عِقَاب	N	N			
+A00738	ዐቅል	/ʕɛkʼɨl/	/ʕaql/	عَقْل	N	N			intelligence, acumen, mind, insight, sense, brain
+A00739	ዐቅድ	/ʕɛkʼɨd/	/ʕaqd/	عَقْد	N	N			preparation, plan, scheme, idea, proposal
+A00740	አባ	/ʔɛba/	/ʔaba/	أبا	N	N			title for a cleric
+A00741	አባት	/ʔɛbat/	/ʔabat/	أبَت	N	N			father
+A00742	አብራሪ	/ʔɛbɨraːri/	/ʔabraːr/	أبْرار	N	N			pilot
+A00743	አተመ	/ʔɛtɛmɛ/	/ʔatamma/	أتَمَّ	VP	VP			seal, print
+A00744	አታክልት	/ʔɛtakɨlɨt/	/ʔakl/	أكْل	N	N			edible plant, especially leafy or fleshy parts, like cabbage. Salad
+A00745	አነቃናቂ	/ʔɛnɛkʼanakʼi/	/naqnaːq/	نَقْنَاق	N	Ncol (sd)			one who stirs, shakes up or disturbs
+A00746	አነጠሰ	/ʔɛnɛtˤɛsɛ/	/ʕatˤasa/	عَطَسَ	VP	VP			sneeze
+A00747	አነፈነፈ	/ʔɛnɛfɛnɛfɛ/	/nafnafa/	نَفْنَفَ	VP	VP			smell, sniff
+A00748	አንበሳ	/ʔɛnɨbɛsa/	/ʕambsa/	عَمْبسَة	N	Ncol (sd)	ANIM		lion
+A00749	አንበሪ	/ʔɛnɨbɛri/	/ʕanbar/	عَنْبَر	N	N	ANIM		whale
+A00750	አንጣፊ	/ʔɛnɨtˤafi/	/aːntaːfi/	انْتافِ	N	N			master of the bedchamber
+A00751	አኘከ	/ʔɛɲɛkɛ/	/ʕalaka/	عَلَكَ	VP	VP			chew, masticate
+A00752	አዕማድ	/ʔɛʕɨmaːd/	/ʔaʕmud/	أعْمُد	N	N			post, support, column, pillars, prop
+A00753	አከፋፋይ	/ʔɛkɛfafaj/	/ʔakfʔ/	أكْفأ	N	N			one who shares out, issues (e.g.. Accommodates, to retailers, vendors
+A00754	አካፋ	/ʔɛkafa/	/ʕakf/	عَكْف	N	N			
+A00755	አክሊል	/ʔɛkɨlil/	/ikliːl/	إكْلِيل	N	N	DMST		crown
+A00756	አወሳ	/ʔɛwɛsa/	/ʔawsˤaː/	أَوْصَى	VP	VP			talk, chat
+A00757	አወራ	/ʔɛwɛraː/	/ʔawraː/	أوْرَى	VP	VP			talk, describe
+A00758	አወከ	/ʔɛwɛkɛ/	/ʕawuːaqa/	عَوَّقَ	VP	VP			upset, trouble
+A00759	አወደ	/ʔɛwɛdɛ/	/ʕawada/	عَوَدَ	VP	VP			perfume
+A00760	አወደ	/ʔɛwɛdɛ/	/ʕawuːada/	عَوَّدَ	VP	VP			perfume
+A00761	አውታር	/ʔɛwɨtar/	/ʔawtaːr/	أوْتار	N	N	DMST		string or cord of an ancient musical instrument called lyre, with strings fixed in a frame shaped like U, and played with fingers
+A00762	አዘቦት	/ʔɛzɛbot/	/ʔausbuːʕ/	أُسْبُوع	N	N			
+A00763	አዘዘ	/ʔɛzɛzɛ/	/ʔawʕaza/	أوْعَزَ	VP	VP			order
+A00764	አዝሙድ	/ʔɛzɨmud/	/iθmud/	إثْمُد	N	N	PLNT		a plant called cumin, with seeds that are used as a spice in foods
+A00765	አዝራር	/ʔɛzɨraːr/	/ʔazraːr/	أزْرَار	N	N	DMST		button (of clothes)
+A00766	አዟሪ	/ʔɛzoari/	/ʔazuːar/	أزْوَر	N	N			person who travels around selling small things
+A00767	አየ	/ʔɛja/	/ʕaːjana/	عَايَنَ	VP	VP			see
+A00768	አይሁድ	/ʔɛjɨhud/	/jahuːd/	يَهُود	N	N			jew
+A00769	ዐይነ	/ʕɛjɨnɛ/	/ʕajn/	عَيْن	N	N	ANAT		eye
+A00770	አደለ	/ʔɛdɛlɛ/	/ʕadal/	عَدَل	VP	VP			distribute
+A00771	አደለ	/ʔɛdɛlɛ/	/ʕadala/	عَدَلَ	VP	VP			distribute
+A00772	አደበ	/ʔɛdɛbɛ/	/ʔadaba/	أَدَبَ	VP	VP			behave well
+A00773	አዲስ	/ʔɛdis/	/ħadiːθ/	حَدِيث	A	A			new
+A00774	አጋማሽ	/ʔɛgamaːʃ/	/ʔaχmasˤ/	أخْمَص	N	N			half, halfway
+A00775	አጠፈ	/ʔɛtˤɛfɛ/	/ʕatˤafa/	عَطَفَ	VP	VP			fold
+A00776	አጥር	/ʔɛtˤɨr/	/itˤaːr/	إِطَار	N	N			fence
+A00777	አፈረ	/ʔɛfɛrɛ/	/χafara/	خَفَرَ	VP	VP			be shy
+A00778	አፈቀረ	/ʔɛfɛkʼɛrɛ/	/ʔafkara/	أفْكَرَ	VP	VP			love
+A00779	አፍንጫ	/ʔɛfɨnɨtʃa/	/ʔanf/	أنْف	N	N	ANAT		nose
+A00780	ዒላማ	/ʕilaːmaː/	/ʕalaːma/	عَلَامَة	N	N			target
+A00781	ዓለም	/ʕalɛm/	/ʕaːlam/	عَالَم	N	N			world
+A00782	ዓላማ	/ʕalaːmaː/	/ʕalaːma/	عَلَامَة	N	N			flag
+A00783	ዓመተ፡ማረ	/ʕamɛtɛ፡maːrɛ/	/ʕaːm/	عَام	N	N	DATE		year of Grace, Anno Domini (A.D)
+A00784	ዓይን	/ʕajɨn/	/ʕajn/	عَيْن	N	N	ANAT		eye
+A00785	እሑድ	/ʔɨhud/	/ʔaħad/	أحَد	N	N	DATE		Sunday
+A00786	እህል	/ʔɨhɨl/	/ʔahl/	أهْل	N	N			harvest, yield, grain, crop, produce, food
+A00787	እህት	/ʔɨhɨt/	/ʔauχt/	أُخْت	N	N			sister
+A00788	እኅት	/ʔɨħɨt/	/ʔauχt/	أُخْت	N	N			sister
+A00789	እልቂት	/ʔɨlɨkʼit/	/ilɣaːʔ/	إلْغاء	N	N			abolition
+A00790	እልፍ	/ʔɨlɨf/	/ʔalf/	ألْف	A	A	NUMB		ten thousand
+A00791	እመን	/ʔɨmɛn/	/ʔamn/	أمْن	N	N			trust
+A00792	እምስ	/ʔɨmɨs/	/ʔams/	أمْس	N	N	ANAT		vagina, vulva
+A00793	እምስ	/ʔɨmɨs/	/ħimsˤ/	حِمْص	A	A			softly cooked, boiled
+A00794	ዕምቅ	/ʕɨmɨkʼ/	/ʕimk/	عِمْك	N	N			crowded, stuffed, packed full
+A00795	እምነት	/ʔɨmɨnɛt/	/iːmaːn/	إيمَان	N	N	RLGN		belief
+A00796	እምነት	/ʔɨmɨnɛt/	/ʔamaːna/	أمَانة	N	N			conviction, trust, confidence
+A00797	እስላም	/ʔɨsɨlaːm/	/islaːm/	إسْلام	N	N	RLGN		islam
+A00798	እስረኛ	/ʔɨsɨrɛɲa/	/ʔasiːr/	أسِير	N	N			
+A00799	እሥራት	/ʔɨśɨraːt/	/ʔasr/	أسْر	N	N			incarceration, custody, confinement, detention
+A00800	እስራኤላዊ	/ʔɨsɨraːʔelaːwi/	/ʔasraːʔiːli/	أسْرائِيلي	N	N			israelite
+A00801	እስራኤል	/ʔɨsɨraːʔel/	/israːʔiːl/	إسْرائِيل	N	N	NAME		israel
+A00802	እሥር	/ʔɨśɨr/	/ʔasr/	أسْر	N	N			detention, incarceration, bunch, pack
+A00803	እርሳስ	/ʔɨrɨsas/	/rasˤaːsˤ/	رَصَاص	N	N	DMST		
+A00804	እርቅ	/ʔɨrɨkʼ/	/irqaːʔ/	إرْقاء	N	N			squaring off, settlement, reunion, appeasement
+A00805	እርድ	/ʔɨrɨd/	/ʔard/	أرْد	N	N			butchered animal
+A00806	እርጥበት	/ʔɨrɨtˤɨbɛt/	/rutˤuːba/	رُطُوبَة	N	N			wetness, humidity
+A00807	እርጥባን	/ʔɨrɨtˤɨban/	/raːtib/	رَاتِب	N	N			offering (usually of cash money) as donation
+A00808	እርጥብ	/ʔɨrɨtˤɨb/	/ratˤib/	رَطِب	A	A			damp, clammy, dewy
+A00809	ዕቅድ	/ʕɨkʼɨd/	/ʕaqd/	عَقْد	N	N			plan, scheme, idea, proposal, design, plot
+A00810	እቅፍ	/ʔɨkʼɨf/	/kaf/	كَف	N	N			bouquet, handful, tuft
+A00811	እቶን	/ʔɨton/	/ʔatuːn/	أتُون	N	N	DMST		oven, heater, furnace, boiler
+A00812	እንስት	/ʔɨnɨsɨt/	/ʔaːnisa/	آنِسَة	N	N			feminine, female
+A00813	እንብርክ	/ʔɨnɨbɨrɨk/	/aːnbiraːk/	انْبِراك	N	N			being or going down on one's knees
+A00814	እኩል	/ʔɨkul/	/ʕiql/	عِقْل	N	N			semi, partially, half
+A00815	ዕውር	/ʕɨwɨr/	/ʔaʕuːar/	أعْوَر	A	A			sightless
+A00816	እጅ	/ʔɨdʒ/	/ʔiːd/	إيد	N	N	ANAT		hand
+A00817	እግር	/ʔɨgɨr/	/ridʒl/	رِجْل	N	N	ANAT		leg
+A00818	እጥፍ	/ʔɨtˤɨf/	/ʕatˤf/	عَطْف	A	A			twice over
+A00819	ከለለ	/kɛlɛlɛ/	/kallala/	كَلَّلَ	VP	VP			stake out, delineate
+A00820	ከልብ	/kɛlɨb/	/kalb/	كَلْب	N	N	ANIM		dog (old use)
+A00821	ከሙን	/kɛmun/	/kammuːn/	كَمُّون	N	N	PLNT		a kind of spice called cumin
+A00822	ከሰረ	/kɛsɛrɛ/	/χasira/	خَسِرَ	VP	VP			go bankrupt
+A00823	ከሰብ	/kɛsɛb/	/kasb/	كَسْب	N	N			making income
+A00824	ከሳ	/kɛsa/	/χassa/	خَسَّ	VP	VP			be thin, lose weight
+A00825	ከሳራ	/kɛsaraː/	/χasaːra/	خَسَارَة	N	N			insolvency, liquidation, bankruptcy, economic failure
+A00826	ከራማ	/kɛraːmaː/	/karaːma/	كَرَامة	N	N			charm, personality, charisma, appeal, magnetism, allure
+A00827	ከርሥ	/kɛrɨś/	/karʃ/	كَرْش	N	N	ANAT		stomach, tummy, appetite
+A00828	ከበረ	/kɛbɛrɛ/	/kabura/	كَبُرَ	VP	VP			be honored
+A00829	ከበደ	/kɛbɛdɛ/	/kabada/	كَبَدَ	VP	VP			be heavy
+A00830	ከባድ	/kɛbad/	/kabad/	كَبَد	N	N			hardness
+A00831	ከባድ	/kɛbad/	/kabad/	كَبَد	A	A			hard, weighty
+A00832	ከተበ	/kɛtɛbɛ/	/kataba/	كَتَبَ	VP	VP			vaccinate
+A00833	ከውር	/kɛwɨr/	/kawr/	كَوْر	N	N			mishmash, crucible, mixture, melting-pot
+A00834	ከዚህ	/kɛzih/	/kaðaː/	كَذَا	N	N			
+A00835	ከይሲ	/kɛjɨsi/	/qaːsiː/	قَاسِي	N	N			scamp, rogue, unkind, cruel, devil, rascal
+A00836	ከፈለ	/kɛfɛlɛ/	/kafala/	كَفَلَ	VP	VP			pay; divide
+A00837	ከፈነ	/kɛfɛnɛ/	/kafana/	كَفَنَ	VP	VP			wrap corpse
+A00838	ከፈን	/kɛfɛn/	/kafan/	كَفَن	N	N	DMST		covering, blanket, shroud
+A00839	ከፈከፈ	/kɛfɛkɛfɛ/	/kafakafa/	كَفَكَفَ	VP	VP			trim thatch
+A00840	ከፈፈ	/kɛfɛfɛ/	/kafafa/	كَفَفَ	VP	VP			edge, trim
+A00841	ኩላሊት	/kulaːlit/	/kulaː/	كُلَى	N	N	ANAT		kidney
+A00842	ኩስ	/kus/	/kus/	كُس	N	N	DMST	SH	excrement of fowl or chicken race
+A00843	ኩርሲ	/kurɨsi/	/kursiːi/	كُرْسِيّ	N	N	DMST		chair
+A00844	ኩሽ	/kuʃ/	/kuːʃ/	كُوش	N	N	NAME		cush (place along the Nile valley)
+A00845	ኩበት	/kubɛt/	/kubat/	كُبَت	N	N			manure, compost, dung, muck
+A00846	ኩባያ	/kubaja/	/kawb/	كَوْب	N	N	DMST		metal cup, metal mug
+A00847	ኩባያ	/kubaja/	/kubbaːja/	كُبَّاية	N	N	DMST		metal cup, metal mug
+A00848	ኩዳድ	/kudad/	/kudaːd/	كُداد	N	N			cultivated area, agricultural estate, plantation, farm
+A00849	ኩዳድ	/kudad/	/kudaːd/	كُداد	N	N			agricultural estate, cultivated area, plantation, farm
+A00850	ኩፍ	/kufɨ/	/χuf/	خُف	N	N	DMST		shoes
+A00851	ኩፍ	/kufɨ/	/χuf/	خُف	N	N	DMST		shoe covering the ankle
+A00852	ኪሳራ	/kisaraː/	/χasaːra/	خَسَارة	N	N			loss, shortfall, deficit, underperformance
+A00853	ኪስ	/kis/	/kiːs/	كِيس	N	N	DMST		pouch, pocket, compartment, drawer, box-like container
+A00854	ኪራይ	/kiraːj/	/kiraːʔ/	كِرَاء	N	N			rent
+A00855	ኪያር	/kijar/	/χjːar/	خِيَار	N	N	PLNT		cucumber
+A00856	ካህን	/kahɨn/	/kaːhin/	كَاهِن	N	N	RLGN		cleric, minister, member of the clergy, pastor, priest
+A00857	ካምፉር	/kamɨfur/	/kaːfuːr/	كَافُور	N	N	DMST		a strong-smelling white substance used in medicine, called camphor, in making plastics and to keep insects away from clothes
+A00858	ካርታ	/karɨta/	/χaːritˤa/	خَارِطَة	N	N	DMST		blueprint, legal document (for a building, land), plan, design, playing cards, atlas, map, drawing
+A00859	ካበ	/kabɛ/	/kaʕaba/	كَعَبَ	VP	VP			build with stone
+A00860	ካባ	/kaba/	/dʒibba/	جِبَّة	N	Ncol (sd)	DMST		shroud, mantle, cloak, veil, cover
+A00861	ካባ	/kaba/	/kaʕba/	كَعْبَة	N	N	RLGN	SH	pit, mine, quarry, excavation
+A00862	ካብ	/kab/	/kaʕb/	كَعْب	N	N			heaps, loads, piles, masses (of stones, etc)
+A00863	ካካ	/kaka/	/kaːka/	كَاكا	N	Ncol (sd)	DMST		excrement (a word used by children)
+A00864	ካውያ	/kawɨja/	/kaːwiːja/	كَاوِيَة	N	N	DMST		iron (for clothes)
+A00865	ካፈር	/kafɛr/	/kaːfir/	كافِر	N	N	RLGN		christian (words used by Moslems to mean ungodly or unbelieving)
+A00866	ክህነት	/kɨhɨnɛt/	/kahaːna/	كَهَانة	N	N	RLGN		priesthood, ordination
+A00867	ክሳት	/kɨsat/	/χissa/	خِسَّة	N	N			slimness, slenderness, loss of weight
+A00868	ክስ	/kɨs/	/qisˤsˤa/	قِصَّة	N	N			accusation, allegation, indictment, charge
+A00869	ክስተት	/kɨsɨtɛt/	/qisˤsˤa/	قِصَّة	N	N			event
+A00870	ክርታስ	/kɨrɨtas/	/qirtˤaːs/	قِرْطَاس	N	N	DMST		casing, card board, membrane
+A00871	ክርፋት	/kɨrɨfat/	/qaraf/	قَرَف	N	N			horrible smell, unpleasant odor
+A00872	ክብረት	/kɨbɨrɛt/	/kibr/	كِبْر	N	N			affluence, wealth, prosperity, material comfort, riches
+A00873	ክብሪት	/kɨbɨrit/	/kibriːt/	كِبْرِيت	N	N	DMST		matches (for lighting)
+A00874	ክብር	/kɨbɨr/	/kibar/	كِبَر	N	N			glory
+A00875	ክብር	/kɨbɨr/	/kibr/	كِبْر	N	N			high esteem, prestige, honor, reverence, awe, admiration
+A00876	ክቦሽ	/kɨboʃ/	/kabs/	كَبْس	N	N			stack, piling, loading up, heap
+A00877	ክታብ	/kɨtab/	/kitaːb/	كِتاب	N	N	RLGN		lucky charm, trinket, talisman, mascot, amulet, good luck charm
+A00878	ክትባት	/kɨtɨbat/	/kitaːba/	كِتَابَة	N	N			immunization, vaccination, inoculation
+A00879	ክንፍ	/kɨnɨf/	/kinf/	كِنْف	N	N			wing, arm, section, faction group
+A00880	ክፍለ	/kɨfɨlɛ/	/kifl/	كِفْل	N	N			bottom
+A00881	ክፍል	/kɨfɨl/	/kifl/	كِفْل	N	N			section, portion, room, classroom, grade
+A00882	ኮረጆ	/korɛdʒo/	/χurdʒ/	خُرْج	N	N	DMST		school bag, satchel, bag
+A00883	ኮራ	/koraː/	/ɣurra/	غُرَّ	VP	VP			be proud
+A00884	ኮከብ	/kokɛb/	/kawkab/	كَوْكَب	N	N	RLGN		star
+A00885	ኳለ	/kɨlɛ/	/kaħala/	كَحَلَ	VP	VP			put khol on eyes
+A00886	ወህኒ	/wɛhɨni/	/wahn/	وَهْن	N	N	RLGN		prison, penal colony, labor camp
+A00887	ወለደ	/wɛlɛdɛ/	/walada/	وَلَدَ	VP	VP			bear
+A00888	ወለድ	/wɛlɛd/	/walad/	وَلَد	N	N			bank interest
+A00889	ወላወለ	/wɛlaːwɛlɛ/	/waluːala/	وَلْوَلَ	VP	VP			hesitate, be undecided
+A00890	ወላድ	/wɛlaːd/	/walaːd/	وَلاد	N	N			lush, fertile, productive, fecund (for woman)
+A00891	ወምበር	/wɛmɨbɛr/	/wambar/	وَمْبَر	N	N			seat, bench, chair, judge
+A00892	ወሰወሰ	/wɛsɛwɛsɛ/	/wasuːasa/	وَسْوَسَ	VP	VP			baste (sewing)
+A00893	ወስዋሳ	/wɛsɨwasa/	/wiswaːs/	وِسْواس	A	A			fidgety, misleading
+A00894	ወረሰ	/wɛrɛsɛ/	/waraθa/	وَرَثَ	VP	VP			inherit
+A00895	ወረቀት	/wɛrɛkʼɛt/	/waraqa/	وَرَقة	N	N	DMST		paper, letter
+A00896	ወረብ	/wɛrɛb/	/tˤarab/	طَرَب	N	N			song, chant, church music
+A00897	ወረወረ	/wɛrɛwɛrɛ/	/waruːara/	وَرْوَرَ	VP	VP			throw
+A00898	ወረደ	/wɛrɛdɛ/	/warada/	وَرَدَ	VP	VP			go down
+A00899	ወርች	/wɛrɨtʃ/	/wark/	وَرْك	N	N	ANAT		thigh
+A00900	ወርድ	/wɛrɨd/	/ward/	وَرْد	N	N			breadth, span, width
+A00901	ወቄት	/wɛkʼet/	/waqaja/	وَقَيَة	N	N			small amount, 28 grams, ounce, little
+A00902	ወቅታዊ	/wɛkʼɨtawi/	/waqtiː/	وَقْتِي	N	N			seasonal
+A00903	ወቅት	/wɛkʼɨt/	/waqt/	وَقْت	N	N			time of year, season, period, era, epoch, eon
+A00904	ወበቅ	/wɛbɛkʼ/	/wabaq/	وَبَق	N	N			moisture, dampness due to excessive heat, humidity
+A00905	ወባ	/wɛba/	/wabaːʔ/	وَبَاء	N	N		SH	malaria
+A00906	ወንበር	/wɛnɨbɛr/	/minbar/	مِنْبَر	N	N	DMST		chair
+A00907	ወንበር	/wɛnɨbɛr/	/wanbar/	وَنْبَر	N	N			seat with back
+A00908	ወከለ	/wɛkɛlɛ/	/wakala/	وَكَلَ	VP	VP			appoint a representative
+A00909	ወኪል	/wɛkil/	/wakiːl/	وَكِيل	N	N			agent, representative, delegate
+A00910	ወዘወዘ	/wɛzɛwɛzɛ/	/wazuːaza/	وَزْوَزَ	VP	VP			shake
+A00911	ወደመ	/wɛdɛmɛ/	/haduma/	هَدُمَ	VP	VP			be demolished
+A00912	ወደደ	/wɛdɛdɛ/	/wadada/	وَدَدَ	VP	VP			love
+A00913	ወዳድ	/wɛdad/	/widaːd/	وِدَاد	N	N			friendship
+A00914	ወጠረ	/wɛtˤɛrɛ/	/watara/	وَتَرَ	VP	VP			stretch
+A00915	ዋሸ	/waʃɛ/	/waʃaː/	وَشَى	VP	VP			tell lie
+A00916	ዋድያት	/wadɨjat/	/waːdiː/	وادِي	N	N			big shallow basin
+A00917	ውልድ	/wɨlɨd/	/walad/	وَلَد	N	N			slave, born in one's master's house
+A00918	ውስጣዊ	/wɨsɨtˤawi/	/wastˤiː/	وَسْطِي	A	A			interior
+A00919	ውስጥ	/wɨsɨtˤ/	/wasatˤ/	وَسَط	N	N			in, between
+A00920	ውርዴ	/wɨrɨde/	/wirda/	وِرْدة	N	N			an individual cured from syphilis (V.D.)
+A00921	ውርድ	/wɨrɨd/	/ward/	وَرْد	N	N	RLGN		faster method of reading
+A00922	ውሸት	/wɨʃɛt/	/wiʃaːja/	وِشَايَة	N	N			lies
+A00923	ውቅያኖስ	/wɨkʼɨjanos/	/ʔauːqjːanuːs/	أُوقْيَانُوس	N	N			deep-sea, ocean, the deep
+A00924	ውከላ	/wɨkɛlaː/	/wikaːla/	وِكَالَة	N	N			authorization, mandate,
+A00925	ውክልና	/wɨkɨlɨna/	/tawkiːl/	تَوْكِيل	N	N			representation, mandate, authorization
+A00926	ውጥረት	/wɨtˤɨrɛt/	/tawattur/	تَوَتُّر	N	N			tension, worry, pressure
+A00927	ውፋሬ	/wɨfare/	/wafra/	وَفْرَة	N	N			obesity, fatness, corpulence
+A00928	ውፍረት	/wɨfɨrɛt/	/wafra/	وَفْرة	N	N			obesity, fatness, corpulence
+A00929	ዘለለ	/zɛlɛlɛ/	/zalla/	زَلَّ	VP	VP			leap, jump
+A00930	ዘለቀ	/zɛlɛkʼɛ/	/zalaqa/	زَلَقَ	VP	VP			pass out of sight
+A00931	ዘለዘለ	/zɛlɛzɛlɛ/	/zalzala/	زَلْزَلَ	VP	VP			cut meat into strips
+A00932	ዘመረ	/zɛmɛrɛ/	/zammara/	زَمَّرَ	VP	VP			chant
+A00933	ዘመነ	/zɛmɛnɛ/	/zaman/	زَمَن	N	N			era
+A00934	ዘመናዊ	/zɛmɛnawi/	/zamaniː/	زَمَنِي	A	A			contemporary, advanced
+A00935	ዘመን	/zɛmɛn/	/zaman/	زَمَن	N	N			age
+A00936	ዘማ	/zɛmaː/	/zanaː/	زَنَا	VP	VP			fornicate, commit adultery
+A00937	ዘማ	/zɛmaː/	/zana/	زَنا	VP	VP			fornicate, commit adultery
+A00938	ዘረዘረ	/zɛrɛzɛrɛ/	/zarzara/	زَرْزَرَ	VP	VP			list, describe in details
+A00939	ዘራ	/zɛraː/	/zaraʕa/	زَرَعَ	VP	VP			sow
+A00940	ዘንቢል	/zɛnɨbil/	/zanbiːl/	زَنْبِيل	N	Ncol (eg)	DMST		container made of materials that bend easily
+A00941	ዘከረ	/zɛkɛrɛ/	/zakara/	زَكَرَ	VP	VP			commemorate
+A00942	ዘኬ	/zɛke/	/zakaːa/	زَكَاة	N	N	RLGN	SH	meal eaten at church after mass service
+A00943	ዘወረ	/zɛwɛrɛ/	/zawara/	زَوَرَ	VP	VP			turn round
+A00944	ዘዌ	/zɛwe/	/zaːwiːja/	زَاوِيَة	N	N			angle
+A00945	ዘውግ	/zɛwɨg/	/zawdʒ/	زَوْج	N	N			couple
+A00946	ዘይት	/zɛjɨt/	/zajt/	زَيْت	N	N	DMST		oil
+A00947	ዘፈነ	/zɛfɛnɛ/	/fannana/	فَنَّنَ	VP	VP			sing
+A00948	ዘፈን	/zɛfɛn/	/fann/	فَنّ	N	N			singing, music for the voice
+A00949	ዘፋኝ	/zɛfaɲ/	/fannaːn/	فَنَّان	N	N			person who sings
+A00950	ዙረት	/zurɛt/	/θawra/	ثَوْرَة	N	N			revolution
+A00951	ዙር	/zur/	/zuːr/	زُور	N	N			round
+A00952	ዛለ	/zalɛ/	/zaːla/	زَالَ	VP	VP			be exhausted
+A00953	ዛር	/zar/	/zaːr/	زَار	N	Ncol (sd)			an evil spirit that makes people yell or shout
+A00954	ዛዛ	/zaza/	/zaʕzaʕa/	زَعْزَعَ	VP	VP			be exhausted
+A00955	ዜንጥ	/zenɨtˤ/	/ziːna/	زِينَة	N	N			stylish
+A00956	ዝልስ	/zɨlɨs/	/dʒaliːs/	جَلِيس	A	A			bent down
+A00957	ዝልግልግ	/zɨlɨgɨlɨg/	/zaliq/	زَلِق	A	A			jellied, drawn out, semi-liquid
+A00958	ዝምታ	/zɨmɨta/	/sˤamt/	صَمْت	N	N			silence
+A00959	ዝንጅብል	/zɨnɨdʒɨbɨl/	/zandʒabiːl/	زَنْجَبِيل	N	N	PLNT		plant with hot testing root used in cooking
+A00960	ዝክር	/zɨkɨr/	/ðikr/	ذِكْر	N	N	RLGN		commemoration with a banquet in religious occasion
+A00961	ዝየና	/zɨjana/	/ziːna/	زِينَة	N	N			decoration
+A00962	ዝይ	/zɨj/	/ʔauːiz/	أوِز	N	N	ANIM		goose
+A00963	ዞረ	/zorɛ/	/zawara/	زَوَرَ	VP	VP			turn, revolve
+A00964	ዣዠ	/ʒaʒɛ/	/zaʕzaʕa/	زَعْزَعَ	VP	VP			become senile
+A00965	የለም	/jalɛm/	/lam/	لَمْ	P	P			it's, he's, absent
+A00966	የባቡር፡ሐዲድ	/jababurɨ፡hɛdid/	/baːbuːr ħadiːd/	بَابُور حَدِيد	N	Ncol (sd)	DMST		passageway for train, pathway
+A00967	የብስ	/jabɨs/	/jaːbisa/	يَابِسَة	N	N			principal landmass
+A00968	ዩርዳኖስ	/jurɨdanos/	/ʔlʔurdun/	الأُرْدُن	N	N	NAME		jordan
+A00969	ያመስኳ	/jamɛsɨk/	/jamsik/	يَمْسِك	VI	VI			ruminate
+A00970	ያምርት	/jamɨrɨt/	/jamrid/	يَمْرِد	VI	VI			be cleaned and threshed
+A00971	ያስብ	/jasɨb/	/jaħsib/	يَحْسِب	VI	VI			think, intend
+A00972	ያርምድ	/jarɨmɨd/	/jarmid/	يَرْمِد	VI	VI			dip (powder)
+A00973	ያርግ	/jarɨg/	/jaʕridʒ/	يَعْرِج	VI	VI	RLGN		go up into heaven
+A00974	ያቀብል	/jakʼɛbɨl/	/jataqabbal/	يَتَقَبَّل	VI	VI			receive
+A00975	ያነጥስ	/janɛtˤɨs/	/jaʕtˤis/	يَعْطِس	VI	VI			sneeze
+A00976	ያውሳ	/jawɨsa/	/jawsˤiaː/	يَوْصِى	VI	VI			talk, chat
+A00977	ያውራ	/jawɨraː/	/jawriː/	يَوْرِي	VI	VI			talk, describe
+A00978	ያውር	/jawɨr/	/jaʕwar/	يَعْوَر	VI	VI			go blind
+A00979	ያውክ	/jawɨk/	/jaʕuːwiq/	يَعْوِّق	VI	VI			upset, trouble
+A00980	ያውድ	/jawɨd/	/jaʕawid/	يَعَوِد	VI	VI			perfume
+A00981	ያድብ	/jadɨb/	/jaʔdib/	يَأْدِب	VI	VI			behave well
+A00982	ያጠራቅም	/jatˤɛraːkʼɨm/	/jataraːkam/	يَتَراكَم	VI	VI			amass, collect
+A00983	ይሁዲ	/jɨhudi/	/jahuːd/	يَهُود	N	N			jew
+A00984	ይሁዳ	/jɨhuda/	/jihuːða/	يِهُوذا	N	N	RLGN		judea
+A00985	ይሆምጥጥ	/jɨhomɨtˤɨtˤ/	/jaħmudˤ/	يَحْمُض	VI	VI			be acid, sour
+A00986	ይለስልስ	/jɨlɛsɨlɨs/	/jalaslis/	يَلَسْلِس	VI	VI			be soft, smooth
+A00987	ይለብ	/jɨlɛb/	/jaħlib/	يَحْلِب	VI	VI			milk
+A00988	ይለብልብ	/jɨlɛbɨlɨb/	/jalablib/	يَلَبْلِب	VI	VI			singe, scorch
+A00989	ይለትም	/jɨlɛtɨm/	/jaltˤim/	يَلْطِم	VI	VI			butt, quarrel
+A00990	ይለፍ	/jɨlɛf/	/iːlaːf/	إيلَاف	N	N	RLGN		passage
+A00991	ይለፍልፍ	/jɨlɛfɨlɨf/	/jalaflif/	يَلَفْلِف	VI	VI			chatter
+A00992	ይልበስ	/jɨlɨbɛs/	/jalbis/	يَلْبِس	VI	VI			wear, dress
+A00993	ይልዘዝ	/jɨlɨzɛz/	/jalziz/	يَلْزِز	VI	VI			deliquesce
+A00994	ይመለክ	/jɨmɛlɛk/	/jamlik/	يَمْلِك	VI	VI			worship
+A00995	ይመልምል	/jɨmɛlɨmɨl/	/jamalmil/	يَمَلْمِل	VI	VI			select, pluck
+A00996	ይመልስ	/jɨmɛlɨs/	/jamlisˤ/	يَمْلِص	VI	VI			return
+A00997	ይመርኮዝ	/jɨmɛrɨkoz/	/jatamarkaz/	يَتَمَرْكَز	VI	VI			lean, be biased
+A00998	ይመን	/jɨmɛn/	/juʔumin/	يُؤمِن	VI	VI			believe
+A00999	ይመንን	/jɨmɛnɨn/	/jamnin/	يَمْنِن	VI	VI			retire from world
+A01000	ይመኝ	/jɨmɛɲ/	/jatmannaː/	يَتْمَنَّى	VI	VI			wish
+A01001	ይመዝን	/jɨmɛzɨn/	/jawzin/	يَوْزِن	VI	VI			balance , weigh
+A01002	ይመድን	/jɨmɛdɨn/	/jamdin/	يَمْدِن	VI	VI			civilize
+A01003	ይሙላ	/jɨmulaː/	/jamlʔ/	يَمْلأ	VI	VI			fill
+A01004	ይሙት	/jɨmut/	/jamuːt/	يَمُوت	VI	VI			die
+A01005	ይምሰል	/jɨmɨsɛl/	/jamθil/	يَمْثِل	VI	VI			seem
+A01006	ይምሰል	/jɨmɨsɛl/	/jamθil/	يَمْثِل	VI	VI			make a model
+A01007	ይምረር	/jɨmɨrɛr/	/jamrir/	يَمْرِر	VI	VI			be bitter
+A01008	ይምከር	/jɨmɨkɛr/	/jamkir/	يَمْكِر	VI	VI			advise
+A01009	ይሞርድ	/jɨmorɨd/	/jabrid/	يَبْرِد	VI	VI			file, rasp
+A01010	ይሰልል	/jɨsɛlɨl/	/jaslil/	يَسْلِل	VI	VI			spy on
+A01011	ይሰልል	/jɨsɛlɨl/	/jaʃlil/	يَشْلِل	VI	VI			be paralyzed
+A01012	ይሰረቅ	/jɨsɛrɛkʼ/	/jasriq/	يَسْرِق	VI	VI			steal
+A01013	ይሰር	/jɨsɛr/	/jaʔsir/	يَأْسِر	VI	VI			tie, imprison
+A01014	ይሰርስር	/jɨsɛrɨsɨr/	/jasarsir/	يَسَرْسِر	VI	VI			bore through
+A01015	ይሰንፍጥ	/jɨsɛnɨfɨtˤ/	/jaʃalfitˤ/	يَشَلْفِط	VI	VIcol (eg)			be hot (mustard)
+A01016	ይሰካ	/jɨsɛka/	/jaʃqq/	يَشْقّ	VI	VI			thread, pass through 
+A01017	ይሳል	/jɨsal/	/jasʕil/	يَسْعِل	VI	VI			cough, paint, sharpen
+A01018	ይሳቅ	/jɨsakʼ/	/jadˤħak/	يَضْحَك	VI	VI			laugh
+A01019	ይሳበብ	/jɨsabɛb/	/jasbib/	يَسْبِب	VI	VI			excuse
+A01020	ይሳት	/jɨsat/	/jasuːtˤ/	يَسُوط	VI	VI			miss, go astray
+A01021	ይስለም	/jɨsɨlɛm/	/jaslam/	يَسْلَم	VI	VI			become a muslim
+A01022	ይስለብ	/jɨsɨlɛb/	/jaslib/	يَسْلِب	VI	VI			castrate
+A01023	ይስማ	/jɨsɨmaː/	/jasmiʕ/	يَسْمِع	VI	VI			hear
+A01024	ይስከር	/jɨsɨkɛr/	/jaskir/	يَسْكِر	VI	VI			get drunk
+A01025	ይስደድ	/jɨsɨdɛd/	/jasdid/	يَسْدِد	VI	VI			send
+A01026	ይስገድ	/jɨsɨgɛd/	/jasdʒid/	يَسْجِد	VI	VI	RLGN		bow in worship
+A01027	ይረስ	/jɨrɛs/	/jarsiː/	يَرْسِي	VI	VI			plow, till
+A01028	ይረብርብ	/jɨrɛbɨrɨb/	/jarabrib/	يَرَبْرِب	VI	VI			pile up
+A01029	ይረብሽ	/jɨrɛbɨʃ/	/jarbiʃ/	يَرْبِش	VI	VI			disturb
+A01030	ይረድ	/jɨrɛd/	/jardiː/	يَرْدِي	VI	VI			slaughter (animal)
+A01031	ይራ	/jɨraː/	/jaχraʔ/	يَخْرَأ	VI	VI			defecate
+A01032	ይርሳ	/jɨrɨsa/	/jansaː/	يَنْسَى	VI	VI			forget
+A01033	ይርቀቅ	/jɨrɨkʼɛkʼ/	/jarqiq/	يَرْقِق	VI	VI			be fine, thin
+A01034	ይርባ	/jɨrɨba/	/jarba/	يَرْبا	VI	VI			be useful
+A01035	ይርከስ	/jɨrɨkɛs/	/jarχisˤ/	يَرْخِص	VI	VI			be cheap
+A01036	ይርዘም	/jɨrɨzɛm/	/jarzim/	يَرْزِم	VI	VI			be long, tall
+A01037	ይርጠብ	/jɨrɨtˤɛb/	/jartˤib/	يَرْطِب	VI	VI			be wet
+A01038	ይሸልል	/jɨʃɛlɨl/	/jaʃlil/	يَشْلِل	VI	VI			chant war songs
+A01039	ይሸልት	/jɨʃɛlɨt/	/jaʃritˤ/	يَشْرِط	VI	VI			shear
+A01040	ይሸርሽር	/jɨʃɛrɨʃɨr/	/jaʃarʃir/	يَشَرْشِر	VI	VI			erode
+A01041	ይቀልድ	/jɨkʼɛlɨd/	/jaqllid/	يَقْلِّد	VI	VI			joke
+A01042	ይቀስስ	/jɨkʼɛsɨs/	/jaqsis/	يَقْسِس	VI	VI			be a priest
+A01043	ይቀንስ	/jɨkʼɛnɨs/	/jaknis/	يَكْنِس	VI	VI			reduce, subtract
+A01044	ይቀይስ	/jɨkʼɛjɨs/	/jaqjis/	يَقْيِس	VI	VI			measure land
+A01045	ይቀይር	/jɨkʼɛjɨr/	/jaɣiːjir/	يَغْيِّر	VI	VI			change
+A01046	ይቀይድ	/jɨkʼɛjɨd/	/jaqiːjid/	يَقْيِّد	VI	VI			tie, hobble
+A01047	ይቀድስ	/jɨkʼɛdɨs/	/jaqddis/	يَقْدِّس	VI	VI			praise
+A01048	ይቁም	/jɨkʼum/	/jaquːm/	يَقُوم	VI	VI			stand
+A01049	ይቃረን	/jɨkʼarɛn/	/jaqaːrin/	يَقَارِن	VI	VI			clash
+A01050	ይቃኝ	/jɨkʼaɲ/	/jataɣannaː/	يَتَغَنَّى	VI	VI			compose hymns
+A01051	ይቅለብ	/jɨkʼɨlɛb/	/jaklib/	يَكْلِب	VI	VI			catch in midair
+A01052	ይቅመል	/jɨkʼɨmɛl/	/jaqmil/	يَقْمِل	VI	VI			remove lice
+A01053	ይቅሰፍ	/jɨkʼɨsɛf/	/jaqsˤif/	يَقْصِف	VI	VI			kill suddenly
+A01054	ይቅረብ	/jɨkʼɨrɛb/	/jaqrub/	يَقْرُب	VI	VI			appraoch
+A01055	ይቅረፍ	/jɨkʼɨrɛf/	/jakrif/	يَكْرِف	VI	VI			peel off bark
+A01056	ይቅር	/jɨkʼɨr/	/jaqarr/	يَقَرّ	VI	VI			remain, stay behind
+A01057	ይቅበር	/jɨkʼɨbɛr/	/jaqbir/	يَقْبِر	VI	VI			bury
+A01058	ይቅደም	/jɨkʼɨdɛm/	/jaqdim/	يَقْدِم	VI	VI			precede
+A01059	ይቅደድ	/jɨkʼɨdɛd/	/jaqdid/	يَقْدِد	VI	VI			tear
+A01060	ይቅጠፍ	/jɨkʼɨtˤɛf/	/jaqtˤif/	يَقْطِف	VI	VI			pluck; lie
+A01061	ይቅፈፍ	/jɨkʼɨfɛf/	/jakfif/	يَكْفِف	VI	VI			1. trim edge, 2. beg
+A01062	ይበርክት	/jɨbɛrɨkɨt/	/jabaːrik/	يَبْارِك	VI	VI			increase, be abundant
+A01063	ይበይን	/jɨbɛjɨn/	/jabjin/	يَبْيِن	VI	VI			decree
+A01064	ይበድን	/jɨbɛdɨn/	/jabdin/	يَبْدِن	VI	VI			be paralyzed
+A01065	ይበጥብጥ	/jɨbɛtˤɨbɨtˤ/	/jabatbit/	يَبَتْبِت	VI	VI			shake, disturb
+A01066	ይባልግ	/jɨbalɨg/	/jabaːliɣ/	يَبْالِغ	VI	VI			be rude
+A01067	ይባስ	/jɨbas/	/jabʔs/	يَبْأس	VI	VI			get worse
+A01068	ይባርክ	/jɨbarɨk/	/jabrik/	يَبْرِك	VI	VI			kneel
+A01069	ይብላ	/jɨbɨlaː/	/jablaʕ/	يَبْلَع	VI	VI			eat
+A01070	ይብረድ	/jɨbɨrɛd/	/jabrid/	يَبْرِد	VI	VI			be cold
+A01071	ይብራ	/jɨbɨraː/	/jabriq/	يَبْرِق	VI	VI			shine
+A01072	ይብዛ	/jɨbɨza/	/jabza/	يَبْزا	VI	VI			increase, be much
+A01073	ይተልትል	/jɨtɛlɨtɨl/	/jataltil/	يَتَلْتِل	VI	VI			cut in many places
+A01074	ይተምን	/jɨtɛmɨn/	/jatmmin/	يَتْمِّن	VI	VI			put a price on
+A01075	ይተራመስ	/jɨtɛraːmɛs/	/jarmis/	يَرْمِس	VI	VI			mix together
+A01076	ይተርጉም	/jɨtɛrɨgum/	/jatardʒim/	يَتَرْجِم	VI	VI			interpret, translate
+A01077	ይተንብይ	/jɨtɛnɨbɨj/	/jatanabaːʔ/	يَتَنَبَّأ	VI	VI	RLGN		prophesy
+A01078	ይተንፍስ	/jɨtɛnɨfɨs/	/jatanaffas/	يَتَنَفَّس	VI	VI			breathe
+A01079	ይታለም	/jɨtalɛm/	/jaħlam/	يَحْلَم	VI	VI			dream
+A01080	ይታመቅ	/jɨtamɛkʼ/	/jaʕmik/	يَعْمِك	VI	VIcol (sd)			squeeze, compress
+A01081	ይታረዝ	/jɨtarɛz/	/jataʕarraː/	يَتَعَرَّى	VI	VI			be naked
+A01082	ይታቀድ	/jɨtakʼɛd/	/jaʕqid/	يَعْقِد	VI	VI			plan, design
+A01083	ይታኘክ	/jɨtaɲɛk/	/jaʕlik/	يَعْلِك	VI	VI			chew, masticate
+A01084	ይታደል	/jɨtadɛl/	/jaʕdil/	يَعْدِل	VI	VI			distribute
+A01085	ይትረፍ	/jɨtɨrɛf/	/jatˤrif/	يَطْرِف	VI	VI			be extra
+A01086	ይትፋ	/jɨtɨfa/	/jatiff/	يَتِفّ	VI	VI			spit, vomit
+A01087	ይትፍተዋል	/jɨtɨfɨtɛwal/	/tufaːl/	تُفَال	N	N			
+A01088	ይቸርችር	/jɨtʃɛrɨtʃɨr/	/jatdʒir/	يَتْجِر	VI	VI			retail
+A01089	ይነሽጥ	/jɨnɛʃɨtˤ/	/janʃatˤ/	يَنْشَط	VI	VI			animate
+A01090	ይነግድ	/jɨnɛgɨd/	/janqid/	يَنْقِد	VI	VI			trade
+A01091	ይናፈጥ	/jɨnafɛtˤ/	/jatanaffatˤ/	يَتَنَفَّط	VI	VI			blow (nose)
+A01092	ይንቀል	/jɨnɨkʼɛl/	/janqil/	يَنْقِل	VI	VI			uproot
+A01093	ይንቀስ	/jɨnɨkʼɛs/	/janqiʃ/	يَنْقِش	VI	VI			comb; glean; tattoo
+A01094	ይንቀዝ	/jɨnɨkʼɛz/	/jankiz/	يَنْكِز	VI	VI			be spoiled
+A01095	ይንዛ	/jɨnɨza/	/jawazziʕ/	يَوَزِّع	VI	VI			spread, disseminate
+A01096	ይንጠፍጠፍ	/jɨnɨtˤɛfɨtˤɛf/	/jataftif/	يَتَفْتِف	VI	VI			flatten out, level
+A01097	ይንጻ	/jɨnɨsʼa/	/jansˤiʕ/	يَنْصِع	VI	VI			be white
+A01098	ይከተል	/jɨkɛtɛl/	/jatakattal/	يَتَكَتَّل	VI	VI			follow
+A01099	ይከትብ	/jɨkɛtɨb/	/jaktib/	يَكْتِب	VI	VI			vaccinate
+A01100	ይከፍን	/jɨkɛfɨn/	/jakfin/	يَكْفِن	VI	VI			wrap corpse
+A01101	ይካብ	/jɨkab/	/jakʕib/	يَكْعِب	VI	VI			build with stone
+A01102	ይክሰር	/jɨkɨsɛr/	/jaχsir/	يَخْسِر	VI	VI			go bankrupt
+A01103	ይክበር	/jɨkɨbɛr/	/jakbur/	يَكْبُر	VI	VI			be honored
+A01104	ይክበድ	/jɨkɨbɛd/	/jakbid/	يَكْبِد	VI	VI			be heavy
+A01105	ይክፈል	/jɨkɨfɛl/	/jakfil/	يَكْفِل	VI	VI			pay; divide
+A01106	ይክፈፍ	/jɨkɨfɛf/	/jakfif/	يَكْفِف	VI	VI			edge, trim
+A01107	ይኮራመት	/jɨkoraːmɛt/	/jatawarram/	يَتَوَرَّم	VI	VI			double over
+A01108	ይወክል	/jɨwɛkɨl/	/jawkil/	يَوْكِل	VI	VI			appoint a representative
+A01109	ይወዝውዝ	/jɨwɛzɨwɨz/	/jawazuːiz/	يَوَزْوِز	VI	VI			shake
+A01110	ይወጥር	/jɨwɛtˤɨr/	/jawtir/	يَوْتِر	VI	VI			stretch
+A01111	ይዋሽ	/jɨwaʃ/	/jawʃiː/	يَوْشِي	VI	VI			tell lie
+A01112	ይዋብ	/jɨwab/	/jatˤiːb/	يَطِيب	VI	VI			be beautiful
+A01113	ይውለድ	/jɨwɨlɛd/	/jawlid/	يَوْلِد	VI	VI			bear
+A01114	ይውረስ	/jɨwɨrɛs/	/jawriθ/	يَوْرِث	VI	VI			inherit
+A01115	ይውረድ	/jɨwɨrɛd/	/jawrid/	يَوْرِد	VI	VI			go down
+A01116	ይውደም	/jɨwɨdɛm/	/jahdim/	يَهْدِم	VI	VI			be demolished
+A01117	ይውደድ	/jɨwɨdɛd/	/jawdid/	يَوْدِد	VI	VI			love
+A01118	ይዘምር	/jɨzɛmɨr/	/jazniː/	يَزْنِي	VI	VI			fornicate, commit adultery
+A01119	ይዘርዝር	/jɨzɛrɨzɨr/	/jazkir/	يَزْكِر	VI	VI			commemorate
+A01120	ይዘክር	/jɨzɛkɨr/	/jazuːir/	يَزْوِر	VI	VI			turn round
+A01121	ይዙር	/jɨzur/	/jazuːir/	يَزْوِر	VI	VI			turn, revolve
+A01122	ይዛል	/jɨzal/	/jazaʕziʕ/	يَزَعْزِع	VI	VI			be exhausted
+A01123	ይዝለል	/jɨzɨlɛl/	/jazliq/	يَزْلِق	VI	VI			pass out of sight
+A01124	ይዝለፍ	/jɨzɨlɛf/	/jazmir/	يَزْمِر	VI	VI			chant
+A01125	ይዝራ	/jɨzɨraː/	/jazraʕ/	يَزْرَع	VI	VI			sow
+A01126	ይዝፈን	/jɨzɨfɛn/	/jaziːl/	يَزِيل	VI	VI			be exhausted
+A01127	ይይ	/jɨj/	/jaʕaːjin/	يَعْايِن	VI	VI			see
+A01128	ይደልል	/jɨdɛlɨl/	/jadlil/	يَدْلِل	VI	VI			cajole, entice
+A01129	ይደምን	/jɨdɛmɨn/	/jadmin/	يَدْمِن	VI	VI			be cloudy
+A01130	ይደርብ	/jɨdɛrɨb/	/jadˤrib/	يَضْرِب	VI	VI			cover, double up
+A01131	ይደቅድቅ	/jɨdɛkʼɨdɨkʼ/	/jadakdik/	يَدَكْدِك	VI	VI			pound, stamp
+A01132	ይደውል	/jɨdɛwɨl/	/jaduːil/	يَدْوِل	VI	VI			ring
+A01133	ይዳስስ	/jɨdasɨs/	/jaduːs/	يَدُوس	VI	VI			to touch lightly, caress
+A01134	ይዳኝ	/jɨdaɲ/	/jadiːn/	يَدِين	VI	VI			arbitrate, judge
+A01135	ይድቀቅ	/jɨdɨkʼɛkʼ/	/jadqiq/	يَدْقِق	VI	VI			be fine, thin
+A01136	ይድቃ	/jɨdɨkʼa/	/jadqiq/	يَدْقِق	VI	VI			beat the breast
+A01137	ይድፈን	/jɨdɨfɛn/	/jadfin/	يَدْفِن	VI	VI			close up
+A01138	ይድፋ	/jɨdɨfa/	/jadfiq/	يَدْفِق	VI	VI			spill, pour out
+A01139	ይዶልዱል	/jɨdolɨdul/	/jadaldim/	يَدَلْدِم	VI	VIcol (sd)			be blunt
+A01140	ይጀምል	/jɨdʒɛmɨl/	/jadʒmil/	يَجْمِل	VI	VI			add
+A01141	ይገምግም	/jɨgɛmɨgɨm/	/jaɣamɣim/	يَغَمْغِم	VI	VI			evaluate, sound out
+A01142	ይግደል	/jɨgɨdɛl/	/jaqtul/	يَقْتُل	VI	VI			kill
+A01143	ይጠርዝ	/jɨtˤɛrɨz/	/jatˤriz/	يَطْرِز	VI	VI			bind a book
+A01144	ይጠብብ	/jɨtˤɛbɨb/	/jatˤbib/	يَطْبِب	VI	VI			be wise; be narrow
+A01145	ይጠፍ	/jɨtˤɛf/	/jaʕtˤif/	يَعْطِف	VI	VI			fold
+A01146	ይጣል	/jɨtˤal/	/jadˤal/	يَضَل	VI	VI			lose, drop, throw
+A01147	ይጣም	/jɨtˤam/	/jatˤʕum/	يَطْعُم	VI	VI			taste good
+A01148	ይጥፋ	/jɨtˤɨfa/	/jatˤfiːʔ/	يَطْفِيء	VI	VI			be lost, disappear
+A01149	ይጫረት	/jɨtʃarɛt/	/jatʃaːratˤ/	يَتْشَارَط	VI	VI			bid
+A01150	ይጫን	/jɨtʃan/	/jaʃħin/	يَشْحِن	VI	VI			load, saddle
+A01151	ይጸልይ	/jɨsʼɛlɨj/	/jasˤalliː/	يَصَلِّي	VI	VI	RLGN		pray
+A01152	ይጹም	/jɨsʼum/	/jasˤuːm/	يَصُوم	VI	VI	RLGN		fast
+A01153	ይጻፍ	/jɨsʼaf/	/jawsˤif/	يَوْصِف	VI	VI			write
+A01154	ይጽደቅ	/jɨsʼɨdɛkʼ/	/jasˤdiq/	يَصْدِق	VI	VI			be just
+A01155	ይፈልስፍ	/jɨfɛlɨsɨf/	/jafalsif/	يَفَلْسِف	VI	VI			invent
+A01156	ይፈር	/jɨfɛr/	/jaχfir/	يَخْفِر	VI	VI			be shy
+A01157	ይፈርፍር	/jɨfɛrɨfɨr/	/jafarfir/	يَفَرْفِر	VI	VI			break into small pieces
+A01158	ይፈትሽ	/jɨfɛtɨʃ/	/jafttiʃ/	يَفْتِّش	VI	VI			frisk, search
+A01159	ይፈትን	/jɨfɛtɨn/	/jaftin/	يَفْتِن	VI	VI			try, test
+A01160	ይፈትፍት	/jɨfɛtɨfɨt/	/jafatfit/	يَفَتْفِت	VI	VI			crumble
+A01161	ይፈንግል	/jɨfɛnɨgɨl/	/jafanqil/	يَفَنْقِل	VI	VIcol (sd)			upset, over turn
+A01162	ይፈጽም	/jɨfɛsʼɨm/	/jafsˤim/	يَفْصِم	VI	VI			complete accomplish
+A01163	ይፍለጥ	/jɨfɨlɛtˤ/	/jaflit/	يَفْلِت	VI	VI			split
+A01164	ይፍሳ	/jɨfɨsa/	/jafsiː/	يَفْسِي	VI	VI			pass wind
+A01165	ይፍረድ	/jɨfɨrɛd/	/jafridˤ/	يَفْرِض	VI	VI			judge
+A01166	ይፍረጥ	/jɨfɨrɛtˤ/	/jafritˤ/	يَفْرِط	VI	VI			burst
+A01167	ይፍተል	/jɨfɨtɛl/	/jaftil/	يَفْتِل	VI	VI			spin
+A01168	ይፍታ	/jɨfɨta/	/jaftaħ/	يَفْتَح	VI	VI			untie, divorce
+A01169	ይፍጠር	/jɨfɨtˤɛr/	/jaftˤir/	يَفْطِر	VI	VI			create
+A01170	ዮድ	/jod/	/juːd/	يُود	N	N			iodine
+A01171	ደለለ	/dɛlɛlɛ/	/dallala/	دَلَّلَ	VP	VP			cajole, entice
+A01172	ደለደለ	/dɛlɛdɛlɛ/	/daldala/	دَلْدَلَ	VP	VP			level
+A01173	ደመነ	/dɛmɛnɛ/	/damana/	دَمَنَ	VP	VP			be cloudy
+A01174	ደመና	/dɛmɛna/	/dimna/	دِمْنَة	N	N			cloud
+A01175	ደማ	/dɛmaː/	/dammam/	دَمَّم	VP	VP			bleed
+A01176	ደም	/dɛm/	/dam/	دَم	N	N	ANAT		blood
+A01177	ደረሰ	/dɛrɛsɛ/	/darrasa/	دَرَّسَ	VP	VP			arrive
+A01178	ደረበ	/dɛrɛbɛ/	/darraba/	دَرَّبَ	VP	VP			cover, double up
+A01179	ደረበ	/dɛrɛbɛ/	/dˤaraba/	ضَرَبَ	VP	VP			cover, double up
+A01180	ደረጀ	/dɛrɛdʒɛ/	/darradʒa/	دَرَّجَ	VP	VP			develop, strive
+A01181	ደረጃ	/dɛrɛdʒa/	/daradʒa/	دَرَجَة	N	N			level
+A01182	ደራሲ	/dɛraːsi/	/darraːs/	دَرَّاس	N	N			novelist, biographer, writer
+A01183	ደራሲነት	/dɛraːsinɛt/	/diraːsa/	دِرَاسة	N	N			state of being a novelist, biographer
+A01184	ደርብ	/dɛrɨb/	/darb/	دَرْب	N	N			row, layer
+A01185	ደርብ	/dɛrɨb/	/dˤarb/	ضَرْب	N	N			floor or level in a building
+A01186	ደቀቀ	/dɛkʼɛkʼɛ/	/daqaqa/	دَقَقَ	VP	VP			be fine, thin
+A01187	ደቀደቀ	/dɛkʼɛdɛkʼɛ/	/dakdaka/	دَكْدَكَ	VP	VP			pound, stamp
+A01188	ደቂቃ	/dɛkʼikʼa/	/daqiːqa/	دَقِيقَة	N	N			minute
+A01189	ደቂቃ	/dɛkʼikʼa/	/daqiːqa/	دَقِيقَة	N	N			unit of tome; 60 seconds
+A01190	ደቃ	/dɛkʼa/	/daqaqa/	دَقَقَ	VP	VP			beat the breast
+A01191	ደቃ	/dɛkʼa/	/dakka/	دَكَّ	VP	VP			beat the breast
+A01192	ደብተር	/dɛbɨtɛr/	/daftar/	دَفْتَر	N	N	DMST		notebook
+A01193	ደነቀረ	/dɛnɛkʼɛrɛ/	/danakara/	دَنَكَرَ	VP	VP			stick into
+A01194	ደን	/dɛn/	/dan/	دَن	N	N			bush, shrub
+A01195	ደወለ	/dɛwɛlɛ/	/dawala/	دَوَلَ	VP	VP			ring
+A01196	ደውል	/dɛwɨl/	/dibla/	دِبْلَة	N	Ncol (eg)	DMST		
+A01197	ደይን	/dɛjɨn/	/ðihn/	ذِهْن	N	N			decision; determination; discernment
+A01198	ደጀን	/dɛdʒɛn/	/dadʒan/	دَجَن	N	N			backup
+A01199	ደገመ	/dɛgɛmɛ/	/daɣama/	دَغَمَ	VP	VP			repeat
+A01200	ደፈረ	/dɛfɛrɛ/	/dafara/	دَفَرَ	VP	VP			dare
+A01201	ደፈነ	/dɛfɛnɛ/	/dafana/	دَفَنَ	VP	VP			close up
+A01202	ደፋ	/dɛfa/	/dafaqa/	دَفَقَ	VP	VP			spill, pour out
+A01203	ደፋ	/dɛfa/	/dafaqa/	دَفَقَ	VP	VP			spill, pour out
+A01204	ዱልዱም	/dulɨdum/	/duldum/	دُلْدُم	A	Acol (sd)			unsharpened, not bright
+A01205	ዱባ	/duba/	/dubbaː/	دُبَّا	N	N			1. person who is fat 2. pumpkin
+A01206	ዲብ	/dib/	/dib/	دِب	N	N			small hill, mound
+A01207	ዳሰ	/dasɛ/	/daːsa/	دَاسَ	VP	VP			put up tent, crush
+A01208	ዳሰሰ	/dasɛsɛ/	/daːsa/	دَاسَ	VP	VP			to touch lightly, caress
+A01209	ዳር	/dar/	/daːr/	دَار	N	N			boundary, verge, hem
+A01210	ዳነ	/danɛ/	/daːna/	دَانَ	VP	VP			heal, recover
+A01211	ዳኘ	/daɲɛ/	/daːna/	دَانَ	VP	VP			arbitrate, judge
+A01212	ዳዋ	/dawa/	/dawaːʔ/	دَوَاء	N	N	DMST		weed
+A01213	ዳፈን	/dafɛn/	/daːfan/	دَافَن	N	N			absence of clergyman from a service
+A01214	ዳፍንት	/dafɨnɨt/	/dafn/	دَفْن	N	N			night blindness
+A01215	ድስት	/dɨsɨt/	/tˤistu/	طِسْتُ	N	N	DMST		clay sauce pan
+A01216	ድርሰት	/dɨrɨsɛt/	/dars/	دَرْس	N	N			piece of writing
+A01217	ድርሳን	/dɨrɨsan/	/dars/	دَرْس	N	N			lecture, sermon, speech
+A01218	ድርቅ	/dɨrɨkʼ/	/dirk/	دِرْك	N	N			dearth, famine
+A01219	ድርብ 	/dɨrɨb/	/dˤariːb/	ضَرِيب	N	N			
+A01220	ድርጅት	/dɨrɨdʒɨt/	/daradʒa/	دَرَجة	N	N			company, corporation, association
+A01221	ድርጊት	/dɨrɨgit/	/dardʒ/	دَرْج	N	N			deed, occurrence, event
+A01222	ድብ	/dɨb/	/dub/	دُب	N	N	ANIM		large, heavy animal with thick fur
+A01223	ድወላ	/dɨwɛlaː/	/dawla/	دَوْلَة	N	N			ringing
+A01224	ዶለተ	/dolɛtɛ/	/dawla/	دَوْلَة	VP	VP			scheme, plot
+A01225	ዶለዶመ	/dolɛdomɛ/	/daldama/	دَلْدَمَ	VP	VPcol (sd)			be blunt
+A01226	ዶለዶመ	/dolɛdomɛ/	/daldama/	دَلْدَمَ	VP	VPcol (sd)			be blunt
+A01227	ዶልዷማ	/dolɨdoamaː/	/dulduma/	دُلْدُمَة	A	Acol (sd)			unsharpened, not bright
+A01228	ዶመ	/domɛ/	/dawuːama/	دَوَّمَ	VP	VP			be dull, blunt
+A01229	ጀመለ	/dʒɛmɛlɛ/	/dʒamala/	جَمَلَ	VP	VP			add
+A01230	ጀምብ	/dʒɛmɨb/	/dʒanb/	جَنْب	N	N			one of two pair of loads of an animal
+A01231	ጀበና	/dʒɛbɛna/	/dʒabana/	جَبَنَة	N	Ncol (sd)	DMST		small pot for making coffee
+A01232	ጁሀ	/dʒuhɛ/	/dʒuːχ/	جُوخ	N	Ncol (sd)	DMST		cloth made of soft wool
+A01233	ጅራፍ	/dʒɨraːf/	/quraːf/	قُرَاف	N	Ncol (sd)	DMST		whip used by farmers for urging an ox on
+A01234	ገሀነም	/gɛhɛnɛm/	/dʒahannam/	جَهَنَّم	N	N	RLGN		home of devils and damned souls; place of great suffering
+A01235	ገለፈት	/gɛlɛfɛt/	/ɣalafa/	غَلَفَة	N	N			outer covering or skin of tree trunks and some fruits
+A01236	ገመድ	/gɛmɛd/	/ɣamd/	غَمْد	N	N			thick strong cord made by twisting finer cords together
+A01237	ገመገመ	/gɛmɛgɛmɛ/	/ɣamɣama/	غَمْغَمَ	VP	VP			evaluate, sound out
+A01238	ገመገመ	/gɛmɛgɛmɛ/	/ɣamɣama/	غَمْغَمَ	VP	VP			evaluate, sound out
+A01239	ገረኑግ	/gɛrɛnug/	/ɣarnuːq/	غَرْنُوق	N	N	ANIM		gerenuk or scientific name- litocranius walleri
+A01240	ገረዘ	/gɛrɛzɛ/	/ɣaraza/	غَرَزَ	VP	VP			circumcise
+A01241	ገረገረ	/gɛrɛgɛrɛ/	/ɣarɣara/	غَرْغَرَ	VP	VP			stop short
+A01242	ገር	/gɛr/	/ɣarr/	غَرّ	A	A			
+A01243	ገር	/gɛr/	/ɣar/	غَر	A	A			kind, friendly, human
+A01244	ገነት	/gɛnɛt/	/dʒanna/	جَنَّة	N	N	RLGN		paradise
+A01245	ገዛ	/gɛza/	/ɣazaː/	غَزَا	VP	VP			buy, rule
+A01246	ገደለ	/gɛdɛlɛ/	/qatala/	قَتَلَ	VP	VP			kill
+A01247	ገደለ	/gɛdɛlɛ/	/qatl/	قَتْل	N	N			kill
+A01248	ጉልበት	/gulɨbɛt/	/ɣulba/	غُلْبَة	N	N			force, labor
+A01249	ጉማም	/gumaːm/	/ɣamaːm/	غَمَام	A	A			smoggy
+A01250	ጉምጉምታ	/gumɨgumɨta/	/ɣamɣama/	غَمْغَمَة	N	N			rumor
+A01251	ጉርብትና	/gurɨbɨtɨna/	/qurb/	قُرْب	N	N			
+A01252	ጉበት	/gubɛt/	/kabd/	كَبْد	N	N	ANAT		liver
+A01253	ጉድጓድ	/gudɨgoad/	/qad/	قَدْ	N	N			pit
+A01254	ጋለሞታ	/galɛmota/	/ɣulma/	غُلْمة	N	N			prostitute, bar lady
+A01255	ጋን	/gan/	/qanaːa/	قَنَاة	N	N	DMST		vessel
+A01256	ጋዘ	/gazɛ/	/ɣaːðˤa/	غَاظَ	VP	VP			banish
+A01257	ግልሙትና	/gɨlɨmutɨna/	/ɣulma/	غُلْمة	N	N			prostitution
+A01258	ግመል	/gɨmɛl/	/dʒamal/	جَمَل	N	N			camel
+A01259	ግራ	/gɨraː/	/ɣajra/	غَيْرَ	P	P			1. opposite of right 2. odd
+A01260	ግራ	/gɨraː/	/ɣajra/	غَيْرَ	N	N			left
+A01261	ግርፍ	/gɨrɨf/	/ɣurfa/	غُرْفة	N	N			cemented wall
+A01262	ግብፅ	/gɨbɨtsˤ/	/qibtˤ/	قِبْط	N	N	NAME		egypt
+A01263	ጓዘ	/goazɛ/	/ɣawuːaz/	غَوَّز	VP	VP			transport
+A01264	ጠልሰም	/tˤɛlɨsɛm/	/tˤalsam/	طَلْسَم	N	N			something worn in the hope that it will protect the wearer (against evil, etc)
+A01265	ጠመጠመ	/tˤɛmɛtˤɛmɛ/	/tamtama/	تَمْتَمَ	VP	VP			coil, wind
+A01266	ጠረዘ	/tˤɛrɛzɛ/	/tˤaraza/	طَرَزَ	VP	VP			bind a book
+A01267	ጠረዘ	/tˤɛrɛzɛ/	/tˤaraza/	طَرَزَ	VP	VP			bind a book
+A01268	ጠረፍ	/tˤɛrɛf/	/tˤaraf/	طَرَف	N	N			border
+A01269	ጠራራ	/tˤɛraːraː/	/taraːra/	تَرارا	N	N			midday, noon, blazing sun
+A01270	ጠራቢ	/tˤɛraːbi/	/turaːb/	تُرَاب	N	N			carver
+A01271	ጠርብ	/tˤɛrɨb/	/turaːb/	تُرَاب	N	N			lumber
+A01272	ጠበበ	/tˤɛbɛbɛ/	/tˤababa/	طَبَبَ	VP	VP			be wise; be narrow
+A01273	ጠንፍ	/tˤɛnɨf/	/tˤanf/	طَنْف	N	N			brim, brink, limit, boundary, verge
+A01274	ጠፈጠፈ	/tˤɛfɛtˤɛfɛ/	/tafatafa/	تَفَتَفَ	VP	VP			flatten out, level
+A01275	ጠፈጠፈ	/tˤɛfɛtˤɛfɛ/	/taftafa/	تَفْتَفَ	VP	VP			flatten out, level
+A01276	ጠፋ	/tˤɛfa/	/tˤafaʔ/	طَفَأ	VP	VP			be lost, disappear
+A01277	ጡብ	/tˤub/	/tˤuːb/	طُوب	N	N	DMST		adobe
+A01278	ጣለ	/tˤalɛ/	/dˤalla/	ضَلَّ	VP	VP			lose, drop, throw
+A01279	ጣመ	/tˤamɛ/	/tˤaʕuma/	طَعُمَ	VP	VP			taste good
+A01280	ጣሳ	/tˤasa/	/tˤaːsa/	طَاسَة	N	N	DMST		tin
+A01281	ጣባ	/tˤaba/	/tˤaːba/	طَابَة	N	N	DMST		small clay used as a dish
+A01282	ጣዕም	/tˤaʕɨm/	/tˤaːʕim/	طَاعِم	N	N			savor
+A01283	ጣዕም	/tˤaʕɨm/	/tˤaʕm/	طَعْم	N	N			taste
+A01284	ጣኦስ	/tˤaʔos/	/tˤaːʔuuːs/	طَاؤوس	N	N	ANIM		large male bird noted for its fine tail feathers
+A01285	ጥሩምባ	/tˤɨrumɨba/	/tˤurumba/	طُرُمْبة	N	N	DMST		horn
+A01286	ጥሪ	/tˤɨri/	/tˤariː/	طَرِي	N	N			
+A01287	ጥራቢ	/tˤɨraːbi/	/turaːb/	تُراب	N	N			shavings
+A01288	ጥርስ	/tˤɨrɨs/	/dˤirs/	ضِرْس	N	N	ANAT		tooth
+A01289	ጥርስ	/tˤɨrɨs/	/dˤirs/	ضِرْس	N	N	ANAT		bone like substance rooted in the gums for biting and chewing
+A01290	ጥርሶ	/tˤɨrɨso/	/dˤirs/	ضِرْس	N	N	ANAT		toothy
+A01291	ጥርቃሚ	/tˤɨrɨkʼami/	/rikaːm/	رِكَام	N	N			the rabble; people of the lowest class
+A01292	ጥርቃሞ	/tˤɨrɨkʼamo/	/rikaːm/	رِكَام	N	N			rubbish, useless
+A01293	ጥርጣሬ	/tˤɨrɨtˤare/	/tˤartˤara/	طَرْطَرة	N	N	DMST		
+A01294	ጥበቃ	/tˤɨbɛkʼa/	/tˤabaqa/	طَبَقَة	N	N			protection
+A01295	ጥበብ	/tˤɨbɛb/	/tˤibaːba/	طِبابة	N	N			wisdom
+A01296	ጦም	/tˤom/			N	N	RLGN		(period of) going without food
+A01297	ጨለማ	/tʃɛlɛmaː/	/ðˤulma/	ظُلْمَة	N	N			darkness
+A01298	ጨረር	/tʃɛrɛr/	/ʃarar/	شَرَر	N	N			radiation
+A01299	ጨረታ	/tʃɛrɛta/	/ʃartˤ/	شَرْط	N	N			bid
+A01300	ጨርቃ	/tʃɛrɨkʼa/	/χirqa/	خِرْقَة	N	N	DMST		texture
+A01301	ጨቀጨቀ	/tʃɛkʼɛtʃɛkʼɛ/	/tʃaktʃaka/	تشَكْتشَكَ	VP	VPcol (sd)			nag, pester, get into an argument
+A01302	ጫማ	/tʃamaː/	/dʒazma/	جَزْمة	N	N	DMST		outer covering for the foot
+A01303	ጫነ	/tʃanɛ/	/ʃaħana/	شَحَنَ	VP	VP			load, saddle
+A01304	ጮማ	/tʃomaː/	/ʃaħm/	شَحْم	A	A			white meat (fat)
+A01305	ፀሐይ	/tsˤɛhɛj/	/sˤaħu/	صَحْو	N	N		SH	sun
+A01306	ጸሓፊ	/sʼɛhaːfi/	/sˤaħħaːf/	صَحَّاف	N	N			writer
+A01307	ጸለየ	/sʼɛlɛja/	/sˤallaː/	صَلَّى	VP	VP	RLGN		pray
+A01308	ጸሎተ፡ፍትሐት	/sʼɛlotɛ፡fɨtɨhɛt/	/sˤalaːa alfaːtiħa/	صَلاة الفَاتِحة	N	N	RLGN		prayer for the dead
+A01309	ጸሎት	/sʼɛlot/	/sˤalaːa/	صَلَاة	N	N	RLGN		supplication; benediction
+A01310	ጸሎት	/sʼɛlot/	/sˤalaːa/	صَلاة	N	N	RLGN		supplication; benediction
+A01311	ጸሎት	/sʼɛlot/	/sˤalaːa/	صَلاة	N	N	RLGN		prayer
+A01312	ጸረረ	/sʼɛrɛrɛ/	/sˤarara/	صَرَرَ	VP	VP			be antagonistic 
+A01313	ጸና	/sʼɛna/	/sˤanna/	صَنَّ	VP	VP			be strong
+A01314	ጸደቀ	/sʼɛdɛkʼɛ/	/sˤadaqa/	صَدَقَ	VP	VP			be just
+A01315	ጸዳ	/sʼɛda/	/sˤadaʕa/	صَدَعَ	VP	VP			be neat
+A01316	ጻድቅ	/sʼadɨkʼ/	/sˤaːdiq/	صَادِق	A	A			righteous, upright devout, blameless
+A01317	ጻፈ	/sʼafɛ/	/wasˤafa/	وَصَفَ	VP	VP			write
+A01318	ጽሑፍ	/sʼɨhuf/	/sˤuħuf/	صُحُف	N	N			something written, anything in written form
+A01319	ጽሑፍ	/sʼɨhuf/	/sˤuħuf/	صُحُف	N	N			something written, anything in written form
+A01320	ጽሕፈት	/sʼɨhɨfɛt/	/sˤiħaːfa/	صِحَافة	N	N			writing
+A01321	ጽልመት	/sʼɨlɨmɛt/	/ðˤulmaːt/	ظُلْمَات	N	N			complete darkness; very gloomy condition
+A01322	ጽዋሚ	/sʼɨwami/	/sˤawwaːm/	صَوَّام	N	N	RLGN		person who fasts
+A01323	ጽድቅ	/sʼɨdɨkʼ/	/sˤidq/	صِدْق	N	N			obeying the law; doing what is morally right
+A01324	ጾመ	/sʼomɛ/	/sˤaːma/	صَامَ	VP	VP	RLGN		fast
+A01325	ጾም	/sʼom/	/sˤawm/	صَوْم	N	N	RLGN		fasting
+A01326	ጾም	/sʼom/	/sˤawm/	صَوْم	N	N	RLGN		time of going without food
+A01327	ፈለሰ	/fɛlɛsɛ/	/fallasa/	فَلَّسَ	VP	VP			migrate
+A01328	ፈለሰፈ	/fɛlɛsɛfɛ/	/falsafa/	فَلْسَفَ	VP	VP			invent
+A01329	ፈለክ	/fɛlɛk/	/falak/	فَلَك	N	N			planet
+A01330	ፈለጠ	/fɛlɛtˤɛ/	/falata/	فَلَتَ	VP	VP			split
+A01331	ፈሳ	/fɛsa/	/fasaː/	فَسَا	VP	VP			pass wind
+A01332	ፈስ	/fɛs/	/fusaːʔ/	فُساء	N	N			fart
+A01333	ፈረሰኛ	/fɛrɛsɛɲa/	/faːris/	فَارِس	N	N			rider on horseback (esp. one who is skilled)
+A01334	ፈረስ	/fɛrɛs/	/faras/	فَرَس	N	N	ANIM		horse
+A01335	ፈረደ	/fɛrɛdɛ/	/faradˤa/	فَرَضَ	VP	VP			judge
+A01336	ፈረጠ	/fɛrɛtˤɛ/	/faratˤa/	فَرَطَ	VP	VP			burst
+A01337	ፈረፈረ	/fɛrɛfɛrɛ/	/farfara/	فَرْفَرَ	VP	VP			break into small pieces
+A01338	ፈርስ	/fɛrɨs/	/farθ/	فَرْث	N	N			content of the stomach
+A01339	ፈተለ	/fɛtɛlɛ/	/fatala/	فَتَلَ	VP	VP			spin
+A01340	ፈተሸ	/fɛtɛʃɛ/	/fattaʃa/	فَتَّشَ	VP	VP			frisk, search
+A01341	ፈተነ	/fɛtɛnɛ/	/fatana/	فَتَنَ	VP	VP			try, test
+A01342	ፈተና	/fɛtɛna/	/fitna/	فِتْنَة	N	N			test
+A01343	ፈተና	/fɛtɛna/	/fitna/	فِتْنَة	N	N			hardship
+A01344	ፈተፈተ	/fɛtɛfɛtɛ/	/fatfata/	فَتْفَتَ	VP	VP			crumble
+A01345	ፈታ	/fɛta/	/fataqa/	فَتَقَ	VP	VP			untie, divorce
+A01346	ፈታሽ	/fɛtaʃ/	/fattaːʃ/	فَتَّاش	N	N			person who inspects at a check point
+A01347	ፈታኝ	/fɛtaɲ/	/fattaːn/	فَتَّان	N	N			interviewer; very difficult situation
+A01348	ፈታይ	/fɛtaj/	/fattaːj/	فَتَّاي	N	N			one who spins cotton
+A01349	ፈትል	/fɛtɨl/	/fatl/	فَتْل	N	N			thread
+A01350	ፈነቀለ	/fɛnɛkʼɛlɛ/	/fanakala/	فَنَكَلَ	VP	VP			pulled out
+A01351	ፈነገለ	/fɛnɛgɛlɛ/	/fanaqala/	فَنَقَلَ	VP	Vpcol (sd)			upset, over turn
+A01352	ፈጠረ	/fɛtˤɛrɛ/	/fatˤara/	فَطَرَ	VP	VP			create
+A01353	ፈጠራ	/fɛtˤɛraː/	/fitˤra/	فِطْرَة	N	N	RLGN		creativity
+A01354	ፈጣሪ	/fɛtˤari/	/fatˤtˤaːr/	فَطَّار	N	N	RLGN		god, creator
+A01355	ፈጸመ	/fɛsʼɛmɛ/	/fasˤama/	فَصَمَ	VP	VP			complete accomplish
+A01356	ፋስ	/fas/	/faʔs/	فَأس	N	N	DMST		hatchet
+A01357	ፋኖስ	/fanos/	/faːnuːs/	فَانُوس	N	N	DMST		container with oil and wick, used to give light
+A01358	ፋይዳ	/fajɨda/	/faːʔida/	فَائِدَة	N	N			significance; avail
+A01359	ፍሥሐ	/fɨśɨhɛ/	/fisħ/	فِسْح	N	N			pleasure, delight, ecstasy
+A01360	ፍራሽ	/fɨraːʃ/	/firaːʃ/	فِرَاش	N	N	DMST		thick, flat oblong pad of wool, foam rubber, etc on which to sleep
+A01361	ፍራሽ	/fɨraːʃ/	/firaːʃ/	فِراش	N	N	DMST		what is left after s, t (especially a house or town) is destroyed
+A01362	ፍራሽ	/fɨraːʃ/	/firaːʃ/	فِراش	N	N	DMST		thick flat pad to sleep on
+A01363	ፍርድ	/fɨrɨd/	/fardˤ/	فَرْض	N	N	RLGN	SH	judgment
+A01364	ፍርድ	/fɨrɨd/	/fardˤ/	فَرْض	N	N	RLGN	SH	justice
+A01365	ፍቅር	/fɨkʼɨr/	/fikr/	فِكْر	N	N			affection, passion, benevolence
+A01366	ፍተሻ	/fɨtɛʃa/	/fitʃ/	فِتْش	N	N			check; control
+A01367	ፍትሐት	/fɨtɨhɛt/	/fatħ/	فَتْح	N	N			freeing (by a priest)from the consequences of sin
+A01368	ፍትሕ	/fɨtɨh/	/fatħ/	فَتْح	N	N			fairness; reasonableness; impartiality
+A01369	ፍትሕ	/fɨtɨh/	/fatħ/	فَتْح	N	N			impartiality, fairness, reasonableness
+A01370	ፍንጃል	/fɨnɨdʒal/	/findʒaːn/	فِنْجَان	N	N	DMST		cup
+A01371	ፍየል	/fɨjal/	/fiːl/	فِيل	N	N	ANIM		small active horned domestic animal
+A01372	ፍጡር	/fɨtˤur/	/fitˤr/	فِطْر	N	N	RLGN		creation
+A01373	ፍጥረት	/fɨtˤɨrɛt/	/fitˤra/	فِطْرَة	N	N	RLGN		creature
+A01374	ፍጹምነት	/fɨsʼumɨnɛt/	/fasˤm/	فَصْم	N	N			absoluteness, blameless, flawless
+A01375	ፍጻሜ	/fɨsʼame/	/fisˤaːmiː/	فِصَامِي	N	N			final
+A01376	ፎጣ	/fotˤa/	/fuːtˤa/	فُوطَة	N	Ncol	DMST		piece of cloth for drying or wiping s, t wet
+A01377	ፓፓዬ	/papaje/	/baːbaːja/	بَابَايا	N	N	PLNT		papaya
+A01378	ፖሊስ፡ጣቢያ	/polisɨ፡tˤabija/	/tˤaːbiːja buːliːs/	طابِية بُولِيس	N	Ncol (sd)			office of a local police officer
