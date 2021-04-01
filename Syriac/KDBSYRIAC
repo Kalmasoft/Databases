@@ -1,0 +1,79 @@
+# Kalmasoft Databases
+# Phonetic Database of Syriac Words
+# References: www.kalmasoft.com/KLEX/dbsyriac.htm
+# Resources: 
+# Related works: www.kalmasoft.com/KLEX/dbamara.htm
+# Availability: https://github.com/Kalmasoft/Databases/blob/main/Syriac/KDBSYRIAC
+# Created: 29/3/2021 11:30 AM
+# Updated: 30/3/2021 3:50 PM
+# Encoding: UTF8
+# Delimiter: TAB
+# Total entries: 300+ records
+# Copyright ©1999-2021 Kalmasoft www.kalmasoft.com
+# Contact: info@kalmasoft.com
+#================================================================================================
+# Licensed under Creative Commons Attribution-ShareAlike 4.0 International license.
+# This is a work in progress, not completed, any citations for academic purposes should include the date when the file was downloaded.
+#================================================================================================
+# Attributes:
+#	ID: 5 digits variant identification number, [S######]
+#	Syriac: Syriac entry
+#	IPA: Reading for Syriac (International Phonetic Alphabet)
+#	Class: Syriac grammatical class
+#		A: Adjective
+#		D: Adverb
+#		I: Infinitive (Syriac gerund)
+#		G: Gerund (Syriac infinitive)
+#		N: Noun
+#		P: Particle
+#		VI: Verb imperfective
+#		VM: Verb imperative
+#		VP: Verb perfective
+#	Domain: Syriac entry usage domain
+#		ANAT: Anatomy
+#		ANIM: Animate
+#		DMST: Domestic
+#		DATE: Date
+#		NAME: Place or personal name
+#		NUMB: Number
+#		PLNT: Plant
+#		RLGN: Religion
+#	Category: Arabic entry usage category
+#		AC: archaic
+#		FF: full form morphology
+#		SH: semantically shifted
+#	Gloss: English meaning of the Syriac entry
+#================================================================================================
+
+ID	Syriac	IPA	Class	Domain	Category	Gloss
+S00001	ܣܸܬܘܵܐ	/sɪtwa/	شتاء	winter	N	
+S00002	ܬܶܫܪܺܝܢ	/taʃrin/	تشرين	June	N	DATE
+S00003	ܢܺܝܣܳܢ	/nisɑn/	نيسان	April	N	DATE
+S00004	ܪܘܼܡܵܢܵܐ	/rwmana/	رمان	pomegranate	N	PLNT
+S00005	ܢܸܫܪܵܐ	/nɪʃra/	نِسر	eagle	N	ANIM
+S00006	ܟܲܠܒܵܐ	/kalba/	كلب	dog	N	ANIM
+S00007	ܝܵܘܡܵܐ	/jawma/	يوم	day	N	DATE
+S00008	ܟܠܝܘܿܡ	/kljom/	كل يوم	all day	N	
+S00009	ܐܪܓܵܘܵܢܵܐ	/ʔrgawana/	أرجواني		N	
+S00010	ܓܵܘܢܵܐ	/gawna/			N	
+S00011	ܙܰܪܩܐ	/zarqa/	أزرق	blue	N	
+S00012	ܫܲܒܬܵܐ	/ʃabta/	السبت	Saturday	N	DATE
+S00013	ܬܵܡܘܿܙ	/tamoz/	تموز	July	N	DATE
+S00014	ܬܹܐܢܵܐ	/tena/	تين	fig	N	PLNT
+S00015	ܫܘܼܪܒ݂ܵܐ	/ʃwrva/	شوربة	soup	N	
+S00016	ܫܒ݂ܲܛ	/ʃvatˤ/	شباط	February	N	DATE
+S00017	ܫܶ̈ܢܶܐ	/ʃɪne/	سنوات	years	N	DATE
+S00018	ܫܳܚܡܳܐ	/ʃɑħmɑ/	بني	brown	N	
+S00019	ܩܝܼܢܵܐ	/qjna/	أخضر	green	N	
+S00020	ܥܪܽܘܒ݂ܬܳܐ	/ʕrovtɑ/	الجمعة	Friday	N	DATE
+S00021	ܟܵܢܘܿܢ	/kanon/	كانون	January	N	DATE
+S00022	ܛܠܵܫܹܒܵܐ	/tˤlaʃeba/	الثلاثاء	Tuesday	N	DATE
+S00023	ܛܲܒܵܚ	/tˤabaħ/	أغسطس	August	N	DATE
+S00024	ܝܲܪܚܵܐ	/jarħa/	شهر	month	N	DATE
+S00025	ܚܶܘܳܪܐ	/ħawɑra/	أبيض	white	N	
+S00026	ܐܳܕܳܪ	/ʔɑdɑr/	آذار	March	N	DATE
+S00027	ܕܲܗܒ݂ܵܐ	/dahva/	ذهبي	gold	N	
+S00028	ܚܲܒܘܼܫܵܐ	/ħabwʃa/	تفاح	apple	N	
+S00029	ܡܶܨܪܝܢ	/masˤrjn/	مصر	Egypt	N	NAME
+S00030	ܕܰܪܡܣܘܩ	/darmswq/	دمشق	Damascus	N	NAME
+S00031	ܕܳܪܳܐ	/dɑrɑ/	درعة	Dara	N	NAME
