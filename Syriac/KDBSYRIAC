@@ -4,76 +4,86 @@
 # Resources: 
 # Related works: www.kalmasoft.com/KLEX/dbamara.htm
 # Availability: https://github.com/Kalmasoft/Databases/blob/main/Syriac/KDBSYRIAC
-# Created: 29/3/2021 11:30 AM
-# Updated: 30/3/2021 3:50 PM
+# Terminology: www.kalmasoft.com/adevtool.htm
+# Created: 3/29/2021 11:30 AM
+# Updated: 8/7/2021 9:00 PM
 # Encoding: UTF8
 # Delimiter: TAB
-# Total entries: 300+ records
+# Total entries: 100+ entries
 # Copyright ©1999-2021 Kalmasoft www.kalmasoft.com
 # Contact: info@kalmasoft.com
-#================================================================================================
+# ================================================================================================
 # Licensed under Creative Commons Attribution-ShareAlike 4.0 International license.
 # This is a work in progress, not completed, any citations for academic purposes should include the date when the file was downloaded.
-#================================================================================================
+# ================================================================================================
 # Attributes:
-#	ID: 5 digits variant identification number, [S######]
+#	ID: 5 digits identification number, [S######]
 #	Syriac: Syriac entry
-#	IPA: Reading for Syriac (International Phonetic Alphabet)
-#	Class: Syriac grammatical class
+#	SRIPA: Reading for Syriac (International Phonetic Alphabet)
+#	ARIPA: Reading for Arabic (International Phonetic Alphabet)
+#	Arabic: Arabic parallel word
+#	SRClass/ARClass: Syriac/Arabic grammatical class
 #		A: Adjective
 #		D: Adverb
-#		I: Infinitive (Syriac gerund)
-#		G: Gerund (Syriac infinitive)
+#		I: Infinitive (Syriac infinitive, Arabic Mimatic infinitive)
+#		G: Gerund (Syriac gerund)
+#		M: Masdar (Arabic infinitive)
 #		N: Noun
-#		P: Particle
+#		NT: Arabic Temporal noun
+#		NL: Arabic Locative noun
+#		Ncol [iso]: Regional colloquial Arabic Noun, ISO3166-3 Alpha-2 country code, common to all Arab countries otherwise
+#		R: Particle
+#		P: Participle (Syriac and Arabic active participle)
+#		Vcol [iso]: Regional colloquial Arabic Verb, ISO3166-3 Alpha-2 country code, common to all Arab countries otherwise
 #		VI: Verb imperfective
+#		VJ: Verb jussive
 #		VM: Verb imperative
 #		VP: Verb perfective
-#	Domain: Syriac entry usage domain
+#	AMDomain/ARDomain: Syriac/Arabic entry usage domain
 #		ANAT: Anatomy
 #		ANIM: Animate
 #		DMST: Domestic
 #		DATE: Date
+#		LANG: Language specific
 #		NAME: Place or personal name
 #		NUMB: Number
 #		PLNT: Plant
 #		RLGN: Religion
 #	Category: Arabic entry usage category
-#		AC: archaic
-#		FF: full form morphology
-#		SH: semantically shifted
+#		ARC: Syriac archaic entry
+#		FFM: full form morphology
+#		NUS: not used in Arabic
+#		SSH: semantically shifted in Arabic
+#	RootAM: Syriac root
+#	RootAR: Arabic root
 #	Gloss: English meaning of the Syriac entry
-#================================================================================================
+# ================================================================================================
 
-ID	Syriac	IPA	Class	Domain	Category	Gloss
-S00001	ܣܸܬܘܵܐ	/sɪtwa/	شتاء	winter	N	
-S00002	ܬܶܫܪܺܝܢ	/taʃrin/	تشرين	June	N	DATE
-S00003	ܢܺܝܣܳܢ	/nisɑn/	نيسان	April	N	DATE
-S00004	ܪܘܼܡܵܢܵܐ	/rwmana/	رمان	pomegranate	N	PLNT
-S00005	ܢܸܫܪܵܐ	/nɪʃra/	نِسر	eagle	N	ANIM
-S00006	ܟܲܠܒܵܐ	/kalba/	كلب	dog	N	ANIM
-S00007	ܝܵܘܡܵܐ	/jawma/	يوم	day	N	DATE
-S00008	ܟܠܝܘܿܡ	/kljom/	كل يوم	all day	N	
-S00009	ܐܪܓܵܘܵܢܵܐ	/ʔrgawana/	أرجواني		N	
-S00010	ܓܵܘܢܵܐ	/gawna/			N	
-S00011	ܙܰܪܩܐ	/zarqa/	أزرق	blue	N	
-S00012	ܫܲܒܬܵܐ	/ʃabta/	السبت	Saturday	N	DATE
-S00013	ܬܵܡܘܿܙ	/tamoz/	تموز	July	N	DATE
-S00014	ܬܹܐܢܵܐ	/tena/	تين	fig	N	PLNT
-S00015	ܫܘܼܪܒ݂ܵܐ	/ʃwrva/	شوربة	soup	N	
-S00016	ܫܒ݂ܲܛ	/ʃvatˤ/	شباط	February	N	DATE
-S00017	ܫܶ̈ܢܶܐ	/ʃɪne/	سنوات	years	N	DATE
-S00018	ܫܳܚܡܳܐ	/ʃɑħmɑ/	بني	brown	N	
-S00019	ܩܝܼܢܵܐ	/qjna/	أخضر	green	N	
-S00020	ܥܪܽܘܒ݂ܬܳܐ	/ʕrovtɑ/	الجمعة	Friday	N	DATE
-S00021	ܟܵܢܘܿܢ	/kanon/	كانون	January	N	DATE
-S00022	ܛܠܵܫܹܒܵܐ	/tˤlaʃeba/	الثلاثاء	Tuesday	N	DATE
-S00023	ܛܲܒܵܚ	/tˤabaħ/	أغسطس	August	N	DATE
-S00024	ܝܲܪܚܵܐ	/jarħa/	شهر	month	N	DATE
-S00025	ܚܶܘܳܪܐ	/ħawɑra/	أبيض	white	N	
-S00026	ܐܳܕܳܪ	/ʔɑdɑr/	آذار	March	N	DATE
-S00027	ܕܲܗܒ݂ܵܐ	/dahva/	ذهبي	gold	N	
-S00028	ܚܲܒܘܼܫܵܐ	/ħabwʃa/	تفاح	apple	N	
-S00029	ܡܶܨܪܝܢ	/masˤrjn/	مصر	Egypt	N	NAME
-S00030	ܕܰܪܡܣܘܩ	/darmswq/	دمشق	Damascus	N	NAME
-S00031	ܕܳܪܳܐ	/dɑrɑ/	درعة	Dara	N	NAME
+ID	Syriac	SRIPA	ARIPA	Arabic	SRClass	ARClass	SRDomain	ARDomain	Category	RootSR	RootAR	Gloss
+S00001	ܐܳܕܳܪ	/ʔɑdɑr/	/ʔðaːr/	آذار	N	N	DATE	DATE				March
+S00002	ܐܪܓܵܘܵܢܵܐ	/ʔrgawana/	/ʔardʒwaːniː/	أرْجُوانِي	N	N						
+S00003	ܓܵܘܢܵܐ	/gawna/	/dʒuːn/	جُون	N	N						green
+S00004	ܕܲܗܒ݂ܵܐ	/dahva/	/ðahabiː/	ذَهَبِي	N	N						gold
+S00005	ܕܰܪܡܣܘܩ	/darmswq/	/dimaʃq/	دِمَشْق	N	N	NAME	NAME				Damascus
+S00006	ܕܳܪܳܐ	/dɑrɑ/	/darʕa/	دَرْعَة	N	N	NAME	NAME				Dara
+S00007	ܙܰܪܩܐ	/zarqa/	/ʔazraq/	أزْرَق	N	N						blue
+S00008	ܚܲܒܘܼܫܵܐ	/ħabwʃa/	/tuffaːħ/	تُفَّاح	N	N						apple
+S00009	ܚܶܘܳܪܐ	/ħawɑra/	/ħawr/	حَوْر	N	N						white
+S00010	ܛܠܵܫܹܒܵܐ	/tˤlaʃeba/	/ʔθˈθulaθaːʔ/	الثُّلاثَاء	N	N	DATE	DATE				Tuesday
+S00011	ܝܲܪܚܵܐ	/jarħa/	/ʃahr/	شَهْر	N	N	DATE	DATE				month
+S00012	ܝܵܘܡܵܐ	/jawma/	/jawm/	يَوْم	N	N	DATE	DATE				day
+S00013	ܟܲܠܒܵܐ	/kalba/	/kalb/	كَلْب	N	N	ANIM	ANIM				dog
+S00014	ܟܵܢܘܿܢ	/kanon/	/kaːnuːn/	كَانوُن	N	N	DATE	DATE				January
+S00015	ܡܶܨܪܝܢ	/masˤrjn/	/misˤr/	مِصْر	N	N	NAME	NAME				Egypt
+S00016	ܢܸܫܪܵܐ	/nɪʃra/	/nisr/	نِسْر	N	N	ANIM	ANIM				eagle
+S00017	ܢܺܝܣܳܢ	/nisɑn/	/niːsaːn/	نِيسَان	N	N	DATE	DATE				April
+S00018	ܣܸܬܘܵܐ	/sɪtwa/	/ʃitaːʔ/	شِتَاء	N	N						winter
+S00019	ܪܘܼܡܵܢܵܐ	/rwmana/	/rummaːn/	رُمَّان	N	N	PLNT	PLNT				pomegranate
+S00020	ܫܲܒܬܵܐ	/ʃabta/	/ʔsˈsabt/	السَّبْت	N	N	DATE	DATE				Saturday
+S00021	ܫܳܚܡܳܐ	/ʃɑħmɑ/	/saχam/	سَخَم	N	N						brown
+S00022	ܫܶ̈ܢܶܐ	/ʃɪne/	/sanawaːt/	سَنَوات	N	N	DATE	DATE				years
+S00023	ܫܒ݂ܲܛ	/ʃvatˤ/	/ʃubaːtˤ/	شُبَاط	N	N	DATE	DATE				February
+S00024	ܫܘܼܪܒ݂ܵܐ	/ʃwrva/	/ʃuːrba/	شُورْبة	N	N						soup
+S00025	ܬܵܡܘܿܙ	/tamoz/	/tamuːz/	تَمُوز	N	N	DATE	DATE				July
+S00026	ܬܹܐܢܵܐ	/tena/	/tiːn/	تِين	N	N	PLNT	PLNT				fig
+S00027	ܬܶܫܪܺܝܢ	/taʃrin/	/taʃriːn/	تَشْرِين	N	N	DATE	DATE				June
