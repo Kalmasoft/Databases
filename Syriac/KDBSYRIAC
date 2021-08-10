@@ -1,12 +1,12 @@
 # Kalmasoft Databases
 # Phonetic Database of Syriac Words
 # References: www.kalmasoft.com/KLEX/dbsyriac.htm
-# Resources: 
+# Resources: Assyrian Wordlists
 # Related works: www.kalmasoft.com/KLEX/dbamara.htm
 # Availability: https://github.com/Kalmasoft/Databases/blob/main/Syriac/KDBSYRIAC
 # Terminology: www.kalmasoft.com/adevtool.htm
 # Created: 3/29/2021 11:30 AM
-# Updated: 8/7/2021 9:00 PM
+# Updated: 8/10/2021 2:16 PM
 # Encoding: UTF8
 # Delimiter: TAB
 # Total entries: 100+ entries
@@ -17,7 +17,7 @@
 # This is a work in progress, not completed, any citations for academic purposes should include the date when the file was downloaded.
 # ================================================================================================
 # Attributes:
-#	ID: 5 digits identification number, [S######]
+#	ID: 4 digits identification number, [S####]
 #	Syriac: Syriac entry
 #	SRIPA: Reading for Syriac (International Phonetic Alphabet)
 #	ARIPA: Reading for Arabic (International Phonetic Alphabet)
@@ -25,7 +25,7 @@
 #	SRClass/ARClass: Syriac/Arabic grammatical class
 #		A: Adjective
 #		D: Adverb
-#		I: Infinitive (Syriac infinitive, Arabic Mimatic infinitive)
+#		I: Infinitive (Syriac infinitive)
 #		G: Gerund (Syriac gerund)
 #		M: Masdar (Arabic infinitive)
 #		N: Noun
@@ -33,7 +33,7 @@
 #		NL: Arabic Locative noun
 #		Ncol [iso]: Regional colloquial Arabic Noun, ISO3166-3 Alpha-2 country code, common to all Arab countries otherwise
 #		R: Particle
-#		P: Participle (Syriac and Arabic active participle)
+#		P: Participle (Syriac participle)
 #		Vcol [iso]: Regional colloquial Arabic Verb, ISO3166-3 Alpha-2 country code, common to all Arab countries otherwise
 #		VI: Verb imperfective
 #		VJ: Verb jussive
@@ -42,12 +42,14 @@
 #	AMDomain/ARDomain: Syriac/Arabic entry usage domain
 #		ANAT: Anatomy
 #		ANIM: Animate
+#		CONJ: Conjunction
 #		DMST: Domestic
 #		DATE: Date
 #		LANG: Language specific
-#		NAME: Place or personal name
+#		NAME: Entity name
 #		NUMB: Number
 #		PLNT: Plant
+#		PREP: Preposition
 #		RLGN: Religion
 #	Category: Arabic entry usage category
 #		ARC: Syriac archaic entry
@@ -60,30 +62,77 @@
 # ================================================================================================
 
 ID	Syriac	SRIPA	ARIPA	Arabic	SRClass	ARClass	SRDomain	ARDomain	Category	RootSR	RootAR	Gloss
-S00001	ܐܳܕܳܪ	/ʔɑdɑr/	/ʔðaːr/	آذار	N	N	DATE	DATE				March
-S00002	ܐܪܓܵܘܵܢܵܐ	/ʔrgawana/	/ʔardʒwaːniː/	أرْجُوانِي	N	N						
-S00003	ܓܵܘܢܵܐ	/gawna/	/dʒuːn/	جُون	N	N						green
-S00004	ܕܲܗܒ݂ܵܐ	/dahva/	/ðahabiː/	ذَهَبِي	N	N						gold
-S00005	ܕܰܪܡܣܘܩ	/darmswq/	/dimaʃq/	دِمَشْق	N	N	NAME	NAME				Damascus
-S00006	ܕܳܪܳܐ	/dɑrɑ/	/darʕa/	دَرْعَة	N	N	NAME	NAME				Dara
-S00007	ܙܰܪܩܐ	/zarqa/	/ʔazraq/	أزْرَق	N	N						blue
-S00008	ܚܲܒܘܼܫܵܐ	/ħabwʃa/	/tuffaːħ/	تُفَّاح	N	N						apple
-S00009	ܚܶܘܳܪܐ	/ħawɑra/	/ħawr/	حَوْر	N	N						white
-S00010	ܛܠܵܫܹܒܵܐ	/tˤlaʃeba/	/ʔθˈθulaθaːʔ/	الثُّلاثَاء	N	N	DATE	DATE				Tuesday
-S00011	ܝܲܪܚܵܐ	/jarħa/	/ʃahr/	شَهْر	N	N	DATE	DATE				month
-S00012	ܝܵܘܡܵܐ	/jawma/	/jawm/	يَوْم	N	N	DATE	DATE				day
-S00013	ܟܲܠܒܵܐ	/kalba/	/kalb/	كَلْب	N	N	ANIM	ANIM				dog
-S00014	ܟܵܢܘܿܢ	/kanon/	/kaːnuːn/	كَانوُن	N	N	DATE	DATE				January
-S00015	ܡܶܨܪܝܢ	/masˤrjn/	/misˤr/	مِصْر	N	N	NAME	NAME				Egypt
-S00016	ܢܸܫܪܵܐ	/nɪʃra/	/nisr/	نِسْر	N	N	ANIM	ANIM				eagle
-S00017	ܢܺܝܣܳܢ	/nisɑn/	/niːsaːn/	نِيسَان	N	N	DATE	DATE				April
-S00018	ܣܸܬܘܵܐ	/sɪtwa/	/ʃitaːʔ/	شِتَاء	N	N						winter
-S00019	ܪܘܼܡܵܢܵܐ	/rwmana/	/rummaːn/	رُمَّان	N	N	PLNT	PLNT				pomegranate
-S00020	ܫܲܒܬܵܐ	/ʃabta/	/ʔsˈsabt/	السَّبْت	N	N	DATE	DATE				Saturday
-S00021	ܫܳܚܡܳܐ	/ʃɑħmɑ/	/saχam/	سَخَم	N	N						brown
-S00022	ܫܶ̈ܢܶܐ	/ʃɪne/	/sanawaːt/	سَنَوات	N	N	DATE	DATE				years
-S00023	ܫܒ݂ܲܛ	/ʃvatˤ/	/ʃubaːtˤ/	شُبَاط	N	N	DATE	DATE				February
-S00024	ܫܘܼܪܒ݂ܵܐ	/ʃwrva/	/ʃuːrba/	شُورْبة	N	N						soup
-S00025	ܬܵܡܘܿܙ	/tamoz/	/tamuːz/	تَمُوز	N	N	DATE	DATE				July
-S00026	ܬܹܐܢܵܐ	/tena/	/tiːn/	تِين	N	N	PLNT	PLNT				fig
-S00027	ܬܶܫܪܺܝܢ	/taʃrin/	/taʃriːn/	تَشْرِين	N	N	DATE	DATE				June
+S0001	ܐܲܡܪܵܐ	/ʔamra/	/ʔamr/	أمْر	N	N					أمر	a command, an order, a summons
+S0002	ܐܸܠܵܐ	/ʔɪla/	/illa/	إلّا	R	R	CONJ	CONJ				yet, except that
+S0003	ܐܸܢ	/ʔɪn/	/in/	إن	R	R	CONJ	CONJ				if
+S0004	ܐܳܕܳܪ	/ʔɑdɑr/	/ʔðaːr/	آذار	N	N	DATE	DATE				March
+S0005	ܐܒܐ	/ʔba/	/ʔabbaː/	أبَّا	N	N						fruit
+S0006	ܐܓܪܐ	/ʔgra/	/ʔadʒr/	أجْر	N	N						hire, wages
+S0007	ܐܘܡܬܐ	/ʔwmta/	/ʔaumma/	أُمَّة	N	N						nation
+S0008	ܐܪܐܢܐ	/ʔrʔna/	/ʕariːn/	عَرِين	N	N						arena
+S0009	ܐܪܓܵܘܵܢܵܐ	/ʔrgawana/	/ʔardʒwaːniː/	أرْجُوانِي	N	N						purple
+S0010	ܒ	/b/	/bi/	بِ	R	R	PREP	PREP				with, in, at, by
+S0011	ܒܽܘܡܳܐ	/bomɑ/	/buːma/	بُومَة	N	N	ANIM	ANIM				owl
+S0012	ܒܕ	/bd/	/baʕd/	بَعْد	R	R	PREP	PREP				in that, on account of, because, for this reason, a compound of
+S0013	ܒܝܼܕ	/bjd/	/baʕd/	بَعْد	R	R	PREP	PREP				
+S0014	ܓ݂ܵܪܵܙ	/ɣaraz/	/ɣaradˤ/	غَرَض	N	N					غرض	The intent, the purpose, the intention, the meaning, the ulterior motive
+S0015	ܓܵܘ	/gaw/	/dʒuːwa/	جُوَّة	N	Ncol	PREP	PREP				in, into, within, inside, in the midst
+S0016	ܓܵܘܢܵܐ	/gawna/	/dʒuːn/	جُون	N	N						green
+S0017	ܓܙܐ	/gza/	/kanz/	كَنْز	N	N					كنز	treasure
+S0018	ܕ	/d/	/ðaː/	ذَا	R	R	PREP	PREP				of, pertaining to, belonging to, made of, from
+S0019	ܕܲܗܒ݂ܵܐ	/dahva/	/ðahabiː/	ذَهَبِي	N	N					ذهب	gold
+S0020	ܕܰܪܡܣܘܩ	/darmswq/	/dimaʃq/	دِمَشْق	N	N	NAME	NAME				Damascus
+S0021	ܕܳܪܳܐ	/dɑrɑ/	/darʕa/	دَرْعَة	N	N	NAME	NAME				Dara
+S0022	ܕܝܢܪܐ	/djnra/	/diːnaːr/	دِينَار	N	N	DMST	DMST				gold dinarius
+S0023	ܘܲܪܕܵܢܵܝܵܐ	/wardanaja/	/wardiː/	وَرْدِي	N	N					ورد	pink
+S0024	ܙܰܪܩܐ	/zarqa/	/ʔazraq/	أزْرَق	N	N					زرق	blue
+S0025	ܙܘܓܐ	/zwga/	/zawdʒa/	زَوْجَة	N	N					زوج	pair, conjugation, name of an accent
+S0026	ܚܲܒܘܼܫܵܐ	/ħabwʃa/	/tuffaːħ/	تُفَّاح	N	N	PLNT	PLNT				apple
+S0027	ܚܶܘܳܪܐ	/ħawɑra/	/ħawr/	حَوْر	N	N						white
+S0028	ܛܠܵܫܹܒܵܐ	/tˤlaʃeba/	/ʔθˈθulaːθaːʔ/	الثُّلاثَاء	N	N	DATE	DATE			ثلث	Tuesday
+S0029	ܝܲܪܚܵܐ	/jarħa/	/ʃahr/	شَهْر	N	N	DATE	DATE				month
+S0030	ܝܵܐ	/ja/	/jaː/	يَا	R	R	?	?				or, either (loan word?)
+S0031	ܝܵܘܡܵܐ	/jawma/	/jawm/	يَوْم	N	N	DATE	DATE				day
+S0032	ܝܶܡ̈ܳܬ݂ܳܐ	/jamɑθɑ/			N	N						motherly
+S0033	ܝܶܡ̈ܗܳܬܶܐ	/jamhɑta/	/ʔaummahaːt/	أُمَّهَات	N	N						mothers
+S0034	ܝܶܡܳܐ	/jamɑ/	/jamma/	يَمَّة	N	N						mother
+S0035	ܟܲܠܒܵܐ	/kalba/	/kalb/	كَلْب	N	N	ANIM	ANIM				dog
+S0036	ܟܵܢܘܿܢ	/kanon/	/kaːnuːn/	كَانوُن	N	N	DATE	DATE				January
+S0037	ܟܰܢܶܦ	/kanaf/	/kanaf/	كَنَف	V	V					كنف	protect, defend, preserve, maintain
+S0038	ܠ	/l/	/li/	لِ	R	R	PREP	PREP				on, onto, to, upon
+S0039	ܠܲܟ݂ܡܵܐ	/laχma/			N	N						bread
+S0040	ܡܸܛܠ ܕ	/mɪtˤl d/	/miθl/	مِثْل	R	R	CONJ	CONJ				per, in accordance with, according to
+S0041	ܡܸܢ	/mɪn/	/min/	مِنْ	R	R	PREP	PREP				from (a starting point), out of, at, on, of, with (in company of someone)
+S0042	ܡܿܢ	/mܿn/	/man/	مَنْ	R	R						who
+S0043	ܡܰܚܡܳܠܳܐ	/maħmɑlɑ/	/maχmal/	مَخْمَل	N	N	DMST	DMST				towel
+S0044	ܡܶܨܪܝܢ	/masˤrjn/	/misˤr/	مِصْر	N	N	NAME	NAME				Egypt
+S0045	ܢܸܫܪܵܐ	/nɪʃra/	/nisr/	نِسْر	N	N	ANIM	ANIM				eagle
+S0046	ܢܺܝܣܳܢ	/nisɑn/	/niːsaːn/	نِيسَان	N	N	DATE	DATE				April
+S0047	ܣܲܡܪܵܢܵܐ	/samrana/	/ʔasmar/	أَسْمَر	N	N						tawny
+S0048	ܣܸܬܘܵܐ	/sɪtwa/	/ʃitaːʔ/	شِتَاء	N	N						winter
+S0049	ܥܲܠ	/ʕal/	/ʕalaː/	عَلَى	R	R	PREP	PREP				on, over and in contact with, at the surface of and supported by, upon, above, on top of
+S0050	ܥܲܡ	/ʕam/	/maʕ/	مَعْ	R	R	PREP	PREP				with, together with, among / amongst / amidst
+S0051	ܥܲܡܘܿܟ݂	/ʕamoχ/	/maʕaka/	مَعَكَ								with you
+S0052	ܥܵܡܵܐ	/ʕama/	/ʕam/	عَم	N	N						uncle
+S0053	ܥܳܡܳܐ	/ʕɑmɑ/	/ʕamma/	عَمَّة	N	N						uncle
+S0054	ܦܠܛܝܢ	/fltˤjn/	/bilaːtˤ/	بِلاط	N	N						palace (palatium)
+S0055	ܩܵܛܹܠ	/qatˤel/	/qatl/	قَتْل	N	N					قتل	will kill
+S0056	ܩܝܬܪܐ	/qjtra/	/qiːθaːra/	قِيثَارة	N	N	DMST	DMST				harp, lute
+S0057	ܩܢܕܝܠܐ	/qndjla/	/qandiːla/	قَنْدِيلَة	N	N	DMST	DMST				lamp, torch (candela)
+S0058	ܩܪܕܠܐ	/qrdla/	/dʒardal/	جَرْدَل	N	N	DMST	DMST				pot, cradle (caldarium)
+S0059	ܪܘܼܙܵܐ	/rwza/	/ruz/	رُز	N	N	PLNT	PLNT				rice
+S0060	ܪܘܼܡܵܢܵܐ	/rwmana/	/rummaːn/	رُمَّان	N	N	PLNT	PLNT				pomegranate
+S0061	ܫܲܒܬܵܐ	/ʃabta/	/ʔsˈsabt/	السَّبْت	N	N	DATE	DATE				Saturday
+S0062	ܫܳܚܡܳܐ	/ʃɑħmɑ/	/saχam/	سَخَم	N	N						brown
+S0063	ܫܶ̈ܢܶܐ	/ʃɪne/	/sanawaːt/	سَنَوات	N	N	DATE	DATE				years
+S0064	ܫܽܘܫܶܦܳܐ	/ʃoʃafɑ/	/ʃarʃaf/	شَرْشَف	N	N	DMST	DMST				towel
+S0065	ܫܒ݂ܲܛ	/ʃvatˤ/	/ʃubaːtˤ/	شُبَاط	N	N	DATE	DATE				February
+S0066	ܫܘܼܪܒ݂ܵܐ	/ʃwrva/	/ʃuːrba/	شُورْبة	N	N					شرب	soup
+S0067	ܫܛܪܐ	/ʃtˤra/	/satˤr/	سَطْر	N	N					سطر	deed, document
+S0068	ܫܠܵܡܵܐ	/ʃlama/	/salaːm/	سَلام	N	N					سلم	hello
+S0069	ܫܠܵܡܵܐ	/ʃlama/	/salaːm/	سَلام	N	N					سلم	peace
+S0070	ܫܠܳܡܳܐ	/ʃlɑmɑ/	/salaːm/	سَلام	N	N					سلم	hello
+S0071	ܫܠܳܡܳܐ	/ʃlɑmɑ/	/salaːm/	سَلام	N	N					سلم	peace
+S0072	ܬܵܡܘܿܙ	/tamoz/	/tamuːz/	تَمُوز	N	N	DATE	DATE				July
+S0073	ܬܹܐܢܵܐ	/tena/	/tiːn/	تِين	N	N	PLNT	PLNT				fig
+S0074	ܬܶܫܪܺܝܢ	/taʃrin/	/taʃriːn/	تَشْرِين	N	N	DATE	DATE				June
