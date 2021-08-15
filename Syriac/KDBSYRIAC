@@ -39,17 +39,26 @@
 #		VJ: Verb jussive
 #		VM: Verb imperative
 #		VP: Verb perfective
-#	AMDomain/ARDomain: Syriac/Arabic entry usage domain
+#	SRSubclass/ARSubclass: Syriac/Arabic entry grammatical subclass
+#		CON: Conjunction
+#		PRP: Preposition
+#		SNG: Singular
+#		PLR: Plural
+#		ACC: Accusative case
+#		NOM: Nominative case
+#		DAT: Dative case
+#		GEN: Genetive case
+#		IND: Indicative mood
+#		SUB: Subjunctive mood
+#	AMDomain/ARDomain: Syriac/Arabic entry semantic domain
 #		ANAT: Anatomy
 #		ANIM: Animate
-#		CONJ: Conjunction
 #		DMST: Domestic
 #		DATE: Date
 #		LANG: Language specific
 #		NAME: Entity name
 #		NUMB: Number
 #		PLNT: Plant
-#		PREP: Preposition
 #		RLGN: Religion
 #	Category: Arabic entry usage category
 #		ARC: Syriac archaic entry
