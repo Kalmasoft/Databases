@@ -27,6 +27,7 @@
 #	SRIPA: Reading for Syriac (International Phonetic Alphabet)
 #	Class:  grammatical class
 #		A: Adjective
+#		C: Conjunction
 #		D: Adverb
 #		I: Infinitive
 #		G: Gerund
@@ -43,7 +44,6 @@
 #	Domain: usage domain
 #		ANAT: Anatomy
 #		ANIM: Animate
-#		CONJ: Conjunction
 #		DMST: Domestic
 #		DATE: Date
 #		LANG: Language specific
@@ -68,10 +68,10 @@ L0009	ሰማያዊ	/sɛmaːjawi/	/samaːwiː/	سَمَاوِي	أزْرَق	/ʔa
 L0010					ذَهَبِي	/ðahabiː/	/dahva/	ܕܲܗܒ݂ܵܐ	N		golden
 L0011					وَرْدِي	/wardiː/	/wardanaja/	ܘܲܪܕܵܢܵܝܵܐ	N		pink
 L0012	ንጹሕ	/naːsˤiʕ/	/naːsˤiʕ/	نَاصِع	حَوْر	/ħawr/	/ħawɑra/	ܚܶܘܳܪܐ	N		white
-L0013	መስኮት	/mɛsɨkot/	/miʃkaːa/	مِشْكَاة	قَنْدِيلَة	/qandiːla/					candela
+L0013	መስኮት	/mɛsɨkot/	/miʃkaː/	مِشْكَاة	قَنْدِيلَة	/qandiːla/					candela
 L0014	መረቅ	/mɛrɛkʼ/	/maraq/	مَرَق	شُورْبة	/ʃuːrba/	/ʃwrva/	ܫܘܼܪܒ݂ܵܐ	N		soupe
 L0015					سَخَم	/saχam/	/ʃɑħmɑ/	ܫܳܚܡܳܐ	N		brown
-L0016	ውስጥ	/wɨsɨtˤ/	/wasatˤ/	وَسَط	جُوَّة	/dʒuːuːa/	/gaw/	ܓܵܘ	N		inner
+L0016	ውስጥ	/wɨsɨtˤ/	/wasatˤ/	وَسَط	جُوَّة	/dʒuːwa/	/gaw/	ܓܵܘ	N		inner
 L0017	ፎጣ	/fotˤa/	/fuːtˤa/	فُوطَة	مَخْمَل	/maχmal/	/maħmɑlɑ/	ܡܰܚܡܳܠܳܐ	N		towel
 L0018	ምሽት	/mɨʃɨt/	/masaːʔ/	مَسَاء	لَيْلَة	/lajla/	/lajle/	ܠܲܝܠܹܐ	N		night
 L0019					يَوْم	/jawm/	/jawma/	ܝܵܘܡܵܐ	N	DATE	day
@@ -80,4 +80,4 @@ L0021	አመት	/ʔɛmɛt/	/ʕaːm/	عَام	سَنَة	/sana/	/ʃɪne/	ܫܶ̈ܢ
 L0022	ግብፅ	/gɨbɨtsˤ/	/qibtˤ/	قِبْط	مِصْر	/misˤr/	/masˤrjn/	ܡܶܨܪܝܢ	N	NAME	Egypt
 L0023	ወረቀት	/wɛrɛkʼɛt/	/waraqa/	وَرَقة	سَطْر	/satˤr/	/ʃtˤra/	ܫܛܪܐ	N		document
 L0024	ሰብ	/sɛb/	/ʃaʕb/	شَعْب	أُمَّة	/ʔaumma/	/ʔwmta/	ܐܘܡܬܐ	N		nation
-
+L0025	ሐብሐብ	/hɛbɨhɛb/	/ħabħab/	حَبْحَب	بَطِّيخ	/batˤtˤiːχ/			N	PLNT	watermelon
