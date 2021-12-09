@@ -6,7 +6,7 @@
 # Availability: https://github.com/Kalmasoft/Databases/blob/main/Syriac/KDBAMSYR
 # Terminology: www.kalmasoft.com/adevtool.htm
 # Created: 8/12/2021 11:30 AM
-# Updated: 8/13/2021 8:50 PM
+# Updated: 12/9/2021 3:02 PM
 # Encoding: UTF8
 # Delimiter: TAB
 # Total entries: 100+ entries
@@ -69,7 +69,7 @@ L0010					ذَهَبِي	/ðahabiː/	/dahva/	ܕܲܗܒ݂ܵܐ	N		golden
 L0011					وَرْدِي	/wardiː/	/wardanaja/	ܘܲܪܕܵܢܵܝܵܐ	N		pink
 L0012	ንጹሕ	/naːsˤiʕ/	/naːsˤiʕ/	نَاصِع	حَوْر	/ħawr/	/ħawɑra/	ܚܶܘܳܪܐ	N		white
 L0013	መስኮት	/mɛsɨkot/	/miʃkaː/	مِشْكَاة	قَنْدِيلَة	/qandiːla/					candela
-L0014	መረቅ	/mɛrɛkʼ/	/maraq/	مَرَق	شُورْبة	/ʃuːrba/	/ʃwrva/	ܫܘܼܪܒ݂ܵܐ	N		soupe
+L0014	መረቅ	/mɛrɛkʼ/	/maraq/	مَرَق	شُورْبة	/ʃuːrba/	/ʃwrva/	ܫܘܼܪܒ݂ܵܐ	N		soup
 L0015					سَخَم	/saχam/	/ʃɑħmɑ/	ܫܳܚܡܳܐ	N		brown
 L0016	ውስጥ	/wɨsɨtˤ/	/wasatˤ/	وَسَط	جُوَّة	/dʒuːwa/	/gaw/	ܓܵܘ	N		inner
 L0017	ፎጣ	/fotˤa/	/fuːtˤa/	فُوطَة	مَخْمَل	/maχmal/	/maħmɑlɑ/	ܡܰܚܡܳܠܳܐ	N		towel
