@@ -1,23 +1,23 @@
-# Kalmasoft Databases
+﻿# Kalmasoft Databases
 # Database of Arabic Loan Words from Amharic and Syriac
 # References: www.kalmasoft.com/KLEX/dbamsyr.htm
-# Resources: Assyrian Wordlists
-# Related works: www.kalmasoft.com/KLEX/dbamara.htm
+# Resources: www.kaikki.org, Classical Syriac machine-readable dictionary, 2021.
+# Related works: www.kalmasoft.com/KLEX/dbamara.htm, www.kalmasoft.com/KLEX/dbsyriac.htm
 # Availability: https://github.com/Kalmasoft/Databases/blob/main/Syriac/KDBAMSYR
 # Terminology: www.kalmasoft.com/adevtool.htm
 # Created: 8/12/2021 11:30 AM
-# Updated: 12/9/2021 3:02 PM
+# Updated: 2/1/2022 10:02 AM
 # Encoding: UTF8
 # Delimiter: TAB
-# Total entries: 100+ entries
-# Copyright ©1999-2021 Kalmasoft www.kalmasoft.com
+# Total entries: 5000+ entries
+# Copyright ©1999-2022 Kalmasoft www.kalmasoft.com
 # Contact: info@kalmasoft.com
 # ================================================================================================
 # Licensed under Creative Commons Attribution-ShareAlike 4.0 International license.
 # This is a work in progress, not completed, any citations for academic purposes should include the date when the file was downloaded.
 # ================================================================================================
 # Attributes:
-#	ID: 4 digits identification number, [L####]
+#	ID: 5 digits identification number, [L#####]
 #	Amharic: Amharic word
 #	Syriac: Syriac word
 #	AMArabic: Amharic loan word
@@ -56,28 +56,29 @@
 # ================================================================================================
 
 ID	Amharic	AMIPA	ARIPA	AMArabic	SYArabic	ARIPA	SRIPA	Syriac	Class	Domain	Gloss
-L0001	ነፍስ	/nɛfɨs/	/nafs/	نَفْس	نَسْمَة	/nasma/	/nʃamta/	ܢܫܲܡܬܵܐ	N		soul
-L0002	ባሕር	/bahɨr/	/baħr/	بَحْر	يَم	/jam/	/jama/	ܝܲܡܵܐ	N		sea
-L0003	ገነት	/gɛnɛt/	/dʒanna/	جَنَّة	بُسْتَان	/bustaːn/	/bɪstana/	ܒܸܣܬܵܢܵܐ	N		garden
-L0004	ጥርስ	/tˤɨrɨs/	/dˤirs/	ضِرْس	سِن	/sin/	/ʃɪna/	ܫܸܢܵܐ	N		tooth
-L0005	ሰው	/sawiː/	/sawiː/	سَوِي	نَاس	/naːs/	/naʃa/	ܐ݇ܢܵܫܵܐ	N		human
-L0006					غَرَض	/ɣaradˤ/	/ɣaraz/	ܓ݂ܵܪܵܙ	N		purpose
-L0007					أرْجُوانِي	/ʔardʒwaːniː/	/ʔrgawana/	ܐܪܓܵܘܵܢܵܐ	N		purple
-L0008	ቅጠል	/kʼɨtˤɛl/	/ʔaχdˤar/	أخْضَر	جُون	/dʒuːn/	/gawna/	ܓܵܘܢܵܐ	N		green
-L0009	ሰማያዊ	/sɛmaːjawi/	/samaːwiː/	سَمَاوِي	أزْرَق	/ʔazraq/	/zarqa/	ܙܰܪܩܐ	N		blue
-L0010					ذَهَبِي	/ðahabiː/	/dahva/	ܕܲܗܒ݂ܵܐ	N		golden
-L0011					وَرْدِي	/wardiː/	/wardanaja/	ܘܲܪܕܵܢܵܝܵܐ	N		pink
-L0012	ንጹሕ	/naːsˤiʕ/	/naːsˤiʕ/	نَاصِع	حَوْر	/ħawr/	/ħawɑra/	ܚܶܘܳܪܐ	N		white
-L0013	መስኮት	/mɛsɨkot/	/miʃkaː/	مِشْكَاة	قَنْدِيلَة	/qandiːla/					candela
-L0014	መረቅ	/mɛrɛkʼ/	/maraq/	مَرَق	شُورْبة	/ʃuːrba/	/ʃwrva/	ܫܘܼܪܒ݂ܵܐ	N		soup
-L0015					سَخَم	/saχam/	/ʃɑħmɑ/	ܫܳܚܡܳܐ	N		brown
-L0016	ውስጥ	/wɨsɨtˤ/	/wasatˤ/	وَسَط	جُوَّة	/dʒuːwa/	/gaw/	ܓܵܘ	N		inner
-L0017	ፎጣ	/fotˤa/	/fuːtˤa/	فُوطَة	مَخْمَل	/maχmal/	/maħmɑlɑ/	ܡܰܚܡܳܠܳܐ	N		towel
-L0018	ምሽት	/mɨʃɨt/	/masaːʔ/	مَسَاء	لَيْلَة	/lajla/	/lajle/	ܠܲܝܠܹܐ	N		night
-L0019					يَوْم	/jawm/	/jawma/	ܝܵܘܡܵܐ	N	DATE	day
-L0020					شَهْر	/ʃahr/	/jarħa/	ܝܲܪܚܵܐ	N	DATE	month
-L0021	አመት	/ʔɛmɛt/	/ʕaːm/	عَام	سَنَة	/sana/	/ʃɪne/	ܫܶ̈ܢܶܐ	N	DATE	year
-L0022	ግብፅ	/gɨbɨtsˤ/	/qibtˤ/	قِبْط	مِصْر	/misˤr/	/masˤrjn/	ܡܶܨܪܝܢ	N	NAME	Egypt
-L0023	ወረቀት	/wɛrɛkʼɛt/	/waraqa/	وَرَقة	سَطْر	/satˤr/	/ʃtˤra/	ܫܛܪܐ	N		document
-L0024	ሰብ	/sɛb/	/ʃaʕb/	شَعْب	أُمَّة	/ʔaumma/	/ʔwmta/	ܐܘܡܬܐ	N		nation
-L0025	ሐብሐብ	/hɛbɨhɛb/	/ħabħab/	حَبْحَب	بَطِّيخ	/batˤtˤiːχ/			N	PLNT	watermelon
+L00001	ነፍስ	/nɛfɨs/	/nafs/	نَفْس	نَسْمَة	/nasma/	/nʃamta/	ܢܫܲܡܬܵܐ	N		soul
+L00002	ባሕር	/bahɨr/	/baħr/	بَحْر	يَم	/jam/	/jama/	ܝܲܡܵܐ	N		sea
+L00003	ገነት	/gɛnɛt/	/dʒanna/	جَنَّة	بُسْتَان	/bustaːn/	/bɪstana/	ܒܸܣܬܵܢܵܐ	N		garden
+L00004	ጥርስ	/tˤɨrɨs/	/dˤirs/	ضِرْس	سِن	/sin/	/ʃɪna/	ܫܸܢܵܐ	N		tooth
+L00005	ሰው	/sawiː/	/sawiː/	سَوِي	نَاس	/naːs/	/naʃa/	ܐ݇ܢܵܫܵܐ	N	ANIM	human
+L00006	ቅጠል	/kʼɨtˤɛl/	/ʔaχdˤar/	أخْضَر	جُون	/dʒuːn/	/gawna/	ܓܵܘܢܵܐ	N		green
+L00007	ሰማያዊ	/sɛmaːjawi/	/samaːwiː/	سَمَاوِي	أزْرَق	/ʔazraq/	/zarqa/	ܙܰܪܩܐ	N		blue
+L00008	ንጹሕ	/naːsˤiʕ/	/naːsˤiʕ/	نَاصِع	حَوْر	/ħawr/	/ħawɑra/	ܚܶܘܳܪܐ	N		white
+L00009	መረቅ	/mɛrɛkʼ/	/maraq/	مَرَق	شُورْبة	/ʃuːrba/	/ʃwrva/	ܫܘܼܪܒ݂ܵܐ	N		soup
+L00010	ብናማ	/bɨnamaː/	/bunniː/	بُنِّي	سَخَم	/saχam/	/ʃɑħmɑ/	ܫܳܚܡܳܐ	N		brown
+L00011	ውስጥ	/wɨsɨtˤ/	/wasatˤ/	وَسَط	جُوَّة	/dʒuːwa/	/gaw/	ܓܵܘ	N		inner
+L00012	ፎጣ	/fotˤa/	/fuːtˤa/	فُوطَة	مَخْمَل	/maχmal/	/maħmɑlɑ/	ܡܰܚܡܳܠܳܐ	N	DMST	towel
+L00013	ምሽት	/mɨʃɨt/	/masaːʔ/	مَسَاء	لَيْلَة	/lajla/	/lajle/	ܠܲܝܠܹܐ	N		night
+L00014	አመት	/ʔɛmɛt/	/ʕaːm/	عَام	سَنَة	/sana/	/ʃɪne/	ܫܶ̈ܢܶܐ	N	DATE	year
+L00015	ግብፅ	/gɨbɨtsˤ/	/qibtˤ/	قِبْط	مِصْر	/misˤr/	/masˤrjn/	ܡܶܨܪܝܢ	N	NAME	Egypt
+L00016	ወረቀት	/wɛrɛkʼɛt/	/waraqa/	وَرَقة	سَطْر	/satˤr/	/ʃtˤra/	ܫܛܪܐ	N		document
+L00017	ሰብ	/sɛb/	/ʃaʕb/	شَعْب	أُمَّة	/ʔaumma/	/ʔumta/	ܐܘܡܬܐ	N		nation
+L00018	ሐዲድ	/hɛdid/	/ħadiːd/	حَدِيد	فُولاذ	/fuːlaːð/	/folɑd/	ܦܽܘܠܳܕ	N		steel
+L00019	ማሕፀን	/maːhɨtsˤɛn/	/maħsan/	مَحْسَن	رِحْم	/rɪħm/	/rɪħm/	ܪܚܡ	N	ANAT	womb
+L00020	ይለፍ	/jɨlɛf/	/iːlaːf/	إيلَاف	عُبُور	/ʕubuːr/	/ʕbura/	ܥܒܘܪܐ	N		passage
+L00021	ሰካራም	/sɛkaraːm/	/sakraːn/	سَكْرَان	رَوِي	/rawiː/	/ruja/	ܪܘܝܐ	A		intoxicated
+L00022	ሆድ	/hod/	/ħawdˤ/	حَوْض	مَعِي	/maʕiː/	/mʕja/	ܡܥܝܐ	N	ANAT	abdomen
+L00023	ያዘ	/jazɛ/	/ħaːza/	حَازَ	أخَذَ	/ʔχaða/	/ʔħd/	ܐܚܕ	V		take
+L00024	በረዶ	/bɛrɛdo/	/barad/	بَرَد	جَلِيد	/dʒaliːd/	/galiːda/	ܓܠܝܕܐ	N		ice
+L00025	ወንበር	/wɛnɨbɛr/	/minbar/	مِنْبَر	كُرْسِيّ	/kursiː/	/kursija/	ܟܘܪܣܝܐ	N	DMST	chair
+L00026	ብርቱካን	/bɨrɨtukan/	/burtuqaːl/	بُرْتُقال	نَارِينْج	/naːriːndʒ/	/narɪndʒ/	ܢܵܪܸܢܓ̰	N	PLNT	orange
