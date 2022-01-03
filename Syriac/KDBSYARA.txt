@@ -3,7 +3,7 @@
 # References: www.kalmasoft.com/KLEX/dbsyara.htm
 # Resources: Assyrian Wordlists
 # Related works: www.kalmasoft.com/KLEX/dbamara.htm
-# Availability: https://github.com/Kalmasoft/Databases/blob/main/Syriac/KDBSYARA
+# Availability: https://github.com/Kalmasoft/Databases/blob/main/Syriac
 # Terminology: www.kalmasoft.com/adevtool.htm
 # Created: 3/29/2021 11:30 AM
 # Updated: 3/1/2022 11:16 AM
