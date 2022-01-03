@@ -3,7 +3,7 @@
 # References: www.kalmasoft.com/KLEX/dbamsyar.htm
 # Resources: www.kaikki.org, Classical Syriac machine-readable dictionary, 2021.
 # Related works: www.kalmasoft.com/KLEX/dbamara.htm, www.kalmasoft.com/KLEX/dbsyara.htm, www.kalmasoft.com/KLEX/dbamsyr.htm
-# Availability: https://github.com/Kalmasoft/Databases/blob/main/Syriac/KDBAMSYAR
+# Availability: https://github.com/Kalmasoft/Databases/blob/main/AMSYR
 # Terminology: www.kalmasoft.com/adevtool.htm
 # Created: 8/12/2021 11:30 AM
 # Updated: 3/1/2022 10:02 AM
