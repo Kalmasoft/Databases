@@ -1,0 +1,60 @@
+﻿# Kalmasoft Databases
+# Database of Amharic and Syriac common words
+# References: www.kalmasoft.com/KLEX/dbamsyr.htm
+# Resources: Lexical Data Repository of the Ge'ez Frontier Foundation https://github.com/geezorg/data/tree/master/amharic; HornMorpho is part of the L3 Project http://www.cs.indiana.edu/~gasser/Research/projects.html; Carl W. Isenberg, Grammar of the Amharic Language, www.kaikki.org, Classical Syriac machine-readable dictionary, 2021.
+# Related works: www.kalmasoft.com/KLEX/dbamara.htm, www.kalmasoft.com/KLEX/dbsyara.htm, www.kalmasoft.com/KLEX/dbamsyar.htm
+# Availability: https://github.com/Kalmasoft/Databases/blob/main/AMSYR
+# Terminology: www.kalmasoft.com/adevtool.htm
+# Created: 2/1/2022 11:30 AM
+# Updated: 5/1/2022 10:02 AM
+# Encoding: UTF8
+# Delimiter: TAB
+# Total entries: 500+ entries
+# Copyright ©1999-2022 Kalmasoft www.kalmasoft.com
+# Contact: info@kalmasoft.com
+# ================================================================================================
+# Licensed under Creative Commons Attribution-ShareAlike 4.0 International license.
+# This is a work in progress, not completed, any citations for academic purposes should include the date when the file was downloaded.
+# ================================================================================================
+# Attributes:
+#	ID: 3 digits identification number, [AS###]
+#	Amharic: Amharic word
+#	Syriac: Syriac word
+#	AMIPA: Reading for Amharic (International Phonetic Alphabet)
+#	SRIPA: Reading for Syriac (International Phonetic Alphabet)
+#	Class:  grammatical class
+#		A: Adjective
+#		C: Conjunction
+#		D: Adverb
+#		I: Infinitive
+#		G: Gerund
+#		M: Masdar (Arabic infinitive)
+#		N: Noun
+#		NT: Arabic Temporal noun
+#		NL: Arabic Locative noun
+#		R: Particle
+#		P: Participle
+#		VI: Verb imperfective
+#		VJ: Verb jussive
+#		VM: Verb imperative
+#		VP: Verb perfective
+#	Domain: usage domain
+#		ANAT: Anatomy
+#		ANIM: Animate
+#		DMST: Domestic
+#		DATE: Date
+#		LANG: Language specific
+#		NAME: Entity name
+#		NUMB: Number
+#		PLNT: Plant
+#		PREP: Preposition
+#		RLGN: Religion
+#	Gloss: English common meaning
+# ================================================================================================
+
+ID	Amharic	AMIPA	Gloss	SRIPA	Syriac	Class	Domain
+AS001	ባሕር	/bahɨr/	sea	/baħrɑ(ʔ)/	ܒܚܪܐ	N	
+AS002	ጀንዲ	/dʒɛnɨd/	leather	/ɡɛldɑ(ʔ)/	ܓܠܕܐ	N	
+AS003	ገነት	/gɛnɛt/	garden	/ɡann(ə)θɑ/	ܓܢܬܐ	N	
+AS004	ህልም	/hɨlɨm/	dream	/ħɛlmɑ(ʔ)/	ܚܠܡܐ	N	
+AS005	ትርጁማን	/tɨrɨdʒumaːn/	translator	/tarɡmana/	ܬܪܓܡܢܐ	N	
