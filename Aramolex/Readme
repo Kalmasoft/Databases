@@ -1,0 +1,84 @@
+# Kalmasoft Databases
+# Database of Arabic Morphology
+# Reference: http://www.kalmasoft.com/KLEX/aramolex.htm
+# Specs: http://www.kalmasoft.com/pdfs/Aramolex_Specifications.pdf
+# Created: 8/4/2019
+# Updated: 2/2/2022
+# Encoding: Windows 1256
+# Delimiter: TAB
+# Arabic variety: MSA
+# Total entries: +150M surface tokens, estimated
+# Copyright 1999-2019 Kalmasoft www.kalmasoft.com
+# Contact: info@kalmasoft.com
+# ================================================
+# Attributes:
+#	Serial: [K######]
+#	ID: [####]
+#	SubId: [#####]
+#	Class: major grammatical category
+#	Entry: Arabic vocalized form
+#	KATS: KATS transliterated version of "Entry" please refer to www.kalmasoft.com/devtool.htm# kats.htm
+#	Lemma: Arabic lemma
+#	POS: detailed part of speech
+# 
+# Class:
+#	V: Verb
+#	N: Noun
+#	A: Adjective
+#	D: Adverb
+#	P: Particle
+# POS:
+#	Tenses:
+#		PRF: Perfective "past"
+#		IMF: Imperfective "present"
+#		FUT: Future
+#	Voice:
+#		ACT: Active
+#		PAS: Passive
+#	Mood:
+#		IND: Indicative
+#		SUB: Subjunctive
+#		JUS: Jussive
+#		ENG: Emphatic
+#		LON: Intensive
+#		IMP: Imperative
+#	Case:
+#		NOM: Nominative
+#		ACC: Accusative
+#		GEN: Genitive
+#	Nominal/verbal inflections:
+#		MAS: verbal noun (equivalent to infinitive)
+#		APP: Active Participle
+#		PPP: Passive Participle
+#		ADJ: Adjective
+#		PAT: Place&Time
+#		SUP: Superlative
+#		TON: Utility/instrument Noun
+#		DPR: Demonstrative pronoun
+#		RPR: Relative pronoun
+#	Adverbs:
+#		LOC: Locative adverb
+#		TMP: Temporal adverb
+#		ADV: Other function adverb
+#	Particles:
+#		PRP: Preposition
+#		CND: Conditional
+#		CON: Conjunction
+#		EXC: Exclusion
+#		EMS: Emphasis
+#		SIM: Simile
+#		INT: Interrogative
+#		NEG: Negation
+#		PAR: Other function particle
+# ================================================
+# Notes:
+# (1) ID is the root identification number, this changes only for every new set of inflections, it also helps to distinguish between similar spelling forms with different roots.
+# (2) SubId is the inflection counter, this number is restarted with every new inflection/conjugation paradigm of specific root, this number may change when updating that particular paradigm.
+# (3) KATS transliteration is present for the ease of coding purposes.
+# (4) Some particles may have up to three different classifications for the same morphology, the most common POS is used.
+# (5) Particles and adverbs in this sample are in accusative case, few are in nominative case.
+# (6) Particles have no SubId since their amount is limited.
+# (7) Only the conjunction paticles are added to the sample conjugated verbs for simplicity, other proclitics are available if expansion is needed.
+# (8) Delivered data may be in other encoding e.g. UTF8 or layout format according to client's preference.
+# (9) This sample is not a thorough listing for the selected nouns, verbs and particles.
+
