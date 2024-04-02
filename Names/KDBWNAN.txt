@@ -1,0 +1,556 @@
+﻿# Kalmasoft Databases
+# Database of World Names (KDBWNAN)
+# References: www.kalmasoft.com/KLEX/dbnames.htm
+# Availability: Contact Kalmasoft
+# Created: 30/6/2019
+# Updated: 31/10/2022
+# Encoding: UTF8
+# Delimiter: TAB
+# Total unique names: 2,500,000+
+# Total with Arabic variants: contact Kalmasoft
+# Writing scripts covered: 40+
+# Languages covered: 50+
+# Countries covered: 200+
+# Copyright ©1999-2021 Kalmasoft www.kalmasoft.com
+# Contact: info@kalmasoft.com
+# ================================================
+# Attributes:
+#	ID: 8 digits identification number, [N########]
+#	Name: Name string in native script
+#	Gender: Name gender
+#		F: female
+#		M: male
+#		U: unisex
+#	Type: Name type
+#		C: common
+#		G: given name
+#		P: patronym
+#		S: surname
+#	Country: ISO 3166-2 two-letter country code, please refer to www.kalmasoft.com/code.htm#country
+#	Origin: Name cultural origin.
+#		ABS: Abyssinian
+#		AFR: African
+#		ARB: Arabic
+#		ASN: Asian
+#		BBL: Biblical
+#		BNT: Bantu
+#		HEB: Hebrew
+#		HLN: Helinic
+#		HND: Hindi
+#		HSP: Hispanic
+#		NAT: Native
+#		SLV: Slavonic
+#		WST: Western
+#	Ethnicity: Name holder potential ethnic group, please refer to www.kalmasoft.com/code.htm#ethnic
+#	Religion: Name holder potential religion.
+#		BUDH: Buddhism
+#		CRST: Christian
+#		ISLM: Islam
+#		HIND: Hinduism
+#		JUDA: Judaism
+#		SHNT: Shinto
+#		SHAM: Shamanism
+#		SIKH: Sikhism
+#		TRAD: Traditional
+#		NORG: No religion
+#	Popularity: frequency in the designated country.
+#	Language: ISO639-3 three-letter language code.
+#	Script: ISO15924 four-letter script code, please refer to www.kalmasoft.com/code.htm#lang
+#	Roman: Name in Latin alphabet.
+#	Arabic: Arabic transcription of the name in Arabic (MSA).
+#	Standard: Romanization standard.
+#	Hepburn: Hepburn romanization
+#	KRATS: KRATS standard Arabicization variety code; please refer to www.kalmasoft.com/krats.htm
+#		A: Modern Standard Arabic
+#		G: Gulf Arabic
+#		E: Egyptian Arabic
+#		H: Hassaniya Arabic
+#		L: Levantine Arabic
+#		M: Maghrebi Arabic
+#		S: Sudanese Arabic
+#	Complex: Script complex representation.
+#	IPA:: International Phonetic Alphabet.
+# ================================================
+# Notes:
+# (1) Country marker designates locale where the name is common or frequent.
+# (2) Unisex marker assigns the gender within the designated locale.
+# (3) Arabic diacritics can be added on request.
+# (4) On expansion, the 'Roman' field can be any other selected language.
+# ================================================
+ID	﻿Name	Gender	Type	Country	Origin	Ethnicity	Religion	Popularity	Language	Script	Roman	Arabic	Standard	KRATS	Complex	IPA
+N00000001	پانگه	F	G	AF			ISLM		urd	Arab	Panga	بانغة		A		/pɑnga/
+N00000002	پتاسه	F	G	AF			ISLM		urd	Arab	Patasa	بتاسة		A		/ptɑsa/
+N00000003	پرخه	F	G	AF			ISLM		urd	Arab	Parkha	برخة		A		/parxa/
+N00000004	پېروزه	F	G	AF			ISLM		urd	Arab	Piruza	بيروزة		A		/peruza/
+N00000005	تنکۍ	F	G	AF			ISLM		urd	Arab	Tanki	تنكي		A		/tankəi/
+N00000006	توتکۍ	F	G	AF			ISLM		urd	Arab	Tutki	توتكي		A		/tutkəi/
+N00000007	تورپيکۍ	F	G	AF			ISLM		urd	Arab	Turpiki	توربيكي		A		/turpykəi/
+N00000008	ځلبله	F	G	AF			ISLM		urd	Arab	Zalbla	زلبلة		A		/dzalbla/
+N00000009	ځواک	M	G	AF			ISLM		urd	Arab	Zuak	زيواك		A		/dzuɑk/
+N00000010	ځولۍ	F	G	AF			ISLM		urd	Arab	Zuli	زولي		A		/dzuləi/
+N00000011	ځيرک	M	G	AF			ISLM		urd	Arab	Zyrak	زيراك		A		/dzyrak/
+N00000012	ځيږ	M	G	AF			ISLM		urd	Arab	Zyg	زيغ		A		/dzyg/
+N00000013	ځيگر	M	G	AF			ISLM		urd	Arab	Zygar	زيغر		A		/dzygar/
+N00000014	څانگه	F	G	AF			ISLM		urd	Arab	Zanga	زانغة		A		/tsɑnga/
+N00000015	خاورين	M	G	AF			ISLM		urd	Arab	Khawryn	خاورين		A		/xɑwrin/
+N00000016	خپلواک	M	G	AF			ISLM		urd	Arab	Khapluak	خبلواك		A		/xaplwɑk/
+N00000017	خزانه	F	G	AF	ARB		ISLM		urd	Arab	Khazana	خزانة		A		/xazɑna/
+N00000018	خوځښت	M	G	AF			ISLM		urd	Arab	Khuzshet	خوزشيت		A		/xudzʂt/
+N00000019	خيال	M	G	AF			ISLM		urd	Arab	Khayal	خيال		A		/xajɑl/
+N00000020	خيبر	M	G	AF			ISLM		urd	Arab	Khaybar	خيبر		A		/xajbar/
+N00000021	Արծնի	F	G	AM		Armen	CRST		hye	Armn	Artsni	أرتسني		A		/ɑrtsni/
+N00000022	Արծուիկ	F	G	AM		Armen	CRST		hye	Armn	Artsuik	أرتسويك		A		/ɑrtsɔik/
+N00000023	Արման	F	G	AM		Armen	CRST		hye	Armn	Arman	أرمان		A		/ɑrmɑn/
+N00000024	Արմենուհի	F	G	AM		Armen	CRST		hye	Armn	Armenuhi	أرمينوهي		A		/ɑrmɛnɔhi/
+N00000025	Արմենուշ	F	G	AM		Armen	CRST		hye	Armn	Armenush	أرمينوش		A		/ɑrmɛnɔʃ/
+N00000026	Արմիկ	F	G	AM		Armen	CRST		hye	Armn	Armik	أرميك		A		/ɑrmik/
+N00000027	Արմինէ	F	G	AM		Armen	CRST		hye	Armn	Armine	أرميني		A		/ɑrmine/
+N00000028	Արշալոյս	F	G	AM		Armen	CRST		hye	Armn	Arshalus	أرشالويس		A		/ɑrʃɑlɔjs/
+N00000029	Արշակուհի	F	G	AM		Armen	CRST		hye	Armn	Arshakuhi	أرشاكوهي		A		/ɑrʃɑkɔhi/
+N00000030	Արուսեակ	F	G	AM		Armen	CRST		hye	Armn	Arusyak	أروسياك		A		/ɑrɔsjɑk/
+N00000031	Արսինէ	F	G	AM		Armen	CRST		hye	Armn	Arsine	أرسيني		A		/ɑrsine/
+N00000032	Արտա	F	G	AM		Armen	CRST		hye	Armn	Arta	أرتا		A		/ɑrtɑ/
+N00000033	Արտեմիս	F	G	AM		Armen	CRST		hye	Armn	Artemis	أرتيميس		A		/ɑrtɛmis/
+N00000034	Արփա	F	G	AM		Armen	CRST		hye	Armn	Arpa	أربا		A		/ɑrpɑ/
+N00000035	Արփենիկ	F	G	AM		Armen	CRST		hye	Armn	Arpenik	أربينيك		A		/ɑrpɛnik/
+N00000036	Արփի	F	G	AM		Armen	CRST		hye	Armn	Arpi	أربي		A		/ɑrpi/
+N00000037	Արփիկ	F	G	AM		Armen	CRST		hye	Armn	Arpik	أربيك		A		/ɑrpik/
+N00000038	Արփինէ	F	G	AM		Armen	CRST		hye	Armn	Arpine	أربيني		A		/ɑrpine/
+N00000039	Թորոս	M	G	AM		Armen	CRST		hye	Armn	Toros	توروس		A		/tʰɔrɔs/
+N00000040	Թուխայր	M	G	AM		Armen	CRST		hye	Armn	Tukhayr	توخاير		A		/tʰɔxɑjr/
+N00000041	Թուխիկ	M	G	AM		Armen	CRST		hye	Armn	Tukhik	توخيك		A		/tʰɔxik/
+N00000042	Ժիրայր	M	G	AM		Armen	CRST		hye	Armn	Jirayr	يراير		A		/dʒirɑjr/
+N00000043	Իմաստուն	M	G	AM		Armen	CRST		hye	Armn	Imastun	يماستون		A		/imɑstɔn/
+N00000044	Իշխան	M	G	AM		Armen	CRST		hye	Armn	Ishkhan	يشخان		A		/iʃxɑn/
+N00000045	Իսահակ	M	G	AM	HEB	Armen	CRST		hye	Armn	Isahak	يساهاك		A		/isɑhɑk/
+N00000046	Լամբրոն	M	G	AM		Armen	CRST		hye	Armn	Lambron	لامبرون		A		/lɑmbrɔn/
+N00000047	Լեռնիկ	M	G	AM		Armen	CRST		hye	Armn	Lernik	ليرنيك		A		/lɛɾnik/
+N00000048	Լեւոն	M	G	AM		Armen	CRST		hye	Armn	Levon	ليفون		A		/lɛvɔn/
+N00000049	Լիպարիտ	M	G	AM		Armen	CRST		hye	Armn	Liparit	ليباريت		A		/lipɑrit/
+N00000050	Լոյս	M	G	AM		Armen	CRST		hye	Armn	Lus	لويس		A		/lɔjs/
+N00000051	Լոռիս	M	G	AM		Armen	CRST		hye	Armn	Loris	لوريس		A		/lɔɾis/
+N00000052	Խադ	M	G	AM		Armen	CRST		hye	Armn	Khad	خاد		A		/xɑd/
+N00000053	Խաժակ	M	G	AM		Armen	CRST		hye	Armn	Khajak	خاياك		A		/xɑdʒɑk/
+N00000054	Խաչատուր	M	G	AM		Armen	CRST		hye	Armn	Khachatur	خاتشاتور		A		/xɑtʃɑtɔr/
+N00000055	Խաչերես	M	G	AM		Armen	CRST		hye	Armn	Khacheres	خاتشيريس		A		/xɑtʃɛrɛs/
+N00000056	Խաչիկ	M	G	AM		Armen	CRST		hye	Armn	Khachik	خاتشيك		A		/xɑtʃik/
+N00000057	Խոյանք	M	G	AM		Armen	CRST		hye	Armn	Khuank	خويانك		A		/xɔjɑnkʰ/
+N00000058	Խոսրով	M	G	AM		Armen	CRST		hye	Armn	Khosrov	خوسروف		A		/xɔsrɔv/
+N00000059	Chvašťák	M	S	CZ	SLV	Czech			ces	Latn		خفاشتاك		A		
+N00000060	Ešef	M	G	CZ	SLV	Czech	CRST		ces	Latn		إيشيف		A		
+N00000061	Ešík	M	S	CZ	SLV	Czech	CRST		ces	Latn		إيشيك		A		
+N00000062	Eška	M	S	CZ	SLV	Czech	CRST		ces	Latn		إيشكا		A		
+N00000063	Ešše	M	S	CZ	SLV	Czech	CRST		ces	Latn		إيشي		A		
+N00000064	Eštu	M	S	CZ	SLV	Czech	CRST		ces	Latn		إيشتو		A		
+N00000065	Yurik	M	C	CZ	SLV	Czech	CRST		ces	Latn		يوريك		A		
+N00000066	Yurin	M	S	CZ	SLV	Czech	CRST		ces	Latn		يورين		A		
+N00000067	Yuriv	M	S	CZ	SLV	Czech	CRST		ces	Latn		يوريف		A		
+N00000068	Yuriy	M	G	CZ	SLV		CRST		ces	Latn		يوري		A		
+N00000069	Yurka	M	S	CZ	SLV	Czech	CRST		ces	Latn		يوركا		A		
+N00000070	Werner	M	G	DE		German	CRST		deu	Latn		فيرنر		A		
+N00000071	Wes	M	G	DE		German	CRST		deu	Latn		فيس		A		
+N00000072	Wesley	M	G	DE			CRST		deu	Latn		فيسلي		A		
+N00000073	Wilbur	M	G	DE			CRST		deu	Latn		فيلبور		A		
+N00000074	Wilda	F	G	DE		German	CRST		deu	Latn		فيلدا		A		
+N00000075	Wilhelmina	F	G	DE		German	CRST		deu	Latn		فيليمينا		A		
+N00000076	Willard	M	G	DE		German	CRST		deu	Latn		فيلارد		A		
+N00000077	Willis	M	G	DE			CRST		deu	Latn		فيليس		A		
+N00000078	Wilma	F	G	DE		German	CRST		deu	Latn		فيلما		A		
+N00000079	Wilmer	M	G	DE		German	CRST		deu	Latn		فيلمر		A		
+N00000080	Wilmet	F	G	DE		German	CRST		deu	Latn		فيلميت		A		
+N00000081	Wilson	M	G	DE			CRST		deu	Latn		فيلسون		A		
+N00000082	ሃና	F	G	ET	HEB		CRST		amh	Ethi	Hana	هانا		A		/haːna/
+N00000083	ሃያት	F	G	ET	ARB		ISLM		amh	Ethi	Hayat	حياة		A		/haːjat/
+N00000084	ሂሩት	F	G	ET	HEB		CRST		amh	Ethi	Hirut	هيروت		A		/hirut/
+N00000085	ሂሪቲ	F	G	ET	BBL		CRST		amh	Ethi	Hiriti	هيريتي		A		/hiriti/
+N00000086	ሄለና	F	G	ET	HEB		CRST		amh	Ethi	Helena	هيلانا		A		/helɛna/
+N00000087	ሄለን	F	G	ET	HEB		CRST		amh	Ethi	Helen	هيلان		A		/helɛn/
+N00000088	ሰኒያ	F	G	ET	ABS		CRST		amh	Ethi	Senia	سانيا		A		/sɛnija/
+N00000089	ሰናይት	F	G	ET	ABS		CRST		amh	Ethi	Senayt	سانايت		A		/sɛnajɨt/
+N00000090	ሰዊተ	F	G	ET	ABS		CRST		amh	Ethi	Sewite	ساويتا		A		/sɛwitɛ/
+N00000091	ሰዊት	F	G	ET	ABS		CRST		amh	Ethi	Sewit	ساويت		A		/sɛwit/
+N00000092	በለጠ	M	G	ET	ABS		CRST		amh	Ethi	Belete	بالاطا		A		/bɛlɛtˤɛ/
+N00000093	በላቸው	M	G	ET	ABS		CRST		amh	Ethi	Belachew	بالاتشو		A		/bɛlaːtʃɛw/
+N00000094	በላይ	M	G	ET	ABS		CRST		amh	Ethi	Belay	بالاي		A		/bɛlaːj/
+N00000095	በላይነህ	M	G	ET	ABS		CRST		amh	Ethi	Belayneh	بالاينا		A		/bɛlaːjɨnɛh/
+N00000096	በሱፈቃድ	M	G	ET	ABS		CRST		amh	Ethi	Bessufekad	بسوفاكاد		A		/bɛsufɛkʼad/
+N00000097	በረከት	M	G	ET	HEB		CRST		amh	Ethi	Bereket	باراكات		A		/bɛrɛkɛt/
+N00000098	በርሄ	M	G	ET	ABS		CRST		amh	Ethi	Berhe	بارهي		A		/bɛrɨhe/
+N00000099	በእምነት	M	G	ET	ABS		CRST		amh	Ethi	Bemnet	بامنات		A		/bɛʔɨmɨnɛt/
+N00000100	በየነ	M	G	ET	ABS		CRST		amh	Ethi	Beyene	بايانا		A		/bɛjanɛ/
+N00000101	ቢኒያም	M	G	ET	HEB		CRST		amh	Ethi	Biniam	بينيام		A		/binijam/
+N00000102	ቤተአብ	M	G	ET	ABS		CRST		amh	Ethi	Beteab	بيتاب		A		/betɛʔɛb/
+N00000103	ብስራት	M	G	ET	HEB		CRST		amh	Ethi	Bisrat	بسرات		A		/bɨsɨraːt/
+N00000104	ብሩክ	M	G	ET	ABS		CRST		amh	Ethi	Biruk	بيروك		A		/bɨruk/
+N00000105	ብራሃኑ	M	G	ET	ABS		CRST		amh	Ethi	Birhanu	بيرهانو		A		/bɨraːhaːnu/
+N00000106	ቸርነት	M	G	ET	ABS		CRST		amh	Ethi	Chernet	تشارنات		A		/tʃɛrɨnɛt/
+N00000107	አለሚቱ	F	G	ET	ABS		CRST		amh	Ethi	Alemitu	ألاميتو		A		/ɛlɛmitu/
+N00000108	አለም	F	G	ET	ABS		CRST		amh	Ethi	Alem	ألام		A		/ɛlɛm/
+N00000109	አለምነሽ	F	G	ET	ABS		CRST		amh	Ethi	Alemnesh	ألامنيش		A		/ɛlɛmɨnɛʃ/
+N00000110	አለምፀሃይ	F	G	ET	ABS		CRST		amh	Ethi	Alemtsehay	ألامتسيهاي		A		/ɛlɛmɨtsˤɛhaːj/
+N00000111	አልማዝ	F	G	ET	ABS		CRST		amh	Ethi	Almaz	ألماز		A		/ɛlɨmaːz/
+N00000112	አልጋነሽ	F	G	ET	ABS		CRST		amh	Ethi	Alganesh	ألغانيش		A		/ɛlɨganɛʃ/
+N00000113	አመለወርቅ	F	G	ET	ABS		CRST		amh	Ethi	Amelewerk	أمالورك		A		/ɛmɛlɛwɛrɨkʼ/
+N00000114	አማረች	F	G	ET	ABS		CRST		amh	Ethi	Amarech	أماراتش		A		/ɛmaːrɛtʃ/
+N00000115	አምሳለ	F	G	ET	ABS		CRST		amh	Ethi	Amsale	أمسال		A		/ɛmɨsalɛ/
+N00000116	አምሳለወርቅ	F	G	ET	ABS		CRST		amh	Ethi	Amsalewerk	أمسالورك		A		/ɛmɨsalɛwɛrɨkʼ/
+N00000117	አምሳሉ	F	G	ET	ABS		CRST		amh	Ethi	Amsalu	أمسالو		A		/ɛmɨsalu/
+N00000118	አርሴማ	F	G	ET	ABS		CRST		amh	Ethi	Arsema	أرسيما		A		/ɛrɨsemaː/
+N00000119	አበራሽ	F	G	ET	ABS		CRST		amh	Ethi	Aberash	أباراش		A		/ɛbɛraːʃ/
+N00000120	አበበች	F	G	ET	ABS		CRST		amh	Ethi	Abebech	أباباتش		A		/ɛbɛbɛtʃ/
+N00000121	አበባ	F	G	ET	ABS		CRST		amh	Ethi	Abeba	أبابا		A		/ɛbɛba/
+N00000122	አበባወርቅ	F	G	ET	ABS		CRST		amh	Ethi	Abebawerk	أباباورك		A		/ɛbɛbawɛrɨkʼ/
+N00000123	አበባዬ	F	G	ET	ABS		CRST		amh	Ethi	Abebay	أباباي		A		/ɛbɛbaje/
+N00000124	አበዙ	F	G	ET	ABS		CRST		amh	Ethi	Abezu	أبازو		A		/ɛbɛzu/
+N00000125	አቢዮት	F	G	ET	ABS		CRST		amh	Ethi	Abiot	أبيوت		A		/ɛbijot/
+N00000126	አባይነሽ	F	G	ET	ABS		CRST		amh	Ethi	Abaynesh	أبايناش		A		/ɛbajɨnɛʃ/
+N00000127	አብነት	F	G	ET	ABS		CRST		amh	Ethi	Abnet	أبنات		A		/ɛbɨnɛt/
+N00000128	አክሊል	F	G	ET	ABS		CRST		amh	Ethi	Aklil	أكليل		A		/ɛkɨlil/
+N00000129	አክሱም	F	G	ET	ABS		CRST		amh	Ethi	Aksum	أكسوم		A		/ɛkɨsum/
+N00000130	አዛለች	F	G	ET	ABS		CRST		amh	Ethi	Azalech	أزالاتش		A		/ɛzalɛtʃ/
+N00000131	አዜብ	F	G	ET	ABS		CRST		amh	Ethi	Azeb	أزاب		A		/ɛzeb/
+N00000132	አየለች	F	G	ET	ABS		CRST		amh	Ethi	Ayelech	أيالاتش		A		/ɛjalɛtʃ/
+N00000133	አያና	F	G	ET	ABS		CRST		amh	Ethi	Ayana	أيانا		A		/ɛjana/
+N00000134	አይናለም	F	G	ET	ABS		CRST		amh	Ethi	Aynalem	أينالام		A		/ɛjɨnalɛm/
+N00000135	አይዳ	F	G	ET	ABS		CRST		amh	Ethi	Ayda	أيدا		A		/ɛjɨda/
+N00000136	አደይ	F	G	ET	ABS		CRST		amh	Ethi	Adey	أداي		A		/ɛdɛj/
+N00000137	አዲስ	F	G	ET	ABS		CRST		amh	Ethi	Adis	أديس		A		/ɛdis/
+N00000138	አዳነች	F	G	ET	ABS		CRST		amh	Ethi	Adanech	أداناتش		A		/ɛdanɛtʃ/
+N00000139	አጸደ	F	G	ET	ABS		CRST		amh	Ethi	Atsede	أتسادا		A		/ɛsʼɛdɛ/
+N00000140	ካሌብ	M	G	ET	ABS		CRST		amh	Ethi	Kaleb	كاليب		A		/kaleb/
+N00000141	ደመቀ	M	G	ET	ABS		CRST		amh	Ethi	Demeke	دامكا		A		/dɛmɛkʼɛ/
+N00000142	ደምረው	M	G	ET	ABS		CRST		amh	Ethi	Demrew	دامرو		A		/dɛmɨrɛw/
+N00000143	ደበበ	M	G	ET	ABS		CRST		amh	Ethi	Debebe	دبابا		A		/dɛbɛbɛ/
+N00000144	ደጀን	M	G	ET	ABS		CRST		amh	Ethi	Dejen	داجان		A		/dɛdʒɛn/
+N00000145	ዳኛቸው	M	G	ET	ABS		CRST		amh	Ethi	Dagnachew	داغناتشو		A		/daɲatʃɛw/
+N00000146	ዳዊት	M	G	ET	ABS		CRST		amh	Ethi	Dawit	داويت		A		/dawit/
+N00000147	ዳግማዊ	M	G	ET	ABS		CRST		amh	Ethi	Dagmawi	داغماوي		A		/dagɨmaːwi/
+N00000148	ዳግም	M	G	ET	ABS		CRST		amh	Ethi	Dagm	داغم		A		/dagɨm/
+N00000149	ጨቡዴ	M	G	ET	ABS		CRST		amh	Ethi	Chebude	تشابودا		A		/tʃɛbude/
+N00000150	ጫንያለው	M	G	ET	ABS		CRST		amh	Ethi	Chanyalew	تشانيالو		A		/tʃanɨjalɛw/
+N00000151	አስቴር	F	G	ET	HEB		CRST		amh	Ethi	Aster	أستير		A		/ɛsɨter/
+N00000152	አቢጋኤል	F	G	ET	HEB		CRST		amh	Ethi	Abigail	أبيغايل		L		/ɛbigaʔel/
+N00000153	አቢጋኤል	F	G	ET	HEB		CRST		amh	Ethi	Abigail	أبيجيل		E		/ɛbigaʔel/
+N00000154	አቢጋኤል	F	G	ET	HEB		CRST		amh	Ethi	Abigail	أبيغيل		A		/ɛbigaʔel/
+N00000155	ዳኔል	M	G	ET	NAT		CRST		amh	Ethi	Danel	دانيل		A		/danel/
+N00000156	Adèle	F	G	FR					fra	Latn		أديل		A		
+N00000157	Adeline	F	G	FR					fra	Latn		أديلين		A		
+N00000158	Adrien	F	G	FR					fra	Latn		أدريان		A		
+N00000159	Albane	F	G	FR					fra	Latn		ألبان		A		
+N00000160	Albine	F	G	FR					fra	Latn		ألبين		A		
+N00000161	Alena	F	G	FR					fra	Latn		ألينا		A		
+N00000162	Aleth	F	G	FR					fra	Latn		أليت		A		
+N00000163	Alexandra	F	G	FR					fra	Latn		أليكساندرا		A		
+N00000164	Alizé	F	G	FR					fra	Latn		أليزا		A		
+N00000165	Alizée	F	G	FR					fra	Latn		أليزي		A		
+N00000166	Amel	F	G	FR					fra	Latn		أميل		A		
+N00000167	Amelia	F	G	FR					fra	Latn		أميليا		A		
+N00000168	Amelie	F	G	FR					fra	Latn		أميلي		A		
+N00000169	Ameline	F	G	FR					fra	Latn		أميلين		A		
+N00000170	Angeline	F	G	FR					fra	Latn		أنجيلين		A		
+N00000171	Angelique	F	G	FR					fra	Latn		أنجيليك		A		
+N00000172	Bouvet	M	S	FR					fra	Latn		بوفيت		A		
+N00000173	Bouviais	M	S	FR					fra	Latn		بوفيى		A		
+N00000174	Bouvier	M	S	FR					fra	Latn		بوفييه		A		
+N00000175	Brianceau	M	S	FR					fra	Latn		بريانسو		A		
+N00000176	Brianchon	M	S	FR					fra	Latn		بريانشون		A		
+N00000177	Briand	M	S	FR					fra	Latn		برياند		A		
+N00000178	Briard	M	S	FR					fra	Latn		بريار		A		
+N00000179	Briatte	M	S	FR					fra	Latn		بريات		A		
+N00000180	Briault	M	S	FR					fra	Latn		بريولت		A		
+N00000181	Bricard	M	S	FR					fra	Latn		بريكارد		A		
+N00000182	Bricout	M	S	FR					fra	Latn		بريكوت		A		
+N00000183	Catya	F	G	FR					fra	Latn		كاتيا		A		
+N00000184	Cecile	F	G	FR					fra	Latn		سيسيل		A		
+N00000185	Cecilia	F	G	FR					fra	Latn		سيسيليا		A		
+N00000186	Cendra	F	G	FR					fra	Latn		سيندرا		A		
+N00000187	Cendrine	F	G	FR					fra	Latn		سيندرين		A		
+N00000188	Dolorès	F	G	FR					fra	Latn		دولوريس		A		
+N00000189	Dominique	F	G	FR					fra	Latn		دومينيك		A		
+N00000190	Domitille	F	G	FR					fra	Latn		دوميتيل		A		
+N00000191	Donatienne	F	G	FR					fra	Latn		دوناتيان		A		
+N00000192	Estela	F	G	FR					fra	Latn		إيستيلا		A		
+N00000193	Estelle	F	G	FR					fra	Latn		إيستيل		A		
+N00000194	Julienne	F	G	FR					fra	Latn		جوليان		A		
+N00000195	Julietta	F	G	FR					fra	Latn		جولييتا		A		
+N00000196	Juliette	F	G	FR					fra	Latn		جولييت		A		
+N00000197	Marlot	M	S	FR			CRST		fra	Latn		مارلوت		A		
+N00000198	Marmin	M	S	FR			CRST		fra	Latn		مارمين		A		
+N00000199	Marnet	M	S	FR			CRST		fra	Latn		مارنيت		A		
+N00000200	Marrey	M	S	FR			CRST		fra	Latn		ماريي		A		
+N00000201	Marsac	M	S	FR			CRST		fra	Latn		مارساك		A		
+N00000202	Marsal	M	S	FR			CRST		fra	Latn		مارسال		A		
+N00000203	Martel	M	S	FR			CRST		fra	Latn		مارتيل		A		
+N00000204	Marthe	F	G	FR	HEB		CRST		fra	Latn		مارت		A		
+N00000205	Martin	M	C	FR			CRST		fra	Latn		مارتين		A		
+N00000206	Maryna	F	G	FR			CRST		fra	Latn		مارينا		A		
+N00000207	Natal	M	G	FR	HEB				fra	Latn		ناتال		A		
+N00000208	Nathanael	M	G	FR	HEB				fra	Latn		ناتانيل		A		
+N00000209	Nathanaël	M	G	FR	HEB				fra	Latn		ناتانيل		A		
+N00000210	Navaz	M	G	FR					fra	Latn		نافاز		A		
+N00000211	Nestor	M	G	FR					fra	Latn		نيستور		A		
+N00000212	Nico	M	G	FR					fra	Latn		نيكو		A		
+N00000213	Philippe	M	G	FR					fra	Latn		فيليب		A		
+N00000214	Steeve	M	G	FR					fra	Latn		ستيف		A		
+N00000215	Stessy	M	G	FR					fra	Latn		ستيسي		A		
+N00000216	Stevann	M	G	FR					fra	Latn		ستيفان		A		
+N00000217	აბაშიძე	M	S	GE		Georg	CRST		kat	Geor	Abashidze	أباشيدزي		A		/äbäʃidze̞/
+N00000218	აბელინა	F	G	GE		Georg	CRST		kat	Geor	Abelina	أبيلينا		A		/äbe̞linä/
+N00000219	აბენიკო	M	G	GE		Georg			kat	Geor	Abeniko	أبينيكو		A		/äbe̞nikʼo̞/
+N00000220	აბესალა	M	G	GE		Georg			kat	Geor	Abesala	أبيسالا		A		/äbe̞sälä/
+N00000221	აბულაძე	M	S	GE		Georg	CRST		kat	Geor	Abuladze	أبولادزي		A		/äbulädze̞/
+N00000222	ალიევა	M	S	GE		Georg	CRST		kat	Geor	Alieva	أليفا		A		/älie̞vä/
+N00000223	ალიევი	M	S	GE		Georg	CRST		kat	Geor	Alievi	أليفي		A		/älie̞vi/
+N00000224	ბერიძე	M	S	GE		Georg	CRST		kat	Geor	Beridze	بيريدزي		A		/be̞ridze̞/
+N00000225	ბოლქვაძე	M	S	GE		Georg	CRST		kat	Geor	Bolkhvadze	بولخفادزي		A		/bo̞lkʰvädze̞/
+N00000226	გელაშვილი	M	S	GE		Georg	CRST		kat	Geor	Gelashvili	غيلاشفيلي		A		/ge̞läʃvili/
+N00000227	გიორგაძე	M	S	GE		Georg	CRST		kat	Geor	Giorgadze	غيورغادزي		A		/gio̞rgädze̞/
+N00000228	გოგოლაძე	M	S	GE		Georg	CRST		kat	Geor	Gogoladze	غوغولادزي		A		/go̞go̞lädze̞/
+N00000229	დიასამიძე	M	S	GE		Georg	CRST		kat	Geor	Diasamidze	دياساميدزي		A		/diäsämidze̞/
+N00000230	დოლიძე	M	S	GE		Georg	CRST		kat	Geor	Dolidze	دوليدزي		A		/do̞lidze̞/
+N00000231	კაპანაძე	M	S	GE		Georg	CRST		kat	Geor	Kapanadze	كابانادزي		A		/kʼäpʼänädze̞/
+N00000232	კვარაცხელია	M	S	GE		Georg	CRST		kat	Geor	Kvaratskhelia	كفاراتسخيليا		A		/kʼvärätsʰxe̞liä/
+N00000233	ლომიძე	M	S	GE		Georg	CRST		kat	Geor	Lomidze	لوميدزي		A		/lo̞midze̞/
+N00000234	მაისურაძე	M	S	GE		Georg	CRST		kat	Geor	Maisuradze	مايسورادزي		A		/mäjsurädze̞/
+N00000235	მამედოვა	M	S	GE		Georg	CRST		kat	Geor	Mamedova	ماميدوفا		A		/mäme̞do̞vä/
+N00000236	მამედოვი	M	S	GE		Georg	CRST		kat	Geor	Mamedovi	ماميدوفي		A		/mäme̞do̞vi/
+N00000237	მაჭარაშვილი	M	S	GE		Georg	CRST		kat	Geor	Macharashvili	ماتشاراشفيلي		A		/mätʃʼäräʃvili/
+N00000238	მახარაძე	M	S	GE		Georg	CRST		kat	Geor	Makharadze	ماخارادزي		A		/mäxärädze̞/
+N00000239	მიქელაძე	M	S	GE		Georg	CRST		kat	Geor	Mikheladze	ميخيلادزي		A		/mikʰe̞lädze̞/
+N00000240	მჭედლიშვილი	M	S	GE		Georg	CRST		kat	Geor	Mchedlishvili	متشيدليشفيلي		A		/mtʃʼe̞dliʃvili/
+N00000241	ნოზაძე	M	S	GE		Georg	CRST		kat	Geor	Nozadze	نوزادزي		A		/no̞zädze̞/
+N00000242	ტაბატაძე	M	S	GE		Georg	CRST		kat	Geor	Tabatadze	تاباتادزي		A		/tʼäbätʼädze̞/
+N00000243	ფუტკარაძე	M	S	GE		Georg	CRST		kat	Geor	Phutkaradze	بوتكارادزي		A		/pʰutʼkʼärädze̞/
+N00000244	ქათამაძე	M	S	GE		Georg	CRST		kat	Geor	Khathamadze	خاتامادزي		A		/kʰätʰämädze̞/
+N00000245	შენგელია	M	S	GE		Georg	CRST		kat	Geor	Shengelia	شينغيليا		A		/ʃe̞nge̞liä/
+N00000246	ცერცვაძე	M	S	GE		Georg	CRST		kat	Geor	Tsertsvadze	تسيرتسفادزي		A		/tsʰe̞rtsʰvädze̞/
+N00000247	წიკლაური	M	S	GE		Georg	CRST		kat	Geor	Tsiklauri	تسيكلاوري		A		/tsʼikʼläuri/
+N00000248	ხუციშვილი	M	S	GE		Georg	CRST		kat	Geor	Khutsishvili	خوتسيشفيلي		A		/xutsʰiʃvili/
+N00000249	Aoibheann	F	G	IE	NAT	Irish	CRST		gle	Latn		إيفين		A		
+N00000250	Beckett	U	G	IE	NAT	Irish	CRST		gle	Latn		بِيكِيت		A		
+N00000251	Beglan	F	G	IE	NAT	Irish	CRST		gle	Latn		بِيغلون		A		
+N00000252	Begley	M		IE	NAT	Irish	CRST		gle	Latn		بِيغلِي		A		
+N00000253	आकँड़ा	M	G	IN	HND				hin	Deva	Akdaa	أكاندا		A		/aːkɖa/
+N00000254	आकालपति	M	G	IN	HND				hin	Deva	Akalpti	أكالبتي		A		/aːkalpt̪i/
+N00000255	आक्चीन्द्रा	M	G	IN	HND				hin	Deva	Akcheendra	أكتشيندرا		A		/aːktʃiːnd̪ra/
+N00000256	आठराव	M	G	IN	HND				hin	Deva	Athrav	أتهراف		A		/aːʈʰraʋ/
+N00000257	आतिश	M	G	IN	HND				hin	Deva	Atish	أتيش		A		/aːt̪iʃ/
+N00000258	आत्मज	M	G	IN	HND				hin	Deva	Atmja	أتمج		A		/aːt̪mdʒ/
+N00000259	आत्मान	M	G	IN	HND				hin	Deva	Atman	أتمان		A		/aːt̪man/
+N00000260	आदम	M	G	IN	HND				hin	Deva	Adm	أدم		A		/aːd̪m/
+N00000261	आदर्श	M	G	IN	HND				hin	Deva	Adrsh	أدرش		A		/aːd̪arʃ/
+N00000262	आदीप	M	G	IN	HND				hin	Deva	Adeep	أديب		A		/aːd̪iːp/
+N00000263	आदेल	M	G	IN	HND				hin	Deva	Adel	أديل		A		/aːd̪el/
+N00000264	आदेश	M	G	IN	HND				hin	Deva	Adesh	أديش		A		/aːd̪eʃ/
+N00000265	आदेश्वर	M	G	IN	HND				hin	Deva	Adeshvr	أديشفر		A		/aːd̪eʃʋr/
+N00000266	आधारष	M	G	IN	HND				hin	Deva	Adharsh	أدهارش		A		/aːd̪ʱarʃ/
+N00000267	आधार्व	M	G	IN	HND				hin	Deva	Adharv	أدهارف		A		/aːd̪ʱarʋ/
+N00000268	आधी	M	G	IN	HND				hin	Deva	Adhee	أدهي		A		/aːd̪ʱiː/
+N00000269	आबज़योनि	M	G	IN	HND				hin	Deva	Abzhyoni	أبزيوني		A		/aːbdʒjoni/
+N00000270	आबजीत	M	G	IN	HND				hin	Deva	Abjaeet	أبجيت		A		/aːbdʒiːt̪/
+N00000271	आबरिक	M	G	IN	HND				hin	Deva	Abrik	أبريك		A		/aːbrik/
+N00000272	आबिश	M	G	IN	HND				hin	Deva	Abish	أبيش		A		/aːbiʃ/
+N00000273	आबिषेक	M	G	IN	HND				hin	Deva	Abishek	أبيشيك		A		/aːbiʃek/
+N00000274	आभजीत	M	G	IN	HND				hin	Deva	Abhjaeet	أبهجيت		A		/aːbʱdʒiːt̪/
+N00000275	आभास	M	G	IN	HND				hin	Deva	Abhas	أبهاس		A		/aːbʱas/
+N00000276	आयुध	M	G	IN	HND				hin	Deva	Ayudh	أيوده		A		/aːjud̪ʱ/
+N00000277	आयुष	M	G	IN	HND				hin	Deva	Ayush	أيوش		A		/aːjuʃ/
+N00000278	आयुष्मान	M	G	IN	HND				hin	Deva	Ayushman	أيوشمان		A		/aːjuʃman/
+N00000279	आयुस	M	G	IN	HND				hin	Deva	Ayus	أيوس		A		/aːjus/
+N00000280	आसवी	M	G	IN	HND				hin	Deva	Asvee	أسفي		A		/aːsʋiː/
+N00000281	जुगनू	M	G	IN	HND				hin	Deva	Jaugnu	جوقنو		A		/dʒugnu/
+N00000282	जुगल	M	G	IN	HND				hin	Deva	Jaugl	جوقل		A		/dʒugl/
+N00000283	जुझार	M	G	IN	HND				hin	Deva	Jaujhar	جوجهار		A		/dʒudʒʱar/
+N00000284	जुबिन	M	G	IN	HND				hin	Deva	Jaubin	جوبين		A		/dʒubin/
+N00000285	जुवास	M	G	IN	HND				hin	Deva	Jauvas	جوفاس		A		/dʒuʋas/
+N00000286	जुसाल	M	G	IN	HND				hin	Deva	Jausal	جوسال		A		/dʒusal/
+N00000287	जुहित	M	G	IN	HND				hin	Deva	Jauhit	جوهيت		A		/dʒuɦit̪/
+N00000288	जुहीत	M	G	IN	HND				hin	Deva	Jauheet	جوهيت		A		/dʒuɦiːt̪/
+N00000289	जूषक	M	G	IN	HND				hin	Deva	Jaushk	جوشك		A		/dʒuʃk/
+N00000290	जूष्ट	M	G	IN	HND				hin	Deva	Jausht	جوشت		A		/dʒuʃʈ/
+N00000291	ارتگين	M	G	IR		Persa	ISLM		fas	Arab	Artgyn	أرتغين		A		/artagin/
+N00000292	ارتگين	M	G	IR		Persa	ISLM		fas	Arab	Artgyn	أرتجين		E		/artagin/
+N00000293	ارتمن	M	G	IR		Persa	ISLM		fas	Arab	Artman	أرتمن		A		/artman/
+N00000294	ارتنگ	M	G	IR		Persa	ISLM		fas	Arab	Artang	أرتنغ		A		/artang/
+N00000295	ارتيان	M	G	IR		Persa	ISLM		fas	Arab	Artyan	أرتيان		A		/artijan/
+N00000296	ارجاسب	M	G	IR		Persa	ISLM		fas	Arab	Arjasb	أرجاسب		A		/ardʒasb/
+N00000297	ارجاسپ	M	G	IR		Persa	ISLM		fas	Arab	Arjasp	أرجاسب		A		/ardʒasp/
+N00000298	اسپانتا	F	G	IR		Persa	ISLM		fas	Arab	Aspanta	أسبانتا		A		/aspanta/
+N00000299	اسپندياد	M	G	IR		Persa	ISLM		fas	Arab	Aspendyad	أسبندياد		A		/aspndijad/
+N00000300	اسپنديار	M	G	IR		Persa	ISLM		fas	Arab	Aspendyar	أسبنديار		A		/aspndijar/
+N00000301	اسپنوي	F	G	IR		Persa	ISLM		fas	Arab	Aspinwi	أسبنوي		A		/aspnui/
+N00000302	اسپيتامن	M	G	IR		Persa	ISLM		fas	Arab	Aspytaman	أسبيتامن		A		/aspitamn/
+N00000303	استاتيرا	F	G	IR		Persa	ISLM		fas	Arab	Astatyra	أستاتيرا		A		/astatira/
+N00000304	اشک	F	G	IR	ARB	Persa	ISLM		fas	Arab	Ashik	عاشق		A		/aʃik/
+N00000305	اشکان	M	G	IR		Persa	ISLM		fas	Arab	Ashkan	أشغان		A		/aʃkan/
+N00000306	اشکان	M	G	IR		Persa	ISLM		fas	Arab	Ashkan	أشجان		E		/aʃkan/
+N00000307	اعظم	F	G	IR	ARB	Persa	ISLM		fas	Arab	Azam	أعظم		A		/aʕðˤim/
+N00000308	اعلا	M	G	IR	ARB	Persa	ISLM		fas	Arab	Ala	أعلا		A		/aʕla/
+N00000309	اغريرث	M	G	IR		Persa	ISLM		fas	Arab	Aghryris	أغريرث		A		/aɣririθ/
+N00000310	افتخارالدين	M	G	IR	ARB	Persa	ISLM		fas	Arab	Eftikharadin	إفتخارالدين		A		/aftχaraldin/
+N00000311	افرا	F	G	IR		Persa	ISLM		fas	Arab	Afara	أفرا		A		/afra/
+N00000312	افراسياب	M	G	IR		Persa	ISLM		fas	Arab	Afarasyab	أفراسياب		A		/afrasijab/
+N00000313	افرود	M	G	IR		Persa	ISLM		fas	Arab	Afrud	أفرود		A		/afrud/
+N00000314	افروز	F	G	IR		Persa	ISLM		fas	Arab	Afruz	أفروز		A		/afruz/
+N00000315	افروغ	F	G	IR		Persa	ISLM		fas	Arab	Afarugh	أفروغ		A		/afruɣ/
+N00000316	افريدون	M	G	IR		Persa	ISLM		fas	Arab	Afarydun	أفريدون		A		/afridun/
+N00000317	افرينا	F	G	IR		Persa	ISLM		fas	Arab	Afrynah	أفرينا		A		/afrina/
+N00000318	افسانه	F	G	IR		Persa	ISLM		fas	Arab	Afsana	أفسانه		A		/afsanah/
+N00000319	افسر	F	G	IR		Persa	ISLM		fas	Arab	Afsar	أفسر		A		/afsar/
+N00000320	افسرخاتون	F	G	IR		Persa	ISLM		fas	Arab	Afsarkhatun	أفسرخاتون		A		/afsarχatun/
+N00000321	افسردخت	F	G	IR		Persa	ISLM		fas	Arab	Afsardukht	أفسردخت		A		/afsarduχt/
+N00000322	こざくら	F	G	JP	NAT	Japan		40.48	jpn	Hira	Kozakura	كوزاكورا	Hepburn	A	小桜	/kozakuɽa/
+N00000323	供川	M	S	JP	NAT	Japan			jpn	Hani	Tomokawa	توموكاوا	Hepburn	A		
+N00000324	供村	M	S	JP	NAT	Japan			jpn	Hani	Tomomura	تومومورا	Hepburn	A		
+N00000325	供田	M	S	JP	NAT	Japan			jpn	Hani	Tomoda	تومودا	Hepburn	A		
+N00000326	供長	M	S	JP	NAT	Japan			jpn	Hani	Tomonaga	توموناغا	Hepburn	A		
+N00000327	加三	M	S	JP	NAT	Japan			jpn	Hani	Kasan	كاسان	Hepburn	A		
+N00000328	加佐利	M	S	JP	NAT	Japan			jpn	Hani	Kasari	كاساري	Hepburn	A		
+N00000329	加佐原	M	S	JP	NAT	Japan			jpn	Hani	Kasahara	كاساهارا	Hepburn	A		
+N00000330	加佐見	M	S	JP	NAT	Japan			jpn	Hani	Kasami	كاسامي	Hepburn	A		
+N00000331	加坂	M	S	JP	NAT	Japan			jpn	Hani	Kasaka	كاساكا	Hepburn	A		
+N00000332	加差野	M	S	JP	NAT	Japan			jpn	Hani	Kasano	كاسانو	Hepburn	A		
+N00000333	加座	M	S	JP	NAT	Japan			jpn	Hani	Kaza	كازا	Hepburn	A		
+N00000334	加甲	M	S	JP	NAT	Japan			jpn	Hani	Kaku	كاكو	Hepburn	A		
+N00000335	和沙	M	G	JP	NAT	Japan			jpn	Hani	Kazusa	كازوسا	Hepburn	A		
+N00000336	喜乃子	F	G	JP	NAT	Japan			jpn	Hani	Kinuko	كينوكو	Hepburn	A		
+N00000337	大雅	M	G	JP	NAT	Japan			jpn	Hani	Oga	أوغا	Hepburn	A		
+N00000338	恭子	F	G	JP	NAT	Japan			jpn	Hani	Kyoko	كيوكو	Hepburn	A		
+N00000339	数輝	M	G	JP	NAT	Japan			jpn	Hani	Kazuki	كازوكي	Hepburn	A		
+N00000340	浦冨	M	S	JP	NAT	Japan			jpn	Hani	Uratomi	أوراتومي	Hepburn	A		
+N00000341	聡子	F	G	JP	NAT	Japan			jpn	Hani	Satoko	ساتوكو	Hepburn	A		
+N00000342	起き太	M	G	JP	NAT	Japan			jpn	Hani	Okita	أوكيتا	Hepburn	A		
+N00000343	輝美	F	G	JP	NAT	Japan			jpn	Hani	Kimi	كيمي	Hepburn	A		
+N00000344	Cordova	M	S	MX	HSP		CRST		spa	Latn		كوردوبا		A		
+N00000345	Corella	M	S	MX	HSP		CRST		spa	Latn		كورييا		A		
+N00000346	Corichi	M	S	MX	HSP		CRST		spa	Latn		كوريتشي		A		
+N00000347	Cornejo	M	S	MX	HSP		CRST		spa	Latn		كورنيخو		A		
+N00000348	Coronel	M	S	MX	HSP		CRST		spa	Latn		كورونيل		A		
+N00000349	Cortaza	M	S	MX	HSP		CRST		spa	Latn		كورتازا		A		
+N00000350	Cortina	M	S	MX	HSP		CRST		spa	Latn		كورتينا		A		
+N00000351	Corvera	M	S	MX	HSP		CRST		spa	Latn		كوربيرا		A		
+N00000352	Jose	M	C	MX	BBL		CRST		spa	Latn		خوسي		A		
+N00000353	José	M	G	MX	BBL		CRST		spa	Latn		خوسي		A		
+N00000354	Jova	F	G	MX	BBL		CRST		spa	Latn		خوبا		A		
+N00000355	Joya	M	S	MX	BBL		CRST		spa	Latn		خويا		A		
+N00000356	Juan	F	G	MX	BBL		CRST		spa	Latn		خوان		A		
+N00000357	Abániṣélolúwa	M	G	NG	AFR	Yorba	CRST		yor	Latn		أبانيسيلولوا		A		
+N00000358	Abániwọ́ndá	M	G	NG	AFR	Yorba	CRST		yor	Latn		أبانيوندا		A		
+N00000359	Abátàn	M	G	NG	AFR	Yorba	CRST		yor	Latn		أباتان		A		
+N00000360	Abégúndé	M	G	NG	AFR	Yorba	CRST		yor	Latn		أبيجوندي		A		
+N00000361	Abégúnrìn	M	G	NG	AFR	Yorba	CRST		yor	Latn		أبيجونرين		A		
+N00000362	Abéjidé	M	G	NG	AFR	Yorba	CRST		yor	Latn		أبيجيدي		A		
+N00000363	Abéjirìn	M	G	NG	AFR	Yorba	CRST		yor	Latn		أبيجيرين		A		
+N00000364	Abésùjobì	M	G	NG	AFR	Yorba	CRST		yor	Latn		أبيزوجوبي		A		
+N00000365	Abéṣùpínlẹ̀	M	G	NG	AFR	Yorba	CRST		yor	Latn		أبيسوبينلي		A		
+N00000366	Abídákun	M	G	NG	AFR	Yorba	CRST		yor	Latn		أبيداكون		A		
+N00000367	Kádijú	M	G	NG	AFR	Yorba	CRST		yor	Latn		كاديجو		A		
+N00000368	Kádùndé	M	G	NG	AFR	Yorba	CRST		yor	Latn		كادوندي		A		
+N00000369	Kájọpẹ́láyéọlá	M	G	NG	AFR	Yorba	CRST		yor	Latn		كاجوبيلايولا		A		
+N00000370	Kájọwá	M	G	NG	AFR	Yorba	CRST		yor	Latn		كاجوا		A		
+N00000371	Kálènìkànṣe	M	G	NG	AFR	Yorba	CRST		yor	Latn		كالينيكانسي		A		
+N00000372	Kámíyẹ	M	G	NG	AFR	Yorba	CRST		yor	Latn		كاميي		A		
+N00000373	Kányìnọlá	M	G	NG	AFR	Yorba	CRST		yor	Latn		كانينولا		A		
+N00000374	Kányinsọ́lá	M	G	NG	AFR	Yorba	CRST		yor	Latn		كانينسولا		A		
+N00000375	Káríọlá	M	G	NG	AFR	Yorba	CRST		yor	Latn		كاريولا		A		
+N00000376	Káróhunwí	M	G	NG	AFR	Yorba	CRST		yor	Latn		كاروهونوي		A		
+N00000377	Ọbásanjọ́	M	G	NG	AFR	Yorba	CRST		yor	Latn		أوباسانجو		A		
+N00000378	Odùgbèmí	M	G	NG	AFR	Yorba	CRST		yor	Latn		أودوجبيمي		A		
+N00000379	Odùgbẹ̀san	M	G	NG	AFR	Yorba	CRST		yor	Latn		أودوجبيسان		A		
+N00000380	Odùgùwà	M	G	NG	AFR	Yorba	CRST		yor	Latn		أودوجوا		A		
+N00000381	Odùjọbí	M	G	NG	AFR	Yorba	CRST		yor	Latn		أودوجوبي		A		
+N00000382	Odùkálé	M	G	NG	AFR	Yorba	CRST		yor	Latn		أودوكالي		A		
+N00000383	Odùkẹ́yẹ	M	G	NG	AFR	Yorba	CRST		yor	Latn		أودوكيي		A		
+N00000384	Odùkọ̀yà	M	G	NG	AFR	Yorba	CRST		yor	Latn		أودوكويا		A		
+N00000385	Odùlánà	M	G	NG	AFR	Yorba	CRST		yor	Latn		أودولانا		A		
+N00000386	Olúṣẹ́gun	M	G	NG	AFR	Yorba	CRST		yor	Latn		أولوسيجون		A		
+N00000387	Angela	F	G	NN					fra	Latn		أنجيلا		A		
+N00000388	Angelina	F	G	NN					fra	Latn		أنجيلينا		A		
+N00000389	Nathan	M	G	NN	HEB				fra	Latn		ناتان		A		
+N00000390	Nelson	M	G	NN					fra	Latn		نيلسون		A		
+N00000391	Nicolas	M	G	NN					fra	Latn		نيكولاس		A		
+N00000392	Nicolas	M	G	NN					fra	Latn		نيقولاس		E		
+N00000393	Nicolas	M	G	NN					fra	Latn		نيغولاس		L		
+N00000394	Philip	M	G	NN					fra	Latn		فيليب		A		
+N00000395	Philipe	M	G	NN					fra	Latn		فيليب		A		
+N00000396	Stephan	M	G	NN					fra	Latn		ستيفان		A		
+N00000397	Stephane	M	G	NN					fra	Latn		ستيفان		A		
+N00000398	Steve	M	G	NN					fra	Latn		ستيف		A		
+N00000399	Steven	M	G	NN					fra	Latn		ستيفين		A		
+N00000400	اختر	F	G	PK			ISLM		urd	Arab	Akhtar	أختر		A		/aχtar/
+N00000401	ادیبہ	F	G	PK			ISLM		urd	Arab	Adiba	أدیبة		A		/adiːbah/
+N00000402	ارشاد	F	G	PK	ARB		ISLM		urd	Arab	Arshad	أرشاد		A		/arʃad/
+N00000403	ارفعہ	F	G	PK			ISLM		urd	Arab	Arfaa	أرفعة		A		/arfaʕah/
+N00000404	ازاحت	F	G	PK			ISLM		urd	Arab	Azahat	أزاحت		A		/azaħat/
+N00000405	ازاحت النساء	F	G	PK	ARB		ISLM		urd	Arab	Azaht Alnisa	أزاحت النساء		A		/azaħt ʔnisaʔ/
+N00000406	اسوہ	F	G	PK			ISLM		urd	Arab	Aswa	أسوة		A		/aswah/
+N00000407	افرہ	F	G	PK			ISLM		urd	Arab	Afarh	أفرة		A		/afrah/
+N00000408	اقالہ	F	G	PK			ISLM		urd	Arab	Aqalah	إقالة		A		/aqalah/
+N00000409	اقصی	F	G	PK	ARB		ISLM		urd	Arab	Aqsa	أقصی		A		/aqsˤa/
+N00000410	الطاف النساء	F	G	PK	ARB		ISLM		urd	Arab	Altaf Annisa	ألطاف النساء		A		/ʔltˤaːf ʔnisaʔ/
+N00000411	فاطمہ	F	G	PK	ARB		ISLM		urd	Arab	Fatima	فاطمة		A		/faːtˤimah/
+N00000412	کلثوم	F	G	PK	ARB		ISLM		urd	Arab	Kalsum	کلثوم		A		/kalθuːm/
+N00000413	Арвелод	M		RU	SLV	Rusia			rus	Cyrl	Arvelod	أرفيلود		A		/arvelod/
+N00000414	Арвидас	M		RU	SLV	Rusia			rus	Cyrl	Arvidas	أرفيداس		A		/arvidas/
+N00000415	Аргенал	M		RU	SLV	Rusia			rus	Cyrl	Argenal	أرغينال		A		/argenal/
+N00000416	Ардеван	M		RU	SLV	Rusia			rus	Cyrl	Ardevan	أرديفان		A		/ardevan/
+N00000417	Дуболазов	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Dobolazov	دوبولازوف		A		/dʉbolazov/
+N00000418	Дубровский	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Dobrovsky	دوبروفسكي		A		/dʉbrovski/
+N00000419	Дудин	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Dodin	دودين		A		/dʉdin/
+N00000420	Дудко	M	G	RU	SLV	Rusia	CRST		rus	Cyrl	Dodko	دودكو		A		/dʉdko/
+N00000421	Дудник	M	G	RU	SLV	Rusia	CRST		rus	Cyrl	Dodnik	دودنيك		A		/dʉdnik/
+N00000422	Дульцев	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Doltsev	دولتسيف		A		/dʉltsev/
+N00000423	Думановский	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Domanovsky	دومانوفسكي		A		/dʉmanovski/
+N00000424	Дунаевский	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Donaevsky	دونايفسكي		A		/dʉnaevski/
+N00000425	Дураничев	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Doranichev	دورانيشيف		A		/dʉranitɕev/
+N00000426	Дуров	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Dorov	دوروف		A		/dʉrov/
+N00000427	Дурченко	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Dorchenko	دورشينكو		A		/dʉrtɕenko/
+N00000428	Дырбов	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Dyrbov	ديربوف		A		/dɨrbov/
+N00000429	Дыховичный	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Dykhovichnyi	ديخوفشني		A		/dɨxovitɕni/
+N00000430	Дюженков	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Dozhenkov	ديوزينكوف		A		/djʐenkov/
+N00000431	Дятлов	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Diatlov	دياتلوف		A		/dætlov/
+N00000432	Евдокимов	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Evdokimov	إيفدوكيموف		A		/evdokimov/
+N00000433	Егор	M		RU	SLV	Rusia	CRST		rus	Cyrl	Egor	إيغور		A		/egor/
+N00000434	Ежов	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Ezhov	إيزوف		A		/eʐov/
+N00000435	Любов	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Liubov	ليوبوف		A		/lijobov/
+N00000436	Мила	F	G	RU	SLV	Rusia	CRST		rus	Cyrl	Mila	ميلا		A		/mila/
+N00000437	Милада	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Milada	ميلادا		A		/milada/
+N00000438	Миладин	F	G	RU	SLV	Rusia	CRST		rus	Cyrl	Miladin	ميلادين		A		/miladin/
+N00000439	Милаида	F	G	RU	SLV	Rusia	CRST		rus	Cyrl	Milaida	ميلايدا		A		/milajda/
+N00000440	Милан	F	G	RU	SLV	Rusia	CRST		rus	Cyrl	Milan	ميلان		A		/milan/
+N00000441	Милана	F	G	RU	SLV	Rusia	CRST		rus	Cyrl	Milana	ميلانا		A		/milana/
+N00000442	Миланья	F	G	RU	SLV	Rusia	CRST		rus	Cyrl	Milania	ميلانيا		A		/milanjæ/
+N00000443	Милауша	F	G	RU	SLV	Rusia	CRST		rus	Cyrl	Milusha	ميلوشا		A		/milaʉʂa/
+N00000444	Милауша	F	G	RU	SLV	Rusia	CRST		rus	Cyrl	Milusha	ميلاوشا		L		/milaʉʂa/
+N00000445	Милетина	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Miletina	ميليتينا		A		/miletina/
+N00000446	Милослав	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Miloslav	ميلوسلاف		A		/miloslav/
+N00000447	Сервер	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Server	سيرفير		A		/server/
+N00000448	Сергей	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Sergei	سيرغي		A		/sergej/
+N00000449	Сергей	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Sergei	سيرجي		E		/sergej/
+N00000450	Серго	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Sergo	سيرغو		A		/sergo/
+N00000451	Серго	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Sergo	سيرجو		E		/sergo/
+N00000452	Сердар	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Serdar	سيردار		A		/serdar/
+N00000453	Сережа	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Serezha	سيريزا		A		/sereʐa/
+N00000454	Сержик	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Serzhik	سيرزيك		A		/serʐik/
+N00000455	Сероб	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Serob	سيروب		A		/serob/
+N00000456	Серож	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Serozh	سيروز		A		/seroʐ/
+N00000457	Сероп	M	S	RU	SLV	Rusia	CRST		rus	Cyrl	Serop	سيروب		A		/serop/
+N00000458	Сетрак	M	S	RU	BBL	Rusia	CRST		rus	Cyrl	Setrak	سيتراك		A		/setrak/
+N00000459	Ayişe	F	G	TR	ARB	Turks	ISLM		tur	Latn	Ayise	عائشة		A		
+N00000460	Aykaç	M	G	TR	NAT	Turks			tur	Latn	Aykac	أيكاتش		A		
+N00000461	Aykal	M	G	TR	NAT	Turks			tur	Latn	Aykal	أيكال		A		
+N00000462	Aykan	M	G	TR	NAT	Turks			tur	Latn	Aykan	أيكان		A		
+N00000463	Aykaş	F	G	TR	NAT	Turks			tur	Latn	Aykas	أيكاش		A		
+N00000464	Aykatun	F	G	TR	NAT	Turks			tur	Latn	Aykatun	أيكاتون		A		
+N00000465	Aykiz	F	G	TR	NAT	Turks			tur	Latn	Aykiz	أيكيز		A		
+N00000466	Aykul	M	G	TR	NAT	Turks			tur	Latn	Aykul	أيكول		A		
+N00000467	Aykurt	M	G	TR	NAT	Turks			tur	Latn	Aykurt	أيكورت		A		
+N00000468	Fevzullah	M	G	TR	ARB		ISLM		tur	Latn		فوز الله		A		
+N00000469	Igobeko	M	S	TZ	BNT	Masai			eng	Latn		إغوبيكو		A		
+N00000470	Igogo	M	G	TZ	BNT	Masai			eng	Latn		إغوغو		A		
+N00000471	Igoko	M	C	TZ	BNT	Masai			eng	Latn		إغوكو		A		
+N00000472	Igonda	M	S	TZ	BNT	Masai			eng	Latn		إغوندا		A		
+N00000473	Igulu	M	S	TZ	BNT	Masai			eng	Latn		إغولو		A		
+N00000474	Iguna	M	S	TZ	BNT	Masai			eng	Latn		إغونا		A		
+N00000475	Igunda	M	S	TZ	BNT	Masai			eng	Latn		إغوندا		A		
+N00000476	Igunila	M	G	TZ	BNT	Masai			eng	Latn		إغونيلا		A		

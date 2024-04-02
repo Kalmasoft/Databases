@@ -1,0 +1,1494 @@
+# Kalmasoft Databases
+# Database of Muslim Names
+# References: www.kalmasoft.com/KLEX/dbmuslm.htm, www.kalmasoft.com/KLEX/dbvarom.htm
+# Created: 20/4/2019
+# Updated: 22/2/2024
+# Version: 1.0
+# Encoding: UTF8
+# Delimiter: TAB
+# Total entries: 3,000,000+
+# Countries covered: 40
+# Copyright 1999-2023 Kalmasoft www.kalmasoft.com
+# Contact: info@kalmasoft.com
+#================================================
+# Attributes:
+#	ID: Reference number
+#	Roman: Roman transcription
+#	Gender: M: male
+#		F: female
+#		U: unisex
+#	Type: type of name
+#		G: given name
+#		S: surname, last name
+#		P: last name, Geographic Nisba i.e. place related
+#		B: last name, Professional Nisba i.e. business or profession related
+#		C: last name, Tribal Nisba i.e. clan related
+#		K: last name, Kunya i.e. paternal or maternal related
+#		N: last name, Nasab i.e. true or legendary lineage
+#	Origin: Spelling inferred potential ethnic origin
+#		NAR: Native Arabic
+#		QAS: Quasi-Arabic
+#		ASN: Asian
+#		AFR: African
+#		AMZ: Amazigh
+#		PER: Persian
+#		TUR: Turkish
+#	Locale: prevalent spelling geographies, two-Letter name potential country code.
+#		NN: Non-Native name or neutral name,
+#		AE:United Arab Emirates, AF:Afghanistan, BH:Bahrain, DZ:Algeria, EG:Egypt, ID:Indonesia,
+#		IQ:Iraq, IR:Iran, JO:Jordan, KW:Kuwait, LB:Lebanon, LY:Libya, MA:Morocco, ML:Mali, MR:Mauritania
+#		OM:Oman, PA:pakistan, PS:Palestine, QA:Qatar, SA:Saudi Arabia, SD:Sudan, SN:Senegal, SO:Somal,
+#		SY:Syria, TK:Turkey, TJ:Tajikstan, TZ:Tanzania, TN:Tunisia, YE:Yemen, ZA:South Africa
+#	Reference: reference to the original name in native script
+#======================================================
+# A. General notes:
+# (1) This database is compiled from Arabic names prospective since Muslim names are closely related to Arabic names.
+# (2) The vocalized form is the most correct prununciation according to the corresponding region where used.
+# (3) Names in Perso-Arabic script (Afghanistan, Iran, Pakistan, and Tajikstan) have no vocalized version since short vaowels are rarely used in writing.
+# (4) Surnames are detailed further to P, B, C, K, and N, all may be considered surnames.
+# (5) True orthographic variants (mainly space added) were kept to minimum.
+#======================================================
+# B. Notes on Arabic name types:
+# (1) Non-Arabic Nisba component does not affect Arab name (eg. Ait Mehdi) is Arabic.
+# (2) Non-Arabic Nasab component does not affect Arab name (eg. Qasbaji, Fikriyan) are Arabic.
+# (3) Multi-origin names should take the classification of the longest componen (eg. Basmajiyan) has 3 different origin components but is Arabic.
+# (7) Quasi-Arab are those orignialy Arabic mixed with non-Arabic content (eg. Ait Hasan).
+# (8) Old non-Arab biblical names (eg. Ibrahim, Yusif) considered Arabic.
+#=======================Sample==========================
+ID	Roman	Gender	Type	Transcript	Origin	Locale	Reference
+M000001	Afsana	F	G	EN	PER	AF	افسانه
+M000002	Afsheen	M	G	EN	PER	AF	افشين
+M000003	Aghala	F	G	EN	PER	AF	اغله
+M000004	Ahmadallah	M	G	EN	PER	AF	احمدالله
+M000005	Ahtram	M	G	EN	PER	AF	احترام
+M000006	Aimal	M	G	EN	PER	AF	اېمل
+M000007	Ainayat	M	G	EN	PER	AF	عنايت
+M000008	Aismat	M	G	EN	PER	AF	عصمت
+M000009	Aiyamee	M	S	EN	PER	AF	ايامي
+M000010	Aiyub	M	G	EN	PER	AF	ايوب
+M000011	Aizat Allah	M	G	EN	PER	AF	عزت الله
+M000012	Akbar	M	G	EN	PER	AF	اکبر
+M000013	Akhlaqee	M	S	EN	PER	AF	اخلاقي
+M000014	Akhwandzada	M	S	EN	PER	AF	آخوندزاده
+M000015	Akram	M	G	EN	PER	AF	اکرم
+M000016	Alamzeb	M	G	EN	PER	AF	علم زيب
+M000017	Alsibayli	M	S	EN	NAR	EG	السبيلي
+M000018	Alsifaydi	M	S	EN	NAR	EG	الصفيدي
+M000019	Alsihayli	M	S	EN	NAR	EG	السحيلي
+M000020	Alsihayti	M	S	EN	NAR	EG	السحيتي
+M000021	Alsijayai	M	S	EN	NAR	EG	السجيعي
+M000022	Alsijayni	M	S	EN	NAR	EG	السجيني
+M000023	Nurul Ain	F	G	NL	ASN	ID	نور العين
+M000024	Nurul Fatimah	F	G	NL	ASN	ID	نور فاطمة
+M000025	Nurul Gayatri	F	G	NL	ASN	ID	
+M000026	Nurul Hanifah	F	G	NL	ASN	ID	نور حنيفة
+M000027	Nurul Hidayat	M	G	NL	ASN	ID	نور الهداية
+M000028	Nurul Latifah	F	G	NL	ASN	ID	نور اللطيف
+M000029	Nurul Mubarokah	F	G	NL	ASN	ID	نور المبارك
+M000030	Nurul Wahyuni	F	G	NL	ASN	ID	نور الوحي
+M000031	Siti Nurrahmanu	F	G	NL	ASN	ID	ستي نور الرحمن
+M000032	Siti Rohmah Nur Fauziyah	F	G	NL	ASN	ID	ستي رحمة نور فوزية
+M000033	Siti Romlah	F	G	NL	ASN	ID	ستي رملة
+M000034	Siti Soleha	F	G	NL	ASN	ID	ستي زليخة
+M000035	Siti Umayah	F	G	NL	ASN	ID	ستي أمية
+M000036	Siti Zaenab	F	G	NL	ASN	ID	ستي زينب
+M000037	Siti Zaenap	F	G	NL	ASN	ID	ستي زينب
+M000038	Siti Zulaiha	F	G	NL	ASN	ID	ستي زليخة
+M000039	Sitti Julaeha	F	G	NL	ASN	ID	ستي زليخة
+M000040	Aboubacrine	M	G	FR	AFR	ML	أبوبكر
+M000041	Aboubakar	M	G	FR	AFR	ML	أبوبكر
+M000042	Aboubakere	M	G	FR	AFR	ML	أبوبكر
+M000043	Aboubakr	M	G	FR	AFR	ML	أبوباكر
+M000044	Aboubakrine	M	G	FR	AFR	ML	أبوبكر
+M000045	Alhousseïni	M	G	FR	AFR	ML	الحسين
+M000046	Alhousséini	M	G	FR	AFR	ML	الحسين
+M000047	Alhousséïni	M	G	FR	AFR	ML	الحسين
+M000048	Alhousseinou	M	G	FR	AFR	ML	الحسين
+M000049	Alhousseiny	M	G	FR	AFR	ML	الحسين
+M000050	Alhousseïny	M	G	FR	AFR	ML	الحسين
+M000051	Alhousséïny	M	G	FR	AFR	ML	الحسين
+M000052	Alhoussène	M	G	FR	AFR	ML	الحسين
+M000053	Alhousseni	M	G	FR	AFR	ML	الحسين
+M000054	Sharia	M	G	EN	NAR	NN	شارع
+M000055	Sharib	M	G	EN	NAR	NN	شارب
+M000056	Sharid	M	G	EN	NAR	NN	شارد
+M000057	Sharidaa	M	G	NL	NAR	NN	شريدة
+M000058	Sharidah	M	G	EN	NAR	NN	شريدة
+M000059	Sharidym	M	G	EN		NN	شارديم
+M000060	Aabira	F	G	EN	ASN	PK	ذابرہ
+M000061	Aaiqa	F	G	EN	ASN	PK	عائقہ
+M000062	Aameen	M	G	EN	ASN	PK	آمین
+M000063	Aaniba	F	G	EN	ASN	PK	ذانبہ
+M000064	Aapa	F	G	EN	ASN	PK	آپا
+M000065	Aas	M	G	EN	ASN	PK	عاص
+M000066	Aatazaz	M	G	EN	ASN	PK	اعتزاز
+M000067	Abasi	M	G	EN	ASN	PK	عباسی
+M000068	Abbas	M	G	EN	ASN	PK	عباس
+M000069	Abdaal	M	G	EN	ASN	PK	ابدال
+M000070	Abeera	F	G	EN	ASN	PK	عبیرہ
+M000071	Abis	M	G	EN	ASN	PK	عابس
+M000072	Abu Turab	M	G	EN	ASN	PK	بوتراب
+M000073	Adal	M	G	EN	ASN	PK	عدل
+M000074	Adeel	M	G	EN	ASN	PK	عدیل
+M000075	Adeela	F	G	EN	ASN	PK	عدیلہ
+M000076	Adem	M	G	EN	ASN	PK	آدم
+M000077	Adila	F	G	EN	ASN	PK	عادلہ
+M000078	Adnan	M	G	EN	ASN	PK	عدنان
+M000079	Adrish	M	G	EN	ASN	PK	آدرش
+M000080	Aee	M	G	EN	ASN	PK	ذی
+M000081	Afaf	F	G	EN	ASN	PK	عفاف
+M000082	Afana	F	G	EN	ASN	PK	عفانہ
+M000083	Afandi	M	G	EN	ASN	PK	آفندی
+M000084	Afaq	M	G	EN	ASN	PK	آفاق
+M000085	Afera	F	G	EN	ASN	PK	عافرہ
+M000086	Affat	F	G	EN	ASN	PK	عفت
+M000087	Afgan	M	G	EN	ASN	PK	افگن
+M000088	Afiya	F	G	EN	ASN	PK	عافیہ
+M000089	Afrasiab	M	G	EN	ASN	PK	افراسیاب
+M000090	Afreed	M	G	EN	ASN	PK	آفرید
+M000091	Afsar	M	G	EN	ASN	PK	افسر
+M000092	Afshaan	F	G	EN	ASN	PK	افشاں
+M000093	Aftab	M	G	EN	ASN	PK	آفتاب
+M000094	Afzaal	M	G	EN	ASN	PK	افضال
+M000095	Agha	M	G	EN	ASN	PK	آغا
+M000096	Ahsen	M	G	EN	ASN	PK	احسن
+M000097	Ahtisham	M	G	EN	ASN	PK	احتشام
+M000098	Aibak	M	G	EN	ASN	PK	ایبک
+M000099	Aieas	M	G	EN	ASN	PK	عیاث
+M000100	Aiel	M	G	EN	ASN	PK	عائل
+M000101	Aiela	F	G	EN	ASN	PK	عائلہ
+M000102	Ain	M	G	EN	ASN	PK	عین
+M000103	Ajila	F	G	EN	ASN	PK	عاجلہ
+M000104	Aamadu	M	G	FR	AFR	SN	أحمد
+M000105	Baabakar	M	G	FR	AFR	SN	بابكر
+M000106	Muhammet	M	G	FR	AFR	SN	محمد
+M000107	Taalibe	M	G	FR	AFR	SN	طالب
+M000108	Xadiim	M	G	FR	AFR	SN	خادم
+M000109	Ammaan	F	G	EN	AFR	SO	آمان
+M000110	Amuun	F	G	EN	AFR	SO	
+M000111	Ardo	F	G	EN	AFR	SO	
+M000112	Arliyo	F	G	EN	AFR	SO	
+M000113	Armaan	M	G	EN	AFR	SO	عرمان
+M000114	Arraweello	F	G	EN	AFR	SO	
+M000115	Ashkiro	F	G	EN	AFR	SO	
+M000116	Askaro	F	G	EN	AFR	SO	
+M000117	Aways	M	G	EN	AFR	SO	أويس
+M000118	Awraadeen	M	G	EN	AFR	SO	
+M000119	Axado	F	G	EN	AFR	SO	
+M000120	Afareen	F	G	EN	PER	TJ	أفارين
+M000121	Afsoon	F	G	EN	PER	TJ	أفسون
+M000122	Anahita	F	G	EN	PER	TJ	أناهيتا
+M000123	Anoosheh	F	G	EN	PER	TJ	أنوشيه
+M000124	Ara	F	G	EN	PER	TJ	أرا
+M000125	Ardavan	M	G	EN	PER	TJ	أردافان
+M000126	Ardshir	M	G	EN	PER	TJ	أردشير
+M000127	Arezo	F	G	EN	PER	TJ	أريزو
+M000128	Arghavan	F	G	EN	PER	TJ	أرغافان
+M000129	Armaghan	F	G	EN	PER	TJ	أرماغان
+M000130	Abamislim	M	G	EN	TUR	TR	أبامسلم
+M000131	Abamuslim	M	G	EN	TUR	TR	أبامسلم
+M000132	Abamuslum	M	G	EN	TUR	TR	أبامسلم
+M000133	Abbey	M	S	EN	TUR	TR	أبي
+M000134	Abbidin	M	G	EN	TUR	TR	عابدين
+M000135	Abbis	M	G	EN	TUR	TR	عابس
+M000136	Abbos	M	S	EN	TUR	TR	عبوس
+M000137	Abboushi	M	S	EN	TUR	TR	أبوشي
+M000138	Abbubekir	M	G	EN	TUR	TR	أبوبكر
+M000139	Abassy	M	G	EN	AFR	TZ	عباس
+M000140	Abbasi	M	S	EN	AFR	TZ	عباس
+M000141	Abbasy	M	G	EN	AFR	TZ	عباس
+M000142	Abdalah	M	C	EN	AFR	TZ	عبدالله
+M000143	Abdalahamani	M	G	EN	AFR	TZ	عبدالرحمن
+M000144	Abdalalah	M	G	EN	AFR	TZ	عبدالله
+M000145	Abderehemani	M	G	EN	AFR	TZ	عبدالرحمن
+M000146	Abdulrahaman	M	G	EN	AFR	TZ	عبدالرحمن
+M000147	Abdulrahmah	M	G	EN	AFR	TZ	عبدالرحمن
+M000148	Abdulrahman	M	G	EN	AFR	TZ	عبدالرحمن
+M000149	Abdulrahmani	M	G	EN	AFR	TZ	عبدالرحمن
+M000150	Abdulrazack	M	G	EN	AFR	TZ	عبدالرزاق
+M000151	Abdulshakur	M	G	EN	AFR	TZ	عبدالشكور
+M000152	Aabdilahi	M	G	NL	AFR	ZA	عبدالله
+M000153	Aabeda	F	G	NL	AFR	ZA	عابدة
+M000154	Aabidah	F	G	NL	AFR	ZA	عابدة
+M000155	Aadarsh	M	G	NL	AFR	ZA	آدارش
+M000156	Aadhiya	F	G	NL	AFR	ZA	آدهيا
+M000157	Aadhya	F	G	NL	AFR	ZA	آدهيا
+M000158	Aadilah	F	G	NL	AFR	ZA	عادلة
+M000159	Aaeesha	F	G	NL	AFR	ZA	عائشة
+M000160	Aa'eesha	F	G	NL	AFR	ZA	عائشة
+M000161	Aaesha	F	G	NL	AFR	ZA	عائشة
+M000162	Aafia	F	G	NL	AFR	ZA	عافية
+M000163	Aafiah	F	G	NL	AFR	ZA	عافية
+M000164	Aafiya	F	G	NL	AFR	ZA	عافية
+M000165	Aafiyah	F	G	NL	AFR	ZA	عافية
+M000166	Aaisha	F	G	NL	AFR	ZA	عائشة
+M000167	Aa'isha	F	G	NL	AFR	ZA	عائشة
+M000168	Aaishah	F	G	NL	AFR	ZA	عائشة
+M000169	Abas	M	G	EN	NAR	TR	عباس
+M000170	Abdi	M	G	EN	NAR	TR	عبدي
+M000171	Abdulkadir	M	G	EN	TUR	TR	عبد القادر
+M000172	Abdulmuîn	M	G	EN	TUR	TR	عبدالمنعم
+M000173	Abdülhamîd	M	G	EN	TUR	TR	عبد الحميد
+M000174	Abdülmecîd	M	G	EN	TUR	TR	عبد المجيد
+M000175	Abidin	M	G	EN	TUR	TR	عابدين
+M000176	Adalet	F	G	EN	TUR	TR	عدالة
+M000177	Adem	M	G	EN	TUR	TR	آدم
+M000178	Adil	M	G	EN	TUR	TR	عادل
+M000179	Adile	M	F	EN	TUR	TR	عادلة
+M000180	Adnan	M	G	EN	TUR	TR	عدنان
+M000181	Agah	M	G	EN	TUR	TR	
+M000182	Agca	M	G	EN	TUR	TR	
+M000183	Ahmad	M	G	EN	TUR	TR	أحمد
+M000184	Ahmed	M	G	EN	TUR	TR	أحمد
+M000185	Ahmet	M	G	EN	TUR	TR	أحمد
+M000186	Ahsen	M	G	EN	TUR	TR	أحسن
+M000187	Ajda	M	G	EN	TUR	TR	
+M000188	Akalay	M	G	EN	TUR	TR	
+M000189	Akar	M	G	EN	TUR	TR	
+M000190	Akara	M	G	EN	TUR	TR	
+M000191	Akdes	M	G	EN	TUR	TR	
+M000192	Akhun	M	G	EN	TUR	TR	
+M000193	Aksel	M	G	EN	TUR	TR	
+M000194	Aksoy	M	G	EN	TUR	TR	
+M000195	Akçay	M	G	EN	TUR	TR	
+M000196	Alaattin	M	G	EN	TUR	TR	علاء الدين
+M000197	Alara	M	G	EN	TUR	TR	
+M000198	Alaydin	M	G	EN	TUR	TR	علاء الدين
+M000199	Alev	M	G	EN	TUR	TR	علي
+M000200	Alican	M	G	EN	TUR	TR	
+M000201	Alim	M	G	EN	TUR	TR	عليم
+M000202	Aliye	F	G	EN	TUR	TR	علياء
+M000203	Altay	M	G	EN	TUR	TR	
+M000204	Alâeddin	M	G	EN	TUR	TR	علاء الدين
+M000205	Anka	M	G	EN	TUR	TR	
+M000206	Aral	M	G	EN	TUR	TR	
+M000207	Aras	M	G	EN	TUR	TR	
+M000208	Argün	M	G	EN	TUR	TR	
+M000209	Aricanli	M	G	EN	TUR	TR	
+M000210	Arif	M	G	EN	TUR	TR	عارف
+M000211	Arikan	M	G	EN	TUR	TR	
+M000212	Arslan	M	G	EN	TUR	TR	
+M000213	Artaç	M	G	EN	TUR	TR	
+M000214	Arzu	M	G	EN	TUR	TR	
+M000215	Asil	M	G	EN	TUR	TR	
+M000216	Asiye	F	G	EN	TUR	TR	آسيا
+M000217	Aslan	M	G	EN	TUR	TR	أصلان
+M000218	Asuman	M	G	EN	TUR	TR	عثمان
+M000219	Asya	F	G	EN	TUR	TR	أسيا
+M000220	Ata	F	G	EN	TUR	TR	
+M000221	Atagün	M	G	EN	TUR	TR	
+M000222	Atakan	M	G	EN	TUR	TR	
+M000223	Atan	M	G	EN	TUR	TR	
+M000224	Atanur	M	G	EN	TUR	TR	
+M000225	Atay	M	G	EN	TUR	TR	
+M000226	Atek	M	G	EN	TUR	TR	
+M000227	Atila	F	G	EN	TUR	TR	
+M000228	Atilla	F	G	EN	TUR	TR	
+M000229	Avni	M	G	EN	TUR	TR	
+M000230	Aybar	M	G	EN	TUR	TR	
+M000231	Aybars	M	G	EN	TUR	TR	
+M000232	Ayberk	M	G	EN	TUR	TR	
+M000233	Aybüke	M	G	EN	TUR	TR	
+M000234	Aycan	M	G	EN	TUR	TR	
+M000235	Aydan	M	G	EN	TUR	TR	
+M000236	Aydin	M	G	EN	TUR	TR	
+M000237	Ayfer	M	G	EN	TUR	TR	
+M000238	Aygen	M	G	EN	TUR	TR	
+M000239	Aygun	M	G	EN	TUR	TR	
+M000240	Aygül	M	G	EN	TUR	TR	
+M000241	Ayhun	M	G	EN	TUR	TR	
+M000242	Aykan	M	G	EN	TUR	TR	
+M000243	Ayla	F	G	EN	TUR	TR	
+M000244	Aylin	M	G	EN	TUR	TR	
+M000245	Ayse	F	G	EN	TUR	TR	عائشة
+M000246	Aysel	M	G	EN	TUR	TR	
+M000247	Aysu	M	G	EN	TUR	TR	
+M000248	Aysun	M	G	EN	TUR	TR	
+M000249	Aytaç	M	G	EN	TUR	TR	
+M000250	Aytekin	M	G	EN	TUR	TR	
+M000251	Ayten	M	G	EN	TUR	TR	
+M000252	Ayça	F	G	EN	TUR	TR	عائشة
+M000253	Ayçin	M	G	EN	TUR	TR	
+M000254	Azad	M	G	EN	TUR	TR	أزاد
+M000255	Azime	F	G	EN	TUR	TR	عظيمة
+M000256	Aziz	M	G	EN	TUR	TR	عزيز
+M000257	Azize	F	G	EN	TUR	TR	عزيزة
+M000258	Azmi	M	G	EN	TUR	TR	عزمي
+M000259	Açelya	F	G	EN	TUR	TR	
+M000260	Babür	M	G	EN	TUR	TR	
+M000261	Baha	F	G	EN	TUR	TR	
+M000262	Bahar	M	G	EN	TUR	TR	
+M000263	Bahri	M	G	EN	TUR	TR	باهر
+M000264	Bahriye	F	G	EN	TUR	TR	بهرية
+M000265	Bahtiyar	M	G	EN	TUR	TR	
+M000266	Bahçeli	M	G	EN	TUR	TR	
+M000267	Baki	M	G	EN	TUR	TR	
+M000268	Bala	F	G	EN	TUR	TR	
+M000269	Balaban	M	G	EN	TUR	TR	
+M000270	Baler	M	G	EN	TUR	TR	
+M000271	Balîm	M	G	EN	TUR	TR	
+M000272	Banu	M	G	EN	TUR	TR	
+M000273	Barak	M	G	EN	TUR	TR	
+M000274	Baris	M	G	EN	TUR	TR	
+M000275	Basar	M	G	EN	TUR	TR	
+M000276	Basgil	M	G	EN	TUR	TR	
+M000277	Basir	M	G	EN	TUR	TR	بصير
+M000278	Basri	M	G	EN	TUR	TR	بصري
+M000279	Battal	M	G	EN	TUR	TR	
+M000280	Batu	M	G	EN	TUR	TR	
+M000281	Batuhan	M	G	EN	TUR	TR	
+M000282	Batur	M	G	EN	TUR	TR	
+M000283	Bayar	M	G	EN	TUR	TR	
+M000284	Baybars	M	G	EN	TUR	TR	
+M000285	Baykurt	M	G	EN	TUR	TR	
+M000286	Bayram	M	G	EN	TUR	TR	
+M000287	Bedia	F	G	EN	TUR	TR	
+M000288	Bedirhan	M	G	EN	TUR	TR	
+M000289	Bedreddin	M	G	EN	TUR	TR	بدر الدين
+M000290	Bedreddîn	M	G	EN	TUR	TR	بدر الدين
+M000291	Bedrettin	M	G	EN	TUR	TR	بدر الدين
+M000292	Bedri	M	G	EN	TUR	TR	بدري
+M000293	Bedriye	F	G	EN	TUR	TR	بدرية
+M000294	Begüm	M	G	EN	TUR	TR	
+M000295	Behice	F	G	EN	TUR	TR	بهيجة
+M000296	Behiye	F	G	EN	TUR	TR	بهية
+M000297	Behiç	M	G	EN	TUR	TR	
+M000298	Behlül	M	G	EN	TUR	TR	بهلول
+M000299	Behçet	M	G	EN	TUR	TR	بهجت
+M000300	Bekir	M	G	EN	TUR	TR	بكير
+M000301	Bekri	M	G	EN	TUR	TR	بكري
+M000302	Bektas	M	G	EN	TUR	TR	
+M000303	Belciler	M	G	EN	TUR	TR	
+M000304	Bele	M	G	EN	TUR	TR	
+M000305	Belgin	M	G	EN	TUR	TR	
+M000306	Beli	M	G	EN	TUR	TR	
+M000307	Belig	M	G	EN	TUR	TR	
+M000308	Belma	F	G	EN	TUR	TR	
+M000309	Benan	M	G	EN	TUR	TR	
+M000310	Bengi	M	G	EN	TUR	TR	
+M000311	Bengisu	M	G	EN	TUR	TR	
+M000312	Bengül	M	G	EN	TUR	TR	
+M000313	Bensu	M	G	EN	TUR	TR	
+M000314	Berfu	M	G	EN	TUR	TR	
+M000315	Beria	F	G	EN	TUR	TR	
+M000316	Beril	M	G	EN	TUR	TR	
+M000317	Berk	M	G	EN	TUR	TR	
+M000318	Berkant	M	G	EN	TUR	TR	
+M000319	Berkes	M	G	EN	TUR	TR	
+M000320	Berna	F	G	EN	TUR	TR	
+M000321	Berrak	M	G	EN	TUR	TR	
+M000322	Berrin	M	G	EN	TUR	TR	
+M000323	Besikci	M	G	EN	TUR	TR	
+M000324	Besim	M	G	EN	TUR	TR	
+M000325	Beste	M	G	EN	TUR	TR	
+M000326	Betil	M	G	EN	TUR	TR	
+M000327	Betül	M	G	EN	TUR	TR	بتول
+M000328	Bihter	M	G	EN	TUR	TR	
+M000329	Bikem	M	G	EN	TUR	TR	
+M000330	Bilge	M	G	EN	TUR	TR	
+M000331	Bilgin	M	G	EN	TUR	TR	
+M000332	Billur	M	G	EN	TUR	TR	
+M000333	Binnaz	F	G	EN	TUR	TR	
+M000334	Binnur	F	G	EN	TUR	TR	
+M000335	Birand	M	G	EN	TUR	TR	
+M000336	Birdal	M	G	EN	TUR	TR	
+M000337	Birgül	M	G	EN	TUR	TR	
+M000338	Birol	M	G	EN	TUR	TR	
+M000339	Birsen	M	G	EN	TUR	TR	
+M000340	Birsu	M	G	EN	TUR	TR	
+M000341	Bora	F	G	EN	TUR	TR	
+M000342	Boratav	M	G	EN	TUR	TR	
+M000343	Bozkurt	M	G	EN	TUR	TR	
+M000344	Buket	M	G	EN	TUR	TR	
+M000345	Bulent	M	G	EN	TUR	TR	
+M000346	Bulut	M	G	EN	TUR	TR	
+M000347	Bumin	M	G	EN	TUR	TR	
+M000348	Burak	M	G	EN	TUR	TR	
+M000349	Burcu	M	G	EN	TUR	TR	
+M000350	Burhan	M	G	EN	TUR	TR	برهان
+M000351	Burhanettin	M	G	EN	TUR	TR	برهان الدين
+M000352	Burhânneddin	M	G	EN	TUR	TR	برهان الدين
+M000353	Burin	M	G	EN	TUR	TR	
+M000354	Burç	M	G	EN	TUR	TR	
+M000355	Burçak	M	G	EN	TUR	TR	
+M000356	Burçin	M	G	EN	TUR	TR	
+M000357	Bâyezîd	M	G	EN	TUR	TR	بايزيد
+M000358	Bülent	M	G	EN	TUR	TR	
+M000359	Bürke	M	G	EN	TUR	TR	
+M000360	Cabbar	M	G	EN	TUR	TR	جبار
+M000361	Cafer	M	G	EN	TUR	TR	جعفر
+M000362	Cagdas	M	G	EN	TUR	TR	
+M000363	Cagman	M	G	EN	TUR	TR	
+M000364	Cagri	M	G	EN	TUR	TR	
+M000365	Cahid	M	G	EN	TUR	TR	جاهد
+M000366	Cahide	F	G	EN	TUR	TR	جاهدة
+M000367	Cahil	M	G	EN	TUR	TR	جاهل
+M000368	Cahit	M	G	EN	TUR	TR	جاهد
+M000369	Cakar	M	G	EN	TUR	TR	
+M000370	Canan	M	G	EN	TUR	TR	
+M000371	Cansu	M	G	EN	TUR	TR	
+M000372	Cebesoy	M	G	EN	TUR	TR	
+M000373	Celal	M	G	EN	TUR	TR	جلال
+M000374	Celalettin	M	G	EN	TUR	TR	جلال الدين
+M000375	Celâl	M	G	EN	TUR	TR	جلال
+M000376	Cemal	M	G	EN	TUR	TR	جمال
+M000377	Cemil	M	G	EN	TUR	TR	جميل
+M000378	Cemile	F	G	EN	TUR	TR	جميلة
+M000379	Cemre	F	G	EN	TUR	TR	جمرة
+M000380	Cenap	M	G	EN	TUR	TR	جيناب
+M000381	Cengiz	M	G	EN	TUR	TR	
+M000382	Cenk	M	G	EN	TUR	TR	
+M000383	Cennet	F	G	EN	TUR	TR	جنة
+M000384	Cerrâh	M	G	EN	TUR	TR	جراح
+M000385	Cetin	M	G	EN	TUR	TR	
+M000386	Cetinok	M	G	EN	TUR	TR	
+M000387	Cevat	M	G	EN	TUR	TR	جواد
+M000388	Cevdet	M	G	EN	TUR	TR	جودت
+M000389	Cihan	M	G	EN	TUR	TR	جيهان
+M000390	Cihangir	M	G	EN	TUR	TR	
+M000391	Ciller	M	G	EN	TUR	TR	
+M000392	Civan	M	G	EN	TUR	TR	
+M000393	Ciçek	M	G	EN	TUR	TR	
+M000394	Corekci	M	G	EN	TUR	TR	
+M000395	Cosar	M	G	EN	TUR	TR	
+M000396	Coskun	M	G	EN	TUR	TR	
+M000397	Cumhur	M	G	EN	TUR	TR	
+M000398	Cömert	M	G	EN	TUR	TR	
+M000399	Damad	M	G	EN	TUR	TR	
+M000400	Damla	F	G	EN	TUR	TR	
+M000401	Danishmend	M	G	EN	TUR	TR	
+M000402	Defne	M	G	EN	TUR	TR	
+M000403	Deha	F	G	EN	TUR	TR	
+M000404	Demet	M	G	EN	TUR	TR	
+M000405	Demir	M	G	EN	TUR	TR	
+M000406	Demirel	M	G	EN	TUR	TR	
+M000407	Deniz	M	G	EN	TUR	TR	
+M000408	Denktash	M	G	EN	TUR	TR	
+M000409	Derbil	M	G	EN	TUR	TR	
+M000410	Deren	M	G	EN	TUR	TR	
+M000411	Derin	M	G	EN	TUR	TR	
+M000412	Deringil	M	G	EN	TUR	TR	
+M000413	Derya	F	G	EN	TUR	TR	
+M000414	Destan	M	G	EN	TUR	TR	
+M000415	Deste	M	G	EN	TUR	TR	
+M000416	Devrim	M	G	EN	TUR	TR	
+M000417	Dicle	M	G	EN	TUR	TR	
+M000418	Dikerdem	M	G	EN	TUR	TR	
+M000419	Dilan	M	G	EN	TUR	TR	
+M000420	Dilar	M	G	EN	TUR	TR	
+M000421	Dilara	F	G	EN	TUR	TR	
+M000422	Dilaver	M	G	EN	TUR	TR	
+M000423	Diler	M	G	EN	TUR	TR	
+M000424	Dilhan	M	G	EN	TUR	TR	
+M000425	Dilruba	F	G	EN	TUR	TR	
+M000426	Dinçer	M	G	EN	TUR	TR	
+M000427	Doga	F	G	EN	TUR	TR	
+M000428	Dogramaci	M	G	EN	TUR	TR	
+M000429	Doruk	M	G	EN	TUR	TR	
+M000430	Dursun	M	G	EN	TUR	TR	
+M000431	Durukan	M	G	EN	TUR	TR	
+M000432	Durul	M	G	EN	TUR	TR	
+M000433	Duyal	M	G	EN	TUR	TR	
+M000434	Duygu	M	G	EN	TUR	TR	
+M000435	Dâvûd	M	G	EN	TUR	TR	
+M000436	Döndü	M	G	EN	TUR	TR	
+M000437	Dünya	F	G	EN	TUR	TR	دنيا
+M000438	Dürdane	M	G	EN	TUR	TR	
+M000439	Ebru	M	G	EN	TUR	TR	
+M000440	Ebûssüûd	M	G	EN	TUR	TR	أبو السعود
+M000441	Ecevit	M	G	EN	TUR	TR	
+M000442	Edebali	M	G	EN	TUR	TR	
+M000443	Edip	M	G	EN	TUR	TR	أديب
+M000444	Efecan	M	G	EN	TUR	TR	إفيجان
+M000445	Egemen	M	G	EN	TUR	TR	
+M000446	Ejder	M	G	EN	TUR	TR	
+M000447	Ekber	M	G	EN	TUR	TR	أكبر
+M000448	Ekin	M	G	EN	TUR	TR	
+M000449	Ekmel	M	G	EN	TUR	TR	أكمل
+M000450	Ekrem	M	G	EN	TUR	TR	أكرم
+M000451	Elif	M	G	EN	TUR	TR	إيلف
+M000452	Elmas	M	G	EN	TUR	TR	
+M000453	Elvan	M	G	EN	TUR	TR	ألوان
+M000454	Elçin	M	G	EN	TUR	TR	
+M000455	Emel	M	G	EN	TUR	TR	أمل
+M000456	Emin	M	G	EN	TUR	TR	أمين
+M000457	Emine	F	G	EN	TUR	TR	أمينة
+M000458	Emir	M	G	EN	TUR	TR	أمير
+M000459	Emrah	M	G	EN	TUR	TR	
+M000460	Emre	M	G	EN	TUR	TR	
+M000461	Ender	M	G	EN	TUR	TR	
+M000462	Engin	M	G	EN	TUR	TR	
+M000463	Enis	M	G	EN	TUR	TR	أنيس
+M000464	Enise	F	G	EN	TUR	TR	أنيسة
+M000465	Enver	M	G	EN	TUR	TR	أنور
+M000466	Erbakan	M	G	EN	TUR	TR	
+M000467	Ercan	M	G	EN	TUR	TR	
+M000468	Ercüment	M	G	EN	TUR	TR	
+M000469	Erdal	M	G	EN	TUR	TR	
+M000470	Erdem	M	G	EN	TUR	TR	
+M000471	Erden	M	G	EN	TUR	TR	
+M000472	Erdinç	M	G	EN	TUR	TR	
+M000473	Erem	M	G	EN	TUR	TR	
+M000474	Eren	M	G	EN	TUR	TR	
+M000475	Erenay	M	G	EN	TUR	TR	
+M000476	Erez	M	G	EN	TUR	TR	
+M000477	Ergin	M	G	EN	TUR	TR	
+M000478	Ergün	M	G	EN	TUR	TR	
+M000479	Erhan	M	G	EN	TUR	TR	
+M000480	Erim	M	G	EN	TUR	TR	إرم
+M000481	Erkan	M	G	EN	TUR	TR	
+M000482	Erkin	M	G	EN	TUR	TR	
+M000483	Erman	M	G	EN	TUR	TR	عرمان
+M000484	Ersin	M	G	EN	TUR	TR	
+M000485	Ertan	M	G	EN	TUR	TR	
+M000486	Ertaç	M	G	EN	TUR	TR	
+M000487	Ertegun	M	G	EN	TUR	TR	
+M000488	Ertem	M	G	EN	TUR	TR	
+M000489	Erten	M	G	EN	TUR	TR	
+M000490	Ertugrul	M	G	EN	TUR	TR	
+M000491	Esad	M	G	EN	TUR	TR	إسعاد
+M000492	Esel	M	G	EN	TUR	TR	أصيل
+M000493	Esen	M	G	EN	TUR	TR	
+M000494	Eser	M	G	EN	TUR	TR	
+M000495	Esin	M	G	EN	TUR	TR	
+M000496	Eski	M	G	EN	TUR	TR	
+M000497	Esma	F	G	EN	TUR	TR	أسماء
+M000498	Esmeray	M	G	EN	TUR	TR	
+M000499	Esra	F	G	EN	TUR	TR	إسراء
+M000500	Esrin	M	G	EN	TUR	TR	
+M000501	Ethem	M	G	EN	TUR	TR	عظيم
+M000502	Etkin	M	G	EN	TUR	TR	
+M000503	Etugrul	M	G	EN	TUR	TR	
+M000504	Evliyâ	M	G	EN	TUR	TR	أولياء
+M000505	Evren	M	G	EN	TUR	TR	
+M000506	Evrim	M	G	EN	TUR	TR	
+M000507	Eyice	F	G	EN	TUR	TR	عائشة
+M000508	Eyüp	M	G	EN	TUR	TR	أيوب
+M000509	Ezerhan	M	G	EN	TUR	TR	
+M000510	Ezhan	M	G	EN	TUR	TR	
+M000511	Fadik	M	G	EN	TUR	TR	فدك
+M000512	Fadime	F	G	EN	TUR	TR	فاطمة
+M000513	Fahrettin	M	G	EN	TUR	TR	فخر الدين
+M000514	Fahri	M	G	EN	TUR	TR	فخري
+M000515	Fahriye	F	G	EN	TUR	TR	فخرية
+M000516	Fahrünissa	F	G	EN	TUR	TR	فخر النساء
+M000517	Faik	M	G	EN	TUR	TR	فائق
+M000518	Fakir	M	G	EN	TUR	TR	فقير
+M000519	Faruk	M	G	EN	TUR	TR	فاروق
+M000520	Fatih	M	G	EN	TUR	TR	فاتح
+M000521	Fatin	M	G	EN	TUR	TR	فاتن
+M000522	Fatma	F	G	EN	TUR	TR	فاطمة
+M000523	Fazil	M	G	EN	TUR	TR	فاضل
+M000524	Fazilet	F	G	EN	TUR	TR	فضيلة
+M000525	Fehim	M	G	EN	TUR	TR	فهيم
+M000526	Fehime	F	G	EN	TUR	TR	فهيمة
+M000527	Fehmi	M	G	EN	TUR	TR	فهمي
+M000528	Fem	M	G	EN	TUR	TR	
+M000529	Ferah	M	G	EN	TUR	TR	فرح
+M000530	Feray	M	G	EN	TUR	TR	
+M000531	Ferda	F	G	EN	TUR	TR	
+M000532	Ferdi	M	G	EN	TUR	TR	
+M000533	Ferhan	M	G	EN	TUR	TR	فرحان
+M000534	Ferhat	M	G	EN	TUR	TR	فرحات
+M000535	Ferid	M	G	EN	TUR	TR	فريد
+M000536	Feride	F	G	EN	TUR	TR	فريدة
+M000537	Feriha	F	G	EN	TUR	TR	فريحة
+M000538	Ferit	M	G	EN	TUR	TR	فريد
+M000539	Feroz	M	G	EN	TUR	TR	فيروز
+M000540	Ferruh	M	G	EN	TUR	TR	
+M000541	Feryal	M	G	EN	TUR	TR	فيريال
+M000542	Fethi	M	G	EN	TUR	TR	فتحي
+M000543	Fevzi	M	G	EN	TUR	TR	فوزي
+M000544	Feyza	F	G	EN	TUR	TR	فايزة
+M000545	Feza	F	G	EN	TUR	TR	
+M000546	Fidan	M	G	EN	TUR	TR	
+M000547	Figen	M	G	EN	TUR	TR	
+M000548	Fikret	M	G	EN	TUR	TR	فكرت
+M000549	Fikri	M	G	EN	TUR	TR	فكري
+M000550	Fikriye	F	G	EN	TUR	TR	فكرية
+M000551	Firdevs	M	G	EN	TUR	TR	فردوس
+M000552	Fitnat	M	G	EN	TUR	TR	فتنات
+M000553	Fruzin	M	G	EN	TUR	TR	
+M000554	Fuad	M	G	EN	TUR	TR	فؤاد
+M000555	Fuat	M	G	EN	TUR	TR	فؤاد
+M000556	Fuldem	M	G	EN	TUR	TR	
+M000557	Fulden	M	G	EN	TUR	TR	
+M000558	Fulin	M	G	EN	TUR	TR	
+M000559	Fulya	F	G	EN	TUR	TR	
+M000560	Funda	F	G	EN	TUR	TR	
+M000561	Fusan	M	G	EN	TUR	TR	
+M000562	Fügen	M	G	EN	TUR	TR	
+M000563	Füsun	M	G	EN	TUR	TR	
+M000564	Galip	M	G	EN	TUR	TR	غالب
+M000565	Gamze	M	G	EN	TUR	TR	
+M000566	Gani	M	G	EN	TUR	TR	غني
+M000567	Garip	M	G	EN	TUR	TR	غريب
+M000568	Gazi	M	G	EN	TUR	TR	غازي
+M000569	Gedik	M	G	EN	TUR	TR	
+M000570	Gelik	M	G	EN	TUR	TR	
+M000571	Genco	M	G	EN	TUR	TR	
+M000572	Giray	M	G	EN	TUR	TR	
+M000573	Gizem	M	G	EN	TUR	TR	
+M000574	Gonca	F	G	EN	TUR	TR	
+M000575	Goyman	M	G	EN	TUR	TR	
+M000576	Gulsevin	M	G	EN	TUR	TR	
+M000577	Gurcan	M	G	EN	TUR	TR	
+M000578	Gurânî	M	G	EN	TUR	TR	قرني
+M000579	Gâwân	M	G	EN	TUR	TR	
+M000580	Gâzi	M	G	EN	TUR	TR	غازي
+M000581	Gökalp	M	G	EN	TUR	TR	
+M000582	Gökay	M	G	EN	TUR	TR	
+M000583	Gökben	M	G	EN	TUR	TR	
+M000584	Gökberk	M	G	EN	TUR	TR	
+M000585	Gökcan	M	G	EN	TUR	TR	
+M000586	Göker	M	G	EN	TUR	TR	
+M000587	Gökhan	M	G	EN	TUR	TR	
+M000588	Gökhun	M	G	EN	TUR	TR	
+M000589	Göksel	M	G	EN	TUR	TR	
+M000590	Göktu	M	G	EN	TUR	TR	
+M000591	Göktürk	M	G	EN	TUR	TR	
+M000592	Gökçe	M	G	EN	TUR	TR	
+M000593	Gönül	M	G	EN	TUR	TR	
+M000594	Göyünc	M	G	EN	TUR	TR	
+M000595	Gözde	M	G	EN	TUR	TR	
+M000596	Göçek	M	G	EN	TUR	TR	
+M000597	Güher	M	G	EN	TUR	TR	
+M000598	Gülbahar	M	G	EN	TUR	TR	
+M000599	Gülben	M	G	EN	TUR	TR	
+M000600	Güldem	M	G	EN	TUR	TR	
+M000601	Gülden	M	G	EN	TUR	TR	
+M000602	Güldeste	M	G	EN	TUR	TR	
+M000603	Gülen	M	G	EN	TUR	TR	
+M000604	Güler	M	G	EN	TUR	TR	
+M000605	Gülfem	M	G	EN	TUR	TR	
+M000606	Gülgün	M	G	EN	TUR	TR	
+M000607	Gülhan	M	G	EN	TUR	TR	
+M000608	Gülistan	M	G	EN	TUR	TR	
+M000609	Gülizar	M	G	EN	TUR	TR	
+M000610	Güllü	M	G	EN	TUR	TR	
+M000611	Gülnaz	M	G	EN	TUR	TR	
+M000612	Gülpembe	M	G	EN	TUR	TR	
+M000613	Gülriz	M	G	EN	TUR	TR	
+M000614	Gülsen	M	G	EN	TUR	TR	
+M000615	Gülsüm	M	G	EN	TUR	TR	
+M000616	Gülsün	M	G	EN	TUR	TR	
+M000617	Gültekin	M	G	EN	TUR	TR	
+M000618	Gülten	M	G	EN	TUR	TR	
+M000619	Gülçin	M	G	EN	TUR	TR	
+M000620	Günay	M	G	EN	TUR	TR	
+M000621	Günce	M	G	EN	TUR	TR	
+M000622	Gündüz	M	G	EN	TUR	TR	
+M000623	Güner	M	G	EN	TUR	TR	
+M000624	Güngör	M	G	EN	TUR	TR	
+M000625	Günhan	M	G	EN	TUR	TR	
+M000626	Güniz	M	G	EN	TUR	TR	
+M000627	Günsel	M	G	EN	TUR	TR	
+M000628	Günseli	M	G	EN	TUR	TR	
+M000629	Günter	M	G	EN	TUR	TR	
+M000630	Günver	M	G	EN	TUR	TR	
+M000631	Güray	M	G	EN	TUR	TR	
+M000632	Gürcan	M	G	EN	TUR	TR	
+M000633	Gürel	M	G	EN	TUR	TR	
+M000634	Gürler	M	G	EN	TUR	TR	
+M000635	Gürsel	M	G	EN	TUR	TR	
+M000636	Güven	M	G	EN	TUR	TR	
+M000637	Güzide	M	G	EN	TUR	TR	
+M000638	Güzin	M	G	EN	TUR	TR	
+M000639	Habib	M	G	EN	TUR	TR	حبيب
+M000640	Haccî	M	G	EN	TUR	TR	حاجي
+M000641	Hadis	M	G	EN	TUR	TR	حديث
+M000642	Hafize	F	G	EN	TUR	TR	حفيظة
+M000643	Hakan	M	G	EN	TUR	TR	
+M000644	Haldun	M	G	EN	TUR	TR	خلدون
+M000645	Hale	F	G	EN	TUR	TR	هالة
+M000646	Halide	F	G	EN	TUR	TR	خالدة
+M000647	Halil	M	G	EN	TUR	TR	خليل
+M000648	Halim	M	G	EN	TUR	TR	حليم
+M000649	Halis	M	G	EN	TUR	TR	
+M000650	Halit	M	G	EN	TUR	TR	خالد
+M000651	Haluk	M	G	EN	TUR	TR	خلوق
+M000652	Hamdi	M	G	EN	TUR	TR	حمدي
+M000653	Hami	M	G	EN	TUR	TR	
+M000654	Hamide	F	G	EN	TUR	TR	حميدة
+M000655	Hamit	M	G	EN	TUR	TR	حامد
+M000656	Hamza	F	G	EN	TUR	TR	حمزة
+M000657	Handan	M	G	EN	TUR	TR	
+M000658	Hande	M	G	EN	TUR	TR	
+M000659	Hanife	F	G	EN	TUR	TR	حنيفة
+M000660	Hanîminönü	M	G	EN	TUR	TR	
+M000661	Harika	F	G	EN	TUR	TR	حريكة
+M000662	Hasad	M	G	EN	TUR	TR	حصاد
+M000663	Hasan	M	G	EN	TUR	TR	حسن
+M000664	Hasbi	M	G	EN	TUR	TR	حاسب
+M000665	Hasibe	F	G	EN	TUR	TR	حسيبة
+M000666	Hatay	M	G	EN	TUR	TR	
+M000667	Havva	F	G	EN	TUR	TR	حواء
+M000668	Hayal	M	G	EN	TUR	TR	
+M000669	Hayat	F	G	EN	TUR	TR	حياة
+M000670	Hayati	F	G	EN	TUR	TR	حياة
+M000671	Haydar	M	G	EN	TUR	TR	حيدر
+M000672	Haydaroglu	M	G	EN	TUR	TR	
+M000673	Hayreddîn	M	G	EN	TUR	TR	خير الدين
+M000674	Hayri	M	G	EN	TUR	TR	خيري
+M000675	Hayriye	F	G	EN	TUR	TR	خيرية
+M000676	Hayrunissa	F	G	EN	TUR	TR	خير النساء
+M000677	Hayrünissa	F	G	EN	TUR	TR	خير النساء
+M000678	Hazan	M	G	EN	TUR	TR	
+M000679	Hediye	F	G	EN	TUR	TR	هدية
+M000680	Hersek	M	G	EN	TUR	TR	
+M000681	Hikmet	M	G	EN	TUR	TR	حكمت
+M000682	Hilal	M	G	EN	TUR	TR	هلال
+M000683	Hilmi	M	G	EN	TUR	TR	حلمي
+M000684	Himmet	M	G	EN	TUR	TR	
+M000685	Hoca	F	G	EN	TUR	TR	خوجة
+M000686	Hocazâde	M	G	EN	TUR	TR	
+M000687	Hulusi	M	G	EN	TUR	TR	
+M000688	Hulya	F	G	EN	TUR	TR	حلية
+M000689	Huri	M	G	EN	TUR	TR	حوري
+M000690	Huriye	F	G	EN	TUR	TR	حورية
+M000691	Hüdaverdi	M	G	EN	TUR	TR	
+M000692	Hülya	F	G	EN	TUR	TR	حلية
+M000693	Hümeyra	F	G	EN	TUR	TR	حميراء
+M000694	Hüner	M	G	EN	TUR	TR	
+M000695	Hürmüz	M	G	EN	TUR	TR	
+M000696	Hürrem	M	G	EN	TUR	TR	
+M000697	Hüsamettin	M	G	EN	TUR	TR	حسام الدين
+M000698	Hüseyin	M	G	EN	TUR	TR	حسين
+M000699	Hüsniye	F	G	EN	TUR	TR	حسنية
+M000700	Hüsnü	M	G	EN	TUR	TR	
+M000701	Hüsrev	M	G	EN	TUR	TR	
+M000702	Ihsan	M	G	EN	TUR	TR	إحسان
+M000703	Ilhan	M	G	EN	TUR	TR	
+M000704	Ilker	M	G	EN	TUR	TR	
+M000705	Ilkin	M	G	EN	TUR	TR	
+M000706	Inalcik	M	G	EN	TUR	TR	
+M000707	Inan	M	G	EN	TUR	TR	
+M000708	Inanc	M	G	EN	TUR	TR	
+M000709	Inceefe	M	G	EN	TUR	TR	
+M000710	Inci	M	G	EN	TUR	TR	
+M000711	Inönü	M	G	EN	TUR	TR	
+M000712	Ipekçi	M	G	EN	TUR	TR	
+M000713	Irfan	M	G	EN	TUR	TR	عرفان
+M000714	Isa	F	G	EN	TUR	TR	عيسى
+M000715	Ishâk	M	G	EN	TUR	TR	إسحاق
+M000716	Isikli	M	G	EN	TUR	TR	
+M000717	Ismet	M	G	EN	TUR	TR	عصمت
+M000718	Ismâil	M	G	EN	TUR	TR	إسماعيل
+M000719	Isoka	F	G	EN	TUR	TR	عشوقة
+M000720	Isâ	M	G	EN	TUR	TR	عيسى
+M000721	Jale	M	G	EN	TUR	TR	
+M000722	Jalâl	M	G	EN	TUR	TR	جلال
+M000723	Jelal	M	G	EN	TUR	TR	جلال
+M000724	Jemal	M	G	EN	TUR	TR	جمال
+M000725	Jirecek	M	G	EN	TUR	TR	
+M000726	Jülide	F	G	EN	TUR	TR	جليدة
+M000727	Kaan	M	G	EN	TUR	TR	
+M000728	Kader	M	G	EN	TUR	TR	قادر
+M000729	Kadir	M	G	EN	TUR	TR	قادر
+M000730	Kadri	M	G	EN	TUR	TR	قدري
+M000731	Kadriye	F	G	EN	TUR	TR	قدرية
+M000732	Kafkas	M	G	EN	TUR	TR	
+M000733	Kahil	M	G	EN	TUR	TR	كاهل
+M000734	Kalkashandî	M	G	EN	TUR	TR	قلقشندي
+M000735	Kamber	M	G	EN	TUR	TR	قمبر
+M000736	Kamelya	F	G	EN	TUR	TR	كاميليا
+M000737	Kamer	M	G	EN	TUR	TR	قمر
+M000738	Kamile	F	G	EN	TUR	TR	كميلة
+M000739	Kamran	M	G	EN	TUR	TR	
+M000740	Kamuran	M	G	EN	TUR	TR	
+M000741	Kamran	M	G	EN	TUR	TR	
+M000742	Kapkin	M	G	EN	TUR	TR	
+M000743	Kara	F	G	EN	TUR	TR	
+M000744	Karabekir	M	G	EN	TUR	TR	
+M000745	Karaosmanglu	M	G	EN	TUR	TR	
+M000746	Karatay	M	G	EN	TUR	TR	
+M000747	Karpat	M	G	EN	TUR	TR	
+M000748	Kartal	M	G	EN	TUR	TR	
+M000749	Kasaba	F	G	EN	TUR	TR	
+M000750	Kasapoglu	M	G	EN	TUR	TR	
+M000751	Katife	F	G	EN	TUR	TR	قطيفة
+M000752	Kaya	F	G	EN	TUR	TR	
+M000753	Kayahan	M	G	EN	TUR	TR	
+M000754	Kayitbay	M	G	EN	TUR	TR	
+M000755	Kazancigil	M	G	EN	TUR	TR	
+M000756	Kemal	M	G	EN	TUR	TR	كمال
+M000757	Kemalettin	M	G	EN	TUR	TR	كمال الدين
+M000758	Kenan	M	G	EN	TUR	TR	كينان
+M000759	Kerem	M	G	EN	TUR	TR	كريم
+M000760	Kerim	M	G	EN	TUR	TR	كريم
+M000761	Keriman	M	G	EN	TUR	TR	كريمان
+M000762	Kerimoglu	M	G	EN	TUR	TR	
+M000763	Kevser	M	G	EN	TUR	TR	كوثر
+M000764	Kezban	M	G	EN	TUR	TR	
+M000765	Khaldûn	M	G	EN	TUR	TR	خلدون
+M000766	Khurshi	M	G	EN	TUR	TR	
+M000767	Killic	M	G	EN	TUR	TR	
+M000768	Kiral	M	G	EN	TUR	TR	
+M000769	Kiraz	M	G	EN	TUR	TR	
+M000770	Kiraç	M	G	EN	TUR	TR	
+M000771	Koca	M	G	EN	TUR	TR	خوجة
+M000772	Koprulu	M	G	EN	TUR	TR	
+M000773	Koraltan	M	G	EN	TUR	TR	
+M000774	Koray	M	G	EN	TUR	TR	
+M000775	Korcan	M	G	EN	TUR	TR	
+M000776	Korkmaz	M	G	EN	TUR	TR	
+M000777	Korkud	M	G	EN	TUR	TR	
+M000778	Korkut	M	G	EN	TUR	TR	
+M000779	Korutürk	M	G	EN	TUR	TR	
+M000780	Kostadinov	M	G	EN	TUR	TR	
+M000781	Kubilay	M	G	EN	TUR	TR	
+M000782	Kudret	F	G	EN	TUR	TR	قدرة
+M000783	Kulu	M	G	EN	TUR	TR	
+M000784	Kumru	M	G	EN	TUR	TR	
+M000785	Kumsal	M	G	EN	TUR	TR	
+M000786	Kurat	M	G	EN	TUR	TR	
+M000787	Kurtbek	M	G	EN	TUR	TR	
+M000788	Kusçu	M	G	EN	TUR	TR	
+M000789	Kutbeddîn	M	G	EN	TUR	TR	قطب الدين
+M000790	Kutlay	M	G	EN	TUR	TR	
+M000791	Kutlu	M	G	EN	TUR	TR	
+M000792	Kutsal	M	G	EN	TUR	TR	
+M000793	Kutsi	M	G	EN	TUR	TR	
+M000794	Kutuz	M	G	EN	TUR	TR	قطز
+M000795	Kâdi	M	G	EN	TUR	TR	قاضي
+M000796	Kâdizâde	M	G	EN	TUR	TR	
+M000797	Kâmil	M	G	EN	TUR	TR	كامل
+M000798	Kâsim	M	G	EN	TUR	TR	قاسم
+M000799	Kâtip	M	G	EN	TUR	TR	كاتب
+M000800	Kîzîbas	M	G	EN	TUR	TR	
+M000801	Köksal	M	G	EN	TUR	TR	
+M000802	Köprülü	M	G	EN	TUR	TR	
+M000803	Kösem	M	G	EN	TUR	TR	
+M000804	Kütchük	M	G	EN	TUR	TR	
+M000805	Küçük	M	G	EN	TUR	TR	
+M000806	Lale	M	G	EN	TUR	TR	
+M000807	Lalegün	M	G	EN	TUR	TR	
+M000808	Lalehan	M	G	EN	TUR	TR	
+M000809	Latif	M	G	EN	TUR	TR	لطيف
+M000810	Latife	F	G	EN	TUR	TR	لطيفة
+M000811	Leman	M	G	EN	TUR	TR	
+M000812	Lemi	M	G	EN	TUR	TR	
+M000813	Levent	M	G	EN	TUR	TR	
+M000814	Leyla	F	G	EN	TUR	TR	ليلى
+M000815	Lokman	M	G	EN	TUR	TR	لقمان
+M000816	Lutfî	M	G	EN	TUR	TR	لطفي
+M000817	Lâtife	F	G	EN	TUR	TR	لطيفة
+M000818	Lüfi	M	G	EN	TUR	TR	
+M000819	Lütfiye	F	G	EN	TUR	TR	لطفية
+M000820	Lütfü	M	G	EN	TUR	TR	لطف
+M000821	Macide	F	G	EN	TUR	TR	مجيدة
+M000822	Macit	M	G	EN	TUR	TR	ماجد
+M000823	Madakbas	M	G	EN	TUR	TR	
+M000824	Mahfuze	M	G	EN	TUR	TR	محفوظ
+M000825	Mahir	M	G	EN	TUR	TR	ماهر
+M000826	Mahmut	M	G	EN	TUR	TR	محمود
+M000827	Mahmûd	M	G	EN	TUR	TR	محمود
+M000828	Mahzun	M	G	EN	TUR	TR	محزون
+M000829	Makal	M	G	EN	TUR	TR	
+M000830	Makbule	M	G	EN	TUR	TR	مقبول
+M000831	Manolya	F	G	EN	TUR	TR	
+M000832	Mansur	M	G	EN	TUR	TR	منصور
+M000833	Mardin	M	G	EN	TUR	TR	
+M000834	Masal	M	G	EN	TUR	TR	
+M000835	Masûkî	M	G	EN	TUR	TR	
+M000836	Maulânâ	M	G	EN	TUR	TR	مولانا
+M000837	Mazhar	M	G	EN	TUR	TR	مظهر
+M000838	Mecnun	M	G	EN	TUR	TR	مجنون
+M000839	Mefkure	F	G	EN	TUR	TR	مفكورة
+M000840	Mehmed	M	G	EN	TUR	TR	محمد
+M000841	Mehmet	M	G	EN	TUR	TR	محمد
+M000842	Mehpare	M	G	EN	TUR	TR	
+M000843	Mehtap	M	G	EN	TUR	TR	
+M000844	Melek	M	G	EN	TUR	TR	ملاك
+M000845	Melen	M	G	EN	TUR	TR	
+M000846	Melih	M	G	EN	TUR	TR	مليح
+M000847	Meliha	F	G	EN	TUR	TR	مليحة
+M000848	Melik	M	G	EN	TUR	TR	مليك
+M000849	Melike	F	G	EN	TUR	TR	مليكة
+M000850	Melodi	M	G	EN	TUR	TR	ميلود
+M000851	Meltem	M	G	EN	TUR	TR	
+M000852	Menderes	M	G	EN	TUR	TR	
+M000853	Mengüç	M	G	EN	TUR	TR	
+M000854	Merih	M	G	EN	TUR	TR	
+M000855	Meriç	M	G	EN	TUR	TR	
+M000856	Mert	M	G	EN	TUR	TR	
+M000857	Merve	M	G	EN	TUR	TR	
+M000858	Mestan	M	G	EN	TUR	TR	
+M000859	Mesut	M	G	EN	TUR	TR	مسعود
+M000860	Mete	M	G	EN	TUR	TR	
+M000861	Metin	M	G	EN	TUR	TR	متين
+M000862	Mevlut	M	G	EN	TUR	TR	مولود
+M000863	Midhat	M	G	EN	TUR	TR	مدحت
+M000864	Mihram	M	G	EN	TUR	TR	
+M000865	Mihriban	M	G	EN	TUR	TR	
+M000866	Mihrimâh	F	G	EN	TUR	TR	محرمة
+M000867	Mine	M	G	EN	TUR	TR	
+M000868	Miraç	M	G	EN	TUR	TR	
+M000869	Mircea	F	G	EN	TUR	TR	مرجية
+M000870	Mirim	M	G	EN	TUR	TR	
+M000871	Mualla	F	G	EN	TUR	TR	معلا
+M000872	Muammar	M	G	EN	TUR	TR	معمر
+M000873	Muammer	M	G	EN	TUR	TR	معمر
+M000874	Mucip	M	G	EN	TUR	TR	مجيب
+M000875	Muhammed	M	G	EN	TUR	TR	محمد
+M000876	Muhan	M	G	EN	TUR	TR	موهان
+M000877	Muhittin	M	G	EN	TUR	TR	محي الدين
+M000878	Muhsin	M	G	EN	TUR	TR	محسن
+M000879	Muhtar	M	G	EN	TUR	TR	مختار
+M000880	Mukadder	M	G	EN	TUR	TR	مقدر
+M000881	Mukaddes	M	G	EN	TUR	TR	مقدس
+M000882	Mulk	M	G	EN	TUR	TR	ملك
+M000883	Munir	M	G	EN	TUR	TR	منير
+M000884	Munis	M	G	EN	TUR	TR	مؤنس
+M000885	Munise	F	G	EN	TUR	TR	مؤنسة
+M000886	Murat	M	G	EN	TUR	TR	مراد
+M000887	Murâd	M	G	EN	TUR	TR	مراد
+M000888	Musa	F	G	EN	TUR	TR	موسى
+M000889	Mustafa	F	G	EN	TUR	TR	مصطفى
+M000890	Mustapha	F	G	EN	TUR	TR	مصطفى
+M000891	Mutlu	M	G	EN	TUR	TR	
+M000892	Muzaffer	M	G	EN	TUR	TR	مظفر
+M000893	Mûsâ	M	G	EN	TUR	TR	موسى
+M000894	Müberra	F	G	EN	TUR	TR	مبرة
+M000895	Mücahit	M	G	EN	TUR	TR	مجاهد
+M000896	Mücella	F	G	EN	TUR	TR	مجلة
+M000897	Müesser	M	G	EN	TUR	TR	ميسر
+M000898	Müjdat	M	G	EN	TUR	TR	موجدات
+M000899	Müjde	F	G	EN	TUR	TR	موجدة
+M000900	Mükrime	F	G	EN	TUR	TR	مكرمة
+M000901	Mümin	M	G	EN	TUR	TR	مؤمن
+M000902	Münir	M	G	EN	TUR	TR	منير
+M000903	Münire	F	G	EN	TUR	TR	منيرة
+M000904	Naci	M	G	EN	TUR	TR	ناجي
+M000905	Naciye	F	G	EN	TUR	TR	نجية
+M000906	Nadide	F	G	EN	TUR	TR	نديدة
+M000907	Nadir	M	G	EN	TUR	TR	نادر
+M000908	Nadire	F	G	EN	TUR	TR	نادرة
+M000909	Nafiz	M	G	EN	TUR	TR	نافز
+M000910	Nail	M	G	EN	TUR	TR	نائل
+M000911	Naim	M	G	EN	TUR	TR	نعيم
+M000912	Nalan	M	G	EN	TUR	TR	
+M000913	Narin	M	G	EN	TUR	TR	
+M000914	Nasreddîn	M	G	EN	TUR	TR	نصر الدين
+M000915	Nasîr	M	G	EN	TUR	TR	ناصر
+M000916	Nasûh	M	G	EN	TUR	TR	نصوح
+M000917	Nazan	M	G	EN	TUR	TR	
+M000918	Nazim	M	G	EN	TUR	TR	ناظم
+M000919	Nazmi	M	G	EN	TUR	TR	نظمي
+M000920	Nazmiye	F	G	EN	TUR	TR	نظمية
+M000921	Nebahat	M	G	EN	TUR	TR	نباهت
+M000922	Necat	F	G	EN	TUR	TR	نجاة
+M000923	Necati	M	G	EN	TUR	TR	نجاتي
+M000924	Necdet	M	G	EN	TUR	TR	نجدت
+M000925	Necip	M	G	EN	TUR	TR	نجيب
+M000926	Necla	F	G	EN	TUR	TR	نجلاء
+M000927	Necmeddin	M	G	EN	TUR	TR	نجم الدين
+M000928	Necmettin	M	G	EN	TUR	TR	نجم الدين
+M000929	Necmi	M	G	EN	TUR	TR	نجمي
+M000930	Necmiye	F	G	EN	TUR	TR	نجمية
+M000931	Nedim	M	G	EN	TUR	TR	نديم
+M000932	Nehir	M	G	EN	TUR	TR	نهر
+M000933	Nejat	F	G	EN	TUR	TR	نجاة
+M000934	Nergis	M	G	EN	TUR	TR	نرجس
+M000935	Neriman	M	G	EN	TUR	TR	
+M000936	Nermin	M	G	EN	TUR	TR	
+M000937	Nesim	M	G	EN	TUR	TR	نسيم
+M000938	Neslihan	M	G	EN	TUR	TR	
+M000939	Nesrin	M	G	EN	TUR	TR	نيسرين
+M000940	Nesrî	M	G	EN	TUR	TR	نصري
+M000941	Nesîmî	M	G	EN	TUR	TR	نسيمي
+M000942	Netice	F	G	EN	TUR	TR	نتيجة
+M000943	Nevcivan	M	G	EN	TUR	TR	
+M000944	Neveda	F	G	EN	TUR	TR	
+M000945	Nevra	F	G	EN	TUR	TR	نورا
+M000946	Nevriye	F	G	EN	TUR	TR	نورية
+M000947	Nezaket	M	G	EN	TUR	TR	
+M000948	Nezih	M	G	EN	TUR	TR	
+M000949	Nezihe	F	G	EN	TUR	TR	نزهة
+M000950	Nigar	M	G	EN	TUR	TR	
+M000951	Nihal	M	G	EN	TUR	TR	نهال
+M000952	Nihan	M	G	EN	TUR	TR	
+M000953	Nihat	M	G	EN	TUR	TR	
+M000954	Nilgün	M	G	EN	TUR	TR	
+M000955	Nilufer	M	G	EN	TUR	TR	
+M000956	Nilüfer	M	G	EN	TUR	TR	
+M000957	Nimet	M	G	EN	TUR	TR	نعمت
+M000958	Nisan	M	G	EN	TUR	TR	نسان
+M000959	Nisancî	M	G	EN	TUR	TR	
+M000960	Niyazi	M	G	EN	TUR	TR	نياز
+M000961	Nizamettin	M	G	EN	TUR	TR	نظام الدين
+M000962	Nizami	M	G	EN	TUR	TR	نظامي
+M000963	Nizâm	M	G	EN	TUR	TR	نظام
+M000964	Nuh	M	G	EN	TUR	TR	نوح
+M000965	Numan	M	G	EN	TUR	TR	نعمان
+M000966	Nur	M	G	EN	TUR	TR	نور
+M000967	Nural	M	G	EN	TUR	TR	
+M000968	Nuran	M	G	EN	TUR	TR	
+M000969	Nuray	M	G	EN	TUR	TR	نوراي
+M000970	Nurcan	M	G	EN	TUR	TR	
+M000971	Nureddin	M	G	EN	TUR	TR	نور الدين
+M000972	Nurgül	M	G	EN	TUR	TR	
+M000973	Nurhan	M	G	EN	TUR	TR	نورهان
+M000974	Nuri	M	G	EN	TUR	TR	نور
+M000975	Nuriye	F	G	EN	TUR	TR	نورية
+M000976	Nursel	M	G	EN	TUR	TR	
+M000977	Nurseli	M	G	EN	TUR	TR	
+M000978	Nursen	M	G	EN	TUR	TR	
+M000979	Nurtaç	M	G	EN	TUR	TR	
+M000980	Nurten	M	G	EN	TUR	TR	
+M000981	Nükhet	M	G	EN	TUR	TR	
+M000982	Nüzhet	M	G	EN	TUR	TR	نزهة
+M000983	Ogan	M	G	EN	TUR	TR	
+M000984	Ogun	M	G	EN	TUR	TR	
+M000985	Ohannes	M	G	EN	TUR	TR	
+M000986	Okan	M	G	EN	TUR	TR	
+M000987	Oktar	M	G	EN	TUR	TR	
+M000988	Oktay	M	G	EN	TUR	TR	
+M000989	Okyay	M	G	EN	TUR	TR	
+M000990	Olcay	M	G	EN	TUR	TR	
+M000991	Omay	M	G	EN	TUR	TR	
+M000992	Omer	M	G	EN	TUR	TR	عمر
+M000993	Onan	M	G	EN	TUR	TR	
+M000994	Onur	M	G	EN	TUR	TR	
+M000995	Orbay	M	G	EN	TUR	TR	
+M000996	Orhan	M	G	EN	TUR	TR	
+M000997	Orkun	M	G	EN	TUR	TR	
+M000998	Orkut	M	G	EN	TUR	TR	
+M000999	Oruç	M	G	EN	TUR	TR	
+M001000	Osman	M	G	EN	TUR	TR	عثمان
+M001001	Osmân	M	G	EN	TUR	TR	عثمان
+M001002	Othman	M	G	EN	TUR	TR	عثمان
+M001003	Oyan	M	G	EN	TUR	TR	
+M001004	Oytun	M	G	EN	TUR	TR	
+M001005	Oyuz	M	G	EN	TUR	TR	
+M001006	Ozalan	M	G	EN	TUR	TR	
+M001007	Ozan	M	G	EN	TUR	TR	
+M001008	Oznur	M	G	EN	TUR	TR	
+M001009	Pakalîn	M	G	EN	TUR	TR	
+M001010	Pakize	M	G	EN	TUR	TR	
+M001011	Pamuk	M	G	EN	TUR	TR	
+M001012	Pelin	M	G	EN	TUR	TR	
+M001013	Pembe	M	G	EN	TUR	TR	
+M001014	Peri	M	G	EN	TUR	TR	
+M001015	Perihan	M	G	EN	TUR	TR	برهان
+M001016	Peroz	M	G	EN	TUR	TR	
+M001017	Perran	M	G	EN	TUR	TR	
+M001018	Pertev	M	G	EN	TUR	TR	
+M001019	Pervin	M	G	EN	TUR	TR	
+M001020	Petek	M	G	EN	TUR	TR	
+M001021	Piraye	F	G	EN	TUR	TR	
+M001022	Piyale	M	G	EN	TUR	TR	
+M001023	Polat	M	G	EN	TUR	TR	
+M001024	Polatkan	M	G	EN	TUR	TR	
+M001025	Rabia	F	G	EN	TUR	TR	
+M001026	Rafet	M	G	EN	TUR	TR	رأفت
+M001027	Raghib	M	G	EN	TUR	TR	راغب
+M001028	Rahim	M	G	EN	TUR	TR	رحيم
+M001029	Ramazan	M	G	EN	TUR	TR	رمضان
+M001030	Ramsaur	M	G	EN	TUR	TR	
+M001031	Rana	F	G	EN	TUR	TR	رانا
+M001032	Rauf	M	G	EN	TUR	TR	رؤوف
+M001033	Recai	M	G	EN	TUR	TR	رجائي
+M001034	Recber	M	G	EN	TUR	TR	
+M001035	Recep	M	G	EN	TUR	TR	رجب
+M001036	Refet	M	G	EN	TUR	TR	رفعت
+M001037	Refik	M	G	EN	TUR	TR	رفيق
+M001038	Reha	F	G	EN	TUR	TR	رها
+M001039	Remzi	M	G	EN	TUR	TR	رمزي
+M001040	Renan	M	G	EN	TUR	TR	
+M001041	Rengin	M	G	EN	TUR	TR	
+M001042	Renç	M	G	EN	TUR	TR	
+M001043	Resat	M	G	EN	TUR	TR	
+M001044	Reshid	M	G	EN	TUR	TR	رشيد
+M001045	Resit	M	G	EN	TUR	TR	رشيد
+M001046	Resîd	M	G	EN	TUR	TR	رشيد
+M001047	Reyhan	M	G	EN	TUR	TR	ريحان
+M001048	Reyyan	M	G	EN	TUR	TR	ريان
+M001049	Rezzan	M	G	EN	TUR	TR	
+M001050	Riza	F	G	EN	TUR	TR	رضا
+M001051	Rushd	M	G	EN	TUR	TR	رشد
+M001052	Rustu	M	G	EN	TUR	TR	
+M001053	Ruya	F	G	EN	TUR	TR	رؤية
+M001054	Râgib	M	G	EN	TUR	TR	راغب
+M001055	Rûmî	M	G	EN	TUR	TR	رومي
+M001056	Rûstû	M	G	EN	TUR	TR	
+M001057	Rüknettin	M	G	EN	TUR	TR	ركن الدين
+M001058	Rüstem	M	G	EN	TUR	TR	
+M001059	Rüstü	M	G	EN	TUR	TR	
+M001060	Rüya	F	G	EN	TUR	TR	رؤيا
+M001061	Saadet	F	G	EN	TUR	TR	سعادة
+M001062	Sabahat	M	G	EN	TUR	TR	صباحات
+M001063	Sebahat	M	G	EN	TUR	TR	صباحات
+M001064	Sabahattin	M	G	EN	TUR	TR	صباح الدين
+M001065	Sabiha	F	G	EN	TUR	TR	صبيحة
+M001066	Sabit	M	G	EN	TUR	TR	ثابت
+M001067	Sabite	M	G	EN	TUR	TR	ثابت
+M001068	Sabriye	F	G	EN	TUR	TR	صبرية
+M001069	Sacide	F	G	EN	TUR	TR	ساجدة
+M001070	Sacit	M	G	EN	TUR	TR	ساجد
+M001071	Sadettin	M	G	EN	TUR	TR	سعد الدين
+M001072	Sadi	M	G	EN	TUR	TR	ساد
+M001073	Sadik	M	G	EN	TUR	TR	صادق
+M001074	Sadri	M	G	EN	TUR	TR	صدري
+M001075	Sadun	M	G	EN	TUR	TR	سعدون
+M001076	Safavî	M	G	EN	TUR	TR	صفوي
+M001077	Saffet	M	G	EN	TUR	TR	
+M001078	Saffiy	M	G	EN	TUR	TR	صافي
+M001079	Safiye	F	G	EN	TUR	TR	صفية
+M001080	Saglam	M	G	EN	TUR	TR	
+M001081	Sahiba	F	G	EN	TUR	TR	صاحبة
+M001082	Saim	M	G	EN	TUR	TR	صائم
+M001083	Sait	M	G	EN	TUR	TR	سيد
+M001084	Sakir	M	G	EN	TUR	TR	شاكر
+M001085	Salih	M	G	EN	TUR	TR	صالح
+M001086	Saliha	F	G	EN	TUR	TR	صليحة
+M001087	Salik	M	G	EN	TUR	TR	سالك
+M001088	Salim	M	G	EN	TUR	TR	سالم
+M001089	Salime	F	G	EN	TUR	TR	سليمة
+M001090	Saltik	M	G	EN	TUR	TR	
+M001091	Saltuk	M	G	EN	TUR	TR	
+M001092	Sancakil	M	G	EN	TUR	TR	
+M001093	Sancakli	M	G	EN	TUR	TR	
+M001094	Sandalli	M	G	EN	TUR	TR	صندل
+M001095	Sanem	M	G	EN	TUR	TR	
+M001096	Saniye	F	G	EN	TUR	TR	سنية
+M001097	Sarila	F	G	EN	TUR	TR	
+M001098	Sarp	M	G	EN	TUR	TR	
+M001099	Saruhan	M	G	EN	TUR	TR	
+M001100	Sarî	M	G	EN	TUR	TR	ساري
+M001101	Savcî	M	G	EN	TUR	TR	
+M001102	Sayyid	M	G	EN	TUR	TR	سيد
+M001103	Sebahat	M	G	EN	TUR	TR	صباحات
+M001104	Seda	F	G	EN	TUR	TR	سيدة
+M001105	Sedef	M	G	EN	TUR	TR	صدف
+M001106	Seden	M	G	EN	TUR	TR	سعدان
+M001107	Sefa	F	G	EN	TUR	TR	صفاء
+M001108	Sefer	M	G	EN	TUR	TR	
+M001109	Segem	M	G	EN	TUR	TR	
+M001110	Seher	M	G	EN	TUR	TR	سحر
+M001111	Sehinsah	M	G	EN	TUR	TR	
+M001112	Selda	F	G	EN	TUR	TR	
+M001113	Selen	M	G	EN	TUR	TR	
+M001114	Selim	M	G	EN	TUR	TR	سليم
+M001115	Selin	M	G	EN	TUR	TR	
+M001116	Selma	F	G	EN	TUR	TR	سلمى
+M001117	Selmân	M	G	EN	TUR	TR	سلمان
+M001118	Selva	F	G	EN	TUR	TR	سلوى
+M001119	Selvi	M	G	EN	TUR	TR	سلوى
+M001120	Selâniki	M	G	EN	TUR	TR	
+M001121	Selçuk	M	G	EN	TUR	TR	
+M001122	Sema	F	G	EN	TUR	TR	
+M001123	Semahat	F	G	EN	TUR	TR	سماحة
+M001124	Semavi	M	G	EN	TUR	TR	سماوي
+M001125	Semih	M	G	EN	TUR	TR	سميح
+M001126	Semiha	F	G	EN	TUR	TR	سمحة
+M001127	Semra	F	G	EN	TUR	TR	سمراء
+M001128	Sena	F	G	EN	TUR	TR	سناء
+M001129	Senay	M	G	EN	TUR	TR	
+M001130	Sener	M	G	EN	TUR	TR	
+M001131	Sengor	M	G	EN	TUR	TR	
+M001132	Seniha	F	G	EN	TUR	TR	سنيحة
+M001133	Serap	M	G	EN	TUR	TR	
+M001134	Sercan	M	G	EN	TUR	TR	
+M001135	Serdar	M	G	EN	TUR	TR	
+M001136	Serhan	M	G	EN	TUR	TR	سرحان
+M001137	Serhat	M	G	EN	TUR	TR	
+M001138	Serif	M	G	EN	TUR	TR	شريف
+M001139	Serin	M	G	EN	TUR	TR	
+M001140	Serkan	M	G	EN	TUR	TR	
+M001141	Serpil	M	G	EN	TUR	TR	
+M001142	Serra	F	G	EN	TUR	TR	
+M001143	Sertan	M	G	EN	TUR	TR	
+M001144	Sertaç	M	G	EN	TUR	TR	
+M001145	Sertel	M	G	EN	TUR	TR	
+M001146	Servet	M	G	EN	TUR	TR	ثروت
+M001147	Seskin	M	G	EN	TUR	TR	
+M001148	Sevda	F	G	EN	TUR	TR	سودة
+M001149	Sevdi	M	G	EN	TUR	TR	صفدي
+M001150	Sevgi	M	G	EN	TUR	TR	
+M001151	Sevil	M	G	EN	TUR	TR	
+M001152	Sevilen	M	G	EN	TUR	TR	
+M001153	Sevim	M	G	EN	TUR	TR	
+M001154	Sevinç	M	G	EN	TUR	TR	
+M001155	Sevket	M	G	EN	TUR	TR	شوكت
+M001156	Sevtap	M	G	EN	TUR	TR	
+M001157	Sevval	M	G	EN	TUR	TR	
+M001158	Sezen	M	G	EN	TUR	TR	
+M001159	Sezgin	M	G	EN	TUR	TR	
+M001160	Seçil	M	G	EN	TUR	TR	
+M001161	Seçkin	M	G	EN	TUR	TR	
+M001162	Shushud	M	G	EN	TUR	TR	
+M001163	Shâhrukh	M	G	EN	TUR	TR	
+M001164	Sibel	M	G	EN	TUR	TR	سبيل
+M001165	Sihâb	M	G	EN	TUR	TR	شهاب
+M001166	Sihâbeddîn	M	G	EN	TUR	TR	شهاب الدين
+M001167	Sim	M	G	EN	TUR	TR	
+M001168	Simge	M	G	EN	TUR	TR	
+M001169	Simten	M	G	EN	TUR	TR	
+M001170	Sina	F	G	EN	TUR	TR	
+M001171	Sinan	M	G	EN	TUR	TR	سنان
+M001172	Sinasi	M	G	EN	TUR	TR	
+M001173	Sinem	M	G	EN	TUR	TR	
+M001174	Sipahi	M	G	EN	TUR	TR	صباحي
+M001175	Siren	M	G	EN	TUR	TR	سرين
+M001176	Sokollu	M	G	EN	TUR	TR	
+M001177	Solmaz	M	G	EN	TUR	TR	
+M001178	Sonay	M	G	EN	TUR	TR	
+M001179	Soner	M	G	EN	TUR	TR	
+M001180	Songül	M	G	EN	TUR	TR	
+M001181	Srader	M	G	EN	TUR	TR	
+M001182	Suat	M	G	EN	TUR	TR	
+M001183	Suker	M	G	EN	TUR	TR	سكر
+M001184	Sultan	M	G	EN	TUR	TR	سلطان
+M001185	Sumru	M	G	EN	TUR	TR	
+M001186	Suna	F	G	EN	TUR	TR	
+M001187	Sunalp	M	G	EN	TUR	TR	
+M001188	Sunay	M	G	EN	TUR	TR	
+M001189	Sundak	M	G	EN	TUR	TR	
+M001190	Sungu	M	G	EN	TUR	TR	
+M001191	Suphi	M	G	EN	TUR	TR	
+M001192	Suzan	M	G	EN	TUR	TR	
+M001193	Sâhîn	M	G	EN	TUR	TR	شاهين
+M001194	Sâmîzâde	M	G	EN	TUR	TR	
+M001195	Sînâ	M	G	EN	TUR	TR	
+M001196	Sönmez	M	G	EN	TUR	TR	
+M001197	Süccâ	M	G	EN	TUR	TR	
+M001198	Süher	M	G	EN	TUR	TR	سهير
+M001199	Süheyla	F	G	EN	TUR	TR	سهيلة
+M001200	Sükriye	F	G	EN	TUR	TR	شكرية
+M001201	Sükür	M	G	EN	TUR	TR	شكور
+M001202	Sülen	M	G	EN	TUR	TR	
+M001203	Sümer	M	G	EN	TUR	TR	
+M001204	Sümeyya	F	G	EN	TUR	TR	سمية
+M001205	Süreyya	F	G	EN	TUR	TR	ثريا
+M001206	Tabari	M	G	EN	TUR	TR	طبري
+M001207	Tabeeb	M	G	EN	TUR	TR	طبيب
+M001208	Tabib	M	G	EN	TUR	TR	طبيب
+M001209	Tacettin	M	G	EN	TUR	TR	تاج الدين
+M001210	Tagmaç	M	G	EN	TUR	TR	
+M001211	Tahir	M	G	EN	TUR	TR	طاهر
+M001212	Tahsin	M	G	EN	TUR	TR	تحسين
+M001213	Takiyyüddîn	M	G	EN	TUR	TR	تقي الدين
+M001214	Talip	M	G	EN	TUR	TR	طالب
+M001215	Tamer	M	G	EN	TUR	TR	
+M001216	Tanaoglu	M	G	EN	TUR	TR	
+M001217	Taner	M	G	EN	TUR	TR	
+M001218	Tanju	M	G	EN	TUR	TR	
+M001219	Tankut	M	G	EN	TUR	TR	
+M001220	Tansel	M	G	EN	TUR	TR	
+M001221	Tansu	M	G	EN	TUR	TR	
+M001222	Tarik	M	G	EN	TUR	TR	
+M001223	Tarkan	M	G	EN	TUR	TR	طرقان
+M001224	Tayfun	M	G	EN	TUR	TR	
+M001225	Taygun	M	G	EN	TUR	TR	
+M001226	Taylan	M	G	EN	TUR	TR	
+M001227	Taymiyya	F	G	EN	TUR	TR	تيمية
+M001228	Tayyar	M	G	EN	TUR	TR	طيار
+M001229	Tayyib	M	G	EN	TUR	TR	طيب
+M001230	Tayyibe	F	G	EN	TUR	TR	طيبة
+M001231	Tekin	M	G	EN	TUR	TR	
+M001232	Temel	M	G	EN	TUR	TR	
+M001233	Teoman	M	G	EN	TUR	TR	
+M001234	Tesa	F	G	EN	TUR	TR	
+M001235	Tevfik	M	G	EN	TUR	TR	توفيق
+M001236	Tevrat	M	G	EN	TUR	TR	
+M001237	Tezcan	M	G	EN	TUR	TR	
+M001238	Tezer	M	G	EN	TUR	TR	
+M001239	Timur	M	G	EN	TUR	TR	
+M001240	Timuçin	M	G	EN	TUR	TR	
+M001241	Tolan	M	G	EN	TUR	TR	
+M001242	Tolga	F	G	EN	TUR	TR	
+M001243	Tolunay	M	G	EN	TUR	TR	
+M001244	Topaloglu	M	G	EN	TUR	TR	
+M001245	Toprak	M	G	EN	TUR	TR	
+M001246	Torlak	M	G	EN	TUR	TR	
+M001247	Toros	M	G	EN	TUR	TR	
+M001248	Torumtay	M	G	EN	TUR	TR	
+M001249	Tosun	M	G	EN	TUR	TR	
+M001250	Toygar	M	G	EN	TUR	TR	
+M001251	Tuba	F	G	EN	TUR	TR	
+M001252	Tugba	F	G	EN	TUR	TR	
+M001253	Tufan	M	G	EN	TUR	TR	
+M001254	Tugai	M	G	EN	TUR	TR	
+M001255	Tulon	M	G	EN	TUR	TR	
+M001256	Tuna	F	G	EN	TUR	TR	
+M001257	Tunay	M	G	EN	TUR	TR	
+M001258	Tuncay	M	G	EN	TUR	TR	
+M001259	Tuncer	M	G	EN	TUR	TR	
+M001260	Tunç	M	G	EN	TUR	TR	
+M001261	Tural	M	G	EN	TUR	TR	
+M001262	Turan	M	G	EN	TUR	TR	
+M001263	Turgay	M	G	EN	TUR	TR	
+M001264	Turgut	M	G	EN	TUR	TR	
+M001265	Turhan	M	G	EN	TUR	TR	
+M001266	Turk	M	G	EN	TUR	TR	
+M001267	Turna	F	G	EN	TUR	TR	
+M001268	Tursun	M	G	EN	TUR	TR	
+M001269	Turusan	M	G	EN	TUR	TR	
+M001270	Tutku	M	G	EN	TUR	TR	
+M001271	Tülay	M	G	EN	TUR	TR	
+M001272	Tülin	M	G	EN	TUR	TR	
+M001273	Tümay	M	G	EN	TUR	TR	
+M001274	Türkan	M	G	EN	TUR	TR	
+M001275	Türkay	M	G	EN	TUR	TR	
+M001276	Türkekul	M	G	EN	TUR	TR	
+M001277	Türker	M	G	EN	TUR	TR	
+M001278	Türkes	M	G	EN	TUR	TR	
+M001279	Türkol	M	G	EN	TUR	TR	
+M001280	Uche	M	G	EN	TUR	TR	
+M001281	Ufuk	M	G	EN	TUR	TR	أفق
+M001282	Ulu	M	G	EN	TUR	TR	
+M001283	Ulugh	M	G	EN	TUR	TR	
+M001284	Ulusu	M	G	EN	TUR	TR	
+M001285	Uluç	M	G	EN	TUR	TR	
+M001286	Ulvi	M	G	EN	TUR	TR	علوي
+M001287	Ulviye	F	G	EN	TUR	TR	علوية
+M001288	Umur	M	G	EN	TUR	TR	عمر
+M001289	Umut	M	G	EN	TUR	TR	
+M001290	Utkan	M	G	EN	TUR	TR	
+M001291	Utku	M	G	EN	TUR	TR	
+M001292	Uzay	M	G	EN	TUR	TR	
+M001293	Uzun	M	G	EN	TUR	TR	
+M001294	Vahide	M	G	EN	TUR	TR	
+M001295	Vahit	M	G	EN	TUR	TR	
+M001296	Vaner	M	G	EN	TUR	TR	
+M001297	Vanga	F	G	EN	TUR	TR	
+M001298	Varnik	M	G	EN	TUR	TR	
+M001299	Varol	M	G	EN	TUR	TR	
+M001300	Vecdi	M	G	EN	TUR	TR	وجدي
+M001301	Vedat	M	G	EN	TUR	TR	وداد
+M001302	Vefa	F	G	EN	TUR	TR	وفاء
+M001303	Veli	M	G	EN	TUR	TR	ويل
+M001304	Verda	F	G	EN	TUR	TR	وردة
+M001305	Vesile	M	G	EN	TUR	TR	
+M001306	Vicdan	M	G	EN	TUR	TR	وجدان
+M001307	Vildan	M	G	EN	TUR	TR	ولدان
+M001308	Volkan	M	G	EN	TUR	TR	
+M001309	Vural	M	G	EN	TUR	TR	
+M001310	Vuslat	M	G	EN	TUR	TR	
+M001311	Ya'kûb	M	G	EN	TUR	TR	يعقوب
+M001312	Yagmur	M	G	EN	TUR	TR	
+M001313	Yahya	F	G	EN	TUR	TR	يحيى
+M001314	Yakup	M	G	EN	TUR	TR	يعقوب
+M001315	Yakut	M	G	EN	TUR	TR	ياقوت
+M001316	Yalman	M	G	EN	TUR	TR	
+M001317	Yalpat	M	G	EN	TUR	TR	
+M001318	Yalçin	M	G	EN	TUR	TR	
+M001319	Yamak	M	G	EN	TUR	TR	
+M001320	Yaman	M	G	EN	TUR	TR	
+M001321	Yaprak	M	G	EN	TUR	TR	
+M001322	Yasar	M	G	EN	TUR	TR	يسار
+M001323	Yasemin	M	G	EN	TUR	TR	ياسمين
+M001324	Yasin	M	G	EN	TUR	TR	ياسين
+M001325	Yavuz	M	G	EN	TUR	TR	
+M001326	Yazgül	M	G	EN	TUR	TR	
+M001327	Yazîcî	M	G	EN	TUR	TR	
+M001328	Yazîcîoglu	M	G	EN	TUR	TR	
+M001329	Yazîcîzâde	M	G	EN	TUR	TR	
+M001330	Yigit	M	G	EN	TUR	TR	
+M001331	Yildiz	M	G	EN	TUR	TR	
+M001332	Yildizoglu	M	G	EN	TUR	TR	
+M001333	Yilmaz	M	G	EN	TUR	TR	
+M001334	Yonca	F	G	EN	TUR	TR	
+M001335	Yosun	M	G	EN	TUR	TR	
+M001336	Yunus	M	G	EN	TUR	TR	يونس
+M001337	Yurcel	M	G	EN	TUR	TR	
+M001338	Yurdagül	M	G	EN	TUR	TR	
+M001339	Yurdakul	M	G	EN	TUR	TR	
+M001340	Yurdanur	M	G	EN	TUR	TR	
+M001341	Yurtsev	M	G	EN	TUR	TR	
+M001342	Yusuf	M	G	EN	TUR	TR	يوسف
+M001343	Yücel	M	G	EN	TUR	TR	
+M001344	Yüksel	M	G	EN	TUR	TR	
+M001345	Zafer	M	G	EN	TUR	TR	ظفر
+M001346	Zaganos	M	G	EN	TUR	TR	
+M001347	Zaide	F	G	EN	TUR	TR	زايدة
+M001348	Zeheb	M	G	EN	TUR	TR	ذهب
+M001349	Zehra	F	G	EN	TUR	TR	زهرة
+M001350	Zekai	M	G	EN	TUR	TR	
+M001351	Zeki	M	G	EN	TUR	TR	ذكي
+M001352	Zekiye	F	G	EN	TUR	TR	زكية
+M001353	Zeliha	F	G	EN	TUR	TR	زليخة
+M001354	Zeren	M	G	EN	TUR	TR	
+M001355	Zerrin	M	G	EN	TUR	TR	
+M001356	Zihni	M	G	EN	TUR	TR	زهني
+M001357	Ziya	F	G	EN	TUR	TR	ضياء
+M001358	Ziynet	M	G	EN	TUR	TR	زينات
+M001359	Zorlu	M	G	EN	TUR	TR	
+M001360	Zühal	M	G	EN	TUR	TR	زحل
+M001361	Zühre	F	G	EN	TUR	TR	زهرة
+M001362	Zülal	M	G	EN	TUR	TR	زلال
+M001363	Züleyha	F	G	EN	TUR	TR	زليخة
+M001364	Zeliha	F	G	EN	TUR	TR	زليخة
+M001365	Zülfiye	F	G	EN	TUR	TR	زلفية
+M001366	Zülfü	M	G	EN	TUR	TR	
+M001367	Zümrüt	M	G	EN	TUR	TR	زمرد
+M001368	Ömür	M	G	EN	TUR	TR	
+M001369	Öykü	M	G	EN	TUR	TR	
+M001370	Özge	M	G	EN	TUR	TR	
+M001371	Özlem	M	G	EN	TUR	TR	
+M001372	Ülker	M	G	EN	TUR	TR	
+M001373	Ülkü	M	G	EN	TUR	TR	
+M001374	Ünsel	M	G	EN	TUR	TR	
+M001375	Ünseli	M	G	EN	TUR	TR	
+M001376	Ülker	M	G	EN	TUR	TR	
+M001377	Ülkü	M	G	EN	TUR	TR	
+M001378	Ümit	M	G	EN	TUR	TR	
+M001379	Ümmiye	F	G	EN	TUR	TR	أمية
+M001380	Ünal	M	G	EN	TUR	TR	
+M001381	Ünsel	M	G	EN	TUR	TR	
+M001382	Ünseli	M	G	EN	TUR	TR	
+M001383	Ünver	M	G	EN	TUR	TR	
+M001384	Ünyay	M	G	EN	TUR	TR	
+M001385	Üruisamoglu	M	G	EN	TUR	TR	
+M001386	Özbek	M	G	EN	TUR	TR	
+M001387	Özbudun	M	G	EN	TUR	TR	
+M001388	Özcan	M	G	EN	TUR	TR	
+M001389	Özdaglaar	M	G	EN	TUR	TR	
+M001390	Özdemir	M	G	EN	TUR	TR	
+M001391	Özden	M	G	EN	TUR	TR	
+M001392	Özen	M	G	EN	TUR	TR	
+M001393	Özer	M	G	EN	TUR	TR	
+M001394	Özergin	M	G	EN	TUR	TR	
+M001395	Özge	M	G	EN	TUR	TR	
+M001396	Özgür	M	G	EN	TUR	TR	
+M001397	Özkan	M	G	EN	TUR	TR	
+M001398	Özlem	M	G	EN	TUR	TR	
+M001399	Öztorun	M	G	EN	TUR	TR	
+M001400	Âlî	M	G	EN	TUR	TR	علي
+M001401	Çagla	F	G	EN	TUR	TR	
+M001402	Çaglar	M	G	EN	TUR	TR	
+M001403	Çaka	F	G	EN	TUR	TR	
+M001404	Çakmak	M	G	EN	TUR	TR	
+M001405	Çandarli	M	G	EN	TUR	TR	
+M001406	Çelebi	M	G	EN	TUR	TR	جلبي
+M001407	Çelik	M	G	EN	TUR	TR	
+M001408	Çetin	M	G	EN	TUR	TR	
+M001409	Çigdem	M	G	EN	TUR	TR	
+M001410	Çiler	M	G	EN	TUR	TR	
+M001411	Çiçek	M	G	EN	TUR	TR	
+M001412	Çolpan	M	G	EN	TUR	TR	
+M001413	Çonar	M	G	EN	TUR	TR	
+M001414	Çorlulu	M	G	EN	TUR	TR	
+M001415	Çölasan	M	G	EN	TUR	TR	
+M001416	Safrahji	M	S	EN	TUR	SY	سفرةجي
+M001417	Sefradji	M	S	FR	TUR	SY	سفرةجي
+M001418	Genadjk	M	S	FR	TUR	JO	غنەجق
+M001419	Ghanajag	M	S	EN	TUR	JO	غنەجق
+M001420	Ghanahajgah	M	C	EN	TUR	JO	غنەجقة
+M001421	Ganadjaka	M	C	FR	TUR	JO	غنەجقة
+M001422	Genadjkeh	M	S	FR	TUR	JO	غنەجقه
+M001423	Ghanajaqah	M	S	EN	TUR	JO	غنەجقه
+M001424	Kerh Kach	M	S	FR	TUR	SY	قرەقاش
+M001425	Qarh Qash	M	S	EN	TUR	SY	قرەقاش
+M001426	Mazdidoh	M	S	EN	PER	AE	مزديدوه
+M001427	Mezdidouh	M	S	FR	PER	AE	مزديدوه
+M001428	Hoshiar	M	G	ES	PER	IQ	
+M001429	Houchiar	M	G	FR	PER	IQ	
+M001430	Huschiar	M	G	DE	PER	IQ	
+M001431	Hushiar	M	G	EN	PER	IQ	
+M001432	Hofic	M	G	IT	PER	IQ	
+M001433	Hofik	M	G	ES	PER	IQ	
+M001434	Hoofik	M	G	NL	PER	IQ	
+M001435	Houfik	M	G	FR	PER	IQ	
+M001436	Hufik	M	G	EN	PER	IQ	

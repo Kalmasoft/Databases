@@ -1,0 +1,122 @@
+﻿# Kalmasoft Databases
+# Database of World Famous People
+# References: www.kalmasoft.com/KLEX/dbfamnm.htm
+# Created: 27/12/2013
+# Updated: 14/6/2019
+# Encoding: UTF8
+# Delimiter: TAB
+# Total names: 8,000,000+ records
+# Copyright ©1999-2019 Kalmasoft www.kalmasoft.com
+# Contact: info@kalmasoft.com
+# ================================================
+# Attributes:
+#	ID:7 digits variant identification number, [N#######]
+#	ARABIC: unvocalized Arabic name.
+#	ENGLISH: name in English.
+#	KATS: name in Kalmasoft's KATS, refer www.kalmasoft.com/adevtool.htm# kats
+#	CATEGORY: field of specialization, please refer to www.kalmasoft.com/code.htm
+#	SUBCAT: activity subcategory, please refer to www.kalmasoft.com/code.htm# subcat
+#	COUNTRY: Please refer to codes page: www.kalmasoft.com/code.htm
+#	GENDER: name gender; M: male, F: female.
+# ================================================
+ID	ENGLISH	ARABIC	KATS	CATEGORY	SUBCAT	COUNTRY	GENDER
+N0000001	Sylvester Stallone	سيلفستر ستالوني	sylfstr stAlwny	ART	ACTS	US	M
+N0000002	John Garang	جون غارانغ	jwn gArAng	PLC		SD	M
+N0000003	Fidel Castro	فيدل كاسترو	fydl kAstrw	PLC		CU	M
+N0000004	Kizo Obutchi	كيزو أوبوتشي	kyzw !wbwt$y	PLC		JP	M
+N0000005	Tom Hanks	توم هانكس	twm hAnks	ART	ACTS	US	M
+N0000006	Diana López	ديانا لوبيز	dyAnA lwbyz	PLC		NI	F
+N0000007	Bill Gates	بيل غيتس	byl gyts	BUS	CMPT	US	M
+N0000008	Winston Churchill	ونستون تشرشل	wnstwn t$r$l	PLC		UK	M
+N0000009	Ayaka Hirahara	أياكا هيراهارا	!yAkA hyrAhArA	ART	SING	JP	F
+N0000010	David Beckham	ديفيد بيكهام	dyfyd bykhAm	SPT	SOCR	UK	M
+N0000011	Donald Trump	دونالد ترامب	dwnAld trAmb	BUS		US	M
+N0000012	Albert Einstein	ألبرت آينشتاين	!lbrt |yn$tAyn	SCI	PHYS	US	M
+N0000013	Thierry Henry	تييري هينري	tyyry hynry	SPT	SOCR	FR	M
+N0000014	Bob Marley	بوب مارلي	bwb mArly	ART	SING	ZW	M
+N0000015	Adolf Hitler	إدولف هتلر	Edwlf htlr	PLC		DE	M
+N0000016	Marilyn Monroe	مارلين مونرو	mArlyn mwnrw	ART	ACTS	US	F
+N0000017	Tiger Woods	تايغر وودز	tAygr wwdz	SPT	GOLF	US	M
+N0000018	Nelson Mandela	نيلسون مانديلا	nylswn mAndylA	PLC		ZA	M
+N0000019	Nadia Comăneci	ناديا كومانتشي	nAdyA kwmAnt$y	SPT	GYMN	RO	F
+N0000020	Luis Morinho Okampo	لويس مورينو أوكامبو	lwys mwrynw !wkAmbw	LAW		AR	M
+N0000021	Nuanko Kano	نوانكو كانو	nwAnkw kAnw	SPT	SOCR	NG	M
+N0000022	Usama bin Ladin	أسامة بن لادن	!sAm: bn lAdn	PLC		SA	M
+N0000023	Xavier Solana	خافيير سولانا	KAfyyr swlAnA	PLC			M
+N0000024	Ray Charles	ري تشارلز	ry t$Arlz	ART	SING	US	M
+N0000025	Leonid Brezhnev	ليونيد بريجنيف	lywnyd bryjnyf	PLC		RU	M
+N0000026	Leonardo daVinci	ليوناردو دافينشي	lywnArdw dA fyn$y	SCI	PHYS	IT	M
+N0000027	Michael Jackson	مايكل جاكسون	mAykl jAkswn	ART	SING	US	M
+N0000028	Hulk Hogan	هوك هوغان	hwk hwgAn	SPT	WRST	US	M
+N0000029	Roberto Carlos	روبيرتو كارلوس	rwbyrtw kArlws	SPT	SOCR	BR	M
+N0000030	Hu Jintau	هو جنتاو	hw jntAw	PLC		CN	M
+N0000031	Muamar Gadhafi	معمر القذافي	momr AlqcAfy	PLC		LY	M
+N0000032	Diego Maradona	دييغو مارادونا	dyygw mArAdwnA	SPT	SOCR	AR	M
+N0000033	Barbra Streisand	بربارا سترايسند	brbArA strAysnd	ART	SING	US	F
+N0000034	Alberto Fujimori	ألبيرتو فوجيموري	!lbyrtw fwjymwry	PLC		PE	M
+N0000035	Umar Albashir	عمر البشير	omr Alb$yr	PLC		SD	M
+N0000036	William Shakespeare	ويليام شكسبير	wylyAm $ksbyr	ART	AUTH	UK	M
+N0000037	Ferdinand Marcos	فيرديناند ماركوس	fyrdynAnd mArkws	PLC		PH	M
+N0000038	Oprah Winfrey	أوبرا وينفري	!wbrA wynfry	ART		US	F
+N0000039	Wolfgang Amadeus Mozart	فولفغانغ أماديوس موزارت	wlfgAng !mAdyws mwzArt	ART		AT	M
+N0000040	James Cameron	جيمس كاميرون	jyms kAmyrwn	ART	DRCT	US	M
+N0000041	Frederick Henry	فريدريك هينري	frdryk hغnry	PLC		NL	M
+N0000042	Altayib Salih	الطيب صالح	AlTyb SAlH	ART	AUTH	SD	M
+N0000043	Yakov Smirnoff	ياكوف سميرنوف	yAkwf smyrnwf	ART	ACTS	UA	M
+N0000044	Maria Cary	ماريا كيري	mAryA kyry	ART	SING	US	F
+N0000045	Mark Twain	مارك توين	mArk twyn	ART	AUTH	US	M
+N0000046	Alton John	ألتون جون	!ltwn jwn	ART	SING	UK	M
+N0000047	Alfred Hitchcock	الفريد هيتشكوك	!lfryd hyt$kwk	ART	AUTH	UK	M
+N0000048	Hedeki Yukawa	هيديكي يوكاوا	hydyky ywkAwA	SCI	PHYS	JP	M
+N0000049	John Cena	جون سينا	jwn synA	SPT	WST	US	M
+N0000050	Jose Cortez	خوزيه كورتيز	Kwzyh kwrtyz	SPT	SOCR	SV	M
+N0000051	Butrus Ghali	بطرس غالي	bTrs gAly	PLC		EG	M
+N0000052	Martina Navrátilová	مارتينا نافراتيلوفا	mArtynA nAfrAtylwfA	SPT	TENS		F
+N0000053	Kamal Alshennawi	كمال الشناوي	kmAl Al$nAwy	ART	ACTS	EG	M
+N0000054	Najib Mahfudh	نجيب محفوظ	njyb mHfwZ	ART	AUTH	EG	M
+N0000055	Manuel Noriega	مانويل نورييغا	mAnwyl nwryygA	PLC		PA	M
+N0000056	Ayman Alzawahri	أيمن الظواهري	!ymn AlZwAhry	PLC		EG	M
+N0000057	Jamal Abdel Nassir	جمال بعد الناصر	jmAl obd AlnASr	PLC		EG	M
+N0000058	Oliver Kahn	أوليفر كان	!wlyfr kAn	SPT	SOCR	DE	M
+N0000059	Margaret Thatcher	مارغريت ثاتشر	mArgryt xAt$r	PLC		UK	F
+N0000060	Larry King	لاري كينغ	lAry kyng	ART	MDIA	US	M
+N0000061	Julio Iglesias	خوليو إيغلاسياس	Kwlyw EglAsyAs	ART	SING	ES	M
+N0000062	Nastassja Kinski	ناستازيا كينسكي	nAstAzyA kynsky	ART	ACTS	DE	F
+N0000063	Eric Cantona	إيريك كانتونا	Eryk kAntwnA	SPT	SOCR	FR	M
+N0000064	Yanni Christomalis	ياني خريسوماليس	yAny KryswmAlys	ART	CMPS	GR	M
+N0000065	Marie Antoinette	ماري أنطوانيت	mAry !nTwAnyt	PLC		AT	M
+N0000066	Maria Klaas	ماريا كلاس	mAryA klAs	ART	SING	GR	F
+N0000067	Sophie Marceau	صوفي مارسو	Swfy mArsw	ART	ACTS	FR	F
+N0000068	Mike Oldfield	مايك أولدفيلد	mAyk !wldfyld	ART	CMPS	UK	M
+N0000069	Kenny Gorlick	كيني غورليك	kyny gwrlyk	ART	PLAY	US	M
+N0000070	Jacques Cousteau	جاك كوستو	jAk kwstw	SCI	MARN	FR	M
+N0000071	Tommy Lee	تومي لي	twmy ly	ART	ACTS	US	M
+N0000072	Giuseppe Verdi	جوزيبي فيردي	jwzyby fyrdy	ART	CMPS	IT	M
+N0000073	Mustafa Alaqad	مصطفى العقاد	mSTfY AloqAd	ART	DRCT	SY	M
+N0000074	Jacques Chirac	جاك شيراك	jAk $yrAk	PLC		FR	M
+N0000075	Salma Hayek	سلمى حايك	slmY HAyk	ART	ACTS	MX	F
+N0000076	Martin Luther	مارتن لوثر	mArtn lwxr	PLC		DE	M
+N0000077	Amitab Batchan	أميتاب باتشان	!mytAb bAt$An	ART	ACTS	IN	M
+N0000078	Bruce Lee	بروس لي	brws ly	ART	ACTS	CN	M
+N0000079	Adnan Khashuqji	عدنان خاشقجي	odnAn KA$qjy	BUS		SA	M
+N0000080	Farah Eided	فرح عيديد	frH oydyd	PLC		SO	M
+N0000081	Abraham Lincoln	أبراهام لينكولن	!brAhAm lynkwln	PLC		US	M
+N0000082	Joseph Koni	جوزف كوني	jwzf kwny	PLC		UG	M
+N0000083	Umar Alsharif	عمر الشريف	omr Al$ryf	ART	ACTS	EG	M
+N0000084	Yuri Andropov	يوري أندروبوف	ywry !ndrwbwf	PLC		RU	M
+N0000085	Shaher Abdulhak	شاهر عبد الحق	$Ahr Obd AlhHq	BUS		YE	M
+N0000086	Michael Jordan	مايكل جوردان	mAykl jwrdAn	SPT	BSKT	US	M
+N0000087	Ibrahim Rugova	إبراهيم روغوفا	EbrAhym rwgwfA	PLC		AL	M
+N0000088	Neil Armstrong	نييل أرمسترونغ	nyyl !rmstrwng	SCI	ASTR	US	M
+N0000089	Sadam Husein	صدام حسين	SdAm Hsyn	PLC		IQ	M
+N0000090	Cheb Khalid	الشاب خالد	Al$Ab KAld	ART	SING	DZ	M
+N0000091	Eugene Kaspersky	يوجين كاسبرسكي	ywjyn kAsbrsky	BUS	CMPT	RU	M
+N0000092	Majda Alrumi	ماجدة الرومي	mAjd: Alrwmy	ART	SING	LB	F
+N0000093	Paris Hilton	باريس هيلتون	bArys hyltwn	ART		US	F
+N0000094	Andira Ghandi	أنديرا غاندي	!ndyrA gAndy	PLC		IN	F
+N0000095	Robert Murdock	روبرت ميردوخ	rwbrt myrdwK	BUS		US	M
+N0000096	Pervez Musharraf	برفيز مشرف	brfyz m$rf	PLC		PK	M
+N0000097	Kim Dae-jong	كيم داي جونغ	kym dAy jwng	PLC		KR	M
+N0000098	Jackie Chan	جاكي شان	jAky $An	ART	ACTS	CN	M
+N0000099	Irène Joliot-Curie	إيرين جوليو كوري	Eryn jwlyw kwry	SCI	CHEM	FR	F
+N0000100	Haifa Wahbe	هيفاء وهبي	hyfA' whby	ART	SING	LB	F

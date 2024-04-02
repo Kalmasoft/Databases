@@ -1,0 +1,48 @@
+﻿# Kalmasoft Databases
+# Database of Afghani Names (KDBNAFN)
+# References: www.kalmasoft.com/KLEX/dbetym.htm# Afghanistan
+# Date: 1/11/2012
+# Encoding: UTF8
+# Delimiter: TAB
+# Total given names: 4,000+ records
+# Countries covered: Afghanistan
+# Copyright ©1999-2012 Kalmasoft www.kalmasoft.com
+# Contact: info@kalmasoft.com
+# ================================================
+# Fields:
+# 
+#	ID: 5 digits variant identification number [AF# # # # # ]
+#	Entry: Afghani name in either Pashto or Dari.
+#	Roman: romanized version of the Afghani name.
+#	IPA: Pronunciation of Afghani name in IPA (Broad).
+#	Arabic: Afghani name in unvocalized Arabic (MSA).
+#	Dialect: P: Pashto; D: Dari.
+#	Type: G: given name; S: Surname.
+#	Gender: name gender; M: male, F: female, U: unisex.
+# ================================================
+# Notes:
+# (1) Data file has the same header as the one shown below
+# (2) Romanized version (in the "Roman" field) of Afghani name may have multiple variants, variants are not included.
+
+ID	Entry	Roman	IPA	Arabic	Dialect	Type	Gender
+AF00001	ځيگر	Dzegar	/dʒegar/	زيغر	P	G	M
+AF00002	ځواک	Dziwak	/dʒiwaːk/	زيواك	P	G	M
+AF00003	ځيږ	Dzeg	/dʒiːg/	زيغ	P	G	M
+AF00004	ځيرک	Dzerak	/dʒirak/	زيراك	P	G	M
+AF00005	خپلواک	Khapluwak	/xap'luwaːk/	خبلواك	P	G	M
+AF00006	خوځښت	Khodzshit	/xodzɪst/	خوزشيت	P	G	M
+AF00007	خيال	Khayal	/xajaːl/	خيال	P	G	M
+AF00008	خاورين	Khawrin	/xawriːn/	خاورين	P	G	M
+AF00009	خيبر	Khaybar	/xaj'bar/	خيبر	P	G	M
+AF00010	پانگه	Panga	/panga/	بانغة	P	G	F
+AF00011	پرخه	Parkha	/parxa/	برخة	P	G	F
+AF00012	پتاسه	Pitasa	/pitaːsa/	بتاسة	P	G	F
+AF00013	پېروزه	Peruza	/piruːza/	بيروزة	P	G	F
+AF00014	تورپيکۍ	Torpekeiy	/topekəi/	توربيكي	P	G	F
+AF00015	توتکۍ	Totkeiy	/totkəi/	توتكي	P	G	F
+AF00016	تنکۍ	Tankeiy	/tankəi/	تنكي	P	G	F
+AF00017	څانگه	Tsanga	/tsanga/	زانغة	P	G	F
+AF00018	ځلبله	Dzalbala	/dʒalbala/	زلبلة	P	G	F
+AF00019	ځولۍ	Dzoleiy	/dʒawləi/	زولي	P	G	F
+AF00020	خزانه	Khazana	/xazaːna/	خزانة	P	G	F
+

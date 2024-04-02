@@ -1,0 +1,147 @@
+# Kalmasoft Databases
+# Database of Unique and Indigenous Names
+# References: www.kalmasoft.com/KLEX/dbgivnm.htm, www.kalmasoft.com/KLEX/dbsurnm.htm,  www.kalmasoft.com/KLEX/SAMPLES/KDBGIVE.txt
+# Created: 20/5/2021
+# Updated: 23/5/2021
+# Encoding: UTF8
+# Delimiter: TAB
+# Total entries: +300K
+# Countries covered: 21
+# Copyright 1999-2021 Kalmasoft www.kalmasoft.com
+# Contact: info@kalmasoft.com
+# ================================================
+# Attributes:
+#	ID: Reference ID
+#	Name: name in Arabic script
+#	Type: type of name
+#		C: common, used for given and surnames
+#		G: given name
+#		S: surname, last name
+#	Gender: name gender marker
+#		F: female
+#		M: male
+#		U: unisex
+#	Category: name categorization
+#		I: indigenous name
+#		L: loan name
+#		Q: unique name
+#	Origin: possible origin of the name
+#		A: Arabic origin
+#		N: non-Arabic origin
+#	Country: two-letter country code.
+#		NN: Non-native name or neutral name,
+#		DZ:Algeria, BH:Bahrain, EG:Egypt, IQ:Iraq, JO:Jordan, IR: Iran,
+#		SA:Saudi Arabia, KW:Kuwait, LB:Lebanon, LY:Libya, MR:Mauritania, 
+#		MA:Morocco, OM:Oman, PS:Palestine, QA:Qatar, SD:Sudan, 
+#		SY:Syria, TN:Tunisia, TR:Turkey, AE:United Arab Emirates, YE:Yemen
+#		Please refer to codes page: www.kalmasoft.com/code.htm
+# =================================================
+# Notes:
+# This is a validated and refined dataset of unique and indiginous names commonly used in the Arab world.
+# It includes both Arabic and quasi-Arabic "commonly used by Arab" names.
+# 1- names are written in orthographic variants included the way known they naturally exist.
+# 2- names of non-Arabic origin are those found in non-Arab communities or in the peripheries of the Arab world.
+# 3- romanized version is available on request.
+# 4- This database is continuously being updated.
+# ================================================
+ID	Name	Type	Gender	Category	Origin	Country
+U000001	الباجة جي	S	M	I	N	IQ
+U000002	صوراية	G	F	I	N	DZ
+U000003	صمب	G	M	I	N	MR
+U000004	حامينا	G	M	I	N	DZ
+U000005	أبكر	G	M	I	N	SD
+U000006	المريض	S	M	Q	A	LY
+U000007	بلومي	G	M	I	N	DZ
+U000008	علال	G	M	Q	A	MA
+U000009	قعلول	S	M	Q	N	TN
+U000010	الطائع	S	M	Q	A	MR
+U000011	ست النفر	G	F	I	N	SD
+U000012	دمب	G	M	I	N	MR
+U000013	خريسات	S	M	Q	A	JO
+U000014	الرحباني	S	M	Q	A	LB
+U000015	الفزاني	S	M	Q	N	LY
+U000016	قايد	G	M	Q	A	YE
+U000017	شطورو	S	M	I	N	TN
+U000018	جعجع	S	M	Q	A	LB
+U000019	البلطجي	S	M	Q	N	EG
+U000020	البوابيري	S	M	I	N	SY
+U000021	لفتة	S	M	Q	A	IQ
+U000022	الغياثين	S	M	Q	A	QA
+U000023	طوط	S	M	I	N	LB
+U000024	السادة	G	u	Q	N	SD
+U000025	هاكوز	S	M	Q	N	JO
+U000026	خشبة	S	M	Q	A	EG
+U000027	صعب	G	M	Q	N	LB
+U000028	هريدي	G	M	Q	A	EG
+U000029	كاهي	G	M	I	N	SO
+U000030	الدوسري	S	M	Q	A	SA
+U000031	إيلي	G	M	L	N	LB
+U000032	حننا	S	M	I	N	MR
+U000033	جميع	S	M	Q	A	QA
+U000034	الشبو	S	M	I	N	KW
+U000035	طعمة	S	M	Q	A	SY
+U000036	علبة	S	M	Q	A	EG
+U000037	الماحي	G	M	Q	N	SD
+U000038	مطارنة	S	M	I	N	JO
+U000039	ضاهر	G	M	Q	N	SO
+U000040	موسجي	S	M	I	N	AE
+U000041	إسكاف	S	M	I	N	SY
+U000042	الفأر	G	M	Q	A	EG
+U000043	قرنق	G	M	I	N	SD
+U000044	دجران	S	M	Q	A	QA
+U000045	كميخ	S	M	Q	A	SA
+U000046	وريا	G	M	I	N	SO
+U000047	ضعون	S	M	Q	A	SY
+U000048	لقظف	G	M	I	N	MR
+U000049	مواضيع	S	M	Q	A	MA
+U000050	الرزدي	S	M	Q	A	TN
+U000051	الجوفي	S	M	Q	A	SA
+U000052	قرميش	S	M	Q	A	JO
+U000053	التلمودي	S	M	Q	N	TN
+U000054	بجلي	G	M	Q	A	YE
+U000055	قروامسة	S	M	I	N	DZ
+U000056	باني	*	M	I	N	SO
+U000057	الطريبق	S	M	Q	A	MA
+U000058	ورسمي	S	M	I	N	SO
+U000059	بوخديمي	S	M	Q	A	DZ
+U000060	بلل	G	M	Q	N	SD
+U000061	الفيلكاوي	S	M	Q	A	KW
+U000062	الراسبية	S	M	Q	A	OM
+U000063	حسينو	S	M	I	N	SY
+U000064	بورسلي	S	M	I	N	KW
+U000065	الشقحا	G	F	Q	A	SA
+U000066	إمنداخ	S	M	I	N	MA
+U000067	المصيليح	S	M	Q	A	KW
+U000068	الكيتانية	S	M	Q	A	OM
+U000069	حمدناك	G	M	Q	A	ER
+U000070	سامبي	G	M	I	N	CO
+U000071	ليلو	S	M	I	N	IQ
+U000072	بنبوية	S	M	I	N	MA
+U000073	دبارة	G	M	I	N	YE
+U000074	هصيص	S	M	Q	N	PL
+U000075	قربوج	S	M	I	N	TN
+U000076	العويسية	S	M	Q	A	OM
+U000077	أومادي	G	M	I	N	CO
+U000078	معشو	G	M	I	N	ER
+U000079	أبو دقة	S	M	Q	A	PL
+U000080	لبينة	G	F	Q	A	CO
+U000081	أرحومة	S	M	Q	N	LY
+U000082	مندر	G	M	I	N	ER
+U000083	الشكيلية	S	M	Q	A	OM
+U000084	آتبة	G	F	Q	A	YE
+U000085	بليخ	S	M	Q	A	SA
+U000086	المقهوي	S	M	Q	A	KW
+U000087	الهتمي	S	M	Q	A	QA
+U000088	عفوك	G	M	Q	A	IQ
+U000089	أمداهوما	G	M	I	N	CO
+U000090	الشقصي	S	M	Q	A	OM
+U000091	أزراج	G	M	I	N	ER
+U000092	بحيبح	S	M	Q	A	YE
+U000093	أوراس	G	M	I	N	IQ
+U000094	البلايلة	S	M	Q	N	AE
+U000095	أزمقنا	S	M	I	N	JO
+U000096	عواتي	S	M	I	N	ER
+U000097	البزور	S	M	Q	A	PL
+U000098	الباروت	S	M	I	N	AE
+U000099	وانامه	G	M	I	N	CO
+U000100	باطح	S	M	Q	A	QA

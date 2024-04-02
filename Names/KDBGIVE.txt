@@ -1,0 +1,663 @@
+# Kalmasoft Databases
+# Database of Romanized Arabic Names (Given/Surnames)
+# References: www.kalmasoft.com/KLEX/dbgivnm.htm, www.kalmasoft.com/KLEX/dbsurnm.htm, www.kalmasoft.com/KLEX/dbvarom.htm
+# Created: 13/4/2019
+# Updated: 17/2/2024
+# Encoding: UTF8
+# Delimiter: TAB
+# Total entries: +1M
+# Unique given names: +50K
+# Unique surnames: +250K
+# Countries covered: 20
+# Copyright 1999-2019 Kalmasoft www.kalmasoft.com
+# Contact: info@kalmasoft.com
+# ================================================
+# Attributes:
+#	ID: Reference ID; A: Arabic, N: non-Arabic
+#	Arabic: unvocalized Arabic name
+#	Vocalized: vocalized Arabic name
+#	Roman: Roman transcription
+#	Gender: name gender
+#		F: female
+#		M: male
+#		U: unisex
+#	Type: type of name
+#		G: given name
+#		S: surname, last name
+#		B: last name, Professional Nisba i.e. business or profession related
+#		C: last name, Tribal Nisba i.e. clan related
+#		K: last name, Kunya i.e. paternal or maternal related
+#		L: last name, Geogrpahic Nisba i.e. location related
+#		N: last name, Nasab i.e. direct or legendary lineage
+#		P: middle name, patronymic
+#	Trans: Variant's regional transcription language
+#		DE: German  (Germanic)
+#		EN: English  (Anglophone)
+#		ES: Spanish  (Hispanic)
+#		FR: French (Francophone)
+#		IT: Italian
+#		NL: Dutch  (Germanic)
+#		TR: Turkish
+#	Spelling: Type of regional spelling
+#		A: Adaptive transcription
+#		E: Extended characters
+#		F: False variant
+#		M: Matres lectionis
+#		S: Standard spelling
+#	Pronunciation: Pronunciation type
+#		L: Local accent
+#		S: Standard pronunciation
+#	Origin: Possible ethnic origin
+#		NAN: Native Arabic
+#		QAS: Quasi-Arabic
+#		AFR: African
+#		AMZ: Amazigh
+#		ARM: Armenian
+#		GRK: Greek
+#		HEB: Hebrew
+#		HND: Hindi
+#		PER: Persian
+#		RUS: Russian
+#		TUR: Turkish
+#		WST: Western
+#	Reference: reference to the valid name
+#	Country: name variant dominant geographies, two-letter country code.
+#		NN: Non-native name or neutral name,
+#		DZ:Algeria, BH:Bahrain, EG:Egypt, IQ:Iraq, JO:Jordan, 
+#		SA:Saudi Arabia, KW:Kuwait, LB:Lebanon, LY:Libya, MR:Mauritania, 
+#		MA:Morocco, OM:Oman, PS:Palestine, QA:Qatar, SD:Sudan, 
+#		SY:Syria, TN:Tunisia, AE:United Arab Emirates, YE:Yemen
+#		Please refer to codes page: www.kalmasoft.com/code.htm
+# ================================================
+# Notes:
+# (1) Variant names follow common Arabic orthography.
+# (2) The vocalized form is the most correct pronunciation according to the corresponding region where used.
+# (3) Surnames are detailed further to P, B, C, K, and N, all may be considered surnames.
+# (4) Few hundreds non-Arabic names added, those are names common in Egypt, Lebanon, Jordan, Syria and Iraq, mostly Christian names, those few thousands "most common" names of non-Arabic origins that found in Arabic region for the following communities: African (e.g. بابو), Armenian (e.g. سركيس), Berber (e.g. تاشفين), Coptic (e.g. دميانة), Kurdish (e.g. آراس), Persian (e.g. آناهيد), Roman (e.g. بطرس), Turkish (e.g. حكمت).
+# (5) Romanization for names of non-Arabic origins will be identical to their English orthography if applicable e.g. (جوزيف = Joseph).
+# (6) No reference to community or ethnic group is given for names of non-Arabic origins, only the the country code.
+# (7) Names of non-Arabic origins were kept to minimum (~1%) of total distinct names (basic set) so as not to give way to the much larger set of non-Arabic names already available as different data set here www.kalmasoft.com/KLEX/dbnames.htm
+# (8) True orthographic variants (mainly space added) were kept to minimum.
+# (9) False variants are mostly common spelling errors being either "Initial Hamza over Alif (أ) replaced by Alif (ا)", "Initial Hamza under Alif (إ) replaced by Alif (ا)", "Taa Marbuta (ة) replaced by Final Haa (ه)", "Final Yaa (ي) replaced by Alif Maqsura (ى)", or the space in multipart names.
+# =================================================
+ID	Arabic	Vocalized	Roman	Gender	Type	Transcript	Spelling	Pronunciation	Origin	Country
+A000001	ابوصايمة	اَبُوصَايمَة	Abosaymah	M	S	EN	F	S	NAN	PS
+A000002	ابوصايمة	اَبُوصَايمَة	Aboussaima	M	S	FR	F	S	NAN	PS
+A000003	البستجي	البَسْتجِي	Albastji	M	B	EN	S	L	TUR	IQ
+A000004	البستجي	البَسْتجِي	Elbestdji	M	B	FR	S	L	TUR	IQ
+A000005	البستجي	البَسْتَجِي	Albastaji	M	B	EN	S	L	TUR	IQ
+A000006	البستجي	البَسْتَجِي	Elbestedji	M	B	FR	S	L	TUR	IQ
+A000007	البسطجي	البُسْطَجِي	Albostagi	M	B	EN	S	L	TUR	JO
+A000008	البسطجي	البُسْطَجِي	Albostaji	M	B	EN	S	L	TUR	JO
+A000009	البسطجي	البُسْطَجِي	Albustagi	M	B	EN	S	L	TUR	JO
+A000010	البسطجي	البُسْطَجِي	Albustaji	M	B	EN	S	L	TUR	JO
+A000011	البسطجي	البُسْطَجِي	Elboustedji	M	B	FR	S	L	TUR	JO
+A000012	البلتجي	البَلْتَجِي	Albaltaji	M	B	EN	S	L	TUR	YE
+A000013	البلتجي	البَلْتَجِي	Elbeltedji	M	B	FR	S	L	TUR	YE
+A000014	البلطجى	البَلْطَجِى	Albaltaji	M	B	EN	S	L	TUR	EG
+A000015	البلطجى	البَلْطَجِى	Elbeltedji	M	B	FR	S	L	TUR	EG
+A000016	البناي	البَنَايّ	Albanai	M	S	EN	S	S	NAN	BH
+A000017	البناي	البَنَايّ	Albanay	M	S	EN	S	S	NAN	BH
+A000018	البنبلي	البَنْبَلِي	Albanbali	M	S	EN	S	S	NAN	TN
+A000019	البنبلي	البَنْبَلِي	Albanbaly	M	S	EN	S	S	NAN	TN
+A000020	البندري	البَنْدَرِي	Albandari	F	G	EN	S	S	NAN	NN
+A000021	البندري	البَنْدَرِي	Elbandari	F	G	ES	S	S	NAN	NN
+A000022	البندري	البَنْدَرِي	Elbenderi	F	G	FR	S	S	NAN	NN
+A000023	البندري	البَنْدَرِيّ	Albandaree	F	G	EN	S	S	NAN	NN
+A000024	البندري	البَنْدَرِيّ	Albandariy	F	G	EN	S	S	NAN	NN
+A000025	البندي	البَنْدِي	Albandi	M	S	EN	S	S	NAN	TN
+A000026	البندي	البَنْدِي	Albandy	M	S	EN	S	S	NAN	TN
+A000027	البنعلي	البَنْعَلِي	Albanali	M	S	EN	S	S	NAN	BH
+A000028	البنعلي	البَنْعَلِي	Albanaly	M	S	EN	S	S	NAN	BH
+A000029	البنوت	البَنُوت	Albanout	F	G	FR	S	S	NAN	NN
+A000030	البنوت	البَنُوت	Albanut	F	G	EN	S	S	NAN	NN
+A000031	البنوري	البَنُورِي	Albanuri	M	S	EN	S	S	NAN	MA
+A000032	البنوري	البَنُورِي	Albanury	M	S	EN	S	S	NAN	MA
+A000033	البنون	البَنُون	Albanon	F	G	IT	S	S	NAN	NN
+A000034	البنون	البَنُون	Albanoon	F	G	NL	S	S	NAN	NN
+A000035	البنون	البَنُون	Albanun	F	G	EN	S	S	NAN	NN
+A000036	البنون	البَنُون	Elbanon	F	G	ES	S	S	NAN	NN
+A000037	البنون	البَنُون	Elbenoune	F	G	FR	S	S	NAN	NN
+A000038	البنوني	البَنُونِي	Albanuny	M	S	EN	S	S	NAN	MA
+A000039	البنوني	البَنُونِي	Albununy	M	S	EN	S	S	NAN	MA
+A000040	البهاري	البَهَارِي	Albahaari	F	G	DE	S	S	NAN	NN
+A000041	البهاري	البَهَارِي	Albahari	F	G	EN	S	S	NAN	NN
+A000042	البهاري	البَهَارِي	Albehari	F	G	FR	S	S	NAN	NN
+A000043	البهري	البَهْرِي	Albahri	M	S	EN	S	S	NAN	TN
+A000044	البهري	البَهْرِي	Albahry	M	S	EN	S	S	NAN	TN
+A000045	البهلول	البَهْلُول	Albahlul	M	S	EN	S	S	NAN	TN
+A000046	البهلول	البُهْلُول	Albohlool	M	S	NL	S	S	NAN	TN
+A000047	البهلول	البُهْلُول	Albouhloul	M	S	FR	S	S	NAN	TN
+A000048	البهلول	البُهْلُول	Albuhlol	M	S	ES	S	S	NAN	TN
+A000049	البهلول	البُهْلُول	Albuhlul	M	S	EN	S	S	NAN	TN
+A000050	البواطنة	البَواطِنة	Albawatina	M	C	EN	S	S	NAN	JO
+A000051	البواطنة	البَواطِنة	Albawatinah	M	C	EN	S	S	NAN	JO
+A000052	البواعنة	البَواعِنة	Albawaina	M	C	EN	S	S	NAN	JO
+A000053	البواعنة	البَواعِنة	Albawainah	M	C	EN	S	S	NAN	JO
+A000054	البوالصة	البَوالِصة	Albawalisa	M	C	EN	S	S	NAN	JO
+A000055	البوالصة	البَوالِصة	Albawalisah	M	C	EN	S	S	NAN	JO
+A000056	البوعلي	البُوعَلِي	Albawali	M	S	EN	S	S	NAN	TN
+A000057	البوعلي	البُوعَلِي	Albawaly	M	S	EN	S	S	NAN	TN
+A000058	البياتي	البياتِي	Albyati	M	S	EN	S	S	NAN	IQ
+A000059	البياتي	البياتِي	Albyaty	M	S	EN	S	S	NAN	IQ
+A000060	البيداء	البَيْدَاء	Albaida	F	G	EN	S	S	NAN	NN
+A000061	البيداء	البَيْدَاء	Albayda	F	G	EN	S	S	NAN	NN
+A000062	البيداء	البَيْدَاء	Albaydaa	F	G	DE	S	S	NAN	NN
+A000063	البيش	البَيْش	Albaych	M	S	FR	S	S	NAN	MA
+A000064	البيش	البَيْش	Albaysh	M	S	EN	S	S	NAN	MA
+A000065	البيضاء	البَيْضَاء	Albaida	F	G	IT	S	S	NAN	NN
+A000066	البيضاء	البَيْضَاء	Albayda	F	G	EN	S	S	NAN	NN
+A000067	البيضاء	البَيْضَاء	Albaydaa	F	G	DE	S	S	NAN	NN
+A000068	البيضاء	البَيْضَاء	Elbaida	F	G	FR	S	S	NAN	NN
+A000069	البيضاء	البَيْضَاء	Elbayda	F	G	ES	S	S	NAN	NN
+A000070	الطميهي	الطِمَيْهِي	Altimayhi	M	S	EN	S	L	NAN	EG
+A000071	الطميوي	الطِمَيْوِي	Altimaywi	M	S	EN	S	L	NAN	PS
+A000072	الطنيحي	الطِنَيْحِي	Altinayhi	M	S	EN	S	L	NAN	EG
+A000073	الطنيخي	الطِنَيْخِي	Altinaykhi	M	S	EN	S	L	NAN	EG
+A000074	الطنيزي	الطِنَيْزِي	Altinayzi	M	S	EN	S	L	NAN	IQ
+A000075	الطنيقي	الطِنَيْقِي	Altinayqi	M	S	EN	S	L	NAN	OM
+A000076	الطنيمي	الطِنَيْمِي	Altinaymi	M	S	EN	S	L	NAN	SA
+A000077	الطهيشي	الطِهَيْشِي	Altihayshi	M	S	EN	S	L	NAN	YE
+A000078	الطهيطي	الطِهَيْطِي	Altihayti	M	S	EN	S	L	NAN	YE
+A000079	الطهيفي	الطِهَيْفِي	Altihayfi	M	S	EN	S	L	NAN	AE
+A000080	الطهيقي	الطِهَيْقِي	Altihayqi	M	S	EN	S	L	NAN	YE
+A000081	الطهيني	الطِهَيْنِي	Altihayni	M	S	EN	S	L	NAN	YE
+A000082	الطويبي	الطِوَيْبِي	Altiwaybi	M	S	EN	S	L	NAN	LY
+A000083	الطويخي	الطِوَيْخِي	Altiwaykhi	M	S	EN	S	L	NAN	EG
+A000084	الطويدي	الطِوَيْدِي	Altiwaydi	M	S	EN	S	L	NAN	YE
+A000085	الطويري	الطِوَيْرِي	Altiwayri	M	S	EN	S	L	NAN	YE
+A000086	الطويريقي	الطِوَيْرِيقي	Altiwayriqy	M	S	EN	S	L	NAN	SA
+A000087	الطويشي	الطِوَيْشِي	Altiwayshi	M	S	EN	S	L	NAN	JO
+A000088	الطويطين	الطِوَيْطِين	Altiwaytin	M	S	EN	S	L	NAN	SA
+A000089	الطويعي	الطِوَيْعِي	Altiwayai	M	S	EN	S	L	NAN	SA
+A000090	الطويقي	الطِوَيْقِي	Altiwayqi	M	S	EN	S	L	NAN	YE
+A000091	الطويكي	الطِوَيْكِي	Altiwayki	M	S	EN	S	L	NAN	YE
+A000092	الطويلية	الطِوَيْلِية	Altiwayliah	M	S	EN	S	L	NAN	YE
+A000093	الطويني	الطِوَيْنِي	Altiwayni	M	S	EN	S	L	NAN	IQ
+A000094	الطويهي	الطِوَيْهِي	Altiwayhi	M	S	EN	S	L	NAN	YE
+A000095	الطويوي	الطِوَيْوِي	Altiwaywi	M	S	EN	S	L	NAN	YE
+A000096	الظبيبي	الظِبَيْبِي	Aldhibaybi	M	S	EN	S	L	NAN	KW
+A000097	الظبيري	الظِبَيْرِي	Aldhibayri	M	S	EN	S	L	NAN	KW
+A000098	الظبيطي	الظِبَيْطِي	Aldhibayti	M	S	EN	S	L	NAN	SA
+A000099	الظبيعي	الظِبَيْعِي	Aldhibayai	M	S	EN	S	L	NAN	YE
+A000100	الظريبي	الظِرَيْبِي	Aldhiraybi	M	S	EN	S	L	NAN	YE
+A000101	الظريسي	الظِرَيْسِي	Aldhiraysi	M	S	EN	S	L	NAN	YE
+A000102	الظريفي	الظِرَيْفِي	Aldhirayfi	M	S	EN	S	L	NAN	YE
+A000103	الظريقي	الظِرَيْقِي	Aldhirayqi	M	S	EN	S	L	NAN	YE
+A000104	الظريمي	الظِرَيْمِي	Aldhiraymi	M	S	EN	S	L	NAN	YE
+A000105	الظريني	الظِرَيْنِي	Aldhirayni	M	S	EN	S	L	NAN	YE
+A000106	الظعيني	الظِعَيْنِي	Aldhiayni	M	S	EN	S	L	NAN	YE
+A000107	الظليلي	الظِلَيْلِي	Aldhilayli	M	S	EN	S	L	NAN	YE
+A000108	الظليمي	الظِلَيْمِي	Aldhilaymi	M	S	EN	S	L	NAN	YE
+A000109	الظميري	الظِمَيْرِي	Aldhimayri	M	S	EN	S	L	NAN	YE
+A000110	الظميني	الظِمَيْنِي	Aldhimayni	M	S	EN	S	L	NAN	YE
+A000111	الظنيني	الظِنَيْنِي	Aldhinayni	M	S	EN	S	L	NAN	EG
+A000112	الظهيبي	الظِهَيْبِي	Aldhihaybi	M	S	EN	S	L	NAN	YE
+A000113	الظهيري	الظِهَيْرِي	Aldhihayri	M	S	EN	S	L	NAN	LY
+A000114	الظهيفي	الظِهَيْفِي	Aldhihayfi	M	S	EN	S	L	NAN	YE
+A000115	الظويري	الظِوَيْرِي	Aldhiwayri	M	S	EN	S	L	NAN	IQ
+A000116	الظويعي	الظِوَيْعِي	Aldhiwayai	M	S	EN	S	L	NAN	YE
+A000117	الظويلي	الظِوَيْلِي	Aldhiwayli	M	S	EN	S	L	NAN	KW
+A000118	العبدولي	العَبْدُولِي	Alabduli	M	S	EN	S	L	NAN	AE
+A000119	العبيتي	العِبَيْتِي	Alaibayti	M	S	EN	S	L	NAN	YE
+A000120	العبيخي	العِبَيْخِي	Alaibaykhi	M	S	EN	S	L	NAN	YE
+A000121	العبيدي	العِبَيْدِي	Alaibaydi	M	S	EN	S	L	NAN	IQ
+A000122	العبيري	العِبَيْرِي	Alaibayri	M	S	EN	S	L	NAN	SA
+A000123	العبيسي	العِبَيْسِي	Alaibaysi	M	S	EN	S	L	NAN	EG
+A000124	العبيسية	العِبَيْسِية	Alaibaysiah	M	C	EN	S	L	NAN	JO
+A000125	العبيشي	العِبَيْشِي	Alaibayshi	M	S	EN	S	L	NAN	SA
+A000126	العبيطي	العِبَيْطِي	Alaibayti	M	S	EN	S	L	NAN	YE
+A000127	العبيكي	العِبَيْكِي	Alaibayki	M	S	EN	S	L	NAN	SA
+A000128	العبيلي	العِبَيْلِي	Alaibayli	M	S	EN	S	L	NAN	SA
+A000129	العبيوي	العِبَيْوِي	Alaibaywi	M	S	EN	S	L	NAN	SA
+A000130	العتيبي	العِتَيْبِي	Alaitaybi	M	S	EN	S	L	NAN	KW
+A000131	العتيبية	العِتَيْبِية	Alaitaybiah	M	S	EN	S	L	NAN	SA
+A000132	العتيري	العِتَيْرِي	Alaitayri	M	S	EN	S	L	NAN	JO
+A000133	العتيسي	العِتَيْسِي	Alaitaysi	M	S	EN	S	L	NAN	YE
+A000134	العتيفي	العِتَيْفِي	Alaitayfi	M	S	EN	S	L	NAN	YE
+A000135	العتيقي	العِتَيْقِي	Alaitayqi	M	S	EN	S	L	NAN	KW
+A000136	العتيلي	العِتَيْلِي	Alaitayli	M	S	EN	S	L	NAN	YE
+A000137	العتيلية	العِتَيْلِية	Alaitayliah	M	S	EN	S	L	NAN	YE
+A000138	العتيمي	العِتَيْمِي	Alaitaymi	M	S	EN	S	L	NAN	EG
+A000139	العتيني	العِتَيْنِي	Alaitayni	M	S	EN	S	L	NAN	YE
+A000140	العثيثي	العِثَيْثِي	Alaithaythi	M	S	EN	S	L	NAN	YE
+A000141	العثيري	العِثَيْرِي	Alaithayri	M	S	EN	S	L	NAN	YE
+A000142	العثيلي	العِثَيْلِي	Alaithayli	M	S	EN	S	L	NAN	YE
+A000143	العثيمي	العِثَيْمِي	Alaithaymi	M	S	EN	S	L	NAN	YE
+A000144	العثيني	العِثَيْنِي	Alaithayni	M	S	EN	S	L	NAN	YE
+A000145	العجيبي	العِجَيْبِي	Alaijaybi	M	S	EN	S	L	NAN	EG
+A000146	العجيجي	العِجَيْجِي	Alaijayji	M	S	EN	S	L	NAN	YE
+A000147	العجيدي	العِجَيْدِي	Alaijaydi	M	S	EN	S	L	NAN	YE
+A000148	العجيري	العِجَيْرِي	Alaijayri	M	S	EN	S	L	NAN	EG
+A000149	العجيزي	العِجَيْزِي	Alaijayzi	M	S	EN	S	L	NAN	EG
+A000150	العجيلي	العِجَيْلِي	Alaijayli	M	S	EN	S	L	NAN	LY
+A000151	العجيمي	العِجَيْمِي	Alaijaymi	M	S	EN	S	L	NAN	EG
+A000152	العجيني	العِجَيْنِي	Alaijayni	M	S	EN	S	L	NAN	YE
+A000153	العديبي	العِدَيْبِي	Alaidaybi	M	S	EN	S	L	NAN	YE
+A000154	العديحي	العِدَيْحِي	Alaidayhi	M	S	EN	S	L	NAN	YE
+A000155	العديدي	العِدَيْدِي	Alaidaydi	M	S	EN	S	L	NAN	AE
+A000156	العديري	العِدَيْرِي	Alaidayri	M	S	EN	S	L	NAN	YE
+A000157	العديسي	العِدَيْسِي	Alaidaysi	M	S	EN	S	L	NAN	EG
+A000158	العديقي	العِدَيْقِي	Alaidayqi	M	S	EN	S	L	NAN	YE
+A000159	العديلي	العِدَيْلِي	Alaidayli	M	S	EN	S	L	NAN	SA
+A000160	العديمي	العِدَيْمِي	Alaidaymi	M	S	EN	S	L	NAN	YE
+A000161	العديوي	العِدَيْوِي	Alaidaywi	M	S	EN	S	L	NAN	SY
+A000162	العذيبي	العِذَيْبِي	Alaidhaybi	M	S	EN	S	L	NAN	YE
+A000163	العذيتي	العِذَيْتِي	Alaidhayti	M	S	EN	S	L	NAN	YE
+A000164	العذيدي	العِذَيْدِي	Alaidhaydi	M	S	EN	S	L	NAN	YE
+A000165	العذيذي	العِذَيْذِي	Alaidhaydhi	M	S	EN	S	L	NAN	YE
+A000166	العذيري	العِذَيْرِي	Alaidhayri	M	S	EN	S	L	NAN	YE
+A000167	العذيقي	العِذَيْقِي	Alaidhayqi	M	S	EN	S	L	NAN	SA
+A000168	العذيلي	العِذَيْلِي	Alaidhayli	M	S	EN	S	L	NAN	YE
+A000169	العذيمي	العِذَيْمِي	Alaidhaymi	M	S	EN	S	L	NAN	YE
+A000170	العريبيب	العِرَيْبِيب	Alairaybib	M	S	EN	S	L	NAN	YE
+A000171	العريتي	العِرَيْتِي	Alairayti	M	S	EN	S	L	NAN	SA
+A000172	العريثي	العِرَيْثِي	Alairaythi	M	S	EN	S	L	NAN	YE
+A000173	العريجي	العِرَيْجِي	Alairayji	M	S	EN	S	L	NAN	YE
+A000174	العريحي	العِرَيْحِي	Alairayhi	M	S	EN	S	L	NAN	YE
+A000175	العريدي	العِرَيْدِي	Alairaydi	M	S	EN	S	L	NAN	JO
+A000176	العريري	العِرَيْرِي	Alairayri	M	S	EN	S	L	NAN	JO
+A000177	العريزي	العِرَيْزِي	Alairayzi	M	S	EN	S	L	NAN	YE
+A000178	العريسي	العِرَيْسِي	Alairaysi	M	S	EN	S	L	NAN	YE
+A000179	العريسية	العِرَيْسِية	Alairaysiah	M	S	EN	S	L	NAN	YE
+A000180	العريسيس	العِرَيْسِيس	Alairaysis	M	S	EN	S	L	NAN	EG
+A000181	العريشي	العِرَيْشِي	Alairayshi	M	S	EN	S	L	NAN	SA
+A000182	العريشية	العِرَيْشِية	Alairayshiah	M	S	EN	S	L	NAN	LY
+A000183	العريضي	العِرَيْضِي	Alairaydi	M	S	EN	S	L	NAN	LY
+A000184	العريطي	العِرَيْطِي	Alairayti	M	S	EN	S	L	NAN	YE
+A000185	العريعي	العِرَيْعِي	Alairayai	M	S	EN	S	L	NAN	YE
+A000186	العريفيج	العِرَيْفِيج	Alairayfij	M	S	EN	S	L	NAN	SA
+A000187	العريقي	العِرَيْقِي	Alairayqi	M	S	EN	S	L	NAN	YE
+A000188	العريقيل	العِرَيْقِيل	Alairayqil	M	S	EN	S	L	NAN	SA
+A000189	العريكي	العِرَيْكِي	Alairayki	M	S	EN	S	L	NAN	SA
+A000190	العريمي	العِرَيْمِي	Alairaymi	M	S	EN	S	L	NAN	OM
+A000191	العريمية	العِرَيْمِية	Alairaymiah	M	S	EN	S	L	NAN	OM
+A000192	العريمين	العِرَيْمِين	Alairaymin	M	C	EN	S	L	NAN	JO
+A000193	العريوي	العِرَيْوِي	Alairaywi	M	S	EN	S	L	NAN	SA
+A000194	العزيبي	العِزَيْبِي	Alaizaybi	M	S	EN	S	L	NAN	LY
+A000195	العزيحي	العِزَيْحِي	Alaizayhi	M	S	EN	S	L	NAN	YE
+A000196	العزيدي	العِزَيْدِي	Alaizaydi	M	S	EN	S	L	NAN	YE
+A000197	العزيري	العِزَيْرِي	Alaizayri	M	S	EN	S	L	NAN	EG
+A000198	العزيزي	العِزَيْزِي	Alaizayzi	M	S	EN	S	L	NAN	EG
+A000199	العزيزية	العِزَيْزِية	Alaizayziah	M	S	EN	S	L	NAN	AE
+A000200	العزيكي	العِزَيْكِي	Alaizayki	M	S	EN	S	L	NAN	YE
+A000201	العزيلي	العِزَيْلِي	Alaizayli	M	S	EN	S	L	NAN	YE
+A000202	العزيوي	العِزَيْوِي	Alaizaywi	M	S	EN	S	L	NAN	LY
+A000203	العسيبي	العِسَيْبِي	Alaisaybi	M	S	EN	S	L	NAN	YE
+A000204	العسيدي	العِسَيْدِي	Alaisaydi	M	S	EN	S	L	NAN	SA
+A000205	العسيري	العِسَيْرِي	Alaisayri	M	S	EN	S	L	NAN	SA
+A000206	العسيرية	العِسَيْرِية	Alaisayriah	M	S	EN	S	L	NAN	SA
+A000207	العسيسي	العِسَيْسِي	Alaisaysi	M	S	EN	S	L	NAN	YE
+A000208	العسيقي	العِسَيْقِي	Alaisayqi	M	S	EN	S	L	NAN	YE
+A000209	العسيمي	العِسَيْمِي	Alaisaymi	M	S	EN	S	L	NAN	YE
+A000210	العسيني	العِسَيْنِي	Alaisayni	M	S	EN	S	L	NAN	YE
+A000211	العسيوي	العِسَيْوِي	Alaisaywi	M	S	EN	S	L	NAN	SA
+A000212	العشيبي	العِشَيْبِي	Alaishaybi	M	S	EN	S	L	NAN	LY
+A000213	العشيتي	العِشَيْتِي	Alaishayti	M	S	EN	S	L	NAN	YE
+A000214	العشيدي	العِشَيْدِي	Alaishaydi	M	S	EN	S	L	NAN	SA
+A000215	العشيري	العِشَيْرِي	Alaishayri	M	S	EN	S	L	NAN	EG
+A000216	العشيسي	العِشَيْسِي	Alaishaysi	M	S	EN	S	L	NAN	YE
+A000217	العشيشي	العِشَيْشِي	Alaishayshi	M	S	EN	S	L	NAN	YE
+A000218	العشيمي	العِشَيْمِي	Alaishaymi	M	S	EN	S	L	NAN	YE
+A000219	العشيني	العِشَيْنِي	Alaishayni	M	S	EN	S	L	NAN	LY
+A000220	العشيوي	العِشَيْوِي	Alaishaywi	M	S	EN	S	L	NAN	SA
+A000221	العصيبي	العِصَيْبِي	Alaisaybi	M	S	EN	S	L	NAN	SA
+A000222	العصيدي	العِصَيْدِي	Alaisaydi	M	S	EN	S	L	NAN	YE
+A000223	العصيري	العِصَيْرِي	Alaisayri	M	S	EN	S	L	NAN	JO
+A000224	العصيصي	العِصَيْصِي	Alaisaysi	M	S	EN	S	L	NAN	YE
+A000225	العصيطي	العِصَيْطِي	Alaisayti	M	S	EN	S	L	NAN	YE
+A000226	العصيعي	العِصَيْعِي	Alaisayai	M	S	EN	S	L	NAN	YE
+A000227	العصيفي	العِصَيْفِي	Alaisayfi	M	S	EN	S	L	NAN	JO
+A000228	العصيمي	العِصَيْمِي	Alaisaymi	M	S	EN	S	L	NAN	SA
+A000229	العطوي	العَطُوي	Alatuy	M	S	EN	S	L	NAN	LY
+A000230	العگيدي	العِگَيْدِي	Elikaidi	M	S	FR	S	L	NAN	IQ
+A000231	العگيلي	العِگَيْلِي	Elikaili	M	S	FR	S	L	NAN	IQ
+A000232	العنفولي	العَنْفُولِي	Alanfuli	M	S	EN	S	L	NAN	SY
+A000233	العويقي	العِوَيْقِي	Elaiouaiki	M	S	FR	S	L	NAN	YE
+A000234	العويقيل	العِوَيْقِيل	Elaiouaikil	M	S	FR	S	L	NAN	SA
+A000235	العويلي	العِوَيْلِي	Elaiouaili	M	S	FR	S	L	NAN	YE
+A000236	العويميري	العِوَيْمِيري	Elaiouaimiri	M	S	FR	S	L	NAN	AE
+A000237	العويني	العِوَيْنِي	Elaiouaini	M	S	FR	S	L	NAN	EG
+A000238	العوينية	العِوَيْنِية	Elaiouainia	M	S	FR	S	L	NAN	OM
+A000239	العويهي	العِوَيْهِي	Elaiouaihi	M	S	FR	S	L	NAN	SY
+A000240	العويويد	العِوَيْوِيد	Elaiouaiouid	M	S	FR	S	L	NAN	SA
+A000241	العويوير	العِوَيْوِير	Elaiouaiouir	M	S	FR	S	L	NAN	SA
+A000242	العيسولي	العَيْسُولِي	Alaysuli	M	S	EN	S	L	NAN	YE
+A000243	الغبيبي	الغِبَيْبِي	Elgibaibi	M	S	FR	S	L	NAN	YE
+A000244	الغبيدي	الغِبَيْدِي	Elgibaidi	M	S	FR	S	L	NAN	YE
+A000245	الغبيري	الغِبَيْرِي	Elgibairi	M	S	FR	S	L	NAN	YE
+A000246	الغبيسي	الغِبَيْسِي	Elgibaissi	M	S	FR	S	L	NAN	YE
+A000247	الغبيشي	الغِبَيْشِي	Elgibaichi	M	S	FR	S	L	NAN	SA
+A000248	الغبيضي	الغِبَيْضِي	Elgibaidi	M	S	FR	S	L	NAN	SY
+A000249	الغبيني	الغِبَيْنِي	Elgibaini	M	S	FR	S	L	NAN	SA
+A000250	الغتيمي	الغِتَيْمِي	Elgitaimi	M	S	FR	S	L	NAN	YE
+A000251	الغتيني	الغِتَيْنِي	Elgitaini	M	S	FR	S	L	NAN	YE
+A000252	الغثيبي	الغِثَيْبِي	Elgissaibi	M	S	FR	S	L	NAN	YE
+A000253	الغثيمي	الغِثَيْمِي	Elgissaimi	M	S	FR	S	L	NAN	YE
+A000254	الغثيني	الغِثَيْنِي	Elgissaini	M	S	FR	S	L	NAN	YE
+A000255	الغديبي	الغِدَيْبِي	Elgidaibi	M	S	FR	S	L	NAN	YE
+A000256	الغرمولي	الغَرْمُولِي	Elgermouli	M	S	FR	S	L	NAN	LY
+A000257	إبراهيموه	إبْرَاهِيمُوه	Ibrahimoh	M	S	EN	F	L	PER	AE
+A000263	أبو الرب	أَبُو الرَب	Abu Alrab	M	K	EN	S	S	NAN	JO
+A000264	أبو الرب	أَبُو الرَب	Abou Ereb	M	K	FR	S	S	NAN	JO
+A000265	أبو تاية	أَبُو تاية	Abu Tayah	M	K	EN	S	S	NAN	JO
+A000266	أبو تاية	أَبُو تاية	Abou Teia	M	K	FR	S	S	NAN	JO
+A000267	أبو جابر	أَبُو جابِر	Abu Jabir	M	K	EN	S	S	NAN	JO
+A000268	أبو جابر	أَبُو جابِر	Abou Djabir	M	K	FR	S	S	NAN	JO
+A000269	أبو جودة	أَبُو جُودَة	Abu Judah	M	K	EN	S	S	NAN	JO
+A000270	أبو جودة	أَبُو جُودَة	Abou Djouda	M	K	FR	S	S	NAN	JO
+A000271	أبو حسان	أَبُو حَسَّان	Abu Hasan	M	K	EN	S	S	NAN	JO
+A000272	أبو حسان	أَبُو حَسَّان	Abou Hessane	M	K	FR	S	S	NAN	JO
+A000273	أبو حشيش	أَبُو حَشِيش	Abu Hashish	M	K	EN	S	S	NAN	JO
+A000274	أبو حشيش	أَبُو حَشِيش	Abou Hechich	M	K	FR	S	S	NAN	JO
+A000275	با بريجة	با بَرِيجة	Ba Baryja	M	K	EN	S	S	NAN	YE
+A000276	با بريجة	با بَرِيجة	Ba Baryjah	M	K	EN	S	S	NAN	YE
+A000277	با بطين	با بَطِين	Ba Batyn	M	K	EN	S	S	NAN	YE
+A000278	با بطين	با بَطِين	Ba Butayn	M	K	EN	S	S	NAN	YE
+A000279	با بعير	با بَعِير	Ba Baiyr	M	K	EN	S	S	NAN	YE
+A000280	با بعير	با بَعِير	Ba Buayr	M	K	EN	S	S	NAN	YE
+A000281	باوزير	بَاوَزِير	Bawazir	M	K	EN	S	S	NAN	YE
+A000282	باوزير	بَاوَزِير	Baouazir	M	K	FR	S	S	NAN	YE
+A000283	بن شملان	بِنْ شَمْلان	Bin Shamlan	M	N	EN	S	S	NAN	YE
+A000284	بن شملان	بِنْ شَمْلان	Bin Chemlane	M	N	FR	S	S	NAN	YE
+A000285	بنعبد الله	بِنْعَبْد الله	Binaabd Allah	M	N	DE	S	S	NAN	TN
+A000286	بنعبد الله	بِنْعَبْد الله	Binaabdlah	M	N	DE	S	S	NAN	TN
+A000287	بنعبد الله	بِنْعَبْد الله	Binabd Allah	M	N	EN	S	S	NAN	TN
+A000288	سها	سُهَا	Suhaa	F	G	DE	S	S	NAN	NN
+A000289	سهاء	سُهَاء	Sohaa	F	G	NL	S	S	NAN	NN
+A000290	سهاء	سُهَاء	Souha	F	G	FR	S	S	NAN	NN
+A000291	سهاء	سُهَاء	Suha	F	G	EN	S	S	NAN	NN
+A000292	سهاء	سُهَاء	Suhaa	F	G	DE	S	S	NAN	NN
+A000293	سهابي	سَهابِي	Sahabi	M	G	EN	S	S	NAN	NN
+A000294	سهابي	سَهابِي	Sahaby	M	G	EN	S	S	NAN	NN
+A000295	سهاد	سُهَاد	Sohaad	F	G	NL	S	S	NAN	NN
+A000296	سهاد	سُهَاد	Souhad	F	G	FR	S	S	NAN	NN
+A000297	سهاد	سُهَاد	Suhaad	F	G	DE	S	S	NAN	NN
+A000298	سهاد	سُهَاد	Suhad	F	G	EN	S	S	NAN	NN
+A000299	سهاري	سَهَارِي	Sahari	F	G	EN	S	S	NAN	NN
+A000300	سهاري	سَهَارِي	Sehari	F	G	FR	S	S	NAN	NN
+A000301	سهام	سِهَام	Sihaam	F	G	DE	S	S	NAN	NN
+A000302	سهام	سِهَام	Siham	F	G	EN	S	S	NAN	NN
+A000303	سهام	سِهَام	Sihame	F	G	FR	S	S	NAN	NN
+A000304	سهام الدين	سِهَامُ الدِّين	Sihaamo Aldin	M	G	NL	S	S	NAN	NN
+A000305	سهام الدين	سِهَامُ الدِّين	Sihaamodin	M	G	NL	S	S	NAN	NN
+A000306	سهام الدين	سِهَامُ الدِّين	Sihaamu Aldin	M	G	DE	S	S	NAN	NN
+A000307	سهام الدين	سِهَامُ الدِّين	Sihaamudin	M	G	DE	S	S	NAN	NN
+A000308	سهام الدين	سِهَامُ الدِّين	Sihamou Edin	M	G	FR	S	S	NAN	NN
+A000309	سهام الدين	سِهَامُ الدِّين	Sihamoudin	M	G	FR	S	S	NAN	NN
+A000310	سهام الدين	سِهَامُ الدِّين	Sihamoudine	M	G	FR	S	S	NAN	NN
+A000311	سهام الدين	سِهَامُ الدِّين	Sihamu Adin	M	G	IT	S	S	NAN	NN
+A000312	سهام الدين	سِهَامُ الدِّين	Sihamu Aldin	M	G	EN	S	S	NAN	NN
+A000313	سهام الدين	سِهَامُ الدِّين	Sihamu Aldyn	M	G	EN	S	S	NAN	NN
+A000314	سهام الدين	سِهَامُ الدِّين	Sihamu Edin	M	G	ES	S	S	NAN	NN
+A000315	سهام الدين	سِهَامُ الدِّين	Sihamudin	M	G	EN	S	S	NAN	NN
+A000316	سهامة	سَهَامَة	Sahama	F	G	EN	S	S	NAN	NN
+A000317	سهامة	سِهَامَة	Sihama	F	G	FR	S	S	NAN	NN
+A000318	سهامة	سِهَامَة	Sihamaa	F	G	DE	S	S	NAN	NN
+A000319	سهامة	سِهَامَة	Sihamah	F	G	EN	S	S	NAN	NN
+A000320	سهاي	سِهاِي	Sahai	M	G	EN	S	S	NAN	NN
+A000321	سهاي	سِهاِي	Sahay	M	G	EN	S	S	NAN	NN
+A000322	سهايب	سَهايب	Sahayb	M	G	EN	S	S	NAN	NN
+A000323	سهايل	سَهايل	Sahayl	M	G	EN	S	S	NAN	NN
+A000324	سهب	سَهْب	Sahb	M	G	EN	S	S	NAN	NN
+A000325	سهبان	سَهْبَان	Sahban	M	G	EN	S	S	NAN	NN
+A000326	سهبان	سَهْبَان	Sahbane	M	G	FR	S	S	NAN	NN
+A000327	سهتاني	سَهْتانِي	Sahtani	M	G	EN	S	S	NAN	NN
+A000328	سهتاني	سَهْتانِي	Sahtany	M	G	EN	S	S	NAN	NN
+A000329	سهجان	سَهْجان	Sahjan	M	G	EN	S	S	NAN	NN
+A000330	سهجان	سَهْجان	Sahjane	M	G	FR	S	S	NAN	NN
+A000331	سهد	سُهْد	Sohd	M	G	NL	S	S	NAN	NN
+A000332	سهد	سُهْد	Souhd	M	G	FR	S	S	NAN	NN
+A000333	سهد	سُهْد	Suhd	M	G	EN	S	S	NAN	NN
+A000334	سهدي	سَهْدِي	Sahady	M	G	EN	S	S	NAN	NN
+A000335	سهدي	سَهْدِي	Sahdy	M	G	EN	S	S	NAN	NN
+A000336	سهر	سَهَر	Sahar	F	G	DE	S	S	NAN	NN
+A000337	سهر	سَهَر	Sehar	F	G	EN	S	S	NAN	NN
+A000338	سهراب	سَهرَاب	Sahrab	M	G	EN	S	S	NAN	NN
+A000339	سهراب	سَهرَاب	Sohrab	M	G	EN	S	S	NAN	NN
+A000340	سهرابي	سَهْرابِي	Sahrabi	M	G	EN	S	S	NAN	NN
+A000341	سهرابي	سَهْرابِي	Sahraby	M	G	EN	S	S	NAN	NN
+A000342	سهران	سَهْرَان	Sahraan	M	G	DE	S	S	NAN	NN
+A000343	سهران	سَهْرَان	Sahran	M	G	EN	S	S	NAN	NN
+A000344	سهران	سَهْرَان	Sehran	M	G	FR	S	S	NAN	NN
+A000345	سهران	سَهْرَان	Suhran	M	G	EN	S	S	NAN	NN
+A000346	سهرة	سَهْرَة	Sahra	F	G	ES	S	S	NAN	NN
+A000347	سهرة	سَهْرَة	Sahraa	F	G	DE	S	S	NAN	NN
+A000348	سهرة	سَهْرَة	Sahrah	F	G	EN	S	S	NAN	NN
+A000349	سهرة	سَهْرَة	Sehra	F	G	FR	S	S	NAN	NN
+A000350	سهل	سَهْل	Sahl	M	G	EN	S	S	NAN	NN
+A000351	سهل	سَهْل	Sehal	M	G	EN	S	S	NAN	NN
+A000352	سهل	سَهْل	Sehl	M	G	FR	S	S	NAN	NN
+A000353	سهلاء	سَهْلاء	Sahlaa	M	G	EN	S	S	NAN	NN
+A000354	سهلاء	سَهْلاء	Sahlaah	M	G	EN	S	S	NAN	NN
+A000355	سهلالي	سَهْلالِي	Sahlali	M	G	EN	S	S	NAN	NN
+A000356	سهلالي	سَهْلالِي	Sahlaly	M	G	EN	S	S	NAN	NN
+A000357	سهلان	سَهْلَان	Sahlaan	M	G	DE	S	S	NAN	NN
+A000358	سهلان	سَهْلَان	Sahlan	M	G	EN	S	S	NAN	NN
+A000359	سهلان	سَهْلَان	Sehlan	M	G	FR	S	S	NAN	NN
+A000360	سهلان	سَهْلَان	Suhlan	M	G	EN	S	S	NAN	NN
+A000361	سهلة	سَهْلَة	Sahla	F	G	EN	S	S	NAN	NN
+A000362	سهلة	سَهْلَة	Sahlaa	F	G	DE	S	S	NAN	NN
+A000363	سهلة	سَهْلَة	Sahlah	F	G	EN	S	S	NAN	NN
+A000364	سهلة	سَهْلَة	Sehla	F	G	FR	S	S	NAN	NN
+A000365	سهلول	سَهْلُول	Sahloul	M	G	FR	S	S	NAN	NN
+A000366	سهلول	سَهْلُول	Sahlul	M	G	EN	S	S	NAN	NN
+A000367	سهلي	سَهْلِي	Sahli	M	G	EN	S	S	NAN	NN
+A000368	سهلي	سَهْلِي	Sehli	M	G	FR	S	S	NAN	NN
+A000369	سهم	سَهْم	Sahm	M	G	EN	S	S	NAN	NN
+A000370	سهم	سَهْم	Sehm	M	G	FR	S	S	NAN	NN
+A000371	سهم الدين	سَهْمُ الدِّين	Sahmo Aldin	M	G	NL	S	S	NAN	NN
+A000372	سهم الدين	سَهْمُ الدِّين	Sahmodin	M	G	NL	S	S	NAN	NN
+A000373	سهم الدين	سَهْمُ الدِّين	Sahmu Adin	M	G	IT	S	S	NAN	NN
+A000374	سهم الدين	سَهْمُ الدِّين	Sahmu Aldin	M	G	EN	S	S	NAN	NN
+A000375	سهم الدين	سَهْمُ الدِّين	Sahmu Edin	M	G	ES	S	S	NAN	NN
+A000376	سهم الدين	سَهْمُ الدِّين	Sahmudin	M	G	EN	S	S	NAN	NN
+A000377	سهم الدين	سَهْمُ الدِّين	Sehmou Edin	M	G	FR	S	S	NAN	NN
+A000378	سهم الدين	سَهْمُ الدِّين	Sehmoudin	M	G	FR	S	S	NAN	NN
+A000379	سهم الدين	سَهْمُ الدِّين	Sehmoudine	M	G	FR	S	S	NAN	NN
+A000380	سهمود	سَهْمُود	Sahmoud	M	G	FR	S	S	NAN	NN
+A000381	سهمود	سَهْمُود	Sahmud	M	G	EN	S	S	NAN	NN
+A000382	سهند	سُهَنْد	Suhand	M	G	EN	S	S	NAN	NN
+A000383	سهو	سَهْو	Saho	F	G	ES	S	S	NAN	NN
+A000384	سهو	سَهْو	Sahu	F	G	DE	S	S	NAN	NN
+A000385	سهو	سَهْو	Sahw	F	G	EN	S	S	NAN	NN
+A000386	سهو	سَهْو	Sehou	F	G	FR	S	S	NAN	NN
+A000387	سهوان	سَهْوَان	Sahoan	M	G	ES	S	S	NAN	NN
+A000388	سهوان	سَهْوَان	Sahuan	M	G	DE	S	S	NAN	NN
+A000389	سهوان	سَهْوَان	Sahwan	M	G	EN	S	S	NAN	NN
+A000390	سهوان	سَهْوَان	Sehouan	M	G	FR	S	S	NAN	NN
+A000391	سهول	سَهُول	Sahul	M	G	EN	S	S	NAN	NN
+A000392	سهول	سُهُول	Sohool	M	G	NL	S	S	NAN	NN
+A000393	سهول	سُهُول	Souhoul	M	G	FR	S	S	NAN	NN
+A000394	سهول	سُهُول	Suhol	M	G	ES	S	S	NAN	NN
+A000395	سهول	سُهُول	Suhul	M	G	EN	S	S	NAN	NN
+A000398	سهى	سُهَى	Sohaa	F	G	NL	S	S	NAN	NN
+A000399	سهى	سُهَى	Souha	F	G	FR	S	S	NAN	NN
+A000400	سهى	سُهَى	Suha	F	G	EN	S	S	NAN	NN
+A000401	سهى	سُهَى	Suhaa	F	G	DE	S	S	NAN	NN
+A000402	سهيب	سَهِيب	Sahyb	M	G	EN	S	S	NAN	NN
+A000403	سهير	سُهَيْر	Sahir	F	G	EN	S	S	NAN	NN
+A000404	سهير	سُهَيْر	Sohayr	F	G	NL	S	S	NAN	NN
+A000405	سهير	سُهَيْر	Souhair	F	G	FR	S	S	NAN	NN
+A000406	سهير	سُهَيْر	Suhair	F	G	IT	S	S	NAN	NN
+A000407	سهير	سُهَيْر	Suhayr	F	G	EN	S	S	NAN	NN
+A000408	سهير	سُهَيْر	Süher	F	G	EN	S	S	NAN	NN
+A000409	سهيرة	سَهِيرَة	Sahyra	F	G	EN	S	S	NAN	NN
+A000410	سهيرة	سَهِيرَة	Sahyrah	F	G	EN	S	S	NAN	NN
+A000411	سهيف	سَهِيف	Sahyf	M	G	EN	S	S	NAN	NN
+A000412	سهيل	سَهِيل	Sahyl	M	G	EN	S	S	NAN	NN
+A000413	سهيل	سَهِيل	Sohail	M	G	EN	S	S	NAN	NN
+A000414	سهيل	سَهِيل	Suhail	M	G	EN	S	S	NAN	NN
+A000415	سهيل	سَهِيل	Suhayl	M	G	EN	S	S	NAN	NN
+A000416	سهيل	سُهَيْل	Sohayl	M	G	NL	S	S	NAN	NN
+A000417	سهيل	سُهَيْل	Souhail	M	G	FR	S	S	NAN	NN
+A000418	سهيل	سُهَيْل	Suhail	M	G	IT	S	S	NAN	NN
+A000419	سهيل	سُهَيْل	Suhayl	M	G	EN	S	S	NAN	NN
+A000420	سهيلا	سُهَيْلَا	Sohayla	F	G	NL	S	S	NAN	NN
+A000421	سهيلا	سُهَيْلَا	Souhaila	F	G	FR	S	S	NAN	NN
+A000422	سهيلا	سُهَيْلَا	Suhaila	F	G	IT	S	S	NAN	NN
+A000423	سهيلا	سُهَيْلَا	Suhayla	F	G	EN	S	S	NAN	NN
+A000424	سهيلة	سَهِيلَة	Sahyla	F	G	EN	S	S	NAN	NN
+A000425	سهيلة	سَهِيلَة	Sohaila	F	G	EN	S	S	NAN	NN
+A000426	سهيلة	سَهِيلَة	Sohela	F	G	EN	S	S	NAN	NN
+A000427	سهيلة	سَهِيلَة	Sohila	F	G	EN	S	S	NAN	NN
+A000428	سهيلة	سَهِيلَة	Suhailah	F	G	EN	S	S	NAN	NN
+A000429	سهيلة	سَهِيلَة	Suhayla	F	G	EN	S	S	NAN	NN
+A000430	سهيلة	سَهِيلَة	Süheyla	F	G	EN	S	S	NAN	NN
+A000431	سهيلة	سُهَيْلَة	Sohaylaa	F	G	NL	S	S	NAN	NN
+A000432	سهيلة	سُهَيْلَة	Souhaila	F	G	FR	S	S	NAN	NN
+A000433	سهيلة	سُهَيْلَة	Suhaila	F	G	IT	S	S	NAN	NN
+A000434	سهيلة	سُهَيْلَة	Suhayla	F	G	ES	S	S	NAN	NN
+A000435	سهيلة	سُهَيْلَة	Suhaylaa	F	G	DE	S	S	NAN	NN
+A000436	سهيلة	سُهَيْلَة	Suhaylah	F	G	EN	S	S	NAN	NN
+A000437	سهيلي	سَهِيلِيّ	Sahylee	M	S	EN	S	S	NAN	IR
+A000438	سهيلي	سَهِيلِيّ	Sahyliy	M	S	EN	S	S	NAN	IR
+A000439	سهيم	سَهِيم	Sahym	M	G	EN	S	S	NAN	NN
+A000440	سهيمة	سَهِيمَة	Sahyma	F	G	EN	S	S	NAN	NN
+A000441	سهيمة	سَهِيمَة	Sahymah	F	G	EN	S	S	NAN	NN
+A000442	سواء	سَوَاء	Saoa	F	G	ES	S	S	NAN	NN
+A000443	سواء	سَوَاء	Sawa	F	G	EN	S	S	NAN	NN
+A000444	سواء	سَوَاء	Soaa	F	G	NL	S	S	NAN	NN
+A000445	سواء	سَوَاء	Soua	F	G	FR	S	S	NAN	NN
+A000446	سواء	سَوَاء	Suaa	F	G	DE	S	S	NAN	NN
+A000447	سوات	سَوات	Sawat	M	G	EN	S	S	NAN	NN
+A000448	سواحة	سَوَّاحَة	Saoaha	F	G	ES	S	S	NAN	NN
+A000449	سواحة	سَوَّاحَة	Sawahah	F	G	EN	S	S	NAN	NN
+A000450	سواحة	سَوَّاحَة	Soahaa	F	G	NL	S	S	NAN	NN
+A000451	سواحة	سَوَّاحَة	Souaha	F	G	FR	S	S	NAN	NN
+A000452	سواحة	سَوَّاحَة	Suahaa	F	G	DE	S	S	NAN	NN
+A000453	سواحرة	سَواحِرة	Sawahira	M	C	EN	S	S	NAN	JO
+A000454	سواحرة	سَواحِرة	Sawahirah	M	C	EN	S	S	NAN	JO
+A000455	سواحري	سَواحِرِي	Sawahiri	M	C	EN	S	S	NAN	JO
+A000456	سواحري	سَواحِرِي	Sawahiry	M	C	EN	S	S	NAN	JO
+A000457	سواحل	سَواحِل	Sawaheel	M	G	EN	S	S	NAN	NN
+A000458	سواحل	سَواحِل	Sawahil	M	G	EN	S	S	NAN	NN
+A000459	سواحلة	سَواحِلة	Sawahila	M	C	EN	S	S	NAN	JO
+A000460	سواحلة	سَواحِلة	Sawahilah	M	C	EN	S	S	NAN	JO
+A000461	سواخنة	سَواخِنة	Sawakhina	M	C	EN	S	S	NAN	JO
+A000462	سواخنة	سَواخِنة	Sawakhinah	M	C	EN	S	S	NAN	JO
+A000463	سوادة	سَوَادَة	Saoada	F	G	ES	S	S	NAN	NN
+A000464	سوادة	سَوَادَة	Sawadah	F	G	EN	S	S	NAN	NN
+A000465	سوادة	سَوَادَة	Soadaa	F	G	NL	S	S	NAN	NN
+A000466	سوادة	سَوَادَة	Souada	F	G	FR	S	S	NAN	NN
+A000467	سوادة	سَوَادَة	Suadaa	F	G	DE	S	S	NAN	NN
+A000468	سوادحة	سَوادِحة	Sawadiha	M	C	EN	S	S	NAN	JO
+A000469	سوادحة	سَوادِحة	Sawadihah	M	C	EN	S	S	NAN	JO
+A000470	سوادي	سَوَادِي	Saoadi	F	G	ES	S	S	NAN	NN
+A000471	سوادي	سَوَادِي	Sawadi	F	G	EN	S	S	NAN	NN
+A000472	سوادي	سَوَادِي	Soaadi	F	G	NL	S	S	NAN	NN
+A000473	سوادي	سَوَادِي	Souadi	F	G	FR	S	S	NAN	NN
+A000474	سوادي	سَوَادِي	Suaadi	F	G	DE	S	S	NAN	NN
+A000475	سوار	سِوَار	Sioaar	M	G	NL	S	S	NAN	NN
+A000476	سوار	سِوَار	Sioar	M	G	ES	S	S	NAN	NN
+A000477	سوار	سِوَار	Siouar	M	G	FR	S	S	NAN	NN
+A000478	سوار	سِوَار	Siuaar	M	G	DE	S	S	NAN	NN
+A000479	سوار	سِوَار	Siwaar	M	G	EN	S	S	NAN	NN
+A000480	سوار	سِوَار	Siwar	M	G	EN	S	S	NAN	NN
+A000481	سوار	سِوَار	Swar	M	G	EN	S	S	NAN	NN
+A000482	سوارة	سِوَارَة	Sioara	F	G	ES	S	S	NAN	NN
+A000483	سوارة	سِوَارَة	Sioaraa	F	G	NL	S	S	NAN	NN
+A000484	سوارة	سِوَارَة	Siouara	F	G	FR	S	S	NAN	NN
+A000485	سوارة	سِوَارَة	Siuaraa	F	G	DE	S	S	NAN	NN
+A000486	سوارة	سِوَارَة	Siwarah	F	G	EN	S	S	NAN	NN
+A000487	سوارس	سَوارِس	Sawarees	M	G	EN	S	S	NAN	NN
+A000488	سوارس	سَوارِس	Sawaris	M	G	EN	S	S	NAN	NN
+A000489	سوارقة	سَوارِقة	Sawariga	M	C	EN	S	S	NAN	JO
+A000490	سوارقة	سَوارِقة	Sawariqa	M	C	EN	S	S	NAN	JO
+A000491	سواركة	سَوارِكة	Sawarika	M	C	EN	S	S	NAN	JO
+A000492	سواركة	سَوارِكة	Sawarikah	M	C	EN	S	S	NAN	JO
+A000493	سوارين	سِوَارَيْن	Sioarain	F	G	IT	S	S	NAN	NN
+A000494	سوارين	سِوَارَيْن	Sioarayn	F	G	ES	S	S	NAN	NN
+A000495	سوارين	سِوَارَيْن	Siouaraine	F	G	FR	S	S	NAN	NN
+A000496	سوارين	سِوَارَيْن	Siuarayn	F	G	DE	S	S	NAN	NN
+A000497	سوارين	سِوَارَيْن	Siwarayn	F	G	EN	S	S	NAN	NN
+A000498	سواعدة	سَواعِدة	Sawaida	M	C	EN	S	S	NAN	JO
+A000499	سواعدة	سَواعِدة	Sawaidah	M	C	EN	S	S	NAN	JO
+A000500	سواعنة	سَواعِنة	Sawaina	M	C	EN	S	S	NAN	JO
+A000501	سواعنة	سَواعِنة	Sawainah	M	C	EN	S	S	NAN	JO
+A000502	سواغنة	سَواغِنة	Sawaghina	M	C	EN	S	S	NAN	JO
+A000503	سواغنة	سَواغِنة	Sawaghinah	M	C	EN	S	S	NAN	JO
+A000504	سوافطة	سَوافِطة	Sawafita	M	C	EN	S	S	NAN	JO
+A000505	سوافطة	سَوافِطة	Sawafitah	M	C	EN	S	S	NAN	JO
+A000506	سواقعة	سَوَاقِعَة	Swagia	M	C	EN	S	S	NAN	JO
+A000507	سواقعة	سَوَاقِعَة	Swaqia	M	C	EN	S	S	NAN	JO
+A000508	سوالفة	سَوالِفة	Sawalifa	M	C	EN	S	S	NAN	JO
+A000509	سوالفة	سَوالِفة	Sawalifah	M	C	EN	S	S	NAN	JO
+A000510	سوالقة	سَوالِقة	Sawaliga	M	C	EN	S	S	NAN	JO
+A000511	سوالقة	سَوالِقة	Sawaliqa	M	C	EN	S	S	NAN	JO
+A000512	سوالكة	سَوالِكة	Sawalika	M	C	EN	S	S	NAN	JO
+A000513	سوالكة	سَوالِكة	Sawalikah	M	C	EN	S	S	NAN	JO
+A000514	سوالمة	سَوالِمة	Sawalima	M	C	EN	S	S	NAN	JO
+A000515	سوالمة	سَوالِمة	Sawalimah	M	C	EN	S	S	NAN	JO
+A000516	سوالمي	سَوَالِمِيّ	Swalimee	M	S	EN	S	S	NAN	TN
+A000517	سوالمي	سَوَالِمِيّ	Swalimiy	M	S	EN	S	S	NAN	TN
+A000518	سوامرة	سَوامِرة	Sawamira	M	C	EN	S	S	NAN	JO
+A000519	سوامرة	سَوامِرة	Sawamirah	M	C	EN	S	S	NAN	JO
+A000520	سوبرة	سَوْبَرة	Sawbara	F	G	EN	S	S	NAN	NN
+A000521	سوبرة	سَوْبَرة	Sawbarah	F	G	EN	S	S	NAN	NN
+A000522	سوداء	سَوْدَاء	Saoda	F	G	ES	S	S	NAN	NN
+A000523	سوداء	سَوْدَاء	Sawda	F	G	EN	S	S	NAN	NN
+A000524	سوداء	سَوْدَاء	Sodaa	F	G	NL	S	S	NAN	NN
+A000525	سوداء	سَوْدَاء	Souda	F	G	FR	S	S	NAN	NN
+A000526	سوداء	سَوْدَاء	Sudaa	F	G	DE	S	S	NAN	NN
+A000527	سوداني	سُودَانِيّ	Sudani	M	S	EN	S	S	NAN	TN
+A000528	سوداني	سُودَانِيّ	Sudany	M	S	EN	S	S	NAN	TN
+A000529	سودة	سُودَة	Saudah	F	G	EN	S	S	NAN	NN
+A000530	عذبة	عَذْبَة	Adhba	F	G	EN	S	S	NAN	NN
+A000531	عذبة	عَذْبَة	Adhbah	F	G	EN	S	S	NAN	NN
+A000532	عذبة	عَذْبَة	Aezba	F	G	FR	S	S	NAN	NN
+A000533	عذبة	عَذْبَة	Azba	F	G	ES	S	S	NAN	NN
+A000534	عذر	عَذْر	Adhr	M	G	EN	S	S	NAN	NN
+A000535	عذراء	عَذْرَاء	Aadhraa	F	G	DE	S	S	NAN	NN
+A000536	عذراء	عَذْرَاء	Adhra	F	G	EN	S	S	NAN	NN
+A000537	عذراء	عَذْرَاء	Aezra	F	G	EN	S	S	NAN	NN
+A000538	عذراء	عَذْرَاء	Azra	F	G	EN	S	S	NAN	NN
+A000539	عذرة	عَذرَة	Adhrah	F	G	EN	S	S	NAN	NN
+A000540	عذرون	عَذْرُون	Adhroun	M	G	FR	S	S	NAN	NN
+A000541	عذرون	عَذْرُون	Adhrun	M	G	EN	S	S	NAN	NN
+A000542	عذري	عَذْرِيّ	Adhree	M	S	EN	S	S	NAN	TN
+A000543	عذري	عَذْرِيّ	Adhriy	M	S	EN	S	S	NAN	TN
+A000544	عذلة	عَذْلة	Adhala	F	G	EN	S	S	NAN	NN
+A000545	عذلة	عَذْلة	Adhla	F	G	EN	S	S	NAN	NN
+A000546	عذلة	عَذْلة	Edhla	F	G	EN	S	S	NAN	NN
+A000547	عذلة	عَذْلة	Udhla	F	G	EN	S	S	NAN	NN
+A000548	عذوف	عَذُوف	Adhouf	M	G	FR	S	S	NAN	NN
+A000549	عذوف	عَذُوف	Adhuf	M	G	EN	S	S	NAN	NN
+A000550	عذيب	عَذِيب	Adhyb	M	G	EN	S	L	NAN	NN
+A000551	عذيبة	عَذِيبَة	Adheebah	F	G	EN	S	L	NAN	NN
+A000552	عذيبة	عَذِيبَة	Adhibah	F	G	EN	S	L	NAN	NN
+A000553	عذيبي	عَذِيبِي	Adhybi	M	G	EN	S	L	NAN	NN
+A000554	عذيبي	عَذِيبِي	Adhyby	M	G	EN	S	L	NAN	NN
+A000555	قسم الخالق	قَسِمُ الخَالِق	Qasimu Alkhalig	M	G	EN	S	S	NAN	NN
+A000556	قسم الخالق	قَسِمُ الخَالِق	Qasimu Alkhaliq	M	G	EN	S	S	NAN	NN
+A000557	قسم الفضيل	قَسِمُ الفَضِيل	Kessimou Elfedil	M	G	FR	S	S	NAN	NN
+A000558	قسم الفضيل	قَسِمُ الفَضِيل	Kessimoulfedil	M	G	FR	S	S	NAN	NN
+A000559	قسم الفضيل	قَسِمُ الفَضِيل	Qasimo Alfadil	M	G	NL	S	S	NAN	NN
+A000560	قسم الفضيل	قَسِمُ الفَضِيل	Qasimolfadil	M	G	NL	S	S	NAN	NN
+A000561	قسم الفضيل	قَسِمُ الفَضِيل	Qasimu Alfadil	M	G	EN	S	S	NAN	NN
+A000562	قسم الفضيل	قَسِمُ الفَضِيل	Qasimu Elfadil	M	G	ES	S	S	NAN	NN
+A000563	قسم الفضيل	قَسِمُ الفَضِيل	Qasimulfadil	M	G	EN	S	S	NAN	NN
+A000564	قسم الكريم	قَسْمُ الكَرِيم	Kesmou Elkerim	M	G	FR	S	S	NAN	NN
+A000565	قسم الكريم	قَسْمُ الكَرِيم	Kesmoulkerim	M	G	FR	S	S	NAN	NN
+A000566	قسم الكريم	قَسْمُ الكَرِيم	Kesmoulkerime	M	G	FR	S	S	NAN	NN
+A000567	قسم الكريم	قَسْمُ الكَرِيم	Qasmo Alkarim	M	G	NL	S	S	NAN	NN
+A000568	قسم الكريم	قَسْمُ الكَرِيم	Qasmolkarim	M	G	NL	S	S	NAN	NN
+A000569	قسم الكريم	قَسْمُ الكَرِيم	Qasmu Alcarim	M	G	IT	S	S	NAN	NN
+A000570	قسم الكريم	قَسْمُ الكَرِيم	Qasmu Alkarim	M	G	EN	S	S	NAN	NN
+A000571	قسم الكريم	قَسْمُ الكَرِيم	Qasmu Elkarim	M	G	ES	S	S	NAN	NN
+A000572	قسم الكريم	قَسْمُ الكَرِيم	Qasmulcarim	M	G	IT	S	S	NAN	NN
+A000573	مبارك	مُبارَك	Mawbark	M	S	EN	M	S	NAN	MR
+A000574	مبارك	مُبارَك	Moubark	M	S	FR	M	S	NAN	MR
+A000575	موماد	مَوْمَاد	Mawmad	M	S	EN	M	S	NAN	MR
+A000576	موماد	مَوْمَاد	Moumad	M	S	FR	M	S	NAN	MR
+A000577	مومادى	مَومَادِى	Mawmadi	M	S	EN	M	S	NAN	MR
+A000578	مومادى	مَومَادِى	Moumadi	M	S	FR	M	S	NAN	MR
+A000579	مومادي	مُومَادِي	Moumadi	M	S	FR	M	S	NAN	MR
+A000580	مومادي	مُومَادِي	Mumadi	M	S	EN	M	S	NAN	MR
+A000581	آيت براهيم	آيْت بَرَاهِيم	Ayt Baraahim	M	S	DE	S	L	QAS	DZ
+A000582	آيت براهيم	آيْت بَرَاهِيم	Ayt Barahim	M	S	EN	S	L	QAS	DZ
+A000583	آيت براهيم	آيْت بَرَاهِيم	Aytbaraahim	M	S	DE	S	L	QAS	DZ
+A000584	آيت براهيم	آيْت بَرَاهِيم	Aytbarahim	M	S	EN	S	L	QAS	DZ
+A000585	آيت عدي	آيت عُدِي	Aayt Oday	M	S	NL	S	S	QAS	DZ
+A000586	آيت عدي	آيت عُدِي	Aaytoday	M	S	NL	S	S	QAS	DZ
+A000587	آيت عدي	آيت عُدِي	Ait Oudai	M	S	FR	S	S	QAS	DZ
