@@ -1,5 +1,5 @@
 Kalmasoft Databases
-Amharic Morphology Lexicon
+Amharic Morphology Lexicon (AmaMoLex)
 Reference: http://www.kalmasoft.com/KNAP/index.htm
 Resources: Lexical Data Repository of the Ge'ez Frontier Foundation https://github.com/geezorg/data/tree/master/amharic; HornMorpho is part of the L3 Project http://www.cs.indiana.edu/~gasser/Research/projects.html; Carl W. Isenberg, Grammar of the Amharic Language
 Total entries: +100M surface tokens, estimated
@@ -12,7 +12,7 @@ Special thanks go to contributors:
 
 
 Breif:
-Amamolex is a morphological database of regular Amharic verbs and nouns automatically generated using tools developed by Kalmasoft.
+AmaMoLex is a morphological database of regular Amharic verbs and nouns automatically generated using tools developed by Kalmasoft.
 Note:
 Licensed under Creative Commons Attribution-ShareAlike 4.0 International license.
 This is a work in progress, not completed, any citations for academic purposes should include the date when the file was downloaded.
@@ -20,15 +20,15 @@ This is a work in progress, not completed, any citations for academic purposes s
 Database attributes:
 	No: serial number
 	Id: identification number of Amharic root
-	Subid: number of conjugations/inflections
-	Word: inout word, basically same as Root
-	Root: Amharic root
+	Subid: number of conjugations/inflections of the same root
+	Word: input word, basically same as Root
+	Root: Amharic theoretical root
 	Lemma: Amharic surface form lemma, please contact for more details
 	Verb: fully conjugated Amharic verb
 	Noun: fully inflected Amharic noun
-	Transcript: Amharic verb/noun phonemic transcription/transliteration, SERA, other options include International Phonetic Alphabet (IPA)
+	Transcript: Amharic surface form phonemic transcription/transliteration, SERA, other options include International Phonetic Alphabet (IPA) and ALA-LC
 	Affixes: surface form prefix and suffix
 	Pos: surface form part of speech 
 	Gloss: part of speech gloss
 	Tvariety: target language variety, Addis Ababa or Showa Amharic
-	Tagset: part of speech tagset used, KTagset, please refer to https://www.kalmasoft.com/KMAPS/ktagset.htm 
+	Tagset: part of speech tagset used, KTagset, other options include UniMorph, please refer to https://www.kalmasoft.com/KMAPS/ktagset.htm 
