@@ -10,9 +10,9 @@ Editor in Chief: Hatim Ibrahim kalmasoft@gmail.com
 Credit:
 Special thanks go to contributors:
 
-
-Breif:
+Brief:
 AmaMoLex is a morphological database of regular Amharic verbs and nouns automatically generated using tools developed by Kalmasoft.
+
 Note:
 Licensed under Creative Commons Attribution-ShareAlike 4.0 International license.
 This is a work in progress, not completed, any citations for academic purposes should include the date when the file was downloaded.
