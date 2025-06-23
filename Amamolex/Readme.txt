@@ -9,6 +9,8 @@ Contact: info@kalmasoft.com
 Editor in Chief: Hatim Ibrahim kalmasoft@gmail.com
 Credit:
 Special thanks go to contributors:
+1. Eyob Wondimu, እዮብ ወንድሙ
+
 
 Brief:
 AmaMoLex is a morphological database of regular Amharic verbs and nouns automatically generated using tools developed by Kalmasoft.
