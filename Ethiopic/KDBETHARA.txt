@@ -3,7 +3,7 @@
 # References: www.kalmasoft.com/KLEX/dbamara.htm, www.kalmasoft.com/KLEX/dbtigrn.htm, www.kalmasoft.com/KLEX/dbtigre.htm
 # Resources: Lexical Data Repository of the Ge'ez Frontier Foundation https://github.com/geezorg/data/tree/master/ethiopic; HornMorpho is part of the L3 Project http://www.cs.indiana.edu/~gasser/Research/projects.html; Carl W. Isenberg, Grammar of the Amharic Language
 # Related works: www.kalmasoft.com/KLEX/dcamhara.htm, www.kalmasoft.com/KLEX/dbsyriac.htm
-# Availability: https://github.com/Kalmasoft/Databases/blob/main/Ethiopic/KDBETHARA
+# Availability: https://github.com/Kalmasoft/Databases/blob/main/Ethiopic
 # Terminology: www.kalmasoft.com/adevtool.htm
 # Tools: Amharic Verb Conjugation generator www.kalmasoft.com/KMAPS/eamrconj.htm
 # Created: 3/1/2021 8:38 AM
