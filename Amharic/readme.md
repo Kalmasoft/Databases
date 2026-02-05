@@ -1,4 +1,4 @@
-Synopsis
+This folder is archive, please use contents in the "Ethiopic" folder
 
 Amharic is one of the Cushitic languages ​​and is characterized by a very wide vocabulary in addition to a unique syntax with versatile grammatical rules and semantic classifications that are well recognized to have great historical and cultural value; the relationship between Amharic and other languages ​​in the region is formulated by linguists as belonging to the family of Semitic languages which includes Hebrew, Tigrinya, Aramaic, and Arabic.
 
