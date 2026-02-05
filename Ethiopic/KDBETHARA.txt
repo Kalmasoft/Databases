@@ -1,13 +1,13 @@
 ﻿# Kalmasoft Databases
 # Database of Arabic words of Ethiopic origin
 # References: www.kalmasoft.com/KLEX/dbamara.htm, www.kalmasoft.com/KLEX/dbtigrn.htm, www.kalmasoft.com/KLEX/dbtigre.htm
-# Resources: Lexical Data Repository of the Ge'ez Frontier Foundation https://github.com/geezorg/data/tree/master/ethiopic; HornMorpho is part of the L3 Project http://www.cs.indiana.edu/~gasser/Research/projects.html; Carl W. Isenberg, Grammar of the Amharic Language
+# Resources: Lexical Data Repository of the Ge'ez Frontier Foundation https://github.com/geezorg/data/tree/master; HornMorpho is part of the L3 Project http://www.cs.indiana.edu/~gasser/Research/projects.html; Carl W. Isenberg, Grammar of the Amharic Language
 # Related works: www.kalmasoft.com/KLEX/dcamhara.htm, www.kalmasoft.com/KLEX/dbsyriac.htm
 # Availability: https://github.com/Kalmasoft/Databases/blob/main/Ethiopic
 # Terminology: www.kalmasoft.com/adevtool.htm
 # Tools: Amharic Verb Conjugation generator www.kalmasoft.com/KMAPS/eamrconj.htm
 # Created: 3/1/2021 8:38 AM
-# Updated: 2/4/2026 10:26 AM
+# Updated: 2/5/2026 2:16 PM
 # Encoding: UTF8
 # Delimiter: TAB
 # Total entries: 3,800+
@@ -1492,8 +1492,8 @@ A01414	ይሰማል	/jɨsɛmaːl/	/jasmiʕanna/	يَسْمِعَنَّ	VC	VC				
 A01415	ይስማ	/jɨsɨmaː/	/jasmiʕ/	يَسْمِع	VI	VI						ሰማህ	سمع	amh	hear
 A01416	ይስማ	/jɨsɨmaː/	/jasammiʕ/	يَسَمِّع	VI	VI							سمع	amh	hear
 A01417	ሰማይ	/sɛmaːj/	/samaːʔ/	سَمَاء	N	N	SNG	SNG					سمو	amh	sky
-A01418	ተሰሚ  	/tɛsɛmi/	/sumuː/	سُمُو	N	N							سمو	amh	important, official, prevailing upon
-A01419	ተሰሚ  	/tɛsɛmi/	/sumuː/	سُمُو	N	N			RLGN	RLGN			سمو	amh	reverential
+A01418	ተሰሚ	/tɛsɛmi/	/sumuː/	سُمُو	N	N							سمو	amh	important, official, prevailing upon
+A01419	ተሰሚ	/tɛsɛmi/	/sumuː/	سُمُو	N	N			RLGN	RLGN			سمو	amh	reverential
 A01420	ስም	/sɨm/	/ism/	إسْم	N	N							سمي	amh	name
 A01421	ማሰናዳት	/maːsɛnadat/	/masnad/	مَسْنَد	I							*ሰናህዳህ	سند	amh	arrange, prepare
 A01422	ሰነድ	/sɛnɛd/	/sanad/	سَنَد	N	N			DMST	DMST			سند	amh	document, manuscript, text
@@ -1732,7 +1732,7 @@ A01654	ደራቢ	/dɛraːb/	/dˤarraːb/	ضَرَّاب	P	P						ደረ፟በ	ض
 A01655	ደርብ	/dɛrɨb/	/dˤarb/	ضَرْب	N	N							ضرب	amh	floor or level in a building
 A01656	ደርብ	/dɛrɨb/	/dˤarb/	ضَرْب	N	N							ضرب	amh	row, layer
 A01657	ደርቦ	/dɛrɨbo/	/dˤrbun/	ضْرْبٌ	G	M						ደረ፟በ	ضرب	amh	cover, double up
-A01658	ድርብ 	/dɨrɨb/	/dˤarb/	ضَرْب	N	N						ደረ፟በ	ضرب	amh	double
+A01658	ድርብ	/dɨrɨb/	/dˤarb/	ضَرْب	N	N						ደረ፟በ	ضرب	amh	double
 A01659	ጥርስ	/tˤɨrɨs/	/dˤirs/	ضِرْس	N	N			ANAT	ANAT			ضرس	amh	bone like substance rooted in the gums for biting and chewing
 A01660	ጥርስ	/tˤɨrɨs/	/dˤirs/	ضِرْس	N	N			ANAT	ANAT			ضرس	amh	tooth
 A01661	ጥርሶ	/tˤɨrɨso/	/dˤirs/	ضِرْس	N	N			ANAT	ANAT			ضرس	amh	toothy
@@ -2976,7 +2976,7 @@ A02898	ተማከሪ	/tɛmaːkɛr/	/makkaːr/	مَكَّار	P	P							مكر	amh
 A02899	ተማከር	/tɛmaːkɛr/	/tamakkar/	تَمَكَّر	VM	VM							مكر	amh	deliberate
 A02900	ተማክሮ	/tɛmaːkɨro/	/tamakkurun/	تَمَكُّرٌ	G	M							مكر	amh	deliberate
 A02901	ይመክራል	/jɨmɛkɨraːl/	/jamkiranna/	يَمْكِرَنَّ	VC	VC							مكر	amh	advise
-A02902	ይማ፟ከ፟ር 	/jɨmmaːkkɛr/	/jamakkir/	يَمَكِّر	VI	VI							مكر	amh	deliberate
+A02902	ይማ፟ከ፟ር	/jɨmmaːkkɛr/	/jamakkir/	يَمَكِّر	VI	VI							مكر	amh	deliberate
 A02903	ይምከር	/jɨmɨkɛr/	/jamkir/	يَمْكِر	VI	VI							مكر	amh	advise
 A02904	ይሞክራል	/jɨmokɨraːl/	/jamkiranna/	يَمْكِرَنَّ	VC	VC						ሞከ፟ረ	مكر	amh	try
 A02905	ይሞክር	/jɨmokɨr/	/jamkur/	يَمْكُر	VI	VI						ሞከ፟ረ	مكر	amh	try
@@ -3751,9 +3751,9 @@ A03673	ፖሊስ፡ጣቢያ	/polisɨ፡tˤabija/	/tˤaːbiːja buːliːs/	طَ�
 K03674	ፎቅ	/fokʼ/	/fəwq/	فَوْق	N	N		A					فوق	amh	floor
 K03675	ጨምር	/tʃɛmr/	/tˤəmərə/	طَمَرَ	V	V	VP	VP					طمر	amh	add
 K03676	ጠፋች	/tˤɛfat͡ʃ/	/tˤəfəʃə/	طَفَشَ	V	V col	VP	VP						amh	she disappeared, she vanished
-K03677	ጠፋ	/tˤɛfa/	/tˤəfəʔ/	طَفَأ 	N	N	A	A					طفي	amh	lost, disappeared, vanished, be missing
+K03677	ጠፋ	/tˤɛfa/	/tˤəfəʔ/	طَفَأ	N	N	A	A					طفي	amh	lost, disappeared, vanished, be missing
 K03678	ግድግዳ	/gɨdgda/	/ɣərqəd/	غَرْقَد	N	N								amh	wall
-K03679	ግዛት 	/gɨzat/	/qədˤɑː/	قَضاء	N	N								amh	Territory, province, or empire
+K03679	ግዛት	/gɨzat/	/qədˤɑː/	قَضاء	N	N								amh	Territory, province, or empire
 K03680	ግዛት	/gɨzat/	/ɣəzuːaː/	غَزَاة	N	N							غزو	amh	possession, dominion, realm
 K03681	ግዛት	/gɨzat/	/ħəwza/	حَوْزة	N	N							حوز	amh	possession, dominion, realm
 K03682	ግዛ	/gɨza/	/d͡ʒəzɑː/	جَزاء	V	V	VI	VI					جزي	amh	buy, reward
@@ -3777,3 +3777,46 @@ K03699	ማላ	/maːlaː/	/maːlaː/	مَيْل	N	N							ملي	amh	oath, vow, p
 K03700	መቅዘፊያ	/mɛkʼzɛfija/	/mɪd͡ʒdɑːf/	مِجْدَاف	N	N							جذف	amh	paddle, rudder
 K03701	ኃላፊነት	/ħalaːfinɛt/	/ħələfə/	حَلَفَ	V	V	VP	VP					حلف	amh	responsibility
 K03702	ፍራሽ	/fɨraːʃ/	/fərʃ/	فَرْش	N	N			DMST	DMST			فرش	amh	mattress
+K03703	ገዘፋ	/gɛzɛfa/	/d͡ʒaːzəfə/	جازَفَ	V	V								amh	
+K03704	ገዛሚ	/gɛzami/	/kəzːzaːm/	كَزّام	N	N col[SD]								amh	ruler
+K03705	ገዘገዝ	/gɛzɛgɛz/	/qəzqəza/	قَزْقَزة	N	N col								amh	slow down
+K03706	ድርድር	/dɨrdr/	/dərdəra/	دَرْدَرة	N	N col[SD]								amh	negotiation, bargaining
+K03707	ወዲ	/wɛdi/	/wad/	وَدْ		N col[SD]								tir	son
+K03708	ቈልዓ	/kʼoalɨʕa/	/qəlːləʕ/	قَلَّع		N col[SD]								tir	child
+K03709	እትየ	/ətɨja/	/ʔtaːiːa/	التاية		N col[SD]								tir	lady
+K03710	እዋን	/əwan/	/ʔauːɑːn/	أوَان										tir	period
+K03711	ዕረፍቲ	/ʕɨrɛfɨti/	/ʕərəfa/	عَرَفة										tir	rest
+K03712	ኣልኮል	/ɑlɨkol/	/aːlkəħuːl/	الكَحُول										tir	alcohol
+R03713	ደቅስ	/dɛkʼɨs/	/dəgəs/	دَقَس	N	V col[SD]								tir	sleep
+R03714	ስራሕ	/sɨraːħ/	/sərħa/	سَرْحة	N	N col[SD]							سرح	tir	job
+R03715	ብሓንሳእ	/bɨħaːnɨsa/	/bʔtəħniːs/	بالتَحْنِيس	N	N col[SD]							حنس	tir	jointly
+R03716	ብሽርክነት	/bɨʃɨrɨkɨnɛt/	/baːlaːʃtraːk/	بالاشتراك									شرك	tir	jointly
+R03717	ሕጉስ	/ħɨgus/	/həgːgaːsˤ/	هَجّاص	A	A col[EG]								tir	jovial
+R03718	ብሩህ	/bɨruh/	/fərɪħ/	فَرِح	A	A							فرح	tir	jovial
+R03719	ሓጐስ	/ħaːgoas/	/həgsˤ/	هَجْص	N	N col[EG]								tir	joy
+R03720	ባህታ	/bahɨta/	/bəχt/	بَخْت	N	N							بخت	tir	joy
+R03721	ጠንጠነ	/tˤɛnɨtˤɛnɛ/	/tˤəntˤənə/	طَنْطَنَ	V	V								tir	to abandon
+R03722	ረጥረጠ	/rɛtˤɨrɛtˤɛ/	/rətrət/	رَتْرَت	V	V col[SD]								tir	to abandon
+R03723	ዘይልሙድ	/zɛjɨlɨmud/	/ʒəlmuːd/	جَلْمُود	N	N								tir	abnormal
+R03724	ወጻኢ	/wɛsʼai/	/wɪsˤɑːʔi/	وِصَائي	A	A								tir	abroad
+R03725	ዘየሎ	/zɛjalo/	/zɑːʔil/	زَائل	A	A								tir	absent
+R03726	ጸወመ	/sʼɛwɛmɛ/	/sˤəwm/	صَوْم	N	N								tir	abstain to
+R03727	ነሃረ	/nɛhaːrɛ/	/nəhr/	نَهْر	N	N col[SD]								tir	accelerate, to
+R03728	ተቐበለ	/tɛɣbɛlɛ/	/təqəbːbələ/	تَقَبَّلَ	V	V								tir	accept, to
+R03729	ቅቡል	/kʼɨbul/	/qəbuːl/	قَبُول	N	N								tir	acceptable
+R03730	በራድ	/bɛraːd/	/bərːrɑːd/	بَرَّاد	N	N								tir	kettle
+R03731	መፍትሕ	/mɛfɨtɨħ/	/mɪftɑːħ/	مِفْتَاح	N	N								tir	key
+R03732	ሰረቐ	/sɛrɛɣ/	/sərəqə/	سَرَقَ	V	V								tir	stole
+R03733	ኵሊት	/koelit/	/kuliːa/	كُلْية	N	N								tir	kidney
+R03734	ቀተለ	/kʼɛtɛlɛ/	/qətəl/	قَتَل	V	V								tir	kill, to
+R03735	ቀታሊ	/kʼɛtali/	/qətːtɑːl/	قَتَّال	V	V								tir	killer
+R03736	ቀታል	/kʼɛtal/	/qətːtɑːl/	قَتَّال	V	V								tir	killer
+R03737	ኣካረየ	/ɑkarɛja/	/ʕəqaːriːa/	عَقارِية	N	N								tir	lease, to
+R03738	ንውሓት	/nɨwɨħaːt/	/nuːaːħ/	نُواح	N	N								tir	length
+R03739	ርሕራሐ	/rɨħɨraːħɛ/	/rəħrəħaː/	رَحْرَحَة	N	N col[EG]								tir	leniency
+R03740	ነብሪ	/nɛbɨri/	/nəmr/	نَمْر	N	N								tir	leopard
+R03741	ለሓሰ	/lɛħaːsɛ/	/ləħəsə/	لَحَسَ	V	V								tir	lick, to
+R03742	ኣልመጸ	/ɑlɨmɛsʼɛ/	/ləməðˤə/	لَمَظَ	V	V								tir	lick, to
+R03743	ኣልመጸ	/ɑlɨmɛsʼɛ/	/ləməsˤə/	لَمَصَ	V	V								tir	lick, to
+R03744	መሓውር	/mɛħaːwɨr/	/məħaːuːɪr/	مَحاوِر	N	N								tir	limbs
+R03745	ልሳን	/lɨsan/	/lɪsaːn/	لِسان	N	N								tir	language
