@@ -1,16 +1,16 @@
 ﻿# Kalmasoft Databases
 # Database of Arabic words of Ethiopic origin
-# References: www.kalmasoft.com/KLEX/dbamara.htm, www.kalmasoft.com/KLEX/dbtigrn.htm, www.kalmasoft.com/KLEX/dbtigre.htm
+# References: www.kalmasoft.com/KLEX/dbamara.htm, www.kalmasoft.com/KLEX/dbtirara.htm, www.kalmasoft.com/KLEX/dbtigara.htm
 # Resources: Lexical Data Repository of the Ge'ez Frontier Foundation https://github.com/geezorg/data/tree/master; HornMorpho is part of the L3 Project http://www.cs.indiana.edu/~gasser/Research/projects.html; Carl W. Isenberg, Grammar of the Amharic Language
 # Related works: www.kalmasoft.com/KLEX/dcamhara.htm, www.kalmasoft.com/KLEX/dbsyriac.htm
 # Availability: https://github.com/Kalmasoft/Databases/blob/main/Ethiopic
 # Terminology: www.kalmasoft.com/adevtool.htm
 # Tools: Amharic Verb Conjugation generator www.kalmasoft.com/KMAPS/eamrconj.htm
 # Created: 3/1/2021 8:38 AM
-# Updated: 2/5/2026 2:16 PM
+# Updated: 2/9/2026 12:14 PM
 # Encoding: UTF8
 # Delimiter: TAB
-# Total entries: 3,800+
+# Total entries: 3,880+
 # Copyright ©1999-2025 Kalmasoft www.kalmasoft.com
 # Contact: info@kalmasoft.com
 # ================================================================================================
@@ -42,7 +42,7 @@
 #		VC: Verb compound imperfective (Amharic compound imperfective, Arabic emphatic imperfective)
 #		VJ: Verb jussive
 #		VM: Verb imperative
-#		VP: Verb perfective
+#		VP: Verb perfective, past
 #	ETSubclass/ARSubclass: Ethiopic/Arabic entry grammatical subclass
 #		CON: Conjunction
 #		PRP: Preposition
@@ -3749,7 +3749,7 @@ A03671	ፎጣ	/fotˤa/	/fuːtˤa/	فُوطَة	N	Ncol			DMST	DMST				amh	piece o
 A03672	ፓፓዬ	/papaje/	/baːbaːja/	بَابَايا	N	N			PLNT	PLNT				amh	papaya
 A03673	ፖሊስ፡ጣቢያ	/polisɨ፡tˤabija/	/tˤaːbiːja buːliːs/	طَابِية بُولِيس	N	Ncol [SD]								amh	office of a local police officer
 K03674	ፎቅ	/fokʼ/	/fəwq/	فَوْق	N	N		A					فوق	amh	floor
-K03675	ጨምር	/tʃɛmr/	/tˤəmərə/	طَمَرَ	V	V	VP	VP					طمر	amh	add
+K03675	ጨምር	/tʃɛmr/	/tˤəmərə/	طَمَرَ	VP	VP							طمر	amh	add
 K03676	ጠፋች	/tˤɛfat͡ʃ/	/tˤəfəʃə/	طَفَشَ	V	V col	VP	VP						amh	she disappeared, she vanished
 K03677	ጠፋ	/tˤɛfa/	/tˤəfəʔ/	طَفَأ	N	N	A	A					طفي	amh	lost, disappeared, vanished, be missing
 K03678	ግድግዳ	/gɨdgda/	/ɣərqəd/	غَرْقَد	N	N								amh	wall
@@ -3758,15 +3758,15 @@ K03680	ግዛት	/gɨzat/	/ɣəzuːaː/	غَزَاة	N	N							غزو	amh	posses
 K03681	ግዛት	/gɨzat/	/ħəwza/	حَوْزة	N	N							حوز	amh	possession, dominion, realm
 K03682	ግዛ	/gɨza/	/d͡ʒəzɑː/	جَزاء	V	V	VI	VI					جزي	amh	buy, reward
 K03683	ገዢ	/gɛʒi/	/ɣaːzi/	غازي	N	N							غزو	amh	ruler, buyer
-K03684	ገዢ	/gɛʒi/	/ɣaːzi/	غَوازِي	N	N col[OM,AE]		PLR					غزو	amh	ruler, buyer
+K03684	ገዢ	/gɛʒi/	/ɣaːzi/	غَوازِي	N	Ncol [OM,AE]		PLR					غزو	amh	ruler, buyer
 K03685	ገዛ	/gɛza/	/ɣəzɑ/	غَزا	V	V								amh	buy, purchase
-K03686	ገብቷል	/gɛbtoal/	/qəbədˤə/	قَبَضَ	V	V	VP	VP					قبض	amh	entered, admitted
+K03686	ገብቷል	/gɛbtoal/	/qəbədˤə/	قَبَضَ	VP	VP							قبض	amh	entered, admitted
 K03687	እዳ	/əda/	/ʔadɑː/	أداء	N	N							أدي	amh	obligation, debt, duty
 K03688	አገር	/əgɛr/	/ħəd͡ʒr/	حَجْر	N	N							حجر	amh	homeland, country
 K03689	አገር	/əgɛr/	/ħud͡ʒra/	حُجْرة	N	N							حجر	amh	room
 K03690	አስብ	/əsb/	/ħəsɪb/	حَسِب	V	V	VI	VI					حسب	amh	think
 K03691	ትኩስ	/tɨkus/	/tˤəqs/	طَقْس	N	N							طقس	amh	hot
-K03692	በግ	/bɛg/	/bɪd͡ʒ/	بِج	N	N col[SD]								amh	lamb
+K03692	በግ	/bɛg/	/bɪd͡ʒ/	بِج	N	Ncol [SD]								amh	lamb
 K03693	ቀለበት	/kʼɛlɛbɛt/	/qulb/	قُلْب	N	N								amh	ring
 K03694	ሽፋን	/ʃfan/	/d͡ʒəfn/	جَفْن	N	N							جفن	amh	cover, covering, or coverage
 K03695	ሱፍ	/suf/	/sˤuːf/	صُوف	N	N								amh	wool
@@ -3775,48 +3775,185 @@ K03697	ሰሜን	/sɛmen/	/ʃaːm/	شام	N	N								amh	Levantine
 K03698	ሰሜን	/sɛmen/	/ʔʃaːm/	الشام	N	N								amh	Levantine
 K03699	ማላ	/maːlaː/	/maːlaː/	مَيْل	N	N							ملي	amh	oath, vow, pledge
 K03700	መቅዘፊያ	/mɛkʼzɛfija/	/mɪd͡ʒdɑːf/	مِجْدَاف	N	N							جذف	amh	paddle, rudder
-K03701	ኃላፊነት	/ħalaːfinɛt/	/ħələfə/	حَلَفَ	V	V	VP	VP					حلف	amh	responsibility
+K03701	ኃላፊነት	/ħalaːfinɛt/	/ħələfə/	حَلَفَ	VP	VP							حلف	amh	responsibility
 K03702	ፍራሽ	/fɨraːʃ/	/fərʃ/	فَرْش	N	N			DMST	DMST			فرش	amh	mattress
-K03703	ገዘፋ	/gɛzɛfa/	/d͡ʒaːzəfə/	جازَفَ	V	V								amh	
-K03704	ገዛሚ	/gɛzami/	/kəzːzaːm/	كَزّام	N	N col[SD]								amh	ruler
+K03703	ገዘፋ	/gɛzɛfa/	/d͡ʒaːzəfə/	جازَفَ	V	VP								amh	
+K03704	ገዛሚ	/gɛzami/	/kəzːzaːm/	كَزّام	N	Ncol [SD]								amh	ruler
 K03705	ገዘገዝ	/gɛzɛgɛz/	/qəzqəza/	قَزْقَزة	N	N col								amh	slow down
-K03706	ድርድር	/dɨrdr/	/dərdəra/	دَرْدَرة	N	N col[SD]								amh	negotiation, bargaining
-K03707	ወዲ	/wɛdi/	/wad/	وَدْ		N col[SD]								tir	son
-K03708	ቈልዓ	/kʼoalɨʕa/	/qəlːləʕ/	قَلَّع		N col[SD]								tir	child
-K03709	እትየ	/ətɨja/	/ʔtaːiːa/	التاية		N col[SD]								tir	lady
-K03710	እዋን	/əwan/	/ʔauːɑːn/	أوَان										tir	period
+K03706	ድርድር	/dɨrdr/	/dərdəra/	دَرْدَرة	N	Ncol [SD]								amh	negotiation, bargaining
+K03707	ወዲ	/wɛdi/	/wad/	وَدْ		Ncol [SD]								tir	son
+K03708	ቈልዓ	/kʼoalɨʕaː/	/qəlːləʕ/	قَلَّع		Ncol [SD]								tir	child
+K03709	እትየ	/ətɨja/	/ʔtaːiːa/	التاية		Ncol [SD]								tir	lady
+K03710	እዋን	/əwaːn/	/ʔauːɑːn/	أوَان										tir	period
 K03711	ዕረፍቲ	/ʕɨrɛfɨti/	/ʕərəfa/	عَرَفة										tir	rest
 K03712	ኣልኮል	/ɑlɨkol/	/aːlkəħuːl/	الكَحُول										tir	alcohol
-R03713	ደቅስ	/dɛkʼɨs/	/dəgəs/	دَقَس	N	V col[SD]								tir	sleep
-R03714	ስራሕ	/sɨraːħ/	/sərħa/	سَرْحة	N	N col[SD]							سرح	tir	job
-R03715	ብሓንሳእ	/bɨħaːnɨsa/	/bʔtəħniːs/	بالتَحْنِيس	N	N col[SD]							حنس	tir	jointly
+R03713	ደቅስ	/dɛkʼɨs/	/dəgəs/	دَقَس	N	Vcol [SD]		VP						tir	sleep
+R03714	ስራሕ	/sɨraːħ/	/sərħa/	سَرْحة	N	Ncol [SD]							سرح	tir	job
+R03715	ብሓንሳእ	/bɨħaːnɨsaː/	/bʔtəħniːs/	بالتَحْنِيس	N	Ncol [SD]							حنس	tir	jointly
 R03716	ብሽርክነት	/bɨʃɨrɨkɨnɛt/	/baːlaːʃtraːk/	بالاشتراك									شرك	tir	jointly
-R03717	ሕጉስ	/ħɨgus/	/həgːgaːsˤ/	هَجّاص	A	A col[EG]								tir	jovial
+R03717	ሕጉስ	/ħɨgus/	/həgːgaːsˤ/	هَجّاص	A	Acol [EG]								tir	jovial
 R03718	ብሩህ	/bɨruh/	/fərɪħ/	فَرِح	A	A							فرح	tir	jovial
-R03719	ሓጐስ	/ħaːgoas/	/həgsˤ/	هَجْص	N	N col[EG]								tir	joy
-R03720	ባህታ	/bahɨta/	/bəχt/	بَخْت	N	N							بخت	tir	joy
-R03721	ጠንጠነ	/tˤɛnɨtˤɛnɛ/	/tˤəntˤənə/	طَنْطَنَ	V	V								tir	to abandon
-R03722	ረጥረጠ	/rɛtˤɨrɛtˤɛ/	/rətrət/	رَتْرَت	V	V col[SD]								tir	to abandon
+R03719	ሓጐስ	/ħaːgoas/	/həgsˤ/	هَجْص	N	Ncol [EG]								tir	joy
+R03720	ባህታ	/baːhɨtaː/	/bəχt/	بَخْت	N	N							بخت	tir	joy
+R03721	ጠንጠነ	/tˤɛnɨtˤɛnɛ/	/tˤəntˤənə/	طَنْطَنَ	V	VP								tir	to abandon
+R03722	ረጥረጠ	/rɛtˤɨrɛtˤɛ/	/rətrət/	رَتْرَت	V	Vcol [SD]		VP						tir	to abandon
 R03723	ዘይልሙድ	/zɛjɨlɨmud/	/ʒəlmuːd/	جَلْمُود	N	N								tir	abnormal
-R03724	ወጻኢ	/wɛsʼai/	/wɪsˤɑːʔi/	وِصَائي	A	A								tir	abroad
+R03724	ወጻኢ	/wɛsʼaːi/	/wɪsˤɑːʔi/	وِصَائي	A	A								tir	abroad
 R03725	ዘየሎ	/zɛjalo/	/zɑːʔil/	زَائل	A	A								tir	absent
 R03726	ጸወመ	/sʼɛwɛmɛ/	/sˤəwm/	صَوْم	N	N								tir	abstain to
-R03727	ነሃረ	/nɛhaːrɛ/	/nəhr/	نَهْر	N	N col[SD]								tir	accelerate, to
-R03728	ተቐበለ	/tɛɣbɛlɛ/	/təqəbːbələ/	تَقَبَّلَ	V	V								tir	accept, to
+R03727	ነሃረ	/nɛhaːrɛ/	/nəhr/	نَهْر	N	Ncol [SD]								tir	accelerate, to
+R03728	ተቐበለ	/tɛqbɛlɛ/	/təqəbːbələ/	تَقَبَّلَ	V	VP								tir	accept, to
 R03729	ቅቡል	/kʼɨbul/	/qəbuːl/	قَبُول	N	N								tir	acceptable
-R03730	በራድ	/bɛraːd/	/bərːrɑːd/	بَرَّاد	N	N								tir	kettle
-R03731	መፍትሕ	/mɛfɨtɨħ/	/mɪftɑːħ/	مِفْتَاح	N	N								tir	key
-R03732	ሰረቐ	/sɛrɛɣ/	/sərəqə/	سَرَقَ	V	V								tir	stole
-R03733	ኵሊት	/koelit/	/kuliːa/	كُلْية	N	N								tir	kidney
-R03734	ቀተለ	/kʼɛtɛlɛ/	/qətəl/	قَتَل	V	V								tir	kill, to
-R03735	ቀታሊ	/kʼɛtali/	/qətːtɑːl/	قَتَّال	V	V								tir	killer
-R03736	ቀታል	/kʼɛtal/	/qətːtɑːl/	قَتَّال	V	V								tir	killer
-R03737	ኣካረየ	/ɑkarɛja/	/ʕəqaːriːa/	عَقارِية	N	N								tir	lease, to
+R03730	በራድ	/bɛraːd/	/bərːrɑːd/	بَرَّاد	N	N			DMST	DMST				tir	kettle
+R03731	መፍትሕ	/mɛfɨtɨħ/	/mɪftɑːħ/	مِفْتَاح	N	N			DMST	DMST				tir	key
+R03732	ሰረቐ	/sɛrɛq/	/sərəqə/	سَرَقَ	V	VP								tir	stole
+R03733	ኵሊት	/koelit/	/kuliːa/	كُلْية	N	N			ANAT	ANAT				tir	kidney
+R03734	ቀተለ	/kʼɛtɛlɛ/	/qətəl/	قَتَل	V	VP								tir	kill, to
+R03735	ቀታሊ	/kʼɛtaːli/	/qətːtɑːl/	قَتَّال	N	N								tir	killer
+R03736	ቀታል	/kʼɛtaːl/	/qətːtɑːl/	قَتَّال	N	N								tir	killer
+R03737	ኣካረየ	/ɑkaːrɛja/	/ʕəqaːriːa/	عَقارِية	N	N								tir	lease, to
 R03738	ንውሓት	/nɨwɨħaːt/	/nuːaːħ/	نُواح	N	N								tir	length
-R03739	ርሕራሐ	/rɨħɨraːħɛ/	/rəħrəħaː/	رَحْرَحَة	N	N col[EG]								tir	leniency
-R03740	ነብሪ	/nɛbɨri/	/nəmr/	نَمْر	N	N								tir	leopard
-R03741	ለሓሰ	/lɛħaːsɛ/	/ləħəsə/	لَحَسَ	V	V								tir	lick, to
-R03742	ኣልመጸ	/ɑlɨmɛsʼɛ/	/ləməðˤə/	لَمَظَ	V	V								tir	lick, to
-R03743	ኣልመጸ	/ɑlɨmɛsʼɛ/	/ləməsˤə/	لَمَصَ	V	V								tir	lick, to
+R03739	ርሕራሐ	/rɨħɨraːħɛ/	/rəħrəħaː/	رَحْرَحَة	N	Ncol [EG]								tir	leniency
+R03740	ነብሪ	/nɛbɨri/	/nəmr/	نَمْر	N	N			ANIM	ANIM				tir	leopard
+R03741	ለሓሰ	/lɛħaːsɛ/	/ləħəsə/	لَحَسَ	V	VP								tir	lick, to
+R03742	ኣልመጸ	/ɑlɨmɛsʼɛ/	/ləməðˤə/	لَمَظَ	V	VP								tir	lick, to
+R03743	ኣልመጸ	/ɑlɨmɛsʼɛ/	/ləməsˤə/	لَمَصَ	V	VP								tir	lick, to
 R03744	መሓውር	/mɛħaːwɨr/	/məħaːuːɪr/	مَحاوِر	N	N								tir	limbs
-R03745	ልሳን	/lɨsan/	/lɪsaːn/	لِسان	N	N								tir	language
+R03745	ልሳን	/lɨsaːn/	/lɪsaːn/	لِسان	N	N			ANAT	ANAT				tir	language
+R03746	ረቒቕ	/rɛqiq/	/rəqiːq/	رَقِيق	A	A								tir	abstract
+R03747	ሕሳብ	/ħɨsaːb/	/ħɪsɑːb/	حِسَابْ	N	N								tir	account
+R03748	ሕማም	/ħɨmaːm/	/ħumɑːm/	حُمَامْ	N	N								tir	ache
+R03749	ሕማም	/ħɨmaːm/	/ħumːmaː/	حُمَّى	N	N								tir	ache
+R03750	ተዋሳኢ	/tɛwaːsaːi/	/tˤaːʔuːs/	طاؤوس	N	N								tir	actor
+R03751	ወልፊ	/wɛlɨfi/	/wlf/	وَلْف	N	N								tir	addict
+R03752	ጐረቤት	/goarɛbet/	/ʒɪuːɑːr bəjt/	جِوَار بَيْت	N	N								tir	adjecent
+R03753	ቅጽል	/kʼɨsʼɨl/	/χɪsˤlən/	خِصْلًة	N	N								tir	adjective
+R03754	ግርም	/gɨrɨm/	/ɣurm/	غُرْم	N	N								tir	admirable
+R03755	ምቕዳም	/mɨqdaːm/	/məqdəm/	مَقْدَم	N	N								tir	advance
+R03756	ዕርቡን	/ʕɨrɨbun/	/ʕərbuːn/	عَرْبُونْ	N	N								tir	advance
+R03757	ርሑቕ	/rɨħuq/	/ləħɑːq/	لَحَاق	N	N								tir	afar
+R03758	ድሕሪ	/dɨħɨri/	/ðˤuhr/	ظُهْر	N	N								tir	afternoon
+R03759	ወኪል	/wɛkil/	/wkiːl/	وَكِيلْ	N	N								tir	agent
+R03760	ኣበርትዐ	/ɑbɛrɨtɨʕɛ/	/jbərtˤɪʕ/	يبَرْطِع	V	Vcol [SD]								tir	aggrevate, to
+R03761	ፍጠንት	/fɨtˤɛnɨt/	/fɪtˤənaː/	فِطَنَة	N	N								tir	agilty
+R03762	ማሕረስ	/maːħɨrɛs/	/məħrəθ/	مَحْرَث	N	N								tir	agriculture
+R03763	ሕሙም	/ħɨmum/	/məħmuːm/	مَحْمُوم	A	A								tir	ailling
+R03764	ሕማም	/ħɨmaːm/	/ħɪmɑːm/	حِمَامْ	N	N								tir	ailment
+R03765	ኩሉ	/kulu/	/kulu/	كُلُ	P	P	PRP	PRP						tir	all
+R03766	በይኑ	/bɛjɨnu/	/bɪʕəjnɪh/	بِعَيْنِه	N	N								tir	alone
+R03767	ፊደል	/fidɛl/	/fədˤla/	فَضْلة	N	N								tir	alphabet
+R03768	አከበ	/əkɛbɛ/	/ʔakəbːbə/	أكَبَّ	V	VP								tir	amass, to
+R03769	ትምኒት	/tɨmɨnit/	/təmənːni/	تَمَنِّي	N	N								tir	ambition
+K03770	እሱራት	/əsuraːt/	/ʔasraː/	أسْرَى	N	N								tir	captives
+R03771	ቄረጸ	/kʼerɛsʼɛ/	/qərəsˤə/	قَرَصَ	V	VP								tir	amputate, to
+R03772	መርመረ	/mɛrɨmɛrɛ/	/mərməra/	مَرْمَرة	N	N								tir	analysis
+R03773	ምርምር	/mɨrɨmɨr/	/mərməra/	مَرْمَرة	N	N								tir	analysis
+R03774	ትንተና	/tɨnɨtɛnaː/	/təntənaː/	تَنْتَنَة	N	Ncol [SD]								tir	analysis
+R03775	መልኣኽ	/mɛlɨaːχ/	/məlaːk/	مَلاك	N	N			RLGN	RLGN				tir	angel
+R03776	ሕርቃን	/ħɨrɨkʼaːn/	/ħɪrqɑːn/	حِرْقَان	N	N								tir	anger
+R03777	ሃዋርያ	/haːwaːrɨjaː/	/ħəuːaːri/	حَوارِي	N	N			RLGN	RLGN				tir	apostle
+R03778	ተቐልቀለ	/tɛqlɨkʼɛlɛ/	/təglgəl/	تَقلْقَل	V	VPcol [SD]								tir	appear, to
+R03779	ሸውሃት 	/ʃɛwɨhaːt/	/ʃəhuːa/	شَهْوة	N	N								tir	appetite
+K03780	መሰለ	/mɛsɛlɛ/	/mɪθl/	مِثْل	N	N								tir	same
+R03781	ኣንጨብጨብ	/ɑnɨtʃɛbɨtʃɛb/	/jɪtʃəbtʃɪb/	يِجَبْجِب	V	Vcol [SD]								tir	applaud, to
+R03782	ጨብጨባ	/tʃɛbɨtʃɛbaː/	/tʃəbtʃəbaː/	جَبْجَبَة	N	Ncol [SD]								tir	applause
+R03783	ቱፋሕ	/tufaːħ/	/tufɑːħ/	تُفَاحْ	N	N								tir	apple
+R03784	ቀረበ	/kʼɛrɛbɛ/	/qərəbə/	قَرَبَ	V	VP								tir	approach, to
+R03785	ተቓረበ	/tɛqaːrɛbɛ/	/təqərːrəbə/	تَقَرَّبَ	V	VP								tir	approach, to
+R03786	ምጽዳቕ	/mɨsʼɨdaːq/	/mɪsˤdɑːq/	مِصْدَاق	N	N								tir	approval
+R03787	ኣጽደቐ	/ɑsʼɨdɛq/	/ʔasˤdəqə/	أصْدَقَ	V	VP								tir	approve, to
+R03788	ተኸራኸረ	/tɛχɛraːχɛrɛ/	/χərχərə/	خَرْخَرَ	V	Vcol [SD]								tir	argue, to
+R03789	ኣስናደወ	/ɑsɨnaːdɛwɛ/	/ʔasnədə/	أسْنَدَ	V	VP								tir	arrange, to
+R03790	ኣሰናድእ	/ɑsɛnaːdɨ/	/ʔasnədə/	أسْنَدَ	V	VP								tir	arrange, to
+R03791	ኣሰረ	/ɑsɛrɛ/	/ʔasərə/	أسَرَ	V	VP								tir	arrest, to
+R03792	ከም	/kɛm/	/kəmɑ/	كَمَا	P	P	CON	CON						tir	as
+R03793	ደቀሰ	/dɛkʼɛsɛ/	/dəgs/	دَقْس	N	Ncol [SD]								tir	asleep
+R03794	ድቃስ	/dɨkʼaːs/	/dɑːgɪs/	دَاقِس	N	Ncol [SD]								tir	asleep
+R03795	ካትራመ	/kaːtɨraːmɛ/	/qətˤrɑːn/	قَطْرَان	N	N			DMST	DMST				tir	asphalt
+R03796	ሃዋህው	/haːwaːhɨw/	/həuːɑː/	هَواء	N	Ncol [SD]								tir	atmosphere
+R03797	ስሓበ	/sɨħaːbɛ/	/səħəbə/	سَحَبَ	V	VP								tir	attract, to
+R03798	ሓራጅ	/ħaːraːdʒ/	/ħərɑːd͡ʒ/	حَرَاج	N	Ncol [SA]								tir	auction
+R03799	ሓረጀ	/ħaːrɛdʒɛ/	/ħərɑːd͡ʒ/	حَرَاج	N	Ncol [SA]								tir	auction
+R03800	ፋስ	/faːs/	/fəʔs/	فَأس	N	N			DMST	DMST				tir	axe
+R03801	ድሕሪት	/dɨħɨrit/	/ðˤəhr/	ظَهْر	N	N								tir	back
+R03802	ድሕሪት	/dɨħɨrit/	/dəħrən/	دَحْرًا	N	N								tir	backward
+R03803	ንድሕሪት	/nɨdɨħɨrit/	/indɪħaːr/	إنْدِحار	N	N								tir	backward
+R03804	ድሑር	/dɨħur/	/ðˤəhr/	ظَهْر	N	N								tir	backward
+R03805	ሕማቕ	/ħɨmaːq/	/ʔaħməq/	أحْمَق	N	N								tir	bad
+R03806	ሳንጣ	/saːnɨtˤaː/	/ʃəntˤaː/	شَنْطَة	N	N			DMST	DMST				tir	bag
+R03807	ሚዛን	/mizaːn/	/miːzɑːn/	مِيزَان	N	N								tir	balance
+R03808	ሙዝ	/muz/	/muːz/	مُوز	N	N			PLNT	PLNT				tir	banana
+R03809	ሽፍታ	/ʃɨfɨtaː/	/ʃɪftɑ/	شِفْتَا	N	Ncol [SD]								tir	bandit
+R03810	ከሰረ	/kɛsɛrɛ/	/χəsɪrə/	خَسِرَ	V	VP								tir	bankrupt, to
+R03811	ከልቢ	/kɛlɨbi/	/kəlb/	كَلْب	N	N			ANIM	ANIM				tir	dog
+R03812	ነብሐ	/nɛbɨħɛ/	/nəbəħə/	نَبَحَ	V	VP								tir	bark, to
+R03813	ዉሕዉሕ	/wuħɨwuħ/	/həwhəuːə/	هَوْهَوَ	V	VPcol [SD]								tir	bark, to
+R03814	ዉሕዉሕ	/wuħɨwuħ/	/whuːəhə/	وَهْوَهَ	V	V								tir	bark, to
+R03815	ዘምቢል	/zɛmɨbil/	/zəmbiːl/	زَمْبِيل	N	Ncol [EG]			DMST	DMST				tir	basket
+R03816	ኰነ	/koanɛ/	/jəkuːn/	يَكُون	V	V								tir	be, to
+R03817	ኰነ	/koanɛ/	/jəkuːn/	يَكُون	V	V								tir	become, to
+R03818	ቅድም	/kʼɨdɨm/	/qɪdɑːm/	قِدَام	N	N								tir	before
+R03819	ቅድሚ	/kʼɨdɨmi/	/qɪdaːmi/	قِدامِي	N	N								tir	before
+R03820	ጠባይ	/tˤɛbaːj/	/tˤəbʕ/	طَبْع	N	N								tir	behavior
+R03821	ኣንደበት	/ɑnɨdɛbɛt/	/aːndˤɪbaːtˤ/	انْضِباط	؟									tir	behavior
+R03822	ኣደብ	/ɑdɛb/	/ʔadəb/	أدَب	N	N								tir	behavior
+R03823	ድሕሪ	/dɨħɨri/	/ðˤəhr/	ظَهْر	N	N								tir	behind 
+K03824	ድሕሪት	/dɨħɨrit/	/ʔðˤuhr/	الظُهْر	N	N								tir	afternoon
+R03825	ኣመነ	/ɑmɛnɛ/	/آmənə/	آمَنَ	V	VP								tir	belive, to
+R03826	ትሕቲ	/tɨħɨti/	/tɪħt/	تِحْت	N	N								tir	below
+R03827	ታሕቲ	/taːħɨti/	/təħt/	تَحْت	N	N								tir	below
+R03828	ረብሐ	/rɛbɨħɛ/	/rəbɪħə/	رَبِحَ	V	VP								tir	benefit, to
+R03829	ረብሓ	/rɛbɨħaː/	/rəbɪħə/	رَبِحَ	V	VP								tir	benefit, to
+R03830	ጠለመ	/tˤɛlɛmɛ/	/ðˤələmə/	ظَلَمَ	V	VP								tir	betray, to
+R03831	ከሓደ	/kɛħaːdɛ/	/ʒəħədə/	جَحَدَ	V	VP								tir	betray, to
+R03832	ክድዐ	/kɨdɨʕɛ/	/χədəʕə/	خَدَعَ	V	VP								tir	betray, to
+R03833	ዕዉር	/ʕɨwur/	/ʕəuːər/	عَوَر	N	N								tir	blind 
+R03834	ዓወረ	/ʕaːwɛrɛ/	/ʕəuːərə/	عَوَرَ	N	N								tir	blind 
+R03835	መስኮት	/mɛsɨkot/	/mɪʃkaːa/	مِشْكاة	N	N			DMST	DMST				tir	maskot
+R03836	ደም	/dɛm/	/dəm/	دَمْ	N	N			ANAT	ANAT				tir	blood
+R03837	ጽፍዒት	/sʼɨfɨʕit/	/sˤəfʕaː/	صَفْعَة	N	N								tir	blow
+R03838	ነፍሐ	/nɛfɨħɛ/	/nəfəħə/	نَفَحَ	V	VP								tir	blow, to
+R03839	ነፈሰ	/nɛfɛsɛ/	/nəfəsə/	نَفَسَ	N	VP								tir	blow, to
+R03840	ሰማያዊ	/sɛmaːjaːwi/	/səmɑːuːi/	سَمَاوِي	N	N								tir	blue
+K03841	ሕብሪ	/ħɨbɨri/	/ħɪbrɪ/	حِبْرِ	N	N			DMST	DMST				tir	ink
+R03842	ሳምቡቕ	/saːmɨbuq/	/sumbuk/	سُمْبُك	N	Ncol [SD]			DMST	DMST				tir	boat
+R03843	ደፋር	/dɛfaːr/	/dɑːfɪr/	دَافِر	N	Ncol [SD]								tir	bold
+R03844	ዓጽሚ	/ʕaːsʼɨmi/	/ʕəðˤm/	عَظْم	N	N								tir	bone
+R03845	መጽሓፍ	/mɛsʼɨħaːf/	/məsˤħəf/	مَصْحَف	N	N								tir	book
+R03846	ክልቲኡ	/kɨlɨtiu/	/kɪltɑ/	كِلْتَا	N	N								tir	both
+R03847	ነጠረ	/nɛtˤɛrɛ/	/nətˤərə/	نَطَرَ	V	VP								tir	bounce, to
+R03848	ኣንጠረ	/ɑnɨtˤɛrɛ/	/ʔantˤərə/	أنْطَرَ	V	VP								tir	bounce, to
+R03849	ኣተንፈሰ	/ɑtɛnɨfɛsɛ/	/tənəfːfəsə/	تَنَفَّسَ	V	VP								tir	breathe, to
+K03850	ንፋስ	/nɨfaːs/	/nɪfɑːs/	نِفَاسْ	N	N								tir	wind
+R03851	መርዓት	/mɛrɨʕaːt/	/aːmrʔa/	امْرأة	N	N								tir	bride
+R03852	ደላል	/dɛlaːl/	/dəlːlɑːl/	دَلَّال	N	N								tir	broker
+R03853	መረቕ	/mɛrɛq/	/mərəq/	مَرَق	N	N								tir	broth
+R03854	ሓው	/ħaːw/	/ʔaχu/	أخُو	N	N								tir	brother
+R03855	ሰራቒ	/sɛraːqi/	/sərːrɑːq/	سَرَّاق	N	N								tir	burglar
+R03856	ቀብሪ	/kʼɛbɨri/	/qəbr/	قَبْر	N	N								tir	burial
+R03857	ሓመድ	/ħaːmɛd/	/χəmd/	خَمْد	N	N								tir	burial
+R03858	ቀበረ	/kʼɛbɛrɛ/	/qəbərə/	قَبَرَ	V	VP								tir	bury, to
+R03859	ፈርሲ	/fɛrɨsi/	/fərəs/	فَرَس	N	N			ANIM	ANIM				tir	calf
+R03860	ህዱእ	/hɨdu/	/hɑːdɪʔi/	هَادِئ	N	A								tir	calm
+R03861	ህድኣት	/hɨdɨaːt/	/hədʔa/	هَدْأة	N	N								tir	calm
+R03862	ቅኑዕ	/kʼɨnuʕ/	/qənuːʕ/	قَنُوع	N	A								tir	candid
+R03863	ቀንዴል	/kʼɛnɨdel/	/qəndiːl/	قَنْديل	N	N			DMST	DMST				tir	candle
+R03864	ሸምዓ	/ʃɛmɨʕaː/	/ʃəmʕaː/	شَمْعَة	N	N			DMST	DMST				tir	candle
+R03865	መድፍዕ	/mɛdɨfɨʕ/	/mədfʕ/	مَدْفْع	N	N			DMST	DMST				tir	cannon
+R03866	ቃፍላይ	/kʼaːfɨlaːj/	/qɑːfɪlaː/	قَافِلَة	N	N								tir	caravan
+R03867	ዓረብያ	/ʕaːrɛbɨjaː/	/ʕərəbiːiːaː/	عَرَبِيَّة	N	N			DMST	DMST				tir	cart
+R03868	መቓብር	/mɛqaːbɨr/	/məqbəra/	مَقْبَرة	N	N								tir	cemetery
+R03869	ማእከል	/maːɨkɛl/	/məʕqɪl/	مَعْقِل	N	N								tir	center
+R03870	እኽሊ	/əχɨli/	/ʔakl/	أكْل	N	N								tir	cereal
+R03871	ሰንሰለት	/sɛnɨsɛlɛt/	/sɪlsɪlaː/	سِلْسِلَة	N	N			DMST	DMST				tir	chain
+R03872	መንበር	/mɛnɨbɛr/	/mɪnbər/	مِنْبَر	N	N								tir	chair
+R03873	መቐመጢ	/mɛqmɛtˤi/	/məqmətˤɪ/	مَقمَطِ	N	N			DMST	DMST				tir	chair
+R03874	ጅብና	/dʒɨbɨnaː/	/ʒɪbnaː/	جِبْنَة	N	N								tir	cheese
+R03875	ኣጣቕዐ	/ɑtˤaːqʕɛ/	/tˤəgəʕ/	طَقَع	V	VPcol [SD]								tir	clap, to
+R03876	ጸሐፊ	/sʼɛħɛfi/	/sˤəħːħɑːf/	صَحَّاف	N	N								tir	clerk
+R03877	ደበና	/dɛbɛnaː/	/dɪmnaː/	دِمْنَة	N	N								tir	cloud
+R03878	ደመና	/dɛmɛnaː/	/dɪmnaː/	دِمْنَة	N	N								tir	cloud
+R03879	ፈሓም	/fɛħaːm/	/fəħəm/	فَحَم	N	N			DMST	DMST				tir	coal
+R03880	ጁባ	/dʒubaː/	/ʒubːbaː/	جُبَّة	N	N			DMST	DMST				tir	coat
+R03881	ቡን	/bun/	/bun/	بُن	N	N								tir	coffee
+R03882	መስሓቒ	/mɛsɨħaːqi/	/mədˤħəkaː/	مَضحَكَة	N	N								tir	comical
