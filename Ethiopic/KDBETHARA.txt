@@ -1,16 +1,17 @@
 ﻿# Kalmasoft Databases
 # Database of Arabic words of Ethiopic origin
 # References: www.kalmasoft.com/KLEX/dbamara.htm, www.kalmasoft.com/KLEX/dbtirara.htm, www.kalmasoft.com/KLEX/dbtigara.htm
-# Resources: Lexical Data Repository of the Ge'ez Frontier Foundation https://github.com/geezorg/data/tree/master; HornMorpho is part of the L3 Project http://www.cs.indiana.edu/~gasser/Research/projects.html; Carl W. Isenberg, Grammar of the Amharic Language
+# Primary resources: Lexical Data Repository of the Ge'ez Frontier Foundation https://github.com/geezorg/data/tree/master; HornMorpho is part of the L3 Project http://www.cs.indiana.edu/~gasser/Research/projects.html; Carl W. Isenberg, Grammar of the Amharic Language
+# Secondary resources: https://github.com/admasethiopia/dictionaries/blob/master/Amharic%20Tigrinya%20English%20Dictionary.txt, https://github.com/fgaim/Tigrinya-BiLexicon/blob/master/Tigrinya-English.dic
 # Related works: www.kalmasoft.com/KLEX/dcamhara.htm, www.kalmasoft.com/KLEX/dbsyriac.htm
 # Availability: https://github.com/Kalmasoft/Databases/blob/main/Ethiopic
 # Terminology: www.kalmasoft.com/adevtool.htm
 # Tools: Amharic Verb Conjugation generator www.kalmasoft.com/KMAPS/eamrconj.htm
 # Created: 3/1/2021 8:38 AM
-# Updated: 2/9/2026 12:14 PM
+# Updated: 2/13/2026 5:25 PM
 # Encoding: UTF8
 # Delimiter: TAB
-# Total entries: 3,880+
+# Total entries: 4,000+
 # Copyright ©1999-2025 Kalmasoft www.kalmasoft.com
 # Contact: info@kalmasoft.com
 # ================================================================================================
@@ -3853,7 +3854,7 @@ R03775	መልኣኽ	/mɛlɨaːχ/	/məlaːk/	مَلاك	N	N			RLGN	RLGN				tir	a
 R03776	ሕርቃን	/ħɨrɨkʼaːn/	/ħɪrqɑːn/	حِرْقَان	N	N								tir	anger
 R03777	ሃዋርያ	/haːwaːrɨjaː/	/ħəuːaːri/	حَوارِي	N	N			RLGN	RLGN				tir	apostle
 R03778	ተቐልቀለ	/tɛqlɨkʼɛlɛ/	/təglgəl/	تَقلْقَل	V	VPcol [SD]								tir	appear, to
-R03779	ሸውሃት 	/ʃɛwɨhaːt/	/ʃəhuːa/	شَهْوة	N	N								tir	appetite
+R03779	ሸውሃት	/ʃɛwɨhaːt/	/ʃəhuːa/	شَهْوة	N	N								tir	appetite
 K03780	መሰለ	/mɛsɛlɛ/	/mɪθl/	مِثْل	N	N								tir	same
 R03781	ኣንጨብጨብ	/ɑnɨtʃɛbɨtʃɛb/	/jɪtʃəbtʃɪb/	يِجَبْجِب	V	Vcol [SD]								tir	applaud, to
 R03782	ጨብጨባ	/tʃɛbɨtʃɛbaː/	/tʃəbtʃəbaː/	جَبْجَبَة	N	Ncol [SD]								tir	applause
@@ -3957,3 +3958,137 @@ R03879	ፈሓም	/fɛħaːm/	/fəħəm/	فَحَم	N	N			DMST	DMST				tir	coal
 R03880	ጁባ	/dʒubaː/	/ʒubːbaː/	جُبَّة	N	N			DMST	DMST				tir	coat
 R03881	ቡን	/bun/	/bun/	بُن	N	N								tir	coffee
 R03882	መስሓቒ	/mɛsɨħaːqi/	/mədˤħəkaː/	مَضحَكَة	N	N								tir	comical
+R03883	ሓሙስ	/ħaːmus/	/aːlχəmiːs/	الخَمِيس	N	N								tir	Thursday 
+A03884	ሐሙሰስ	/hɛmusɛs/	/aːlχəmiːs/	الخَمِيس	N	N								amh	Thursday 
+R03885	በኸየ	/bɛχɛja/	/bəkaː/	بَكَى	V	V								tir	wept
+R03886	በኸዩ	/bɛχɛju/	/bəkaː/	بَكَى	V	V								tir	wept
+R03887	በቕሺሸ	/bɛqʃiʃɛ/	/bəqʃiːʃ/	بَقشِيش	N	Ncol								tir	bonus
+R03888	በረድ	/bɛrɛd/	/bərəd/	بَرَدْ	N	N								tir	snow
+R03889	በርትዕ	/bɛrɨtɨʕ/	/bərtˤɑːʕ/	بَرْطَاع	N	Ncol [SD]								tir	courageous
+R03890	ገመል	/gɛmɛl/	/d͡ʒəməl/	جَمَل	N	N			ANIM	ANIM				tir	camel
+R03891	ግብረይ	/gɨbɨrɛj/	/d͡ʒubraːka/	جُبْراكة	N	Ncol [SD]								tir	works
+R03892	ፈታኒ	/fɛtaːni/	/fətːtaːn/	فَتّان	N	N								tir	tempter
+R03893	ፈተና	/fɛtɛnaː/	/fɪtnaː/	فِتنَة	N	N								tir	temptation
+R03894	ገይሸ	/gɛjɨʃɛ/	/ɣɑːʃi/	غَاشِي	N	Ncol [SD]								tir	stranger
+R03895	ቀፊር	/kʼɛfir/	/ɣəfiːr/	غَفِير	N	Ncol [SD]								tir	watch
+R03896	ሓሞት	/ħaːmot/	/ħɑːmɪdˤ/	حَامِض	N	N								tir	vinegar
+R03897	ሓይሉ	/ħaːjɨlu/	/ħəjl/	حَيْل	N	Ncol [SA]								tir	strength
+R03898	ሕርሚ	/ħɨrɨmi/	/ħəraːm/	حَرام	A	A								tir	accursed
+A03899	አሰበ	/əsɛbɛ/	/ħəsɪb/	حَسِب	V	V								amh	come to think
+R03900	ሓሲቡ	/ħaːsibu/	/ħəsɪb/	حَسِب	V	V								tir	come to think
+R03901	ሃገራ	/haːgɛraː/	/ħɪkr/	حِكْر	N	N								tir	country
+R03902	ኢና	/inaː/	/inɑ/	إنَا										tir	we
+R03903	ይበኽዩ	/jɨbɛχɨju/	/jəbki/	يَبْكِي	V	V								tir	weep
+R03904	መንበሪ	/mɛnɨbɛri/	/jənbəri/	يَنْبَرِي	V	V								tir	abode
+R03905	ኣግኒዩ	/ɑgɨniju/	/jəqtəni/	يَقْتَني	V	V								tir	acquire 
+R03906	ይቕተል	/jɨqtɛl/	/jəqtul/	يَقْتُل	V	V								tir	slay
+R03907	ይጽበዩ	/jɨsʼɨbɛju/	/jəsˤub/	يَصُب	V	Vcol [SD]								tir	wait
+R03908	አሕፂሩ	/əħɨtsˤiru/	/jəχtəsˤɪr/	يَخْتَصِر	V	V								tir	abridge 
+A03909	አሰሳጠረ	/əsɛsatˤɛrɛ/	/justˤɪr/	يُسْطِر	V	V								amh	abridge 
+R03910	የተርጉም	/jatɛrɨgum/	/jutərd͡ʒɪm/	يُتَرْجِم	V	V								tir	translate
+R03911	ኣየዕርገሉን	/ɑjaʕɨrɨgɛlun/	/juʕərqɪl/	يُعَرْقِل	V	V								tir	cost
+R03912	ከብዲ	/kɛbɨdi/	/kəbd/	كَبْد	N	N			ANAT	ANAT				tir	abdomen 
+R03913	ከዋኽብቲ	/kɛwaːχɨbɨti/	/kəwɑːkɪb/	كَوَاكِب	N	N								tir	stars
+R03914	ኸዋኽብቲ	/χɛwaːχɨbɨti/	/kəwɑːkɪb/	كَوَاكِب	N	N								tir	stars
+R03915	ኽንፊ	/χɨnɨfi/	/kɪnf/	كِنْف	N	N								tir	wings
+R03916	ጉረሮ	/gurɛro/	/kuːraːk/	كُوراك	N	Ncol [SD]								tir	throat 
+A03917	ጉሮሮ	/guroro/	/kuːraːk/	كُوراك	N	Ncol [SD]								amh	throat 
+R03918	ጎሮሮኻ	/gororoχaː/	/kuːrɑːk/	كُورَاك	N	Ncol [SD]								tir	throat
+R03919	ክህነትን	/kɨhɨnɛtɨn/	/kuhnaː/	كُهْنَة	N	Ncol [SD]			DMST	DMST				tir	worn
+R03920	ልሳን	/lɨsaːn/	/lɪsɑːn/	لِسَانْ	N	N			ANAT	ANAT				tir	tongue
+R03921	ልሳኑውን	/lɨsaːnuwɨn/	/lɪsɑːnun/	لِسَانٌ	N	N			ANAT	ANAT				tir	tongue
+R03922	ማይ	/maːj/	/mɑːj/	مَايْ	N	Ncol [AE,BH]								tir	water
+R03923	ማያት	/maːjaːt/	/mɑːjɑːt/	مَايَاتْ	N	Ncol [AE,BH]								tir	waters
+R03924	ማያቱ	/maːjaːtu/	/mɑːjɑːtu/	مَايَاتُ	N	Ncol [AE,BH]								tir	waters
+R03925	መኣዲ	/mɛaːdi/	/mɑːʔiɪda/	مَائِدة	N	N								tir	table
+R03926	ደፈኖም	/dɛfɛnom/	/mədfuːn/	مَدْفُون	N	N								tir	covered
+R03927	መቓድስ	/mɛqaːdɨs/	/məgɑːdɪs/	مَقَادِس	N	N								tir	temples
+R03928	ምዕራብ	/mɨʕɨraːb/	/məɣrɪb/	مَغْرِب	N	N								tir	west
+R03929	ማሕጸን	/maːħɨsʼɛn/	/məħsən/	مَحْسَن	N	N			ANAT	ANAT				tir	womb
+R03930	ማሕጸና	/maːħɨsʼɛnaː/	/məħsənə/	مَحْسَنَ	N	N			ANAT	ANAT				tir	womb
+R03931	መንኵቡ	/mɛnɨkoebu/	/mənɑːkɪb/	مَنَاكِب	N	N								tir	shoulders
+R03932	መንኲቡ	/mɛnɨkoebu/	/mənkəb/	مَنْكَب	N	N								tir	shoulder
+R03933	መንኩበይ	/mɛnɨkubɛj/	/mənkəb/	مَنْكَب	N	N								tir	shoulder
+R03934	መራኽብ	/mɛraːχɨb/	/mərɑːkɪb/	مَرَاكِب	N	N								tir	ships
+R03935	መረቕ	/mɛrɛq/	/mərəg/	مَرَق	N	N								tir	soup
+R03936	መርከብ	/mɛrɨkɛb/	/mərkɪb/	مَرْكِب	N	N								tir	ship
+R03937	መዝሙር	/mɛzɨmur/	/məzmuːr/	مَزْمُور	N	N								tir	song
+R03938	መልሓስ	/mɛlɨħaːs/	/mɪlħɑːs/	مِلْحَاسْ	N	N			ANAT	ANAT				tir	tongue
+R03939	መልሓሱ	/mɛlɨħaːsu/	/mɪlħɑːsu/	مِلْحَاسُ	N	N			ANAT	ANAT				tir	tongue
+R03940	መስኮት	/mɛsɨkot/	/mɪʃkɑːt/	مِشْكَاة	N	N			DMST	DMST				tir	window
+A03941	ማሰሪያ	/maːsɛrija/	/mɪʔizər/	مِئْزَر	N	N			DMST	DMST				amh	thong 
+R03942	መእሰሪ	/mɛɨsɛri/	/mɪʔizər/	مِئْزَر	N	N			DMST	DMST				tir	thong 
+R03943	ተፈተነ	/tɛfɛtɛnɛ/	/muftətən/	مُفْتَتَن	N	N								tir	tempted
+R03944	ንብዓታ	/nɨbɨʕaːtaː/	/nəbʕ/	نَبْع	N	N								tir	wet
+R03945	ንፍስኻ	/nɨfɨsɨχaː/	/nəfsəkə/	نَفْسَكَ	N	N								tir	yourself
+R03946	ንጋሻ	/nɨgaːʃaː/	/nəkʃ/	نَكْش	V	Vcol [SD]								tir	abuse
+R03947	ናእሽቱን	/naːɨʃɨtun/	/nətʃaː/	نَتْشَة	N	Ncol [SD]								tir	small
+R03948	ንእሽቶይ	/nɨʃɨtoj/	/nətʃaː/	نَتْشَة	N	Ncol [SD]								tir	small
+A03949	ትንሽ	/tɨnʃ/	/nətʃaː/	نَتْشَة	N	Ncol [SD]								amh	small
+R03950	ንሕና	/nɨħɨnaː/	/nɪħnɑ/	نِحْنَا	N	Ncol [SD]								tir	we
+R03951	ቀበሩ	/kʼɛbɛru/	/qəbr/	قَبْر	N	N								tir	corpse
+R03952	ቀታሊ	/kʼɛtaːli/	/qətːtɑːl/	قَتَّال	N	N								tir	slayer
+R03953	ረቂቕ	/rɛkʼiq/	/rugɑːqa/	رُقَاقة	N	N								tir	wafer
+R03954	ራእይ	/raːɨj/	/ruʔja/	رُؤية	N	N								tir	vision
+R03955	ራእያት	/raːɨjaːt/	/ruʔjaːt/	رُؤيات	N	N								tir	visions
+R03956	ሻሂ	/ʃaːhi/	/ʃɑːhi/	شَاهِي	N	Ncol [SA,AE,OM]								tir	tea
+R03957	ጽባሕ	/sʼɨbaːħ/	/sˤəbɑːħ/	صَبَاح	N	N								tir	tomorrow
+R03958	ሰደቓ	/sɛdɛqaː/	/sˤədəqa/	صَدَقة	N	N			DMST	RLGN				tir	table
+R03959	ሰደቓታት	/sɛdɛqaːtaːt/	/sˤədəqaːt/	صَدَقات	N	N								tir	tables
+R03960	ሴፍ	/sef/	/səjf/	سَيْف	N	N								tir	sword
+R03961	ሰይፊ	/sɛjɨfi/	/səjfɪ/	سَيْفِ	N	N								tir	sword
+R03962	ሰይፉ	/sɛjɨfu/	/səjfu/	سَيْفُ	N	N								tir	sword
+R03963	ሰይፍን	/sɛjɨfɨn/	/səjfun/	سَيْفٌ	N	N								tir	sword
+R03964	ሰራቒ	/sɛraːqi/	/sərːraːgɪ/	سَرّاقِ	N	N								tir	thief
+R03965	ስራሕ	/sɨraːħ/	/sərħaː/	سَرْحَة	N	Ncol [SD]								tir	work
+R03966	ስኒ	/sɨni/	/sɪn/	سِنْ	N	N								tir	tooth 
+A03967	ሥራ	/sɨraː/	/sɪraːtˤ/	سِراط	N	N								amh	one's advancement through life, esp. in a profession, the progress through history of a group or institution, a profession or occupation
+R03968	ሹኮር	/ʃukor/	/sukər/	سُكَر	N	N								tir	sugar
+R03969	ስልጣኑን	/sɨlɨtˤaːnun/	/sultˤɑːnun/	سُلْطَانٌ	N	N								tir	strength
+R03970	ምስዓል	/mɨsɨʕaːl/	/suʕaːl/	سُعال	N	N								tir	cough
+R03971	ሰዓል	/sɛʕaːl/	/suʕaːl/	سُعال	N	N								tir	cough
+R03972	ጣውላ	/tˤaːwɨlaː/	/tˤɑːuːlaː/	طَاوْلَة	N	Ncol [EG]								tir	table
+R03973	ጥዑም	/tˤɨʕum/	/tˤɑːʕɪm/	طَاعِم	A	A								tir	sweet
+A03974	ጥልቅ	/tˤɨlkʼ/	/tˤəlɪq/	طَلِق	A	A								amh	deep 
+R03975	ናእሽቱን	/naːɨʃɨtun/	/tənaːniːʃ/	تَنانِيش	N	Ncol [BH]								tir	small
+R03976	ንእሽቶይ	/nɨʃɨtoj/	/tənaːniːʃ/	تَنانِيش	N	Ncol [BH]								tir	small
+R03977	ጥንቁቕ	/tˤɨnɨkʼuq/	/tˤəngɑːʕ/	طَنْقَاع	N	Ncol [SD]								tir	careful
+R03978	ጥንቁቕ	/tˤɨnɨkʼuq/	/tˤəngɑːʕ/	طَنْقَاع	N	Ncol [SD]								tir	cautious
+R03979	ተቐበል	/tɛqbɛl/	/təqəbːbəl/	تَقَبَّل	V	V								tir	accept
+R03980	ትርጉማት	/tɨrɨgumaːt/	/tərʒəmaːt/	تَرْجَمات	N	N								tir	translations
+R03981	ትም	/tɨm/	/tɪm/	تِمْ	N	Ncol [SD]								tir	silent
+R03982	ጡፍ	/tˤuf/	/tuf/	تُفْ		Ncol								tir	spit
+R03983	ትፋኡ	/tɨfaːu/	/tufuʔ/	تُفُؤ	N	Ncol								tir	vomit
+R03984	ትፍኡ	/tɨfɨu/	/tufuʔ/	تُفُؤ	N	Ncol								tir	vomit
+R03985	ወይለኺ	/wɛjɨlɛχi/	/wəjlək/	وَيْلَك	N	N								tir	woe
+R03986	ወይለኻ	/wɛjɨlɛχaː/	/wəjləkə/	وَيْلَكَ	N	N								tir	woe
+R03987	ወይለኹም	/wɛjɨlɛχum/	/wəjləkum/	وَيْلَكُم	N	N								tir	woe
+R03988	ወይለኤን	/wɛjɨlɛen/	/wəjlɪn/	وَيْلٍ	N	N								tir	woe
+R03989	ወይለኡ	/wɛjɨlɛu/	/wəjlu/	وَيْلُ	N	N								tir	woe
+R03990	ወይለኦም	/wɛjɨlɛom/	/wəjlun/	وَيْلٌ	N	N								tir	woe
+R03991	ወሰዶ	/wɛsɛdo/	/wəsədə/	وَسَدَ	N	N								tir	took
+R03992	ውሽጠይ	/wɨʃɨtˤɛj/	/wəsətˤ/	وَسَط	N	N								tir	within
+R03993	ውሽጢውን	/wɨʃɨtˤiwɨn/	/wəsətˤun/	وَسَطٌ	N	N								tir	within
+R03994	ወሲዱ	/wɛsidu/	/wəsɪdə/	وَسِدَ	N	N								tir	took
+R03995	ወስኹ	/wɛsɨχu/	/wəθəq/	وَثَق	V	V								tir	add
+R03996	ወይለይ	/wɛjɨlɛj/	/wiːli/	وَيْلِي	N	N								tir	woe
+R03997	ዘምሩ	/zɛmɨru/	/zəmrə/	زَمْرَ	V	VP								tir	sing
+R03998	ዓለም	/ʕaːlɛm/	/ʕɑːləm/	عَالَمْ	N	N								tir	world
+R03999	ኣኽናፍ	/ɑχɨnaːf/	/ʔaknaːf/	أكْناف	N	N								tir	wings
+R04000	ኣንጻሮም	/ɑnɨsʼaːrom/	/ʔanðˤaːrun/	أنْظارٌ	N	N								tir	those
+R04001	እኔና	/ənenaː/	/ʔaniːnɑ/	أنينَا	N	Ncol [SD]								tir	we
+R04002	ረቡዕ	/rɛbuʕ/	/ʔarbɪʕəɑː/	أرْبِعَاء	N	N								tir	wednesday
+R04003	ኣጻብዕ	/ɑsʼaːbɨʕ/	/ʔasˤɑːbɪʕ/	أصَابِع	N	N			ANAT	ANAT				tir	toes
+R04004	ኣስናን	/ɑsɨnaːn/	/ʔasnɑːn/	أسْنَان	N	N			ANAT	ANAT				tir	teeth
+R04005	ኣስናኑ	/ɑsɨnaːnu/	/ʔasnɑːnu/	أسْنَانُ	N	N			ANAT	ANAT				tir	teeth
+R04006	ኣስናኖም	/ɑsɨnaːnom/	/ʔasnɑːnun/	أسْنَانٌ	N	N			ANAT	ANAT				tir	teeth
+R04007	ኣስናኑውን	/ɑsɨnaːnuwɨn/	/ʔasnɑːnun/	أسْنَانٌ	N	N			ANAT	ANAT				tir	teeth
+A04008	አጠራጠረ	/ətˤɛraːtˤɛrɛ/	/ʔatˤraː/	أطْرَى	V	Vcol [SD]								amh	lead to think
+R04009	ተጠራጢሩ፣ አጠራጠሩ	/tɛtˤɛraːtˤiru, ətˤɛraːtˤɛru/	/ʔatˤraː/	أطْرَى	V	Vcol [SD]								tir	lead to think
+R04010	ኣውታር	/ɑwɨtaːr/	/ʔauːtɑːr/	أوْتَار	N	N								tir	strings
+R04011	ዓሚቁ	/ʕaːmikʼu/	/ʕəmiːq/	عَمِيق	A	A								tir	deep 
+R04012	ዕሰርተ	/ʕɨsɛrɨtɛ/	/ʕəʃəraː/	عَشَرَة	N	N								tir	ten
+R04013	እሾኽ	/əʃoχ/	/ʔʃəwk/	الشَوْك	N	N								tir	thorn 
+A04014	እሾኽ	/əʃoχ/	/ʔʃəwk/	الشَوْك	N	N								amh	thorn 
+A04015	ድርድር	/dɨrdr/	/θərθəra/	ثَرْثَرة	N	N								amh	negotiation, bargaining
+R04016	ሓጥእ	/ħaːtˤɨ/	/χɑːtˤɪʔ/	خَاطِئ	N	N								tir	sinner
