@@ -8,7 +8,7 @@
 # Terminology: www.kalmasoft.com/adevtool.htm
 # Tools: Amharic Verb Conjugation generator www.kalmasoft.com/KMAPS/eamrconj.htm
 # Created: 3/1/2021 8:38 AM
-# Updated: 2/13/2026 5:25 PM
+# Updated: 2/14/2026 2:51 PM
 # Encoding: UTF8
 # Delimiter: TAB
 # Total entries: 4,000+
@@ -4065,7 +4065,7 @@ R03986	ወይለኻ	/wɛjɨlɛχaː/	/wəjləkə/	وَيْلَكَ	N	N								ti
 R03987	ወይለኹም	/wɛjɨlɛχum/	/wəjləkum/	وَيْلَكُم	N	N								tir	woe
 R03988	ወይለኤን	/wɛjɨlɛen/	/wəjlɪn/	وَيْلٍ	N	N								tir	woe
 R03989	ወይለኡ	/wɛjɨlɛu/	/wəjlu/	وَيْلُ	N	N								tir	woe
-R03990	ወይለኦም	/wɛjɨlɛom/	/wəjlun/	وَيْلٌ	N	N								tir	woe
+R03990	ወይለኦም	/wɛjɨlɛom/	/wəjluhum/	وَيْلُهُم	N	N								tir	woe
 R03991	ወሰዶ	/wɛsɛdo/	/wəsədə/	وَسَدَ	N	N								tir	took
 R03992	ውሽጠይ	/wɨʃɨtˤɛj/	/wəsətˤ/	وَسَط	N	N								tir	within
 R03993	ውሽጢውን	/wɨʃɨtˤiwɨn/	/wəsətˤun/	وَسَطٌ	N	N								tir	within
@@ -4075,14 +4075,14 @@ R03996	ወይለይ	/wɛjɨlɛj/	/wiːli/	وَيْلِي	N	N								tir	woe
 R03997	ዘምሩ	/zɛmɨru/	/zəmrə/	زَمْرَ	V	VP								tir	sing
 R03998	ዓለም	/ʕaːlɛm/	/ʕɑːləm/	عَالَمْ	N	N								tir	world
 R03999	ኣኽናፍ	/ɑχɨnaːf/	/ʔaknaːf/	أكْناف	N	N								tir	wings
-R04000	ኣንጻሮም	/ɑnɨsʼaːrom/	/ʔanðˤaːrun/	أنْظارٌ	N	N								tir	those
+R04000	ኣንጻሮም	/ɑnɨsʼaːrom/	/ʔanðˤaːruhum/	أنْظارُهُم	N	N								tir	those
 R04001	እኔና	/ənenaː/	/ʔaniːnɑ/	أنينَا	N	Ncol [SD]								tir	we
 R04002	ረቡዕ	/rɛbuʕ/	/ʔarbɪʕəɑː/	أرْبِعَاء	N	N								tir	wednesday
 R04003	ኣጻብዕ	/ɑsʼaːbɨʕ/	/ʔasˤɑːbɪʕ/	أصَابِع	N	N			ANAT	ANAT				tir	toes
 R04004	ኣስናን	/ɑsɨnaːn/	/ʔasnɑːn/	أسْنَان	N	N			ANAT	ANAT				tir	teeth
 R04005	ኣስናኑ	/ɑsɨnaːnu/	/ʔasnɑːnu/	أسْنَانُ	N	N			ANAT	ANAT				tir	teeth
-R04006	ኣስናኖም	/ɑsɨnaːnom/	/ʔasnɑːnun/	أسْنَانٌ	N	N			ANAT	ANAT				tir	teeth
-R04007	ኣስናኑውን	/ɑsɨnaːnuwɨn/	/ʔasnɑːnun/	أسْنَانٌ	N	N			ANAT	ANAT				tir	teeth
+R04006	ኣስናኖም	/ɑsɨnaːnom/	/ʔasnɑːnuhum/	أسْنَانُهُم	N	N			ANAT	ANAT				tir	teeth
+R04007	ኣስናኑውን	/ɑsɨnaːnuwɨn/	/ʔasnɑːnuhu/	أسْنَانُهُ	N	N			ANAT	ANAT				tir	teeth
 A04008	አጠራጠረ	/ətˤɛraːtˤɛrɛ/	/ʔatˤraː/	أطْرَى	V	Vcol [SD]								amh	lead to think
 R04009	ተጠራጢሩ፣ አጠራጠሩ	/tɛtˤɛraːtˤiru, ətˤɛraːtˤɛru/	/ʔatˤraː/	أطْرَى	V	Vcol [SD]								tir	lead to think
 R04010	ኣውታር	/ɑwɨtaːr/	/ʔauːtɑːr/	أوْتَار	N	N								tir	strings

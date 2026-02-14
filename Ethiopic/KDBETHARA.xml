@@ -12,7 +12,7 @@
 <line>Terminology: www.kalmasoft.com/adevtool.htm</line>
 <line>Tools: Amharic Verb Conjugation generator www.kalmasoft.com/KMAPS/eamrconj.htm</line>
 <line>Created: 3/1/2021 8:38 AM</line>
-<line>Updated: 2/13/2026 5:25 PM</line>
+<line>Updated: 2/14/2026 2:51 PM</line>
 <line>Encoding: UTF8</line>
 <line>Delimiter: TAB</line>
 <line>Total entries: 4,000+</line>
@@ -71905,8 +71905,8 @@
 <ID>R03990</ID>
 <Ethiopic>ወይለኦም</Ethiopic>
 <ETIPA>/wɛjɨlɛom/</ETIPA>
-<ARIPA>/wəjlun/</ARIPA>
-<Arabic>وَيْلٌ</Arabic>
+<ARIPA>/wəjluhum/</ARIPA>
+<Arabic>وَيْلُهُم</Arabic>
 <ETClass>N</ETClass>
 <ARClass>N</ARClass>
 <ETSubclass></ETSubclass>
@@ -72085,8 +72085,8 @@
 <ID>R04000</ID>
 <Ethiopic>ኣንጻሮም</Ethiopic>
 <ETIPA>/ɑnɨsʼaːrom/</ETIPA>
-<ARIPA>/ʔanðˤaːrun/</ARIPA>
-<Arabic>أنْظارٌ</Arabic>
+<ARIPA>/ʔanðˤaːruhum/</ARIPA>
+<Arabic>أنْظارُهُم</Arabic>
 <ETClass>N</ETClass>
 <ARClass>N</ARClass>
 <ETSubclass></ETSubclass>
@@ -72193,8 +72193,8 @@
 <ID>R04006</ID>
 <Ethiopic>ኣስናኖም</Ethiopic>
 <ETIPA>/ɑsɨnaːnom/</ETIPA>
-<ARIPA>/ʔasnɑːnun/</ARIPA>
-<Arabic>أسْنَانٌ</Arabic>
+<ARIPA>/ʔasnɑːnuhum/</ARIPA>
+<Arabic>أسْنَانُهُم</Arabic>
 <ETClass>N</ETClass>
 <ARClass>N</ARClass>
 <ETSubclass></ETSubclass>
@@ -72211,8 +72211,8 @@
 <ID>R04007</ID>
 <Ethiopic>ኣስናኑውን</Ethiopic>
 <ETIPA>/ɑsɨnaːnuwɨn/</ETIPA>
-<ARIPA>/ʔasnɑːnun/</ARIPA>
-<Arabic>أسْنَانٌ</Arabic>
+<ARIPA>/ʔasnɑːnuhu/</ARIPA>
+<Arabic>أسْنَانُهُ</Arabic>
 <ETClass>N</ETClass>
 <ARClass>N</ARClass>
 <ETSubclass></ETSubclass>
