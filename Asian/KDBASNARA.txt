@@ -1,11 +1,11 @@
 ﻿# Kalmasoft Databases
 # Database of Arabic words of Asian origin
-# References: www.kalmasoft.com/KLEX/dbhinara.htm, www.kalmasoft.com/KLEX/dburdara.htm
+# References: www.kalmasoft.com/KLEX/dbfasara.htm, www.kalmasoft.com/KLEX/dbsyara.htm, www.kalmasoft.com/KLEX/dbhinara.htm, www.kalmasoft.com/KLEX/dburdara.htm
 # Resources: https://www.iranicaonline.org/scholar/ahmad-tafazzoli
 # Availability: https://github.com/Kalmasoft/Databases/blob/main/Asian
 # Terminology: www.kalmasoft.com/adevtool.htm
 # Created: 2/7/2026 12:35 PM
-# Updated: 2/16/2026 10:08 AM
+# Updated: 2/16/2026 3:46 PM
 # Encoding: UTF8
 # Delimiter: TAB
 # Total entries: 3,000+
@@ -17,7 +17,7 @@
 # ================================================================================================
 # Attributes:
 #	ID: 6 digits identification number
-#		A######: HornMorpho ِoriginal entry (F: Farsi, H: Hindi, S: Sinhalese, T: Tamil, U: Urdu)
+#		A######: HornMorpho ِoriginal entry (F: Farsi, H: Hindi, N: Sinhalese, S: Syriac, T: Tamil, U: Urdu)
 #		K######: Kalmasoft added entry
 #	Asian: Asian entry
 #	ASIPA: Reading for Asian entry (International Phonetic Alphabet)
@@ -71,54 +71,175 @@
 #	Language: Asian language, ISO 639-3 three-letter code
 #	Gloss: English meaning of the Asian entry
 # ================================================================================================
-ID	Asian	ASIPA	ARIPA	Arabic	ASClass	ARClass	ASSubclass	ARSubclass	ASDomain	ARDomain	Category	RootAM	RootAR	Language	Gloss
-A00001	انبار	/ʔanbar/	/ʕənbər/	عَنْبَر	N	Ncol [EG,SD]								fas	warehouse
-A00002	بنفشه	/banafʃɒ/	/bənəfsəd͡ʒ/	بَنَفْسَج	N	N								fas	violet
-A00003	بوستان	/bustɒːn/	/bustaːn/	بُسْتان	N	N								fas	garden
-A00004	بیمارستان	/bimɒːristɒːn/	/biːmɑːrɪstɑːn/	بِيمَارِسْتَان	N	N								fas	hospital
-A00005	پرگار	/pirgɒːr/	/fɪrd͡ʒaːr/	فِرْجار	N	N								fas	pair of compasses
-A00006	پسته	/pistɒ/	/fustəq/	فُسْتَق	N	N								fas	pistachio
-A00007	پیاده 	/pijɒːdɒ/	/bəjdəg/	بَيْدَق	N	N								fas	pawn
-A00008	تابه	/tʰɒːbɒ/	/tˤəbəq/	طَبَق	N	N			DMST	DMST				fas	frying pan
-A00009	تاج	/tɒːdʒ/	/taːd͡ʒ/	تاج	N	N								fas	crown
-A00010	تبر	/tʰabar/	/tˤəbər/	طَبَر	N	N			DMST	DMST				fas	axe
-A00011	توت	/tuːt/	/tuːt/	تُوت	N	N			PLNT	PLNT				fas	mulberry
-A00012	جوراب	/dʒurɒːb/	/ʃurɑːb/	شُرَاب	N	N			DMST	DMST				fas	stocking
-A00013	جوراب 	/dʒurɒːb/	/d͡ʒurɑːb/	جُرَاب	N	N			DMST	DMST				fas	stocking
-A00014	چادر	/tʃʰɒːdar/	/ʃəwdər/	شَوْدَر	N	N			DMST	DMST				fas	veil
-A00015	چراغ	/tʃʰirɒːg/	/sɪrɑːd͡ʒ/	سِرَاج	N	N			DMST	DMST				fas	lamp
-A00016	چرخ 	/tʃʰirɒːχ/	/ʃiːrɑːz/	شِيرَاز	N	N								fas	curdled whey
-A00017	خرده	/χurda/	/χurdaː/	خُرْدَة	N	N								fas	(small) change
-A00018	خندق	/χandaq/	/χəndəq/	خَنْدَق	N	N								fas	ditch, moat
-A00019	دستور	/dustuːr/	/dustuːr/	دُسْتُور	N	N								fas	rule, minister
-A00020	دهلیز	/dihliːz/	/dɪhliːz/	دِهْلِيز	N	N								fas	vestibule
-A00021	راسته	/rastɒ/	/ruzdəg/	رُزْدَق	N	N								fas	row
-A00022	رخ	/ruχ/	/ruχ/	رُخ	N	N			ANIM	ANIM				fas	rook
-A00023	زاج	/zɒːdʒ/	/zɑːd͡ʒ/	زَاج	N	N								fas	alum
-A00024	سرگین	/sirgiːn/	/sɪrd͡ʒiːn/	سِرْجِين	N	N								fas	dung
-A00025	سریش	/sireʃ/	/ʃɪrɑːs/	شِرَاس	N	N			DMST	DMST				fas	glue
-A00026	شطرنج	/ʃatʰrandʒ/	/ʃətˤrənd͡ʒ/	شَطْرَنْج	N	N			DMST	DMST				fas	chess
-A00027	شلوار	/ʃilwɒːr/	/sɪrwaːl/	سِرْوال	N	N			DMST	DMST				fas	trousers
-A00028	شیره	/ʃiːrɒ/	/ʃiːrɑ/	شِيره	N	Ncol [BH,IQ]								fas	juice
-A00029	طاس	/tʰas/	/tˤəs/	طَس	N	N			DMST	DMST				fas	bowl
-A00030	فردوس	/firdaws/	/fɪrdəws/	فِرْدَوْس	N	N								fas	Paradise
-A00031	فرسنگ	/farsang/	/fərsəχ/	فَرْسَخ	N	N								fas	farsang, league
-A00032	فرمان	/farmɒːn/	/fərmɑːn/	فَرْمَان	N	N								fas	order, decree
-A00033	فهرست	/fihrist/	/fɪhrɪs/	فِهْرِس	N	N								fas	summary, register
-A00034	فیروزه	/firuːzɒ/	/fiːruːzəd͡ʒ/	فِيرُوزَج	N	N								fas	turquoise
-A00035	کاروان	/qarwɒːn/	/gəjrəwɑːn/	قَيْرَوَان	N	N			DMST	DMST				fas	caravan
-A00036	کبک	/qbiː/	/gbi/	قبِي	N	N			ANIM	ANIM				fas	partridge
-A00037	کفش	/kafʃ/	/gəfʃ/	قَفْش	N	N			DMST	DMST				fas	shoe
-A00038	کوشک	/kawsakʰ/	/d͡ʒəwsəg/	جَوْسَق	N	N								fas	palace
-A00039	کوشک	/kuːʃkʰ/	/kuʃk/	كُشْك	N	N			DMST	DMST				fas	kiosk
-A00040	گاومیش	/gɒːwmiːʃ/	/d͡ʒɑːmuːs/	جَامُوس	N	N			ANIM	ANIM				fas	buffalo
-A00041	گل	/gol/	/d͡ʒuːl/	جُول	N	N			PLNT	PLNT				fas	rose
-A00042	گنبد	/ganbad/	/d͡ʒənbəd/	جَنْبَد	N	N								fas	vault, cupola
-A00043	گنج	/gandʒ/	/kənz/	كَنْز	N	N								fas	treasure
-A00044	گوهر	/gawhar/	/d͡ʒəwhər/	جَوْهَر	N	N								fas	substance, jewel
-A00045	مرز بان	/marza bɒːn/	/mərzəbɑːn/	مَرْزَبَان	N	N								fas	margrave
-A00046	مرغ	/marg/	/mərd͡ʒ/	مَرْج	N	N								fas	meadow
-A00047	مشک	/miʃkʰ/	/mɪsk/	مِسْك	N	N			DMST	DMST				fas	musk
-A00048	مهر 	/mahara/	/məhərə/	مَهَرَ	V	V								fas	to seal
-A00049	نامه 	/nɒːmɒ/	/nɑːməd͡ʒ/	نَامَج	N	N								fas	letter, writing
-A00050	نامه 	/nɒːmɒ/	/nəmɑːq/	نَمَاق	N	N								fas	letter, writing
+ID	Asian	ASIPA	ARIPA	Arabic	ASClass	ARClass	ASSubclass	ARSubclass	ASDomain	ARDomain	Category	RootAS	RootAR	Language	Gloss
+F00001	انبار	/ʔanbar/	/ʕənbər/	عَنْبَر	N	Ncol [EG,SD]								fas	warehouse
+F00002	بنفشه	/banafʃɒ/	/bənəfsəd͡ʒ/	بَنَفْسَج	N	N								fas	violet
+F00003	بوستان	/bustɒːn/	/bustaːn/	بُسْتان	N	N								fas	garden
+F00004	بیمارستان	/bimɒːristɒːn/	/biːmɑːrɪstɑːn/	بِيمَارِسْتَان	N	N								fas	hospital
+F00005	پرگار	/pirgɒːr/	/fɪrd͡ʒaːr/	فِرْجار	N	N								fas	pair of compasses
+F00006	پسته	/pistɒ/	/fustəq/	فُسْتَق	N	N								fas	pistachio
+F00007	پیاده 	/pijɒːdɒ/	/bəjdəg/	بَيْدَق	N	N								fas	pawn
+F00008	تابه	/tʰɒːbɒ/	/tˤəbəq/	طَبَق	N	N			DMST	DMST				fas	frying pan
+F00009	تاج	/tɒːdʒ/	/taːd͡ʒ/	تاج	N	N								fas	crown
+F00010	تبر	/tʰabar/	/tˤəbər/	طَبَر	N	N			DMST	DMST				fas	axe
+F00011	توت	/tuːt/	/tuːt/	تُوت	N	N			PLNT	PLNT				fas	mulberry
+F00012	جوراب	/dʒurɒːb/	/ʃurɑːb/	شُرَاب	N	N			DMST	DMST				fas	stocking
+F00013	جوراب 	/dʒurɒːb/	/d͡ʒurɑːb/	جُرَاب	N	N			DMST	DMST				fas	stocking
+F00014	چادر	/tʃʰɒːdar/	/ʃəwdər/	شَوْدَر	N	N			DMST	DMST				fas	veil
+F00015	چراغ	/tʃʰirɒːg/	/sɪrɑːd͡ʒ/	سِرَاج	N	N			DMST	DMST				fas	lamp
+F00016	چرخ 	/tʃʰirɒːχ/	/ʃiːrɑːz/	شِيرَاز	N	N								fas	curdled whey
+F00017	خرده	/χurda/	/χurdaː/	خُرْدَة	N	N								fas	(small) change
+F00018	خندق	/χandaq/	/χəndəq/	خَنْدَق	N	N								fas	ditch, moat
+F00019	دستور	/dustuːr/	/dustuːr/	دُسْتُور	N	N								fas	rule, minister
+F00020	دهلیز	/dihliːz/	/dɪhliːz/	دِهْلِيز	N	N								fas	vestibule
+F00021	راسته	/rastɒ/	/ruzdəg/	رُزْدَق	N	N								fas	row
+F00022	رخ	/ruχ/	/ruχ/	رُخ	N	N			ANIM	ANIM				fas	rook
+F00023	زاج	/zɒːdʒ/	/zɑːd͡ʒ/	زَاج	N	N								fas	alum
+F00024	سرگین	/sirgiːn/	/sɪrd͡ʒiːn/	سِرْجِين	N	N								fas	dung
+F00025	سریش	/sireʃ/	/ʃɪrɑːs/	شِرَاس	N	N			DMST	DMST				fas	glue
+F00026	شطرنج	/ʃatʰrandʒ/	/ʃətˤrənd͡ʒ/	شَطْرَنْج	N	N			DMST	DMST				fas	chess
+F00027	شلوار	/ʃilwɒːr/	/sɪrwaːl/	سِرْوال	N	N			DMST	DMST				fas	trousers
+F00028	شیره	/ʃiːrɒ/	/ʃiːrɑ/	شِيره	N	Ncol [BH,IQ]								fas	juice
+F00029	طاس	/tʰas/	/tˤəs/	طَس	N	N			DMST	DMST				fas	bowl
+F00030	فردوس	/firdaws/	/fɪrdəws/	فِرْدَوْس	N	N								fas	Paradise
+F00031	فرسنگ	/farsang/	/fərsəχ/	فَرْسَخ	N	N								fas	farsang, league
+F00032	فرمان	/farmɒːn/	/fərmɑːn/	فَرْمَان	N	N								fas	order, decree
+F00033	فهرست	/fihrist/	/fɪhrɪs/	فِهْرِس	N	N								fas	summary, register
+F00034	فیروزه	/firuːzɒ/	/fiːruːzəd͡ʒ/	فِيرُوزَج	N	N								fas	turquoise
+F00035	کاروان	/qarwɒːn/	/gəjrəwɑːn/	قَيْرَوَان	N	N			DMST	DMST				fas	caravan
+F00036	کبک	/qbiː/	/gbi/	قبِي	N	N			ANIM	ANIM				fas	partridge
+F00037	کفش	/kafʃ/	/gəfʃ/	قَفْش	N	N			DMST	DMST				fas	shoe
+F00038	کوشک	/kawsakʰ/	/d͡ʒəwsəg/	جَوْسَق	N	N								fas	palace
+F00039	کوشک	/kuːʃkʰ/	/kuʃk/	كُشْك	N	N			DMST	DMST				fas	kiosk
+F00040	گاومیش	/gɒːwmiːʃ/	/d͡ʒɑːmuːs/	جَامُوس	N	N			ANIM	ANIM				fas	buffalo
+F00041	گل	/gol/	/d͡ʒuːl/	جُول	N	N			PLNT	PLNT				fas	rose
+F00042	گنبد	/ganbad/	/d͡ʒənbəd/	جَنْبَد	N	N								fas	vault, cupola
+F00043	گنج	/gandʒ/	/kənz/	كَنْز	N	N								fas	treasure
+F00044	گوهر	/gawhar/	/d͡ʒəwhər/	جَوْهَر	N	N								fas	substance, jewel
+F00045	مرز بان	/marza bɒːn/	/mərzəbɑːn/	مَرْزَبَان	N	N								fas	margrave
+F00046	مرغ	/marg/	/mərd͡ʒ/	مَرْج	N	N								fas	meadow
+F00047	مشک	/miʃkʰ/	/mɪsk/	مِسْك	N	N			DMST	DMST				fas	musk
+F00048	مهر 	/mahara/	/məhərə/	مَهَرَ	V	V								fas	to seal
+F00049	نامه 	/nɒːmɒ/	/nɑːməd͡ʒ/	نَامَج	N	N								fas	letter, writing
+F00050	نامه 	/nɒːmɒ/	/nəmɑːq/	نَمَاق	N	N								fas	letter, writing
+S00051	ܐܲܡܪܵܐ	/ʔamra/	/ʔamr/	أمْر	N	N							أمر	syr	a command, an order, a summons
+S00052	ܐܸܠܵܐ	/ʔɪla/	/illa/	إلّا	R	R	CONJ	CONJ						syr	yet, except that
+S00053	ܐܸܢ	/ʔɪn/	/in/	إن	R	R	CONJ	CONJ						syr	if
+S00054	ܐܳܕܳܪ	/ʔɑdɑr/	/ʔðaːr/	آذار	N	N	DATE	DATE						syr	March
+S00055	ܐܒܐ	/ʔba/	/ʔabbaː/	أبَّا	N	N								syr	fruit
+S00056	ܐܓܪܐ	/ʔgra/	/ʔadʒr/	أجْر	N	N								syr	hire, wages
+S00057	ܐܘܡܬܐ	/ʔwmta/	/ʔaumma/	أُمَّة	N	N								syr	nation
+S00058	ܐܪܐܢܐ	/ʔrʔna/	/ʕariːn/	عَرِين	N	N								syr	arena
+S00059	ܐܪܓܵܘܵܢܵܐ	/ʔrgawana/	/ʔardʒwaːniː/	أرْجُوانِي	N	N								syr	purple
+S00060	ܒ	/b/	/bi/	بِ	R	R	PREP	PREP						syr	with, in, at, by
+S00061	ܒܽܘܡܳܐ	/bomɑ/	/buːma/	بُومَة	N	N	ANIM	ANIM						syr	owl
+S00062	ܒܕ	/bd/	/baʕd/	بَعْد	R	R	PREP	PREP						syr	in that, on account of, because, for this reason, a compound of
+S00063	ܒܝܼܕ	/bjd/	/baʕd/	بَعْد	R	R	PREP	PREP						syr	
+S00064	ܓ݂ܵܪܵܙ	/ɣaraz/	/ɣaradˤ/	غَرَض	N	N							غرض	syr	The intent, the purpose, the intention, the meaning, the ulterior motive
+S00065	ܓܵܘ	/gaw/	/dʒuːwa/	جُوَّة	N	Ncol	PREP	PREP						syr	in, into, within, inside, in the midst
+S00066	ܓܵܘܢܵܐ	/gawna/	/dʒuːn/	جُون	N	N								syr	green
+S00067	ܓܙܐ	/gza/	/kanz/	كَنْز	N	N							كنز	syr	treasure
+S00068	ܕ	/d/	/ðaː/	ذَا	R	R	PREP	PREP						syr	of, pertaining to, belonging to, made of, from
+S00069	ܕܲܗܒ݂ܵܐ	/dahva/	/ðahabiː/	ذَهَبِي	N	N							ذهب	syr	gold
+S00070	ܕܰܪܡܣܘܩ	/darmswq/	/dimaʃq/	دِمَشْق	N	N	NAME	NAME						syr	Damascus
+S00071	ܕܳܪܳܐ	/dɑrɑ/	/darʕa/	دَرْعَة	N	N	NAME	NAME						syr	Dara
+S00072	ܕܝܢܪܐ	/djnra/	/diːnaːr/	دِينَار	N	N	DMST	DMST						syr	gold dinarius
+S00073	ܘܲܪܕܵܢܵܝܵܐ	/wardanaja/	/wardiː/	وَرْدِي	N	N							ورد	syr	pink
+S00074	ܙܰܪܩܐ	/zarqa/	/ʔazraq/	أزْرَق	N	N							زرق	syr	blue
+S00075	ܙܘܓܐ	/zwga/	/zawdʒa/	زَوْجَة	N	N							زوج	syr	pair, conjugation, name of an accent
+S00076	ܚܲܒܘܼܫܵܐ	/ħabwʃa/	/tuffaːħ/	تُفَّاح	N	N	PLNT	PLNT						syr	apple
+S00077	ܚܶܘܳܪܐ	/ħawɑra/	/ħawr/	حَوْر	N	N								syr	white
+S00078	ܛܠܵܫܹܒܵܐ	/tˤlaʃeba/	/ʔθˈθulaːθaːʔ/	الثُّلاثَاء	N	N	DATE	DATE					ثلث	syr	Tuesday
+S00079	ܝܲܪܚܵܐ	/jarħa/	/ʃahr/	شَهْر	N	N	DATE	DATE						syr	month
+S00080	ܝܵܐ	/ja/	/jaː/	يَا	R	R	?	?						syr	or, either (loanword?)
+S00081	ܝܵܘܡܵܐ	/jawma/	/jawm/	يَوْم	N	N	DATE	DATE						syr	day
+S00082	ܝܶܡ̈ܳܬ݂ܳܐ	/jamɑθɑ/			N	N								syr	motherly
+S00083	ܝܶܡ̈ܗܳܬܶܐ	/jamhɑta/	/ʔaummahaːt/	أُمَّهَات	N	N								syr	mothers
+S00084	ܝܶܡܳܐ	/jamɑ/	/jamma/	يَمَّة	N	N								syr	mother
+S00085	ܟܲܠܒܵܐ	/kalba/	/kalb/	كَلْب	N	N	ANIM	ANIM						syr	dog
+S00086	ܟܵܢܘܿܢ	/kanon/	/kaːnuːn/	كَانوُن	N	N	DATE	DATE						syr	January
+S00087	ܟܰܢܶܦ	/kanaf/	/kanaf/	كَنَف	V	V							كنف	syr	protect, defend, preserve, maintain
+S00088	ܠ	/l/	/li/	لِ	R	R	PREP	PREP						syr	on, onto, to, upon
+S00089	ܠܲܟ݂ܡܵܐ	/laχma/			N	N								syr	bread
+S00090	ܡܸܛܠ ܕ	/mɪtˤl d/	/miθl/	مِثْل	R	R	CONJ	CONJ						syr	per, in accordance with, according to
+S00091	ܡܸܢ	/mɪn/	/min/	مِنْ	R	R	PREP	PREP						syr	from (a starting point), out of, at, on, of, with (in company of someone)
+S00092	ܡܿܢ	/man/	/man/	مَنْ	R	R								syr	who
+S00093	ܡܰܚܡܳܠܳܐ	/maħmɑlɑ/	/maχmal/	مَخْمَل	N	N	DMST	DMST						syr	towel
+S00094	ܡܶܨܪܝܢ	/masˤrjn/	/misˤr/	مِصْر	N	N	NAME	NAME						syr	Egypt
+S00095	ܢܸܫܪܵܐ	/nɪʃra/	/nisr/	نِسْر	N	N	ANIM	ANIM						syr	eagle
+S00096	ܢܺܝܣܳܢ	/nisɑn/	/niːsaːn/	نِيسَان	N	N	DATE	DATE						syr	April
+S00097	ܣܲܡܪܵܢܵܐ	/samrana/	/ʔasmar/	أَسْمَر	N	N								syr	tawny
+S00098	ܣܸܬܘܵܐ	/sɪtwa/	/ʃitaːʔ/	شِتَاء	N	N								syr	winter
+S00099	ܥܲܠ	/ʕal/	/ʕalaː/	عَلَى	R	R	PREP	PREP						syr	on, over and in contact with, at the surface of and supported by, upon, above, on top of
+S00100	ܥܲܡ	/ʕam/	/maʕ/	مَعْ	R	R	PREP	PREP						syr	with, together with, among / amongst / amidst
+S00101	ܥܲܡܘܿܟ݂	/ʕamoχ/	/maʕaka/	مَعَكَ										syr	with you
+S00102	ܥܵܡܵܐ	/ʕama/	/ʕam/	عَم	N	N								syr	uncle
+S00103	ܥܳܡܳܐ	/ʕɑmɑ/	/ʕamma/	عَمَّة	N	N								syr	uncle
+S00104	ܦܠܛܝܢ	/fltˤjn/	/bilaːtˤ/	بِلاط	N	N								syr	palace (palatium)
+S00105	ܩܵܛܹܠ	/qatˤel/	/qatl/	قَتْل	N	N							قتل	syr	will kill
+S00106	ܩܝܬܪܐ	/qjtra/	/qiːθaːra/	قِيثَارة	N	N	DMST	DMST						syr	harp, lute
+S00107	ܩܢܕܝܠܐ	/qndjla/	/qandiːla/	قَنْدِيلَة	N	N	DMST	DMST						syr	lamp, torch (candela)
+S00108	ܩܪܕܠܐ	/qrdla/	/dʒardal/	جَرْدَل	N	N	DMST	DMST						syr	pot, cradle (caldarium)
+S00109	ܪܘܼܙܵܐ	/rwza/	/ruz/	رُز	N	N	PLNT	PLNT						syr	rice
+S00110	ܪܘܼܡܵܢܵܐ	/rwmana/	/rummaːn/	رُمَّان	N	N	PLNT	PLNT						syr	pomegranate
+S00111	ܫܲܒܬܵܐ	/ʃabta/	/ʔsˈsabt/	السَّبْت	N	N	DATE	DATE						syr	Saturday
+S00112	ܫܳܚܡܳܐ	/ʃɑħmɑ/	/saχam/	سَخَم	N	N								syr	brown
+S00113	ܫܶ̈ܢܶܐ	/ʃɪne/	/sanawaːt/	سَنَوات	N	N	DATE	DATE						syr	years
+S00114	ܫܽܘܫܶܦܳܐ	/ʃoʃafɑ/	/ʃarʃaf/	شَرْشَف	N	N	DMST	DMST						syr	towel
+S00115	ܫܒ݂ܲܛ	/ʃvatˤ/	/ʃubaːtˤ/	شُبَاط	N	N	DATE	DATE						syr	February
+S00116	ܫܘܼܪܒ݂ܵܐ	/ʃwrva/	/ʃuːrba/	شُورْبة	N	N							شرب	syr	soup
+S00117	ܫܛܪܐ	/ʃtˤra/	/satˤr/	سَطْر	N	N							سطر	syr	deed, document
+S00118	ܫܠܵܡܵܐ	/ʃlama/	/salaːm/	سَلام	N	N							سلم	syr	hello
+S00119	ܫܠܵܡܵܐ	/ʃlama/	/salaːm/	سَلام	N	N							سلم	syr	peace
+S00120	ܫܠܳܡܳܐ	/ʃlɑmɑ/	/salaːm/	سَلام	N	N							سلم	syr	hello
+S00121	ܫܠܳܡܳܐ	/ʃlɑmɑ/	/salaːm/	سَلام	N	N							سلم	syr	peace
+S00122	ܬܵܡܘܿܙ	/tamoz/	/tamuːz/	تَمُوز	N	N	DATE	DATE						syr	July
+S00123	ܬܹܐܢܵܐ	/tena/	/tiːn/	تِين	N	N	PLNT	PLNT						syr	fig
+S00124	ܬܶܫܪܺܝܢ	/taʃrin/	/taʃriːn/	تَشْرِين	N	N	DATE	DATE						syr	June
+S00125	ܐܪܢܒܐ	/ʔarn(ə)vɑ/	/ʔarnab/	أَرْنَب	N	N	ANIM	ANIM						syr	rabbit, hare
+S00126	ܐܟܠ	/ʔekal/	/ʔakal/	أَكَل	V	V								syr	to eat
+S00127	ܐܡܪ	/ʔɛ̆mar/	/ʔamar/	أَمَر	V	V								syr	to tell
+S00128	ܒܟܐ	/b(ə)xɑ(ʔ)/	/bakaː/	بَكَى	V	V								syr	to weep
+S00129	ܒܢܝܐ	/b(ə)nɑjɑ(ʔ)/	/binaːja/	بِنَايَة	N	N								syr	building, erecting, constructing
+S00130	ܒܘܪܐ	/burɑ(ʔ)/	/buːr/	بُور	A	A								syr	rude
+S00131	ܬܠܬ	/tlaːta/	/θalaːθa/	ثَلَاثَة	N	N	NUMB	NUMB						syr	three
+S00132	ܬܠܬܐ	/tlaːθa/	/θalaːθa/	ثَلَاثَة	N	N	NUMB	NUMB						syr	three
+S00133	ܚܫܒ	/ħ(ə)ʃav/	/ħasab/	حَسَب	V	V								syr	to calculate
+S00134	ܚܩܠܐ	/ħaqlɑ(ʔ)/	/ħaql/	حَقْل	N	N								syr	field
+S00135	ܚܦܪ	/ħ(ə)far/	/ħafara/	حَفَرَ	V	V								syr	to dig
+S00136	ܚܘܡܫܐ	/ħumʃɑ/	/χums/	خُمْس	N	N								syr	fifth (⅕)
+S00137	ܫܡܥ	/ʃ(ə)maʕ/	/samiʕa/	سَمِعَ	V	V								syr	to hear
+S00138	ܫܘܢܪܐ	/ʃunˈnɑ.rɑ/	/sanːnuːr/	سَنُّور	N	N	ANIM	ANIM						syr	cat
+S00139	ܫܓܠ	/ʃ(ə.)ˈɣal/	/ʃaɣala/	شَغَلَ	V	V								syr	to seize, to occupy
+S00140	ܫܘܩܐ	/ʃuqɑ(ʔ)/	/ʃuqqa/	شُقَّة	N	N								syr	quarter, district, borough
+S00141	ܫܝܫܬܐ	/ʃiʃtɑ(ʔ)/	/ʃiːʃa/	شِيشَة	N	N								syr	vase, bottle, flask, flagon
+S00142	ܨܠܒ	/sˤ(ə)lav/	/sˤalab/	صَلَب	V	V								syr	to crucify
+S00143	ܨܝܪܐ	/sˤajrɑ(ʔ)/	/sˤuːra/	صُورَة	N	N								syr	icon, painted idol
+S00144	ܛܦ	/tˤɑf/	/tˤaːfa/	طَافَ	V	V								syr	to float
+S00145	ܥܦܪܐ	/ʕafrɑ(ʔ)/	/ʕafar/	عَفَر	N	N								syr	earth, soil, dust
+S00146	ܥܢܢܐ	/ʕannɑnɑ(ʔ)/	/ʕunna/	عُنَّة	A	A								syr	sexually impotent
+S00147	ܐܡܐ	/ʔammɑ(ʔ)/	/ʕaːm/	عَام	N	N								syr	
+S00148	ܦܛܝܪܐ	/patˤtˤirɑ(ʔ)/	/fatˤiːr/	فَطِير	N	N								syr	unleavened bread
+S00149	ܩܨܪܐ	/qasˤrɑ(ʔ)/	/qasˤr/	قَصْر	N	N								syr	palace, castle, fortress
+S00150	ܩܗܘܐ	/qahwɑ(ʔ)/	/qahwa/	قَهْوَة	N	N								syr	coffee
+S00151	ܟܬܘܒܐ	/kɑθovɑ(ʔ)/	/kaːtib/	كَاتِب	N	N								syr	writer, scribe, copyist, amanuensis, secretary, notary
+S00152	ܟܕܒܐ	/kaddɑvɑ(ʔ)/	/kaððaːb/	كَذَّاب	N	N								syr	liar
+S00153	ܟܦܪ	/ʔɛθˈkap.par/	/kafar/	كَفَر	V	V								syr	to deny
+S00154	ܠܘܚܐ	/luħɑ/	/lawħa/	لَوْحَة	N	N								syr	tablet, board, tile
+S00155	ܠܐ	/ˈlɑ/	/la/	لا	intj	intj								syr	no
+S00156	ܠܐ	/ˈlɑ/	/la/	لا	adv	adv								syr	no, not
+S00157	ܡܚܛܐ	/m(ə)ħatˤtˤɑ/	/maħatˤtˤa/	مَحَطَّة	N	N								syr	candlewick
+S00158	ܡܕܒܚܐ	/maðb(ə)ħɑ/	/maðbaħ/	مَذْبَح	N	N								syr	church choir
+S00159	ܡܢ	/man/	/man/	مَن	R	R	PRON	PRON						syr	who? which?
+S00160	ܡܗܪܐ	/mahrɑ(ʔ)/	/mahr/	مَهْر	N	N								syr	dowry
+S00161	ܡܘܗܒܬܐ	/mawhavtɑ/	/mawhiba/	مَوْهِبَة	N	N								syr	favour
+S00162	ܡܘܩܠܐ	/muqlɑ/	/muqla/	مُقْلَة	N	N								syr	yolk of egg
+S00163	ܡܠܚܐ	/mɛlħɑ/	/milħ/	مِلْح	N	N								syr	salt
+S00164	ܡܩܘܪܐ	/manˈqo.rɑʔ/	/minqaːr/	مِنْقَار	N	N								syr	beak
+S00165	ܢܓܪܐ	/naɡɡɑrɑ/	/nadʒdʒaːr/	نَجَّار	N	N								syr	carpenter
+S00166	ܐܘ	/ʔw/	/ʔw/	أَوْ	R	R	CONJ	CONJ						syr	or
+S00167	ܗܕܐ	/hɑðeʔ/	/haða/	هَذا	A	A								syr	this
+S00168	ܗܕܐ	/hɑðeʔ/	/haðihi/	هَذِه	R	R	PRON	PRON						syr	this thing, this one
+S00169	ܗܘ	/hɑw/	/huwa/	هُوَ	R	R	PRON	PRON						syr	he
+S00170	ܗܝ	/hɑj/	/hiːja/	هِيَ	R	R	PRON	PRON						syr	she
+S00171	ܝܬܡܐ	/jaθmɑ(ʔ)/	/jatiːm/	يَتِيم	N	N								syr	orphan
