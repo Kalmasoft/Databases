@@ -1,0 +1,124 @@
+﻿# Kalmasoft Databases
+# Database of Arabic words of Asian origin
+# References: www.kalmasoft.com/KLEX/dbhinara.htm, www.kalmasoft.com/KLEX/dburdara.htm
+# Resources: https://www.iranicaonline.org/scholar/ahmad-tafazzoli
+# Availability: https://github.com/Kalmasoft/Databases/blob/main/Asian
+# Terminology: www.kalmasoft.com/adevtool.htm
+# Created: 2/7/2026 12:35 PM
+# Updated: 2/16/2026 10:08 AM
+# Encoding: UTF8
+# Delimiter: TAB
+# Total entries: 3,000+
+# Copyright ©1999-2025 Kalmasoft www.kalmasoft.com
+# Contact: info@kalmasoft.com
+# ================================================================================================
+# Licensed under Creative Commons Attribution-ShareAlike 4.0 International license.
+# This is a work in progress, not completed, any citations for academic purposes should include the date when the file was downloaded.
+# ================================================================================================
+# Attributes:
+#	ID: 6 digits identification number
+#		A######: HornMorpho ِoriginal entry (F: Farsi, H: Hindi, S: Sinhalese, T: Tamil, U: Urdu)
+#		K######: Kalmasoft added entry
+#	Asian: Asian entry
+#	ASIPA: Reading for Asian entry (International Phonetic Alphabet)
+#	ARIPA: Reading for Arabic (International Phonetic Alphabet)
+#	Arabic: Arabic parallel word
+#	ASClass/ARClass: Asian/Arabic grammatical class
+#		A: Adjective
+#		D: Adverb
+#		I: Infinitive (Arabic Mimatic infinitive)
+#		G: Gerund (Hindi gerund)
+#		M: Masdar (Arabic infinitive)
+#		N: Noun
+#		NT: Arabic Temporal noun
+#		NL: Arabic Locative noun
+#		Ncol [CC]: Regional colloquial Arabic Noun, ISO3166-3 Alpha-2 country codes, apply only to MSA otherwise
+#		R: Particle
+#		P: Participle
+#		Vcol [CC]: Regional colloquial Arabic Verb, ISO3166-3 Alpha-2 country codes, apply only to MSA otherwise
+#		VI: Verb imperfective
+#		VJ: Verb jussive
+#		VM: Verb imperative
+#		VP: Verb perfective, past
+#	ASSubclass/ARSubclass: Asian/Arabic entry grammatical subclass
+#		CON: Conjunction
+#		PRP: Preposition
+#		SNG: Singular
+#		PLR: Plural
+#		ACC: Accusative case
+#		NOM: Nominative case
+#		DAT: Dative case
+#		GEN: Genitive case
+#		IND: Indicative mood
+#		SUB: Subjunctive mood
+#	ASDomain/ARDomain: Asian/Arabic entry semantic domain
+#		ANAT: Anatomy
+#		ANIM: Animate
+#		DMST: Domestic
+#		DATE: Date
+#		LANG: Language specific
+#		NAME: Named entity
+#		NUMB: Number
+#		PLNT: Plant
+#		RLGN: Religion
+#	Category: Arabic entry usage category
+#		ARC: Asian archaic entry
+#		FFM: full form morphology
+#		NUS: not used in Arabic
+#		SSH: semantically shifted in Arabic
+#	RootAS: Asian theoretical root
+#	RootAR: Arabic root
+#	Language: Asian language, ISO 639-3 three-letter code
+#	Gloss: English meaning of the Asian entry
+# ================================================================================================
+ID	Asian	ASIPA	ARIPA	Arabic	ASClass	ARClass	ASSubclass	ARSubclass	ASDomain	ARDomain	Category	RootAM	RootAR	Language	Gloss
+A00001	انبار	/ʔanbar/	/ʕənbər/	عَنْبَر	N	Ncol [EG,SD]								fas	warehouse
+A00002	بنفشه	/banafʃɒ/	/bənəfsəd͡ʒ/	بَنَفْسَج	N	N								fas	violet
+A00003	بوستان	/bustɒːn/	/bustaːn/	بُسْتان	N	N								fas	garden
+A00004	بیمارستان	/bimɒːristɒːn/	/biːmɑːrɪstɑːn/	بِيمَارِسْتَان	N	N								fas	hospital
+A00005	پرگار	/pirgɒːr/	/fɪrd͡ʒaːr/	فِرْجار	N	N								fas	pair of compasses
+A00006	پسته	/pistɒ/	/fustəq/	فُسْتَق	N	N								fas	pistachio
+A00007	پیاده 	/pijɒːdɒ/	/bəjdəg/	بَيْدَق	N	N								fas	pawn
+A00008	تابه	/tʰɒːbɒ/	/tˤəbəq/	طَبَق	N	N			DMST	DMST				fas	frying pan
+A00009	تاج	/tɒːdʒ/	/taːd͡ʒ/	تاج	N	N								fas	crown
+A00010	تبر	/tʰabar/	/tˤəbər/	طَبَر	N	N			DMST	DMST				fas	axe
+A00011	توت	/tuːt/	/tuːt/	تُوت	N	N			PLNT	PLNT				fas	mulberry
+A00012	جوراب	/dʒurɒːb/	/ʃurɑːb/	شُرَاب	N	N			DMST	DMST				fas	stocking
+A00013	جوراب 	/dʒurɒːb/	/d͡ʒurɑːb/	جُرَاب	N	N			DMST	DMST				fas	stocking
+A00014	چادر	/tʃʰɒːdar/	/ʃəwdər/	شَوْدَر	N	N			DMST	DMST				fas	veil
+A00015	چراغ	/tʃʰirɒːg/	/sɪrɑːd͡ʒ/	سِرَاج	N	N			DMST	DMST				fas	lamp
+A00016	چرخ 	/tʃʰirɒːχ/	/ʃiːrɑːz/	شِيرَاز	N	N								fas	curdled whey
+A00017	خرده	/χurda/	/χurdaː/	خُرْدَة	N	N								fas	(small) change
+A00018	خندق	/χandaq/	/χəndəq/	خَنْدَق	N	N								fas	ditch, moat
+A00019	دستور	/dustuːr/	/dustuːr/	دُسْتُور	N	N								fas	rule, minister
+A00020	دهلیز	/dihliːz/	/dɪhliːz/	دِهْلِيز	N	N								fas	vestibule
+A00021	راسته	/rastɒ/	/ruzdəg/	رُزْدَق	N	N								fas	row
+A00022	رخ	/ruχ/	/ruχ/	رُخ	N	N			ANIM	ANIM				fas	rook
+A00023	زاج	/zɒːdʒ/	/zɑːd͡ʒ/	زَاج	N	N								fas	alum
+A00024	سرگین	/sirgiːn/	/sɪrd͡ʒiːn/	سِرْجِين	N	N								fas	dung
+A00025	سریش	/sireʃ/	/ʃɪrɑːs/	شِرَاس	N	N			DMST	DMST				fas	glue
+A00026	شطرنج	/ʃatʰrandʒ/	/ʃətˤrənd͡ʒ/	شَطْرَنْج	N	N			DMST	DMST				fas	chess
+A00027	شلوار	/ʃilwɒːr/	/sɪrwaːl/	سِرْوال	N	N			DMST	DMST				fas	trousers
+A00028	شیره	/ʃiːrɒ/	/ʃiːrɑ/	شِيره	N	Ncol [BH,IQ]								fas	juice
+A00029	طاس	/tʰas/	/tˤəs/	طَس	N	N			DMST	DMST				fas	bowl
+A00030	فردوس	/firdaws/	/fɪrdəws/	فِرْدَوْس	N	N								fas	Paradise
+A00031	فرسنگ	/farsang/	/fərsəχ/	فَرْسَخ	N	N								fas	farsang, league
+A00032	فرمان	/farmɒːn/	/fərmɑːn/	فَرْمَان	N	N								fas	order, decree
+A00033	فهرست	/fihrist/	/fɪhrɪs/	فِهْرِس	N	N								fas	summary, register
+A00034	فیروزه	/firuːzɒ/	/fiːruːzəd͡ʒ/	فِيرُوزَج	N	N								fas	turquoise
+A00035	کاروان	/qarwɒːn/	/gəjrəwɑːn/	قَيْرَوَان	N	N			DMST	DMST				fas	caravan
+A00036	کبک	/qbiː/	/gbi/	قبِي	N	N			ANIM	ANIM				fas	partridge
+A00037	کفش	/kafʃ/	/gəfʃ/	قَفْش	N	N			DMST	DMST				fas	shoe
+A00038	کوشک	/kawsakʰ/	/d͡ʒəwsəg/	جَوْسَق	N	N								fas	palace
+A00039	کوشک	/kuːʃkʰ/	/kuʃk/	كُشْك	N	N			DMST	DMST				fas	kiosk
+A00040	گاومیش	/gɒːwmiːʃ/	/d͡ʒɑːmuːs/	جَامُوس	N	N			ANIM	ANIM				fas	buffalo
+A00041	گل	/gol/	/d͡ʒuːl/	جُول	N	N			PLNT	PLNT				fas	rose
+A00042	گنبد	/ganbad/	/d͡ʒənbəd/	جَنْبَد	N	N								fas	vault, cupola
+A00043	گنج	/gandʒ/	/kənz/	كَنْز	N	N								fas	treasure
+A00044	گوهر	/gawhar/	/d͡ʒəwhər/	جَوْهَر	N	N								fas	substance, jewel
+A00045	مرز بان	/marza bɒːn/	/mərzəbɑːn/	مَرْزَبَان	N	N								fas	margrave
+A00046	مرغ	/marg/	/mərd͡ʒ/	مَرْج	N	N								fas	meadow
+A00047	مشک	/miʃkʰ/	/mɪsk/	مِسْك	N	N			DMST	DMST				fas	musk
+A00048	مهر 	/mahara/	/məhərə/	مَهَرَ	V	V								fas	to seal
+A00049	نامه 	/nɒːmɒ/	/nɑːməd͡ʒ/	نَامَج	N	N								fas	letter, writing
+A00050	نامه 	/nɒːmɒ/	/nəmɑːq/	نَمَاق	N	N								fas	letter, writing

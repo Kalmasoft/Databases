@@ -1,0 +1,26 @@
+﻿/*** Kalmasoft DBASNARA style sheet ***/
+Metadata {display:block; border: 2px solid silver; margin:0.5em; padding:0.5em; border-radius: 0.35em; background: rgba(255, 255, 255, 0.2);}
+line {display:block; font-family: Arial; font-size:0.8em;}
+indent {display:block; font-family: Arial; font-size:0.8em; text-indent: 1em;}
+doubleIndent {display:block; font-family: Arial; font-size:0.8em; text-indent: 3em;}
+DBASNARA {display:table; margin:1em; font-family: Arial; font-size:0.9em; line-height: 1.2em; width:98%; border-spacing: 5px;}
+Entry {display:table-row;}
+ID {display:table-cell; width:4em;}
+Asian {display:table-cell; width:5em; padding: 0.15em 0.25em 0.15em 0.25em; margin: 0px 0.25em; border-radius: 0.15em; border: 1px solid; background: rgba(90, 130, 252, 0.2); border-color: rgb(90, 130, 252); font-family: Arial Unicode MS; font-size:1.3em;}
+ASIPA {display:table-cell; width:6em; padding: 0.15em 0.25em 0.15em 0.25em; margin: 0px 0.25em; border-radius: 0.15em; border: 1px solid; background: rgba(153, 153, 153, 0.2); border-color: rgb(153, 153, 153); font-size:1.0em;}
+ARIPA {display:table-cell; width:6em; padding: 0.15em 0.25em 0.15em 0.25em; margin: 0px 0.25em; border-radius: 0.15em; border: 1px solid; background: rgba(153, 153, 153, 0.2); border-color: rgb(153, 153, 153); font-size:1.0em;}
+Arabic {display:table-cell; width:5em; padding: 0.15em 0.25em 0.15em 0.25em; margin: 0px 0.25em; border-radius: 0.15em; border: 1px solid; background: rgba(166, 226, 45, 0.2); border-color: rgb(166, 226, 45); font-size:1.2em; text-align: right; font-family: Tahoma;}
+ASClass {display:table-cell; width:2em; padding: 0.15em 0.25em 0.15em 0.25em; margin: 0px 0.25em; border-radius: 0.15em; border: 1px solid; background: rgba(253, 151, 32, 0.2); border-color: rgb(253, 151, 32);}
+ARClass {display:table-cell; width:5em; padding: 0.15em 0.25em 0.15em 0.25em; margin: 0px 0.25em; border-radius: 0.15em; border: 1px solid; background: rgba(253, 151, 32, 0.2); border-color: rgb(253, 151, 32);}
+ASSubclass {display:table-cell; width:2em; padding: 0.15em 0.25em 0.15em 0.25em; margin: 0px 0.25em; border-radius: 0.15em; border: 1px solid; background: rgba(253, 151, 32, 0.2); border-color: rgb(253, 151, 32);}
+ARSubclass {display:table-cell; width:2em; padding: 0.15em 0.25em 0.15em 0.25em; margin: 0px 0.25em; border-radius: 0.15em; border: 1px solid; background: rgba(253, 151, 32, 0.2); border-color: rgb(253, 151, 32);}
+ASDomain {display:table-cell; width:3em; padding: 0.15em 0.25em 0.15em 0.25em; margin: 0px 0.25em; border-radius: 0.15em; border: 1px solid; background: rgba(255, 255, 255, 0.2); border-color: rgb(153, 153, 153);}
+ARDomain {display:table-cell; width:3em; padding: 0.15em 0.25em 0.15em 0.25em; margin: 0px 0.25em; border-radius: 0.15em; border: 1px solid; background: rgba(255, 255, 255, 0.2); border-color: rgb(153, 153, 153);}
+Category {display:table-cell; width:2em; padding: 0.15em 0.25em 0.15em 0.25em; margin: 0px 0.25em; border-radius: 0.15em; border: 1px solid; background: rgba(153, 153, 153, 0.2); border-color: rgb(153, 153, 153);}
+RootAS {display:table-cell; width:3em; padding: 0.15em 0.25em 0.15em 0.25em; margin: 0px 0.25em; border-radius: 0.15em; border: 1px solid; background: rgba(255, 255, 255, 0.2); border-color: rgb(153, 153, 153); font-size:1.2em;}
+RootAR {display:table-cell; width:3em; padding: 0.15em 0.25em 0.15em 0.25em; margin: 0px 0.25em; border-radius: 0.15em; border: 1px solid; background: rgba(90, 130, 252, 0.2); border-color: rgb(90, 130, 252); text-align: right; font-family: Tahoma;}
+Language {
+display:table-cell; width:3em; padding: 0.15em 0.25em 0.15em 0.25em; margin: 0px 0.25em; border-radius: 0.15em; border: 1px solid; border-color: rgb(153, 153, 153); font-family: Tahoma;
+}
+
+Gloss {display:table-cell; width:25em; padding: 0.15em 0.25em 0.15em 0.25em; margin: 0px 0.25em; border-radius: 0.15em; border: 1px solid; border-color: rgb(153, 153, 153); font-family: Tahoma;}
