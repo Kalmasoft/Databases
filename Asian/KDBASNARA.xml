@@ -8,20 +8,20 @@
 <line>Resources: https://www.iranicaonline.org/scholar/ahmad-tafazzoli</line>
 <line>Availability: https://github.com/Kalmasoft/Databases/blob/main/Asian</line>
 <line>Terminology: www.kalmasoft.com/adevtool.htm</line>
-<line>Created: 2/7/2026 12:35 PM</line>
-<line>Updated: 2/16/2026 3:46 PM</line>
+<line>Created: 2 Jul 2026 12:35 PM</line>
+<line>Updated: 12 Sep 2026 2:30 PM</line>
 <line>Encoding: UTF8</line>
 <line>Delimiter: TAB</line>
 <line>Total entries: 3,000+</line>
 <line>Copyright ©1999-2025 Kalmasoft www.kalmasoft.com</line>
 <line>Contact: info@kalmasoft.com</line>
-<line>================================================================================================</line>
+<line>=========================================</line>
 <line>Licensed under Creative Commons Attribution-ShareAlike 4.0 International license.</line>
 <line>This is a work in progress, not completed, any citations for academic purposes should include the date when the file was downloaded.</line>
-<line>================================================================================================</line>
+<line>=========================================</line>
 <line>Attributes:</line>
 <indent>ID: 6 digits identification number</indent>
-<doubleIndent>A######: HornMorpho ِoriginal entry (F: Farsi, H: Hindi, N: Sinhalese, S: Syriac, T: Tamil, U: Urdu)</doubleIndent>
+<doubleIndent>A######: Original entry (F: Farsi, H: Hindi, N: Sinhalese, S: Syriac, T: Tamil, U: Urdu)</doubleIndent>
 <doubleIndent>K######: Kalmasoft added entry</doubleIndent>
 <indent>Asian: Asian entry</indent>
 <indent>ASIPA: Reading for Asian entry (International Phonetic Alphabet)</indent>
@@ -36,16 +36,17 @@
 <doubleIndent>N: Noun</doubleIndent>
 <doubleIndent>NT: Arabic Temporal noun</doubleIndent>
 <doubleIndent>NL: Arabic Locative noun</doubleIndent>
-<doubleIndent>Ncol [CC]: Regional colloquial Arabic Noun, ISO3166-3 Alpha-2 country codes, apply only to MSA otherwise</doubleIndent>
+<doubleIndent>Ncol: Regional colloquial Arabic Noun, region codes appear in "Locale", apply only to MSA otherwise</doubleIndent>
 <doubleIndent>R: Particle</doubleIndent>
 <doubleIndent>P: Participle</doubleIndent>
-<doubleIndent>Vcol [CC]: Regional colloquial Arabic Verb, ISO3166-3 Alpha-2 country codes, apply only to MSA otherwise</doubleIndent>
+<doubleIndent>Vcol: Regional colloquial Arabic Verb, region codes appear in "Locale", apply only to MSA otherwise</doubleIndent>
 <doubleIndent>VI: Verb imperfective</doubleIndent>
 <doubleIndent>VJ: Verb jussive</doubleIndent>
 <doubleIndent>VM: Verb imperative</doubleIndent>
 <doubleIndent>VP: Verb perfective, past</doubleIndent>
 <indent>ASSubclass/ARSubclass: Asian/Arabic entry grammatical subclass</indent>
 <doubleIndent>CON: Conjunction</doubleIndent>
+<doubleIndent>DIM: Demonstrative</doubleIndent>
 <doubleIndent>PRP: Preposition</doubleIndent>
 <doubleIndent>SNG: Singular</doubleIndent>
 <doubleIndent>PLR: Plural</doubleIndent>
@@ -73,8 +74,10 @@
 <indent>RootAS: Asian theoretical root</indent>
 <indent>RootAR: Arabic root</indent>
 <indent>Language: Asian language, ISO 639-3 three-letter code</indent>
-<indent>Gloss: English meaning of the Asian entry</indent>
-<line>================================================================================================</line>
+<indent>Recipient: Recipient Arabic varieties, ISO 639-3 three-letter code</indent>
+<indent>Locale: Locales of the recipient Arabic varieties, ISO3166-3 Alpha-3 country codes</indent>
+<indent>Gloss: Arabic semantic adaptation in English</indent>
+<line>=========================================</line>
 </Metadata>
 <DBASNARA>
 <Entry>
@@ -93,6 +96,8 @@
 <RootAS>RootAS</RootAS>
 <RootAR>RootAR</RootAR>
 <Language>Language</Language>
+<Recipient>Recipient</Recipient>
+<Locale>Locale</Locale>
 <Gloss>Gloss</Gloss>
 </Entry>
 <Entry>
@@ -102,7 +107,7 @@
 <ARIPA>/ʕənbər/</ARIPA>
 <Arabic>عَنْبَر</Arabic>
 <ASClass>N</ASClass>
-<ARClass>Ncol [EG,SD]</ARClass>
+<ARClass>Ncol</ARClass>
 <ASSubclass></ASSubclass>
 <ARSubclass></ARSubclass>
 <ASDomain></ASDomain>
@@ -111,6 +116,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arz,apd</Recipient>
+<Locale>EGY,SDN</Locale>
 <Gloss>warehouse</Gloss>
 </Entry>
 <Entry>
@@ -129,6 +136,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>violet</Gloss>
 </Entry>
 <Entry>
@@ -147,6 +156,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>garden</Gloss>
 </Entry>
 <Entry>
@@ -165,6 +176,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>hospital</Gloss>
 </Entry>
 <Entry>
@@ -183,6 +196,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>pair of compasses</Gloss>
 </Entry>
 <Entry>
@@ -201,6 +216,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>pistachio</Gloss>
 </Entry>
 <Entry>
@@ -219,6 +236,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>pawn</Gloss>
 </Entry>
 <Entry>
@@ -237,6 +256,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>frying pan</Gloss>
 </Entry>
 <Entry>
@@ -255,6 +276,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>crown</Gloss>
 </Entry>
 <Entry>
@@ -273,6 +296,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>axe</Gloss>
 </Entry>
 <Entry>
@@ -291,6 +316,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>mulberry</Gloss>
 </Entry>
 <Entry>
@@ -309,6 +336,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>stocking</Gloss>
 </Entry>
 <Entry>
@@ -327,6 +356,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>stocking</Gloss>
 </Entry>
 <Entry>
@@ -345,6 +376,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>veil</Gloss>
 </Entry>
 <Entry>
@@ -363,6 +396,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>lamp</Gloss>
 </Entry>
 <Entry>
@@ -381,6 +416,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>curdled whey</Gloss>
 </Entry>
 <Entry>
@@ -399,6 +436,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>(small) change</Gloss>
 </Entry>
 <Entry>
@@ -417,6 +456,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>ditch, moat</Gloss>
 </Entry>
 <Entry>
@@ -435,6 +476,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>rule, minister</Gloss>
 </Entry>
 <Entry>
@@ -453,6 +496,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>vestibule</Gloss>
 </Entry>
 <Entry>
@@ -471,6 +516,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>row</Gloss>
 </Entry>
 <Entry>
@@ -489,6 +536,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>rook</Gloss>
 </Entry>
 <Entry>
@@ -507,6 +556,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>alum</Gloss>
 </Entry>
 <Entry>
@@ -525,6 +576,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>dung</Gloss>
 </Entry>
 <Entry>
@@ -543,6 +596,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>glue</Gloss>
 </Entry>
 <Entry>
@@ -561,6 +616,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>chess</Gloss>
 </Entry>
 <Entry>
@@ -579,6 +636,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>trousers</Gloss>
 </Entry>
 <Entry>
@@ -588,7 +647,7 @@
 <ARIPA>/ʃiːrɑ/</ARIPA>
 <Arabic>شِيره</Arabic>
 <ASClass>N</ASClass>
-<ARClass>Ncol [BH,IQ]</ARClass>
+<ARClass>Ncol</ARClass>
 <ASSubclass></ASSubclass>
 <ARSubclass></ARSubclass>
 <ASDomain></ASDomain>
@@ -597,6 +656,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>afb,ayp</Recipient>
+<Locale>BHR,IRQ</Locale>
 <Gloss>juice</Gloss>
 </Entry>
 <Entry>
@@ -615,6 +676,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>bowl</Gloss>
 </Entry>
 <Entry>
@@ -633,6 +696,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>Paradise</Gloss>
 </Entry>
 <Entry>
@@ -651,6 +716,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>farsang, league</Gloss>
 </Entry>
 <Entry>
@@ -669,6 +736,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>order, decree</Gloss>
 </Entry>
 <Entry>
@@ -687,6 +756,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>summary, register</Gloss>
 </Entry>
 <Entry>
@@ -705,6 +776,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>turquoise</Gloss>
 </Entry>
 <Entry>
@@ -723,6 +796,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>caravan</Gloss>
 </Entry>
 <Entry>
@@ -741,6 +816,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>partridge</Gloss>
 </Entry>
 <Entry>
@@ -759,6 +836,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>shoe</Gloss>
 </Entry>
 <Entry>
@@ -777,6 +856,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>palace</Gloss>
 </Entry>
 <Entry>
@@ -795,6 +876,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>kiosk</Gloss>
 </Entry>
 <Entry>
@@ -813,6 +896,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>buffalo</Gloss>
 </Entry>
 <Entry>
@@ -831,6 +916,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>rose</Gloss>
 </Entry>
 <Entry>
@@ -849,6 +936,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>vault, cupola</Gloss>
 </Entry>
 <Entry>
@@ -867,6 +956,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>treasure</Gloss>
 </Entry>
 <Entry>
@@ -885,6 +976,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>substance, jewel</Gloss>
 </Entry>
 <Entry>
@@ -903,6 +996,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>margrave</Gloss>
 </Entry>
 <Entry>
@@ -921,6 +1016,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>meadow</Gloss>
 </Entry>
 <Entry>
@@ -939,6 +1036,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>musk</Gloss>
 </Entry>
 <Entry>
@@ -957,6 +1056,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>to seal</Gloss>
 </Entry>
 <Entry>
@@ -975,6 +1076,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>letter, writing</Gloss>
 </Entry>
 <Entry>
@@ -993,6 +1096,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
 <Gloss>letter, writing</Gloss>
 </Entry>
 <Entry>
@@ -1011,24 +1116,28 @@
 <RootAS></RootAS>
 <RootAR>أمر</RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>a command, an order, a summons</Gloss>
 </Entry>
 <Entry>
 <ID>S00052</ID>
 <Asian>ܐܸܠܵܐ</Asian>
 <ASIPA>/ʔɪla/</ASIPA>
-<ARIPA>/illa/</ARIPA>
+<ARIPA>/ilːa/</ARIPA>
 <Arabic>إلّا</Arabic>
 <ASClass>R</ASClass>
 <ARClass>R</ARClass>
-<ASSubclass>CONJ</ASSubclass>
-<ARSubclass>CONJ</ARSubclass>
+<ASSubclass>CON</ASSubclass>
+<ARSubclass>CON</ARSubclass>
 <ASDomain></ASDomain>
 <ARDomain></ARDomain>
 <Category></Category>
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>yet, except that</Gloss>
 </Entry>
 <Entry>
@@ -1039,14 +1148,16 @@
 <Arabic>إن</Arabic>
 <ASClass>R</ASClass>
 <ARClass>R</ARClass>
-<ASSubclass>CONJ</ASSubclass>
-<ARSubclass>CONJ</ARSubclass>
+<ASSubclass>CON</ASSubclass>
+<ARSubclass>CON</ARSubclass>
 <ASDomain></ASDomain>
 <ARDomain></ARDomain>
 <Category></Category>
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>if</Gloss>
 </Entry>
 <Entry>
@@ -1065,13 +1176,15 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>March</Gloss>
 </Entry>
 <Entry>
 <ID>S00055</ID>
 <Asian>ܐܒܐ</Asian>
 <ASIPA>/ʔba/</ASIPA>
-<ARIPA>/ʔabbaː/</ARIPA>
+<ARIPA>/ʔabːaː/</ARIPA>
 <Arabic>أبَّا</Arabic>
 <ASClass>N</ASClass>
 <ARClass>N</ARClass>
@@ -1083,6 +1196,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>fruit</Gloss>
 </Entry>
 <Entry>
@@ -1101,13 +1216,15 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>hire, wages</Gloss>
 </Entry>
 <Entry>
 <ID>S00057</ID>
 <Asian>ܐܘܡܬܐ</Asian>
 <ASIPA>/ʔwmta/</ASIPA>
-<ARIPA>/ʔaumma/</ARIPA>
+<ARIPA>/ʔaumːa/</ARIPA>
 <Arabic>أُمَّة</Arabic>
 <ASClass>N</ASClass>
 <ARClass>N</ARClass>
@@ -1119,6 +1236,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>nation</Gloss>
 </Entry>
 <Entry>
@@ -1137,6 +1256,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>arena</Gloss>
 </Entry>
 <Entry>
@@ -1155,6 +1276,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>purple</Gloss>
 </Entry>
 <Entry>
@@ -1165,14 +1288,16 @@
 <Arabic>بِ</Arabic>
 <ASClass>R</ASClass>
 <ARClass>R</ARClass>
-<ASSubclass>PREP</ASSubclass>
-<ARSubclass>PREP</ARSubclass>
+<ASSubclass>PRP</ASSubclass>
+<ARSubclass>PRP</ARSubclass>
 <ASDomain></ASDomain>
 <ARDomain></ARDomain>
 <Category></Category>
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>with, in, at, by</Gloss>
 </Entry>
 <Entry>
@@ -1191,6 +1316,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>owl</Gloss>
 </Entry>
 <Entry>
@@ -1201,14 +1328,16 @@
 <Arabic>بَعْد</Arabic>
 <ASClass>R</ASClass>
 <ARClass>R</ARClass>
-<ASSubclass>PREP</ASSubclass>
-<ARSubclass>PREP</ARSubclass>
+<ASSubclass>PRP</ASSubclass>
+<ARSubclass>PRP</ARSubclass>
 <ASDomain></ASDomain>
 <ARDomain></ARDomain>
 <Category></Category>
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>in that, on account of, because, for this reason, a compound of</Gloss>
 </Entry>
 <Entry>
@@ -1219,14 +1348,16 @@
 <Arabic>بَعْد</Arabic>
 <ASClass>R</ASClass>
 <ARClass>R</ARClass>
-<ASSubclass>PREP</ASSubclass>
-<ARSubclass>PREP</ARSubclass>
+<ASSubclass>PRP</ASSubclass>
+<ARSubclass>PRP</ARSubclass>
 <ASDomain></ASDomain>
 <ARDomain></ARDomain>
 <Category></Category>
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss></Gloss>
 </Entry>
 <Entry>
@@ -1245,6 +1376,8 @@
 <RootAS></RootAS>
 <RootAR>غرض</RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>The intent, the purpose, the intention, the meaning, the ulterior motive</Gloss>
 </Entry>
 <Entry>
@@ -1255,14 +1388,16 @@
 <Arabic>جُوَّة</Arabic>
 <ASClass>N</ASClass>
 <ARClass>Ncol</ARClass>
-<ASSubclass>PREP</ASSubclass>
-<ARSubclass>PREP</ARSubclass>
+<ASSubclass>PRP</ASSubclass>
+<ARSubclass>PRP</ARSubclass>
 <ASDomain></ASDomain>
 <ARDomain></ARDomain>
 <Category></Category>
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>in, into, within, inside, in the midst</Gloss>
 </Entry>
 <Entry>
@@ -1281,6 +1416,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>green</Gloss>
 </Entry>
 <Entry>
@@ -1299,6 +1436,8 @@
 <RootAS></RootAS>
 <RootAR>كنز</RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>treasure</Gloss>
 </Entry>
 <Entry>
@@ -1309,14 +1448,16 @@
 <Arabic>ذَا</Arabic>
 <ASClass>R</ASClass>
 <ARClass>R</ARClass>
-<ASSubclass>PREP</ASSubclass>
-<ARSubclass>PREP</ARSubclass>
+<ASSubclass>PRP</ASSubclass>
+<ARSubclass>PRP</ARSubclass>
 <ASDomain></ASDomain>
 <ARDomain></ARDomain>
 <Category></Category>
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>of, pertaining to, belonging to, made of, from</Gloss>
 </Entry>
 <Entry>
@@ -1335,6 +1476,8 @@
 <RootAS></RootAS>
 <RootAR>ذهب</RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>gold</Gloss>
 </Entry>
 <Entry>
@@ -1353,6 +1496,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>Damascus</Gloss>
 </Entry>
 <Entry>
@@ -1371,6 +1516,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>Dara</Gloss>
 </Entry>
 <Entry>
@@ -1389,6 +1536,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>gold dinarius</Gloss>
 </Entry>
 <Entry>
@@ -1407,6 +1556,8 @@
 <RootAS></RootAS>
 <RootAR>ورد</RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>pink</Gloss>
 </Entry>
 <Entry>
@@ -1425,6 +1576,8 @@
 <RootAS></RootAS>
 <RootAR>زرق</RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>blue</Gloss>
 </Entry>
 <Entry>
@@ -1443,13 +1596,15 @@
 <RootAS></RootAS>
 <RootAR>زوج</RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>pair, conjugation, name of an accent</Gloss>
 </Entry>
 <Entry>
 <ID>S00076</ID>
 <Asian>ܚܲܒܘܼܫܵܐ</Asian>
 <ASIPA>/ħabwʃa/</ASIPA>
-<ARIPA>/tuffaːħ/</ARIPA>
+<ARIPA>/tufːaːħ/</ARIPA>
 <Arabic>تُفَّاح</Arabic>
 <ASClass>N</ASClass>
 <ARClass>N</ARClass>
@@ -1461,6 +1616,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>apple</Gloss>
 </Entry>
 <Entry>
@@ -1479,13 +1636,15 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>white</Gloss>
 </Entry>
 <Entry>
 <ID>S00078</ID>
 <Asian>ܛܠܵܫܹܒܵܐ</Asian>
 <ASIPA>/tˤlaʃeba/</ASIPA>
-<ARIPA>/ʔθˈθulaːθaːʔ/</ARIPA>
+<ARIPA>/ʔθːulaːθaːʔ/</ARIPA>
 <Arabic>الثُّلاثَاء</Arabic>
 <ASClass>N</ASClass>
 <ARClass>N</ARClass>
@@ -1497,6 +1656,8 @@
 <RootAS></RootAS>
 <RootAR>ثلث</RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>Tuesday</Gloss>
 </Entry>
 <Entry>
@@ -1515,6 +1676,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>month</Gloss>
 </Entry>
 <Entry>
@@ -1533,6 +1696,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>or, either (loanword?)</Gloss>
 </Entry>
 <Entry>
@@ -1551,6 +1716,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>day</Gloss>
 </Entry>
 <Entry>
@@ -1569,13 +1736,15 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>motherly</Gloss>
 </Entry>
 <Entry>
 <ID>S00083</ID>
 <Asian>ܝܶܡ̈ܗܳܬܶܐ</Asian>
 <ASIPA>/jamhɑta/</ASIPA>
-<ARIPA>/ʔaummahaːt/</ARIPA>
+<ARIPA>/ʔaumːahaːt/</ARIPA>
 <Arabic>أُمَّهَات</Arabic>
 <ASClass>N</ASClass>
 <ARClass>N</ARClass>
@@ -1587,13 +1756,15 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>mothers</Gloss>
 </Entry>
 <Entry>
 <ID>S00084</ID>
 <Asian>ܝܶܡܳܐ</Asian>
 <ASIPA>/jamɑ/</ASIPA>
-<ARIPA>/jamma/</ARIPA>
+<ARIPA>/jamːa/</ARIPA>
 <Arabic>يَمَّة</Arabic>
 <ASClass>N</ASClass>
 <ARClass>N</ARClass>
@@ -1605,6 +1776,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>mother</Gloss>
 </Entry>
 <Entry>
@@ -1623,6 +1796,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>dog</Gloss>
 </Entry>
 <Entry>
@@ -1641,6 +1816,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>January</Gloss>
 </Entry>
 <Entry>
@@ -1659,6 +1836,8 @@
 <RootAS></RootAS>
 <RootAR>كنف</RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>protect, defend, preserve, maintain</Gloss>
 </Entry>
 <Entry>
@@ -1669,14 +1848,16 @@
 <Arabic>لِ</Arabic>
 <ASClass>R</ASClass>
 <ARClass>R</ARClass>
-<ASSubclass>PREP</ASSubclass>
-<ARSubclass>PREP</ARSubclass>
+<ASSubclass>PRP</ASSubclass>
+<ARSubclass>PRP</ARSubclass>
 <ASDomain></ASDomain>
 <ARDomain></ARDomain>
 <Category></Category>
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>on, onto, to, upon</Gloss>
 </Entry>
 <Entry>
@@ -1695,6 +1876,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>bread</Gloss>
 </Entry>
 <Entry>
@@ -1705,14 +1888,16 @@
 <Arabic>مِثْل</Arabic>
 <ASClass>R</ASClass>
 <ARClass>R</ARClass>
-<ASSubclass>CONJ</ASSubclass>
-<ARSubclass>CONJ</ARSubclass>
+<ASSubclass>CON</ASSubclass>
+<ARSubclass>CON</ARSubclass>
 <ASDomain></ASDomain>
 <ARDomain></ARDomain>
 <Category></Category>
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>per, in accordance with, according to</Gloss>
 </Entry>
 <Entry>
@@ -1723,14 +1908,16 @@
 <Arabic>مِنْ</Arabic>
 <ASClass>R</ASClass>
 <ARClass>R</ARClass>
-<ASSubclass>PREP</ASSubclass>
-<ARSubclass>PREP</ARSubclass>
+<ASSubclass>PRP</ASSubclass>
+<ARSubclass>PRP</ARSubclass>
 <ASDomain></ASDomain>
 <ARDomain></ARDomain>
 <Category></Category>
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>from (a starting point), out of, at, on, of, with (in company of someone)</Gloss>
 </Entry>
 <Entry>
@@ -1749,6 +1936,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>who</Gloss>
 </Entry>
 <Entry>
@@ -1767,6 +1956,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>towel</Gloss>
 </Entry>
 <Entry>
@@ -1785,6 +1976,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>Egypt</Gloss>
 </Entry>
 <Entry>
@@ -1803,6 +1996,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>eagle</Gloss>
 </Entry>
 <Entry>
@@ -1821,6 +2016,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>April</Gloss>
 </Entry>
 <Entry>
@@ -1839,6 +2036,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>tawny</Gloss>
 </Entry>
 <Entry>
@@ -1857,6 +2056,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>winter</Gloss>
 </Entry>
 <Entry>
@@ -1867,14 +2068,16 @@
 <Arabic>عَلَى</Arabic>
 <ASClass>R</ASClass>
 <ARClass>R</ARClass>
-<ASSubclass>PREP</ASSubclass>
-<ARSubclass>PREP</ARSubclass>
+<ASSubclass>PRP</ASSubclass>
+<ARSubclass>PRP</ARSubclass>
 <ASDomain></ASDomain>
 <ARDomain></ARDomain>
 <Category></Category>
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>on, over and in contact with, at the surface of and supported by, upon, above, on top of</Gloss>
 </Entry>
 <Entry>
@@ -1885,14 +2088,16 @@
 <Arabic>مَعْ</Arabic>
 <ASClass>R</ASClass>
 <ARClass>R</ARClass>
-<ASSubclass>PREP</ASSubclass>
-<ARSubclass>PREP</ARSubclass>
+<ASSubclass>PRP</ASSubclass>
+<ARSubclass>PRP</ARSubclass>
 <ASDomain></ASDomain>
 <ARDomain></ARDomain>
 <Category></Category>
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>with, together with, among / amongst / amidst</Gloss>
 </Entry>
 <Entry>
@@ -1911,6 +2116,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>with you</Gloss>
 </Entry>
 <Entry>
@@ -1929,13 +2136,15 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>uncle</Gloss>
 </Entry>
 <Entry>
 <ID>S00103</ID>
 <Asian>ܥܳܡܳܐ</Asian>
 <ASIPA>/ʕɑmɑ/</ASIPA>
-<ARIPA>/ʕamma/</ARIPA>
+<ARIPA>/ʕamːa/</ARIPA>
 <Arabic>عَمَّة</Arabic>
 <ASClass>N</ASClass>
 <ARClass>N</ARClass>
@@ -1947,6 +2156,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>uncle</Gloss>
 </Entry>
 <Entry>
@@ -1965,6 +2176,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>palace (palatium)</Gloss>
 </Entry>
 <Entry>
@@ -1983,6 +2196,8 @@
 <RootAS></RootAS>
 <RootAR>قتل</RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>will kill</Gloss>
 </Entry>
 <Entry>
@@ -2001,6 +2216,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>harp, lute</Gloss>
 </Entry>
 <Entry>
@@ -2019,6 +2236,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>lamp, torch (candela)</Gloss>
 </Entry>
 <Entry>
@@ -2037,6 +2256,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>pot, cradle (caldarium)</Gloss>
 </Entry>
 <Entry>
@@ -2055,13 +2276,15 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>rice</Gloss>
 </Entry>
 <Entry>
 <ID>S00110</ID>
 <Asian>ܪܘܼܡܵܢܵܐ</Asian>
 <ASIPA>/rwmana/</ASIPA>
-<ARIPA>/rummaːn/</ARIPA>
+<ARIPA>/rumːaːn/</ARIPA>
 <Arabic>رُمَّان</Arabic>
 <ASClass>N</ASClass>
 <ARClass>N</ARClass>
@@ -2073,13 +2296,15 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>pomegranate</Gloss>
 </Entry>
 <Entry>
 <ID>S00111</ID>
 <Asian>ܫܲܒܬܵܐ</Asian>
 <ASIPA>/ʃabta/</ASIPA>
-<ARIPA>/ʔsˈsabt/</ARIPA>
+<ARIPA>/ʔsːabt/</ARIPA>
 <Arabic>السَّبْت</Arabic>
 <ASClass>N</ASClass>
 <ARClass>N</ARClass>
@@ -2091,6 +2316,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>Saturday</Gloss>
 </Entry>
 <Entry>
@@ -2109,6 +2336,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>brown</Gloss>
 </Entry>
 <Entry>
@@ -2127,6 +2356,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>years</Gloss>
 </Entry>
 <Entry>
@@ -2145,6 +2376,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>towel</Gloss>
 </Entry>
 <Entry>
@@ -2163,6 +2396,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>February</Gloss>
 </Entry>
 <Entry>
@@ -2181,6 +2416,8 @@
 <RootAS></RootAS>
 <RootAR>شرب</RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>soup</Gloss>
 </Entry>
 <Entry>
@@ -2199,6 +2436,8 @@
 <RootAS></RootAS>
 <RootAR>سطر</RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>deed, document</Gloss>
 </Entry>
 <Entry>
@@ -2217,6 +2456,8 @@
 <RootAS></RootAS>
 <RootAR>سلم</RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>hello</Gloss>
 </Entry>
 <Entry>
@@ -2235,6 +2476,8 @@
 <RootAS></RootAS>
 <RootAR>سلم</RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>peace</Gloss>
 </Entry>
 <Entry>
@@ -2253,6 +2496,8 @@
 <RootAS></RootAS>
 <RootAR>سلم</RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>hello</Gloss>
 </Entry>
 <Entry>
@@ -2271,6 +2516,8 @@
 <RootAS></RootAS>
 <RootAR>سلم</RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>peace</Gloss>
 </Entry>
 <Entry>
@@ -2289,6 +2536,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>July</Gloss>
 </Entry>
 <Entry>
@@ -2307,6 +2556,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>fig</Gloss>
 </Entry>
 <Entry>
@@ -2325,6 +2576,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>June</Gloss>
 </Entry>
 <Entry>
@@ -2343,6 +2596,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>rabbit, hare</Gloss>
 </Entry>
 <Entry>
@@ -2361,6 +2616,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>to eat</Gloss>
 </Entry>
 <Entry>
@@ -2379,6 +2636,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>to tell</Gloss>
 </Entry>
 <Entry>
@@ -2397,6 +2656,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>to weep</Gloss>
 </Entry>
 <Entry>
@@ -2415,6 +2676,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>building, erecting, constructing</Gloss>
 </Entry>
 <Entry>
@@ -2433,6 +2696,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>rude</Gloss>
 </Entry>
 <Entry>
@@ -2451,6 +2716,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>three</Gloss>
 </Entry>
 <Entry>
@@ -2469,6 +2736,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>three</Gloss>
 </Entry>
 <Entry>
@@ -2487,6 +2756,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>to calculate</Gloss>
 </Entry>
 <Entry>
@@ -2505,6 +2776,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>field</Gloss>
 </Entry>
 <Entry>
@@ -2523,6 +2796,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>to dig</Gloss>
 </Entry>
 <Entry>
@@ -2541,6 +2816,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>fifth (⅕)</Gloss>
 </Entry>
 <Entry>
@@ -2559,13 +2836,15 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>to hear</Gloss>
 </Entry>
 <Entry>
 <ID>S00138</ID>
 <Asian>ܫܘܢܪܐ</Asian>
-<ASIPA>/ʃunˈnɑ.rɑ/</ASIPA>
-<ARIPA>/sannuːr/</ARIPA>
+<ASIPA>/ʃunːɑ.rɑ/</ASIPA>
+<ARIPA>/sanːnuːr/</ARIPA>
 <Arabic>سَنُّور</Arabic>
 <ASClass>N</ASClass>
 <ARClass>N</ARClass>
@@ -2577,6 +2856,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>cat</Gloss>
 </Entry>
 <Entry>
@@ -2595,13 +2876,15 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>to seize, to occupy</Gloss>
 </Entry>
 <Entry>
 <ID>S00140</ID>
 <Asian>ܫܘܩܐ</Asian>
 <ASIPA>/ʃuqɑ(ʔ)/</ASIPA>
-<ARIPA>/ʃuqqa/</ARIPA>
+<ARIPA>/ʃuqːa/</ARIPA>
 <Arabic>شُقَّة</Arabic>
 <ASClass>N</ASClass>
 <ARClass>N</ARClass>
@@ -2613,6 +2896,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>quarter, district, borough</Gloss>
 </Entry>
 <Entry>
@@ -2631,6 +2916,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>vase, bottle, flask, flagon</Gloss>
 </Entry>
 <Entry>
@@ -2649,6 +2936,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>to crucify</Gloss>
 </Entry>
 <Entry>
@@ -2667,6 +2956,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>icon, painted idol</Gloss>
 </Entry>
 <Entry>
@@ -2685,6 +2976,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>to float</Gloss>
 </Entry>
 <Entry>
@@ -2703,13 +2996,15 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>earth, soil, dust</Gloss>
 </Entry>
 <Entry>
 <ID>S00146</ID>
 <Asian>ܥܢܢܐ</Asian>
-<ASIPA>/ʕannɑnɑ(ʔ)/</ASIPA>
-<ARIPA>/ʕunna/</ARIPA>
+<ASIPA>/ʕanːɑnɑ(ʔ)/</ASIPA>
+<ARIPA>/ʕunːa/</ARIPA>
 <Arabic>عُنَّة</Arabic>
 <ASClass>A</ASClass>
 <ARClass>A</ARClass>
@@ -2721,12 +3016,14 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>sexually impotent</Gloss>
 </Entry>
 <Entry>
 <ID>S00147</ID>
 <Asian>ܐܡܐ</Asian>
-<ASIPA>/ʔammɑ(ʔ)/</ASIPA>
+<ASIPA>/ʔamːɑ(ʔ)/</ASIPA>
 <ARIPA>/ʕaːm/</ARIPA>
 <Arabic>عَام</Arabic>
 <ASClass>N</ASClass>
@@ -2739,12 +3036,14 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss></Gloss>
 </Entry>
 <Entry>
 <ID>S00148</ID>
 <Asian>ܦܛܝܪܐ</Asian>
-<ASIPA>/patˤtˤirɑ(ʔ)/</ASIPA>
+<ASIPA>/patˤːirɑ(ʔ)/</ASIPA>
 <ARIPA>/fatˤiːr/</ARIPA>
 <Arabic>فَطِير</Arabic>
 <ASClass>N</ASClass>
@@ -2757,6 +3056,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>unleavened bread</Gloss>
 </Entry>
 <Entry>
@@ -2775,6 +3076,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>palace, castle, fortress</Gloss>
 </Entry>
 <Entry>
@@ -2793,6 +3096,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>coffee</Gloss>
 </Entry>
 <Entry>
@@ -2811,13 +3116,15 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>writer, scribe, copyist, amanuensis, secretary, notary</Gloss>
 </Entry>
 <Entry>
 <ID>S00152</ID>
 <Asian>ܟܕܒܐ</Asian>
-<ASIPA>/kaddɑvɑ(ʔ)/</ASIPA>
-<ARIPA>/kaððaːb/</ARIPA>
+<ASIPA>/kadːɑvɑ(ʔ)/</ASIPA>
+<ARIPA>/kaðːaːb/</ARIPA>
 <Arabic>كَذَّاب</Arabic>
 <ASClass>N</ASClass>
 <ARClass>N</ARClass>
@@ -2829,6 +3136,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>liar</Gloss>
 </Entry>
 <Entry>
@@ -2847,6 +3156,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>to deny</Gloss>
 </Entry>
 <Entry>
@@ -2865,6 +3176,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>tablet, board, tile</Gloss>
 </Entry>
 <Entry>
@@ -2883,6 +3196,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>no</Gloss>
 </Entry>
 <Entry>
@@ -2901,13 +3216,15 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>no, not</Gloss>
 </Entry>
 <Entry>
 <ID>S00157</ID>
 <Asian>ܡܚܛܐ</Asian>
-<ASIPA>/m(ə)ħatˤtˤɑ/</ASIPA>
-<ARIPA>/maħatˤtˤa/</ARIPA>
+<ASIPA>/m(ə)ħatˤːɑ/</ASIPA>
+<ARIPA>/maħatˤːa/</ARIPA>
 <Arabic>مَحَطَّة</Arabic>
 <ASClass>N</ASClass>
 <ARClass>N</ARClass>
@@ -2919,6 +3236,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>candlewick</Gloss>
 </Entry>
 <Entry>
@@ -2937,6 +3256,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>church choir</Gloss>
 </Entry>
 <Entry>
@@ -2955,6 +3276,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>who? which?</Gloss>
 </Entry>
 <Entry>
@@ -2973,6 +3296,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>dowry</Gloss>
 </Entry>
 <Entry>
@@ -2991,6 +3316,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>favour</Gloss>
 </Entry>
 <Entry>
@@ -3009,6 +3336,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>yolk of egg</Gloss>
 </Entry>
 <Entry>
@@ -3027,6 +3356,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>salt</Gloss>
 </Entry>
 <Entry>
@@ -3045,12 +3376,14 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>beak</Gloss>
 </Entry>
 <Entry>
 <ID>S00165</ID>
 <Asian>ܢܓܪܐ</Asian>
-<ASIPA>/naɡɡɑrɑ/</ASIPA>
+<ASIPA>/naɡːɑrɑ/</ASIPA>
 <ARIPA>/nadʒdʒaːr/</ARIPA>
 <Arabic>نَجَّار</Arabic>
 <ASClass>N</ASClass>
@@ -3063,6 +3396,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>carpenter</Gloss>
 </Entry>
 <Entry>
@@ -3073,14 +3408,16 @@
 <Arabic>أَوْ</Arabic>
 <ASClass>R</ASClass>
 <ARClass>R</ARClass>
-<ASSubclass>CONJ</ASSubclass>
-<ARSubclass>CONJ</ARSubclass>
+<ASSubclass>CON</ASSubclass>
+<ARSubclass>CON</ARSubclass>
 <ASDomain></ASDomain>
 <ARDomain></ARDomain>
 <Category></Category>
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>or</Gloss>
 </Entry>
 <Entry>
@@ -3099,6 +3436,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>this</Gloss>
 </Entry>
 <Entry>
@@ -3117,6 +3456,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>this thing, this one</Gloss>
 </Entry>
 <Entry>
@@ -3135,6 +3476,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>he</Gloss>
 </Entry>
 <Entry>
@@ -3153,6 +3496,8 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>she</Gloss>
 </Entry>
 <Entry>
@@ -3171,7 +3516,369 @@
 <RootAS></RootAS>
 <RootAR></RootAR>
 <Language>syr</Language>
+<Recipient></Recipient>
+<Locale></Locale>
 <Gloss>orphan</Gloss>
+</Entry>
+<Entry>
+<ID>F00172</ID>
+<Asian></Asian>
+<ASIPA>//</ASIPA>
+<ARIPA>//</ARIPA>
+<Arabic>إنَّ</Arabic>
+<ASClass>R</ASClass>
+<ARClass>R</ARClass>
+<ASSubclass>DIM</ASSubclass>
+<ARSubclass></ARSubclass>
+<ASDomain></ASDomain>
+<ARDomain></ARDomain>
+<Category></Category>
+<RootAS></RootAS>
+<RootAR></RootAR>
+<Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
+<Gloss>this</Gloss>
+</Entry>
+<Entry>
+<ID>F00172</ID>
+<Asian></Asian>
+<ASIPA>//</ASIPA>
+<ARIPA>//</ARIPA>
+<Arabic>فَ</Arabic>
+<ASClass>R</ASClass>
+<ARClass>R</ARClass>
+<ASSubclass>CON</ASSubclass>
+<ARSubclass>CON</ARSubclass>
+<ASDomain></ASDomain>
+<ARDomain></ARDomain>
+<Category></Category>
+<RootAS></RootAS>
+<RootAR></RootAR>
+<Language>fas</Language>
+<Recipient>arb</Recipient>
+<Locale></Locale>
+<Gloss>and</Gloss>
+</Entry>
+<Entry>
+<ID>H00173</ID>
+<Asian>दुनिया</Asian>
+<ASIPA>/d̪unija/</ASIPA>
+<ARIPA>/dunjɑ/</ARIPA>
+<Arabic>دُنْيا</Arabic>
+<ASClass>N</ASClass>
+<ARClass>N</ARClass>
+<ASSubclass></ASSubclass>
+<ARSubclass></ARSubclass>
+<ASDomain></ASDomain>
+<ARDomain></ARDomain>
+<Category></Category>
+<RootAS></RootAS>
+<RootAR></RootAR>
+<Language>hin</Language>
+<Recipient>afb</Recipient>
+<Locale></Locale>
+<Gloss>world</Gloss>
+</Entry>
+<Entry>
+<ID>H00174</ID>
+<Asian>पानी</Asian>
+<ASIPA>/paniː/</ASIPA>
+<ARIPA>/məni/</ARIPA>
+<Arabic>مَنِي</Arabic>
+<ASClass>N</ASClass>
+<ARClass>N</ARClass>
+<ASSubclass></ASSubclass>
+<ARSubclass></ARSubclass>
+<ASDomain></ASDomain>
+<ARDomain></ARDomain>
+<Category></Category>
+<RootAS></RootAS>
+<RootAR></RootAR>
+<Language>hin</Language>
+<Recipient>afb</Recipient>
+<Locale></Locale>
+<Gloss>Semen</Gloss>
+</Entry>
+<Entry>
+<ID>H00175</ID>
+<Asian>ध्यान</Asian>
+<ASIPA>/d̪ʱjan/</ASIPA>
+<ARIPA>/diːaːna/</ARIPA>
+<Arabic>دِيانة</Arabic>
+<ASClass>N</ASClass>
+<ARClass>N</ARClass>
+<ASSubclass></ASSubclass>
+<ARSubclass></ARSubclass>
+<ASDomain></ASDomain>
+<ARDomain></ARDomain>
+<Category></Category>
+<RootAS></RootAS>
+<RootAR></RootAR>
+<Language>hin</Language>
+<Recipient>afb</Recipient>
+<Locale></Locale>
+<Gloss>religion, belief</Gloss>
+</Entry>
+<Entry>
+<ID>H00176</ID>
+<Asian>खटमल</Asian>
+<ASIPA>/kʰəʈəməl/</ASIPA>
+<ARIPA>/qumːməl/</ARIPA>
+<Arabic>قُمَّل</Arabic>
+<ASClass>N</ASClass>
+<ARClass>N</ARClass>
+<ASSubclass></ASSubclass>
+<ARSubclass></ARSubclass>
+<ASDomain></ASDomain>
+<ARDomain></ARDomain>
+<Category></Category>
+<RootAS></RootAS>
+<RootAR></RootAR>
+<Language>hin</Language>
+<Recipient>afb</Recipient>
+<Locale></Locale>
+<Gloss>lice, bed bugs</Gloss>
+</Entry>
+<Entry>
+<ID>H00177</ID>
+<Asian>सीधा</Asian>
+<ASIPA>/siːd̪ʱa/</ASIPA>
+<ARIPA>/siːdɑ/</ARIPA>
+<Arabic>سِيدا</Arabic>
+<ASClass>A</ASClass>
+<ARClass>A</ARClass>
+<ASSubclass></ASSubclass>
+<ARSubclass></ARSubclass>
+<ASDomain></ASDomain>
+<ARDomain></ARDomain>
+<Category></Category>
+<RootAS></RootAS>
+<RootAR></RootAR>
+<Language>hin</Language>
+<Recipient>afb</Recipient>
+<Locale></Locale>
+<Gloss>straightforward</Gloss>
+</Entry>
+<Entry>
+<ID>H00178</ID>
+<Asian>भारत</Asian>
+<ASIPA>/bʱarət̪/</ASIPA>
+<ARIPA>/bəhɑːrɑːt/</ARIPA>
+<Arabic>بَهَارَات</Arabic>
+<ASClass>N</ASClass>
+<ARClass>N</ARClass>
+<ASSubclass>DMST</ASSubclass>
+<ARSubclass>DMST</ARSubclass>
+<ASDomain></ASDomain>
+<ARDomain></ARDomain>
+<Category></Category>
+<RootAS></RootAS>
+<RootAR></RootAR>
+<Language>hin</Language>
+<Recipient>afb</Recipient>
+<Locale></Locale>
+<Gloss>spices</Gloss>
+</Entry>
+<Entry>
+<ID>H00179</ID>
+<Asian>पैसा</Asian>
+<ASIPA>/pæːsa/</ASIPA>
+<ARIPA>/biːzaːt/</ARIPA>
+<Arabic>بيزات</Arabic>
+<ASClass>N</ASClass>
+<ARClass>N</ARClass>
+<ASSubclass>DMST</ASSubclass>
+<ARSubclass>DMST</ARSubclass>
+<ASDomain></ASDomain>
+<ARDomain></ARDomain>
+<Category></Category>
+<RootAS></RootAS>
+<RootAR></RootAR>
+<Language>hin</Language>
+<Recipient>afb</Recipient>
+<Locale></Locale>
+<Gloss>money</Gloss>
+</Entry>
+<Entry>
+<ID>H00180</ID>
+<Asian>तवा</Asian>
+<ASIPA>/t̪əʋa/</ASIPA>
+<ARIPA>/taːwa/</ARIPA>
+<Arabic>تاوة</Arabic>
+<ASClass>N</ASClass>
+<ARClass>N</ARClass>
+<ASSubclass>DMST</ASSubclass>
+<ARSubclass>DMST</ARSubclass>
+<ASDomain></ASDomain>
+<ARDomain></ARDomain>
+<Category></Category>
+<RootAS></RootAS>
+<RootAR></RootAR>
+<Language>hin</Language>
+<Recipient>afb</Recipient>
+<Locale></Locale>
+<Gloss>flat pan used for cooking bread</Gloss>
+</Entry>
+<Entry>
+<ID>H00181</ID>
+<Asian>सामान</Asian>
+<ASIPA>/saman/</ASIPA>
+<ARIPA>/saːmaːn/</ARIPA>
+<Arabic>سامان</Arabic>
+<ASClass>N</ASClass>
+<ARClass>N</ARClass>
+<ASSubclass>DMST</ASSubclass>
+<ARSubclass>DMST</ARSubclass>
+<ASDomain></ASDomain>
+<ARDomain></ARDomain>
+<Category></Category>
+<RootAS></RootAS>
+<RootAR></RootAR>
+<Language>hin</Language>
+<Recipient>afb</Recipient>
+<Locale></Locale>
+<Gloss>luggage, stuff, items</Gloss>
+</Entry>
+<Entry>
+<ID>H00182</ID>
+<Asian>बाल्टी</Asian>
+<ASIPA>/balʈiː/</ASIPA>
+<ARIPA>/bʔdi/</ARIPA>
+<Arabic>بالدي</Arabic>
+<ASClass>N</ASClass>
+<ARClass>N</ARClass>
+<ASSubclass>DMST</ASSubclass>
+<ARSubclass>DMST</ARSubclass>
+<ASDomain></ASDomain>
+<ARDomain></ARDomain>
+<Category></Category>
+<RootAS></RootAS>
+<RootAR></RootAR>
+<Language>hin</Language>
+<Recipient>afb</Recipient>
+<Locale></Locale>
+<Gloss>bucket</Gloss>
+</Entry>
+<Entry>
+<ID>H00183</ID>
+<Asian>शर्करा</Asian>
+<ASIPA>/ʃərkəra/</ASIPA>
+<ARIPA>/sukːːər/</ARIPA>
+<Arabic>سُكَّر</Arabic>
+<ASClass>N</ASClass>
+<ARClass>N</ARClass>
+<ASSubclass></ASSubclass>
+<ARSubclass></ARSubclass>
+<ASDomain></ASDomain>
+<ARDomain></ARDomain>
+<Category></Category>
+<RootAS></RootAS>
+<RootAR></RootAR>
+<Language>hin</Language>
+<Recipient>afb</Recipient>
+<Locale></Locale>
+<Gloss>Sugar</Gloss>
+</Entry>
+<Entry>
+<ID>H00184</ID>
+<Asian>नारङ्ग</Asian>
+<ASIPA>/narəŋg/</ASIPA>
+<ARIPA>/nɑːrənʒ/</ARIPA>
+<Arabic>نَارَنْج</Arabic>
+<ASClass>N</ASClass>
+<ARClass>N</ARClass>
+<ASSubclass></ASSubclass>
+<ARSubclass></ARSubclass>
+<ASDomain></ASDomain>
+<ARDomain></ARDomain>
+<Category></Category>
+<RootAS></RootAS>
+<RootAR></RootAR>
+<Language>hin</Language>
+<Recipient>afb</Recipient>
+<Locale></Locale>
+<Gloss>Bitter Orange</Gloss>
+</Entry>
+<Entry>
+<ID>H00185</ID>
+<Asian>कर्पूर</Asian>
+<ASIPA>/kərpuːr/</ASIPA>
+<ARIPA>/kɑːfuːr/</ARIPA>
+<Arabic>كَافُور</Arabic>
+<ASClass>N</ASClass>
+<ARClass>N</ARClass>
+<ASSubclass></ASSubclass>
+<ARSubclass></ARSubclass>
+<ASDomain></ASDomain>
+<ARDomain></ARDomain>
+<Category></Category>
+<RootAS></RootAS>
+<RootAR></RootAR>
+<Language>hin</Language>
+<Recipient>afb</Recipient>
+<Locale></Locale>
+<Gloss>Camphor</Gloss>
+</Entry>
+<Entry>
+<ID>H00186</ID>
+<Asian>चन्दन</Asian>
+<ASIPA>/t͡ʃənd̪ən/</ASIPA>
+<ARIPA>/sˤəndəl/</ARIPA>
+<Arabic>صَنْدَل</Arabic>
+<ASClass>N</ASClass>
+<ARClass>N</ARClass>
+<ASSubclass></ASSubclass>
+<ARSubclass></ARSubclass>
+<ASDomain></ASDomain>
+<ARDomain></ARDomain>
+<Category></Category>
+<RootAS></RootAS>
+<RootAR></RootAR>
+<Language>hin</Language>
+<Recipient>afb</Recipient>
+<Locale></Locale>
+<Gloss>Sandalwood</Gloss>
+</Entry>
+<Entry>
+<ID>H00187</ID>
+<Asian>पिप्पली</Asian>
+<ASIPA>/pipəliː/</ASIPA>
+<ARIPA>/fulful/</ARIPA>
+<Arabic>فُلْفُل</Arabic>
+<ASClass>N</ASClass>
+<ARClass>N</ARClass>
+<ASSubclass></ASSubclass>
+<ARSubclass></ARSubclass>
+<ASDomain></ASDomain>
+<ARDomain></ARDomain>
+<Category></Category>
+<RootAS></RootAS>
+<RootAR></RootAR>
+<Language>hin</Language>
+<Recipient>afb</Recipient>
+<Locale></Locale>
+<Gloss>long Pepper</Gloss>
+</Entry>
+<Entry>
+<ID>H00188</ID>
+<Asian>जीवा</Asian>
+<ASIPA>/d͡ʒiːʋa/</ASIPA>
+<ARIPA>/ʒəjb/</ARIPA>
+<Arabic>جَيْب</Arabic>
+<ASClass>N</ASClass>
+<ARClass>N</ARClass>
+<ASSubclass></ASSubclass>
+<ARSubclass></ARSubclass>
+<ASDomain></ASDomain>
+<ARDomain></ARDomain>
+<Category></Category>
+<RootAS></RootAS>
+<RootAR></RootAR>
+<Language>hin</Language>
+<Recipient>afb</Recipient>
+<Locale></Locale>
+<Gloss>chord, Sine string</Gloss>
 </Entry>
 </DBASNARA>
 </KDB>
