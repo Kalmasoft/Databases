@@ -1,0 +1,113 @@
+﻿# Kalmasoft Databases
+# Database of West African Words in Sudanese Arabic
+# References: www.kalmasoft.com/KLEX/dbwafsd.htm
+# Availability: https://github.com/Kalmasoft/Databases/blob/main/WAFSD/KDBWAFSDAR
+# Terminology: www.kalmasoft.com/adevtool.htm
+# Craeted: 2 Oct 2024 9:41 AM
+# Updated: 22 Feb 2024 9:42 AM
+# Encoding: UTF8
+# Delimiter: TAB
+# Total entries: 3,670+
+# Copyright ©1999-2023 Kalmasoft www.kalmasoft.com
+# Contact: info@kalmasoft.com
+# =========================================
+# Licensed under Creative Commons Attribution-ShareAlike 4.0 International license.
+# This is a work in progress, not completed, any citations for academic purposes should include the date when the file was downloaded.
+# =========================================
+# Attributes:
+#	ID: 5 digits identification number, [W#####]
+#	Sudanese: Sudanese Arabic entry
+#	SIPA: Reading for Sudanese Arabic (International Phonetic Alphabet)
+#	WAFE: Donor West-African parallel entry
+#	WIPA: Reading for West-African entry (International Phonetic Alphabet)
+#	Arabic: Arabic meaning
+#	English: English parallel word
+#	Class: Grammatical class
+#		A: Adjective
+#		C: Conjunction
+#		D: Adverb
+#		E: Exclamation
+#		N: Noun
+#		P: Preposition
+#		V: Verb
+#	Number: Grammatical number
+#		S: Singular
+#		P: Plural
+#	Language: Donor language
+#		ful: Fulfulde
+#		hau: Hausa
+#		wol: Wolof
+#	Region: Entry prevalent region in Sudan
+#		HW: High-West
+#		N: North
+#		HE: High-East
+#		W: West
+#		C: Center
+#		E: East
+#		LW: Low-West
+#		S: South
+#		LE: Low-East
+#	Example: Example in donor language
+#	Arabic Example: Example in Sudanese Arabic
+# =========================================
+ID	Sudanese	SIPA	WAFE	WIPA	Arabic	English	Class	Number	Language	Region	Example	Arabic example
+W0001	دَقَل	/dɑgɑl/	adakal	/ɑdɑkɑl/	جذع	trunk	N	S	ful	W		
+W0002	الغالي	/ɑlɣɑːli/	alkali	/ɑlkɑlɪ/	قاضي المسلمين	Muslim judge	N	S	ful	W		اسم شخصي
+W0003	القُوني	/ɑlgɔːni/	alkoni	/ɑlkɔnɪ/	حافظ القرآن		N	S	ful	W		اسم شخصي
+W0004	عَرْ	/ʕɑr/	araː	/ɑrɑː/	حمار	donkey	N	S	ful	C		
+W0005	كَبَلُّو	/kɑbɑl'luː/	cebalo	/tʃebɑlɔ/	صياد سمك	fisherman	N	S	wol	N		اسم شخصي
+W0006	أوتام	/ʔuːtɑm/	cuːtam	/tʃuːtɑm/	مديدة، عصيدة	porridge	N	S	ful	E		
+W0007	داجي	/dɑdʒi/	daj	/dɑdʒ/	يلاقي	encounter	V		wol	N		
+W0008	دُقار	/dugɑːr/	dëgar	/dɑgɑːr/	شيء صلب	be hard	N	S	wol	C		
+W0009	دَكْوة	/dɑkwə/	dege	/dɑg'ga/	عجينة الفول السوداني	peanut butter	V	S	wol	C		
+W0010	دَقَّر	/dɑgːɑr/	dëgër	/dɑgɑr/	يصير صلبًا	be strong	V		wol	C		
+W0011	داموت	/dɑmɔːt/	demut	/dɑmɔt/	لا شيء	nil	N	S	wol	N		عربي دامو (لا أتكلم العربية)
+W0012	دَلِّي	/dɑlːi/	dilːan	/dɪlːɑn/	يذهب	go	V		ful	N	min dillan Karimi	مِندَلِّي كريمي (ذاهبون إلى كريمة)
+W0013	جَرَبَنْدِي	/dʒɑrɑbɑndi/	garbunde	/gɑrbundɛ	متسول	request	N	S	ful	C		
+W0014	أبْقَوِّي	/ʔbgɑw'wi/	go'o	/go'o/	أحادي	one	N	S	ful	W		فول أبقوي (بقوليات)
+W0015	قَنْقَر	/gɑngɑr/	goːnga	/gɔːngɑ/	حقيقة	truth	N	S	ful	W		
+W0016	قَرْقَرة	/gɑrgɑrə/	gurgura	/gurgurɑ/	حفر الشيء	bite	V		hau	C		
+W0017	هَبُّو	/hɑbːu/	haːɓude	/hɑːɓudɛ/	يستعجل	hurry	V		ful	C		
+W0018	حَنْدَكُو	/ħɑndɑkɔ/	hunːduko	/hunːdukɔ/	فم	mouth	N	S	ful	C		
+W0019	حَنْدَك	/ħɑndɑk/	hunːduko	/hunːdukɔ/	يغري	tease	V		ful	C		
+W0020	إيال	/iːjɑl/	Iyal	/ijɑl/	عظم، بذور	bone	N	S	ful	W		عِيال بطيخ
+W0021	إيّا	/iːjɑ/	Iyːa	/iːjɑ/	أمي، والدتي	mom	N	S	ful	W		
+W0022	جَانْقَى	/dʒɑnge/	jaːnge	/dʒɑnge/	أيدي	workers	N	P	ful	C		
+W0023	جَنْقُو	/dʒɑngu/	junːgo	/dʒungɔ/	يد	worker	N	S	ful	C		
+W0024	جُودِي	/dʒuːdi/	juːdi	/dʒuːdɪ/	يجلس	sitting	V		ful	N		
+W0025	جُودِيّة	/dʒuːdiːjə/	juːdi	/dʒuːdɪ/	مجلس صلح	domestic council	N	N	ful	N		
+W0026	جَلابة	/dʒɑlːɑbə/	juːlbe	/dʒuːlbɛ/	المسلمون	Muslim believers	N	P	ful	C		الجلّابة
+W0027	كَنْجال	/kɑndʒɑl/	khanjar	/χɑndʒɑr/	عملة برونزية	coin	N	S	wol	C		كنجالات
+W0028	خَنْجر	/χɑndʒr/	khanjar	/χɑndʒɑr/	البرونز	bronze 	N	S	wol	N		
+W0029	كُرْعَين	/kurʕɑijn/	korːe	/kɔrːe/	ساقين	shin	N	S	ful	C		من فوق راسي لكرعي
+W0030	لَخّ	/lɑχ/	laːx	/lɑχ/	عجينة	porridge	N		wol	C		
+W0031	مادِبُّو	/mɑdib'bu/	moːdibːo	/mɔːdɪb'bɔ/	معلم القرآن	Koranic teacher	N	S	ful	W		المؤدب (اسم شخصي)
+W0032	مَرْكوب	/mɑrkuːb/	mukːuwo	/mukːuwɔ/	حذاء	shoe	N	S	ful	C		
+W0033	نَوْري	/nɔːri/	nore	/nɔre/	كف اليد، النخيل	palm	N	S	ful	N		اسم مكان
+W0034	يجَخْنِن	/jdʒɑχnin/	nyukːunu	/ŋuk'kunu/	يخفي	hide	V	S	ful	N		
+W0035	جَخْنون	/dʒɑχnuːn/	nyukːunu	/ŋuk'kunu/	مخبأ	hide	N	S	ful	N		
+W0036	جَكْنُون	/dʒɑknuːn/	nyukːunu	/ŋuk'kunu/	محفوظ	saved	N	S	ful	W		اسم شخصي (محفوظ، خزين)
+W0037	دَكِّن	/dɑk'kin/	nyukːunu	/ŋuk'kunu/	أخفى	hided	V		ful	W		
+W0038	دَكِين	/dɑkiːn/	nyukːunu	/ŋuk'kunu/	محفوظ	saved	V		ful	W		اسم شخصي (محفوظ، خزين)
+W0039	نْجَنْق	/ŋɑnŋ/	ŋaːñ	/ŋɑːŋ/	يقضم	bite	V		wol	W		
+W0040	نْجَنْجا	/ŋɑnŋɑ/	ŋaːŋ	/ŋɑːŋ/	يأكل	eat	V		wol	W		
+W0041	نْجَنْج	/ŋɑnŋ/	ŋaːŋ	/ŋɑːŋ/	يفتح فمه	open mouth	V		wol	W		
+W0042	سَلْبَطة	/sɑlbɑtˤə/	selbude	/sɑlbudɛ/	مراوغة	watery	N	S	ful	C		
+W0043	جَلْبَطة	/dʒɑlbɑtˤə/	selbude	/sɑlbudɛ/	تلطيخ	smear	N	S	ful	C		
+W0044	سَلْبَط	/sɑlbɑtˤ/	selbude	/sɑlbudɛ/	راوغ	be watery	V		ful	C		
+W0045	جَلْبَط	/dʒɑlbɑtˤ/	selbude	/sɑlbudɛ/	لطخ	smeared	V		ful	C		
+W0046	شِينِي	/ʃiːni/	siːni	/ʃiːni/	أزرق	Indigo	N	S	ful	C		قلم الشيني
+W0047	تاج	/tɑːdʒ/	taːj	/tɑːdʒ/	موضع	place	N	S	wol	N		تاج العز (اسم شخصي)
+W0048	تَبَلْدي	/tɑbɑldi/	tabalde	/tɑbɑldɛ/	طبل	drum	N	P	ful	C		
+W0049	تج	/tɑdʒ/	tach	/tɑtʃh/	يفرد، يسطح	flatten	V		wol	W		
+W0050	تَبِيدي	/tɑbiːdi/	tapːude	/tɑp'pudɛ/	يطرق	hammer	V		ful	N		اسم شخصي (الحداد)
+W0051	تاتاي	/tɑtɑːj/	tati	/tɑtɪ/	الثالث	third	N	S	ful	N		اسم شخصي
+W0052	طَقّ	/tˤɑg/	tek	/tɑg/	خاط	sewed	V		wol	N		بالطق انهرن (تهرن من الترقيع)
+W0053	طَق	/tˤɑg/	tek	/tɑg/	تمامًا	exactly	D		wol	N		جانا الساعة أربعة طق
+W0054	تَنْدَه	/tɑndɑh/	tiynde	/tɪjndi/	الجبهة	forehead	N	S	ful	W		
+W0055	تُر	/tur/	turu	/tur/	يدفع، يندفع	push	V		ful	W		
+W0056	واسُودى	/wɑːsuːdə/	wasude	/wɑsudɛ/	يحفر	dig	V		ful	N		
+W0057	واسُوق	/wɑːsuːg/	wasude	/wɑsudɛ/	حفر	dig	N	S	ful	N		
+W0058	واي	/wɑːj/	way	/wɑj/			E		wol	C		
+W0059	جُقْدِي	/dʒugdi/	yuwude	/juwudɛ/	خنجر	dagger	N	S	ful	N		
+W0060	جَقِّد	/dʒɑgːɑd/	yuwude	/juwudɛ/	طعن	stab	V		ful	N		

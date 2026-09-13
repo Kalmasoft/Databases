@@ -1,16 +1,16 @@
 ﻿# Kalmasoft Databases
 # Database of Afghani Names (KDBNAFN)
 # References: www.kalmasoft.com/KLEX/dbetym.htm# Afghanistan
-# Date: 1/11/2012
+# Created: 1 Nov 2012
+# Updated: 13/06/2026
 # Encoding: UTF8
 # Delimiter: TAB
 # Total given names: 4,000+ records
 # Countries covered: Afghanistan
-# Copyright ©1999-2012 Kalmasoft www.kalmasoft.com
+# Copyright ©1999-2025 Kalmasoft www.kalmasoft.com
 # Contact: info@kalmasoft.com
-# ================================================
+# =========================================
 # Fields:
-# 
 #	ID: 5 digits variant identification number [AF# # # # # ]
 #	Entry: Afghani name in either Pashto or Dari.
 #	Roman: romanized version of the Afghani name.
@@ -19,10 +19,9 @@
 #	Dialect: P: Pashto; D: Dari.
 #	Type: G: given name; S: Surname.
 #	Gender: name gender; M: male, F: female, U: unisex.
-# ================================================
+# =========================================
 # Notes:
-# (1) Data file has the same header as the one shown below
-# (2) Romanized version (in the "Roman" field) of Afghani name may have multiple variants, variants are not included.
+# (1) Romanized version (in the "Roman" field) of Afghani name may have multiple variants, variants are not included.
 
 ID	Entry	Roman	IPA	Arabic	Dialect	Type	Gender
 AF00001	ځيگر	Dzegar	/dʒegar/	زيغر	P	G	M

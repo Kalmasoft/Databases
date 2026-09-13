@@ -2,131 +2,129 @@
 # Database of Arabic Surnames
 # References: www.kalmasoft.com/KLEX/dbsurnm.htm, www.kalmasoft.com/KLEX/dbvarom.htm, www.kalmasoft.com/KLEX/SAMPLES/KDBGIVE.txt
 # Created: 9/03/2015
-# Updated: 20/07/2019
+# Updated: 13/06/2026
 # Encoding: UTF8
 # Delimiter: TAB
 # Total surnames: 250,000+ records
 # Countries covered: 19
-# Copyright ©1999-2015 Kalmasoft www.kalmasoft.com
+# Copyright ©1999-2025 Kalmasoft www.kalmasoft.com
 # Contact: info@kalmasoft.com
-# ================================================
+# =========================================
 # Attributes:
 #	ID:6 digits variant identification number
 #		[ASN###### -#]: variant
 #	Entry: unvocalized surname
 #	Vocalized: vocalized name (MSA)
-#	Country: Locale where name frequency considered high, two-letter country code.
+#	Country: Locale where name frequency considered high, ISO3166 Alpha3 three-letter country code.
 #		Please refer to codes page: www.kalmasoft.com/code.htm
-#		DZ:Algeria, BH:Bahrain, EG:Egypt, IQ:Iraq, JO:Jordan, 
-#		SA:KSA, KW:Kuwait, LB:Lebanon, LY:Libya, MR:Mauritania, 
-#		MA:Morocco, OM:Oman, PS:Palestine, QA:Qatar, SD:Sudan, 
-#		SY:Syria, TN:Tunisia, AE:UAE, YE:Yemen
-#	Nisba: Type of Nisba; G:Geographical Nisba, K: Klan (subtribal Nisba),
-#	O: Occupational Nisba, P: Personal Nisba, , T:Tribal Nisba,
-# ================================================
+#		DZA: Algeria, BHR: Bahrain, EGY: Egypt, IRQ: Iraq, JOR: Jordan, 
+#		SAU: KSA, KWT: Kuwait, LBN: Lebanon, LBY: Libya, MRT: Mauritania, 
+#		MAR: Morocco, OMN: Oman, PSE: Palestine, QAT: Qatar, SDN: Sudan, 
+#		SYR: Syria, TUN: Tunisia, ARE: UAE, YEM: Yemen
+#	Type: A: aptonym "occupational", C: endoethnonym "clan, tribal", D: demonym "geogrpahic", L: last name, 
+#		M: middle name, N: nickname, P: patronym "Arabic Nasab", T: teknonym "Arabic Kunya" 
+# =========================================
 # Notes:
-# (1) Data file has no header or symbols of any kind, only pure data formatted as shown above
-# (2) This is a refined list of most "ordinary" Arab surnames which is subset of some 300,000 surnames.
-# (3) Surnames are vocalized according to MSA and not to their local pronunciation.
-# ================================================
-ID	Entry	Vocalized	Country	Nisba
-ASN000001	ارويشيدة	ارُوَيْشِيدة	MR	P
-ASN000002	الإزيرقابي	الإزَيْرِقابي	SD	P
-ASN000003	الأبنودي	الأبَنُودي	EG	G
-ASN000004	الأسيوطي	الأسْيُوطي	EG	G
-ASN000005	الأشقري	الأشْقَري	IQ	P
-ASN000006	الألوسي	الألُوسي	AE	P
-ASN000007	الإمبابي	الإمْبابي	EG	G
-ASN000008	الباشري	الباشَري	SD	P
-ASN000009	الباقري	الباقِري	IQ	P
-ASN000010	البحارنة	البَحارِنة	BA	P
-ASN000011	البحرات	البَحْرات	JO	K
-ASN000012	البحيثي	البُحَيْثي	SA	K
-ASN000013	البدادوة	البَدادْوة	JO	K
-ASN000014	البدار	البَدّار	EG	P
-ASN000015	البدارنة	البَدارِنة	JO	K
-ASN000016	البراجنة	البَراجِنة	PS	K
-ASN000017	البرزاني	البَرَزاني	IQ	G
-ASN000018	البريك	البُرَيْك	AE	P
-ASN000019	البريكات	البُرَيْكات	JO	K
-ASN000020	البسطاويسي	البَسْطاوِيسي	EG	P
-ASN000021	البشارات	البِشارات	JO	K
-ASN000022	البشايرة	البَشايْرة	JO	K
-ASN000023	البلوشي	البَلُوشي	AE	T
-ASN000024	البيارقي	البَيارِقي	SA	T
-ASN000025	البيشي	البِيشي	SA	G
-ASN000026	الترهوني	التَّرْهُوني	LY	T
-ASN000027	التكريتي	التَّكْرِيتي	IQ	G
-ASN000028	التميمي	التَّمِيمي	SA	T
-ASN000029	التويمي	التويمي	SA	T
-ASN000030	التيماوي	التُّوَيْمي	SA	G
-ASN000031	الثبيثي	الثَبيتي	SA	T
-ASN000032	الثقيفي	الثَقيفي	SA	G
-ASN000033	الحتيرشي	الحُتَيْرِشي	SA	P
-ASN000034	الحربي	الحَرْبي	KW	T
-ASN000035	الحريفي	الحُرَيفي	SA	T
-ASN000036	الخثعمي	الخَثْعَمي	SA	T
-ASN000037	الخريسات	الخُرَيْسات	JO	K
-ASN000038	الخصاونة	الخَصاوِنة	JO	K
-ASN000039	الخلايلة	الخَلايِلة	JO	K
-ASN000040	الدخيل	الدِّخَيِّل	SA	P
-ASN000041	الدهشوري	الدَّهْشُوري	EG	G
-ASN000042	الدوسري	الدَّوْسَري	SA	G
-ASN000043	الذيابات	الذَيابات	JO	K
-ASN000044	الراجحي	الرَّاجِحي	SA	P
-ASN000045	الرويلي	الرِّوَيْلي	SA	T
-ASN000046	الزدجالي	الزّدْجالي	OM	K
-ASN000047	الزناتي	الزَّناتي	LY	T
-ASN000048	السراج	السَّرَّاج	SD	P
-ASN000049	السليمان	السُلَيْمان	SA	P
-ASN000050	السنوسي	السَّنُوسي	LY	P
-ASN000051	السهلي	السَّهْلي	KW	T
-ASN000052	الشريم	الشُّرَيْم	SA	P
-ASN000053	الشمراني	الشَّمْراني	SA	T
-ASN000054	الشمري	الشَّمَري	SA	T
-ASN000055	الظفيري	الظُفَيْري	KW	T
-ASN000056	العازمي	العازِمي	KW	T
-ASN000057	العتبياني	العَتَباني	SD	P
-ASN000058	العتيبي	العُتَيْبي	KW	T
-ASN000059	العجمي	العَجَمي	KW	T
-ASN000060	العريفي	العُرَيْفي	SA	P
-ASN000061	العطراوي	العَطْراوي	DZ	P
-ASN000062	العظيبة	العُظَيْبة	YE	P
-ASN000063	العقادي	العَقّادي	YE	P
-ASN000064	العميرية	العُمَيْريّة	OM	K
-ASN000065	العنزي	العَنْزي	SA	T
-ASN000066	الغامدي	الغامِدي	SA	T
-ASN000067	الغنيمي	الغُنيْمي	SA	T
-ASN000068	الفيفي	الفِيفي	SA	G
-ASN000069	القحطاني	القَحْطاني	SA	T
-ASN000070	القذافي	القَذّافي	LY	T
-ASN000071	المحضري	المَحْضَري	SA	P
-ASN000072	المرزوقي	المَرْزُوقي	LY	T
-ASN000073	المطيري	المَطيري	SA	T
-ASN000074	المفتي	المُفْتي	PS	P
-ASN000075	المقراحي	المَقْراحي	LY	T
-ASN000076	النفعي	النَّفْعي	JO	K
-ASN000077	الهاجري	الهاجِري	KW	T
-ASN000078	الهواري	الهَواري	LY	T
-ASN000079	الهيتي	الهِيتي	IQ	G
-ASN000080	الورفلي	الوَرْفَلي	LY	T
-ASN000081	اليوزباشي	اليُوزْباشي	SY	P
-ASN000082	إستانبولي	إسْتانبُولي	JO	G
-ASN000083	إستيتية	إسْتَيْتِيّة	JO	P
-ASN000084	أبو ضفيرة	أبُو ضَفيرة	SD	P
-ASN000085	أبو كساوي	أبُو كَساوي	SD	P
-ASN000086	أرنؤوط	أرْنَؤوط	SY	P
-ASN000087	آل ثاني	آل ثاني	QA	P
-ASN000088	آل سعود	آل سَعُود	SA	P
-ASN000089	بدري	بَدْري	SD	P
-ASN000090	بن لحمر	بِنْ لَحْمَر	MA	P
-ASN000091	بن لحنين	بِنْ لَحْنين	MA	P
-ASN000092	بن لرباح	بِنْ لَرْباح	MA	P
-ASN000093	بن لعزوز	بِنْ لَعْزُوز	MA	P
-ASN000094	بن لغماري	بِنْ لَغْماري	MA	P
-ASN000095	بن لكبير	بِنْ لَكْبير	MA	P
-ASN000096	هوساوي	هَوْساوي	SA	T
-ASN000097	الطرابلسي	الطَرابُلْسي	TN	G
-ASN000098	الزيات	الزَّيّات	EG	O
-ASN000099	الطحان	الطَّحّان	EG	O
-================================================
+# (1) This is a refined list of most "ordinary" Arab surnames which is subset of some 300,000 surnames.
+# (2) Surnames are vocalized according to MSA and not to their local pronunciation.
+# =========================================
+ID	Entry	Vocalized	Country	Type
+ASN000001	ارويشيدة	ارُوَيْشِيدة	MRT	L
+ASN000002	الإزيرقابي	الإزَيْرِقابي	SDN	C
+ASN000003	الأبنودي	الأبَنُودي	EGY	D
+ASN000004	الأسيوطي	الأسْيُوطي	EGY	D
+ASN000005	الأشقري	الأشْقَري	IRQ	L
+ASN000006	الألوسي	الألُوسي	ARE	L
+ASN000007	الإمبابي	الإمْبابي	EGY	D
+ASN000008	الباشري	الباشَري	SDN	L
+ASN000009	الباقري	الباقِري	IRQ	L
+ASN000010	البحارنة	البَحارِنة	BHR	C
+ASN000011	البحرات	البَحْرات	JOR	C
+ASN000012	البحيثي	البُحَيْثي	SAU	C
+ASN000013	البدادوة	البَدادْوة	JOR	C
+ASN000014	البدار	البَدّار	EGY	L
+ASN000015	البدارنة	البَدارِنة	JOR	C
+ASN000016	البراجنة	البَراجِنة	PSE	C
+ASN000017	البرزاني	البَرَزاني	IRQ	D
+ASN000018	البريك	البُرَيْك	ARE	L
+ASN000019	البريكات	البُرَيْكات	JOR	C
+ASN000020	البسطاويسي	البَسْطاوِيسي	EGY	D
+ASN000021	البشارات	البِشارات	JOR	C
+ASN000022	البشايرة	البَشايْرة	JOR	C
+ASN000023	البلوشي	البَلُوشي	ARE	C
+ASN000024	البيارقي	البَيارِقي	SAU	C
+ASN000025	البيشي	البِيشي	SAU	D
+ASN000026	الترهوني	التَّرْهُوني	LBY	C
+ASN000027	التكريتي	التَّكْرِيتي	IRQ	D
+ASN000028	التميمي	التَّمِيمي	SAU	C
+ASN000029	التويمي	التويمي	SAU	C
+ASN000030	التيماوي	التُّوَيْمي	SAU	D
+ASN000031	الثبيثي	الثَبيتي	SAU	C
+ASN000032	الثقيفي	الثَقيفي	SAU	D
+ASN000033	الحتيرشي	الحُتَيْرِشي	SAU	L
+ASN000034	الحربي	الحَرْبي	KWT	C
+ASN000035	الحريفي	الحُرَيفي	SAU	C
+ASN000036	الخثعمي	الخَثْعَمي	SAU	C
+ASN000037	الخريسات	الخُرَيْسات	JOR	C
+ASN000038	الخصاونة	الخَصاوِنة	JOR	C
+ASN000039	الخلايلة	الخَلايِلة	JOR	C
+ASN000040	الدخيل	الدِّخَيِّل	SAU	L
+ASN000041	الدهشوري	الدَّهْشُوري	EGY	D
+ASN000042	الدوسري	الدَّوْسَري	SAU	D
+ASN000043	الذيابات	الذَيابات	JOR	C
+ASN000044	الراجحي	الرَّاجِحي	SAU	L
+ASN000045	الرويلي	الرِّوَيْلي	SAU	C
+ASN000046	الزدجالي	الزّدْجالي	OMN	C
+ASN000047	الزناتي	الزَّناتي	LBY	C
+ASN000048	السراج	السَّرَّاج	SDN	A
+ASN000049	السليمان	السُلَيْمان	SAU	L
+ASN000050	السنوسي	السَّنُوسي	LBY	L
+ASN000051	السهلي	السَّهْلي	KWT	C
+ASN000052	الشريم	الشُّرَيْم	SAU	L
+ASN000053	الشمراني	الشَّمْراني	SAU	C
+ASN000054	الشمري	الشَّمَري	SAU	C
+ASN000055	الظفيري	الظُفَيْري	KWT	C
+ASN000056	العازمي	العازِمي	KWT	C
+ASN000057	العتباني	العَتَباني	SDN	A
+ASN000058	العتيبي	العُتَيْبي	KWT	C
+ASN000059	العجمي	العَجَمي	KWT	C
+ASN000060	العريفي	العُرَيْفي	SAU	L
+ASN000061	العطراوي	العَطْراوي	DZA	L
+ASN000062	العظيبة	العُظَيْبة	YEM	L
+ASN000063	العقادي	العَقّادي	YEM	L
+ASN000064	العميرية	العُمَيْريّة	OMN	C
+ASN000065	العنزي	العَنْزي	SAU	C
+ASN000066	الغامدي	الغامِدي	SAU	C
+ASN000067	الغنيمي	الغُنيْمي	SAU	C
+ASN000068	الفيفي	الفِيفي	SAU	D
+ASN000069	القحطاني	القَحْطاني	SAU	C
+ASN000070	القذافي	القَذّافي	LBY	C
+ASN000071	المحضري	المَحْضَري	SAU	L
+ASN000072	المرزوقي	المَرْزُوقي	LBY	C
+ASN000073	المطيري	المَطيري	SAU	C
+ASN000074	المفتي	المُفْتي	PSE	A
+ASN000075	المقراحي	المَقْراحي	LBY	C
+ASN000076	النفعي	النَّفْعي	JOR	C
+ASN000077	الهاجري	الهاجِري	KWT	C
+ASN000078	الهواري	الهَواري	LBY	C
+ASN000079	الهيتي	الهِيتي	IRQ	D
+ASN000080	الورفلي	الوَرْفَلي	LBY	C
+ASN000081	اليوزباشي	اليُوزْباشي	SYR	L
+ASN000082	إستانبولي	إسْتانبُولي	JOR	D
+ASN000083	إستيتية	إسْتَيْتِيّة	JOR	L
+ASN000084	أبو ضفيرة	أبُو ضَفيرة	SDN	T
+ASN000085	أبو كساوي	أبُو كَساوي	SDN	T
+ASN000086	أرنؤوط	أرْنَؤوط	SYR	L
+ASN000087	آل ثاني	آل ثاني	QAT	C
+ASN000088	آل سعود	آل سَعُود	SAU	C
+ASN000089	بدري	بَدْري	SDN	L
+ASN000090	بن لحمر	بِنْ لَحْمَر	MAR	P
+ASN000091	بن لحنين	بِنْ لَحْنين	MAR	P
+ASN000092	بن لرباح	بِنْ لَرْباح	MAR	P
+ASN000093	بن لعزوز	بِنْ لَعْزُوز	MAR	P
+ASN000094	بن لغماري	بِنْ لَغْماري	MAR	P
+ASN000095	بن لكبير	بِنْ لَكْبير	MAR	P
+ASN000096	هوساوي	هَوْساوي	SAU	C
+ASN000097	الطرابلسي	الطَرابُلْسي	TUN	D
+ASN000098	الزيات	الزَّيّات	EGY	A
+ASN000099	الطحان	الطَّحّان	EGY	A

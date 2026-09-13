@@ -2,27 +2,26 @@
 # Database of Arabic Given Names
 # References: www.kalmasoft.com/KLEX/dbgivnm.htm, www.kalmasoft.com/KLEX/dbsurnm.htm, www.kalmasoft.com/KLEX/dbvarom.htm,  www.kalmasoft.com/KLEX/SAMPLES/KDBGIVE.txt
 # Created: 30/08/2012
-# Updated: 8/01/2021
+# Updated: 13/06/2026
 # Encoding: UTF8
 # Delimiter: TAB
 # Total given names: 50,000+ records
 # Countries covered: 19
 # Copyright ©1999-2012 Kalmasoft www.kalmasoft.com
 # Contact: info@kalmasoft.com
-# ================================================
+# =========================================
 # Attributes:
 #	ID:6 digits variant identification number
 #		[AGN###### -#]: variant
 #	Entry: unvocalized given name
 #	Vocalized: vocalized name (MSA)
 #	Gender: name gender; M: male, F: female, U: unisex
-# ================================================
+# =========================================
 # Notes:
-# (1) Data file has no header or symbols of any kind, only pure data formatted as shown above
-# (2) This is a refined list of most "ordinary" Arab given names which is subset of some 60,000 given names,
+# (1) This is a refined list of most "ordinary" Arab given names which is subset of some 60,000 given names,
 # the rest include some Western names commonly used by Arabs (Christians and Muslims) as well as non-Arabic local names.
-# (3) Given names are vocalized according to MSA and not to their local pronunciation.
-# ================================================
+# (2) Given names are vocalized according to MSA and not to their local pronunciation.
+# =========================================
 ID	Entry	Vocalized	Gender
 AGN000001	إبتداء	إِبْتِداء	F
 AGN000002	إبتداع	إِبْتِداع	M
@@ -978,4 +977,4 @@ AGN006318	ياسين	ياسِين	M
 AGN006319	يعقوب	يَعْقُوب	M
 AGN006320	يوسف	يُوسِف	M
 AGN006321	يونس	يُونِس	M
-================================================
+=========================================
