@@ -2,7 +2,7 @@
 # Database of Arabic loanwords from Amharic and Syriac
 # References: www.kalmasoft.com/KLEX/dbamsyar.htm
 # Resources: www.kaikki.org, Classical Syriac machine-readable dictionary, 2021.
-# Related works: www.kalmasoft.com/KLEX/dbamara.htm, www.kalmasoft.com/KLEX/dbsyara.htm, www.kalmasoft.com/KLEX/dbamsyr.htm
+# Related works: www.kalmasoft.com/KLEX/dbamara.htm, www.kalmasoft.com/KLEX/dbsyrara.htm, www.kalmasoft.com/KLEX/dbamsyr.htm
 # Availability: https://github.com/Kalmasoft/Databases/blob/main/AMSYR
 # Terminology: www.kalmasoft.com/adevtool.htm
 # Created: 8 Dec 2021 11:30 AM

@@ -2,7 +2,7 @@
 # Database of Amharic and Syriac common words
 # References: www.kalmasoft.com/KLEX/dbamsyr.htm
 # Resources: Lexical Data Repository of the Ge'ez Frontier Foundation https://github.com/geezorg/data/tree/master/amharic; HornMorpho is part of the L3 Project http://www.cs.indiana.edu/~gasser/Research/projects.html; Carl W. Isenberg, Grammar of the Amharic Language, www.kaikki.org, Classical Syriac machine-readable dictionary, 2021.
-# Related works: www.kalmasoft.com/KLEX/dbamara.htm, www.kalmasoft.com/KLEX/dbsyara.htm, www.kalmasoft.com/KLEX/dbamsyar.htm
+# Related works: www.kalmasoft.com/KLEX/dbamara.htm, www.kalmasoft.com/KLEX/dbsyrara.htm, www.kalmasoft.com/KLEX/dbamsyar.htm
 # Availability: https://github.com/Kalmasoft/Databases/blob/main/AMSYR
 # Terminology: www.kalmasoft.com/adevtool.htm
 # Created: 2 Jan 2022 11:30 AM
