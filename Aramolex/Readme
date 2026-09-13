@@ -2,8 +2,8 @@
 # Database of Arabic Morphology
 # Reference: http://www.kalmasoft.com/KLEX/aramolex.htm
 # Specs: http://www.kalmasoft.com/pdfs/Aramolex_Specifications.pdf
-# Created: 8/4/2019
-# Updated: 2/2/2022
+# Created: 8 Apr 2019
+# Updated: 2 Feb 2022
 # Encoding: Windows 1256
 # Delimiter: TAB
 # Arabic variety: MSA
