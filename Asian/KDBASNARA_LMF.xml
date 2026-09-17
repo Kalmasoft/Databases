@@ -1,0 +1,4564 @@
+<?xml version="1.0" ?>
+<LexicalResource>
+  <GlobalInformation>
+    <feat att="title" val="Asian-Arabic Advanced Comparative Lexicon"/>
+    <feat att="languageCoding" val="ISO 639-3"/>
+  </GlobalInformation>
+  <Lexicon>
+    <feat att="language" val="multilingual-comparative"/>
+    <LexicalEntry id="E_F00001">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arz, apd"/>
+      <feat att="recipientLocaleCountry" val="EGY, SDN"/>
+      <Lemma>
+        <feat att="writtenForm" val="انبار"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00001_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="انبار"/>
+        <feat att="phoneticTranscription" val="/ʔanbar/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00001_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="عَنْبَر"/>
+        <feat att="phoneticTranscription" val="/ʕənbər/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="register" val="colloquial"/>
+      </WordForm>
+      <Sense id="Sense_F00001">
+        <feat att="gloss" val="warehouse"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00002">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="بنفشه"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00002_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="بنفشه"/>
+        <feat att="phoneticTranscription" val="/banafʃɒ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00002_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="بَنَفْسَج"/>
+        <feat att="phoneticTranscription" val="/bənəfsəd͡ʒ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00002">
+        <feat att="gloss" val="violet"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00003">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="بوستان"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00003_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="بوستان"/>
+        <feat att="phoneticTranscription" val="/bustɒːn/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00003_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="بُسْتان"/>
+        <feat att="phoneticTranscription" val="/bustaːn/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00003">
+        <feat att="gloss" val="garden"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00004">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="بیمارستان"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00004_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="بیمارستان"/>
+        <feat att="phoneticTranscription" val="/bimɒːristɒːn/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00004_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="بِيمَارِسْتَان"/>
+        <feat att="phoneticTranscription" val="/biːmɑːrɪstɑːn/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00004">
+        <feat att="gloss" val="hospital"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00005">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="پرگار"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00005_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="پرگار"/>
+        <feat att="phoneticTranscription" val="/pirgɒːr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00005_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="فِرْجار"/>
+        <feat att="phoneticTranscription" val="/fɪrd͡ʒaːr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00005">
+        <feat att="gloss" val="pair of compasses"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00006">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="apd"/>
+      <feat att="recipientLocaleCountry" val="SDN"/>
+      <Lemma>
+        <feat att="writtenForm" val="پرگار"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00006_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="پرگار"/>
+        <feat att="phoneticTranscription" val="/pirgɒːr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00006_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="بَرْجَل"/>
+        <feat att="phoneticTranscription" val="/bərd͡ʒəl/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00006">
+        <feat att="gloss" val="pair of compasses"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00007">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="پسته"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00007_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="پسته"/>
+        <feat att="phoneticTranscription" val="/pistɒ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00007_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="فُسْتَق"/>
+        <feat att="phoneticTranscription" val="/fustəq/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00007">
+        <feat att="gloss" val="pistachio"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00008">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="پیاده"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00008_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="پیاده"/>
+        <feat att="phoneticTranscription" val="/pijɒːdɒ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00008_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="بَيْدَق"/>
+        <feat att="phoneticTranscription" val="/bəjdəg/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00008">
+        <feat att="gloss" val="pawn"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00009">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="تابه"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00009_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="تابه"/>
+        <feat att="phoneticTranscription" val="/tʰɒːbɒ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00009_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="طَبَق"/>
+        <feat att="phoneticTranscription" val="/tˤəbəq/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00009">
+        <feat att="gloss" val="frying pan"/>
+        <feat att="semanticDomain" val="domestic"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00010">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="تاج"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00010_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="تاج"/>
+        <feat att="phoneticTranscription" val="/tɒːdʒ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00010_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="تاج"/>
+        <feat att="phoneticTranscription" val="/taːd͡ʒ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00010">
+        <feat att="gloss" val="crown"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00011">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="تبر"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00011_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="تبر"/>
+        <feat att="phoneticTranscription" val="/tʰabar/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00011_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="طَبَر"/>
+        <feat att="phoneticTranscription" val="/tˤəbər/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00011">
+        <feat att="gloss" val="axe"/>
+        <feat att="semanticDomain" val="domestic"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00012">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="توت"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00012_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="توت"/>
+        <feat att="phoneticTranscription" val="/tuːt/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00012_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="تُوت"/>
+        <feat att="phoneticTranscription" val="/tuːt/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00012">
+        <feat att="gloss" val="mulberry"/>
+        <feat att="semanticDomain" val="plant"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00013">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="جوراب"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00013_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="جوراب"/>
+        <feat att="phoneticTranscription" val="/dʒurɒːb/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00013_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="شُرَاب"/>
+        <feat att="phoneticTranscription" val="/ʃurɑːb/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00013">
+        <feat att="gloss" val="stocking"/>
+        <feat att="semanticDomain" val="domestic"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00014">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="جوراب"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00014_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="جوراب"/>
+        <feat att="phoneticTranscription" val="/dʒurɒːb/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00014_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="جُرَاب"/>
+        <feat att="phoneticTranscription" val="/d͡ʒurɑːb/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00014">
+        <feat att="gloss" val="stocking"/>
+        <feat att="semanticDomain" val="domestic"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00015">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="چادر"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00015_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="چادر"/>
+        <feat att="phoneticTranscription" val="/tʃʰɒːdar/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00015_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="شَوْدَر"/>
+        <feat att="phoneticTranscription" val="/ʃəwdər/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00015">
+        <feat att="gloss" val="veil"/>
+        <feat att="semanticDomain" val="domestic"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00016">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="چراغ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00016_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="چراغ"/>
+        <feat att="phoneticTranscription" val="/tʃʰirɒːg/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00016_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="سِرَاج"/>
+        <feat att="phoneticTranscription" val="/sɪrɑːd͡ʒ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00016">
+        <feat att="gloss" val="lamp"/>
+        <feat att="semanticDomain" val="domestic"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00017">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="چرخ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00017_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="چرخ"/>
+        <feat att="phoneticTranscription" val="/tʃʰirɒːχ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00017_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="شِيرَاز"/>
+        <feat att="phoneticTranscription" val="/ʃiːrɑːz/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00017">
+        <feat att="gloss" val="curdled whey"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00018">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="خرده"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00018_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="خرده"/>
+        <feat att="phoneticTranscription" val="/χurda/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00018_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="خُرْدَة"/>
+        <feat att="phoneticTranscription" val="/χurdaː/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00018">
+        <feat att="gloss" val="(small) change"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00019">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="خندق"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00019_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="خندق"/>
+        <feat att="phoneticTranscription" val="/χandaq/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00019_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="خَنْدَق"/>
+        <feat att="phoneticTranscription" val="/χəndəq/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00019">
+        <feat att="gloss" val="ditch, moat"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00020">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="دستور"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00020_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="دستور"/>
+        <feat att="phoneticTranscription" val="/dustuːr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00020_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="دُسْتُور"/>
+        <feat att="phoneticTranscription" val="/dustuːr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00020">
+        <feat att="gloss" val="rule, minister"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00021">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="دهلیز"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00021_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="دهلیز"/>
+        <feat att="phoneticTranscription" val="/dihliːz/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00021_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="دِهْلِيز"/>
+        <feat att="phoneticTranscription" val="/dɪhliːz/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00021">
+        <feat att="gloss" val="vestibule"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00022">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="راسته"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00022_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="راسته"/>
+        <feat att="phoneticTranscription" val="/rastɒ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00022_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="رُزْدَق"/>
+        <feat att="phoneticTranscription" val="/ruzdəg/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00022">
+        <feat att="gloss" val="row"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00023">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="رخ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00023_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="رخ"/>
+        <feat att="phoneticTranscription" val="/ruχ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00023_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="رُخ"/>
+        <feat att="phoneticTranscription" val="/ruχ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00023">
+        <feat att="gloss" val="rook"/>
+        <feat att="semanticDomain" val="animate"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00024">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="زاج"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00024_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="زاج"/>
+        <feat att="phoneticTranscription" val="/zɒːdʒ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00024_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="زَاج"/>
+        <feat att="phoneticTranscription" val="/zɑːd͡ʒ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00024">
+        <feat att="gloss" val="alum"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00025">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="سرگین"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00025_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="سرگین"/>
+        <feat att="phoneticTranscription" val="/sirgiːn/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00025_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="سِرْجِين"/>
+        <feat att="phoneticTranscription" val="/sɪrd͡ʒiːn/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00025">
+        <feat att="gloss" val="dung"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00026">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="سریش"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00026_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="سریش"/>
+        <feat att="phoneticTranscription" val="/sireʃ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00026_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="شِرَاس"/>
+        <feat att="phoneticTranscription" val="/ʃɪrɑːs/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00026">
+        <feat att="gloss" val="glue"/>
+        <feat att="semanticDomain" val="domestic"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00027">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="شطرنج"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00027_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="شطرنج"/>
+        <feat att="phoneticTranscription" val="/ʃatʰrandʒ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00027_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="شَطْرَنْج"/>
+        <feat att="phoneticTranscription" val="/ʃətˤrənd͡ʒ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00027">
+        <feat att="gloss" val="chess"/>
+        <feat att="semanticDomain" val="domestic"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00028">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="شلوار"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00028_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="شلوار"/>
+        <feat att="phoneticTranscription" val="/ʃilwɒːr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00028_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="سِرْوال"/>
+        <feat att="phoneticTranscription" val="/sɪrwaːl/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00028">
+        <feat att="gloss" val="trousers"/>
+        <feat att="semanticDomain" val="domestic"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00029">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="afb, ayp"/>
+      <feat att="recipientLocaleCountry" val="BHR, IRQ"/>
+      <Lemma>
+        <feat att="writtenForm" val="شیره"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00029_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="شیره"/>
+        <feat att="phoneticTranscription" val="/ʃiːrɒ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00029_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="شِيره"/>
+        <feat att="phoneticTranscription" val="/ʃiːrɑ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="register" val="colloquial"/>
+      </WordForm>
+      <Sense id="Sense_F00029">
+        <feat att="gloss" val="juice, syrup"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00030">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="طاس"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00030_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="طاس"/>
+        <feat att="phoneticTranscription" val="/tʰas/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00030_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="طَس"/>
+        <feat att="phoneticTranscription" val="/tˤəs/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00030">
+        <feat att="gloss" val="bowl"/>
+        <feat att="semanticDomain" val="domestic"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00031">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="apd"/>
+      <feat att="recipientLocaleCountry" val="SDN"/>
+      <Lemma>
+        <feat att="writtenForm" val="طاس"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00031_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="طاس"/>
+        <feat att="phoneticTranscription" val="/tʰas/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00031_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="طَشْت"/>
+        <feat att="phoneticTranscription" val="/tˤəʃt/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00031">
+        <feat att="gloss" val="bowl"/>
+        <feat att="semanticDomain" val="domestic"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00032">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="فردوس"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00032_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="فردوس"/>
+        <feat att="phoneticTranscription" val="/firdaws/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00032_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="فِرْدَوْس"/>
+        <feat att="phoneticTranscription" val="/fɪrdəws/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00032">
+        <feat att="gloss" val="Paradise"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00033">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="فرسنگ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00033_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="فرسنگ"/>
+        <feat att="phoneticTranscription" val="/farsang/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00033_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="فَرْسَخ"/>
+        <feat att="phoneticTranscription" val="/fərsəχ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00033">
+        <feat att="gloss" val="farsang, league"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00034">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="فرمان"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00034_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="فرمان"/>
+        <feat att="phoneticTranscription" val="/farmɒːn/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00034_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="فَرْمَان"/>
+        <feat att="phoneticTranscription" val="/fərmɑːn/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00034">
+        <feat att="gloss" val="order, decree"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00035">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="فهرست"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00035_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="فهرست"/>
+        <feat att="phoneticTranscription" val="/fihrist/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00035_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="فِهْرِس"/>
+        <feat att="phoneticTranscription" val="/fɪhrɪs/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00035">
+        <feat att="gloss" val="summary, register"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00036">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="فیروزه"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00036_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="فیروزه"/>
+        <feat att="phoneticTranscription" val="/firuːzɒ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00036_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="فِيرُوزَج"/>
+        <feat att="phoneticTranscription" val="/fiːruːzəd͡ʒ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00036">
+        <feat att="gloss" val="turquoise"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00037">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="کاروان"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00037_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="کاروان"/>
+        <feat att="phoneticTranscription" val="/qarwɒːn/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00037_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="قَيْرَوَان"/>
+        <feat att="phoneticTranscription" val="/gəjrəwɑːn/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00037">
+        <feat att="gloss" val="caravan"/>
+        <feat att="semanticDomain" val="domestic"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00038">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="کبک"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00038_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="کبک"/>
+        <feat att="phoneticTranscription" val="/qbiː/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00038_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="قبِي"/>
+        <feat att="phoneticTranscription" val="/gbi/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00038">
+        <feat att="gloss" val="partridge"/>
+        <feat att="semanticDomain" val="animate"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00039">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="کفش"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00039_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="کفش"/>
+        <feat att="phoneticTranscription" val="/kafʃ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00039_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="قَفْش"/>
+        <feat att="phoneticTranscription" val="/gəfʃ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00039">
+        <feat att="gloss" val="shoe"/>
+        <feat att="semanticDomain" val="domestic"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00040">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="کوشک"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00040_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="کوشک"/>
+        <feat att="phoneticTranscription" val="/kawsakʰ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00040_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="جَوْسَق"/>
+        <feat att="phoneticTranscription" val="/d͡ʒəwsəg/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00040">
+        <feat att="gloss" val="palace"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00041">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="کوشک"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00041_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="کوشک"/>
+        <feat att="phoneticTranscription" val="/kuːʃkʰ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00041_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="كُشْك"/>
+        <feat att="phoneticTranscription" val="/kuʃk/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00041">
+        <feat att="gloss" val="kiosk"/>
+        <feat att="semanticDomain" val="domestic"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00042">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="گاومیش"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00042_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="گاومیش"/>
+        <feat att="phoneticTranscription" val="/gɒːwmiːʃ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00042_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="جَامُوس"/>
+        <feat att="phoneticTranscription" val="/d͡ʒɑːmuːs/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00042">
+        <feat att="gloss" val="buffalo"/>
+        <feat att="semanticDomain" val="animate"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00043">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="گل"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00043_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="گل"/>
+        <feat att="phoneticTranscription" val="/gol/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00043_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="جُول"/>
+        <feat att="phoneticTranscription" val="/d͡ʒuːl/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00043">
+        <feat att="gloss" val="rose"/>
+        <feat att="semanticDomain" val="plant"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00044">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="گنبد"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00044_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="گنبد"/>
+        <feat att="phoneticTranscription" val="/ganbad/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00044_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="جَنْبَد"/>
+        <feat att="phoneticTranscription" val="/d͡ʒənbəd/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00044">
+        <feat att="gloss" val="vault, cupola"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00045">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="گنج"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00045_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="گنج"/>
+        <feat att="phoneticTranscription" val="/gandʒ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00045_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="كَنْز"/>
+        <feat att="phoneticTranscription" val="/kənz/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00045">
+        <feat att="gloss" val="treasure"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00046">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="گوهر"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00046_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="گوهر"/>
+        <feat att="phoneticTranscription" val="/gawhar/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00046_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="جَوْهَر"/>
+        <feat att="phoneticTranscription" val="/d͡ʒəwhər/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00046">
+        <feat att="gloss" val="substance, jewel"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00047">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="مرز بان"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00047_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="مرز بان"/>
+        <feat att="phoneticTranscription" val="/marza bɒːn/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00047_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="مَرْزَبَان"/>
+        <feat att="phoneticTranscription" val="/mərzəbɑːn/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00047">
+        <feat att="gloss" val="margrave"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00048">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="مرغ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00048_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="مرغ"/>
+        <feat att="phoneticTranscription" val="/marg/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00048_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="مَرْج"/>
+        <feat att="phoneticTranscription" val="/mərd͡ʒ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00048">
+        <feat att="gloss" val="meadow"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00049">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="مشک"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00049_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="مشک"/>
+        <feat att="phoneticTranscription" val="/miʃkʰ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00049_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="مِسْك"/>
+        <feat att="phoneticTranscription" val="/mɪsk/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00049">
+        <feat att="gloss" val="musk"/>
+        <feat att="semanticDomain" val="domestic"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00050">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="مهر"/>
+        <feat att="partOfSpeech" val="V"/>
+      </Lemma>
+      <WordForm id="Form_F00050_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="مهر"/>
+        <feat att="phoneticTranscription" val="/mahara/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <WordForm id="Form_F00050_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="مَهَرَ"/>
+        <feat att="phoneticTranscription" val="/məhərə/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <Sense id="Sense_F00050">
+        <feat att="gloss" val="to seal"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00051">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="نامه"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00051_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="نامه"/>
+        <feat att="phoneticTranscription" val="/nɒːmɒ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00051_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="نَامَج"/>
+        <feat att="phoneticTranscription" val="/nɑːməd͡ʒ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00051">
+        <feat att="gloss" val="letter, writing"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00052">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="نامه"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_F00052_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val="نامه"/>
+        <feat att="phoneticTranscription" val="/nɒːmɒ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_F00052_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="نَمَاق"/>
+        <feat att="phoneticTranscription" val="/nəmɑːq/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_F00052">
+        <feat att="gloss" val="letter, writing"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00053">
+      <feat att="rootArabic" val="أمر"/>
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܐܲܡܪܵܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00053_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܐܲܡܪܵܐ"/>
+        <feat att="phoneticTranscription" val="/ʔamra/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00053_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="أمْر"/>
+        <feat att="phoneticTranscription" val="/ʔamr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00053">
+        <feat att="gloss" val="a command, an order, a summons"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00054">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܐܸܠܵܐ"/>
+        <feat att="partOfSpeech" val="particle"/>
+      </Lemma>
+      <WordForm id="Form_S00054_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܐܸܠܵܐ"/>
+        <feat att="phoneticTranscription" val="/ʔɪla/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="conjunction"/>
+      </WordForm>
+      <WordForm id="Form_S00054_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="إلّا"/>
+        <feat att="phoneticTranscription" val="/ilːa/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="conjunction"/>
+      </WordForm>
+      <Sense id="Sense_S00054">
+        <feat att="gloss" val="yet, except that"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00055">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܐܸܢ"/>
+        <feat att="partOfSpeech" val="particle"/>
+      </Lemma>
+      <WordForm id="Form_S00055_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܐܸܢ"/>
+        <feat att="phoneticTranscription" val="/ʔɪn/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="conjunction"/>
+      </WordForm>
+      <WordForm id="Form_S00055_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="إن"/>
+        <feat att="phoneticTranscription" val="/in/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="conjunction"/>
+      </WordForm>
+      <Sense id="Sense_S00055">
+        <feat att="gloss" val="if"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00056">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܐܳܕܳܪ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00056_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܐܳܕܳܪ"/>
+        <feat att="phoneticTranscription" val="/ʔɑdɑr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DATE"/>
+      </WordForm>
+      <WordForm id="Form_S00056_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="آذار"/>
+        <feat att="phoneticTranscription" val="/ʔðaːr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DATE"/>
+      </WordForm>
+      <Sense id="Sense_S00056">
+        <feat att="gloss" val="March"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00057">
+      <feat att="sourceLanguage" val="syr"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܐܒܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00057_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܐܒܐ"/>
+        <feat att="phoneticTranscription" val="/ʔba/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00057_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="أبَّا"/>
+        <feat att="phoneticTranscription" val="/ʔabːaː/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00057">
+        <feat att="gloss" val="fruit"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00058">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܐܓܪܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00058_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܐܓܪܐ"/>
+        <feat att="phoneticTranscription" val="/ʔgra/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00058_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="أجْر"/>
+        <feat att="phoneticTranscription" val="/ʔadʒr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00058">
+        <feat att="gloss" val="hire, wages"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00059">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܐܘܡܬܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00059_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܐܘܡܬܐ"/>
+        <feat att="phoneticTranscription" val="/ʔwmta/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00059_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="أُمَّة"/>
+        <feat att="phoneticTranscription" val="/ʔaumːa/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00059">
+        <feat att="gloss" val="nation"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00060">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܐܪܐܢܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00060_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܐܪܐܢܐ"/>
+        <feat att="phoneticTranscription" val="/ʔrʔna/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00060_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="عَرِين"/>
+        <feat att="phoneticTranscription" val="/ʕariːn/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00060">
+        <feat att="gloss" val="arena"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00061">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="apc"/>
+      <feat att="recipientLocaleCountry" val="LBN, SYR"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܐܪܓܵܘܵܢܵܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00061_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܐܪܓܵܘܵܢܵܐ"/>
+        <feat att="phoneticTranscription" val="/ʔrgawana/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00061_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="أرْجُوانِي"/>
+        <feat att="phoneticTranscription" val="/ʔardʒwaːniː/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00061">
+        <feat att="gloss" val="purple"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00062">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܒ"/>
+        <feat att="partOfSpeech" val="particle"/>
+      </Lemma>
+      <WordForm id="Form_S00062_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܒ"/>
+        <feat att="phoneticTranscription" val="/b/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="preposition"/>
+      </WordForm>
+      <WordForm id="Form_S00062_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="بِ"/>
+        <feat att="phoneticTranscription" val="/bi/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="preposition"/>
+      </WordForm>
+      <Sense id="Sense_S00062">
+        <feat att="gloss" val="with, in, at, by"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00063">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܒܽܘܡܳܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00063_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܒܽܘܡܳܐ"/>
+        <feat att="phoneticTranscription" val="/bomɑ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="ANIM"/>
+      </WordForm>
+      <WordForm id="Form_S00063_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="بُومَة"/>
+        <feat att="phoneticTranscription" val="/buːma/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="ANIM"/>
+      </WordForm>
+      <Sense id="Sense_S00063">
+        <feat att="gloss" val="owl"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00064">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܒܕ"/>
+        <feat att="partOfSpeech" val="particle"/>
+      </Lemma>
+      <WordForm id="Form_S00064_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܒܕ"/>
+        <feat att="phoneticTranscription" val="/bd/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="preposition"/>
+      </WordForm>
+      <WordForm id="Form_S00064_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="بَعْد"/>
+        <feat att="phoneticTranscription" val="/baʕd/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="preposition"/>
+      </WordForm>
+      <Sense id="Sense_S00064">
+        <feat att="gloss" val="in that, on account of, because, for this reason, a compound of"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00065">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܒܝܼܕ"/>
+        <feat att="partOfSpeech" val="particle"/>
+      </Lemma>
+      <WordForm id="Form_S00065_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܒܝܼܕ"/>
+        <feat att="phoneticTranscription" val="/bjd/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="preposition"/>
+      </WordForm>
+      <WordForm id="Form_S00065_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="بَعْد"/>
+        <feat att="phoneticTranscription" val="/baʕd/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="preposition"/>
+      </WordForm>
+      <Sense id="Sense_S00065">
+        <feat att="gloss" val=""/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00066">
+      <feat att="rootArabic" val="غرض"/>
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܓ݂ܵܪܵܙ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00066_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܓ݂ܵܪܵܙ"/>
+        <feat att="phoneticTranscription" val="/ɣaraz/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00066_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="غَرَض"/>
+        <feat att="phoneticTranscription" val="/ɣaradˤ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00066">
+        <feat att="gloss" val="The intent, the purpose, the intention, the meaning, the ulterior motive"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00067">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="apc, arz"/>
+      <feat att="recipientLocaleCountry" val="LBN, SYR, EGY"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܓܵܘ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00067_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܓܵܘ"/>
+        <feat att="phoneticTranscription" val="/gaw/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="syntax" val="preposition"/>
+      </WordForm>
+      <WordForm id="Form_S00067_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="جُوَّة"/>
+        <feat att="phoneticTranscription" val="/dʒuːwa/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="register" val="colloquial"/>
+        <feat att="syntax" val="preposition"/>
+      </WordForm>
+      <Sense id="Sense_S00067">
+        <feat att="gloss" val="in, into, within, inside, in the midst"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00068">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܓܵܘܢܵܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00068_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܓܵܘܢܵܐ"/>
+        <feat att="phoneticTranscription" val="/gawna/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00068_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="جُون"/>
+        <feat att="phoneticTranscription" val="/dʒuːn/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00068">
+        <feat att="gloss" val="green"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00069">
+      <feat att="rootArabic" val="كنز"/>
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܓܙܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00069_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܓܙܐ"/>
+        <feat att="phoneticTranscription" val="/gza/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00069_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="كَنْز"/>
+        <feat att="phoneticTranscription" val="/kanz/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00069">
+        <feat att="gloss" val="treasure"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00070">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܕ"/>
+        <feat att="partOfSpeech" val="particle"/>
+      </Lemma>
+      <WordForm id="Form_S00070_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܕ"/>
+        <feat att="phoneticTranscription" val="/d/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="preposition"/>
+      </WordForm>
+      <WordForm id="Form_S00070_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="ذَا"/>
+        <feat att="phoneticTranscription" val="/ðaː/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="preposition"/>
+      </WordForm>
+      <Sense id="Sense_S00070">
+        <feat att="gloss" val="of, pertaining to, belonging to, made of, from"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00071">
+      <feat att="rootArabic" val="ذهب"/>
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܕܲܗܒ݂ܵܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00071_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܕܲܗܒ݂ܵܐ"/>
+        <feat att="phoneticTranscription" val="/dahva/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00071_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="ذَهَبِي"/>
+        <feat att="phoneticTranscription" val="/ðahabiː/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00071">
+        <feat att="gloss" val="gold"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00072">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܕܰܪܡܣܘܩ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00072_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܕܰܪܡܣܘܩ"/>
+        <feat att="phoneticTranscription" val="/darmswq/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="NAME"/>
+      </WordForm>
+      <WordForm id="Form_S00072_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="دِمَشْق"/>
+        <feat att="phoneticTranscription" val="/dimaʃq/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="NAME"/>
+      </WordForm>
+      <Sense id="Sense_S00072">
+        <feat att="gloss" val="Damascus"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00073">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܕܳܪܳܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00073_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܕܳܪܳܐ"/>
+        <feat att="phoneticTranscription" val="/dɑrɑ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="NAME"/>
+      </WordForm>
+      <WordForm id="Form_S00073_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="دَرْعَة"/>
+        <feat att="phoneticTranscription" val="/darʕa/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="NAME"/>
+      </WordForm>
+      <Sense id="Sense_S00073">
+        <feat att="gloss" val="Dara"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00074">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܕܝܢܪܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00074_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܕܝܢܪܐ"/>
+        <feat att="phoneticTranscription" val="/djnra/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DMST"/>
+      </WordForm>
+      <WordForm id="Form_S00074_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="دِينَار"/>
+        <feat att="phoneticTranscription" val="/diːnaːr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DMST"/>
+      </WordForm>
+      <Sense id="Sense_S00074">
+        <feat att="gloss" val="gold dinarius"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00075">
+      <feat att="rootArabic" val="ورد"/>
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܘܲܪܕܵܢܵܝܵܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00075_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܘܲܪܕܵܢܵܝܵܐ"/>
+        <feat att="phoneticTranscription" val="/wardanaja/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00075_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="وَرْدِي"/>
+        <feat att="phoneticTranscription" val="/wardiː/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00075">
+        <feat att="gloss" val="pink"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00076">
+      <feat att="rootArabic" val="زرق"/>
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܙܰܪܩܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00076_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܙܰܪܩܐ"/>
+        <feat att="phoneticTranscription" val="/zarqa/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00076_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="أزْرَق"/>
+        <feat att="phoneticTranscription" val="/ʔazraq/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00076">
+        <feat att="gloss" val="blue"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00077">
+      <feat att="rootArabic" val="زوج"/>
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܙܘܓܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00077_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܙܘܓܐ"/>
+        <feat att="phoneticTranscription" val="/zwga/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00077_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="زَوْجَة"/>
+        <feat att="phoneticTranscription" val="/zawdʒa/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00077">
+        <feat att="gloss" val="pair, conjugation, name of an accent"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00078">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܚܲܒܘܼܫܵܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00078_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܚܲܒܘܼܫܵܐ"/>
+        <feat att="phoneticTranscription" val="/ħabwʃa/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="PLNT"/>
+      </WordForm>
+      <WordForm id="Form_S00078_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="تُفَّاح"/>
+        <feat att="phoneticTranscription" val="/tufːaːħ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="PLNT"/>
+      </WordForm>
+      <Sense id="Sense_S00078">
+        <feat att="gloss" val="apple"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00079">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܚܶܘܳܪܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00079_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܚܶܘܳܪܐ"/>
+        <feat att="phoneticTranscription" val="/ħawɑra/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00079_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="حَوْر"/>
+        <feat att="phoneticTranscription" val="/ħawr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00079">
+        <feat att="gloss" val="white"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00080">
+      <feat att="rootArabic" val="ثلث"/>
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܛܠܵܫܹܒܵܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00080_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܛܠܵܫܹܒܵܐ"/>
+        <feat att="phoneticTranscription" val="/tˤlaʃeba/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DATE"/>
+      </WordForm>
+      <WordForm id="Form_S00080_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="الثُّلاثَاء"/>
+        <feat att="phoneticTranscription" val="/ʔθːulaːθaːʔ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DATE"/>
+      </WordForm>
+      <Sense id="Sense_S00080">
+        <feat att="gloss" val="Tuesday"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00081">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܝܲܪܚܵܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00081_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܝܲܪܚܵܐ"/>
+        <feat att="phoneticTranscription" val="/jarħa/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DATE"/>
+      </WordForm>
+      <WordForm id="Form_S00081_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="شَهْر"/>
+        <feat att="phoneticTranscription" val="/ʃahr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DATE"/>
+      </WordForm>
+      <Sense id="Sense_S00081">
+        <feat att="gloss" val="month"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00082">
+      <feat att="sourceLanguage" val="syr"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܝܵܐ"/>
+        <feat att="partOfSpeech" val="particle"/>
+      </Lemma>
+      <WordForm id="Form_S00082_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܝܵܐ"/>
+        <feat att="phoneticTranscription" val="/ja/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="subclass" val="?"/>
+      </WordForm>
+      <WordForm id="Form_S00082_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="يَا"/>
+        <feat att="phoneticTranscription" val="/jaː/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="subclass" val="?"/>
+      </WordForm>
+      <Sense id="Sense_S00082">
+        <feat att="gloss" val="or, either (loanword?)"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00083">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܝܵܘܡܵܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00083_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܝܵܘܡܵܐ"/>
+        <feat att="phoneticTranscription" val="/jawma/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DATE"/>
+      </WordForm>
+      <WordForm id="Form_S00083_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="يَوْم"/>
+        <feat att="phoneticTranscription" val="/jawm/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DATE"/>
+      </WordForm>
+      <Sense id="Sense_S00083">
+        <feat att="gloss" val="day"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00084">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܝܶܡ̈ܳܬ݂ܳܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00084_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܝܶܡ̈ܳܬ݂ܳܐ"/>
+        <feat att="phoneticTranscription" val="/jamɑθɑ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00084_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val=""/>
+        <feat att="phoneticTranscription" val=""/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00084">
+        <feat att="gloss" val="motherly"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00085">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܝܶܡ̈ܗܳܬܶܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00085_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܝܶܡ̈ܗܳܬܶܐ"/>
+        <feat att="phoneticTranscription" val="/jamhɑta/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00085_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="أُمَّهَات"/>
+        <feat att="phoneticTranscription" val="/ʔaumːahaːt/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00085">
+        <feat att="gloss" val="mothers"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00086">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="apc"/>
+      <feat att="recipientLocaleCountry" val="LBN, SYR"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܝܶܡܳܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00086_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܝܶܡܳܐ"/>
+        <feat att="phoneticTranscription" val="/jamɑ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00086_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="يَمَّة"/>
+        <feat att="phoneticTranscription" val="/jamːa/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00086">
+        <feat att="gloss" val="mother"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00087">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܟܲܠܒܵܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00087_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܟܲܠܒܵܐ"/>
+        <feat att="phoneticTranscription" val="/kalba/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="ANIM"/>
+      </WordForm>
+      <WordForm id="Form_S00087_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="كَلْب"/>
+        <feat att="phoneticTranscription" val="/kalb/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="ANIM"/>
+      </WordForm>
+      <Sense id="Sense_S00087">
+        <feat att="gloss" val="dog"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00088">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="apc"/>
+      <feat att="recipientLocaleCountry" val="LBN, SYR"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܟܵܢܘܿܢ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00088_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܟܵܢܘܿܢ"/>
+        <feat att="phoneticTranscription" val="/kanon/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DATE"/>
+      </WordForm>
+      <WordForm id="Form_S00088_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="كَانوُن"/>
+        <feat att="phoneticTranscription" val="/kaːnuːn/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DATE"/>
+      </WordForm>
+      <Sense id="Sense_S00088">
+        <feat att="gloss" val="January"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00089">
+      <feat att="rootArabic" val="كنف"/>
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܟܰܢܶܦ"/>
+        <feat att="partOfSpeech" val="V"/>
+      </Lemma>
+      <WordForm id="Form_S00089_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܟܰܢܶܦ"/>
+        <feat att="phoneticTranscription" val="/kanaf/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <WordForm id="Form_S00089_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="كَنَف"/>
+        <feat att="phoneticTranscription" val="/kanaf/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <Sense id="Sense_S00089">
+        <feat att="gloss" val="protect, defend, preserve, maintain"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00090">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܠ"/>
+        <feat att="partOfSpeech" val="particle"/>
+      </Lemma>
+      <WordForm id="Form_S00090_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܠ"/>
+        <feat att="phoneticTranscription" val="/l/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="preposition"/>
+      </WordForm>
+      <WordForm id="Form_S00090_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="لِ"/>
+        <feat att="phoneticTranscription" val="/li/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="preposition"/>
+      </WordForm>
+      <Sense id="Sense_S00090">
+        <feat att="gloss" val="on, onto, to, upon"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00091">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܠܲܟ݂ܡܵܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00091_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܠܲܟ݂ܡܵܐ"/>
+        <feat att="phoneticTranscription" val="/laχma/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00091_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val=""/>
+        <feat att="phoneticTranscription" val=""/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00091">
+        <feat att="gloss" val="bread"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00092">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܡܸܛܠ ܕ"/>
+        <feat att="partOfSpeech" val="particle"/>
+      </Lemma>
+      <WordForm id="Form_S00092_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܡܸܛܠ ܕ"/>
+        <feat att="phoneticTranscription" val="/mɪtˤl d/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="conjunction"/>
+      </WordForm>
+      <WordForm id="Form_S00092_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="مِثْل"/>
+        <feat att="phoneticTranscription" val="/miθl/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="conjunction"/>
+      </WordForm>
+      <Sense id="Sense_S00092">
+        <feat att="gloss" val="per, in accordance with, according to"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00093">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܡܸܢ"/>
+        <feat att="partOfSpeech" val="particle"/>
+      </Lemma>
+      <WordForm id="Form_S00093_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܡܸܢ"/>
+        <feat att="phoneticTranscription" val="/mɪn/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="preposition"/>
+      </WordForm>
+      <WordForm id="Form_S00093_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="مِنْ"/>
+        <feat att="phoneticTranscription" val="/min/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="preposition"/>
+      </WordForm>
+      <Sense id="Sense_S00093">
+        <feat att="gloss" val="from (a starting point), out of, at, on, of, with (in company of someone)"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00094">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܡܿܢ"/>
+        <feat att="partOfSpeech" val="particle"/>
+      </Lemma>
+      <WordForm id="Form_S00094_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܡܿܢ"/>
+        <feat att="phoneticTranscription" val="/man/"/>
+        <feat att="partOfSpeech" val="particle"/>
+      </WordForm>
+      <WordForm id="Form_S00094_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="مَنْ"/>
+        <feat att="phoneticTranscription" val="/man/"/>
+        <feat att="partOfSpeech" val="particle"/>
+      </WordForm>
+      <Sense id="Sense_S00094">
+        <feat att="gloss" val="who"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00095">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܡܰܚܡܳܠܳܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00095_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܡܰܚܡܳܠܳܐ"/>
+        <feat att="phoneticTranscription" val="/maħmɑlɑ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DMST"/>
+      </WordForm>
+      <WordForm id="Form_S00095_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="مَخْمَل"/>
+        <feat att="phoneticTranscription" val="/maχmal/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DMST"/>
+      </WordForm>
+      <Sense id="Sense_S00095">
+        <feat att="gloss" val="towel"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00096">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܡܶܨܪܝܢ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00096_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܡܶܨܪܝܢ"/>
+        <feat att="phoneticTranscription" val="/masˤrjn/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="NAME"/>
+      </WordForm>
+      <WordForm id="Form_S00096_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="مِصْر"/>
+        <feat att="phoneticTranscription" val="/misˤr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="NAME"/>
+      </WordForm>
+      <Sense id="Sense_S00096">
+        <feat att="gloss" val="Egypt"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00097">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܢܸܫܪܵܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00097_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܢܸܫܪܵܐ"/>
+        <feat att="phoneticTranscription" val="/nɪʃra/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="ANIM"/>
+      </WordForm>
+      <WordForm id="Form_S00097_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="نِسْر"/>
+        <feat att="phoneticTranscription" val="/nisr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="ANIM"/>
+      </WordForm>
+      <Sense id="Sense_S00097">
+        <feat att="gloss" val="eagle"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00098">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="apc"/>
+      <feat att="recipientLocaleCountry" val="LBN, SYR"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܢܺܝܣܳܢ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00098_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܢܺܝܣܳܢ"/>
+        <feat att="phoneticTranscription" val="/nisɑn/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DATE"/>
+      </WordForm>
+      <WordForm id="Form_S00098_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="نِيسَان"/>
+        <feat att="phoneticTranscription" val="/niːsaːn/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DATE"/>
+      </WordForm>
+      <Sense id="Sense_S00098">
+        <feat att="gloss" val="April"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00099">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܣܲܡܪܵܢܵܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00099_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܣܲܡܪܵܢܵܐ"/>
+        <feat att="phoneticTranscription" val="/samrana/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00099_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="أَسْمَر"/>
+        <feat att="phoneticTranscription" val="/ʔasmar/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00099">
+        <feat att="gloss" val="tawny"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00100">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܣܸܬܘܵܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00100_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܣܸܬܘܵܐ"/>
+        <feat att="phoneticTranscription" val="/sɪtwa/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00100_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="شِتَاء"/>
+        <feat att="phoneticTranscription" val="/ʃitaːʔ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00100">
+        <feat att="gloss" val="winter"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00101">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܥܲܠ"/>
+        <feat att="partOfSpeech" val="particle"/>
+      </Lemma>
+      <WordForm id="Form_S00101_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܥܲܠ"/>
+        <feat att="phoneticTranscription" val="/ʕal/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="preposition"/>
+      </WordForm>
+      <WordForm id="Form_S00101_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="عَلَى"/>
+        <feat att="phoneticTranscription" val="/ʕalaː/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="preposition"/>
+      </WordForm>
+      <Sense id="Sense_S00101">
+        <feat att="gloss" val="on, over and in contact with, at the surface of and supported by, upon, above, on top of"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00102">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܥܲܡ"/>
+        <feat att="partOfSpeech" val="particle"/>
+      </Lemma>
+      <WordForm id="Form_S00102_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܥܲܡ"/>
+        <feat att="phoneticTranscription" val="/ʕam/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="preposition"/>
+      </WordForm>
+      <WordForm id="Form_S00102_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="مَعْ"/>
+        <feat att="phoneticTranscription" val="/maʕ/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="preposition"/>
+      </WordForm>
+      <Sense id="Sense_S00102">
+        <feat att="gloss" val="with, together with, among / amongst / amidst"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00103">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܥܲܡܘܿܟ݂"/>
+      </Lemma>
+      <WordForm id="Form_S00103_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܥܲܡܘܿܟ݂"/>
+        <feat att="phoneticTranscription" val="/ʕamoχ/"/>
+      </WordForm>
+      <WordForm id="Form_S00103_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="مَعَكَ"/>
+        <feat att="phoneticTranscription" val="/maʕaka/"/>
+      </WordForm>
+      <Sense id="Sense_S00103">
+        <feat att="gloss" val="with you"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00104">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܥܵܡܵܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00104_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܥܵܡܵܐ"/>
+        <feat att="phoneticTranscription" val="/ʕama/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00104_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="عَم"/>
+        <feat att="phoneticTranscription" val="/ʕam/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00104">
+        <feat att="gloss" val="uncle"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00105">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܥܳܡܳܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00105_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܥܳܡܳܐ"/>
+        <feat att="phoneticTranscription" val="/ʕɑmɑ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00105_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="عَمَّة"/>
+        <feat att="phoneticTranscription" val="/ʕamːa/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00105">
+        <feat att="gloss" val="uncle"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00106">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܦܠܛܝܢ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00106_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܦܠܛܝܢ"/>
+        <feat att="phoneticTranscription" val="/fltˤjn/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00106_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="بِلاط"/>
+        <feat att="phoneticTranscription" val="/bilaːtˤ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00106">
+        <feat att="gloss" val="palace (palatium)"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00107">
+      <feat att="rootArabic" val="قتل"/>
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܩܵܛܹܠ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00107_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܩܵܛܹܠ"/>
+        <feat att="phoneticTranscription" val="/qatˤel/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00107_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="قَتْل"/>
+        <feat att="phoneticTranscription" val="/qatl/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00107">
+        <feat att="gloss" val="will kill"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00108">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܩܝܬܪܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00108_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܩܝܬܪܐ"/>
+        <feat att="phoneticTranscription" val="/qjtra/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DMST"/>
+      </WordForm>
+      <WordForm id="Form_S00108_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="قِيثَارة"/>
+        <feat att="phoneticTranscription" val="/qiːθaːra/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DMST"/>
+      </WordForm>
+      <Sense id="Sense_S00108">
+        <feat att="gloss" val="harp, lute"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00109">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="apc"/>
+      <feat att="recipientLocaleCountry" val="LBN, SYR"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܩܢܕܝܠܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00109_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܩܢܕܝܠܐ"/>
+        <feat att="phoneticTranscription" val="/qndjla/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DMST"/>
+      </WordForm>
+      <WordForm id="Form_S00109_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="قَنْدِيلَة"/>
+        <feat att="phoneticTranscription" val="/qandiːla/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DMST"/>
+      </WordForm>
+      <Sense id="Sense_S00109">
+        <feat att="gloss" val="lamp, torch (candela)"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00110">
+      <feat att="sourceLanguage" val="syr"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܩܪܕܠܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00110_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܩܪܕܠܐ"/>
+        <feat att="phoneticTranscription" val="/qrdla/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DMST"/>
+      </WordForm>
+      <WordForm id="Form_S00110_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="جَرْدَل"/>
+        <feat att="phoneticTranscription" val="/dʒardal/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DMST"/>
+      </WordForm>
+      <Sense id="Sense_S00110">
+        <feat att="gloss" val="pot, cradle (caldarium)"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00111">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܪܘܼܙܵܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00111_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܪܘܼܙܵܐ"/>
+        <feat att="phoneticTranscription" val="/rwza/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="PLNT"/>
+      </WordForm>
+      <WordForm id="Form_S00111_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="رُز"/>
+        <feat att="phoneticTranscription" val="/ruz/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="PLNT"/>
+      </WordForm>
+      <Sense id="Sense_S00111">
+        <feat att="gloss" val="rice"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00112">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܪܘܼܡܵܢܵܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00112_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܪܘܼܡܵܢܵܐ"/>
+        <feat att="phoneticTranscription" val="/rwmana/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="PLNT"/>
+      </WordForm>
+      <WordForm id="Form_S00112_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="رُمَّان"/>
+        <feat att="phoneticTranscription" val="/rumːaːn/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="PLNT"/>
+      </WordForm>
+      <Sense id="Sense_S00112">
+        <feat att="gloss" val="pomegranate"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00113">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܫܲܒܬܵܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00113_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܫܲܒܬܵܐ"/>
+        <feat att="phoneticTranscription" val="/ʃabta/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DATE"/>
+      </WordForm>
+      <WordForm id="Form_S00113_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="السَّبْت"/>
+        <feat att="phoneticTranscription" val="/ʔsːabt/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DATE"/>
+      </WordForm>
+      <Sense id="Sense_S00113">
+        <feat att="gloss" val="Saturday"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00114">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܫܳܚܡܳܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00114_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܫܳܚܡܳܐ"/>
+        <feat att="phoneticTranscription" val="/ʃɑħmɑ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00114_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="سَخَم"/>
+        <feat att="phoneticTranscription" val="/saχam/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00114">
+        <feat att="gloss" val="brown"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00115">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܫܶ̈ܢܶܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00115_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܫܶ̈ܢܶܐ"/>
+        <feat att="phoneticTranscription" val="/ʃɪne/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DATE"/>
+      </WordForm>
+      <WordForm id="Form_S00115_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="سَنَوات"/>
+        <feat att="phoneticTranscription" val="/sanawaːt/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DATE"/>
+      </WordForm>
+      <Sense id="Sense_S00115">
+        <feat att="gloss" val="years"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00116">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܫܽܘܫܶܦܳܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00116_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܫܽܘܫܶܦܳܐ"/>
+        <feat att="phoneticTranscription" val="/ʃoʃafɑ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DMST"/>
+      </WordForm>
+      <WordForm id="Form_S00116_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="شَرْشَف"/>
+        <feat att="phoneticTranscription" val="/ʃarʃaf/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DMST"/>
+      </WordForm>
+      <Sense id="Sense_S00116">
+        <feat att="gloss" val="towel"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00117">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="apc"/>
+      <feat att="recipientLocaleCountry" val="LBN, SYR"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܫܒ݂ܲܛ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00117_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܫܒ݂ܲܛ"/>
+        <feat att="phoneticTranscription" val="/ʃvatˤ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DATE"/>
+      </WordForm>
+      <WordForm id="Form_S00117_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="شُبَاط"/>
+        <feat att="phoneticTranscription" val="/ʃubaːtˤ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DATE"/>
+      </WordForm>
+      <Sense id="Sense_S00117">
+        <feat att="gloss" val="February"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00118">
+      <feat att="rootArabic" val="شرب"/>
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܫܘܼܪܒ݂ܵܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00118_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܫܘܼܪܒ݂ܵܐ"/>
+        <feat att="phoneticTranscription" val="/ʃwrva/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00118_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="شُورْبة"/>
+        <feat att="phoneticTranscription" val="/ʃuːrba/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00118">
+        <feat att="gloss" val="soup"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00119">
+      <feat att="rootArabic" val="سطر"/>
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܫܛܪܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00119_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܫܛܪܐ"/>
+        <feat att="phoneticTranscription" val="/ʃtˤra/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00119_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="سَطْر"/>
+        <feat att="phoneticTranscription" val="/satˤr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00119">
+        <feat att="gloss" val="deed, document"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00120">
+      <feat att="rootArabic" val="سلم"/>
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܫܠܵܡܵܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00120_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܫܠܵܡܵܐ"/>
+        <feat att="phoneticTranscription" val="/ʃlama/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00120_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="سَلام"/>
+        <feat att="phoneticTranscription" val="/salaːm/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00120">
+        <feat att="gloss" val="hello"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00121">
+      <feat att="rootArabic" val="سلم"/>
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܫܠܵܡܵܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00121_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܫܠܵܡܵܐ"/>
+        <feat att="phoneticTranscription" val="/ʃlama/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00121_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="سَلام"/>
+        <feat att="phoneticTranscription" val="/salaːm/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00121">
+        <feat att="gloss" val="peace"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00122">
+      <feat att="rootArabic" val="سلم"/>
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܫܠܳܡܳܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00122_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܫܠܳܡܳܐ"/>
+        <feat att="phoneticTranscription" val="/ʃlɑmɑ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00122_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="سَلام"/>
+        <feat att="phoneticTranscription" val="/salaːm/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00122">
+        <feat att="gloss" val="hello"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00123">
+      <feat att="rootArabic" val="سلم"/>
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܫܠܳܡܳܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00123_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܫܠܳܡܳܐ"/>
+        <feat att="phoneticTranscription" val="/ʃlɑmɑ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00123_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="سَلام"/>
+        <feat att="phoneticTranscription" val="/salaːm/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00123">
+        <feat att="gloss" val="peace"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00124">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="apc"/>
+      <feat att="recipientLocaleCountry" val="LBN, SYR"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܬܵܡܘܿܙ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00124_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܬܵܡܘܿܙ"/>
+        <feat att="phoneticTranscription" val="/tamoz/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DATE"/>
+      </WordForm>
+      <WordForm id="Form_S00124_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="تَمُوز"/>
+        <feat att="phoneticTranscription" val="/tamuːz/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DATE"/>
+      </WordForm>
+      <Sense id="Sense_S00124">
+        <feat att="gloss" val="July"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00125">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܬܹܐܢܵܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00125_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܬܹܐܢܵܐ"/>
+        <feat att="phoneticTranscription" val="/tena/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="PLNT"/>
+      </WordForm>
+      <WordForm id="Form_S00125_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="تِين"/>
+        <feat att="phoneticTranscription" val="/tiːn/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="PLNT"/>
+      </WordForm>
+      <Sense id="Sense_S00125">
+        <feat att="gloss" val="fig"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00126">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="apc"/>
+      <feat att="recipientLocaleCountry" val="LBN, SYR"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܬܶܫܪܺܝܢ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00126_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܬܶܫܪܺܝܢ"/>
+        <feat att="phoneticTranscription" val="/taʃrin/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DATE"/>
+      </WordForm>
+      <WordForm id="Form_S00126_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="تَشْرِين"/>
+        <feat att="phoneticTranscription" val="/taʃriːn/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DATE"/>
+      </WordForm>
+      <Sense id="Sense_S00126">
+        <feat att="gloss" val="June"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00127">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܐܪܢܒܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00127_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܐܪܢܒܐ"/>
+        <feat att="phoneticTranscription" val="/ʔarn(ə)vɑ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="ANIM"/>
+      </WordForm>
+      <WordForm id="Form_S00127_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="أَرْنَب"/>
+        <feat att="phoneticTranscription" val="/ʔarnab/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="ANIM"/>
+      </WordForm>
+      <Sense id="Sense_S00127">
+        <feat att="gloss" val="rabbit, hare"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00128">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܐܟܠ"/>
+        <feat att="partOfSpeech" val="V"/>
+      </Lemma>
+      <WordForm id="Form_S00128_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܐܟܠ"/>
+        <feat att="phoneticTranscription" val="/ʔekal/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <WordForm id="Form_S00128_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="أَكَل"/>
+        <feat att="phoneticTranscription" val="/ʔakal/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <Sense id="Sense_S00128">
+        <feat att="gloss" val="to eat"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00129">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܐܡܪ"/>
+        <feat att="partOfSpeech" val="V"/>
+      </Lemma>
+      <WordForm id="Form_S00129_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܐܡܪ"/>
+        <feat att="phoneticTranscription" val="/ʔɛ̆mar/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <WordForm id="Form_S00129_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="أَمَر"/>
+        <feat att="phoneticTranscription" val="/ʔamar/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <Sense id="Sense_S00129">
+        <feat att="gloss" val="to tell"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00130">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܒܟܐ"/>
+        <feat att="partOfSpeech" val="V"/>
+      </Lemma>
+      <WordForm id="Form_S00130_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܒܟܐ"/>
+        <feat att="phoneticTranscription" val="/b(ə)xɑ(ʔ)/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <WordForm id="Form_S00130_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="بَكَى"/>
+        <feat att="phoneticTranscription" val="/bakaː/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <Sense id="Sense_S00130">
+        <feat att="gloss" val="to weep"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00131">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܒܢܝܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00131_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܒܢܝܐ"/>
+        <feat att="phoneticTranscription" val="/b(ə)nɑjɑ(ʔ)/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00131_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="بِنَايَة"/>
+        <feat att="phoneticTranscription" val="/binaːja/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00131">
+        <feat att="gloss" val="building, erecting, constructing"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00132">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܒܘܪܐ"/>
+        <feat att="partOfSpeech" val="adjective"/>
+      </Lemma>
+      <WordForm id="Form_S00132_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܒܘܪܐ"/>
+        <feat att="phoneticTranscription" val="/burɑ(ʔ)/"/>
+        <feat att="partOfSpeech" val="adjective"/>
+      </WordForm>
+      <WordForm id="Form_S00132_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="بُور"/>
+        <feat att="phoneticTranscription" val="/buːr/"/>
+        <feat att="partOfSpeech" val="adjective"/>
+      </WordForm>
+      <Sense id="Sense_S00132">
+        <feat att="gloss" val="rude"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00133">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܬܠܬ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00133_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܬܠܬ"/>
+        <feat att="phoneticTranscription" val="/tlaːta/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="NUMB"/>
+      </WordForm>
+      <WordForm id="Form_S00133_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="ثَلَاثَة"/>
+        <feat att="phoneticTranscription" val="/θalaːθa/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="NUMB"/>
+      </WordForm>
+      <Sense id="Sense_S00133">
+        <feat att="gloss" val="three"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00134">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܬܠܬܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00134_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܬܠܬܐ"/>
+        <feat att="phoneticTranscription" val="/tlaːθa/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="NUMB"/>
+      </WordForm>
+      <WordForm id="Form_S00134_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="ثَلَاثَة"/>
+        <feat att="phoneticTranscription" val="/θalaːθa/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="NUMB"/>
+      </WordForm>
+      <Sense id="Sense_S00134">
+        <feat att="gloss" val="three"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00135">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܚܫܒ"/>
+        <feat att="partOfSpeech" val="V"/>
+      </Lemma>
+      <WordForm id="Form_S00135_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܚܫܒ"/>
+        <feat att="phoneticTranscription" val="/ħ(ə)ʃav/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <WordForm id="Form_S00135_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="حَسَب"/>
+        <feat att="phoneticTranscription" val="/ħasab/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <Sense id="Sense_S00135">
+        <feat att="gloss" val="to calculate"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00136">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܚܩܠܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00136_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܚܩܠܐ"/>
+        <feat att="phoneticTranscription" val="/ħaqlɑ(ʔ)/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00136_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="حَقْل"/>
+        <feat att="phoneticTranscription" val="/ħaql/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00136">
+        <feat att="gloss" val="field"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00137">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܚܦܪ"/>
+        <feat att="partOfSpeech" val="V"/>
+      </Lemma>
+      <WordForm id="Form_S00137_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܚܦܪ"/>
+        <feat att="phoneticTranscription" val="/ħ(ə)far/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <WordForm id="Form_S00137_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="حَفَرَ"/>
+        <feat att="phoneticTranscription" val="/ħafara/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <Sense id="Sense_S00137">
+        <feat att="gloss" val="to dig"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00138">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܚܘܡܫܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00138_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܚܘܡܫܐ"/>
+        <feat att="phoneticTranscription" val="/ħumʃɑ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00138_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="خُمْس"/>
+        <feat att="phoneticTranscription" val="/χums/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00138">
+        <feat att="gloss" val="fifth (⅕)"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00139">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܫܡܥ"/>
+        <feat att="partOfSpeech" val="V"/>
+      </Lemma>
+      <WordForm id="Form_S00139_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܫܡܥ"/>
+        <feat att="phoneticTranscription" val="/ʃ(ə)maʕ/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <WordForm id="Form_S00139_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="سَمِعَ"/>
+        <feat att="phoneticTranscription" val="/samiʕa/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <Sense id="Sense_S00139">
+        <feat att="gloss" val="to hear"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00140">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="apc"/>
+      <feat att="recipientLocaleCountry" val="LBN, SYR"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܫܘܢܪܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00140_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܫܘܢܪܐ"/>
+        <feat att="phoneticTranscription" val="/ʃunːɑ.rɑ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="ANIM"/>
+      </WordForm>
+      <WordForm id="Form_S00140_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="سَنُّور"/>
+        <feat att="phoneticTranscription" val="/sanːnuːr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="ANIM"/>
+      </WordForm>
+      <Sense id="Sense_S00140">
+        <feat att="gloss" val="cat"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00141">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܫܓܠ"/>
+        <feat att="partOfSpeech" val="V"/>
+      </Lemma>
+      <WordForm id="Form_S00141_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܫܓܠ"/>
+        <feat att="phoneticTranscription" val="/ʃ(ə.)ˈɣal/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <WordForm id="Form_S00141_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="شَغَلَ"/>
+        <feat att="phoneticTranscription" val="/ʃaɣala/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <Sense id="Sense_S00141">
+        <feat att="gloss" val="to seize, to occupy"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00142">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܫܘܩܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00142_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܫܘܩܐ"/>
+        <feat att="phoneticTranscription" val="/ʃuqɑ(ʔ)/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00142_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="شُقَّة"/>
+        <feat att="phoneticTranscription" val="/ʃuqːa/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00142">
+        <feat att="gloss" val="quarter, district, borough"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00143">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="apc, arz"/>
+      <feat att="recipientLocaleCountry" val="LBN, SYR, EGY"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܫܝܫܬܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00143_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܫܝܫܬܐ"/>
+        <feat att="phoneticTranscription" val="/ʃiʃtɑ(ʔ)/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00143_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="شِيشَة"/>
+        <feat att="phoneticTranscription" val="/ʃiːʃa/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00143">
+        <feat att="gloss" val="vase, bottle, flask, flagon"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00144">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܨܠܒ"/>
+        <feat att="partOfSpeech" val="V"/>
+      </Lemma>
+      <WordForm id="Form_S00144_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܨܠܒ"/>
+        <feat att="phoneticTranscription" val="/sˤ(ə)lav/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <WordForm id="Form_S00144_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="صَلَب"/>
+        <feat att="phoneticTranscription" val="/sˤalab/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <Sense id="Sense_S00144">
+        <feat att="gloss" val="to crucify"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00145">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܨܝܪܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00145_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܨܝܪܐ"/>
+        <feat att="phoneticTranscription" val="/sˤajrɑ(ʔ)/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00145_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="صُورَة"/>
+        <feat att="phoneticTranscription" val="/sˤuːra/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00145">
+        <feat att="gloss" val="icon, painted idol"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00146">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܛܦ"/>
+        <feat att="partOfSpeech" val="V"/>
+      </Lemma>
+      <WordForm id="Form_S00146_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܛܦ"/>
+        <feat att="phoneticTranscription" val="/tˤɑf/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <WordForm id="Form_S00146_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="طَافَ"/>
+        <feat att="phoneticTranscription" val="/tˤaːfa/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <Sense id="Sense_S00146">
+        <feat att="gloss" val="to float"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00147">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܥܦܪܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00147_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܥܦܪܐ"/>
+        <feat att="phoneticTranscription" val="/ʕafrɑ(ʔ)/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00147_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="عَفَر"/>
+        <feat att="phoneticTranscription" val="/ʕafar/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00147">
+        <feat att="gloss" val="earth, soil, dust"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00148">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܥܢܢܐ"/>
+        <feat att="partOfSpeech" val="adjective"/>
+      </Lemma>
+      <WordForm id="Form_S00148_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܥܢܢܐ"/>
+        <feat att="phoneticTranscription" val="/ʕanːɑnɑ(ʔ)/"/>
+        <feat att="partOfSpeech" val="adjective"/>
+      </WordForm>
+      <WordForm id="Form_S00148_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="عُنَّة"/>
+        <feat att="phoneticTranscription" val="/ʕunːa/"/>
+        <feat att="partOfSpeech" val="adjective"/>
+      </WordForm>
+      <Sense id="Sense_S00148">
+        <feat att="gloss" val="sexually impotent"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00149">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܐܡܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00149_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܐܡܐ"/>
+        <feat att="phoneticTranscription" val="/ʔamːɑ(ʔ)/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00149_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="عَام"/>
+        <feat att="phoneticTranscription" val="/ʕaːm/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00149">
+        <feat att="gloss" val=""/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00150">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܦܛܝܪܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00150_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܦܛܝܪܐ"/>
+        <feat att="phoneticTranscription" val="/patˤːirɑ(ʔ)/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00150_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="فَطِير"/>
+        <feat att="phoneticTranscription" val="/fatˤiːr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00150">
+        <feat att="gloss" val="unleavened bread"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00151">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܩܨܪܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00151_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܩܨܪܐ"/>
+        <feat att="phoneticTranscription" val="/qasˤrɑ(ʔ)/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00151_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="قَصْر"/>
+        <feat att="phoneticTranscription" val="/qasˤr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00151">
+        <feat att="gloss" val="palace, castle, fortress"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00152">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܩܗܘܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00152_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܩܗܘܐ"/>
+        <feat att="phoneticTranscription" val="/qahwɑ(ʔ)/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00152_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="قَهْوَة"/>
+        <feat att="phoneticTranscription" val="/qahwa/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00152">
+        <feat att="gloss" val="coffee"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00153">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܟܬܘܒܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00153_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܟܬܘܒܐ"/>
+        <feat att="phoneticTranscription" val="/kɑθovɑ(ʔ)/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00153_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="كَاتِب"/>
+        <feat att="phoneticTranscription" val="/kaːtib/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00153">
+        <feat att="gloss" val="writer, scribe, copyist, amanuensis, secretary, notary"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00154">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܟܕܒܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00154_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܟܕܒܐ"/>
+        <feat att="phoneticTranscription" val="/kadːɑvɑ(ʔ)/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00154_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="كَذَّاب"/>
+        <feat att="phoneticTranscription" val="/kaðːaːb/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00154">
+        <feat att="gloss" val="liar"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00155">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܟܦܪ"/>
+        <feat att="partOfSpeech" val="V"/>
+      </Lemma>
+      <WordForm id="Form_S00155_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܟܦܪ"/>
+        <feat att="phoneticTranscription" val="/ʔɛθˈkap.par/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <WordForm id="Form_S00155_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="كَفَر"/>
+        <feat att="phoneticTranscription" val="/kafar/"/>
+        <feat att="partOfSpeech" val="V"/>
+      </WordForm>
+      <Sense id="Sense_S00155">
+        <feat att="gloss" val="to deny"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00156">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܠܘܚܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00156_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܠܘܚܐ"/>
+        <feat att="phoneticTranscription" val="/luħɑ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00156_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="لَوْحَة"/>
+        <feat att="phoneticTranscription" val="/lawħa/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00156">
+        <feat att="gloss" val="tablet, board, tile"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00157">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܠܐ"/>
+        <feat att="partOfSpeech" val="intj"/>
+      </Lemma>
+      <WordForm id="Form_S00157_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܠܐ"/>
+        <feat att="phoneticTranscription" val="/ˈlɑ/"/>
+        <feat att="partOfSpeech" val="intj"/>
+      </WordForm>
+      <WordForm id="Form_S00157_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="لا"/>
+        <feat att="phoneticTranscription" val="/la/"/>
+        <feat att="partOfSpeech" val="intj"/>
+      </WordForm>
+      <Sense id="Sense_S00157">
+        <feat att="gloss" val="no"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00158">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܠܐ"/>
+        <feat att="partOfSpeech" val="adv"/>
+      </Lemma>
+      <WordForm id="Form_S00158_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܠܐ"/>
+        <feat att="phoneticTranscription" val="/ˈlɑ/"/>
+        <feat att="partOfSpeech" val="adv"/>
+      </WordForm>
+      <WordForm id="Form_S00158_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="لا"/>
+        <feat att="phoneticTranscription" val="/la/"/>
+        <feat att="partOfSpeech" val="adv"/>
+      </WordForm>
+      <Sense id="Sense_S00158">
+        <feat att="gloss" val="no, not"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00159">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܡܚܛܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00159_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܡܚܛܐ"/>
+        <feat att="phoneticTranscription" val="/m(ə)ħatˤːɑ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00159_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="مَحَطَّة"/>
+        <feat att="phoneticTranscription" val="/maħatˤːa/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00159">
+        <feat att="gloss" val="candlewick"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00160">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܡܕܒܚܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00160_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܡܕܒܚܐ"/>
+        <feat att="phoneticTranscription" val="/maðb(ə)ħɑ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00160_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="مَذْبَح"/>
+        <feat att="phoneticTranscription" val="/maðbaħ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00160">
+        <feat att="gloss" val="church choir"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00161">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܡܢ"/>
+        <feat att="partOfSpeech" val="particle"/>
+      </Lemma>
+      <WordForm id="Form_S00161_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܡܢ"/>
+        <feat att="phoneticTranscription" val="/man/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="subclass" val="PRON"/>
+      </WordForm>
+      <WordForm id="Form_S00161_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="مَن"/>
+        <feat att="phoneticTranscription" val="/man/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="subclass" val="PRON"/>
+      </WordForm>
+      <Sense id="Sense_S00161">
+        <feat att="gloss" val="who? which?"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00162">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܡܗܪܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00162_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܡܗܪܐ"/>
+        <feat att="phoneticTranscription" val="/mahrɑ(ʔ)/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00162_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="مَهْر"/>
+        <feat att="phoneticTranscription" val="/mahr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00162">
+        <feat att="gloss" val="dowry"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00163">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܡܘܗܒܬܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00163_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܡܘܗܒܬܐ"/>
+        <feat att="phoneticTranscription" val="/mawhavtɑ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00163_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="مَوْهِبَة"/>
+        <feat att="phoneticTranscription" val="/mawhiba/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00163">
+        <feat att="gloss" val="favour"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00164">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܡܘܩܠܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00164_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܡܘܩܠܐ"/>
+        <feat att="phoneticTranscription" val="/muqlɑ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00164_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="مُقْلَة"/>
+        <feat att="phoneticTranscription" val="/muqla/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00164">
+        <feat att="gloss" val="yolk of egg"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00165">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܡܠܚܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00165_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܡܠܚܐ"/>
+        <feat att="phoneticTranscription" val="/mɛlħɑ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00165_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="مِلْح"/>
+        <feat att="phoneticTranscription" val="/milħ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00165">
+        <feat att="gloss" val="salt"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00166">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܡܩܘܪܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00166_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܡܩܘܪܐ"/>
+        <feat att="phoneticTranscription" val="/manˈqo.rɑʔ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00166_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="مِنْقَار"/>
+        <feat att="phoneticTranscription" val="/minqaːr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00166">
+        <feat att="gloss" val="beak"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00167">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܢܓܪܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00167_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܢܓܪܐ"/>
+        <feat att="phoneticTranscription" val="/naɡːɑrɑ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00167_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="نَجَّار"/>
+        <feat att="phoneticTranscription" val="/nadʒdʒaːr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00167">
+        <feat att="gloss" val="carpenter"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00168">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܐܘ"/>
+        <feat att="partOfSpeech" val="particle"/>
+      </Lemma>
+      <WordForm id="Form_S00168_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܐܘ"/>
+        <feat att="phoneticTranscription" val="/ʔw/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="conjunction"/>
+      </WordForm>
+      <WordForm id="Form_S00168_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="أَوْ"/>
+        <feat att="phoneticTranscription" val="/ʔw/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="conjunction"/>
+      </WordForm>
+      <Sense id="Sense_S00168">
+        <feat att="gloss" val="or"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00169">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܗܕܐ"/>
+        <feat att="partOfSpeech" val="adjective"/>
+      </Lemma>
+      <WordForm id="Form_S00169_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܗܕܐ"/>
+        <feat att="phoneticTranscription" val="/hɑðeʔ/"/>
+        <feat att="partOfSpeech" val="adjective"/>
+      </WordForm>
+      <WordForm id="Form_S00169_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="هَذا"/>
+        <feat att="phoneticTranscription" val="/haða/"/>
+        <feat att="partOfSpeech" val="adjective"/>
+      </WordForm>
+      <Sense id="Sense_S00169">
+        <feat att="gloss" val="this"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00170">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܗܕܐ"/>
+        <feat att="partOfSpeech" val="particle"/>
+      </Lemma>
+      <WordForm id="Form_S00170_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܗܕܐ"/>
+        <feat att="phoneticTranscription" val="/hɑðeʔ/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="subclass" val="PRON"/>
+      </WordForm>
+      <WordForm id="Form_S00170_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="هَذِه"/>
+        <feat att="phoneticTranscription" val="/haðihi/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="subclass" val="PRON"/>
+      </WordForm>
+      <Sense id="Sense_S00170">
+        <feat att="gloss" val="this thing, this one"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00171">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܗܘ"/>
+        <feat att="partOfSpeech" val="particle"/>
+      </Lemma>
+      <WordForm id="Form_S00171_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܗܘ"/>
+        <feat att="phoneticTranscription" val="/hɑw/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="subclass" val="PRON"/>
+      </WordForm>
+      <WordForm id="Form_S00171_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="هُوَ"/>
+        <feat att="phoneticTranscription" val="/huwa/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="subclass" val="PRON"/>
+      </WordForm>
+      <Sense id="Sense_S00171">
+        <feat att="gloss" val="he"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00172">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܗܝ"/>
+        <feat att="partOfSpeech" val="particle"/>
+      </Lemma>
+      <WordForm id="Form_S00172_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܗܝ"/>
+        <feat att="phoneticTranscription" val="/hɑj/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="subclass" val="PRON"/>
+      </WordForm>
+      <WordForm id="Form_S00172_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="هِيَ"/>
+        <feat att="phoneticTranscription" val="/hiːja/"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="subclass" val="PRON"/>
+      </WordForm>
+      <Sense id="Sense_S00172">
+        <feat att="gloss" val="she"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_S00173">
+      <feat att="sourceLanguage" val="syr"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ܝܬܡܐ"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_S00173_ASN">
+        <feat att="language" val="syr"/>
+        <feat att="writtenForm" val="ܝܬܡܐ"/>
+        <feat att="phoneticTranscription" val="/jaθmɑ(ʔ)/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_S00173_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="يَتِيم"/>
+        <feat att="phoneticTranscription" val="/jatiːm/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_S00173">
+        <feat att="gloss" val="orphan"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00174">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val=""/>
+        <feat att="partOfSpeech" val="particle"/>
+      </Lemma>
+      <WordForm id="Form_F00174_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val=""/>
+        <feat att="phoneticTranscription" val="//"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="subclass" val="DIM"/>
+      </WordForm>
+      <WordForm id="Form_F00174_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="إنَّ"/>
+        <feat att="phoneticTranscription" val="//"/>
+        <feat att="partOfSpeech" val="particle"/>
+      </WordForm>
+      <Sense id="Sense_F00174">
+        <feat att="gloss" val="this"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_F00175">
+      <feat att="sourceLanguage" val="fas"/>
+      <feat att="recipientDialect" val="arb"/>
+      <Lemma>
+        <feat att="writtenForm" val=""/>
+        <feat att="partOfSpeech" val="particle"/>
+      </Lemma>
+      <WordForm id="Form_F00175_ASN">
+        <feat att="language" val="fas"/>
+        <feat att="writtenForm" val=""/>
+        <feat att="phoneticTranscription" val="//"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="conjunction"/>
+      </WordForm>
+      <WordForm id="Form_F00175_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="فَ"/>
+        <feat att="phoneticTranscription" val="//"/>
+        <feat att="partOfSpeech" val="particle"/>
+        <feat att="syntax" val="conjunction"/>
+      </WordForm>
+      <Sense id="Sense_F00175">
+        <feat att="gloss" val="and"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_H00176">
+      <feat att="sourceLanguage" val="hin"/>
+      <feat att="recipientDialect" val="afb"/>
+      <Lemma>
+        <feat att="writtenForm" val="दुनिया"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_H00176_ASN">
+        <feat att="language" val="hin"/>
+        <feat att="writtenForm" val="दुनिया"/>
+        <feat att="phoneticTranscription" val="/d̪unija/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_H00176_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="دُنْيا"/>
+        <feat att="phoneticTranscription" val="/dunjɑ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_H00176">
+        <feat att="gloss" val="world"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_H00177">
+      <feat att="sourceLanguage" val="hin"/>
+      <feat att="recipientDialect" val="afb"/>
+      <Lemma>
+        <feat att="writtenForm" val="पानी"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_H00177_ASN">
+        <feat att="language" val="hin"/>
+        <feat att="writtenForm" val="पानी"/>
+        <feat att="phoneticTranscription" val="/paniː/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_H00177_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="مَنِي"/>
+        <feat att="phoneticTranscription" val="/məni/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_H00177">
+        <feat att="gloss" val="Semen"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_H00178">
+      <feat att="sourceLanguage" val="hin"/>
+      <feat att="recipientDialect" val="afb"/>
+      <Lemma>
+        <feat att="writtenForm" val="ध्यान"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_H00178_ASN">
+        <feat att="language" val="hin"/>
+        <feat att="writtenForm" val="ध्यान"/>
+        <feat att="phoneticTranscription" val="/d̪ʱjan/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_H00178_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="دِيانة"/>
+        <feat att="phoneticTranscription" val="/diːaːna/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_H00178">
+        <feat att="gloss" val="religion, belief"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_H00179">
+      <feat att="sourceLanguage" val="hin"/>
+      <feat att="recipientDialect" val="afb"/>
+      <Lemma>
+        <feat att="writtenForm" val="खटमल"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_H00179_ASN">
+        <feat att="language" val="hin"/>
+        <feat att="writtenForm" val="खटमल"/>
+        <feat att="phoneticTranscription" val="/kʰəʈəməl/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="ANIM"/>
+      </WordForm>
+      <WordForm id="Form_H00179_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="قُمَّل"/>
+        <feat att="phoneticTranscription" val="/qumːməl/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="ANIM"/>
+      </WordForm>
+      <Sense id="Sense_H00179">
+        <feat att="gloss" val="lice, bed bugs"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_H00180">
+      <feat att="sourceLanguage" val="hin"/>
+      <feat att="recipientDialect" val="afb"/>
+      <Lemma>
+        <feat att="writtenForm" val="सीधा"/>
+        <feat att="partOfSpeech" val="adjective"/>
+      </Lemma>
+      <WordForm id="Form_H00180_ASN">
+        <feat att="language" val="hin"/>
+        <feat att="writtenForm" val="सीधा"/>
+        <feat att="phoneticTranscription" val="/siːd̪ʱa/"/>
+        <feat att="partOfSpeech" val="adjective"/>
+      </WordForm>
+      <WordForm id="Form_H00180_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="سِيدا"/>
+        <feat att="phoneticTranscription" val="/siːdɑ/"/>
+        <feat att="partOfSpeech" val="adjective"/>
+      </WordForm>
+      <Sense id="Sense_H00180">
+        <feat att="gloss" val="straightforward"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_H00181">
+      <feat att="sourceLanguage" val="hin"/>
+      <feat att="recipientDialect" val="afb"/>
+      <Lemma>
+        <feat att="writtenForm" val="भारत"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_H00181_ASN">
+        <feat att="language" val="hin"/>
+        <feat att="writtenForm" val="भारत"/>
+        <feat att="phoneticTranscription" val="/bʱarət̪/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DMST"/>
+      </WordForm>
+      <WordForm id="Form_H00181_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="بَهَارَات"/>
+        <feat att="phoneticTranscription" val="/bəhɑːrɑːt/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DMST"/>
+      </WordForm>
+      <Sense id="Sense_H00181">
+        <feat att="gloss" val="spices"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_H00182">
+      <feat att="sourceLanguage" val="hin"/>
+      <feat att="recipientDialect" val="afb"/>
+      <Lemma>
+        <feat att="writtenForm" val="पैसा"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_H00182_ASN">
+        <feat att="language" val="hin"/>
+        <feat att="writtenForm" val="पैसा"/>
+        <feat att="phoneticTranscription" val="/pæːsa/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DMST"/>
+      </WordForm>
+      <WordForm id="Form_H00182_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="بيزات"/>
+        <feat att="phoneticTranscription" val="/biːzaːt/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DMST"/>
+      </WordForm>
+      <Sense id="Sense_H00182">
+        <feat att="gloss" val="money"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_H00183">
+      <feat att="sourceLanguage" val="hin"/>
+      <feat att="recipientDialect" val="afb"/>
+      <Lemma>
+        <feat att="writtenForm" val="तवा"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_H00183_ASN">
+        <feat att="language" val="hin"/>
+        <feat att="writtenForm" val="तवा"/>
+        <feat att="phoneticTranscription" val="/t̪əʋa/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DMST"/>
+      </WordForm>
+      <WordForm id="Form_H00183_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="تاوة"/>
+        <feat att="phoneticTranscription" val="/taːwa/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DMST"/>
+      </WordForm>
+      <Sense id="Sense_H00183">
+        <feat att="gloss" val="flat pan used for cooking bread"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_H00184">
+      <feat att="sourceLanguage" val="hin"/>
+      <feat att="recipientDialect" val="afb"/>
+      <Lemma>
+        <feat att="writtenForm" val="सामान"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_H00184_ASN">
+        <feat att="language" val="hin"/>
+        <feat att="writtenForm" val="सामान"/>
+        <feat att="phoneticTranscription" val="/saman/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DMST"/>
+      </WordForm>
+      <WordForm id="Form_H00184_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="سامان"/>
+        <feat att="phoneticTranscription" val="/saːmaːn/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DMST"/>
+      </WordForm>
+      <Sense id="Sense_H00184">
+        <feat att="gloss" val="luggage, stuff, items"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_H00185">
+      <feat att="sourceLanguage" val="hin"/>
+      <feat att="recipientDialect" val="afb"/>
+      <Lemma>
+        <feat att="writtenForm" val="बाल्टी"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_H00185_ASN">
+        <feat att="language" val="hin"/>
+        <feat att="writtenForm" val="बाल्टी"/>
+        <feat att="phoneticTranscription" val="/balʈiː/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DMST"/>
+      </WordForm>
+      <WordForm id="Form_H00185_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="بالدي"/>
+        <feat att="phoneticTranscription" val="/bʔdi/"/>
+        <feat att="partOfSpeech" val="noun"/>
+        <feat att="subclass" val="DMST"/>
+      </WordForm>
+      <Sense id="Sense_H00185">
+        <feat att="gloss" val="bucket"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_H00186">
+      <feat att="sourceLanguage" val="hin"/>
+      <feat att="recipientDialect" val="afb"/>
+      <Lemma>
+        <feat att="writtenForm" val="शर्करा"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_H00186_ASN">
+        <feat att="language" val="hin"/>
+        <feat att="writtenForm" val="शर्करा"/>
+        <feat att="phoneticTranscription" val="/ʃərkəra/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_H00186_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="سُكَّر"/>
+        <feat att="phoneticTranscription" val="/sukːːər/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_H00186">
+        <feat att="gloss" val="Sugar"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_H00187">
+      <feat att="sourceLanguage" val="hin"/>
+      <feat att="recipientDialect" val="afb"/>
+      <Lemma>
+        <feat att="writtenForm" val="नारङ्ग"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_H00187_ASN">
+        <feat att="language" val="hin"/>
+        <feat att="writtenForm" val="नारङ्ग"/>
+        <feat att="phoneticTranscription" val="/narəŋg/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_H00187_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="نَارَنْج"/>
+        <feat att="phoneticTranscription" val="/nɑːrənʒ/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_H00187">
+        <feat att="gloss" val="Bitter Orange"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_H00188">
+      <feat att="sourceLanguage" val="hin"/>
+      <feat att="recipientDialect" val="afb"/>
+      <Lemma>
+        <feat att="writtenForm" val="कर्पूर"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_H00188_ASN">
+        <feat att="language" val="hin"/>
+        <feat att="writtenForm" val="कर्पूर"/>
+        <feat att="phoneticTranscription" val="/kərpuːr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_H00188_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="كَافُور"/>
+        <feat att="phoneticTranscription" val="/kɑːfuːr/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_H00188">
+        <feat att="gloss" val="Camphor"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_H00189">
+      <feat att="sourceLanguage" val="hin"/>
+      <feat att="recipientDialect" val="afb"/>
+      <Lemma>
+        <feat att="writtenForm" val="चन्दन"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_H00189_ASN">
+        <feat att="language" val="hin"/>
+        <feat att="writtenForm" val="चन्दन"/>
+        <feat att="phoneticTranscription" val="/t͡ʃənd̪ən/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_H00189_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="صَنْدَل"/>
+        <feat att="phoneticTranscription" val="/sˤəndəl/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_H00189">
+        <feat att="gloss" val="Sandalwood"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_H00190">
+      <feat att="sourceLanguage" val="hin"/>
+      <feat att="recipientDialect" val="afb"/>
+      <Lemma>
+        <feat att="writtenForm" val="पिप्पली"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_H00190_ASN">
+        <feat att="language" val="hin"/>
+        <feat att="writtenForm" val="पिप्पली"/>
+        <feat att="phoneticTranscription" val="/pipəliː/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_H00190_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="فُلْفُل"/>
+        <feat att="phoneticTranscription" val="/fulful/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_H00190">
+        <feat att="gloss" val="long Pepper"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="E_H00191">
+      <feat att="sourceLanguage" val="hin"/>
+      <feat att="recipientDialect" val="afb"/>
+      <Lemma>
+        <feat att="writtenForm" val="जीवा"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </Lemma>
+      <WordForm id="Form_H00191_ASN">
+        <feat att="language" val="hin"/>
+        <feat att="writtenForm" val="जीवा"/>
+        <feat att="phoneticTranscription" val="/d͡ʒiːʋa/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <WordForm id="Form_H00191_ARB">
+        <feat att="language" val="arb"/>
+        <feat att="writtenForm" val="جَيْب"/>
+        <feat att="phoneticTranscription" val="/ʒəjb/"/>
+        <feat att="partOfSpeech" val="noun"/>
+      </WordForm>
+      <Sense id="Sense_H00191">
+        <feat att="gloss" val="chord, Sine string"/>
+      </Sense>
+    </LexicalEntry>
+  </Lexicon>
+</LexicalResource>
